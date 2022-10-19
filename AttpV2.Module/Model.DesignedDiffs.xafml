@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="AttpV2">
+  <BOModel>
+    <Class Name="AttpV2.Module.BusinessObjects.GiayChungNhan">
+      <AppearanceRules>
+        <AppearanceRule Id="Hết Hạn" BackColor="255, 128, 128" FontColor="Black" TargetItems="*" Criteria="[NgayHetHanGCN] &lt; GetDate(Now()) And [NgayHetHanGCN] Is Not Null" IsNewNode="True" />
+      </AppearanceRules>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="22.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>

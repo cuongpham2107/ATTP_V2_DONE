@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="AttpV2.Module.BusinessObjects.GiayChungNhan">
+      <AppearanceRules Id="AppearanceRules">
+        <AppearanceRule Id="SaphethanGCN" Criteria="[NgayHetHanGCN] &lt; GetDay(Today())" />
+      </AppearanceRules>
+    </Class>
+  </BOModel>
+</Application>
