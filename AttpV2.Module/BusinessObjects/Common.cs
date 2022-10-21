@@ -17,7 +17,6 @@ namespace AttpV2.Module.BusinessObjects
 
     public enum XLoai
     {
-        [XafDisplayName("Chưa xếp loại")] chuaxeploai ,
         [XafDisplayName("A")] A,
         [XafDisplayName("B")] B ,
         [XafDisplayName("C")] C ,

@@ -24,6 +24,7 @@
     <PackageReference Include="DevExpress.ExpressApp.ReportsV2.Blazor" Version="22.1.5" />
     <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="22.1.5" />
     <PackageReference Include="DevExpress.ExpressApp.Validation.Blazor" Version="22.1.5" />
+    <PackageReference Include="MySql.Data" Version="8.0.31" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AttpV2.Module\AttpV2.Module.csproj" />

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="GiayChungNhan_ListView">
+      <Filters Id="Filters">
+        <Filter Id="Cấp giấy chứng nhận trong tháng" Criteria="GetMonth([NgayCapGiayChungNhan]) = GetMonth(Now())" />
+        <Filter Id="Cấp giấy chứng nhận trong 6 tháng đầu năm" Criteria="GetMonth([NgayCapGiayChungNhan]) &lt;= 6 And GetYear([NgayCapGiayChungNhan]) = GetYear(Now())" />
+      </Filters>
+    </ListView>
+  </Views>
+</Application>

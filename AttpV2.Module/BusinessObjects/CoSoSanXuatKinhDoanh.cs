@@ -1,7 +1,9 @@
 ﻿using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Model;
+using DevExpress.ExpressApp.SystemModule;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
@@ -22,6 +24,12 @@ namespace AttpV2.Module.BusinessObjects
     [ListViewFindPanel(true)]
     [LookupEditorMode(LookupEditorMode.AllItemsWithSearch)]
     [NavigationItem(Menu.CategoryMenuItem)]
+   
+
+    [Appearance("SaphethanGCN", AppearanceItemType = "ViewItem", TargetItems = "TenCoSo",
+    Criteria = "DateDiffMonth(Today(), [ThoiHanGCN]) < 1 And [ThoiHanGCN] Is Not Null", Context = "ListView", FontColor = "Orange", Priority = 2)]
+    [Appearance("HetHanGCN", AppearanceItemType = "ViewItem", TargetItems = "TenCoSo",
+    Criteria = "[ThoiHanGCN] < Now() And [ThoiHanGCN] Is Null ", Context = "ListView", FontColor = "Red", Priority = 3)]
     public class CoSoSanXuatKinhDoanh : BaseObject
     { 
         public CoSoSanXuatKinhDoanh(Session session)
@@ -33,12 +41,13 @@ namespace AttpV2.Module.BusinessObjects
             base.AfterConstruction();
         }
         ThamDinh thamDinh;
+        GiayChungNhan giayChungNhan;
         protected override void OnLoaded()
         {
             base.OnLoaded();
 
             thamDinh = ThamDinhs.OrderByDescending(i => i.NgayThamDinh).FirstOrDefault();
-
+            giayChungNhan = GiayChungNhans.Where(t=>t.BiThuHoi == null).OrderByDescending(a=>a.NgayCapGiayChungNhan).FirstOrDefault();
         }
 
         string soDienThoai;
@@ -51,7 +60,7 @@ namespace AttpV2.Module.BusinessObjects
         string maSoDoanhNghiep;
         string tenCoSo;
 
-        [XafDisplayName("Mã số cơ sở sản xuất kinh doanh")]
+        [XafDisplayName("Mã số cơ sở")]
         [RuleRequiredField("Bắt buộc phải có CoSoSanXuatKinhDoanh.MaSoDoanhNghiep", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public string MaSoDoanhNghiep
         {
@@ -59,15 +68,15 @@ namespace AttpV2.Module.BusinessObjects
             set { SetPropertyValue(nameof(MaSoDoanhNghiep), ref maSoDoanhNghiep, value); }
         }
 
-        [XafDisplayName("Tên cơ sở sản xuất kinh doanh")]
+        [XafDisplayName("Tên cơ sở ")]
         [RuleRequiredField("Bắt buộc phải có CoSoSanXuatKinhDoanh.TenCoSo", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public string TenCoSo
         {
             get { return tenCoSo; }
             set { SetPropertyValue(nameof(TenCoSo), ref tenCoSo, value); }
         }
-
-        [XafDisplayName("Tên chủ doanh nghiệp")]
+        [RuleRequiredField("Bắt buộc phải có CoSoSanXuatKinhDoanh.TenChuDoanhNghiep", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
+        [XafDisplayName("Chủ cơ sở")]
         public string TenChuDoanhNghiep
         {
             get => tenChuDoanhNghiep;
@@ -116,28 +125,10 @@ namespace AttpV2.Module.BusinessObjects
             get => tenSanPham;
             set => SetPropertyValue(nameof(TenSanPham), ref tenSanPham, value);
         }
-
+        private string xepLoaiCoSo;
         [XafDisplayName("Xếp loại của cơ sở")]
-        [ModelDefault("AlowEdit","False")]
-        public string XLoai
-        {
-            get
-            {
-                if(!IsLoading || !IsSaving)
-                {
-                    if(thamDinh != null)
-                    {
-                        return thamDinh.KetQuaThamDinh;
-                    }
-                }
-                return null;
-            }
-            
-        }
-        [XafDisplayName("Ngày thẩm định gần nhất")]
         [ModelDefault("AlowEdit", "False")]
-        DateTime ngayThamDinhGanNhat;
-        public DateTime NgayThamDinhNgayNhat
+        public string XepLoaiCoSo
         {
             get
             {
@@ -145,20 +136,56 @@ namespace AttpV2.Module.BusinessObjects
                 {
                     if (thamDinh != null)
                     {
-                        return thamDinh.NgayThamDinh;
+                        return $"Xếp loại {thamDinh.KetQuaThamDinh}, Ngày thẩm đinh {thamDinh.NgayThamDinh}";
+                    }
+                   
+                }
+                return xepLoaiCoSo;
+            }
+        }
+
+
+        [XafDisplayName("Giấy chứng nhận của cơ sở sản xuất, kinh doanh")]
+        [ModelDefault("AlowEdit","False")]
+        public string GiayChungNhan
+        {
+            get
+            {
+                if(!IsLoading || !IsSaving)
+                {
+                    if(giayChungNhan != null)
+                    {
+                        return giayChungNhan.SoCap;
                     }
                 }
-                return ngayThamDinhGanNhat;
+                return null;
+            }
+            
+        }
+        DateTime thoiHanGCN;
+        [XafDisplayName("Thời hạn còn lại của giấy chứng nhận")]
+        [ModelDefault("AlowEdit", "False")]
+        public DateTime ThoiHanGCN
+        {
+            get
+            {
+                if (!IsLoading || !IsSaving)
+                {
+                    if (giayChungNhan != null)
+                    {
+                        return giayChungNhan.NgayHetHanGCN;
+                    }
+                }
+                return thoiHanGCN;
             }
 
         }
 
 
-        //Giấy chứng nhận 
-        //Thời hạn giấy chứng nhận
-
         #region Association
         [XafDisplayName("Kết quả thẩm đinh của cơ sở")]
+        [ModelDefault("AllowLink","False")]
+        [ModelDefault("AllowUnlink","False")]
         [Association("CoSoSanXuatKinhDoanh-ThamDinhs")]
         public XPCollection<ThamDinh> ThamDinhs
         {
@@ -169,6 +196,8 @@ namespace AttpV2.Module.BusinessObjects
         }
 
         [XafDisplayName("Giấy chứng nhận của cơ sở")]
+        [ModelDefault("AllowLink", "False")]
+        [ModelDefault("AllowUnlink", "False")]
         [Association("CoSoSanXuatKinhDoanh-GiayChungNhans")]
         public XPCollection<GiayChungNhan> GiayChungNhans
         {
@@ -179,12 +208,26 @@ namespace AttpV2.Module.BusinessObjects
         }
 
         [XafDisplayName("Xử phạt hành chính")]
+        [ModelDefault("AllowLink", "False")]
+        [ModelDefault("AllowUnlink", "False")]
         [Association("CoSoSanXuatKinhDoanh-XuPhatHanhChinhs")]
         public XPCollection<XuPhatHanhChinh> XuPhatHanhChinhs
         {
             get
             {
                 return GetCollection<XuPhatHanhChinh>(nameof(XuPhatHanhChinhs));
+            }
+        }
+
+        [XafDisplayName("Giấy chứng nhận thu hồi")]
+        [ModelDefault("AllowLink", "False")]
+        [ModelDefault("AllowUnlink", "False")]
+        [Association("CoSoSanXuatKinhDoanh-ThuHoiGCNs")]
+        public XPCollection<ThuHoiGCN> ThuHoiGCNs
+        {
+            get
+            {
+                return GetCollection<ThuHoiGCN>(nameof(ThuHoiGCNs));
             }
         }
         #endregion

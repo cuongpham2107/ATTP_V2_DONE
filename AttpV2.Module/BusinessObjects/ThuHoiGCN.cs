@@ -2,6 +2,7 @@
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Model;
+using DevExpress.ExpressApp.SystemModule;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
@@ -22,6 +23,16 @@ namespace AttpV2.Module.BusinessObjects
     [ListViewFindPanel(true)]
     [LookupEditorMode(LookupEditorMode.AllItemsWithSearch)]
     [NavigationItem(Menu.DataMenuItem)]
+
+    [ListViewFilter("Tất cả ", "", Index = 0)]
+    [ListViewFilter("Thu hồi giấy chứng nhận cấp trong tháng này", "GetMonth([NgayThuHoi]) = GetMonth(Now())", Index = 1)]
+    [ListViewFilter("Thu hồi giấy chứng nhận cấp trong 6 tháng đầu năm", "GetMonth([NgayThuHoi]) <= 6 And GetYear([NgayThuHoi]) = GetYear(Now())", Index = 2)]
+    [ListViewFilter("Thu hồi giấy chứng nhận cấp trong 6 tháng cuối năm", "GetMonth([NgayThuHoi]) >= 6 And GetYear([NgayThuHoi]) = GetYear(Now())", Index = 3)]
+    [ListViewFilter("Thu hồi giấy chứng nhận cấp trong năm nay", "GetMonth([NgayThuHoi]) >= 6 And GetYear([NgayThuHoi]) = GetYear(Now())", Index = 3)]
+    [ListViewFilter("Thu hồi giấy chứng nhận cấp trong quý 1", "GetMonth([NgayThuHoi]) >= 1 And GetMonth([NgayThuHoi]) <= 3", Index = 4)]
+    [ListViewFilter("Thu hồi giấy chứng nhận cấp trong quý 2", "GetMonth([NgayThuHoi]) >= 3 And GetMonth([NgayThuHoi]) <= 6", Index = 5)]
+    [ListViewFilter("Thu hồi giấy chứng nhận cấp trong quý 3", "GetMonth([NgayThuHoi]) >= 6 And GetMonth([NgayThuHoi]) <= 9", Index = 6)]
+    [ListViewFilter("Thu hồi giấy chứng nhận cấp trong quý 4", "GetMonth([NgayThuHoi]) >= 9 And GetMonth([NgayThuHoi]) <= 12", Index = 7)]
     public class ThuHoiGCN : BaseObject
     {
         public ThuHoiGCN(Session session)
@@ -37,16 +48,18 @@ namespace AttpV2.Module.BusinessObjects
         #region Properties
         DateTime ngayThuHoi;
         string lyDoThuHoi;
-        CoSoSanXuatKinhDoanh coSoSanXuatKinhDoanh;
 
+        CoSoSanXuatKinhDoanh coSoSanXuatKinhDoanh;
         [XafDisplayName("Cơ sở sản xuất kinh doanh")]
-        [RuleRequiredField("Bắt buộc phải có GiayChungNhan.CoSoSanXuatKinhDoanh", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
+        [Association("CoSoSanXuatKinhDoanh-ThuHoiGCNs")]
+        [RuleRequiredField("Bắt buộc phải có ThuHoiGCN.CoSoSanXuatKinhDoanh", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public CoSoSanXuatKinhDoanh CoSoSanXuatKinhDoanh
         {
             get => coSoSanXuatKinhDoanh;
             set
             {
                 SetPropertyValue(nameof(CoSoSanXuatKinhDoanh), ref coSoSanXuatKinhDoanh, value);
+               
             }
         }
 
@@ -135,9 +148,51 @@ namespace AttpV2.Module.BusinessObjects
                 return null;
             }
         }
+        //private string giayChungNhan;
+        //[XafDisplayName("Giấy chứng nhận đã cấp")]
+        //[ModelDefault("AlowEdit", "False")]
+        //public string GiayChungNhanDaCap
+        //{
+        //    get
+        //    {
+        //        if(!IsSaving || !IsLoading)
+        //        {
+        //            if(CoSoSanXuatKinhDoanh != null)
+        //            {
+        //                return CoSoSanXuatKinhDoanh.GiayChungNhan;
+        //            }
+        //        }
+        //        return giayChungNhan;
+        //    }
+        //    set => SetPropertyValue(nameof(GiayChungNhanDaCap), ref giayChungNhan, value);
+        //}
+
+        GiayChungNhan _giayChungNhan;
+        [XafDisplayName("Thu hồi giấy chứng nhận")]
+        [RuleRequiredField("Bắt buộc phải có ThuHoiGCN.GiayChungNhan", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
+        public GiayChungNhan GiayChungNhan
+        {
+            get => _giayChungNhan;
+            set
+            {
+                if (_giayChungNhan == value)
+                    return;
+                GiayChungNhan prevValue = _giayChungNhan;
+                _giayChungNhan = value;
+                if (IsLoading)
+                    return;
+                if (prevValue != null && prevValue.ThuHoiGCN == this)
+                    prevValue.ThuHoiGCN = null;
+                if (_giayChungNhan != null)
+                    _giayChungNhan.ThuHoiGCN = this;
+                OnChanged(nameof(GiayChungNhan));
+            }
+        }
+
         ThamDinh _thamDinh;
         [XafDisplayName("Căn cứ Thu hồi")]
-        [RuleRequiredField]
+        [Association("ThamDinh-ThuHoiGCNs")]
+        [RuleRequiredField("Bắt buộc phải có ThuHoiGCN.ThamDinh", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public ThamDinh ThamDinh
         {
             get => _thamDinh;
@@ -147,33 +202,17 @@ namespace AttpV2.Module.BusinessObjects
                 ThamDinh prevValue = _thamDinh;
                 _thamDinh = value;
                 if (IsLoading) return;
-                if (prevValue != null && prevValue.ThuHoiGCN == this) prevValue.ThuHoiGCN = null;
-                if (_thamDinh != null) _thamDinh.ThuHoiGCN = this;
+                if (prevValue != null && prevValue.ThuHoiGCN == this)
+                    prevValue.ThuHoiGCN = null;
+                if (_thamDinh != null)
+                    _thamDinh.ThuHoiGCN = this;
                 OnChanged(nameof(ThamDinh));
             }
         }
-
+        
         [XafDisplayName("Xếp loại, Đánh giá cơ sở")]
         [ModelDefault("AlowEdit", "False")]
-        public string XLoai
-        {
-            get
-            {
-                if(!IsLoading || !IsSaving)
-                {
-                    if(CoSoSanXuatKinhDoanh.XLoai != null)
-                    {
-                        return CoSoSanXuatKinhDoanh.XLoai;
-                    }    
-                    
-                }
-                return null;
-            }
-           
-        }
-        [XafDisplayName("Ngày Xếp loại, Đánh giá cơ sở")]
-        [ModelDefault("AlowEdit", "False")]
-        public DateTime NgayThamDinh
+        public string KetQuaXepLoai
         {
             get
             {
@@ -181,13 +220,16 @@ namespace AttpV2.Module.BusinessObjects
                 {
                     if (CoSoSanXuatKinhDoanh != null)
                     {
-                        return CoSoSanXuatKinhDoanh.NgayThamDinhNgayNhat;
+                        return CoSoSanXuatKinhDoanh.XepLoaiCoSo;
                     }
-                    
+
                 }
-                return NgayThamDinh;
+                return null;
             }
+
         }
+
+    
 
         [XafDisplayName("Lý do thu hồi")]
         public string LyDoThuHoi
@@ -206,7 +248,7 @@ namespace AttpV2.Module.BusinessObjects
         #endregion
 
         #region Association
-
+        
         [Association("ThuHoiGCN-FileDLs")]
         [XafDisplayName("File Dữ liệu")]
         public XPCollection<FileDL> FileDLs

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="AttpV2.Module.BusinessObjects.CoSoSanXuatKinhDoanh">
+      <AppearanceRules Id="AppearanceRules">
+        <AppearanceRule Id="XepLoaiCoSo" Criteria="[XLoai] = 'A'" />
+      </AppearanceRules>
+    </Class>
+  </BOModel>
+</Application>

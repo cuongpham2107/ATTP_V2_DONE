@@ -10,3 +10,8 @@ C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\obj\Release\net6.0\AttpV2.Modul
 C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\obj\Release\net6.0\refint\AttpV2.Module.dll
 C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.pdb
 C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\obj\Release\net6.0\ref\AttpV2.Module.dll
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\bin\Release\net6.0\DevExpress.ExpressApp.Blazor.v22.1.dll
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\bin\Release\net6.0\DevExpress.ExpressApp.Blazor.v22.1.xml
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.csproj.CopyComplete
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\bin\Release\net6.0\vi\AttpV2.Module.resources.dll
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Module\obj\Release\net6.0\vi\AttpV2.Module.resources.dll

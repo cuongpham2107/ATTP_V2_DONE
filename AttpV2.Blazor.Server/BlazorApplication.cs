@@ -6,6 +6,7 @@ using DevExpress.ExpressApp.Security.ClientServer;
 using DevExpress.ExpressApp.SystemModule;
 using DevExpress.ExpressApp.Xpo;
 using AttpV2.Blazor.Server.Services;
+using DevExpress.ExpressApp.Blazor.Templates;
 
 namespace AttpV2.Blazor.Server;
 
@@ -14,7 +15,18 @@ public class AttpV2BlazorApplication : BlazorApplication {
         ApplicationName = "AttpV2";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
         DatabaseVersionMismatch += AttpV2BlazorApplication_DatabaseVersionMismatch;
+
+        CustomizeTemplate += (s, e) => {
+            if (e.Template is IPopupWindowTemplateSize size)
+            {
+                size.MaxWidth = "80vw";
+                //size.Width = "1000px";
+                //size.MaxHeight = "70vh";
+                //size.Height = "800px";
+            }
+        };
     }
+    
     protected override void OnSetupStarted() {
         base.OnSetupStarted();
 #if DEBUG

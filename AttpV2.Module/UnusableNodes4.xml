@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="CoSoSanXuatKinhDoanh_ListView">
+      <Filters Id="Filters">
+        <Filter Id="Cơ sở có giấy chứng nhận dưới 1 tháng" Criteria="DateDiffMonth(Today(), [ThoiHanGCN]) &lt; 1 And [ThoiHanGCN] Is Not Null" />
+      </Filters>
+    </ListView>
+  </Views>
+</Application>

@@ -8,8 +8,8 @@ namespace AttpV2.Module.BusinessObjects
 {
     public static class Menu
     {
-        public const string ReportMenuItem = "Báo cáo";
-        public const string DataMenuItem = "Quản lý dữ liệu";
-        public const string CategoryMenuItem = "Danh mục";
+        public const string ReportMenuItem = "📁 Báo cáo";
+        public const string DataMenuItem = "🛅 Quản lý dữ liệu";
+        public const string CategoryMenuItem = "📁 Danh mục";
     }
 }

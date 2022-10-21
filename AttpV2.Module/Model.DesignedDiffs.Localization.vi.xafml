@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Localization>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.Data.Filtering.Aggregate">
+        <LocalizationItem Name="Count" Value="Tổng" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Reports" Caption="Báo cáo">
+        <Items>
+          <Item Id="Dashboards" Caption="Bảng điều khiển" />
+          <Item Id="ReportsV2" Caption="Báo cáo" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views>
+    <DetailView Id="FileDL_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="FileDL" Caption="File Dữ Liệu" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="GiayChungNhan_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="GiayChungNhan" Caption="Cấp Giấy Chứng Nhận" />
+              <LayoutGroup Id="Item2" Caption="FIle Dữ liệu" />
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ThamDinh_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="ThamDinh" Caption="Thẩm Định" />
+              <LayoutGroup Id="Item2" Caption="File Dữ Liệu" />
+            </TabbedGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="FileDLs" Caption="File dữ liệu" />
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ThuHoiGCN_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="ThuHoiGCN" Caption="Thu Hồi Giấy Chứng Nhận" />
+              <LayoutGroup Id="Item2" Caption="File Dữ Liệu" />
+            </TabbedGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="FileDLs_Group" Caption="File Dữ liệu" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="XuPhatHanhChinh_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="XuPhatHanhChinh" Caption="Xử Phạt Hành Chính" />
+              <LayoutGroup Id="Item2" Caption="File Dữ Liệu" />
+            </TabbedGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="FileDLs_Group" Caption="File Dữ liệu" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

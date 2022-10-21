@@ -80,6 +80,10 @@
             "DevExpress.ExpressApp.Validation.Blazor": {
               "target": "Package",
               "version": "[22.1.5, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
             }
           },
           "imports": [
@@ -208,6 +212,10 @@
             "DevExpress.Persistent.BaseImpl.Xpo": {
               "target": "Package",
               "version": "[22.1.5, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
             }
           },
           "imports": [

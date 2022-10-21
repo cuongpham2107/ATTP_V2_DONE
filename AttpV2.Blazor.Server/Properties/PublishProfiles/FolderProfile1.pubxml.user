@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server\bin\Release\net6.0\release</_PublishTargetUrl>
+    <History>True|2022-10-20T11:13:54.8198356Z;True|2022-10-20T15:36:10.3573189+07:00;True|2022-10-20T14:54:31.7146048+07:00;True|2022-10-20T10:27:27.5323548+07:00;</History>
+  </PropertyGroup>
+</Project>

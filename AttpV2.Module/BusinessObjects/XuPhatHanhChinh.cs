@@ -2,6 +2,7 @@
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Model;
+using DevExpress.ExpressApp.SystemModule;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
@@ -22,6 +23,16 @@ namespace AttpV2.Module.BusinessObjects
     [ListViewFindPanel(true)]
     [LookupEditorMode(LookupEditorMode.AllItemsWithSearch)]
     [NavigationItem(Menu.DataMenuItem)]
+
+    [ListViewFilter("Tất cả ", "", Index = 0)]
+    [ListViewFilter("Xử phạt cơ sở trong tháng này", "GetMonth([NgayXuPhat]) = GetMonth(Now())", Index = 1)]
+    [ListViewFilter("Xử phạt cơ sở trong 6 tháng đầu năm", "GetMonth([NgayXuPhat]) <= 6 And GetYear([NgayXuPhat]) = GetYear(Now())", Index = 2)]
+    [ListViewFilter("Xử phạt cơ sở trong 6 tháng cuối năm", "GetMonth([NgayXuPhat]) >= 6 And GetYear([NgayXuPhat]) = GetYear(Now())", Index = 3)]
+    [ListViewFilter("Xử phạt cơ sở trong năm nay", "GetMonth([NgayXuPhat]) >= 6 And GetYear([NgayXuPhat]) = GetYear(Now())", Index = 3)]
+    [ListViewFilter("Xử phạt cơ sở trong quý 1", "GetMonth([NgayXuPhat]) >= 1 And GetMonth([NgayXuPhat]) <= 3", Index = 4)]
+    [ListViewFilter("Xử phạt cơ sở trong quý 2", "GetMonth([NgayXuPhat]) >= 3 And GetMonth([NgayXuPhat]) <= 6", Index = 5)]
+    [ListViewFilter("Xử phạt cơ sở trong quý 3", "GetMonth([NgayXuPhat]) >= 6 And GetMonth([NgayXuPhat]) <= 9", Index = 6)]
+    [ListViewFilter("Xử phạt cơ sở trong quý 4", "GetMonth([NgayXuPhat]) >= 9 And GetMonth([NgayXuPhat]) <= 12", Index = 7)]
     public class XuPhatHanhChinh : BaseObject
     { 
         public XuPhatHanhChinh(Session session)
@@ -36,12 +47,8 @@ namespace AttpV2.Module.BusinessObjects
 
 
         DateTime ngayXuPhat;
-        string lyDoXuPham;
         string soTienPhat;
         string chiTietViPham;
-        string soMauViPham;
-        string tongSoMauLay;
-        string xuLyViPham;
         string hanhViViPham;
         CoSoSanXuatKinhDoanh coSoSanXuatKinhDoanh;
         [Association("CoSoSanXuatKinhDoanh-XuPhatHanhChinhs")]
@@ -51,16 +58,33 @@ namespace AttpV2.Module.BusinessObjects
             get => coSoSanXuatKinhDoanh;
             set => SetPropertyValue(nameof(CoSoSanXuatKinhDoanh), ref coSoSanXuatKinhDoanh, value);
         }
-        [PersistentAlias("[CoSoSanXuatKinhDoanh.CoQuanQuanLy]")]
-        [XafDisplayName("Cơ quan quản lý")]
-        public CoQuanQuanLy CoQuanQuanLy
+        [XafDisplayName("Mã số doanh nghiệp")]
+        [ModelDefault("AlowEdit", "False")]
+        public string MaSoDoanhNghiep
         {
             get
             {
-                var tmp = EvaluateAlias(nameof(CoQuanQuanLy));
+                if (!IsLoading && !IsSaving)
+                {
+                    if (CoSoSanXuatKinhDoanh != null)
+                    {
+                        return CoSoSanXuatKinhDoanh.MaSoDoanhNghiep;
+                    }
+                }
+                return null;
+            }
+        }
+
+        [PersistentAlias("[CoSoSanXuatKinhDoanh.LoaiHinhCoSo]")]
+        [XafDisplayName("Loại hình cơ sở, sản xuất")]
+        public LoaiHinhCoSo LoaiHinhCoSo
+        {
+            get
+            {
+                var tmp = EvaluateAlias(nameof(LoaiHinhCoSo));
                 if (tmp != null)
                 {
-                    return tmp as CoQuanQuanLy;
+                    return tmp as LoaiHinhCoSo;
                 }
                 else
                 {
@@ -68,8 +92,59 @@ namespace AttpV2.Module.BusinessObjects
                 }
             }
         }
-     
-        [XafDisplayName("Lỗi vi phạm")]
+
+        [XafDisplayName("Địa chỉ")]
+        [ModelDefault("AlowEdit", "False")]
+        public string DiaChi
+        {
+            get
+            {
+                if (!IsLoading && !IsSaving)
+                {
+                    if (CoSoSanXuatKinhDoanh != null)
+                    {
+                        return CoSoSanXuatKinhDoanh.DiaChi;
+                    }
+                }
+                return null;
+            }
+        }
+
+        [XafDisplayName("Số điện thoại")]
+        [ModelDefault("AlowEdit", "False")]
+        public string DienThoai
+        {
+            get
+            {
+                if (!IsLoading && !IsSaving)
+                {
+                    if (CoSoSanXuatKinhDoanh != null)
+                    {
+                        return CoSoSanXuatKinhDoanh.SoDienThoai;
+                    }
+                }
+                return null;
+            }
+        }
+
+        [XafDisplayName("Địa chỉ email")]
+        [ModelDefault("AlowEdit", "False")]
+        public string Email
+        {
+            get
+            {
+                if (!IsLoading && !IsSaving)
+                {
+                    if (CoSoSanXuatKinhDoanh != null)
+                    {
+                        return CoSoSanXuatKinhDoanh.Email;
+                    }
+                }
+                return null;
+            }
+        }
+
+        [XafDisplayName("Hành vi vi phạm hành chính")]
         public string HanhViViPham
         {
             get => hanhViViPham;
