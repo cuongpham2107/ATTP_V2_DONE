@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Danh mục" ImageName="Actions_FolderClose" />
+      <Item Id="Quản lý dữ liệu" ImageName="CustomerProfileReport" />
+    </Items>
+  </NavigationItems>
+</Application>

@@ -232,6 +232,7 @@ namespace AttpV2.Module.BusinessObjects
     
 
         [XafDisplayName("Lý do thu hồi")]
+
         public string LyDoThuHoi
         {
             get => lyDoThuHoi;
@@ -239,16 +240,62 @@ namespace AttpV2.Module.BusinessObjects
         }
 
         [XafDisplayName("Ngày thu hồi")]
+        [RuleRequiredField("Bắt buộc phải có ThuHoiGCN.NgayThuHoi", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public DateTime NgayThuHoi
         {
             get => ngayThuHoi;
             set => SetPropertyValue(nameof(NgayThuHoi), ref ngayThuHoi, value);
         }
 
+        private bool _lock;
+        [XafDisplayName("Lock"), ToolTip(""), ModelDefault("AllowEdit", "False")]
+        public bool Lock
+        {
+            get { return _lock; }
+            set { SetPropertyValue(nameof(Lock), ref _lock, value); }
+        }
+        private bool _close;
+        [XafDisplayName("Close"), ToolTip(""), ModelDefault("AllowEdit", "False")]
+        public bool Close
+        {
+            get { return _close; }
+            set { SetPropertyValue(nameof(Close), ref _close, value); }
+        }
+        #endregion
+        #region Action
+
+        [Action(Caption = "Lock", ConfirmationMessage = "Lock dữ liệu này? Sau khi phê duyệt sẽ KHÔNG thể sửa chữa thông tin được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
+        public void LockAction()
+        {
+            Lock = true;
+            Session.Save(this);
+        }
+
+        [Action(Caption = "UnLock", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True")]
+        public void LockActionUndo()
+        {
+            Lock = false;
+            Session.Save(this);
+        }
+
+
+        [Action(Caption = "Close", ConfirmationMessage = "Đóng dữ liệu này? Sau khi phê duyệt sẽ KHÔNG thể thay đổi dữ liệu được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
+        public void CloseAction()
+        {
+            Close = true;
+            Session.Save(this);
+        }
+
+        [Action(Caption = "Open", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True")]
+        public void CloseActionUndo()
+        {
+            Close = false;
+            Session.Save(this);
+        }
         #endregion
 
         #region Association
-        
+
         [Association("ThuHoiGCN-FileDLs")]
         [XafDisplayName("File Dữ liệu")]
         public XPCollection<FileDL> FileDLs

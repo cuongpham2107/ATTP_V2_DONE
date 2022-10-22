@@ -52,7 +52,32 @@ namespace AttpV2.Module.BusinessObjects
         {
             base.AfterConstruction();
         }
-
+        //protected override void OnSaving()
+        //{
+        //    var item = Session.Query<GiayChungNhan>().Count(p =>p.ThamDinh  == ThamDinh);
+        //    if (item >= 1)
+        //    {
+        //        throw new UserFriendlyException($"Kết quả thẩm định {ThamDinh} đã được sử dụng. Bạn không cần thêm mới nữa.");
+        //    }
+        //    else
+        //    {
+        //        base.OnSaving();
+        //    }
+        //}
+        [Browsable(false)]
+        [RuleFromBoolProperty(nameof(IsCapGiay), DefaultContexts.Save, "Kết quả thẩm định này đã được xử dụng, Không thể tạo Giấy chứng nhận mới từ kết quả thẩm định này", SkipNullOrEmptyValues = true,UsedProperties = "ThamDinh")]
+        public bool IsCapGiay
+        {
+            get
+            {
+                var item = Session.Query<GiayChungNhan>().Count(p => p.ThamDinh == ThamDinh);
+                if(item >= 1)
+                {
+                    return false;
+                }
+                return true;
+            }
+        }
         #region Properties
 
         DateTime ngayHetHanGCN;
@@ -150,7 +175,7 @@ namespace AttpV2.Module.BusinessObjects
 
         private ThuHoiGCN _thuHoiGCN;
         [XafDisplayName("Thu hồi giấy chứng nhận")]
-        //[VisibleInDetailView(false)]
+        [VisibleInDetailView(false)]
         [ModelDefault("AlowEdit", "False")]
         public ThuHoiGCN ThuHoiGCN
         {
@@ -226,6 +251,56 @@ namespace AttpV2.Module.BusinessObjects
                 return !Session.Query<GiayChungNhan>().Any(i => i.ThamDinh == ThamDinh);
             }
         }
+
+        private bool _lock;
+        [XafDisplayName("Lock"), ToolTip(""), ModelDefault("AllowEdit", "False")]
+        public bool Lock
+        {
+            get { return _lock; }
+            set { SetPropertyValue(nameof(Lock), ref _lock, value); }
+        }
+
+
+        private bool _close;
+        [XafDisplayName("Close"), ToolTip(""), ModelDefault("AllowEdit", "False")]
+        public bool Close
+        {
+            get { return _close; }
+            set { SetPropertyValue(nameof(Close), ref _close, value); }
+        }
+        #endregion
+        #region Action
+
+        [Action(Caption = "Lock", ConfirmationMessage = "Lock dữ liệu này? Sau khi phê duyệt sẽ KHÔNG thể sửa chữa thông tin được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
+        public void LockAction()
+        {
+            Lock = true;
+            Session.Save(this);
+        }
+
+        [Action(Caption = "UnLock", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True")]
+        public void LockActionUndo()
+        {
+            Lock = false;
+            Session.Save(this);
+        }
+
+
+
+        [Action(Caption = "Close", ConfirmationMessage = "Đóng dữ liệu này? Sau khi phê duyệt sẽ KHÔNG thể thay đổi dữ liệu được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
+        public void CloseAction()
+        {
+            Close = true;
+            Session.Save(this);
+        }
+
+        [Action(Caption = "Open", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True")]
+        public void CloseActionUndo()
+        {
+            Close = false;
+            Session.Save(this);
+        }
+
 
 
 

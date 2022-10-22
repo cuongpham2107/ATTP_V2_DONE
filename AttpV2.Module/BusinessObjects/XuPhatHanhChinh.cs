@@ -52,6 +52,7 @@ namespace AttpV2.Module.BusinessObjects
         string hanhViViPham;
         CoSoSanXuatKinhDoanh coSoSanXuatKinhDoanh;
         [Association("CoSoSanXuatKinhDoanh-XuPhatHanhChinhs")]
+        [RuleRequiredField("Bắt buộc phải có XuPhatHanhChinh.CoSoSanXuatKinhDoanh", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         [XafDisplayName("Cơ sở sản xuất, kinh doanh")]
         public CoSoSanXuatKinhDoanh CoSoSanXuatKinhDoanh
         {
@@ -144,7 +145,8 @@ namespace AttpV2.Module.BusinessObjects
             }
         }
 
-        [XafDisplayName("Hành vi vi phạm hành chính")]
+        [XafDisplayName("Hành vi vi phạm")]
+        [RuleRequiredField("Bắt buộc phải có XuPhatHanhChinh.CoSoSanXuatKinhDoanh", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public string HanhViViPham
         {
             get => hanhViViPham;
@@ -166,12 +168,61 @@ namespace AttpV2.Module.BusinessObjects
             set => SetPropertyValue(nameof(SoTienPhat), ref soTienPhat, value);
         }
 
-        [XafDisplayName("Ngày xử phạt")]
+        [XafDisplayName("Ngày ra quyết định")]
+        [RuleRequiredField("Bắt buộc phải có XuPhatHanhChinh.NgayXuPhat", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public DateTime NgayXuPhat
         {
             get => ngayXuPhat;
             set => SetPropertyValue(nameof(NgayXuPhat), ref ngayXuPhat, value);
         }
+
+        private bool _lock;
+        [XafDisplayName("Lock"), ToolTip(""), ModelDefault("AllowEdit", "False")]
+        public bool Lock
+        {
+            get { return _lock; }
+            set { SetPropertyValue(nameof(Lock), ref _lock, value); }
+        }
+        private bool _close;
+        [XafDisplayName("Close"), ToolTip(""), ModelDefault("AllowEdit", "False")]
+        public bool Close
+        {
+            get { return _close; }
+            set { SetPropertyValue(nameof(Close), ref _close, value); }
+        }
+
+        #region Action
+
+        [Action(Caption = "Lock", ConfirmationMessage = "Lock dữ liệu này? Sau khi phê duyệt sẽ KHÔNG thể sửa chữa thông tin được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
+        public void LockAction()
+        {
+            Lock = true;
+            Session.Save(this);
+        }
+
+        [Action(Caption = "UnLock", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True")]
+        public void LockActionUndo()
+        {
+            Lock = false;
+            Session.Save(this);
+        }
+
+
+        [Action(Caption = "Close", ConfirmationMessage = "Đóng dữ liệu này? Sau khi phê duyệt sẽ KHÔNG thể thay đổi dữ liệu được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
+        public void CloseAction()
+        {
+            Close = true;
+            Session.Save(this);
+        }
+
+        [Action(Caption = "Open", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True")]
+        public void CloseActionUndo()
+        {
+            Close = false;
+            Session.Save(this);
+        }
+
+        #endregion
 
         #region Association
 

@@ -37,6 +37,7 @@ namespace AttpV2.Module.Controllers
             var action = new SimpleAction(this, $"{nameof(ThamDinh)}-{nameof(Btn_CapGiayChungNhan)}", "Edit")
             {
                 Caption = "Cấp Giấy chứng nhận",
+                ImageName = "SnapInsertHeader",
                 TargetViewNesting = Nesting.Nested,
                 TargetObjectType = typeof(GiayChungNhan), 
                 TargetViewType = ViewType.ListView,
@@ -46,8 +47,9 @@ namespace AttpV2.Module.Controllers
             {
                 if(((DetailView)ObjectSpace.Owner).CurrentObject is ThamDinh td)
                 {
-                    NewObjectViewController controller = Frame.GetController<NewObjectViewController>();    
-                    if(controller != null)
+                  
+                    NewObjectViewController controller = Frame.GetController<NewObjectViewController>();
+                    if (controller != null)
                     {
                         void Created(object sender, ObjectCreatedEventArgs e)
                         {
@@ -61,6 +63,7 @@ namespace AttpV2.Module.Controllers
                         controller.NewObjectAction.DoExecute(controller.NewObjectAction.Items[0]);
 
                     }
+                   
                 }
             };
         }

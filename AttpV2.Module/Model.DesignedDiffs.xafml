@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="AttpV2">
+  <ActionDesign>
+    <Actions>
+      <Action Id="ThamDinh-Btn_CapGiayChungNhan" ImageName="SnapInsertHeader" />
+    </Actions>
+  </ActionDesign>
   <BOModel>
     <Class Name="AttpV2.Module.BusinessObjects.CoSoSanXuatKinhDoanh">
       <AppearanceRules>
@@ -8,8 +13,8 @@
     </Class>
     <Class Name="AttpV2.Module.BusinessObjects.GiayChungNhan">
       <AppearanceRules>
-        <AppearanceRule Id="HetHanGCN" Criteria="[NgayHetHanGCN] &lt; Now() Or [NgayHetHanGCN] Is Null Or [IsThuHoi] = False" />
         <AppearanceRule Id="Hết Hạn" BackColor="White" FontColor="Red" TargetItems="NgayHetHanGCN" Criteria="[NgayHetHanGCN] &lt; GetDate(Now()) And [NgayHetHanGCN] Is Not Null" FontStyle="Bold" IsNewNode="True" />
+        <AppearanceRule Id="HetHanGCN" Criteria="[NgayHetHanGCN] &lt; Now() Or [NgayHetHanGCN] Is Null Or [IsThuHoi] = False" />
         <AppearanceRule Id="HideBiThuHoi" Criteria="[IsThuHoi] = True" Context="DetailView" />
       </AppearanceRules>
     </Class>
@@ -17,9 +22,7 @@
   </BOModel>
   <NavigationItems>
     <Items>
-      <Item Id="Danh mục" ImageName="Actions_FolderClose" />
-      <Item Id="Quản lý dữ liệu" ImageName="CustomerProfileReport" />
-      <Item Id="Reports" ImageName="Print" Shortcut="Print" />
+      <Item Id="Reports" ImageName="Action_Export" Shortcut="" />
     </Items>
   </NavigationItems>
   <Options>
@@ -48,29 +51,29 @@
     <DetailView Id="CoSoSanXuatKinhDoanh_DetailView">
       <Layout>
         <LayoutGroup Id="Main" RelativeSize="100">
-          <LayoutGroup Id="SimpleEditors" RelativeSize="33.001658374792704">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="29.30298719772404">
             <LayoutGroup Id="CoSoSanXuatKinhDoanh" RelativeSize="100">
-              <LayoutGroup Id="CoSoSanXuatKinhDoanh_col1" RelativeSize="49.926578560939795">
-                <LayoutItem Id="MaSoDoanhNghiep" RelativeSize="20" />
-                <LayoutItem Id="TenCoSo" RelativeSize="15" />
-                <LayoutItem Id="TenChuDoanhNghiep" RelativeSize="15" />
+              <LayoutGroup Id="CoSoSanXuatKinhDoanh_col1" RelativeSize="49.808429118773944">
+                <LayoutItem Id="MaSoDoanhNghiep" RelativeSize="20.73170731707317" />
+                <LayoutItem Id="TenCoSo" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="TenChuDoanhNghiep" RelativeSize="14.634146341463415" />
                 <LayoutItem Id="CoQuanQuanLy" RelativeSize="13.043478260869565" Index="3" Removed="True" />
-                <LayoutItem Id="DiaChi" RelativeSize="15" Index="3" />
-                <LayoutItem Id="Email" ViewItem="Email" Index="4" RelativeSize="15" IsNewNode="True" />
+                <LayoutItem Id="DiaChi" RelativeSize="14.634146341463415" Index="3" />
+                <LayoutItem Id="Email" ViewItem="Email" Index="4" RelativeSize="14.634146341463415" IsNewNode="True" />
                 <LayoutItem Id="LoaiHinhCoSo" RelativeSize="13.043478260869565" Removed="True" />
               </LayoutGroup>
-              <LayoutGroup Id="CoSoSanXuatKinhDoanh_col2" RelativeSize="50.073421439060205">
-                <LayoutItem Id="CoQuanQuanLy" ViewItem="CoQuanQuanLy" Index="0" RelativeSize="20" IsNewNode="True" />
+              <LayoutGroup Id="CoSoSanXuatKinhDoanh_col2" RelativeSize="50.191570881226056">
+                <LayoutItem Id="CoQuanQuanLy" ViewItem="CoQuanQuanLy" Index="0" RelativeSize="20.73170731707317" IsNewNode="True" />
                 <LayoutItem Id="Email" RelativeSize="15" Index="1" Removed="True" />
-                <LayoutItem Id="LoaiHinhCoSo" ViewItem="LoaiHinhCoSo" Index="1" RelativeSize="15" IsNewNode="True" />
-                <LayoutItem Id="TenSanPham" RelativeSize="15" Index="2" />
-                <LayoutItem Id="XepLoaiCoSo" RelativeSize="15" Index="3" />
-                <LayoutItem Id="GiayChungNhan" Index="4" RelativeSize="15" />
-                <LayoutItem Id="ThoiHanGCN" Index="5" RelativeSize="20" />
+                <LayoutItem Id="LoaiHinhCoSo" ViewItem="LoaiHinhCoSo" Index="1" RelativeSize="14.634146341463415" IsNewNode="True" />
+                <LayoutItem Id="TenSanPham" RelativeSize="14.634146341463415" Index="2" />
+                <LayoutItem Id="XepLoaiCoSo" RelativeSize="14.634146341463415" Index="3" />
+                <LayoutItem Id="GiayChungNhan" Index="4" RelativeSize="14.634146341463415" />
+                <LayoutItem Id="ThoiHanGCN" Index="5" RelativeSize="20.73170731707317" />
               </LayoutGroup>
             </LayoutGroup>
           </LayoutGroup>
-          <TabbedGroup Id="Tabs" RelativeSize="66.9983416252073">
+          <TabbedGroup Id="Tabs" RelativeSize="70.69701280227596">
             <LayoutGroup Id="ThamDinhs" RelativeSize="100">
               <LayoutItem Id="ThamDinhs" RelativeSize="100" />
             </LayoutGroup>
@@ -98,13 +101,20 @@
     </ListView>
     <ListView Id="CoSoSanXuatKinhDoanh_ListView" IsFooterVisible="True">
       <Columns>
+        <ColumnInfo Id="XLoai" Index="-1" />
         <ColumnInfo Id="TenCoSo" SortIndex="-1" SortOrder="None">
           <Summary>
             <ColumnSummaryItem Id="Summary0" SummaryType="Count" IsNewNode="True" />
           </Summary>
         </ColumnInfo>
         <ColumnInfo Id="XepLoaiCoSo" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="GiayChungNhan" Index="10" />
+        <ColumnInfo Id="ThoiHanGCN" Index="11" />
       </Columns>
+      <Filters>
+        <Filter Id="Xếp loại A" Criteria="[XLoai] = ##Enum#AttpV2.Module.BusinessObjects.XLoai,A#" />
+        <Filter Id="Xếp loại B" Criteria="[XLoai] = ##Enum#AttpV2.Module.BusinessObjects.XLoai,B#" />
+      </Filters>
     </ListView>
     <ListView Id="CoSoSanXuatKinhDoanh_ThamDinhs_ListView" IsFooterVisible="True" AllowLink="False" AllowUnlink="False">
       <Columns>
@@ -193,19 +203,18 @@
             </LayoutGroup>
             <TabbedGroup Id="Item1" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
               <LayoutGroup Id="GiayChungNhan" ShowCaption="True" Direction="Horizontal" Index="0" RelativeSize="100" IsNewNode="True">
-                <LayoutGroup Id="GiayChungNhan_col1" ShowCaption="False" Index="0" RelativeSize="49.92" IsNewNode="True">
-                  <LayoutItem Id="CoSoSanXuatKinhDoanh" ViewItem="CoSoSanXuatKinhDoanh" Index="0" RelativeSize="6.049149338374291" IsNewNode="True" />
-                  <LayoutItem Id="SoCap" ViewItem="SoCap" Index="1" RelativeSize="4.536862003780718" IsNewNode="True" />
-                  <LayoutItem Id="DiaChi" ViewItem="DiaChi" Index="2" RelativeSize="4.536862003780718" IsNewNode="True" />
-                  <LayoutItem Id="DienThoai" ViewItem="DienThoai" Index="3" RelativeSize="4.536862003780718" IsNewNode="True" />
-                  <LayoutItem Id="Email" ViewItem="Email" Index="4" RelativeSize="80.34026465028356" IsNewNode="True" />
+                <LayoutGroup Id="GiayChungNhan_col1" ShowCaption="False" Index="0" RelativeSize="49.77628635346756" IsNewNode="True">
+                  <LayoutItem Id="CoSoSanXuatKinhDoanh" ViewItem="CoSoSanXuatKinhDoanh" Index="0" RelativeSize="5.432937181663837" IsNewNode="True" />
+                  <LayoutItem Id="DiaChi" ViewItem="DiaChi" Index="1" RelativeSize="4.074702886247878" IsNewNode="True" />
+                  <LayoutItem Id="DienThoai" ViewItem="DienThoai" Index="2" RelativeSize="4.074702886247878" IsNewNode="True" />
+                  <LayoutItem Id="Email" ViewItem="Email" Index="3" RelativeSize="86.41765704584041" IsNewNode="True" />
                 </LayoutGroup>
-                <LayoutGroup Id="GiayChungNhan_col2" ShowCaption="False" Index="1" RelativeSize="50.08" IsNewNode="True">
-                  <LayoutItem Id="ThamDinh" ViewItem="ThamDinh" Index="0" RelativeSize="6.049149338374291" IsNewNode="True" />
-                  <LayoutItem Id="NgayCapGiayChungNhan" ViewItem="NgayCapGiayChungNhan" Index="1" RelativeSize="4.536862003780718" IsNewNode="True" />
-                  <LayoutItem Id="NgayHetHanGCN" ViewItem="NgayHetHanGCN" Index="2" RelativeSize="4.536862003780718" IsNewNode="True" />
-                  <LayoutItem Id="ThuHoiGCN" ViewItem="ThuHoiGCN" Index="3" RelativeSize="4.536862003780718" IsNewNode="True" />
-                  <LayoutItem Id="BiThuHoi" ViewItem="BiThuHoi" Index="4" RelativeSize="80.34026465028356" IsNewNode="True" />
+                <LayoutGroup Id="GiayChungNhan_col2" ShowCaption="False" Index="1" RelativeSize="50.22371364653244" IsNewNode="True">
+                  <LayoutItem Id="SoCap" ViewItem="SoCap" Index="0" RelativeSize="5.432937181663837" IsNewNode="True" />
+                  <LayoutItem Id="ThamDinh" ViewItem="ThamDinh" Index="1" RelativeSize="4.074702886247878" IsNewNode="True" />
+                  <LayoutItem Id="NgayCapGiayChungNhan" ViewItem="NgayCapGiayChungNhan" Index="2" RelativeSize="4.074702886247878" IsNewNode="True" />
+                  <LayoutItem Id="NgayHetHanGCN" ViewItem="NgayHetHanGCN" Index="3" RelativeSize="4.074702886247878" IsNewNode="True" />
+                  <LayoutItem Id="BiThuHoi" ViewItem="BiThuHoi" Index="4" RelativeSize="82.34295415959252" IsNewNode="True" />
                 </LayoutGroup>
               </LayoutGroup>
               <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Direction="Vertical" Index="1" RelativeSize="100" IsNewNode="True">

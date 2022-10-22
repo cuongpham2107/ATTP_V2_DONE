@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="CoSoSanXuatKinhDoanh_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="CoSoSanXuatKinhDoanh">
+              <LayoutGroup Id="CoSoSanXuatKinhDoanh_col1">
+                <LayoutItem Id="SoDienThoai" Index="5" RelativeSize="20.73170731707317" />
+              </LayoutGroup>
+              <LayoutGroup Id="CoSoSanXuatKinhDoanh_col2">
+                <LayoutItem Id="XLoai" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

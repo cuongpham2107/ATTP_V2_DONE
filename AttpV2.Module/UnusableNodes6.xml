@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="CoSoSanXuatKinhDoanh_ListView">
+      <Filters Id="Filters">
+        <Filter Id="Xếp loại c" Criteria="[XLoai] = ##Enum#AttpV2.Module.BusinessObjects.XLoai,C#" />
+      </Filters>
+    </ListView>
+  </Views>
+</Application>

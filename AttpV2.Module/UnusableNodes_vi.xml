@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="CoSoSanXuatKinhDoanh_ListView">
+      <Filters Id="Filters">
+        <Filter Id="Xếp loại c" Caption="Xếp loại C" />
+      </Filters>
+    </ListView>
+  </Views>
+</Application>

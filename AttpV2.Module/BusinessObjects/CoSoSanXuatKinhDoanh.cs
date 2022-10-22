@@ -1,4 +1,4 @@
-﻿using DevExpress.Data.Filtering;
+﻿
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
@@ -11,6 +11,7 @@ using DevExpress.Xpo;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -23,8 +24,12 @@ namespace AttpV2.Module.BusinessObjects
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [ListViewFindPanel(true)]
     [LookupEditorMode(LookupEditorMode.AllItemsWithSearch)]
-    [NavigationItem(Menu.CategoryMenuItem)]
-   
+    [NavigationItem(Menu.DataMenuItem)]
+
+    [ListViewFilter("Tất cả", "", Index = 1)]
+    [ListViewFilter("Xếp loại A", "[XLoai] = ##Enum#AttpV2.Module.BusinessObjects.XLoai,A#", Index = 2)]
+    [ListViewFilter("Xếp loại B", "[XLoai] = ##Enum#AttpV2.Module.BusinessObjects.XLoai,B#", Index = 3)]
+    [ListViewFilter("Xếp loại C", "[XLoai] = ##Enum#AttpV2.Module.BusinessObjects.XLoai,C#", Index = 4)]
 
     [Appearance("SaphethanGCN", AppearanceItemType = "ViewItem", TargetItems = "TenCoSo",
     Criteria = "DateDiffMonth(Today(), [ThoiHanGCN]) < 1 And [ThoiHanGCN] Is Not Null", Context = "ListView", FontColor = "Orange", Priority = 2)]
@@ -126,7 +131,7 @@ namespace AttpV2.Module.BusinessObjects
             set => SetPropertyValue(nameof(TenSanPham), ref tenSanPham, value);
         }
         private string xepLoaiCoSo;
-        [XafDisplayName("Xếp loại của cơ sở")]
+        [XafDisplayName("Xếp loại")]
         [ModelDefault("AlowEdit", "False")]
         public string XepLoaiCoSo
         {
@@ -136,16 +141,31 @@ namespace AttpV2.Module.BusinessObjects
                 {
                     if (thamDinh != null)
                     {
-                        return $"Xếp loại {thamDinh.KetQuaThamDinh}, Ngày thẩm đinh {thamDinh.NgayThamDinh}";
+                        return $"{thamDinh.KetQuaThamDinh}, {thamDinh.NgayThamDinh.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)}";
                     }
                    
                 }
                 return xepLoaiCoSo;
             }
         }
+        XLoai? xLoai;
+        [ModelDefault("AlowEdit", "False")]
+        [VisibleInDetailView(false)]
+        [VisibleInListView(false)]
+        public XLoai? XLoai
+        {
+            get
+            {
+                if (thamDinh != null)
+                {
+                    return xLoai = thamDinh.KetQua;
+                }
+                return xLoai;
+            }
+        }
 
 
-        [XafDisplayName("Giấy chứng nhận của cơ sở sản xuất, kinh doanh")]
+        [XafDisplayName("Giấy chứng nhận ")]
         [ModelDefault("AlowEdit","False")]
         public string GiayChungNhan
         {
@@ -155,7 +175,7 @@ namespace AttpV2.Module.BusinessObjects
                 {
                     if(giayChungNhan != null)
                     {
-                        return giayChungNhan.SoCap;
+                        return $"{giayChungNhan.SoCap}, {giayChungNhan.NgayCapGiayChungNhan.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)}";
                     }
                 }
                 return null;
@@ -163,7 +183,7 @@ namespace AttpV2.Module.BusinessObjects
             
         }
         DateTime thoiHanGCN;
-        [XafDisplayName("Thời hạn còn lại của giấy chứng nhận")]
+        [XafDisplayName("Thời hạn")]
         [ModelDefault("AlowEdit", "False")]
         public DateTime ThoiHanGCN
         {
@@ -180,6 +200,8 @@ namespace AttpV2.Module.BusinessObjects
             }
 
         }
+
+        
 
 
         #region Association

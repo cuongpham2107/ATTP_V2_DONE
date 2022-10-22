@@ -61,5 +61,10 @@ namespace AttpV2.Module.BusinessObjects
             set => SetPropertyValue(nameof(CapQuanLy), ref capQuanLy, value);
         }
 
+        [XafDisplayName("Danh sách tài khoản"), ToolTip("")]
+        [Association("CoQuanQuanLy-ApplicationUsers")]
+        [VisibleInDetailView(false)]
+        public XPCollection<ApplicationUser> Users => GetCollection<ApplicationUser>(nameof(Users));
+
     }
 }

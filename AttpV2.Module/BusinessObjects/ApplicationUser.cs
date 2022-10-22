@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Text;
 using DevExpress.ExpressApp;
+
 using DevExpress.ExpressApp.Security;
 using DevExpress.Persistent.BaseImpl.PermissionPolicy;
 using DevExpress.Xpo;
@@ -9,7 +10,7 @@ namespace AttpV2.Module.BusinessObjects;
 
 [MapInheritance(MapInheritanceType.ParentTable)]
 [DefaultProperty(nameof(UserName))]
-public class ApplicationUser : PermissionPolicyUser, ISecurityUserWithLoginInfo {
+public class ApplicationUser : PermissionPolicyUser, IObjectSpaceLink, ISecurityUserWithLoginInfo {
     public ApplicationUser(Session session) : base(session) { }
 
     [Browsable(false)]
@@ -17,6 +18,7 @@ public class ApplicationUser : PermissionPolicyUser, ISecurityUserWithLoginInfo 
     public XPCollection<ApplicationUserLoginInfo> LoginInfo {
         get { return GetCollection<ApplicationUserLoginInfo>(nameof(LoginInfo)); }
     }
+    IObjectSpace IObjectSpaceLink.ObjectSpace { get; set; }
 
     IEnumerable<ISecurityUserLoginInfo> IOAuthSecurityUser.UserLogins => LoginInfo.OfType<ISecurityUserLoginInfo>();
 
@@ -26,5 +28,14 @@ public class ApplicationUser : PermissionPolicyUser, ISecurityUserWithLoginInfo 
         result.ProviderUserKey = providerUserKey;
         result.User = this;
         return result;
+    }
+
+    CoQuanQuanLy coquanQuanly;
+    [DevExpress.ExpressApp.DC.XafDisplayName("Cơ quan quản lý")]
+    [Association("CoQuanQuanLy-ApplicationUsers")]
+    public CoQuanQuanLy CoquanQuanly
+    {
+        get => coquanQuanly;
+        set => SetPropertyValue(nameof(CoquanQuanly), ref coquanQuanly, value);
     }
 }
