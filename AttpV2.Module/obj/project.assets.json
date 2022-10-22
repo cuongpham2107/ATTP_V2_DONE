@@ -14,14 +14,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.XtraCharts.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraCharts.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.XtraCharts.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraCharts.v22.1.dll": {}
         }
       },
       "DevExpress.Charts.Core/22.1.5": {
@@ -31,14 +27,10 @@
           "NETStandard.Library": "2.0.3"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Charts.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Charts.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Charts.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Charts.v22.1.Core.dll": {}
         }
       },
       "DevExpress.CodeParser/22.1.5": {
@@ -78,14 +70,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Dashboard.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Dashboard.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Dashboard.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Dashboard.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Data/22.1.5": {
@@ -100,14 +88,10 @@
           "System.Text.Encoding.CodePages": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Data.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Data.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Data.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Data.v22.1.dll": {}
         }
       },
       "DevExpress.DataAccess/22.1.5": {
@@ -126,14 +110,10 @@
           "System.Reflection.Emit": "4.3.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.DataAccess.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.DataAccess.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.DataAccess.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.DataAccess.v22.1.dll": {}
         }
       },
       "DevExpress.DataVisualization.Core/22.1.5": {
@@ -185,14 +165,10 @@
           "System.Text.Encoding.CodePages": "4.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.AuditTrail.Xpo/22.1.5": {
@@ -210,14 +186,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.AuditTrail.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.AuditTrail.Xpo.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.AuditTrail.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.AuditTrail.Xpo.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.CloneObject.Xpo/22.1.5": {
@@ -230,14 +202,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.CloneObject.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.CloneObject.Xpo.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.CloneObject.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.CloneObject.Xpo.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.CodeAnalysis/22.1.5": {
@@ -256,14 +224,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.Dashboards/22.1.5": {
@@ -278,14 +242,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Dashboards.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Dashboards.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Dashboards.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Dashboards.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.Objects/22.1.5": {
@@ -297,14 +257,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Objects.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Objects.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Objects.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Objects.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.Office/22.1.5": {
@@ -320,14 +276,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Office.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Office.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Office.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Office.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.ReportsV2/22.1.5": {
@@ -344,14 +296,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.ReportsV2.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.ReportsV2.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.ReportsV2.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.ReportsV2.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.Security/22.1.5": {
@@ -367,14 +315,10 @@
           "System.Security.Permissions": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Security.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Security.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Security.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Security.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.Security.Xpo/22.1.5": {
@@ -394,14 +338,10 @@
           "System.ServiceModel.Primitives": "4.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Security.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Security.Xpo.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Security.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Security.Xpo.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.StateMachine/22.1.5": {
@@ -416,14 +356,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.StateMachine.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.StateMachine.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.StateMachine.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.StateMachine.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.Validation/22.1.5": {
@@ -436,14 +372,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.ViewVariantsModule/22.1.5": {
@@ -455,14 +387,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.ViewVariantsModule.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.ViewVariantsModule.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.ViewVariantsModule.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.ViewVariantsModule.v22.1.dll": {}
         }
       },
       "DevExpress.ExpressApp.Xpo/22.1.5": {
@@ -477,14 +405,10 @@
           "System.Security.Permissions": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Xpo.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.ExpressApp.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.ExpressApp.Xpo.v22.1.dll": {}
         }
       },
       "DevExpress.Gauges.Core/22.1.5": {
@@ -497,14 +421,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.XtraGauges.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraGauges.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.XtraGauges.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraGauges.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Images/22.1.5": {
@@ -530,14 +450,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Map.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Map.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Map.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Map.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Office.Core/22.1.5": {
@@ -552,14 +468,10 @@
           "System.Security.Cryptography.Xml": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Office.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Office.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Office.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Office.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Pdf.Core/22.1.5": {
@@ -573,14 +485,10 @@
           "System.Security.Cryptography.Pkcs": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Pdf.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Pdf.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Pdf.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Pdf.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Pdf.Drawing/22.1.5": {
@@ -593,14 +501,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Pdf.v22.1.Drawing.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Pdf.v22.1.Drawing.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Pdf.v22.1.Drawing.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Pdf.v22.1.Drawing.dll": {}
         }
       },
       "DevExpress.Persistent.Base/22.1.5": {
@@ -614,14 +518,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Persistent.Base.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Persistent.Base.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Persistent.Base.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Persistent.Base.v22.1.dll": {}
         }
       },
       "DevExpress.Persistent.BaseImpl.Xpo/22.1.5": {
@@ -638,14 +538,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Persistent.BaseImpl.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Persistent.BaseImpl.Xpo.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Persistent.BaseImpl.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Persistent.BaseImpl.Xpo.v22.1.dll": {}
         }
       },
       "DevExpress.PivotGrid.Core/22.1.5": {
@@ -660,14 +556,10 @@
           "System.Reflection.Emit.Lightweight": "4.3.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.PivotGrid.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.PivotGrid.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.PivotGrid.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.PivotGrid.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Printing.Core/22.1.5": {
@@ -685,14 +577,10 @@
           "System.Text.Encoding.CodePages": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Printing.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Printing.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Printing.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Printing.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Reporting.Core/22.1.5": {
@@ -723,14 +611,10 @@
           "System.Security.Permissions": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.XtraReports.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraReports.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.XtraReports.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraReports.v22.1.dll": {}
         },
         "build": {
           "buildTransitive/DevExpress.Reporting.Core.targets": {}
@@ -751,14 +635,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.RichEdit.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.RichEdit.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.RichEdit.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.RichEdit.v22.1.Core.dll": {}
         }
       },
       "DevExpress.RichEdit.Export/22.1.5": {
@@ -787,14 +667,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.XtraScheduler.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraScheduler.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.XtraScheduler.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraScheduler.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Sparkline.Core/22.1.5": {
@@ -806,14 +682,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Sparkline.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Sparkline.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Sparkline.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Sparkline.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Spreadsheet.Core/22.1.5": {
@@ -832,14 +704,10 @@
           "System.Security.AccessControl": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Spreadsheet.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Spreadsheet.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Spreadsheet.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Spreadsheet.v22.1.Core.dll": {}
         }
       },
       "DevExpress.TreeMap/22.1.5": {
@@ -854,14 +722,10 @@
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.XtraTreeMap.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraTreeMap.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.XtraTreeMap.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.XtraTreeMap.v22.1.dll": {}
         }
       },
       "DevExpress.TreeMap.Core/22.1.5": {
@@ -871,14 +735,10 @@
           "NETStandard.Library": "2.0.3"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.TreeMap.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.TreeMap.v22.1.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.TreeMap.v22.1.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.TreeMap.v22.1.Core.dll": {}
         }
       },
       "DevExpress.Xpo/22.1.5": {
@@ -896,27 +756,19 @@
           "System.Text.Json": "4.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/DevExpress.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Xpo.v22.1.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/DevExpress.Xpo.v22.1.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/DevExpress.Xpo.v22.1.dll": {}
         }
       },
       "Google.Protobuf/3.19.4": {
         "type": "package",
         "compile": {
-          "lib/net5.0/Google.Protobuf.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/net5.0/Google.Protobuf.dll": {}
         },
         "runtime": {
-          "lib/net5.0/Google.Protobuf.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/net5.0/Google.Protobuf.dll": {}
         }
       },
       "K4os.Compression.LZ4/1.2.6": {
@@ -925,14 +777,10 @@
           "System.Memory": "4.5.4"
         },
         "compile": {
-          "lib/netstandard2.0/K4os.Compression.LZ4.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/K4os.Compression.LZ4.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/K4os.Compression.LZ4.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/K4os.Compression.LZ4.dll": {}
         }
       },
       "K4os.Compression.LZ4.Streams/1.2.6": {
@@ -942,14 +790,10 @@
           "K4os.Hash.xxHash": "1.0.6"
         },
         "compile": {
-          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": {}
         }
       },
       "K4os.Hash.xxHash/1.0.6": {
@@ -958,14 +802,10 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/netstandard2.0/K4os.Hash.xxHash.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/K4os.Hash.xxHash.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/K4os.Hash.xxHash.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/K4os.Hash.xxHash.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
@@ -1015,14 +855,10 @@
           "System.Xml.XmlDocument": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp/2.8.0": {
@@ -1031,14 +867,10 @@
           "Microsoft.CodeAnalysis.Common": "[2.8.0]"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
@@ -1047,14 +879,10 @@
           "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection/2.0.0": {
@@ -1063,27 +891,19 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -1096,14 +916,10 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
       "Microsoft.Extensions.Primitives/6.0.0": {
@@ -1112,14 +928,10 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -1150,9 +962,7 @@
           "System.Security.Principal.Windows": "4.5.0"
         },
         "compile": {
-          "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
@@ -1174,14 +984,10 @@
           "Microsoft.NETCore.Platforms": "3.1.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
@@ -1203,15 +1009,11 @@
           "System.Text.Encoding.CodePages": "4.4.0"
         },
         "compile": {
-          "lib/net6.0/MySql.Data.dll": {
-            "related": ".xml"
-          },
+          "lib/net6.0/MySql.Data.dll": {},
           "lib/net6.0/ZstdNet.dll": {}
         },
         "runtime": {
-          "lib/net6.0/MySql.Data.dll": {
-            "related": ".xml"
-          },
+          "lib/net6.0/MySql.Data.dll": {},
           "lib/net6.0/ZstdNet.dll": {}
         }
       },
@@ -1233,14 +1035,10 @@
       "Portable.BouncyCastle/1.9.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -1455,9 +1253,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.6/System.AppContext.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.6/System.AppContext.dll": {}
         },
         "runtime": {
           "lib/netstandard1.6/System.AppContext.dll": {}
@@ -1475,9 +1271,7 @@
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.CodeDom.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {}
@@ -1491,9 +1285,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Collections.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Collections.dll": {}
         }
       },
       "System.Collections.Concurrent/4.3.0": {
@@ -1511,9 +1303,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Collections.Concurrent.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Collections.Concurrent.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.Concurrent.dll": {}
@@ -1522,14 +1312,10 @@
       "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.ComponentModel.Annotations/4.4.0": {
@@ -1548,9 +1334,7 @@
           "System.Security.Permissions": "4.5.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
@@ -1566,9 +1350,7 @@
           "System.Text.Encoding": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Console.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Console.dll": {}
         }
       },
       "System.Data.SqlClient/4.5.0": {
@@ -1580,9 +1362,7 @@
           "runtime.native.System.Data.SqlClient.sni": "4.4.0"
         },
         "compile": {
-          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {}
         },
         "runtime": {
           "lib/netcoreapp2.1/System.Data.SqlClient.dll": {}
@@ -1606,9 +1386,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Diagnostics.Debug.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Diagnostics.Debug.dll": {}
         }
       },
       "System.Diagnostics.EventLog/4.5.0": {
@@ -1647,9 +1425,7 @@
           "System.Runtime.InteropServices": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/_._": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll": {
@@ -1671,9 +1447,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.StackTrace.dll": {}
@@ -1687,9 +1461,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Diagnostics.Tools.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.Diagnostics.Tools.dll": {}
         }
       },
       "System.Diagnostics.Tracing/4.3.0": {
@@ -1700,9 +1472,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/_._": {}
         }
       },
       "System.Drawing.Common/4.7.0": {
@@ -1712,9 +1482,7 @@
           "Microsoft.Win32.SystemEvents": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/System.Drawing.Common.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Drawing.Common.dll": {}
@@ -1749,9 +1517,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Dynamic.Runtime.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Dynamic.Runtime.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Dynamic.Runtime.dll": {}
@@ -1765,9 +1531,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Globalization.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Globalization.dll": {}
         }
       },
       "System.Globalization.Calendars/4.3.0": {
@@ -1779,9 +1543,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/_._": {}
         }
       },
       "System.IO/4.3.0": {
@@ -1794,9 +1556,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.IO.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.IO.dll": {}
         }
       },
       "System.IO.Compression/4.3.0": {
@@ -1819,9 +1579,7 @@
           "runtime.native.System.IO.Compression": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.IO.Compression.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.IO.Compression.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.3/System.IO.Compression.dll": {
@@ -1847,9 +1605,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.IO.FileSystem.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.IO.FileSystem.dll": {}
         }
       },
       "System.IO.FileSystem.Primitives/4.3.0": {
@@ -1858,9 +1614,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.IO.FileSystem.Primitives.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
@@ -1876,9 +1630,7 @@
           "System.Runtime.Extensions": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.6/System.Linq.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.6/System.Linq.dll": {}
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.dll": {}
@@ -1906,9 +1658,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.6/System.Linq.Expressions.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.6/System.Linq.Expressions.dll": {}
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
@@ -1933,9 +1683,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.ObjectModel.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.ObjectModel.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.ObjectModel.dll": {}
@@ -1952,9 +1700,7 @@
           "ref/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Private.ServiceModel.dll": {
-            "related": ".pdb"
-          }
+          "lib/netstandard2.0/System.Private.ServiceModel.dll": {}
         }
       },
       "System.Reflection/4.3.0": {
@@ -1967,17 +1713,13 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Reflection.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Reflection.dll": {}
         }
       },
       "System.Reflection.DispatchProxy/4.5.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Reflection.DispatchProxy.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Reflection.DispatchProxy.dll": {}
         },
         "runtime": {
           "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {}
@@ -1993,9 +1735,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.1/System.Reflection.Emit.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.dll": {}
@@ -2009,9 +1749,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
@@ -2026,9 +1764,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -2043,9 +1779,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Extensions.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.Reflection.Extensions.dll": {}
         }
       },
       "System.Reflection.Metadata/1.4.2": {
@@ -2069,14 +1803,10 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.1/System.Reflection.Metadata.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.1/System.Reflection.Metadata.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.1/System.Reflection.Metadata.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.1/System.Reflection.Metadata.dll": {}
         }
       },
       "System.Reflection.Primitives/4.3.0": {
@@ -2087,9 +1817,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Primitives.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
         }
       },
       "System.Reflection.TypeExtensions/4.3.0": {
@@ -2099,9 +1827,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/_._": {}
         },
         "runtime": {
           "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
@@ -2110,14 +1836,10 @@
       "System.Resources.Extensions/4.6.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Resources.Extensions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Resources.Extensions.dll": {}
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -2130,9 +1852,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Resources.ResourceManager.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.Resources.ResourceManager.dll": {}
         }
       },
       "System.Runtime/4.3.0": {
@@ -2142,22 +1862,16 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -2171,9 +1885,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.Extensions.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
         }
       },
       "System.Runtime.Handles/4.3.0": {
@@ -2184,9 +1896,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Runtime.Handles.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Runtime.Handles.dll": {}
         }
       },
       "System.Runtime.InteropServices/4.3.0": {
@@ -2211,9 +1921,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.Loader.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Runtime.Loader.dll": {}
         },
         "runtime": {
           "lib/netstandard1.5/System.Runtime.Loader.dll": {}
@@ -2228,9 +1936,7 @@
           "System.Runtime.Extensions": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.1/System.Runtime.Numerics.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.1/System.Runtime.Numerics.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Numerics.dll": {}
@@ -2243,14 +1949,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Security.AccessControl.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
@@ -2298,9 +2000,7 @@
       "System.Security.Cryptography.Cng/4.5.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp2.1/_._": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp2.1/_._": {}
         },
         "runtime": {
           "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
@@ -2360,9 +2060,7 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Security.Cryptography.Encoding.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Security.Cryptography.Encoding.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll": {
@@ -2411,9 +2109,7 @@
           "System.Security.Cryptography.Cng": "4.5.0"
         },
         "compile": {
-          "ref/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {}
         },
         "runtime": {
           "lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {}
@@ -2446,9 +2142,7 @@
       "System.Security.Cryptography.ProtectedData/4.5.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
@@ -2490,9 +2184,7 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.4/System.Security.Cryptography.X509Certificates.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.4/System.Security.Cryptography.X509Certificates.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll": {
@@ -2512,9 +2204,7 @@
           "System.Security.Permissions": "4.5.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Security.Cryptography.Xml.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Security.Cryptography.Xml.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {}
@@ -2527,27 +2217,19 @@
           "System.Windows.Extensions": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/System.Security.Permissions.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp3.0/System.Security.Permissions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Security.Permissions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.0/System.Security.Permissions.dll": {}
         }
       },
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
@@ -2570,9 +2252,7 @@
           "ref/netstandard2.0/System.ServiceModel.Http.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Http.dll": {
-            "related": ".pdb"
-          }
+          "lib/netstandard2.0/System.ServiceModel.Http.dll": {}
         }
       },
       "System.ServiceModel.NetTcp/4.6.0": {
@@ -2585,9 +2265,7 @@
           "ref/netstandard2.0/System.ServiceModel.NetTcp.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.NetTcp.dll": {
-            "related": ".pdb"
-          }
+          "lib/netstandard2.0/System.ServiceModel.NetTcp.dll": {}
         }
       },
       "System.ServiceModel.Primitives/4.6.0": {
@@ -2600,12 +2278,8 @@
           "ref/netcoreapp2.1/System.ServiceModel.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.ServiceModel.Primitives.dll": {
-            "related": ".pdb"
-          },
-          "lib/netcoreapp2.1/System.ServiceModel.dll": {
-            "related": ".Primitives.pdb"
-          }
+          "lib/netcoreapp2.1/System.ServiceModel.Primitives.dll": {},
+          "lib/netcoreapp2.1/System.ServiceModel.dll": {}
         }
       },
       "System.ServiceModel.Security/4.4.4": {
@@ -2629,9 +2303,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Text.Encoding.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Text.Encoding.dll": {}
         }
       },
       "System.Text.Encoding.CodePages/4.6.0": {
@@ -2640,14 +2312,10 @@
           "Microsoft.NETCore.Platforms": "3.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
@@ -2665,22 +2333,16 @@
           "System.Text.Encoding": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
         }
       },
       "System.Text.Json/4.6.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
       "System.Text.RegularExpressions/4.3.0": {
@@ -2702,9 +2364,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Threading.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Threading.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Threading.dll": {}
@@ -2717,9 +2377,7 @@
           "System.Security.Principal.Windows": "4.5.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Threading.AccessControl.dll": {}
@@ -2739,9 +2397,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Threading.Tasks.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
       "System.Threading.Tasks.Extensions/4.3.0": {
@@ -2752,14 +2408,10 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.0/_._": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
       "System.Threading.Tasks.Parallel/4.3.0": {
@@ -2775,9 +2427,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.1/System.Threading.Tasks.Parallel.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.1/System.Threading.Tasks.Parallel.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Threading.Tasks.Parallel.dll": {}
@@ -2789,9 +2439,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Threading.Thread.dll": {}
@@ -2817,14 +2465,10 @@
           "System.Drawing.Common": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/System.Windows.Extensions.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp3.0/System.Windows.Extensions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
@@ -2853,9 +2497,7 @@
           "System.Threading.Tasks.Extensions": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Xml.ReaderWriter.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Xml.ReaderWriter.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.ReaderWriter.dll": {}
@@ -2878,9 +2520,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Xml.XDocument.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Xml.XDocument.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
@@ -2901,9 +2541,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
@@ -2923,9 +2561,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.dll": {}
@@ -2945,9 +2581,7 @@
           "System.Xml.XPath": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
@@ -8526,8 +8160,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -8536,7 +8169,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

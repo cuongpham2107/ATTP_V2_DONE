@@ -7,10 +7,21 @@ using DevExpress.ExpressApp.SystemModule;
 using DevExpress.ExpressApp.Xpo;
 using AttpV2.Blazor.Server.Services;
 using DevExpress.ExpressApp.Blazor.Templates;
+using AttpV2.Blazor.Server.Templates;
+using DevExpress.ExpressApp.Templates;
 
 namespace AttpV2.Blazor.Server;
 
 public class AttpV2BlazorApplication : BlazorApplication {
+    protected override IFrameTemplate CreateDefaultTemplate(TemplateContext context)
+    {
+
+        if (context == TemplateContext.LogonWindow)
+        {
+            return new CustomLogonWindowTemplate();
+        }
+        return base.CreateDefaultTemplate(context);
+    }
     public AttpV2BlazorApplication() {
         ApplicationName = "AttpV2";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;

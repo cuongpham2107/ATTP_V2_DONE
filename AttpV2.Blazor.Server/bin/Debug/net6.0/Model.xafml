@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application>
-  <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor">
-  </Views>
+<Application Description="Phần mềm Quản lý cấp giấy chứng nhận đủ điều kiện an toàn thực phẩm" Copyright="KennaTech JSC." Company="Sở Nông nghiệp và Phát triển Nông thôn tỉnh Bắc Giang" PreferredLanguage="vi" Title="Quản lý cấp GCN ATTP">
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="22.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor" />
 </Application>

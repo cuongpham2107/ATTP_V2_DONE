@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj": {}
+    "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj": {
+    "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj",
+        "projectUniqueName": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj",
         "projectName": "AttpV2.Module",
-        "projectPath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj",
+        "projectPath": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj",
         "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\obj\\",
+        "outputPath": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -120,8 +120,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -130,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

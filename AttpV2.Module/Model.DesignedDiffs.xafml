@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application Title="AttpV2">
+<Application Title="AttpV2" PreferredLanguage="vi">
   <ActionDesign>
     <Actions>
-      <Action Id="ThamDinh-Btn_CapGiayChungNhan" ImageName="SnapInsertHeader" />
+      <Action Id="GiayChungNhan.CloseAction" ImageName="UnprotectDocument" />
+      <Action Id="GiayChungNhan.CloseActionUndo" ImageName="TrackingChanges_Accept" />
+      <Action Id="GiayChungNhan.LockAction" ImageName="Security_Lock" />
+      <Action Id="GiayChungNhan.LockActionUndo" ImageName="Security_Unlock" />
+      <Action Id="ThamDinh-Btn_CapGiayChungNhan" ImageName="SnapInsertHeader" TargetObjectsCriteria="" />
     </Actions>
   </ActionDesign>
   <BOModel>
@@ -13,9 +17,14 @@
     </Class>
     <Class Name="AttpV2.Module.BusinessObjects.GiayChungNhan">
       <AppearanceRules>
-        <AppearanceRule Id="Hết Hạn" BackColor="White" FontColor="Red" TargetItems="NgayHetHanGCN" Criteria="[NgayHetHanGCN] &lt; GetDate(Now()) And [NgayHetHanGCN] Is Not Null" FontStyle="Bold" IsNewNode="True" />
         <AppearanceRule Id="HetHanGCN" Criteria="[NgayHetHanGCN] &lt; Now() Or [NgayHetHanGCN] Is Null Or [IsThuHoi] = False" />
+        <AppearanceRule Id="Hết Hạn" BackColor="White" FontColor="Red" TargetItems="NgayHetHanGCN" Criteria="[NgayHetHanGCN] &lt; GetDate(Now()) And [NgayHetHanGCN] Is Not Null" FontStyle="Bold" IsNewNode="True" />
         <AppearanceRule Id="HideBiThuHoi" Criteria="[IsThuHoi] = True" Context="DetailView" />
+      </AppearanceRules>
+    </Class>
+    <Class Name="AttpV2.Module.BusinessObjects.ThamDinh">
+      <AppearanceRules>
+        <AppearanceRule Id="HideCapGCN" Criteria="[NgayThamDinh] Is Not Null And [Oid] Is Not Null" Method="" TargetItems="Btn_CapGiayChungNhan" />
       </AppearanceRules>
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
@@ -34,7 +43,8 @@
   </SchemaModules>
   <Validation>
     <Rules>
-      <RuleFromBoolProperty Id="IsDetail" TargetCriteria="" TargetCollectionOwnerType="AttpV2.Module.BusinessObjects.GiayChungNhan" Removed="True" />
+      <RuleRequiredField Id="DevExpress.Persistent.Validation.RuleRequiredField_AttpV2.Module.BusinessObjects.GiayChungNhan_ThamDinh" TargetType="AttpV2.Module.BusinessObjects.GiayChungNhan" />
+      <RuleFromBoolProperty Id="IsCapGiay" TargetType="AttpV2.Module.BusinessObjects.CapMoiGiayChungNhan" />
     </Rules>
   </Validation>
   <Views>

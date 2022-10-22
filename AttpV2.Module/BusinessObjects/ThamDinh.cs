@@ -1,5 +1,6 @@
 ﻿using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Model;
 using DevExpress.ExpressApp.SystemModule;
@@ -34,6 +35,8 @@ namespace AttpV2.Module.BusinessObjects
     [ListViewFilter("Thẩm định cơ sở trong quý 2", "GetMonth([NgayThamDinh]) >= 3 And GetMonth([NgayThamDinh]) <= 6", Index = 5)]
     [ListViewFilter("Thẩm định cơ sở trong quý 3", "GetMonth([NgayThamDinh]) >= 6 And GetMonth([NgayThamDinh]) <= 9", Index = 6)]
     [ListViewFilter("Thẩm định cơ sở trong quý 4", "GetMonth([NgayThamDinh]) >= 9 And GetMonth([NgayThamDinh]) <= 12", Index = 7)]
+
+    
     public class ThamDinh : BaseObject
     {
         public ThamDinh(Session session)
@@ -45,7 +48,7 @@ namespace AttpV2.Module.BusinessObjects
             base.AfterConstruction();
 
         }
-
+       
         #region Properties
 
         LoaiThamDinh loaiThamDinh;
@@ -205,14 +208,14 @@ namespace AttpV2.Module.BusinessObjects
         #endregion
         #region Action
 
-        [Action(Caption = "Lock", ConfirmationMessage = "Lock dữ liệu này? Sau khi phê duyệt sẽ KHÔNG thể sửa chữa thông tin được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
+        [Action(Caption = "Lock", ConfirmationMessage = "Lock dữ liệu này? Sau khi lock sẽ KHÔNG thể sửa chữa thông tin được nữa.", ImageName = "Security_Lock", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
         public void LockAction()
         {
             Lock = true;
             Session.Save(this);
         }
 
-        [Action(Caption = "UnLock", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True")]
+        [Action(Caption = "UnLock", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True", ImageName = "Security_Unlock")]
         public void LockActionUndo()
         {
             Lock = false;
@@ -220,19 +223,22 @@ namespace AttpV2.Module.BusinessObjects
         }
 
 
-        [Action(Caption = "Close", ConfirmationMessage = "Đóng dữ liệu này? Sau khi phê duyệt sẽ KHÔNG thể thay đổi dữ liệu được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Lock]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects)]
+
+        [Action(Caption = "Close", ConfirmationMessage = "Đóng dữ liệu này? Sau khi đóng sẽ KHÔNG thể thay đổi dữ liệu được nữa.", AutoCommit = true, TargetObjectsCriteria = "[Close]=False", TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueAtLeastForOne, SelectionDependencyType = MethodActionSelectionDependencyType.RequireMultipleObjects, ImageName = "UnprotectDocument")]
         public void CloseAction()
         {
             Close = true;
             Session.Save(this);
         }
 
-        [Action(Caption = "Open", AutoCommit = true, TargetObjectsCriteria = "[Lock]=True")]
+        [Action(Caption = "Open", AutoCommit = true, TargetObjectsCriteria = "[Close]=True", ImageName = "TrackingChanges_Accept")]
         public void CloseActionUndo()
         {
             Close = false;
             Session.Save(this);
         }
+
+
 
         #endregion
 

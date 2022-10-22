@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server\bin\Release\net6.0\release</_PublishTargetUrl>
-    <History>True|2022-10-21T16:02:42.7783541Z;True|2022-10-20T18:13:54.8198356+07:00;True|2022-10-20T15:36:10.3573189+07:00;True|2022-10-20T14:54:31.7146048+07:00;True|2022-10-20T10:27:27.5323548+07:00;</History>
+    <History>True|2022-10-22T09:30:14.3295066Z;True|2022-10-21T23:02:42.7783541+07:00;True|2022-10-20T18:13:54.8198356+07:00;True|2022-10-20T15:36:10.3573189+07:00;True|2022-10-20T14:54:31.7146048+07:00;True|2022-10-20T10:27:27.5323548+07:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

@@ -31,7 +31,9 @@ namespace AttpV2.Module.Controllers
         {
             base.OnAfterConstruction();
             Btn_CapGiayChungNhan();
+
         }
+       
         private void Btn_CapGiayChungNhan()
         {
             var action = new SimpleAction(this, $"{nameof(ThamDinh)}-{nameof(Btn_CapGiayChungNhan)}", "Edit")

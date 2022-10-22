@@ -1,0 +1,65 @@
+﻿@using DevExpress.ExpressApp.Blazor
+@using DevExpress.ExpressApp.Blazor.Components
+@using DevExpress.ExpressApp.Blazor.Templates
+@using DevExpress.ExpressApp.Blazor.Services
+@using DevExpress.ExpressApp.Utils
+
+@inherits FrameTemplateComponentBase<CustomLogonWindowTemplate>
+@inject ILanguageSwitcherService LanguageSwitcherService
+
+<div id="logon-template-component" class="app h-100 d-flex flex-column">
+    <div class="logon-template-header card-header " style="flex:none">
+         <h1 class="title text-center">TỈNH BẮC GIANG</h1>
+         <h2 class="title-small text-center">HỆ THỐNG THÔNG TIN CHUYÊN NGHÀNH NN&PTNT</h2>
+    </div>
+     <div class="container-fluid flex-grow-1 d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 text-center">
+                     <img src="images/logo.png" width="200" alt="Alternate Text" />
+                    <h3 class="title-sign">Sở Nông nghiệp và Phát triển nông thôn</h3>
+                    <h5 class="title-sign"> Tầng 7, Nhà A, Khu nhà liên cơ quan, Quảng trường 3/2, Phường Ngô Quyền </h5>
+                    <p><span>Tel:0123.456.789</span><span class="span">Email:email@gmail.com</span></p>
+                    <p><span>FAX: 0123.456.789</span><span class="span">Website:www.kennatech.vn</span></p>
+                </div>
+                <div class="col-md-5 form">
+                    <div class="logon-main card mx-3 my-3">
+                        <SizeModeContainer>
+                            @if(LanguageSwitcherService.Visible) {
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>@FrameTemplate.ViewCaption</div>
+                                        <div class="toolbar-language-switcher-wrapper">
+                                            <ToolbarLanguageSwitcher />
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            else {
+                                <div class="card-header text-center">
+                                    @FrameTemplate.ViewCaption
+                                </div>
+                            }
+                            <div class="card-body">
+                                <div class="logon-viewsite">
+                                    <ViewSiteComponent View="@FrameTemplate.View" />
+                                </div>
+                                <div class="logon-toolbar">
+                                    @FrameTemplate.Toolbar.GetComponentContent()
+                                </div>
+                                @if(FrameTemplate.AdditionalToolbar.ContainsVisibleActionControl()) {
+                                    <div class="middle-text-separator">@CaptionHelper.GetLocalizedText("Security/LoginPage", "ExternalAuthorizationActionSeparator")</div>
+                                    @FrameTemplate.AdditionalToolbar.GetComponentContent()
+                                }
+                            </div>
+                        </SizeModeContainer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    public static RenderFragment Create(CustomLogonWindowTemplate logonWindowTemplate) => @<CustomLogonWindowTemplateComponent FrameTemplate="@logonWindowTemplate" />;
+}
