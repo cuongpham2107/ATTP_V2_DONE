@@ -13,11 +13,13 @@
       <Action Id="ListViewShowObject" Caption="Mở" />
       <Action Id="Logoff" Caption="Đăng xuất" />
       <Action Id="Logon" Caption="Đăng nhập" />
+      <Action Id="MyDetails" Caption="Thông tin cá nhân" />
       <Action Id="New" Caption="Tạo mới" />
       <Action Id="Refresh" Caption="Tải lại" />
       <Action Id="RefreshAction" Caption="Tải lại" />
       <Action Id="ReportViewerDialogControllerV2_Close" Caption="Đóng" />
       <Action Id="Save" Caption="Lưu" />
+      <Action Id="ShowInReportV2" Caption="Xuất báo cáo" />
       <Action Id="ThamDinh.CloseAction" Caption="Đóng" />
       <Action Id="ThamDinh.CloseActionUndo" Caption="Mở" />
       <Action Id="ThamDinh.LockAction" Caption="Khoá" />
@@ -132,7 +134,11 @@
         <Member Name="DeleteState" Caption="Xoá" />
       </OwnMembers>
     </Class>
-    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole" Caption="Phân quyền" />
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole" Caption="Phân quyền">
+      <OwnMembers>
+        <Member Name="Users" Caption="Tài khoản" />
+      </OwnMembers>
+    </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRoleBase">
       <OwnMembers>
         <Member Name="CanEditModel" Caption="Cho phép sửa dữ liệu" />
@@ -167,6 +173,7 @@
     <LocalizationGroup Name="DialogButtons">
       <LocalizationItem Name="Close" Value="Đóng" />
       <LocalizationItem Name="Delete" Value="Xoá" />
+      <LocalizationItem Name="Edit" Value="Sửa" />
     </LocalizationGroup>
     <LocalizationGroup Name="Enums">
       <LocalizationGroup Name="DevExpress.Data.Filtering.Aggregate">
@@ -200,6 +207,7 @@
     </Contexts>
   </Validation>
   <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Tài khoản" />
     <DetailView Id="AuthenticationStandardLogonParameters_Blazor_DetailView" Caption="Đăng nhập">
       <Items>
         <StaticText Id="LogonText" Text="Nhập tên người dùng và mật khẩu của bạn dưới đây." />

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="AttpV2.Module.BusinessObjects.ThamDinh">
+      <AppearanceRules Id="AppearanceRules">
+        <AppearanceRule Id="HideCapGCN" Criteria="[NgayThamDinh] Is Not Null And [Oid] Is Not Null" Method="" TargetItems="Btn_CapGiayChungNhan" />
+      </AppearanceRules>
+    </Class>
+  </BOModel>
+</Application>

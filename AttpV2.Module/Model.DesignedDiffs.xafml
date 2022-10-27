@@ -4,7 +4,7 @@
     <Actions>
       <Action Id="GiayChungNhan.CloseAction" ImageName="UnprotectDocument" />
       <Action Id="GiayChungNhan.CloseActionUndo" ImageName="TrackingChanges_Accept" />
-      <Action Id="GiayChungNhan.LockAction" ImageName="Security_Lock" />
+      <Action Id="GiayChungNhan.LockAction" ImageName="Security_Lock" TargetObjectsCriteria="[Lock] = False " />
       <Action Id="GiayChungNhan.LockActionUndo" ImageName="Security_Unlock" />
       <Action Id="ThamDinh-Btn_CapGiayChungNhan" ImageName="SnapInsertHeader" TargetObjectsCriteria="" />
     </Actions>
@@ -20,11 +20,7 @@
         <AppearanceRule Id="HetHanGCN" Criteria="[NgayHetHanGCN] &lt; Now() Or [NgayHetHanGCN] Is Null Or [IsThuHoi] = False" />
         <AppearanceRule Id="Hết Hạn" BackColor="White" FontColor="Red" TargetItems="NgayHetHanGCN" Criteria="[NgayHetHanGCN] &lt; GetDate(Now()) And [NgayHetHanGCN] Is Not Null" FontStyle="Bold" IsNewNode="True" />
         <AppearanceRule Id="HideBiThuHoi" Criteria="[IsThuHoi] = True" Context="DetailView" />
-      </AppearanceRules>
-    </Class>
-    <Class Name="AttpV2.Module.BusinessObjects.ThamDinh">
-      <AppearanceRules>
-        <AppearanceRule Id="HideCapGCN" Criteria="[NgayThamDinh] Is Not Null And [Oid] Is Not Null" Method="" TargetItems="Btn_CapGiayChungNhan" />
+        <AppearanceRule Id="HideEdit" Criteria="[Lock] = True Or [Close] = True" Enabled="False" />
       </AppearanceRules>
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
@@ -32,6 +28,7 @@
   <NavigationItems>
     <Items>
       <Item Id="Reports" ImageName="Action_Export" Shortcut="" />
+      <Item Id="State Machine" Visible="False" />
     </Items>
   </NavigationItems>
   <Options>

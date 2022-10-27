@@ -42,7 +42,11 @@ namespace AttpV2.Module.BusinessObjects
     Criteria = "DateDiffMonth(Today(), [NgayHetHanGCN]) < 1 And [NgayHetHanGCN] Is Not Null", Context = "ListView", FontColor = "Orange", Priority = 2)]
     [Appearance("HetHanGCN", AppearanceItemType = "ViewItem", TargetItems = "CoSoSanXuatKinhDoanh",
     Criteria = "[NgayHetHanGCN] < Now() Or [NgayHetHanGCN] Is Null Or [IsThuHoi] = False", Context = "ListView", FontColor = "Red", Priority = 3)]
-    
+
+
+    [Appearance("HideEdit", AppearanceItemType = "ViewItem",TargetItems = "*", Criteria = "[Lock] = True Or [Close] = True", Context = "Any",Enabled = false)]
+
+
     public class GiayChungNhan : BaseObject
     {
         // https://docs.devexpress.com/CodeRushForRoslyn/118557
@@ -54,18 +58,7 @@ namespace AttpV2.Module.BusinessObjects
         {
             base.AfterConstruction();
         }
-        //protected override void OnSaving()
-        //{
-        //    var item = Session.Query<GiayChungNhan>().Count(p =>p.ThamDinh  == ThamDinh);
-        //    if (item >= 1)
-        //    {
-        //        throw new UserFriendlyException($"Kết quả thẩm định {ThamDinh} đã được sử dụng. Bạn không cần thêm mới nữa.");
-        //    }
-        //    else
-        //    {
-        //        base.OnSaving();
-        //    }
-        //}
+      
         [Browsable(false)]
         [RuleFromBoolProperty(nameof(IsCapGiay), DefaultContexts.Save, "Kết quả thẩm định này đã được xử dụng, Không thể tạo Giấy chứng nhận mới từ kết quả thẩm định này", SkipNullOrEmptyValues = true,UsedProperties = "ThamDinh")]
         public bool IsCapGiay
@@ -243,16 +236,7 @@ namespace AttpV2.Module.BusinessObjects
             }
         }
 
-        //kiểm tra xem đã tồn tại giấy chứng nhận từ kết quả thẩm định chưa
-        //[Browsable(false)]
-        //[RuleFromBoolProperty(nameof(IsDetail), DefaultContexts.Save, "Không thể tạo Giấy chứng nhận mới từ cùng một kết quả thẩm định này!", SkipNullOrEmptyValues = true, UsedProperties = "ThamDinh")]
-        //public bool IsDetail
-        //{
-        //    get
-        //    {
-        //        return !Session.Query<GiayChungNhan>().Any(i => i.ThamDinh == ThamDinh);
-        //    }
-        //}
+        
 
         private bool _lock;
         [XafDisplayName("Lock"), ToolTip(""), ModelDefault("AllowEdit", "False")]
@@ -293,6 +277,7 @@ namespace AttpV2.Module.BusinessObjects
         public void CloseAction()
         {
             Close = true;
+            Lock = true;
             Session.Save(this);
         }
 

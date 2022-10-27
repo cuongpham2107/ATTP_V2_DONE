@@ -36,7 +36,7 @@ namespace AttpV2.Module.BusinessObjects
     [ListViewFilter("Thẩm định cơ sở trong quý 3", "GetMonth([NgayThamDinh]) >= 6 And GetMonth([NgayThamDinh]) <= 9", Index = 6)]
     [ListViewFilter("Thẩm định cơ sở trong quý 4", "GetMonth([NgayThamDinh]) >= 9 And GetMonth([NgayThamDinh]) <= 12", Index = 7)]
 
-    
+    [Appearance("HideEdit", AppearanceItemType = "ViewItem", TargetItems = "*", Criteria = "[Lock] = True Or [Close] = True", Context = "Any", Enabled = false)]
     public class ThamDinh : BaseObject
     {
         public ThamDinh(Session session)
@@ -228,6 +228,7 @@ namespace AttpV2.Module.BusinessObjects
         public void CloseAction()
         {
             Close = true;
+            Lock = true;
             Session.Save(this);
         }
 

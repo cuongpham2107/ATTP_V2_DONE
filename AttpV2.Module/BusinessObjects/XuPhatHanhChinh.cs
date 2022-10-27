@@ -1,5 +1,6 @@
 ﻿using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Model;
 using DevExpress.ExpressApp.SystemModule;
@@ -33,6 +34,9 @@ namespace AttpV2.Module.BusinessObjects
     [ListViewFilter("Xử phạt cơ sở trong quý 2", "GetMonth([NgayXuPhat]) >= 3 And GetMonth([NgayXuPhat]) <= 6", Index = 5)]
     [ListViewFilter("Xử phạt cơ sở trong quý 3", "GetMonth([NgayXuPhat]) >= 6 And GetMonth([NgayXuPhat]) <= 9", Index = 6)]
     [ListViewFilter("Xử phạt cơ sở trong quý 4", "GetMonth([NgayXuPhat]) >= 9 And GetMonth([NgayXuPhat]) <= 12", Index = 7)]
+
+
+    [Appearance("HideEdit", AppearanceItemType = "ViewItem", TargetItems = "*", Criteria = "[Lock] = True Or [Close] = True", Context = "Any", Enabled = false)]
     public class XuPhatHanhChinh : BaseObject
     { 
         public XuPhatHanhChinh(Session session)
@@ -214,6 +218,7 @@ namespace AttpV2.Module.BusinessObjects
         public void CloseAction()
         {
             Close = true;
+            Lock = true;
             Session.Save(this);
         }
 
