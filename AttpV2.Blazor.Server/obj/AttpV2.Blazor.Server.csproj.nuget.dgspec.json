@@ -11,7 +11,7 @@
         "projectName": "AttpV2.Blazor.Server",
         "projectPath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\AttpV2.Blazor.Server.csproj",
         "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\obj\\",
+        "outputPath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"

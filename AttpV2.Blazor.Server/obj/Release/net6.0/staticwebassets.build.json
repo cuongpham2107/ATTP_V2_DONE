@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qqd7gkjcD6KeCxXu37vYjllSxFzPYZ6Ou0XQg+R3T3g=",
+  "Hash": "Bu980v76faLEU86tuaaaQUM5a5x8e//D/jXtJq85JmQ=",
   "Source": "AttpV2.Blazor.Server",
   "BasePath": "_content/AttpV2.Blazor.Server",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "AttpV2.Blazor.Server\\wwwroot",
       "Source": "AttpV2.Blazor.Server",
-      "ContentRoot": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AttpV2.Blazor.Server",
       "Pattern": "**"
     }
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.expressapp.office.blazor\\22.1.5\\staticwebassets\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\css\\site.css",
       "SourceId": "AttpV2.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AttpV2.Blazor.Server",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\favicon.ico",
       "SourceId": "AttpV2.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AttpV2.Blazor.Server",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\logo.png",
       "SourceId": "AttpV2.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AttpV2.Blazor.Server",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -3655,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\Logo.svg",
       "SourceId": "AttpV2.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AttpV2.Blazor.Server",
       "RelativePath": "images/Logo.svg",
       "AssetKind": "All",
@@ -3672,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Logo.svg"
     },
     {
-      "Identity": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\logobacgiang.png",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\logobacgiang.png",
       "SourceId": "AttpV2.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AttpV2.Blazor.Server",
       "RelativePath": "images/logobacgiang.png",
       "AssetKind": "All",
@@ -3689,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logobacgiang.png"
     },
     {
-      "Identity": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "Identity": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
       "SourceId": "AttpV2.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cuong\\Source\\Repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AttpV2.Blazor.Server",
       "RelativePath": "images/SplashScreen.svg",
       "AssetKind": "All",

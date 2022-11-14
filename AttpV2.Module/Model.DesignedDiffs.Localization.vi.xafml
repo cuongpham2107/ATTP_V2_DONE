@@ -119,7 +119,7 @@
         <Member Name="Name" Caption="Tên" />
       </OwnMembers>
     </Class>
-    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyActionPermissionObject">
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyActionPermissionObject" Caption="Hành động bị Từ chối">
       <OwnMembers>
         <Member Name="Role" Caption="Phân quyền" />
       </OwnMembers>
@@ -141,9 +141,13 @@
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRoleBase">
       <OwnMembers>
+        <Member Name="ActionPermissions" Caption="Hành động bị Từ chối" />
         <Member Name="CanEditModel" Caption="Cho phép sửa dữ liệu" />
         <Member Name="IsAdministrative" Caption="Có phải Tài khoản Admin không ?" />
         <Member Name="Name" Caption="Tên" />
+        <Member Name="NavigationPermissions" Caption="Quyền điều hướng" />
+        <Member Name="PermissionPolicy" Caption="Quyền được phép" />
+        <Member Name="TypePermissions" Caption="Thêm quyền" />
       </OwnMembers>
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyTypePermissionObject">
@@ -155,6 +159,7 @@
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser">
       <OwnMembers>
         <Member Name="ChangePasswordOnFirstLogon" Caption="Buộc đổi mật khẩu" />
+        <Member Name="IsActive" Caption="Đang hoạt động" />
         <Member Name="UserName" Caption="Tài khoản" />
       </OwnMembers>
     </Class>
@@ -185,21 +190,19 @@
       <LocalizationGroup Name="DevExpress.ExpressApp.Security.SecurityRequestOperations">
         <LocalizationItem Name="Delete" Value="Xoá" />
       </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Templates.ActionsToolbarVisibility">
+        <LocalizationItem Name="Default" Value="Quản trị" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.Persistent.Base.SecurityPermissionPolicy">
+        <LocalizationItem Name="AllowAllByDefault" Value="Cho phép tất cả" />
+        <LocalizationItem Name="DenyAllByDefault" Value="Chặn tất cả" />
+        <LocalizationItem Name="ReadOnlyAllByDefault" Value="Quyền chỉ đọc" />
+      </LocalizationGroup>
     </LocalizationGroup>
     <LocalizationGroup Name="Messages">
       <LocalizationItem Name="Delete" Value="Xoá" />
     </LocalizationGroup>
   </Localization>
-  <NavigationItems>
-    <Items>
-      <Item Id="Reports" Caption="📑Báo cáo">
-        <Items>
-          <Item Id="Dashboards" Caption="Bảng điều khiển" />
-          <Item Id="ReportsV2" Caption="Báo cáo" />
-        </Items>
-      </Item>
-    </Items>
-  </NavigationItems>
   <Validation>
     <Contexts>
       <ValidationContext Id="Delete" Caption="Xoá" />

@@ -10,7 +10,7 @@
     </Actions>
   </ActionDesign>
   <BOModel>
-    <Class Name="AttpV2.Module.BusinessObjects.CoSoSanXuatKinhDoanh">
+    <Class Name="AttpV2.Module.BusinessObjects.CoSoSanXuatKinhDoanh" DefaultListViewShowFindPanel="False">
       <AppearanceRules>
         <AppearanceRule Id="HetHanGCN" Criteria="[ThoiHanGCN] &lt; Now()" />
       </AppearanceRules>
@@ -25,12 +25,6 @@
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
   </BOModel>
-  <NavigationItems>
-    <Items>
-      <Item Id="Reports" ImageName="Action_Export" Shortcut="" />
-      <Item Id="State Machine" Visible="False" />
-    </Items>
-  </NavigationItems>
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
@@ -279,6 +273,12 @@
             <ColumnSummaryItem Id="Summary0" SummaryType="Count" IsNewNode="True" />
           </Summary>
         </ColumnInfo>
+      </Columns>
+    </ListView>
+    <ListView Id="PhatTrienKinhTe_ListView" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="KeHoach" Index="1" />
+        <ColumnInfo Id="Vung" SortOrder="Ascending" GroupIndex="0" Index="2" />
       </Columns>
     </ListView>
     <DetailView Id="ThamDinh_DetailView">

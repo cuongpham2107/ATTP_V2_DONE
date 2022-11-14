@@ -23,7 +23,7 @@ namespace AttpV2.Blazor.Server.Controllers
             {
                 IDxGridAdapter dataGridAdapter = gridListEditor.GetGridAdapter();
                 //dataGridAdapter.GridModel.ColumnResizeMode = DevExpress.Blazor.GridColumnResizeMode.Disabled;
-                dataGridAdapter.GridModel.ShowGroupPanel = true;
+                //dataGridAdapter.GridModel.ShowGroupPanel = true;
                 dataGridAdapter.GridModel.FooterDisplayMode = DevExpress.Blazor.GridFooterDisplayMode.Auto;
                 dataGridAdapter.GridModel.AutoExpandAllGroupRows = true;
                 dataGridAdapter.GridModel.ShowFilterRow = true;

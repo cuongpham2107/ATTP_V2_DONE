@@ -8,25 +8,25 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AttpV2.Blazor.Server
 build_property.RootNamespace = AttpV2.Blazor.Server
-build_property.ProjectDir = C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Blazor.Server\
+build_property.ProjectDir = C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Blazor.Server
+build_property.MSBuildProjectDirectory = C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/cuong/Source/Repos/AttpV2/AttpV2.Blazor.Server/App.razor]
+[C:/Users/cuong/source/repos/AttpV2/AttpV2.Blazor.Server/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cuong/Source/Repos/AttpV2/AttpV2.Blazor.Server/Templates/CustomLogonWindowTemplateComponent.razor]
+[C:/Users/cuong/source/repos/AttpV2/AttpV2.Blazor.Server/Templates/CustomLogonWindowTemplateComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXEN1c3RvbUxvZ29uV2luZG93VGVtcGxhdGVDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cuong/Source/Repos/AttpV2/AttpV2.Blazor.Server/_Imports.razor]
+[C:/Users/cuong/source/repos/AttpV2/AttpV2.Blazor.Server/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cuong/Source/Repos/AttpV2/AttpV2.Blazor.Server/Pages/_Host.cshtml]
+[C:/Users/cuong/source/repos/AttpV2/AttpV2.Blazor.Server/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
