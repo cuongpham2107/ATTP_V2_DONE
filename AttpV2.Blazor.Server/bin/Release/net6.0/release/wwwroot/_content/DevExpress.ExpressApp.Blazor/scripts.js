@@ -220,6 +220,7 @@
         IsNewReport = isNewReport;
     }
     var ParametersTypes = null;
+    var ParametersTypesKeysCache = new Set();
     function setParametersTypes(parametersTypes) {
         ParametersTypes = parametersTypes;
     }
@@ -268,7 +269,10 @@
     }
     function initParametersTypes(s) {
         for (var type in ParametersTypes) {
-            s.dx.Reporting.Designer.Data.ParameterTypesHelper.typeValues.push({ value: type, displayValue: ParametersTypes[type], defaultValue: '', typeImage: '' })
+            if(!ParametersTypesKeysCache.has(type)) {
+                s.AddParameterType({ value: type, displayValue: ParametersTypes[type], defaultValue: '', typeImage: '' }, null);
+                ParametersTypesKeysCache.add(type);
+            }
         }
     }
 
@@ -358,10 +362,14 @@
             document.addEventListener("pointerdown", element.GlobalClickHandler);
         },
         resetMainContentScrollPosition() {
-            var mainContent = document.getElementsByClassName("main-content")[0];
-            if (mainContent) {
-                mainContent.scrollTop = 0;
-                mainContent.scrollLeft = 0;
+            // for T1113652 -- prevent resetting scroll that has been set for the default focused item
+            const InputTagList = ['input', 'textarea', 'button', 'select'];
+            if (InputTagList.indexOf(document.activeElement.tagName.toLowerCase()) === -1) {
+                var mainContent = document.getElementsByClassName("main-content")[0];
+                if (mainContent) {
+                    mainContent.scrollTop = 0;
+                    mainContent.scrollLeft = 0;
+                }
             }
         },
         executeParametrizedAction(buttonElement) {
@@ -402,9 +410,13 @@
         focusViewItem(caption) {
             if (!xaf.device.isTouchDevice()) {
                 caption = caption && caption.replace ? caption.replace(/\\/g, "\\\\").replace(/'/g, "\\'") : caption;
-                let primaryItems = document.querySelectorAll("div[data-item-name='" + caption + "'] + div .form-control.dxbs-form-control");
-                if (primaryItems.length === 1) {
-                    setTimeout(() => { primaryItems[0].focus(); }, 0);
+                let primaryItems = document.querySelectorAll("div[data-item-name='" + caption + "'] + div input, div[data-item-name='" + caption + "'] + div textarea");
+                if (primaryItems.length >= 1) {
+                    let primaryItem = primaryItems[primaryItems.length - 1];
+                    setTimeout(() => {
+                        primaryItem.focus();
+                        primaryItem.scrollIntoView({ block: "center" });
+                    }, 0);
                 }
             }
         },

@@ -16,12 +16,12 @@ namespace AttpV2.Module.BusinessObjects
 {
     [DefaultClassOptions]
     [ImageName("BO_Contact")]
+    [NavigationItem(Menu.DataMenuItem)]
     [XafDisplayName("Chỉ tiêu phát triển KT-XH")]
     [DefaultProperty(nameof(ChiTieu))]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     [ListViewFindPanel(true)]
     [LookupEditorMode(LookupEditorMode.AllItemsWithSearch)]
-    [NavigationItem(Menu.DataMenuItem)]
     public class PhatTrienKinhTe : BaseObject
     {
         public PhatTrienKinhTe(Session session)

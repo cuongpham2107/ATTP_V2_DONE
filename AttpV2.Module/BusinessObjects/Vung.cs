@@ -17,6 +17,7 @@ namespace AttpV2.Module.BusinessObjects
 {
     [DefaultClassOptions]
     [ImageName("BO_Contact")]
+    [NavigationItem(Menu.CategoryMenuItem)]
     [XafDisplayName("Vùng phát triển KT-XH")]
     [DefaultProperty(nameof(TenVung))]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]

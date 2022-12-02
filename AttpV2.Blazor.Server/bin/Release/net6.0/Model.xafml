@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Description="Phần mềm Quản lý cấp giấy chứng nhận đủ điều kiện an toàn thực phẩm" Copyright="KennaTech JSC." Company="Sở Nông nghiệp và Phát triển Nông thôn tỉnh Bắc Giang" PreferredLanguage="vi" Title="Quản lý cấp GCN ATTP">
+  <ActionDesign>
+    <Actions>
+      <Action Id="ColumnChooser" CustomCSSClassName="Action_tabbar_column" />
+    </Actions>
+  </ActionDesign>
+  <NavigationItems>
+    <Items>
+      <Item Id="State Machine" Visible="False" />
+    </Items>
+  </NavigationItems>
   <SchemaModules>
-    <SchemaModule Name="CloneObjectModule" Version="22.1.5.0" IsNewNode="True" />
-    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="CloneObjectModule" Version="22.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.1.6.0" IsNewNode="True" />
   </SchemaModules>
   <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor" />
 </Application>

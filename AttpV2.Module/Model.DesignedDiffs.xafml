@@ -17,20 +17,38 @@
     </Class>
     <Class Name="AttpV2.Module.BusinessObjects.GiayChungNhan">
       <AppearanceRules>
-        <AppearanceRule Id="HetHanGCN" Criteria="[NgayHetHanGCN] &lt; Now() Or [NgayHetHanGCN] Is Null Or [IsThuHoi] = False" />
         <AppearanceRule Id="Hết Hạn" BackColor="White" FontColor="Red" TargetItems="NgayHetHanGCN" Criteria="[NgayHetHanGCN] &lt; GetDate(Now()) And [NgayHetHanGCN] Is Not Null" FontStyle="Bold" IsNewNode="True" />
+        <AppearanceRule Id="HetHanGCN" Criteria="[NgayHetHanGCN] &lt; Now() Or [NgayHetHanGCN] Is Null Or [IsThuHoi] = False" />
         <AppearanceRule Id="HideBiThuHoi" Criteria="[IsThuHoi] = True" Context="DetailView" />
         <AppearanceRule Id="HideEdit" Criteria="[Lock] = True Or [Close] = True" Enabled="False" />
       </AppearanceRules>
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
   </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="⚙ Hệ thống" ImageName="BO_Folder" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="ApplicationUser_ListView" Caption="Tài khoản" ImageName="BO_User" ViewId="ApplicationUser_ListView" IsNewNode="True" />
+          <Item Id="MyDetails" Caption="Cá nhân" ImageName="BO_MyDetails" ObjectKey="@CurrentUserID" ViewId="ApplicationUser_DetailView" IsNewNode="True" />
+          <Item Id="PermissionPolicyRole_ListView" Caption="Phân quyền" ImageName="BO_Role" ViewId="PermissionPolicyRole_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Caption="🖨 Báo cáo">
+        <Items>
+          <Item Id="Dashboards" Caption="Bảng điều khiển" />
+          <Item Id="ReportsV2" Caption="Báo cáo" />
+        </Items>
+      </Item>
+      <Item Id="State Machine" Visible="False" />
+    </Items>
+  </NavigationItems>
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
   <SchemaModules>
-    <SchemaModule Name="CloneObjectModule" Version="22.1.5.0" IsNewNode="True" />
-    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="CloneObjectModule" Version="22.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.1.6.0" IsNewNode="True" />
   </SchemaModules>
   <Validation>
     <Rules>

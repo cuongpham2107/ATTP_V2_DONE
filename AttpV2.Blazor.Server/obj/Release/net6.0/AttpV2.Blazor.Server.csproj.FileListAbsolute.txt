@@ -136,3 +136,8 @@ C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\refin
 C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\AttpV2.Blazor.Server.pdb
 C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\AttpV2.Blazor.Server.genruntimeconfig.cache
 C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\ref\AttpV2.Blazor.Server.dll
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\staticwebassets\msbuild.AttpV2.Blazor.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\staticwebassets\msbuild.build.AttpV2.Blazor.Server.props
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.AttpV2.Blazor.Server.props
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.AttpV2.Blazor.Server.props
+C:\Users\cuong\source\repos\AttpV2\AttpV2.Blazor.Server\obj\Release\net6.0\staticwebassets.pack.json

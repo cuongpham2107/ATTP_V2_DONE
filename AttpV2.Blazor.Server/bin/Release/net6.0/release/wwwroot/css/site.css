@@ -69,3 +69,6 @@ app {
 #logon-template-component .span {
     padding-left: 20px;
 }
+.Action_tabbar_column span{
+    display:none;
+}

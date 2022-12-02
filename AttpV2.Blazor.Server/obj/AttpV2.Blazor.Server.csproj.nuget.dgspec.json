@@ -14,11 +14,13 @@
         "outputPath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,6 +29,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,35 +54,35 @@
           "dependencies": {
             "DevExpress.ExpressApp.Blazor": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.CodeAnalysis": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Dashboards.Blazor": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.FileAttachment.Blazor": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Office.Blazor": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.ReportsV2.Blazor": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Security.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Validation.Blazor": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -92,7 +95,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -104,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -118,11 +122,13 @@
         "outputPath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,6 +137,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -151,67 +158,67 @@
           "dependencies": {
             "DevExpress.ExpressApp": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.AuditTrail.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.CloneObject.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.CodeAnalysis": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.ConditionalAppearance": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Dashboards": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Objects": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Office": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.ReportsV2": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Security.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.StateMachine": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Validation": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.ViewVariantsModule": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.ExpressApp.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.Persistent.Base": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "DevExpress.Persistent.BaseImpl.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[22.1.6, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -224,7 +231,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -233,7 +241,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

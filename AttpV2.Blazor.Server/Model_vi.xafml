@@ -1,2 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application />
+<Application>
+  <Localization>
+    <LocalizationGroup Name="Confirmations">
+      <LocalizationItem Name="Cancel" Value="Các thay đổi chưa lưu sẽ bị mất. Bạn có muốn tiếp tục?" />
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="⚙ Hệ thống">
+        <Items>
+          <Item Id="MyDetails" Caption="Cá nhân" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Caption="🖨 Báo cáo">
+        <Items>
+          <Item Id="Dashboards" Caption="Bảng điều khiển" />
+          <Item Id="ReportsV2" Caption="Báo cáo" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

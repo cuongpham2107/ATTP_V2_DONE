@@ -15,8 +15,7 @@ using System.Text;
 namespace AttpV2.Module.BusinessObjects
 {
     [DefaultClassOptions]
-    
-
+    [NavigationItem(Menu.CategoryMenuItem)]
     [ImageName("BO_Contact")]
     [XafDisplayName("Loại chỉ tiêu")]
     [DefaultProperty(nameof(TenChiTieu))]

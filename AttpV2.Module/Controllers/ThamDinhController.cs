@@ -49,21 +49,32 @@ namespace AttpV2.Module.Controllers
             {
                 if(((DetailView)ObjectSpace.Owner).CurrentObject is ThamDinh td)
                 {
-                  
+                   
                     NewObjectViewController controller = Frame.GetController<NewObjectViewController>();
                     if (controller != null)
                     {
                         void Created(object sender, ObjectCreatedEventArgs e)
                         {
-                            var gcn = e.CreatedObject as GiayChungNhan;
                             var thamdinh = e.ObjectSpace.GetObject(td);
-                            gcn.ThamDinh = thamdinh;
-                            gcn.CoSoSanXuatKinhDoanh = thamdinh.CoSoSanXuatKinhDoanh;
-                            gcn.NgayCapGiayChungNhan = DateTime.Now;
+                            if(thamdinh != null)
+                            {
+                                var gcn = e.CreatedObject as GiayChungNhan;
+                                gcn.ThamDinh = thamdinh;
+                                gcn.CoSoSanXuatKinhDoanh = thamdinh.CoSoSanXuatKinhDoanh;
+                                gcn.NgayCapGiayChungNhan = DateTime.Now;
+                            }
+                            else
+                            {
+                                Application.ShowViewStrategy.ShowMessage("Chưa có kết quả thẩm định cho cơ sở", InformationType.Error, displayInterval: 5000, InformationPosition.Bottom);
+                            }
+                            
+                                
                         }
+                       
                         controller.ObjectCreated += Created;
                         controller.NewObjectAction.DoExecute(controller.NewObjectAction.Items[0]);
-
+                       
+                       
                     }
                    
                 }
