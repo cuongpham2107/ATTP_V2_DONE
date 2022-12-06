@@ -72,3 +72,9 @@ app {
 .Action_tabbar_column span{
     display:none;
 }
+.dxbs-tb-flex1 {
+    flex: none;
+}
+.input-search-right {
+    margin-left:auto;
+}

@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\cuong\\source\\repos\\ATTP_V2_DONE\\AttpV2.Blazor.Server\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\cuong\\source\\repos\\ATTP_V2_DONE\\AttpV2.Blazor.Server\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "Id": "C:\\Users\\cuong\\source\\repos\\ATTP_V2_DONE\\AttpV2.Blazor.Server\\wwwroot\\images\\Logo.svg",
       "PackagePath": "staticwebassets\\images\\Logo.svg"
     },
     {
-      "Id": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "Id": "C:\\Users\\cuong\\source\\repos\\ATTP_V2_DONE\\AttpV2.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
       "PackagePath": "staticwebassets\\images\\SplashScreen.svg"
     },
     {
-      "Id": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\cuong\\source\\repos\\ATTP_V2_DONE\\AttpV2.Blazor.Server\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\wwwroot\\images\\logobacgiang.png",
+      "Id": "C:\\Users\\cuong\\source\\repos\\ATTP_V2_DONE\\AttpV2.Blazor.Server\\wwwroot\\images\\logobacgiang.png",
       "PackagePath": "staticwebassets\\images\\logobacgiang.png"
     },
     {

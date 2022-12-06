@@ -3,6 +3,7 @@
   <ActionDesign>
     <Actions>
       <Action Id="ColumnChooser" CustomCSSClassName="Action_tabbar_column" />
+      <Action Id="FullTextSearch" CustomCSSClassName="input-search-right" PaintStyle="Default" ConfirmUnsavedChanges="True" DefaultItemMode="FirstActiveItem" />
     </Actions>
   </ActionDesign>
   <NavigationItems>
@@ -14,5 +15,10 @@
     <SchemaModule Name="CloneObjectModule" Version="22.1.6.0" IsNewNode="True" />
     <SchemaModule Name="SystemModule" Version="22.1.6.0" IsNewNode="True" />
   </SchemaModules>
+  <Validation>
+    <Rules>
+      <PasswordStrengthCodeRule Id="PasswordStrengthCodeRule_ChangePasswordOnLogonParameters" SkipNullOrEmptyValues="False" />
+    </Rules>
+  </Validation>
   <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor" />
 </Application>

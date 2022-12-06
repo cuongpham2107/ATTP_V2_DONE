@@ -91,7 +91,23 @@ namespace AttpV2.Module.BusinessObjects
                 SetPropertyValue(nameof(CoSoSanXuatKinhDoanh), ref coSoSanXuatKinhDoanh, value);
             }
         }
-
+        [PersistentAlias("[CoSoSanXuatKinhDoanh.CoQuanQuanLy]")]
+        [XafDisplayName("Cơ quan quản lý")]
+        public CoQuanQuanLy CoQuanQuanLy
+        {
+            get
+            {
+                var tmp = EvaluateAlias(nameof(CoQuanQuanLy));
+                if (tmp != null)
+                {
+                    return tmp as CoQuanQuanLy;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
         [XafDisplayName("Số cấp")]
         [RuleRequiredField("Bắt buộc phải có GiayChungNhan.SoCap", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public string SoCap

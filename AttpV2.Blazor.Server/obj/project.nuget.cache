@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Cxs1hrvYamIMOM7K9tMrEEB9RxplhnERvTqYyngoIlGDtd1XwXwIzrpIdsWqYb3f/egsK2077Oj3ZctcLlhbA==",
+  "dgSpecHash": "2uczm13G6QebFFUR0YJvSYH/8Dpa9/NFyzUC9bxzSR2ZHaL/JBlLWe2HaFTkL0wCX0xjK/lbHZRsgTModa5AKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Blazor.Server\\AttpV2.Blazor.Server.csproj",
+  "projectFilePath": "C:\\Users\\cuong\\source\\repos\\ATTP_V2_DONE\\AttpV2.Blazor.Server\\AttpV2.Blazor.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.aspnetcore.common\\22.1.6\\devexpress.aspnetcore.common.22.1.6.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.aspnetcore.core\\22.1.6\\devexpress.aspnetcore.core.22.1.6.nupkg.sha512",

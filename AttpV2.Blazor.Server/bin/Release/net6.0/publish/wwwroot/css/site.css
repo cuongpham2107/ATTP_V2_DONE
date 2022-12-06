@@ -9,15 +9,24 @@ app {
 
 .header-logo {
     flex-shrink: 0;
-    background-color: currentColor;
-    -webkit-mask: url('../images/Logo.svg');
-    mask: url('../images/Logo.svg');
-    -webkit-mask-position: center;
-    mask-position: center;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    width: 180px;
-    height: 24px;
+    background-image: url('../images/logonongnghiep.png');
+    /*-webkit-mask: url('../images/logobacgiang.png');
+    mask: url('../images/logobacgiang.png');*/
+
+    width: 100px;
+    height: 96px;
+    background-size: cover;
+}
+
+.header-left-side .header-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.loading-image {
+    width: 451px;
+    height: 312px;
+    padding-right: 30px;
 }
 
 #blazor-error-ui {
@@ -28,4 +37,44 @@ app {
     width: 100%;
     height: 100%;
     z-index: 100001;
+}
+
+#logon-template-component .title {
+    text-align: center;
+    color: #e71c1c;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#logon-template-component .title-small {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#logon-template-component .container-fluid {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+    width: 100%;
+}
+
+#logon-template-component .title-sign {
+    text-align: center;
+    color: cornsilk;
+}
+
+#logon-template-component p, #logon-template-component span {
+    color: aliceblue;
+}
+
+#logon-template-component .span {
+    padding-left: 20px;
+}
+.Action_tabbar_column span{
+    display:none;
+}
+.dxbs-tb-flex1 {
+    flex: none;
+}
+.input-search-right {
+    margin-left:auto;
 }

@@ -13,6 +13,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using AttpV2.Module.BusinessObjects;
+using DevExpress.Persistent.BaseImpl.PermissionPolicy;
 
 namespace AttpV2.Blazor.Server.Controllers
 {
@@ -36,8 +38,12 @@ namespace AttpV2.Blazor.Server.Controllers
             LinkUnlinkController controller = Frame.GetController<LinkUnlinkController>();
             if (controller != null)
             {
-                controller.LinkAction.Active.SetItemValue("", false);
-                controller.UnlinkAction.Active.SetItemValue("", false);
+                if(View.ObjectTypeInfo.Type != typeof(PermissionPolicyUser))
+                {
+                    controller.LinkAction.Active.SetItemValue("", false);
+                    controller.UnlinkAction.Active.SetItemValue("", false);
+                }
+               
             }
         }
         protected override void OnViewControlsCreated()

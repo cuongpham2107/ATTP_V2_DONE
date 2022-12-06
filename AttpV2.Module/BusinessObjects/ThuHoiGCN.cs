@@ -66,6 +66,23 @@ namespace AttpV2.Module.BusinessObjects
                
             }
         }
+        [PersistentAlias("[CoSoSanXuatKinhDoanh.CoQuanQuanLy]")]
+        [XafDisplayName("Cơ quan quản lý")]
+        public CoQuanQuanLy CoQuanQuanLy
+        {
+            get
+            {
+                var tmp = EvaluateAlias(nameof(CoQuanQuanLy));
+                if (tmp != null)
+                {
+                    return tmp as CoQuanQuanLy;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
 
         [XafDisplayName("Mã số doanh nghiệp")]
         [ModelDefault("AlowEdit", "False")]

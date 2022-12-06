@@ -69,6 +69,8 @@ namespace AttpV2.Module.BusinessObjects
         [ModelDefault("AlowEdit","False")]
         [Association("ThamDinhCapGCN-FileDLs")]
         [XafDisplayName("Thẩm định")]
+        [VisibleInDetailView(false)]
+        [VisibleInListView(false)]
         public ThamDinh ThamDinh
         {
             get => thamDinh;
@@ -78,6 +80,8 @@ namespace AttpV2.Module.BusinessObjects
         [ModelDefault("AlowEdit","False")]
         [Association("GiayChungNhan-FileDLs")]
         [XafDisplayName("Giấy chứng nhận")]
+        [VisibleInDetailView(false)]
+        [VisibleInListView(false)]
         public GiayChungNhan GiayChungNhan
         {
             get => giayChungNhan;
@@ -86,6 +90,8 @@ namespace AttpV2.Module.BusinessObjects
         [ModelDefault("AlowEdit","False")]
         [Association("ThuHoiGCN-FileDLs")]
         [XafDisplayName("Thu hồi giấy chứng nhận")]
+        [VisibleInDetailView(false)]
+        [VisibleInListView(false)]
         public ThuHoiGCN ThuHoiGCN
         {
             get => thuHoiGCN;
@@ -95,6 +101,8 @@ namespace AttpV2.Module.BusinessObjects
         [Association("XuPhatHanhChinh-FileDLs")]
         [ModelDefault("AlowEdit","False")]
         [XafDisplayName("Xử phạt hành chính")]
+        [VisibleInDetailView(false)]
+        [VisibleInListView(false)]
         public XuPhatHanhChinh XuPhatHanhChinh
         {
             get => xuPhatHanhChinh;

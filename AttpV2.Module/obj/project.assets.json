@@ -8417,11 +8417,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj",
+      "projectUniqueName": "C:\\Users\\cuong\\Source\\Repos\\ATTP_V2_DONE\\AttpV2.Module\\AttpV2.Module.csproj",
       "projectName": "AttpV2.Module",
-      "projectPath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj",
+      "projectPath": "C:\\Users\\cuong\\Source\\Repos\\ATTP_V2_DONE\\AttpV2.Module\\AttpV2.Module.csproj",
       "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\obj\\",
+      "outputPath": "C:\\Users\\cuong\\Source\\Repos\\ATTP_V2_DONE\\AttpV2.Module\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -8440,7 +8440,8 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/zjZmuAc2mIfzhQ9hE9LPZnpMdAcEpKZjLT6BmG9lMCrD58b78R/api": {}
       },
       "frameworks": {
         "net6.0": {

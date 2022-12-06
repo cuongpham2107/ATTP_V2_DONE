@@ -19,7 +19,7 @@
       <Action Id="RefreshAction" Caption="Tải lại" />
       <Action Id="ReportViewerDialogControllerV2_Close" Caption="Đóng" />
       <Action Id="Save" Caption="Lưu" />
-      <Action Id="ShowInReportV2" Caption="Xuất báo cáo" />
+      <Action Id="ShowInReportV2" Caption="🖨 Xuất báo cáo" ShortCaption="🖨 Xuất báo cáo" />
       <Action Id="ThamDinh.CloseAction" Caption="Đóng" />
       <Action Id="ThamDinh.CloseActionUndo" Caption="Mở" />
       <Action Id="ThamDinh.LockAction" Caption="Khoá" />
@@ -71,6 +71,7 @@
     </Class>
     <Class Name="DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters">
       <OwnMembers>
+        <Member Name="ConfirmPassword" Caption="Nhập lại mật khẩu" />
         <Member Name="NewPassword" Caption="Mật khẩu mới" />
       </OwnMembers>
     </Class>
@@ -199,6 +200,15 @@
         <LocalizationItem Name="ReadOnlyAllByDefault" Value="Quyền chỉ đọc" />
       </LocalizationGroup>
     </LocalizationGroup>
+    <LocalizationGroup Name="Exceptions">
+      <LocalizationGroup Name="UserVisibleExceptions">
+        <LocalizationGroup Name="Security">
+          <LocalizationItem Name="LoginFailed" Value="Đăng nhập không thành công '{0}'. {1}" />
+          <LocalizationItem Name="NewPasswordIsEqualToOldPassword" Value="Mật khẩu mới giống mật khẩu cũ" />
+          <LocalizationItem Name="RetypeTheInformation" Value="Tên đăng nhập hoặc tài khoản của bạn không chính xác." />
+        </LocalizationGroup>
+      </LocalizationGroup>
+    </LocalizationGroup>
     <LocalizationGroup Name="Messages">
       <LocalizationItem Name="Delete" Value="Xoá" />
     </LocalizationGroup>
@@ -217,6 +227,46 @@
       </Items>
     </DetailView>
     <DetailView Id="AuthenticationStandardLogonParameters_DetailView" Caption="Đăng nhập" />
+    <DetailView Id="ChangePasswordOnLogonParameters_Blazor_DetailView" Caption="Đổi mật khẩu">
+      <Items>
+        <PropertyEditor Id="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </Items>
+    </DetailView>
+    <DetailView Id="ChangePasswordOnLogonParameters_DetailView" Caption="Đổi mật khẩu">
+      <Items>
+        <PropertyEditor Id="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </Items>
+    </DetailView>
+    <ListView Id="ChangePasswordOnLogonParameters_ListView">
+      <Columns>
+        <ColumnInfo Id="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </Columns>
+    </ListView>
+    <ListView Id="ChangePasswordOnLogonParameters_LookupListView">
+      <Columns>
+        <ColumnInfo Id="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ChangePasswordParameters_Blazor_DetailView" Caption="Đổi mật khẩu">
+      <Items>
+        <PropertyEditor Id="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </Items>
+    </DetailView>
+    <DetailView Id="ChangePasswordParameters_DetailView" Caption="Đổi mật khẩu">
+      <Items>
+        <PropertyEditor Id="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </Items>
+    </DetailView>
+    <ListView Id="ChangePasswordParameters_ListView">
+      <Columns>
+        <ColumnInfo Id="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </Columns>
+    </ListView>
+    <ListView Id="ChangePasswordParameters_LookupListView">
+      <Columns>
+        <ColumnInfo Id="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </Columns>
+    </ListView>
     <DetailView Id="FileDL_DetailView">
       <Layout>
         <LayoutGroup Id="Main">

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zbbgbxn+VU8ZMDWqw2AC5n4xZMhaMoeEIE2biNcNqxA=",
+  "Source": "API_ATTP.WebApi",
+  "BasePath": "_content/API_ATTP.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

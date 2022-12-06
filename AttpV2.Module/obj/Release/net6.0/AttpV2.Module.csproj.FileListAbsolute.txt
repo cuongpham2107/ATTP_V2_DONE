@@ -12,3 +12,17 @@ C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Module\obj\Release\net6.0\AttpV2.Modul
 C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Module\obj\Release\net6.0\refint\AttpV2.Module.dll
 C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.pdb
 C:\Users\cuong\Source\Repos\AttpV2\AttpV2.Module\obj\Release\net6.0\ref\AttpV2.Module.dll
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\bin\Release\net6.0\AttpV2.Module.deps.json
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\bin\Release\net6.0\AttpV2.Module.dll
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\bin\Release\net6.0\AttpV2.Module.pdb
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\bin\Release\net6.0\vi\AttpV2.Module.resources.dll
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.csproj.AssemblyReference.cache
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.AssemblyInfoInputs.cache
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.AssemblyInfo.cs
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.csproj.CoreCompileInputs.cache
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\vi\AttpV2.Module.resources.dll
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.dll
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\refint\AttpV2.Module.dll
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\AttpV2.Module.pdb
+C:\Users\cuong\Source\Repos\ATTP_V2_DONE\AttpV2.Module\obj\Release\net6.0\ref\AttpV2.Module.dll

@@ -20,7 +20,16 @@ public class AttpV2BlazorApplication : BlazorApplication {
         {
             return new CustomLogonWindowTemplate();
         }
+        if (context == TemplateContext.ApplicationWindow)
+        {
+            return new CustomApplicationWindowTemplate();
+        }
+        if(context == TemplateContext.NestedFrame)
+        {
+            return new CustomNestedFrameTemplate();
+        }
         return base.CreateDefaultTemplate(context);
+       
     }
     public AttpV2BlazorApplication() {
         ApplicationName = "AttpV2";

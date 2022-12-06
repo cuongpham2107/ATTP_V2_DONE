@@ -64,6 +64,23 @@ namespace AttpV2.Module.BusinessObjects
             get => coSoSanXuatKinhDoanh;
             set => SetPropertyValue(nameof(CoSoSanXuatKinhDoanh), ref coSoSanXuatKinhDoanh, value);
         }
+        [PersistentAlias("[CoSoSanXuatKinhDoanh.CoQuanQuanLy]")]
+        [XafDisplayName("Cơ quan quản lý")]
+        public CoQuanQuanLy CoQuanQuanLy
+        {
+            get
+            {
+                var tmp = EvaluateAlias(nameof(CoQuanQuanLy));
+                if (tmp != null)
+                {
+                    return tmp as CoQuanQuanLy;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
         [XafDisplayName("Mã số doanh nghiệp")]
         [ModelDefault("AlowEdit", "False")]
         public string MaSoDoanhNghiep
@@ -81,23 +98,7 @@ namespace AttpV2.Module.BusinessObjects
             }
         }
 
-        [PersistentAlias("[CoSoSanXuatKinhDoanh.LoaiHinhCoSo]")]
-        [XafDisplayName("Loại hình cơ sở, sản xuất")]
-        public LoaiHinhCoSo LoaiHinhCoSo
-        {
-            get
-            {
-                var tmp = EvaluateAlias(nameof(LoaiHinhCoSo));
-                if (tmp != null)
-                {
-                    return tmp as LoaiHinhCoSo;
-                }
-                else
-                {
-                    return null;
-                }
-            }
-        }
+       
 
         [XafDisplayName("Địa chỉ")]
         [ModelDefault("AlowEdit", "False")]

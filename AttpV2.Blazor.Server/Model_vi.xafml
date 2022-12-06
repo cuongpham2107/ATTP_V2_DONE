@@ -1,5 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="DialogOK" Caption="Đồng ý" />
+      <Action Id="ShowInReportV2" ShortCaption="🖨 Xuất báo cáo" Caption="🖨 Xuất báo cáo" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters">
+      <OwnMembers>
+        <Member Name="ConfirmPassword" Caption="Nhập lại mật khẩu" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
   <Localization>
     <LocalizationGroup Name="Confirmations">
       <LocalizationItem Name="Cancel" Value="Các thay đổi chưa lưu sẽ bị mất. Bạn có muốn tiếp tục?" />
@@ -20,4 +33,10 @@
       </Item>
     </Items>
   </NavigationItems>
+  <Views>
+    <DetailView Id="ChangePasswordOnLogonParameters_Blazor_DetailView" Caption="Thay đổi mật khẩu" />
+    <DetailView Id="ChangePasswordOnLogonParameters_DetailView" Caption="Thay đổi mật khẩu" />
+    <DetailView Id="ChangePasswordParameters_Blazor_DetailView" Caption="Thay đổi mật khẩu" />
+    <DetailView Id="ChangePasswordParameters_DetailView" Caption="Thay đổi mật khẩu" />
+  </Views>
 </Application>

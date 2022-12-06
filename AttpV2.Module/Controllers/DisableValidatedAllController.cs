@@ -25,8 +25,7 @@ namespace AttpV2.Module.Controllers
         public DisableValidatedAllController()
         {
             InitializeComponent();
-            // Target required Views (via the TargetXXX properties) and create their Actions.
-            //TargetObjectType = typeof(CoSoSanXuatKinhDoanh);
+            
             TargetViewNesting = Nesting.Any;
             TargetViewType = ViewType.Any;
             Activated += PhanquyenController_Activated;
@@ -41,6 +40,8 @@ namespace AttpV2.Module.Controllers
             if (View is ListView view)
             {
                 var criteria = view.CollectionSource.Criteria;
+               
+
                 if (View.ObjectTypeInfo.Type == typeof(CoSoSanXuatKinhDoanh))
                     criteria.Add("crit1", new BinaryOperator("CoQuanQuanLy.Oid", account.CoquanQuanly.Oid, BinaryOperatorType.Equal));
 
@@ -70,6 +71,7 @@ namespace AttpV2.Module.Controllers
             var account = os.GetObjectByKey<ApplicationUser>(SecuritySystem.CurrentUserId);
             if (account.Roles.Any(r => r.Name == "Administrators" || r.Name == "Managers"))
             {
+               
                 if (ViewCurrentObject?.Close == true)
                 {
                     var editors = View.GetItems<PropertyEditor>();

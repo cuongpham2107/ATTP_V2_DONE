@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QuK//xMGgo6It5h9+9M8ohsESTnn1ff3464QKXUtScdlxSVwcEnzpTEKrOzuh1f5wyNkO+nZhcWuHFTgbmQwgA==",
+  "dgSpecHash": "8IyvZPPgr12mGYn/6lMJTqqfRVW6zM179Naqy7+u42puiIuL/uWECbhL6EHy5AvjPbgJKOGVZ0+3VnJ9UF03cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cuong\\source\\repos\\AttpV2\\AttpV2.Module\\AttpV2.Module.csproj",
+  "projectFilePath": "C:\\Users\\cuong\\source\\repos\\ATTP_V2_DONE\\AttpV2.Module\\AttpV2.Module.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.charts\\22.1.6\\devexpress.charts.22.1.6.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.charts.core\\22.1.6\\devexpress.charts.core.22.1.6.nupkg.sha512",
