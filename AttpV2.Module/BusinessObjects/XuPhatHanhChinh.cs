@@ -50,6 +50,7 @@ namespace AttpV2.Module.BusinessObjects
         }
 
 
+        KetQuaThanhKiemTra ketQuaThanhKiemTra;
         DateTime ngayXuPhat;
         string soTienPhat;
         string chiTietViPham;
@@ -98,7 +99,7 @@ namespace AttpV2.Module.BusinessObjects
             }
         }
 
-       
+
 
         [XafDisplayName("Địa chỉ")]
         [ModelDefault("AlowEdit", "False")]
@@ -149,6 +150,13 @@ namespace AttpV2.Module.BusinessObjects
                 }
                 return null;
             }
+        }
+        [XafDisplayName("Kết quả thanh kiểm tra")]
+        [DataSourceProperty(nameof(KetQuaThanhKiemTras))]
+        public KetQuaThanhKiemTra KetQuaThanhKiemTra
+        {
+            get => ketQuaThanhKiemTra;
+            set => SetPropertyValue(nameof(KetQuaThanhKiemTra), ref ketQuaThanhKiemTra, value);
         }
 
         [XafDisplayName("Hành vi vi phạm")]
@@ -233,6 +241,17 @@ namespace AttpV2.Module.BusinessObjects
         #endregion
 
         #region Association
+        [Browsable(false)]
+        public XPCollection<KetQuaThanhKiemTra> KetQuaThanhKiemTras
+        {
+            get
+            {
+                var result = Session.Query<KetQuaThanhKiemTra>().Where(i => i.CoSoSanXuatKinhDoanh == this.CoSoSanXuatKinhDoanh);
+                XPCollection<KetQuaThanhKiemTra> gcns = new XPCollection<KetQuaThanhKiemTra>(Session, result);
+                return gcns;
+            }
+        }
+
 
         [Association("XuPhatHanhChinh-FileDLs")]
         [XafDisplayName("File Dữ liệu")]

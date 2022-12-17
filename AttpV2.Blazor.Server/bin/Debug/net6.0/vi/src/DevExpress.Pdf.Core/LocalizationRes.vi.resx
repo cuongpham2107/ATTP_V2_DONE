@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PdfCoreStringId.TextUnderlineDefaultSubject" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="PdfCoreStringId.MsgPageNumberShouldBePositive" xml:space="preserve">
+    <value>Số trang phải lớn hơn hoặc bằng 1.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgShouldEmbedFonts" xml:space="preserve">
+    <value>Tất cả phông chữ nên được nhúng vào tài liệu PDF/A.</value>
+  </data>
+  <data name="PdfCoreStringId.FileSizeInBytes" xml:space="preserve">
+    <value>{0} byte</value>
+  </data>
+  <data name="PdfCoreStringId.DefaultDocumentName" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="PdfCoreStringId.FileSize" xml:space="preserve">
+    <value>{0:0.00} {1} ({2} Byte)</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeCustom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeStrikethrough" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeUnderline" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeLine" xml:space="preserve">
+    <value>Đường</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeSquare" xml:space="preserve">
+    <value>Hình chữ nhật</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypePolygon" xml:space="preserve">
+    <value>Đa giác</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDConfidentialCredentials" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="PdfCoreStringId.StickyNoteDefaultSubject" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeCaret" xml:space="preserve">
+    <value>Insert text</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeCircle" xml:space="preserve">
+    <value>Oval</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeFileAttachment" xml:space="preserve">
+    <value>File Attachment</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeFreeText" xml:space="preserve">
+    <value>Hộp văn bản</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeHighlight" xml:space="preserve">
+    <value>Làm nổi bật</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeInk" xml:space="preserve">
+    <value>Pencil</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypePolyLine" xml:space="preserve">
+    <value>Polygonal Line</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeRedaction" xml:space="preserve">
+    <value>Redact</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeRubberStamp" xml:space="preserve">
+    <value>Stamp</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeSound" xml:space="preserve">
+    <value>Sound Attachment</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeSquiggly" xml:space="preserve">
+    <value>Squiggly gạch dưới</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeText" xml:space="preserve">
+    <value>Sticky note</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAcroFormFieldNameCantBeEmpty" xml:space="preserve">
+    <value>Tên trường mẫu không thể là null hoặc một chuỗi rỗng.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAcroFormFieldNameDuplication" xml:space="preserve">
+    <value>Các anh chị em không thể có cùng tên trong lĩnh vực hình thức.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintDescription" xml:space="preserve">
+    <value>
+Mô tả: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintFileName" xml:space="preserve">
+    <value>Tên: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintModificationDate" xml:space="preserve">
+    <value>
+Sửa đổi lần: {0:G}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintSize" xml:space="preserve">
+    <value>
+Kích thước: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgCantSetSelectedIndexWithoutValues" xml:space="preserve">
+    <value>Chỉ số được lựa chọn không thể được thiết lập bởi vì không có không có giá trị có thể.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgEmptyCustomPropertyName" xml:space="preserve">
+    <value>Tên tài sản tùy chỉnh không thể rỗng hoặc chuỗi trống.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgEntryPointNotFound" xml:space="preserve">
+    <value>Không thể tìm thấy một điểm nhập tên "{0}" trong thư viện được chia sẻ "{1}"</value>
+  </data>
+  <data name="PdfCoreStringId.MsgFormDataNotFound" xml:space="preserve">
+    <value>Lĩnh vực với tên được chỉ định không được tìm thấy trong tài liệu.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgICULibraryNotFound" xml:space="preserve">
+    <value>không thể nạp thư viện ICU.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncompatibleOperationWithCurrentDocumentFormat" xml:space="preserve">
+    <value>Hoạt động không được hỗ trợ tại PdfCompatibility. Các chế độ tương thích {0}. Hãy tạo một tài liệu trong chế độ tương thích PdfCompatibility.Pdf.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectAcroFormExportValue" xml:space="preserve">
+    <value>Giá trị xuất khẩu không thể là null hoặc một chuỗi rỗng.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectAcroFormFieldNameContainsPeriod" xml:space="preserve">
+    <value>Tên trường mẫu không thể chứa một nhân vật kỳ.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectAction" xml:space="preserve">
+    <value>Hành động được chỉ định không thuộc về tài liệu hiện tại.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectBookmarkListValue" xml:space="preserve">
+    <value>Danh sách dấu trang không thể được null</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectButtonFormFieldValue" xml:space="preserve">
+    <value>Giá trị bất động sản cho một trường mẫu nút nên xuất hiện tên hoặc một giá trị từ danh sách lựa chọn.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectChoiceFormFieldValue" xml:space="preserve">
+    <value>Giá trị bất động sản cho một lĩnh vực hình thức lựa chọn nên là một giá trị chuỗi hoặc một tập hợp các giá trị từ danh sách lựa chọn.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorComponentValue" xml:space="preserve">
+    <value>Giá trị thành phần màu sắc nên được lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng 1.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashLength" xml:space="preserve">
+    <value>Dấu gạch ngang dài nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashPattern" xml:space="preserve">
+    <value>Tổng chiều dài dấu gạch ngang và khoảng cách cần phải lớn hơn 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashPatternArraySize" xml:space="preserve">
+    <value>Dấu gạch ngang mô hình mảng không phải là sản phẩm nào.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDestination" xml:space="preserve">
+    <value>Đích được chỉ định không thuộc về tài liệu hiện tại.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDestinationPage" xml:space="preserve">
+    <value>Dấu trang đích không được liên kết đến trang web trong một tài liệu khác nhau.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDpi" xml:space="preserve">
+    <value>Giải pháp (dots per inch) cần phải lớn hơn 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectFlatnessTolerance" xml:space="preserve">
+    <value>Dung sai của độ phẳng nên được lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng 100.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectFormDataFile" xml:space="preserve">
+    <value>Lỗi xảy ra khi đọc mẫu dữ liệu từ tệp đã chỉ định.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGapLength" xml:space="preserve">
+    <value>Chiều dài khoảng cách nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGlyphPosition" xml:space="preserve">
+    <value>Vị trí glyph nên được ít hơn hoặc bằng hơn văn bản dài.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectInsertingPageNumber" xml:space="preserve">
+    <value>Số trang cần phải lớn hơn 0 và nhỏ hơn hoặc bằng số sẵn trang tiếp theo (bên cạnh số lượng trang tài liệu).</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectLargestEdgeLength" xml:space="preserve">
+    <value>độ dài cạnh lớn nhất cần phải lớn hơn 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectLineWidth" xml:space="preserve">
+    <value>Độ rộng đường phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectListSize" xml:space="preserve">
+    <value>Danh sách chứa giá trị ít nhất một.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectMarkedContentTag" xml:space="preserve">
+    <value>Đánh dấu nội dung thẻ không thể để trống.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectMarkupAnnotation" xml:space="preserve">
+    <value>Chú đã chỉ rõ không thuộc về các tài liệu hiện tại.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectMiterLimit" xml:space="preserve">
+    <value>Giới hạn mũ cần phải lớn hơn 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectOpacity" xml:space="preserve">
+    <value>Giá trị opacity phải lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng 1.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageArtBox" xml:space="preserve">
+    <value>Hộp nghệ thuật trang nên là nhỏ hơn hoặc bằng phương tiện truyền thông hộp.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageBleedBox" xml:space="preserve">
+    <value>Trang chảy máu hộp nên là nhỏ hơn hoặc bằng phương tiện truyền thông hộp.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageCropBox" xml:space="preserve">
+    <value>Trang xén hộp nên nhỏ hơn hoặc bằng phương tiện ô.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageNumber" xml:space="preserve">
+    <value>số trang nên trong phạm vi từ 1 đến {0}.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageRotate" xml:space="preserve">
+    <value>Trang xoay góc có thể có một trong các giá trị sau: 0, 90, 180 hoặc 270 độ.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageTrimBox" xml:space="preserve">
+    <value>Hộp trang trí trang nên là nhỏ hơn hoặc bằng phương tiện truyền thông hộp.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPdfData" xml:space="preserve">
+    <value>Dữ liệu đầu vào không được công nhận là hợp lệ pdf.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPdfPassword" xml:space="preserve">
+    <value>Mật khẩu các tài liệu mở là sản phẩm nào hoặc không chính xác.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPrintableFilePath" xml:space="preserve">
+    <value>Tên tệp đã chỉ định cho tài liệu in là không chính xác.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectRectangleHeight" xml:space="preserve">
+    <value>Phối hợp hàng đầu của các hình chữ nhật nên được lớn hơn hoặc bằng với đáy.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectRectangleWidth" xml:space="preserve">
+    <value>Phối hợp phải của các hình chữ nhật nên được lớn hơn hoặc bằng một trái.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectSelectedIndexValue" xml:space="preserve">
+    <value>Các chỉ số nên trong phạm vi từ 0 đến {0}.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectText" xml:space="preserve">
+    <value>Giá trị văn bản không thể được null.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectTextFormFieldValue" xml:space="preserve">
+    <value>Giá trị bất động sản cho một lĩnh vực hình thức văn bản nên là một chuỗi giá trị.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectTextHorizontalScaling" xml:space="preserve">
+    <value>Văn bản ngang rộng giá trị cần phải lớn hơn 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectZoom" xml:space="preserve">
+    <value>Giá trị zoom nên lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgMissingPageNumbers" xml:space="preserve">
+    <value>Ít nhất một trang số nên được chỉ định.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgPartialTrustEnvironmentLimitation" xml:space="preserve">
+    <value>Thao tác này không thể thực hiện trong môi trường phần tin tưởng.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgSharedLibraryNotFound" xml:space="preserve">
+    <value>Không thể nạp thư viện chia sẻ "{0}" hoặc một trong các phụ thuộc của nó: "{1}"</value>
+  </data>
+  <data name="PdfCoreStringId.MsgStreamIsInUse" xml:space="preserve">
+    <value>Suối đã được sử dụng cho một tài liệu. Xin vui lòng sử dụng một dòng.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnavailableOperation" xml:space="preserve">
+    <value>Thao tác này là không có sẵn trong khi không có tài liệu đang được nạp.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnresolvedXmpPrefix" xml:space="preserve">
+    <value>Không thể giải quyết tiền tố được chỉ định trong tên đủ điều kiện. Đảm bảo bạn đã đăng ký tiền tố và không gian tên tương ứng trong cuộc gọi phương thức XmpDocument.RegisterNamespace.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedAnnotationType" xml:space="preserve">
+    <value>Chú thích nổi bật văn bản không được hỗ trợ trong một tài liệu PDF/A-1.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedBrushType" xml:space="preserve">
+    <value>Tùy chỉnh bàn chải không được hỗ trợ.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedEncryption" xml:space="preserve">
+    <value>Mã hóa không được hỗ trợ trong một tài liệu PDF/A.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedFileAttachments" xml:space="preserve">
+    <value>Tập tin đính kèm không được hỗ trợ trong các tài liệu PDF/A-1b và PDF/A-2b.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedGraphicsOperation" xml:space="preserve">
+    <value>Thao tác này không được hỗ trợ bởi vì PdfGraphics các đối tượng không thuộc tài liệu hiện tại.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedGraphicsUnit" xml:space="preserve">
+    <value>Thế giới và hiển thị các đơn vị không được hỗ trợ cho hệ thống toạ độ hình ảnh nguồn.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedStream" xml:space="preserve">
+    <value>Stream phải hỗ trợ đọc, viết và tìm kiếm sự hoạt động.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedStreamForLoadOperation" xml:space="preserve">
+    <value>Stream phải hỗ trợ đọc và tìm kiếm các hoạt động cho tải.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedStreamForSaveOperation" xml:space="preserve">
+    <value>Stream phải hỗ trợ ghi và tìm kiếm các hoạt động cho tiết kiệm.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgWinOnlyLimitation" xml:space="preserve">
+    <value>Hành động này chỉ có thể được thực hiện trên hệ điều hành Windows.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgZeroColorComponentsCount" xml:space="preserve">
+    <value>Màu sắc cần phải có ít nhất một thành phần.</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampConfidential" xml:space="preserve">
+    <value>Bí mật</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDApprovedCredentials" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDateTimeFormat" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDConfidential" xml:space="preserve">
+    <value>Bí mật</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDReceived" xml:space="preserve">
+    <value>nhận</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDReceivedCredentials" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDReviewedCredentials" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDRevisedCredentials" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampForComment" xml:space="preserve">
+    <value>Bình luận</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampSHAccepted" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampSHRejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="PdfCoreStringId.SignatureAppearanceCommonNameFormatString" xml:space="preserve">
+    <value>Được ký điện tử bởi {0}</value>
+  </data>
+  <data name="PdfCoreStringId.SignatureAppearanceDateFormatString" xml:space="preserve">
+    <value>Ngày: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.SignatureAppearanceDistinguishedNameFormatString" xml:space="preserve">
+    <value>ĐN: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.SignatureAppearanceLocationFormatString" xml:space="preserve">
+    <value>Vị trí: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.SignatureAppearanceReasonFormatString" xml:space="preserve">
+    <value>Lý do: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.TextHighlightDefaultSubject" xml:space="preserve">
+    <value>Làm nổi bật</value>
+  </data>
+  <data name="PdfCoreStringId.TextStrikethroughDefaultSubject" xml:space="preserve">
+    <value>Cross-Out.</value>
+  </data>
+  <data name="PdfCoreStringId.UnitExaBytes" xml:space="preserve">
+    <value>EB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitGigaBytes" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitKiloBytes" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitMegaBytes" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitPetaBytes" xml:space="preserve">
+    <value>PB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitTeraBytes" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitZettaBytes" xml:space="preserve">
+    <value>ZB</value>
+  </data>
+</root>

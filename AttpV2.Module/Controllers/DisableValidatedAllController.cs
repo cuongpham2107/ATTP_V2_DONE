@@ -57,7 +57,42 @@ namespace AttpV2.Module.Controllers
                 if (View.ObjectTypeInfo.Type == typeof(XuPhatHanhChinh))
                     criteria.Add("crit5", new BinaryOperator("CoQuanQuanLy.Oid", account.CoquanQuanly.Oid, BinaryOperatorType.Equal));
 
-                
+                if (View.ObjectTypeInfo.Type == typeof(KetQuaThanhKiemTra))
+                    criteria.Add("crit6", new BinaryOperator("CoQuanQuanLy.Oid", account.CoquanQuanly.Oid, BinaryOperatorType.Equal));
+
+            }
+        }
+    }
+    public partial class DisableValidatedKetQuaThanhkiemTra : ObjectViewController<DetailView, KetQuaThanhKiemTra>
+    {
+        protected override void OnActivated()
+        {
+            base.OnActivated();
+
+            var os = Application.CreateObjectSpace(typeof(KetQuaThanhKiemTra));
+            var account = os.GetObjectByKey<ApplicationUser>(SecuritySystem.CurrentUserId);
+            if (account.Roles.Any(r => r.Name == "Administrators" || r.Name == "Managers"))
+            {
+
+                if (ViewCurrentObject?.Close == true)
+                {
+                    var editors = View.GetItems<PropertyEditor>();
+                    foreach (var item in editors)
+                    {
+                        item.AllowEdit["hihi"] = false;
+                    }
+                }
+            }
+            else
+            {
+                if (ViewCurrentObject?.Lock == true)
+                {
+                    var editors = View.GetItems<PropertyEditor>();
+                    foreach (var item in editors)
+                    {
+                        item.AllowEdit["hihi"] = false;
+                    }
+                }
             }
         }
     }

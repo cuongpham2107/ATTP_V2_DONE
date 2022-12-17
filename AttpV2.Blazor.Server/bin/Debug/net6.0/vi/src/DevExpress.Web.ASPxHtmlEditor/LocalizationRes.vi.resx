@@ -1,0 +1,1412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxHtmlEditorStringId.ButtonChange" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonInsert" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonSelect" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeImage" xml:space="preserve">
+    <value>Thay đổi hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeTableColumn_Size" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCheckSpelling" xml:space="preserve">
+    <value>Kiểm tra chính tả</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandFullscreen" xml:space="preserve">
+    <value>Toàn màn hình</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandUnlink" xml:space="preserve">
+    <value>Loại bỏ liên kết</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeImage" xml:space="preserve">
+    <value>Thay đổi hình ảnh...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeLink" xml:space="preserve">
+    <value>Thay đổi liên kết...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.FontName" xml:space="preserve">
+    <value>Tên font</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_CustomSize" xml:space="preserve">
+    <value>Tùy chỉnh kích thước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_OriginalSize" xml:space="preserve">
+    <value>Kích thước hình ảnh ban đầu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Position" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Size" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage" xml:space="preserve">
+    <value>Chèn hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_FromWeb" xml:space="preserve">
+    <value>Từ các trang web (URL)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink" xml:space="preserve">
+    <value>Chèn liên kết</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_Email" xml:space="preserve">
+    <value>Địa chỉ e-mail</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_OpenInNewWindow" xml:space="preserve">
+    <value>Mở trong cửa sổ mới</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_ToolTip" xml:space="preserve">
+    <value>Chú thích</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Alignment_Center" xml:space="preserve">
+    <value>Trung tâm</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Alignment_Left" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Alignment_Right" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Custom" xml:space="preserve">
+    <value>Tuỳ chỉnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Headers" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectDocument" xml:space="preserve">
+    <value>Chọn tài liệu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectImage" xml:space="preserve">
+    <value>Chọn hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DeleteTable" xml:space="preserve">
+    <value>Xóa bảng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DeleteTableColumn" xml:space="preserve">
+    <value>Xóa cột</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DeleteTableRow" xml:space="preserve">
+    <value>Xóa hàng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonCancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonOk" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandBold" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCopy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCut" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandItalic" xml:space="preserve">
+    <value>Nghiêng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandJustify" xml:space="preserve">
+    <value>Căn đều</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPaste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandRedo" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandUnderline" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandUndo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_MarginRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Layout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_DeleteTable" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Font" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Appearance" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertImage" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_MarginBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_VAlignment_Bottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_MarginLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_MarginTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_VAlignment_Top" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_PositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_HorzAlignment" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_VertAlignment" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Margins" xml:space="preserve">
+    <value>Lề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Alignment" xml:space="preserve">
+    <value>Căn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.PreviewTab" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_BorderWidth" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Columns" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPrint" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Caption" xml:space="preserve">
+    <value>Tựa đề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_View" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeLink" xml:space="preserve">
+    <value>Thay đổi liên kết</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandApplyCss" xml:space="preserve">
+    <value>Áp dụng CSS</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCenter" xml:space="preserve">
+    <value>Căn giữa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandIndent" xml:space="preserve">
+    <value>Thụt lề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandLeft" xml:space="preserve">
+    <value>Căn trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandRemoveFormat" xml:space="preserve">
+    <value>Loại bỏ định dạng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandStrikethrough" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_TableCellProperties" xml:space="preserve">
+    <value>Thuộc tính ô...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_TableColumnProperties" xml:space="preserve">
+    <value>Thuộc tính cột...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_TableProperties" xml:space="preserve">
+    <value>Thuộc tính bảng...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_TableRowProperties" xml:space="preserve">
+    <value>Thuộc tính hàng...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DesignViewTab" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.FontSize" xml:space="preserve">
+    <value>Kích thước phông chữ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.HtmlViewTab" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Border" xml:space="preserve">
+    <value>Đường viền</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_BorderColor" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_CreateThumbnail" xml:space="preserve">
+    <value>Tạo hình thu nhỏ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_NewImageName" xml:space="preserve">
+    <value>Tên hình ảnh mới</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_Pixels" xml:space="preserve">
+    <value>điểm ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_PositionLeft" xml:space="preserve">
+    <value>Căn trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_PositionRight" xml:space="preserve">
+    <value>Căn phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_FromLocal" xml:space="preserve">
+    <value>Từ máy tính của bạn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_Preview" xml:space="preserve">
+    <value>Xem trước hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_DisplayProperties" xml:space="preserve">
+    <value>Thuộc tính Hiển thị</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandBackColor" xml:space="preserve">
+    <value>Màu nền</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable" xml:space="preserve">
+    <value>Chèn bảng...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_ApplyToAllCell" xml:space="preserve">
+    <value>Áp dụng cho tất cả các ô trong bảng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_BgColor" xml:space="preserve">
+    <value>Màu nền</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Both" xml:space="preserve">
+    <value>Cả hai</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_FirstColumn" xml:space="preserve">
+    <value>Cột đầu tiên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Rows" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Size" xml:space="preserve">
+    <value>Kích thước bảng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTableColumnToLeft" xml:space="preserve">
+    <value>Chèn cột vào bên trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTableColumnToRight" xml:space="preserve">
+    <value>Chèn cột vào bên phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsMht" xml:space="preserve">
+    <value>MIME HTML (.mht)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableCellProperties" xml:space="preserve">
+    <value>Thuộc tính ô...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableColumnProperties" xml:space="preserve">
+    <value>Thuộc tính cột...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableProperties" xml:space="preserve">
+    <value>Thuộc tính bảng...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableRowProperties" xml:space="preserve">
+    <value>Thuộc tính hàng...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Border" xml:space="preserve">
+    <value>Biên giới</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Border" xml:space="preserve">
+    <value>Biên giới</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Border" xml:space="preserve">
+    <value>Biên giới</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Border" xml:space="preserve">
+    <value>Biên giới</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Position" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Position" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Position" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Position" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MarginBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MarginBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MarginBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MarginBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MarginLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PositionLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MarginLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PositionLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MarginLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PositionLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MarginLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_PositionLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MarginRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PositionRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MarginRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PositionRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MarginRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PositionRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MarginRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_PositionRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MarginTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MarginTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MarginTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MarginTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PreloadAuto" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PreloadAuto" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_PositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PreloadNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PreloadNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Margins" xml:space="preserve">
+    <value>Lề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Margins" xml:space="preserve">
+    <value>Lề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Margins" xml:space="preserve">
+    <value>Lề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Margins" xml:space="preserve">
+    <value>Lề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_BorderWidth" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_BorderWidth" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_BorderWidth" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_BorderWidth" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Size" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Checked" xml:space="preserve">
+    <value>Đã đánh dấu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_BorderStyle" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_BorderStyle" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_BorderStyle" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_BorderStyle" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_BorderStyle" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTabCategory_Layout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Find" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Next" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Previous" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_TableProperties" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_BorderColor" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_BorderColor" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_BorderColor" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_BorderColor" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Start" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_InsertTable" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_Insert" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Direction" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.Paragraph" xml:space="preserve">
+    <value>Đoạn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Paragraph" xml:space="preserve">
+    <value>Đoạn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_TableProperties" xml:space="preserve">
+    <value>Thuộc tính bảng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityHigh" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityLow" xml:space="preserve">
+    <value>Thấp</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_MergeTable" xml:space="preserve">
+    <value>Hợp nhất</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Tables" xml:space="preserve">
+    <value>Bảng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertLink" xml:space="preserve">
+    <value>Liên kết</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_AllowFullscreen" xml:space="preserve">
+    <value>Cho phép toàn màn hình</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Results" xml:space="preserve">
+    <value>Kết quả</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Spelling" xml:space="preserve">
+    <value>Chính tả</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Header" xml:space="preserve">
+    <value>Tìm và thay thế</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_MatchCase" xml:space="preserve">
+    <value>Trận đấu trường hợp</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Of" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_Replace" xml:space="preserve">
+    <value>Thay thế</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_ReplaceAll" xml:space="preserve">
+    <value>Thay thế tất cả</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_ReplaceAllNotify" xml:space="preserve">
+    <value>mục {0} đã được thay thế.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_ReplaceProcessNotify" xml:space="preserve">
+    <value>{0} {1} mục đang thay thế...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_ReplaceWith" xml:space="preserve">
+    <value>thay thế bằng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AdvancedSearch_SearchLimit" xml:space="preserve">
+    <value>{0} hàng đầu chỉ mục được hiển thị. Cố gắng thu hẹp tìm kiếm của bạn.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.Alt_ConstrainProportions" xml:space="preserve">
+    <value>Hạn chế tỷ lệ trên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.Alt_ConstrainProportionsOff" xml:space="preserve">
+    <value>Hạn chế tỷ lệ ra</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.AutomaticColorCaption" xml:space="preserve">
+    <value>Không có màu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ButtonUpload" xml:space="preserve">
+    <value>Tải lên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeAudio" xml:space="preserve">
+    <value>Thay đổi âm thanh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties" xml:space="preserve">
+    <value>Thay đổi Element Properties</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Accept" xml:space="preserve">
+    <value>Chấp nhận</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Action" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_CommonSettingsTabName" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Disabled" xml:space="preserve">
+    <value>Khuyết tật</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_For" xml:space="preserve">
+    <value>Cho</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_InputType" xml:space="preserve">
+    <value>Đầu vào loại</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_MaxLength" xml:space="preserve">
+    <value>Chiều dài tối đa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Method" xml:space="preserve">
+    <value>Phương pháp</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Readonly" xml:space="preserve">
+    <value>ReadOnly</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_Src" xml:space="preserve">
+    <value>SRC</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_StyleSettingsTabName" xml:space="preserve">
+    <value>Cài đặt kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeElementProperties_TabIndex" xml:space="preserve">
+    <value>Chỉ số của tab</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeFlash" xml:space="preserve">
+    <value>Thay đổi đèn Flash</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangePlaceholder" xml:space="preserve">
+    <value>Thay đổi đặt chỗ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeVideo" xml:space="preserve">
+    <value>Thay đổi Video</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ChangeYouTubeVideo" xml:space="preserve">
+    <value>Thay đổi YouTube Video</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandBulletList" xml:space="preserve">
+    <value>Danh sách Bullet</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandCollapseTag" xml:space="preserve">
+    <value>Sự sụp đổ từ khóa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandComment" xml:space="preserve">
+    <value>Bình luận</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandExpandTag" xml:space="preserve">
+    <value>Mở rộng từ khóa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandForeColor" xml:space="preserve">
+    <value>Fore màu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandFormatDocument" xml:space="preserve">
+    <value>Định dạng tài liệu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandOrderedList" xml:space="preserve">
+    <value>Ra lệnh cho danh sách</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandOutdent" xml:space="preserve">
+    <value>Outdent</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPaste_DisabledDescription" xml:space="preserve">
+    <value>Lệnh này không thể thực thi được. Vui lòng dùng Ctrl+V để Dán từ bảng tạm.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPasteHtmlMergeFormatting" xml:space="preserve">
+    <value>Hợp nhất định dạng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPasteHtmlPlainText" xml:space="preserve">
+    <value>Giữ đồng bằng văn bản</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPasteHtmlSourceFormatting" xml:space="preserve">
+    <value>Giữ nguồn định dạng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandPasteRtf" xml:space="preserve">
+    <value>Dán từ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandRight" xml:space="preserve">
+    <value>Align right</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandSubscript" xml:space="preserve">
+    <value>Chỉ số</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandSuperscript" xml:space="preserve">
+    <value>Viết bên trên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.CommandUncomment" xml:space="preserve">
+    <value>Bỏ ghi chú</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeAudio" xml:space="preserve">
+    <value>Thay đổi âm thanh...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeElementProperties" xml:space="preserve">
+    <value>Thay đổi thuộc tính nguyên tố...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeFlash" xml:space="preserve">
+    <value>Thay đổi Flash...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangePlaceholder" xml:space="preserve">
+    <value>Thay đổi đặt chỗ...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeVideo" xml:space="preserve">
+    <value>Thay đổi Video...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_ChangeYouTubeVideo" xml:space="preserve">
+    <value>Thay đổi YouTube Video...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ContextMenu_InsertTable" xml:space="preserve">
+    <value>Chèn bảng...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DefaultErrorText" xml:space="preserve">
+    <value>The HTML nội dung là không hợp lệ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.DeleteElement" xml:space="preserve">
+    <value>Xóa phần tử</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.FindAndReplace" xml:space="preserve">
+    <value>Tìm và thay thế</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_CreateThumbnailTooltip" xml:space="preserve">
+    <value>Hình thu nhỏ sẽ được tạo ra từ hình ảnh được chọn với kích thước được chỉ định</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.ImageProps_CssClass" xml:space="preserve">
+    <value>Lớp CSS</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio" xml:space="preserve">
+    <value>Chèn âm thanh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_AllowedFileExtensionsText" xml:space="preserve">
+    <value>Phần mở rộng tệp được phép</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_AutoPlay" xml:space="preserve">
+    <value>Tự động chơi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_CommonSettingsTabName" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_CssClass" xml:space="preserve">
+    <value>Lớp CSS</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_EnterUrl" xml:space="preserve">
+    <value>Nhập tập tin âm thanh địa chỉ web</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_FromLocal" xml:space="preserve">
+    <value>Từ máy tính của bạn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_FromWeb" xml:space="preserve">
+    <value>Từ các trang web (URL)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_GalleryRequiredErrorText" xml:space="preserve">
+    <value>Tập tin là cần thiết.
+Xin vui lòng chọn một tệp để tiến hành.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_GalleryTabText" xml:space="preserve">
+    <value>Từ bộ sưu tập</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Loop" xml:space="preserve">
+    <value>Loop</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MaximumUploadFileSizeText" xml:space="preserve">
+    <value>Kích thước tệp tối đa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_MoreOptions" xml:space="preserve">
+    <value>Thêm tùy chọn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Pixels" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_Preload" xml:space="preserve">
+    <value>Preload chế độ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PreloadHelpText" xml:space="preserve">
+    <value>Tự động - trình duyệt tải toàn bộ âm thanh khi trang tải siêu dữ liệu - trình duyệt tải chỉ siêu dữ liệu khi tải trang
+Không có - trình duyệt không tải âm thanh khi tải trang</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PreloadMetadata" xml:space="preserve">
+    <value>siêu dữ liệu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_PreviewText" xml:space="preserve">
+    <value>Thả một tập tin ở đây hoặc bấm vào để chọn một tập tin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_SaveToServer" xml:space="preserve">
+    <value>Lưu tập tin vào máy chủ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_ShowControls" xml:space="preserve">
+    <value>Hiển thị điều khiển máy nghe nhạc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_StyleSettingsTabName" xml:space="preserve">
+    <value>Cài đặt kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertAudio_UploadInstructions" xml:space="preserve">
+    <value>Duyệt máy tính của bạn cho các tập tin âm thanh để tải lên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash" xml:space="preserve">
+    <value>Chèn Flash</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_AllowedFileExtensionsText" xml:space="preserve">
+    <value>Phần mở rộng tệp được phép</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_AllowFullscreen" xml:space="preserve">
+    <value>Cho phép toàn màn hình</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_AutoPlay" xml:space="preserve">
+    <value>Tự động chơi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_CommonSettingsTabName" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_CssClass" xml:space="preserve">
+    <value>Lớp CSS</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_EnableFlashMenu" xml:space="preserve">
+    <value>Cho phép flash menu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_EnterUrl" xml:space="preserve">
+    <value>Nhập địa chỉ web flash file</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_FromLocal" xml:space="preserve">
+    <value>Từ máy tính của bạn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_FromWeb" xml:space="preserve">
+    <value>Từ các trang web (URL)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_GalleryRequiredErrorText" xml:space="preserve">
+    <value>Tập tin là cần thiết.
+Xin vui lòng chọn một tệp để tiến hành.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_GalleryTabText" xml:space="preserve">
+    <value>Từ bộ sưu tập</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Loop" xml:space="preserve">
+    <value>Loop</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MaximumUploadFileSizeText" xml:space="preserve">
+    <value>Kích thước tệp tối đa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_MoreOptions" xml:space="preserve">
+    <value>Thêm tùy chọn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Pixels" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_PreviewText" xml:space="preserve">
+    <value>Thả một tập tin ở đây hoặc bấm vào để chọn một tập tin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_Quality" xml:space="preserve">
+    <value>Chất lượng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityAutoHigh" xml:space="preserve">
+    <value>Tự động cao</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityAutoLow" xml:space="preserve">
+    <value>Tự động thấp</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityBest" xml:space="preserve">
+    <value>Tốt nhất</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_QualityMedium" xml:space="preserve">
+    <value>Phương tiện</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_SaveToServer" xml:space="preserve">
+    <value>Lưu tập tin vào máy chủ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_StyleSettingsTabName" xml:space="preserve">
+    <value>Cài đặt kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertFlash_UploadInstructions" xml:space="preserve">
+    <value>Duyệt máy tính của bạn cho file flash để tải lên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_AllowedFileExtensionsText" xml:space="preserve">
+    <value>Phần mở rộng tệp được phép</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_CommonSettingsTabName" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_EnterUrl" xml:space="preserve">
+    <value>Nhập địa chỉ web hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_GalleryRequiredErrorText" xml:space="preserve">
+    <value>Tập tin là cần thiết.
+Xin vui lòng chọn một tệp để tiến hành.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_GalleryTabText" xml:space="preserve">
+    <value>Từ bộ sưu tập</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_MaximumUploadFileSizeText" xml:space="preserve">
+    <value>Kích thước tệp tối đa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_MoreOptions" xml:space="preserve">
+    <value>Thêm tùy chọn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_PreviewText" xml:space="preserve">
+    <value>Thả một tập tin ở đây hoặc bấm vào để chọn một tập tin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_SaveToServer" xml:space="preserve">
+    <value>Lưu tập tin vào máy chủ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_SelectImage" xml:space="preserve">
+    <value>Gọi một hộp thoại cho phép bạn chọn một hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_StyleSettingsTabName" xml:space="preserve">
+    <value>Cài đặt kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_UploadInstructions" xml:space="preserve">
+    <value>Duyệt máy tính của bạn cho các tập tin hình ảnh để tải lên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertImage_UseFloat" xml:space="preserve">
+    <value>Wrap văn bản xung quanh hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_EmailErrorText" xml:space="preserve">
+    <value>E-mail không hợp lệ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_EmailTo" xml:space="preserve">
+    <value>Thư điện tử để</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertLink_SelectDocument" xml:space="preserve">
+    <value>Gọi một hộp thoại cho phép bạn chọn một tài liệu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertPlaceholder" xml:space="preserve">
+    <value>Insert PlaceHolder</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertPlaceholder_Placeholders" xml:space="preserve">
+    <value>Placeholders:</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Accessibility" xml:space="preserve">
+    <value>Khả năng tiếp cận</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_AutoFitToContent" xml:space="preserve">
+    <value>AutoFit để nội dung</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_BorderColor" xml:space="preserve">
+    <value>Biên giới màu sắc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_BorderSize" xml:space="preserve">
+    <value>Kích thước biên giới</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_CellPaddings" xml:space="preserve">
+    <value>Tế bào đệm</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_CellSpacing" xml:space="preserve">
+    <value>Khoảng cách di động</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_EqualColumnWidths" xml:space="preserve">
+    <value>Chiều rộng các cột bằng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_FirstRow" xml:space="preserve">
+    <value>Đầu tiên hàng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_FullWidth" xml:space="preserve">
+    <value>Toàn bộ chiều rộng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_Summary" xml:space="preserve">
+    <value>Tóm tắt</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTable_VAlignment_Middle" xml:space="preserve">
+    <value>Trung</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTableRowAbove" xml:space="preserve">
+    <value>Chèn hàng phía trên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertTableRowBelow" xml:space="preserve">
+    <value>Chèn hàng phía dưới đây</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo" xml:space="preserve">
+    <value>Chèn Video</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_AllowedFileExtensionsText" xml:space="preserve">
+    <value>Phần mở rộng tệp được phép</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_AutoPlay" xml:space="preserve">
+    <value>Tự động chơi</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_CommonSettingsTabName" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_CssClass" xml:space="preserve">
+    <value>Lớp CSS</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_EnterUrl" xml:space="preserve">
+    <value>Nhập địa chỉ web của tệp video</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_FromLocal" xml:space="preserve">
+    <value>Từ máy tính của bạn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_FromWeb" xml:space="preserve">
+    <value>Từ các trang web (URL)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_GalleryRequiredErrorText" xml:space="preserve">
+    <value>Tập tin là cần thiết.
+Xin vui lòng chọn một tệp để tiến hành.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_GalleryTabText" xml:space="preserve">
+    <value>Từ bộ sưu tập</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Loop" xml:space="preserve">
+    <value>Loop</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MaximumUploadFileSizeText" xml:space="preserve">
+    <value>Kích thước tệp tối đa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_MoreOptions" xml:space="preserve">
+    <value>Thêm tùy chọn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Pixels" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Poster" xml:space="preserve">
+    <value>Poster URL</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PosterHelpText" xml:space="preserve">
+    <value>Chỉ định một hình ảnh hiển thị trong khi video đang được tải xuống hoặc cho đến khi người dùng nhấp vào nút phát. 
+Nếu người gửi không được chỉ ra, frame đầu tiên của video sẽ được sử dụng.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_Preload" xml:space="preserve">
+    <value>Preload chế độ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PreloadHelpText" xml:space="preserve">
+    <value>Tự động - trình duyệt tải toàn bộ video khi trang tải siêu dữ liệu - trình duyệt tải chỉ siêu dữ liệu khi tải trang
+Không có - trình duyệt không tải video khi tải trang</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PreloadMetadata" xml:space="preserve">
+    <value>siêu dữ liệu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_PreviewText" xml:space="preserve">
+    <value>Thả một tập tin ở đây hoặc bấm vào để chọn một tập tin</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_SaveToServer" xml:space="preserve">
+    <value>Lưu tập tin vào máy chủ</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_ShowControls" xml:space="preserve">
+    <value>Hiển thị điều khiển máy nghe nhạc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_StyleSettingsTabName" xml:space="preserve">
+    <value>Cài đặt kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertVideo_UploadInstructions" xml:space="preserve">
+    <value>trình duyệt máy tính của bạn cho các tập tin video để tải lên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo" xml:space="preserve">
+    <value>Chèn YouTube Video</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_CommonSettingsTabName" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_CssClass" xml:space="preserve">
+    <value>Lớp CSS</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_EnterUrl" xml:space="preserve">
+    <value>YouTube nhập địa chỉ video web</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_MoreOptions" xml:space="preserve">
+    <value>Thêm tùy chọn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_Pixels" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_SecureMode" xml:space="preserve">
+    <value>kích hoạt chế độ tăng cường bảo mật</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_SecureModeHelpText" xml:space="preserve">
+    <value>Chọn để đảm bảo rằng YouTube không lưu trữ thông tin về khách truy cập vào trang web của bạn trừ khi họ chơi video.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_ShowControls" xml:space="preserve">
+    <value>Hiển thị điều khiển máy nghe nhạc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_ShowSameVideos" xml:space="preserve">
+    <value>Hiển thị đề xuất video khi video kết thúc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_ShowVideoName" xml:space="preserve">
+    <value>Hiển thị tiêu đề video và cầu thủ hành động</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_StyleSettingsTabName" xml:space="preserve">
+    <value>Cài đặt kiểu</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InsertYouTubeVideo_ValidationErrorText" xml:space="preserve">
+    <value>Không hợp lệ YouTube video URL. Xin vui lòng đảm bảo rằng URL của bạn là như sau: http://www.youtube.com/watch?v=VideoID</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.InvalidUrlErrorText" xml:space="preserve">
+    <value>Định dạng URL không hợp lệ, hoặc một tập tin không thể được tìm thấy bằng cách sử dụng URL này</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.MergeTableCellDown" xml:space="preserve">
+    <value>Hợp nhất xuống</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.MergeTableCellHorizontal" xml:space="preserve">
+    <value>Kết hợp quyền</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.PasteRtf_Instructions" xml:space="preserve">
+    <value>Hãy dán bên trong hộp và nhấn OK.</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.PasteRtf_StripFont" xml:space="preserve">
+    <value>Loại bỏ chữ gia đình</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.QuickSearch_SearchFieldNullText" xml:space="preserve">
+    <value>Tìm thấy...</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RequiredFieldError" xml:space="preserve">
+    <value>Lĩnh vực này là cần thiết</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RequiredHtmlContentError" xml:space="preserve">
+    <value>Nội dung của trình biên tập không thể để trống</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Clipboard" xml:space="preserve">
+    <value>Bảng tạm</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Editing" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Images" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Links" xml:space="preserve">
+    <value>liên kết</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Media" xml:space="preserve">
+    <value>Phương tiện truyền thông</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonGroup_Views" xml:space="preserve">
+    <value>Số lần xem</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_CellProperties" xml:space="preserve">
+    <value>Thuộc tính ô</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_ColumnProperties" xml:space="preserve">
+    <value>Thuộc tính cột</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertAudio" xml:space="preserve">
+    <value>Âm thanh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertFlash" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertPlaceholder" xml:space="preserve">
+    <value>Insert PlaceHolder</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTable" xml:space="preserve">
+    <value>Chèn bảng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTableColumnToLeft" xml:space="preserve">
+    <value>Chèn trái</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTableColumnToRight" xml:space="preserve">
+    <value>Chèn bên phải</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTableRowAbove" xml:space="preserve">
+    <value>Chèn ở trên</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertTableRowBelow" xml:space="preserve">
+    <value>Chèn dưới đây</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertVideo" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_InsertYouTubeVideo" xml:space="preserve">
+    <value>YouTube Video</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_RowProperties" xml:space="preserve">
+    <value>Thuộc tính hàng</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonItem_Table" xml:space="preserve">
+    <value>Bàn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_Review" xml:space="preserve">
+    <value>Đánh giá</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.RibbonTab_Table" xml:space="preserve">
+    <value>Bàn</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsDocx" xml:space="preserve">
+    <value>Office Open XML (docx)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsDocx_ToolTip" xml:space="preserve">
+    <value>Xuất khẩu DOCX tập tin và lưu nó vào một đĩa địa phương</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsMht_ToolTip" xml:space="preserve">
+    <value>Xuất khẩu vào MHT tập tin và lưu nó vào một đĩa địa phương</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsOdt" xml:space="preserve">
+    <value>Mở tài liệu (.odt)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsOdt_ToolTip" xml:space="preserve">
+    <value>Xuất khẩu ODT tập tin và lưu nó vào một đĩa địa phương</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsPdf" xml:space="preserve">
+    <value>Tài liệu di động (.pdf)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsPdf_ToolTip" xml:space="preserve">
+    <value>Xuất khẩu tập tin PDF và lưu nó vào một đĩa địa phương</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsRtf" xml:space="preserve">
+    <value>Văn bản phong phú (.rtf)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsRtf_ToolTip" xml:space="preserve">
+    <value>Xuất khẩu để RTF tập tin và lưu nó vào một đĩa địa phương</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsTxt" xml:space="preserve">
+    <value>Văn bản thuần tuý (.txt)</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SaveAsTxt_ToolTip" xml:space="preserve">
+    <value>Xuất khẩu tập tin TXT và lưu nó vào một đĩa địa phương</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectAudio" xml:space="preserve">
+    <value>Chọn âm thanh</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectFlash" xml:space="preserve">
+    <value>Chọn Flash</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SelectVideo" xml:space="preserve">
+    <value>Chọn Video</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SplitTableCellHorizontal" xml:space="preserve">
+    <value>Chia theo chiều ngang</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.SplitTableCellVertical" xml:space="preserve">
+    <value>Chia theo chiều dọc</value>
+  </data>
+  <data name="ASPxHtmlEditorStringId.TableElementInconsistentColor" xml:space="preserve">
+    <value>Nhiều màu sắc</value>
+  </data>
+</root>

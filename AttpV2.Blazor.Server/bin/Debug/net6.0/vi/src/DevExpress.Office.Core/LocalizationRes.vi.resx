@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OfficeStringId.MenuCmd_ToggleFontBold" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_CopySelection" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_CutSelection" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontItalic" xml:space="preserve">
+    <value>Nghiêng</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentJustify" xml:space="preserve">
+    <value>Căn đều</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Paste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Redo" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RedoDescription" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontUnderline" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_UndoDescription" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontName" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringToFront" xml:space="preserve">
+    <value>Đưa lên Trước</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendToBack" xml:space="preserve">
+    <value>Gửi ra Sau</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ZoomIn" xml:space="preserve">
+    <value>Phóng To</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ZoomInDescription" xml:space="preserve">
+    <value>Phóng To</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ZoomOut" xml:space="preserve">
+    <value>Thu nhỏ</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ZoomOutDescription" xml:space="preserve">
+    <value>Thu nhỏ</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationLandscape" xml:space="preserve">
+    <value>Hướng ngang</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_LoadDocument" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_SaveDocument" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationCommandGroup" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_NewEmptyDocument" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontSize" xml:space="preserve">
+    <value>Kích thước phông chữ</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_DeleteComment" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitPercent" xml:space="preserve">
+    <value>Phần trăm</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_NewEmptyDocumentDescription" xml:space="preserve">
+    <value>Tạo ra một tài liệu mới.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_QuickPrint" xml:space="preserve">
+    <value>&amp; nhanh chóng in</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_QuickPrintDescription" xml:space="preserve">
+    <value>Gửi tài liệu trực tiếp đến máy in mặc định mà không thực hiện thay đổi.</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_BitmapFiles" xml:space="preserve">
+    <value>Windows Bitmap</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_WmfFiles" xml:space="preserve">
+    <value>Windows Metafile</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitPoints" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontStrikeout" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="OfficeStringId.Msg_Loading" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Percent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Zoom100Percent" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Hyperlink" xml:space="preserve">
+    <value>Siêu liên kết</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_DecreaseFontSize" xml:space="preserve">
+    <value>Thu nhỏ chữ</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_StatusBarPopupMenuZoom" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_StatusBarZoomSliderDescription" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="OfficeStringId.Caption_EditHyperlinkForm" xml:space="preserve">
+    <value>Chỉnh sửa siêu liên kết</value>
+  </data>
+  <data name="OfficeStringId.Caption_InsertHyperlinkForm" xml:space="preserve">
+    <value>Chèn siêu liên kết</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitCentimeters" xml:space="preserve">
+    <value>Cm</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitInches" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+  <data name="OfficeStringId.Caption_UnitMillimeters" xml:space="preserve">
+    <value>Mm</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_AllFiles" xml:space="preserve">
+    <value>Tất cả các tệp</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_AllSupportedFiles" xml:space="preserve">
+    <value>Tất cả hỗ trợ tập tin</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_EmfFiles" xml:space="preserve">
+    <value>Microsoft Enhanced Metafile</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_GifFiles" xml:space="preserve">
+    <value>Graphics Interchange Format</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_JPEGFiles" xml:space="preserve">
+    <value>Trao đổi tập tin JPEG định dạng</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_PNGFiles" xml:space="preserve">
+    <value>Mạng di động đồ họa</value>
+  </data>
+  <data name="OfficeStringId.FileFilterDescription_TiffFiles" xml:space="preserve">
+    <value>Định dạng tập tin hình ảnh thẻ</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentCenterDescription" xml:space="preserve">
+    <value>Trung tâm văn bản.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentJustifyDescription" xml:space="preserve">
+    <value>Align văn bản để lợi nhuận trái và phải, thêm thêm không gian giữa các từ khi cần thiết.
+
+Điều này tạo ra một cái nhìn sạch dọc theo bên trái và bên phải của trang.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentLeft" xml:space="preserve">
+    <value>Căn chỉnh văn bản trái</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentLeftDescription" xml:space="preserve">
+    <value>Căn chỉnh văn bản sang.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentRight" xml:space="preserve">
+    <value>Căn chỉnh văn bản quyền</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_AlignmentRightDescription" xml:space="preserve">
+    <value>Căn chỉnh văn bản ở bên phải.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontColor" xml:space="preserve">
+    <value>Màu sắc font</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontColorDescription" xml:space="preserve">
+    <value>Thay đổi màu văn bản.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontNameDescription" xml:space="preserve">
+    <value>Thay đổi bộ mặt chữ.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ChangeFontSizeDescription" xml:space="preserve">
+    <value>Thay đổi cỡ phông.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ClearUndo" xml:space="preserve">
+    <value>ClearUndo</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ClearUndoDescription" xml:space="preserve">
+    <value>Hoàn tác xóa bộ đệm</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_CopySelectionDescription" xml:space="preserve">
+    <value>Sao chép phần chọn và đặt nó trên bảng tạm.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_CutSelectionDescription" xml:space="preserve">
+    <value>Cắt lựa chọn từ các tài liệu và đặt nó vào bảng tạm.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_DecreaseFontSizeDescription" xml:space="preserve">
+    <value>Giảm cỡ chữ.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_DeleteCommentDescription" xml:space="preserve">
+    <value>Xóa nhận xét đã chọn.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_EditComment" xml:space="preserve">
+    <value>Chỉnh sửa các bình luận</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_EditCommentDescription" xml:space="preserve">
+    <value>Thêm một lưu ý về điều này một phần của tài liệu.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_EditHyperlink" xml:space="preserve">
+    <value>Chỉnh sửa siêu liên kết...</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_EditHyperlinkDescription" xml:space="preserve">
+    <value>Chỉnh sửa siêu liên kết...</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Encrypt" xml:space="preserve">
+    <value>Mật mã hóa bằng mật khẩu</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_EncryptDescription" xml:space="preserve">
+    <value>Yêu cầu mật khẩu để mở bảng tính này.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringForward" xml:space="preserve">
+    <value>Mang về phía trước</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringForwardCommandGroup" xml:space="preserve">
+    <value>Mang về phía trước</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringForwardCommandGroupDescription" xml:space="preserve">
+    <value>Mang lại mức độ về phía trước một đối tượng đã chọn, hoặc mang lại cho nó ở phía trước của tất cả các đối tượng khác.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringForwardDescription" xml:space="preserve">
+    <value>Mang lại cho các đối tượng đã chọn về phía trước vì vậy mà nó ẩn các đối tượng ít ở phía trước của nó</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectBringToFrontDescription" xml:space="preserve">
+    <value>Mang lại cho đối tượng được chọn ở phía trước của tất cả các đối tượng khác vì vậy mà không có một phần của nó ẩn đằng sau các đối tượng khác.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendBackward" xml:space="preserve">
+    <value>Gửi quay trở lại</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendBackwardCommandGroup" xml:space="preserve">
+    <value>Gửi quay trở lại</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendBackwardCommandGroupDescription" xml:space="preserve">
+    <value>Gửi cấp trở lại một đối tượng đã chọn, hoặc gửi nó đằng sau tất cả các đối tượng khác.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendBackwardDescription" xml:space="preserve">
+    <value>Gửi đối tượng quay trở lại để cho nó được che bởi các đối tượng mà là ở phía trước của nó</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_FloatingObjectSendToBackDescription" xml:space="preserve">
+    <value>Gửi đối tượng đằng sau tất cả các đối tượng khác.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_HyperlinkDescription" xml:space="preserve">
+    <value>Tạo ra một liên kết đến một trang Web, một hình ảnh, địa chỉ e-mail hoặc chương trình một.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_IncreaseFontSize" xml:space="preserve">
+    <value>Phát triển Font</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_IncreaseFontSizeDescription" xml:space="preserve">
+    <value>Tăng cỡ chữ.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertComment" xml:space="preserve">
+    <value>Bình luận mới</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertCommentDescription" xml:space="preserve">
+    <value>Thêm một lưu ý về điều này một phần của tài liệu.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertFloatingObjectPicture" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertFloatingObjectPictureDescription" xml:space="preserve">
+    <value>Chèn một hình ảnh từ một tập tin.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertHyperlink" xml:space="preserve">
+    <value>Siêu liên kết...</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertHyperlinkDescription" xml:space="preserve">
+    <value>Thêm một siêu liên kết mới.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertSymbol" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_InsertSymbolDescription" xml:space="preserve">
+    <value>Chèn biểu tượng không phải trên bàn phím của bạn, chẳng hạn như biểu tượng bản quyền, thương hiệu biểu tượng, đoạn nhãn hiệu và ký tự Unicode.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_LoadDocumentDescription" xml:space="preserve">
+    <value>Mở tài liệu một.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_OpenHyperlink" xml:space="preserve">
+    <value>Open hyperlink</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_OpenHyperlinkDescription" xml:space="preserve">
+    <value>Open hyperlink</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsModerate" xml:space="preserve">
+    <value>Vừa phải
+Đầu: {1,10} dưới cùng: {3,10}
+Trái: {0,10} phải: {2,10}</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsNarrow" xml:space="preserve">
+    <value>Hẹp
+Đầu: {1,10} dưới cùng: {3,10}
+Trái: {0,10} phải: {2,10}</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsNormal" xml:space="preserve">
+    <value>bình thường
+Đầu: {1,10} dưới cùng: {3,10}
+Trái: {0,10} phải: {2,10}</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageMarginsWide" xml:space="preserve">
+    <value>rộng
+Đầu: {1,10} dưới cùng: {3,10}
+Trái: {0,10} phải: {2,10}</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationCommandGroupDescription" xml:space="preserve">
+    <value>chuyển trang giữa bố trí chân dung và phong cảnh.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PageOrientationPortrait" xml:space="preserve">
+    <value>Gương điển hình</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PasteDescription" xml:space="preserve">
+    <value>Dán nội dung của bảng tạm.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Print" xml:space="preserve">
+    <value>&amp; in</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PrintDescription" xml:space="preserve">
+    <value>Chọn một máy in, số lượng bản sao, và các tùy chọn in ấn trước khi in ấn.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PrintPreview" xml:space="preserve">
+    <value>In trước &amp; xem</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_PrintPreviewDescription" xml:space="preserve">
+    <value>Xem trước trang trước khi in ấn.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RemoveHyperlink" xml:space="preserve">
+    <value>Loại bỏ siêu liên kết</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RemoveHyperlinkDescription" xml:space="preserve">
+    <value>Loại bỏ siêu liên kết</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RemoveHyperlinks" xml:space="preserve">
+    <value>Loại bỏ siêu liên kết</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_RemoveHyperlinksDescription" xml:space="preserve">
+    <value>Loại bỏ siêu liên kết</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_SaveDocumentAs" xml:space="preserve">
+    <value>Lưu như</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_SaveDocumentAsDescription" xml:space="preserve">
+    <value>Mở Save As hộp thoại để chọn một định dạng tập tin và lưu tài liệu vào một vị trí mới.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_SaveDocumentDescription" xml:space="preserve">
+    <value>Lưu tài liệu.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ShowPasteSpecialForm" xml:space="preserve">
+    <value>Dán đặc biệt</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ShowPasteSpecialFormDescription" xml:space="preserve">
+    <value>Hiển thị hộp thoại dán Ðặc biệt.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_StatusBarPopupMenuHeader" xml:space="preserve">
+    <value>Tùy chỉnh thanh</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_StatusBarPopupMenuZoomSlider" xml:space="preserve">
+    <value>trượt thu phóng</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_StatusBarZoomDescription" xml:space="preserve">
+    <value>mức thu phóng. Bấm để mở hộp thoại thu phóng.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontBoldDescription" xml:space="preserve">
+    <value>Làm cho văn bản đã chọn đậm.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontDoubleUnderline" xml:space="preserve">
+    <value>Double underline</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontDoubleUnderlineDescription" xml:space="preserve">
+    <value>Double underline</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontItalicDescription" xml:space="preserve">
+    <value>Italicize văn bản đã chọn.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontStrikeoutDescription" xml:space="preserve">
+    <value>Rút ra một dòng thông qua giữa văn bản đã chọn.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_ToggleFontUnderlineDescription" xml:space="preserve">
+    <value>Gạch dưới văn bản đã chọn.</value>
+  </data>
+  <data name="OfficeStringId.MenuCmd_Zoom100PercentDescription" xml:space="preserve">
+    <value>Phóng to tài liệu lên 100% kích thước bình thường.</value>
+  </data>
+  <data name="OfficeStringId.Msg_InternalError" xml:space="preserve">
+    <value>Lỗi nội bộ đã xảy ra</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidBeginInit" xml:space="preserve">
+    <value>Error: gọi đến BeginInit bên trong BeginUpdate</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidBeginUpdate" xml:space="preserve">
+    <value>Error: gọi đến BeginUpdate bên trong BeginInit</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidCopyFromDocumentModel" xml:space="preserve">
+    <value>Lỗi: mô hình tài liệu nguồn và đích là khác nhau</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidEndInit" xml:space="preserve">
+    <value>Lỗi: gọi EndInit hoặc CancelInit mà không có BeginInit hoặc bên trong BeginUpdate</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidEndUpdate" xml:space="preserve">
+    <value>Lỗi: gọi EndUpdate hoặc CancelUpate mà không có BeginUpdate hoặc bên trong BeginInit</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidFontSize" xml:space="preserve">
+    <value>Số phải trong khoảng từ {0} và {1}.</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidNumber" xml:space="preserve">
+    <value>Đây không phải là một số hợp lệ.</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidNumberConverterValue" xml:space="preserve">
+    <value>Giá trị phải trong khoảng từ {0} và {1}.</value>
+  </data>
+  <data name="OfficeStringId.Msg_InvalidRemoveDataSource" xml:space="preserve">
+    <value>Một nguồn dữ liệu không thể bị xóa bỏ trong quá trình kết hợp thư.</value>
+  </data>
+  <data name="OfficeStringId.Msg_IsNotValid" xml:space="preserve">
+    <value>' {0}' là không phải là một giá trị hợp lệ cho ' {1}'</value>
+  </data>
+  <data name="OfficeStringId.Msg_MagicNumberNotFound" xml:space="preserve">
+    <value>Tập tin bạn đang cố gắng mở là ở định dạng khác nhau hơn so với quy định của phần mở rộng file.</value>
+  </data>
+  <data name="OfficeStringId.Msg_UnsupportedFormatOrCorruptedFile" xml:space="preserve">
+    <value>Định dạng không được hỗ trợ hoặc tập tin bị hỏng.</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Centimeter" xml:space="preserve">
+    <value> cm</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Inch" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Millimeter" xml:space="preserve">
+    <value> mm</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Pica" xml:space="preserve">
+    <value> pc</value>
+  </data>
+  <data name="OfficeStringId.UnitAbbreviation_Point" xml:space="preserve">
+    <value> pt</value>
+  </data>
+</root>

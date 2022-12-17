@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CriteriaAnalizer_PathNotFound" xml:space="preserve">
+    <value>Không thể tìm thấy đường dẫn {0} -&gt; {1}.</value>
+  </data>
+  <data name="ASE_CommandNotAllowedWithinMultiStatementTransaction" xml:space="preserve">
+    <value>Cơ sở dữ liệu hỗ trợ sáng tạo hoặc sửa đổi của giản đồ với các giao dịch. Để thực hiện thao tác này, bạn phải đặt cấu hình cơ sở dữ liệu để hỗ trợ các sửa đổi của giản đồ với các giao dịch, hoặc vô hiệu hoá giao dịch tại thời điểm giản đồ được Cập Nhật. Để làm điều này, thiết lập các lĩnh vực ExecuteUpdateSchemaInTransaction = false (đối với trường hợp nhà cung cấp hiện nay), hoặc các lĩnh vực GlobalExecuteUpdateSchemaInTransaction = false (cho tất cả các trường hợp của các nhà cung cấp).</value>
+  </data>
+  <data name="Async_CanChangeProperties" xml:space="preserve">
+    <value>Nó là không thể thay đổi thuộc tính nguồn InstantFeedback khi nó đã được sử dụng bởi lưới.</value>
+  </data>
+  <data name="Async_CanChangeViewProperties" xml:space="preserve">
+    <value>Không thể thay đổi các tính XPInstantFeedbackView khi nó đã được sử dụng bởi lưới.</value>
+  </data>
+  <data name="Async_CommandChannelDoesNotImplementICommandChannelAsync" xml:space="preserve">
+    <value>Kênh lệnh ' {0} ' của bạn không hỗ trợ giao diện ' DevExpress. Xpo. Helpers. ICommandChannelAsync '. Hãy thực hiện giao diện này, hoặc sử dụng một kênh Command tương thích.</value>
+  </data>
+  <data name="Async_ConnectionProviderDoesNotImplementIDataStoreAsync" xml:space="preserve">
+    <value>Nhà cung cấp kết nối ' {0} ' của bạn không hỗ trợ giao diện ' DevExpress. Xpo. db. IDataStoreAsync '. Vui lòng triển khai giao diện này hoặc sử dụng một nhà cung cấp kết nối tương thích.</value>
+  </data>
+  <data name="Async_DataLayerDoesNotImplementIDataLayerAsync" xml:space="preserve">
+    <value>Lớp dữ liệu ' {0} ' của bạn không hỗ trợ giao diện ' DevExpress. Xpo. IDataLayerAsync '. Xin vui lòng, thực hiện giao diện này, hoặc sử dụng một lớp dữ liệu tương thích.</value>
+  </data>
+  <data name="Async_InternalErrorAsyncActionIsAlreadyDisposed" xml:space="preserve">
+    <value>Nội bộ lỗi: một hành động không đồng bộ đã được xử lý. Nó có thể được gây ra bởi một vấn đề trong XPO. Xin vui lòng liên hệ với nhóm hỗ trợ DevExpress.</value>
+  </data>
+  <data name="Async_ObjectLayerDoesNotImplementIObjectLayerAsync" xml:space="preserve">
+    <value>Lớp đối tượng của bạn không hỗ trợ giao diện 'DevExpress.Xpo.IObjectLayerAsync'. Xin vui lòng thực hiện các giao diện này trong '{0}' lớp học hoặc sử dụng một lớp đối tượng tương thích.</value>
+  </data>
+  <data name="Async_OperationCannotBePerformedBecauseNoSyncContext" xml:space="preserve">
+    <value>Thao tác này không thể được thực hiện, bởi vì các chủ đề thực hiện đã không có bối cảnh hiện tại của đồng bộ hoá.</value>
+  </data>
+  <data name="CollectClassInfos_CouldNotLoadAssembly" xml:space="preserve">
+    <value>Không thể thu thập ClassInfos từ hội đồng '{0}'. ThreadSafeDataLayer có thể ném InvalidOperationException khi sử dụng các lớp từ hội đồng này. Xem InnerException để biết chi tiết.</value>
+  </data>
+  <data name="Collections_CannotAssignProperty" xml:space="preserve">
+    <value>Không thể thay đổi bất động sản '{0}' khi {1} không ở chế độ thiết kế hoặc khởi tạo.</value>
+  </data>
+  <data name="Collections_CannotResolvePropertyTypeComparer" xml:space="preserve">
+    <value>Không thể giải quyết comparer bất động sản '{0}' loại '{1}'.</value>
+  </data>
+  <data name="Collections_CriteriaEvaluationBehaviorIsNotSupported" xml:space="preserve">
+    <value>Nội bộ lỗi: CriteriaEvaluationBehavior được chỉ định.{0} không được hỗ trợ bởi nhà xây dựng quá tải này.</value>
+  </data>
+  <data name="Collections_GeneralPurposeCollectionInsteadOfRefCollection" xml:space="preserve">
+    <value>Thực hiện các bộ sưu tập liên quan đến tài sản không hợp lệ ' {0}. {1}' được phát hiện. Các bộ sưu tập nên được tạo ra thông qua phương thức GetCollection hoặc các nhà xây dựng XPCollection (phiên phiên, đối tượng theOwner, XPMemberInfo refProperty).</value>
+  </data>
+  <data name="Collections_InvalidCastOnAdd" xml:space="preserve">
+    <value>Không thể thêm khoản mục vào bộ sưu tập. Đối tượng '{0}' không phải là một thể hiện của loại '{1}'.</value>
+  </data>
+  <data name="Collections_NotCollectionProperty" xml:space="preserve">
+    <value>{0}.{1} không phải là một tài sản bộ sưu tập. Nó nên được gắn nhãn với AssociationAttribute và hậu duệ loại XPBaseCollection. Có lẽ, bạn sử dụng GetCollection trong tình hình nơi GetList nên được sử dụng.</value>
+  </data>
+  <data name="Collections_RecurringObjectAdd" xml:space="preserve">
+    <value>Định kỳ địa chỉ</value>
+  </data>
+  <data name="Collections_WantNotDeleteFilteredAggregateCollection" xml:space="preserve">
+    <value>Xóa '{0}' đối tượng với bộ sưu tập tổng hợp một phần nạp '{1}' có thể gây ra các đối tượng trẻ mồ côi/hồ sơ.</value>
+  </data>
+  <data name="Common_MethodOrOperationNotImplemented" xml:space="preserve">
+    <value>Phương pháp hoặc hoạt động không được thực hiện.</value>
+  </data>
+  <data name="ConnectionProvider_KeysAutogenerationNonSupportedTypeException" xml:space="preserve">
+    <value>Phím tự động thế hệ không được hỗ trợ đối với loại lớp '{0}'. Nó được hỗ trợ chỉ cho loại dữ liệu Int32, Int64 và Guid.</value>
+  </data>
+  <data name="ConnectionProvider_TheAutoIncrementedKeyWithX0TypeIsNotSuppor" xml:space="preserve">
+    <value>The AutoIncremented phím với ' {0}' loại không được hỗ trợ cho ' {1}'</value>
+  </data>
+  <data name="ConnectionProvider_UnableToFillRefType" xml:space="preserve">
+    <value>Không thể đảm bảo cơ sở dữ liệu giản đồ dành cho tài khoản của '{1}' loại '{0}'. Lỗi: {2}.</value>
+  </data>
+  <data name="CreateCollection_InvalidCastException" xml:space="preserve">
+    <value>Diễn viên không hợp lệ từ '{0}' đến '{1}' trong '{2}. {3} của khách sạn.</value>
+  </data>
+  <data name="CriteriaAnalizer_ClassesAreNotAssignable" xml:space="preserve">
+    <value>Các lớp học '{0}' và '{1}' không thể chuyển nhượng cùng.</value>
+  </data>
+  <data name="CriteriaAnalizer_EmptyJoinOperandId" xml:space="preserve">
+    <value>JoinOperandId là sản phẩm nào.</value>
+  </data>
+  <data name="CriteriaAnalizer_NullJoinClassInfo" xml:space="preserve">
+    <value>JoinClassInfo là null.</value>
+  </data>
+  <data name="CriteriaAnalizer_NullTransitionMemberInfo" xml:space="preserve">
+    <value>Chuyển tiếp MemberInfo là null.</value>
+  </data>
+  <data name="CriteriaAnalizer_TopLevelAggregateNotSupported" xml:space="preserve">
+    <value>Quốc gia tập hợp không thể được sử dụng trong điều kiện.</value>
+  </data>
+  <data name="CustomAggregate_DoesNotImplementInterface" xml:space="preserve">
+    <value>Chức năng tổng hợp tùy chỉnh ' {0} ' không thực hiện giao diện ' {1} '.</value>
+  </data>
+  <data name="CustomAggregate_NotFound" xml:space="preserve">
+    <value>Chức năng tổng hợp tùy chỉnh ' {0} ' không được đăng ký.</value>
+  </data>
+  <data name="DataView_ReferenceMembersWithCompoundKeyAreNotSupported" xml:space="preserve">
+    <value>Các lớp học với các thành viên struct không được hỗ trợ.</value>
+  </data>
+  <data name="DirectSQL_CollectionMembersAreNotSupported" xml:space="preserve">
+    <value>Bộ sưu tập thành viên không được hỗ trợ.</value>
+  </data>
+  <data name="DirectSQL_WrongColumnCount" xml:space="preserve">
+    <value>Số lượng các cột trong một kết quả đặt hàng và dòng mục tiêu không phù hợp với.</value>
+  </data>
+  <data name="DroneDataStore_CommitNotSupported" xml:space="preserve">
+    <value>Không thể cam kết thay đổi bởi vì các kết nối cơ sở dữ liệu không được cấu hình (nhà cung cấp khai cơ sở dữ liệu hiện đang được sử dụng). Xin vui lòng kết nối với các cửa hàng dữ liệu miêu tả nó lúc http://help.devexpress.com/#CoreLibraries/CustomDocument2123</value>
+  </data>
+  <data name="Filtering_TheIifFunctionOperatorRequiresThree" xml:space="preserve">
+    <value>Các nhà điều hành chức năng 'Iif' yêu cầu đối số ba hoặc nhiều hơn. Số lượng các đối số phải có odd.</value>
+  </data>
+  <data name="Filtering_TheTypeNameArgumentOfTheX0FunctionIsNotFound" xml:space="preserve">
+    <value>Các đối số 'typeName' của '{0}' chức năng không được tìm thấy.</value>
+  </data>
+  <data name="Generator_OneOfBinaryOperatorsOperandsIsNull" xml:space="preserve">
+    <value>Một trong BinaryOperator của operands là null.</value>
+  </data>
+  <data name="Generator_TheUseOfATopLevelSingleAggregateIsProhibit" xml:space="preserve">
+    <value>Bị cấm sử dụng của một tổng hợp cấp cao nhất 'Đơn'.</value>
+  </data>
+  <data name="Generator_TheUseOfNestedSingleAggregatesIsProhibited" xml:space="preserve">
+    <value>Bị cấm sử dụng các lồng nhau 'Đơn' máy.</value>
+  </data>
+  <data name="Helpers_CloningObjectModified" xml:space="preserve">
+    <value>Đối tượng với chưa lưu thay đổi không thể được nhân bản.</value>
+  </data>
+  <data name="Helpers_DifferentObjectsKeys" xml:space="preserve">
+    <value>Không thể hợp nhất các thay đổi cho các đối tượng với một phím lần.</value>
+  </data>
+  <data name="Helpers_ResolveDataForCollection" xml:space="preserve">
+    <value>Thành viên không phải là bộ sưu tập một.</value>
+  </data>
+  <data name="Helpers_SameDictionaryExpected" xml:space="preserve">
+    <value>Từ điển sai.</value>
+  </data>
+  <data name="ImageValueConverter_NotPresent" xml:space="preserve">
+    <value>Không thể tìm thấy lớp 'System.Drawing.ImageConverter' trong lắp ráp 'System.Drawing.Common'. Sử dụng System.Drawing.Common 5.0 hoặc cao hơn.</value>
+  </data>
+  <data name="InMemory_CannotFindParentRelationForNode" xml:space="preserve">
+    <value>Không thể tìm thấy một mối quan hệ cha mẹ cho nút '{0}'. Truy vấn bị thay đổi hoặc nội bộ XPO lỗi.</value>
+  </data>
+  <data name="InMemory_DataSetUncommited" xml:space="preserve">
+    <value>Tham số 'dữ liệu' chứa một bộ dữ liệu với khoản thay đổi. Gọi phương pháp DataSet.AcceptChanges trước khi tạo một thể hiện mới của lớp học DataSetDataStore</value>
+  </data>
+  <data name="InMemory_IsReadOnly" xml:space="preserve">
+    <value>Viết không được hỗ trợ.</value>
+  </data>
+  <data name="InMemory_MalformedAggregate" xml:space="preserve">
+    <value>Bị thay đổi tổng hợp hoặc nội bộ lỗi XPO.</value>
+  </data>
+  <data name="InMemory_NotACollection" xml:space="preserve">
+    <value>Truy vấn bị thay đổi hoặc nội bộ XPO lỗi: '{0}' là không bộ sưu tập một.</value>
+  </data>
+  <data name="InMemory_SingleRowExpected" xml:space="preserve">
+    <value>Hàng duy nhất dự kiến sẽ thông qua '{0}', hàng tìm thấy: {1}.</value>
+  </data>
+  <data name="InMemoryFull_CannotPrepareQueryPlan" xml:space="preserve">
+    <value>Không thể xây dựng một kế hoạch truy vấn.</value>
+  </data>
+  <data name="InMemoryFull_CannotPrepareQueryPlanX0" xml:space="preserve">
+    <value>Không thể tạo kế hoạch truy vấn vì tiêu chí ' {0} ' không hợp lệ.</value>
+  </data>
+  <data name="InMemoryFull_DifferentColumnListLengths" xml:space="preserve">
+    <value>Lỗi bên trong: PKey và FKey cột số mismatch.</value>
+  </data>
+  <data name="InMemoryFull_TableNotFound" xml:space="preserve">
+    <value>Bảng '{0}' không tìm thấy.</value>
+  </data>
+  <data name="InMemoryFull_UseDataSetDataStoreOrCtor" xml:space="preserve">
+    <value>Thay vì sử dụng .ctor với bộ dữ liệu, sử dụng DataSetDataStore lớp hoặc .ctor mà không có số liệu.</value>
+  </data>
+  <data name="InMemoryFull_WrongIndexInfo" xml:space="preserve">
+    <value>Lỗi bên trong: thông tin chỉ số sai dạng.</value>
+  </data>
+  <data name="InMemorySet_AddRelation" xml:space="preserve">
+    <value>Không thể thêm một mối quan hệ trùng lặp.</value>
+  </data>
+  <data name="InMemorySet_AliasNotFound" xml:space="preserve">
+    <value>Bảng với bí danh '{0}' không tìm thấy.</value>
+  </data>
+  <data name="InMemorySet_CantUpdateRelationColumn" xml:space="preserve">
+    <value>Cột với quan hệ không thể được Cập Nhật.</value>
+  </data>
+  <data name="InMemorySet_ColumnNotFound" xml:space="preserve">
+    <value>Cột '{0}' không tìm thấy.</value>
+  </data>
+  <data name="InMemorySet_ConstraintConflict" xml:space="preserve">
+    <value>Hạn chế là vi phạm trong bảng '{0}' cho FKey trên cột '{1}'.</value>
+  </data>
+  <data name="InMemorySet_DifferentComplexSet" xml:space="preserve">
+    <value>Nội bộ lỗi: không thể thêm một hàng từ một tập phức tạp.</value>
+  </data>
+  <data name="InMemorySet_DifferentTypes" xml:space="preserve">
+    <value>PKey và FKey cột Loại mismatch.</value>
+  </data>
+  <data name="InMemorySet_InEditMode" xml:space="preserve">
+    <value>Dòng là đã có trong chế độ chỉnh sửa.</value>
+  </data>
+  <data name="InMemorySet_InsertingDataIntoAutoincrementColumn" xml:space="preserve">
+    <value>Không thể gán giá trị cho một auto-tăng cột '{0}'.</value>
+  </data>
+  <data name="InMemorySet_InvalidTypeString" xml:space="preserve">
+    <value>Bộ nạp XML: tên loại không hợp lệ.</value>
+  </data>
+  <data name="InMemorySet_NotLoadingMode" xml:space="preserve">
+    <value>Không thể gán giá trị cho một auto-tăng cột '{0}' trong khi không ở chế độ tải.</value>
+  </data>
+  <data name="InMemorySet_NullDefaultValueNotAllowed" xml:space="preserve">
+    <value>Null giá trị không được phép như là giá trị mặc định cho cột '{0}'.</value>
+  </data>
+  <data name="InMemorySet_OperationNotAllowed" xml:space="preserve">
+    <value>Hoạt động được chỉ định bị cấm.</value>
+  </data>
+  <data name="InMemorySet_UniqueIndex" xml:space="preserve">
+    <value>Duy nhất chỉ mục '{0}' là vi phạm.</value>
+  </data>
+  <data name="InMemorySet_WrongCommitInfo" xml:space="preserve">
+    <value>Lỗi bên trong: thông tin bị thay đổi cam.</value>
+  </data>
+  <data name="InMemorySet_WrongDictionaryIndex" xml:space="preserve">
+    <value>Nội bộ lỗi: không chính xác từ điển dữ liệu trong chỉ mục '{0}'.</value>
+  </data>
+  <data name="InMemorySet_WrongInitData" xml:space="preserve">
+    <value>Số lượng các cột trong một hàng nguồn và dòng của bảng mục tiêu không phù hợp với.</value>
+  </data>
+  <data name="InMemorySet_WrongRollbackInfo" xml:space="preserve">
+    <value>Lỗi bên trong: thông tin sai dạng Rollback.</value>
+  </data>
+  <data name="InMemorySet_XMLException_CantGetColumnType" xml:space="preserve">
+    <value>Bộ nạp XML: không thể quyết định loại cột.</value>
+  </data>
+  <data name="InMemorySet_XMLException_CantRestoreObjectFromXML" xml:space="preserve">
+    <value>Bộ nạp XML: không thể deserialize đối tượng.</value>
+  </data>
+  <data name="InMemorySet_XMLException_choiceNodeNotFound" xml:space="preserve">
+    <value>Bộ nạp XML: nút 'lựa chọn' không tìm thấy.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ColumnNameIsNotSpecified" xml:space="preserve">
+    <value>Bộ nạp XML: tên cột không được chỉ rõ.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ComplexTypeNodeNotFound" xml:space="preserve">
+    <value>Bộ nạp XML: nút 'complexType' không tìm thấy.</value>
+  </data>
+  <data name="InMemorySet_XMLException_DataTypeAttributeNotFound" xml:space="preserve">
+    <value>Bộ nạp XML: không tìm thấy thuộc tính 'Loại dữ liệu'.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ElementNodeNotFound" xml:space="preserve">
+    <value>Bộ nạp XML: nút 'yếu tố' không tìm thấy.</value>
+  </data>
+  <data name="InMemorySet_XMLException_InconsistentForeignKeyCount" xml:space="preserve">
+    <value>Bộ nạp XML: PKey và FKey cột số mismatch.</value>
+  </data>
+  <data name="InMemorySet_XMLException_InvalidBaseAttributeValue" xml:space="preserve">
+    <value>Bộ nạp XML: không chính xác 'cơ sở' thuộc tính giá trị.</value>
+  </data>
+  <data name="InMemorySet_XMLException_InvalidColumnTypeDeclaration" xml:space="preserve">
+    <value>Bộ nạp XML: tên loại cột không hợp lệ.</value>
+  </data>
+  <data name="InMemorySet_XMLException_InvalidValueAttributeValue" xml:space="preserve">
+    <value>Bộ nạp XML: không chính xác 'giá trị' thuộc tính giá trị.</value>
+  </data>
+  <data name="InMemorySet_XMLException_NameAttributeExpected" xml:space="preserve">
+    <value>Bộ nạp XML: dự kiến sẽ thuộc tính 'tên'.</value>
+  </data>
+  <data name="InMemorySet_XMLException_NotDataSetNode" xml:space="preserve">
+    <value>Bộ nạp XML: nút không được đánh dấu là số liệu một.</value>
+  </data>
+  <data name="InMemorySet_XMLException_NullPrimaryColumns" xml:space="preserve">
+    <value>Bộ nạp XML: không thể tìm thấy chính chủ chốt '{0}'.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ReferAttributeExpected" xml:space="preserve">
+    <value>Bộ nạp XML: thuộc tính 'là' dự kiến sẽ.</value>
+  </data>
+  <data name="InMemorySet_XMLException_ReferNotFound" xml:space="preserve">
+    <value>Bộ nạp XML: không thể tìm thấy tham chiếu '{0}'.</value>
+  </data>
+  <data name="InMemorySet_XMLException_SchemaNodeNotFound" xml:space="preserve">
+    <value>Bộ nạp XML: nút 'lược đồ' không tìm thấy.</value>
+  </data>
+  <data name="InMemorySet_XMLException_TableNameIsNotSpecified" xml:space="preserve">
+    <value>Bộ nạp XML: bảng tên không được chỉ rõ.</value>
+  </data>
+  <data name="InMemorySet_XMLException_TableNotDeclared" xml:space="preserve">
+    <value>Bộ nạp XML: bảng '{0}' không được tuyên bố.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XpathAttributeExpected" xml:space="preserve">
+    <value>Bộ nạp XML: dự kiến sẽ thuộc tính 'xpath'.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XpathAttributeWrongFormat" xml:space="preserve">
+    <value>Bộ nạp XML: định dạng giá trị thuộc tính 'xpath' là không chính xác.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XScomplexTypeExpected" xml:space="preserve">
+    <value>Bộ nạp XML: dự kiến sẽ xs:complexType.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSlengthExpected" xml:space="preserve">
+    <value>Bộ nạp XML: dự kiến sẽ xs:length.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSrestrictionExpected" xml:space="preserve">
+    <value>Bộ nạp XML: dự kiến sẽ xs:restriction.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSselectorNodeExpected" xml:space="preserve">
+    <value>Bộ nạp XML: nút 'xs:selector' dự kiến.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSsequenceExpected" xml:space="preserve">
+    <value>Bộ nạp XML: dự kiến sẽ xs:sequence.</value>
+  </data>
+  <data name="InMemorySet_XMLException_XSsimpleTypeExpected" xml:space="preserve">
+    <value>Bộ nạp XML: dự kiến sẽ xs:simpleType.</value>
+  </data>
+  <data name="InTransactionLoader_NotInSelectDataMode" xml:space="preserve">
+    <value>Lỗi nội bộ: không có trong chế độ SelectData.</value>
+  </data>
+  <data name="InTransactionLoader_ProcessReturnResultError" xml:space="preserve">
+    <value>Lỗi bên trong: hoạt động không phép trong chế độ SelectData.</value>
+  </data>
+  <data name="IsExactTypeFunction_NotSupported" xml:space="preserve">
+    <value>Chế độ máy chủ LINQ không hỗ trợ hàm IsExactType.</value>
+  </data>
+  <data name="IsExactTypeFunction_ShouldNotBeCalledExplicitly" xml:space="preserve">
+    <value>Phương pháp này không nên được gọi một cách rõ ràng.</value>
+  </data>
+  <data name="IsInstanceOfTypeFunction_ClassNotFound" xml:space="preserve">
+    <value>Hàm '{0}' không thể tìm thấy loại được chỉ định: '{1}'.</value>
+  </data>
+  <data name="IsInstanceOfTypeFunction_InvalidArgument_TypeName" xml:space="preserve">
+    <value>Hàm '{0}' mong đợi một giá trị chuỗi là đối số 'typeName'. Giá trị của loại '{1}' được cung cấp.</value>
+  </data>
+  <data name="IsInstanceOfTypeFunction_ParametersMustBeConstants" xml:space="preserve">
+    <value>Hàm '{0}' mong đợi một giá trị không đổi là đối số 'typeName'. Một biểu thức được cung cấp.</value>
+  </data>
+  <data name="IsInstanceOfTypeFunction_ShouldNotBeCalledExplicitly" xml:space="preserve">
+    <value>Phương pháp này không nên được gọi một cách rõ ràng.</value>
+  </data>
+  <data name="JsonConverter_UnexpectedToken" xml:space="preserve">
+    <value>Mã thông báo bất ngờ '{0}' tại vị trí {1}. 'StartObject' được mong đợi.</value>
+  </data>
+  <data name="LinqToXpo_CachedExpressionIsIncompatible" xml:space="preserve">
+    <value>Biểu hiện không tương thích. Nó nên được biên dịch tạo ra và chứa các đối số tĩnh chỉ. Bạn có thể sử dụng tham số a1, a2 và a3 của phương pháp CachedExpression để vượt qua các đối số tĩnh.</value>
+  </data>
+  <data name="LinqToXpo_ComplexDataSelectionIsNotSupportedPerhapsY" xml:space="preserve">
+    <value>không được hỗ trợ. Có lẽ bạn đang sử dụng một câu phức tạp trong chọn.</value>
+  </data>
+  <data name="LinqToXpo_CurrentExpressionWithX0IsNotSupported" xml:space="preserve">
+    <value>Biểu hiện với {0} không được hỗ trợ.</value>
+  </data>
+  <data name="LinqToXpo_DoesnTSupportNestedJoinsWithLevel" xml:space="preserve">
+    <value>LinqToXpo không hỗ trợ nhiều hơn hai lồng nhau tham gia. Nó không ảnh hưởng đến tính tham gia trong các truy vấn, phổ biến.</value>
+  </data>
+  <data name="LinqToXpo_DuplicateJoinOperatorFound" xml:space="preserve">
+    <value>Lặp lại tham gia điều hành tìm thấy.</value>
+  </data>
+  <data name="LinqToXpo_ElemAtOperationIsNotSupportedWithoutSorting" xml:space="preserve">
+    <value>Chiến dịch ElementAt không được hỗ trợ mà không cần phân loại.</value>
+  </data>
+  <data name="LinqToXpo_ExpressionX0IsNotSupported" xml:space="preserve">
+    <value>Biểu hiện không được hỗ trợ: {0}</value>
+  </data>
+  <data name="LinqToXpo_ExpressionX0IsNotSupportedInX1" xml:space="preserve">
+    <value>Biểu hiện không được hỗ trợ trong {1}: {0}</value>
+  </data>
+  <data name="LinqToXpo_GroupingWithACustomComparerIsNotSupported" xml:space="preserve">
+    <value>Nhóm với một tuỳ chỉnh comparer không được hỗ trợ.</value>
+  </data>
+  <data name="LinqToXpo_IncorrectDeclaringTypeX0InTheMethodCallQue" xml:space="preserve">
+    <value>Không chính xác '{0}' tuyên bố loại trong phương pháp gọi. Loại 'System.Linq.Queryable' hoặc 'System.Linq.Enumerable' dự kiến.</value>
+  </data>
+  <data name="LinqToXpo_LambdaExpressionIsExpectedX0" xml:space="preserve">
+    <value>Lambda biểu hiện dự kiến: {0}</value>
+  </data>
+  <data name="LinqToXpo_MethodX0ForX1IsNotSupported" xml:space="preserve">
+    <value>'{0}' phương pháp không được hỗ trợ cho {1}.</value>
+  </data>
+  <data name="LinqToXpo_QueryWithAppliedTheSkipOrTheTakeOperations" xml:space="preserve">
+    <value>Các truy vấn với việc bỏ qua hoặc đi hoạt động áp dụng có thể không được sử dụng để tham gia.</value>
+  </data>
+  <data name="LinqToXpo_SequenceContainsMoreThanOneElement" xml:space="preserve">
+    <value>Chuỗi chứa nhiều hơn một nguyên tố.</value>
+  </data>
+  <data name="LinqToXpo_SequenceContainsNoMatchingElement" xml:space="preserve">
+    <value>Chuỗi chứa không có yếu tố phù hợp.</value>
+  </data>
+  <data name="LinqToXpo_SessionIsNull" xml:space="preserve">
+    <value>Phiên là null.</value>
+  </data>
+  <data name="LinqToXpo_SkipOperationIsNotSupportedWithoutSorting" xml:space="preserve">
+    <value>Bỏ qua các hoạt động không được hỗ trợ mà không cần sắp xếp.</value>
+  </data>
+  <data name="LinqToXpo_SortingIsNotSupportedForSelectManyOperatio" xml:space="preserve">
+    <value>Phân loại không được hỗ trợ cho SelectMany hoạt động trên nhiều, rất nhiều bộ sưu tập.</value>
+  </data>
+  <data name="LinqToXpo_SpecifiedJoinKeySelectorsNotCompatibleX0X1" xml:space="preserve">
+    <value>'{0}' và '{1}' tham gia các vấn đề quan trọng không tương thích.</value>
+  </data>
+  <data name="LinqToXpo_TheCallExpressionGenericReturnTypeX0" xml:space="preserve">
+    <value>The Call biểu hiện cần phải có một loại trở lại chung: {0}</value>
+  </data>
+  <data name="LinqToXpo_TheCallExpressionIsExpectedX0" xml:space="preserve">
+    <value>The Call biểu hiện dự kiến: {0}</value>
+  </data>
+  <data name="LinqToXpo_TheCallExpressionReturnTypeX0" xml:space="preserve">
+    <value>The Call biểu hiện cần phải có một loại trở lại: {0}</value>
+  </data>
+  <data name="LinqToXpo_TheCallExpressionXPQueryX0" xml:space="preserve">
+    <value>An XPQuery dự kiến sẽ là đối số đầu tiên cho biểu thức gọi: {0}</value>
+  </data>
+  <data name="LinqToXpo_TheDeclaringTypeAssemblyNamePropertyIsEmpt" xml:space="preserve">
+    <value>The DeclaringTypeAssemblyName tài sản là sản phẩm nào.</value>
+  </data>
+  <data name="LinqToXpo_TheDeclaringTypeNamePropertyIsEmpty" xml:space="preserve">
+    <value>The DeclaringTypeName tài sản là sản phẩm nào.</value>
+  </data>
+  <data name="LinqToXpo_TheJoinWithManyTablesSimultaneouslyInASing" xml:space="preserve">
+    <value>Thao tác tham gia với nhiều bảng trong một nhà điều hành duy nhất không được hỗ trợ.</value>
+  </data>
+  <data name="LinqToXpo_TheLambdaExpressionWithSuchParametersIsNot" xml:space="preserve">
+    <value>Biểu hiện lambda với các thông số như vậy không được hỗ trợ: {0}</value>
+  </data>
+  <data name="LinqToXpo_TheX0MethodIsNotSupported" xml:space="preserve">
+    <value>Phương pháp {0} không được hỗ trợ.</value>
+  </data>
+  <data name="LinqToXpo_WithDeletedOptionNotSupported" xml:space="preserve">
+    <value>Tuỳ chọn WithDeleted không được hỗ trợ vì XPQuery được khởi tạo với DataLayer. Để sử dụng tuỳ chọn WithDeleted, thuê XPQuery (phiên) hoặc XPQuery (phiên, boolean) xây dựng.</value>
+  </data>
+  <data name="LinqToXpo_X0OperatorAfterSkipOrTakeIsNotSupported" xml:space="preserve">
+    <value>{0} sau khi bỏ qua hoặc đi không được hỗ trợ.</value>
+  </data>
+  <data name="LinqToXpo_X0OverGroupingIsNotSupported" xml:space="preserve">
+    <value>{0} trong nhóm không được hỗ trợ.</value>
+  </data>
+  <data name="LinqToXpo_X0WithSkipOrTakeOrGroupingIsNotSupported" xml:space="preserve">
+    <value>{0} đã bỏ qua hoặc mất hoặc nhóm không được hỗ trợ.</value>
+  </data>
+  <data name="LinqToXpo_X0WithSoManyParametersIsNotSupported" xml:space="preserve">
+    <value>{0} với rất nhiều các thông số không được hỗ trợ.</value>
+  </data>
+  <data name="Loader_InternalErrorOrUnsupportedReferenceStructure" xml:space="preserve">
+    <value>Nội bộ XPO lỗi hoặc cấu trúc tài liệu tham khảo không được hỗ trợ: hợp chất quan trọng không phải tham khảo một loại có hậu duệ. Loại đối tượng '{0}', giải quyết loại '{1}'.</value>
+  </data>
+  <data name="Loader_ReloadError" xml:space="preserve">
+    <value>Nội bộ lỗi: các quy định ' {0}.{1}' không được hỗ trợ.</value>
+  </data>
+  <data name="Metadata_AmbiguousClassName" xml:space="preserve">
+    <value>Nó là không thể giải quyết ClassInfo cho tên mơ hồ loại '{0}' giữa loại '{1}' và gõ '(2)'</value>
+  </data>
+  <data name="MetaData_AssociationElementTypeMissing" xml:space="preserve">
+    <value>Bất động sản '{0}' không xác định bất động sản 'ElementType' trong thuộc tính của nó 'Hiệp hội'.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_AssociationAttributeOnlyForListOrReference" xml:space="preserve">
+    <value>Thuộc tính của Hiệp hội không thể được sử dụng cho tài khoản của ' {1}.{2}'. Một tài liệu tham khảo hoặc danh sách dự kiến sẽ.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_MoreThenOneAssociatedMemberFound" xml:space="preserve">
+    <value>Hiệp hội '{0}' là mơ hồ giữa các thành viên '(2)' và '{3}' loại '{1}'.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_NoAssociationListInAssociation" xml:space="preserve">
+    <value>Malformed '{0}' giữa ' {1}.(2) ' và ' {3}.{4}'. Một danh sách hoặc bộ sưu tập dự kiến sẽ ở một bên của các Hiệp hội.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_NonPersistentClassInTheAssociation" xml:space="preserve">
+    <value>Thuộc tính của Hiệp hội không thể được sử dụng cho tài khoản của ' {0}.{1}' bởi vì lớp '{2}' không phải là dai dẳng.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_NotFound" xml:space="preserve">
+    <value>Hiệp hội bị thay đổi '{0}'. Không thể tìm thấy thành viên liên kết cho ' {1}.{2}' trong lớp '{3}'.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_PropertyTypeMismatch" xml:space="preserve">
+    <value>Hiệp hội '{0}' giữa các lớp '{1}' và '{3}' là không hợp lệ. Lớp '{1}' có bất động sản '{2}' đề cập đến lớp '{3}'. Bao gồm lớp '{3}' tài sản '{4}', mà không thích đáng đề cập đến lớp '(5)'; nó có phải là lớp '{1}'.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_TwoAssociationListsInAssociation" xml:space="preserve">
+    <value>Malformed '{0}' giữa các ' {1}.(2) ' và ' {3}.{4}' danh sách/bộ sưu tập. Sử dụng thuộc tính ManyToManyAlias hoặc XPCollection loại danh sách/bộ sưu tập cho nhiều rất nhiều mối quan hệ.</value>
+  </data>
+  <data name="Metadata_AssociationInvalid_UseAssociationNameAsIntermediateTableNameMismatch" xml:space="preserve">
+    <value>The UseAssociationNameAsIntermediateTableName giá trị phải giống nhau trên cả hai mặt của '{0}' Hiệp hội giữa ' {1}.(2) ' và ' {3}.{4}'.</value>
+  </data>
+  <data name="Metadata_AssociationListExpected" xml:space="preserve">
+    <value>Hiệp hội hoặc bộ sưu tập dự kiến: ' {0}.{1}'.</value>
+  </data>
+  <data name="MetaData_CannotResolveClassInfo" xml:space="preserve">
+    <value>Không thể giải quyết ClassInfo cho loại '[{0}] {1}'.</value>
+  </data>
+  <data name="Metadata_CantPersistGenericType" xml:space="preserve">
+    <value>Không thể tồn tại chung loại. Hủy bỏ PersistentAttribute từ định nghĩa của loại '{0}' và tạo ra một descendant(s)-chung liên tục thay vì.</value>
+  </data>
+  <data name="Metadata_ClassAttributeExclusive" xml:space="preserve">
+    <value>PersistentAttribute, NonPersistentAttribute và MapToAttribute được độc quyền. Duy nhất một trong số họ có thể được áp dụng cho lớp '{0}'.</value>
+  </data>
+  <data name="Metadata_ConverterOnKeyOrReference" xml:space="preserve">
+    <value>The ValueConverter thuộc tính không thể được áp dụng cho các ' {0}.{1}' bất động sản đại diện cho một đối tượng phím hoặc tham chiếu đến một đối tượng.</value>
+  </data>
+  <data name="Metadata_CustomProperties_PersistentAndNonStorableType" xml:space="preserve">
+    <value>Tuỳ chỉnh tài khoản của ' {0}.{1}' loại '{2}' không thể được liên tục</value>
+  </data>
+  <data name="Metadata_CustomProperties_ReferenceOrCollectionInSessionStore" xml:space="preserve">
+    <value>Không thể tạo tùy chỉnh tài khoản của '{1}' loại tham khảo hoặc bộ sưu tập bởi vì lớp '{0}' không thực hiện giao diện '{2}'.</value>
+  </data>
+  <data name="Metadata_DictionaryMixing" xml:space="preserve">
+    <value>ClassInfo '{0}' thuộc về từ điển khác nhau một.</value>
+  </data>
+  <data name="MetaData_DuplicateKeyProperty" xml:space="preserve">
+    <value>Trùng lặp phím không tìm thấy cho loại '{0}'.</value>
+  </data>
+  <data name="Metadata_DuplicateMappingField" xml:space="preserve">
+    <value>Lặp lại lập bản đồ để cột '{0}' trong lớp '{1}'.</value>
+  </data>
+  <data name="Metadata_FetchOnlyAttributeNotApplicable" xml:space="preserve">
+    <value>FetchOnly các thuộc tính không thể được áp dụng cho {0}. {1}, vì các thành viên của mục tiêu không phải là liên tục, là aliased, nhiều nhiều người aliased, là chìa khóa, hoặc là một phần của cấu trúc lồng nhau.</value>
+  </data>
+  <data name="Metadata_FetchOnlyAttributeNotApplicableToReference" xml:space="preserve">
+    <value>FetchOnly các thuộc tính không thể được áp dụng cho {0}. {1}, bởi vì các thành viên của mục tiêu là loại tài liệu tham khảo.</value>
+  </data>
+  <data name="MetaData_IncorrectPath" xml:space="preserve">
+    <value>Thuộc tính đường dẫn '{1}' là không đúng cho loại '{0}'.</value>
+  </data>
+  <data name="MetaData_IncorrectPathMemberNotExists" xml:space="preserve">
+    <value>bất động sản '{1}' là không đúng cho loại '{0}' bởi vì tài khoản của ' (2).{3}' không tồn tại.</value>
+  </data>
+  <data name="MetaData_IncorrectPathNonPersistentMember" xml:space="preserve">
+    <value>bất động sản '{1}' là không đúng cho loại '{0}' bởi vì tài khoản của ' (2).{3}' không phải là một viên dai dẳng.</value>
+  </data>
+  <data name="MetaData_IncorrectPathNonReferenceMember" xml:space="preserve">
+    <value>bất động sản '{1}' là không đúng cho loại '{0}' bởi vì tài khoản của ' (2).{3}' không phải là một thành viên tài liệu tham khảo.</value>
+  </data>
+  <data name="MetaData_KeyPropertyAbsent" xml:space="preserve">
+    <value>Bất động sản Key cho loại '{0}' là vắng mặt.</value>
+  </data>
+  <data name="Metadata_MemberAttributeExclusive" xml:space="preserve">
+    <value>PersistentAttribute, NonPersistentAttribute và PersistentAliasAttribute được độc quyền. Duy nhất một trong số họ có thể được áp dụng cho tài khoản của ' {0}.{1}'.</value>
+  </data>
+  <data name="MetaData_NonPersistentReferenceFound" xml:space="preserve">
+    <value>Persistent-cụ thể hoạt động được thực hiện với một lớp học phòng không liên tục ' {0}'</value>
+  </data>
+  <data name="Metadata_NonpesistentKey" xml:space="preserve">
+    <value>Phòng không liên tục phím ' {0}.{1}' tìm thấy.</value>
+  </data>
+  <data name="Metadata_NotCollection" xml:space="preserve">
+    <value>'{0}.{1}' không phải là bộ sưu tập một.</value>
+  </data>
+  <data name="Metadata_NullableAttributeNotApplicable" xml:space="preserve">
+    <value>Nullable thuộc tính không thể được áp dụng cho thành viên {0} của lớp {1} do thành viên không liên tục, là aliased, nhiều nhiều aliased hoặc có tài liệu tham khảo nhập tới đối tượng</value>
+  </data>
+  <data name="Metadata_NullSessionProvider" xml:space="preserve">
+    <value>Nội bộ lỗi: không thể truy cập vào phiên.</value>
+  </data>
+  <data name="Metadata_PersistentAliasCircular" xml:space="preserve">
+    <value>Bất động sản '{1}' loại '{0}' được đánh dấu bằng một PersistentAlias sử dụng biểu thức '(2)', mà kết quả trong chạy xe đạp.</value>
+  </data>
+  <data name="MetaData_PersistentReferenceFound" xml:space="preserve">
+    <value>Không liên tục cụ thể hoạt động được thực hiện với một lớp học liên tục ' {0}'</value>
+  </data>
+  <data name="MetaData_PropertyIsDuplicatedInIndexDeclaration" xml:space="preserve">
+    <value>'{0}' Tài sản được nhân đôi trong các ' {1} {2} {3}' {4} chỉ số tuyên bố.</value>
+  </data>
+  <data name="MetaData_PropertyMissing" xml:space="preserve">
+    <value>Bất động sản '{0}' không tồn tại trong vòng loại '{1}'.</value>
+  </data>
+  <data name="MetaData_PropertyTypeMismatch" xml:space="preserve">
+    <value>Liên kết '{1}' giữa các lớp học '{3}' và '{4}' là không hợp lệ. Lớp '{3}' có bất động sản '{2}' đề cập đến lớp '{4}'. Lớp '{4}' có bất động sản '{0}' không thích đáng đề cập đến lớp '(5)', mặc dù nó phải đề cập đến lớp '{3}'.</value>
+  </data>
+  <data name="MetaData_ReferenceTooComplex" xml:space="preserve">
+    <value>Tham khảo tài khoản của ' {0}.{1}' là quá phức tạp.</value>
+  </data>
+  <data name="MetaData_RequiredAttributeMissing" xml:space="preserve">
+    <value>Bất động sản '{0}' không xác định thuộc tính '{1}'.</value>
+  </data>
+  <data name="Metadata_SameTableName" xml:space="preserve">
+    <value>Lớp học {0} và {1} được ánh xạ tới cùng một bảng.</value>
+  </data>
+  <data name="MetaData_SessionCtorAbsent" xml:space="preserve">
+    <value>Kiểu {0} không có một nhà xây dựng dành riêng cho phiên.</value>
+  </data>
+  <data name="Metadata_SeveralClassesWithSameName" xml:space="preserve">
+    <value>Từ điển đã chứa ClassInfo '{1}'. Lý do có thể: Hội đồng [{0}] đã được nạp hai lần.</value>
+  </data>
+  <data name="Metadata_SuppressSuspiciousMemberInheritanceCheckError" xml:space="preserve">
+    <value>Tài khoản của ' {0}.{1}' và thuộc tính của nó '(2)' được bỏ qua. Các thành viên có cùng tên đã được tuyên bố trong lớp cơ sở '{3}'. Để ngăn chặn các ngoại lệ này đặt DevExpress.Xpo.Metadata.ReflectionClassInfo.SuppressSuspiciousMemberInheritanceCheck đúng.</value>
+  </data>
+  <data name="Metadata_TypeNotFound" xml:space="preserve">
+    <value>Gõ '{0}' không tìm thấy.</value>
+  </data>
+  <data name="Metadata_WrongObjectType" xml:space="preserve">
+    <value>Đối tượng {0} tạo ra bằng cách sử dụng ClassInfo {2} trả về một ClassInfo không chính xác {1}.</value>
+  </data>
+  <data name="MetaData_XMLLoadError" xml:space="preserve">
+    <value>XML từ điển tải lỗi: {0}.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorCannotFindClassinfoType" xml:space="preserve">
+    <value>Sai dạng XML: không thể tìm thấy lớp kiểu.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorCannotFindConstructor" xml:space="preserve">
+    <value>Sai dạng XML: không thể tìm thấy nhà xây dựng cho loại '{0}'.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorCannotLoadMember" xml:space="preserve">
+    <value>Sai dạng XML: không thể nạp thành viên [{0}] {1}.{2}.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorCannotResolveClassinfoInstanceType" xml:space="preserve">
+    <value>Sai dạng XML: không thể giải quyết ClassInfo loại.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorModelTagAbsent" xml:space="preserve">
+    <value>Sai dạng XML: từ khóa &lt; mô hình &gt; không tìm thấy hoặc không gian tên không chính xác được xác định.</value>
+  </data>
+  <data name="MetaData_XMLLoadErrorUnknownAttribute" xml:space="preserve">
+    <value>Sai dạng XML: chưa biết thuộc tính '{0}'.</value>
+  </data>
+  <data name="Metadata_YouCannotApplyTheMapInheritanceParentTable" xml:space="preserve">
+    <value>Bạn không thể áp dụng các thuộc tính MapInheritance với giá trị tham số ParentTable đến một lớp học có không có phụ huynh dai dẳng.</value>
+  </data>
+  <data name="MsSql_RootIsNotInsertStatement" xml:space="preserve">
+    <value>Lỗi bên trong: gốc không phải là một InsertStatement.</value>
+  </data>
+  <data name="NestedSession_NotClonable" xml:space="preserve">
+    <value>Hệ thống phân cấp đối tượng không thể được nhân bản bởi vì tài khoản của ' {0}.{1}' đã được thay đổi trong thao tác.</value>
+  </data>
+  <data name="Object_CorrectPIinUOW" xml:space="preserve">
+    <value>không được hỗ trợ đầy đủ trong buổi. Thay vì sử dụng các đơn vị của công việc.</value>
+  </data>
+  <data name="Object_DelayedPropertyContainerCannotBeAssigned" xml:space="preserve">
+    <value>Chứa một tài sản bị trì hoãn tùy chỉnh ' {0}.{1}' không thể gán.</value>
+  </data>
+  <data name="Object_DelayedPropertyDoesNotContainProperObject" xml:space="preserve">
+    <value>' {0}.{1}' không chứa một đối tượng XPDelayedProperty.</value>
+  </data>
+  <data name="Object_EmptyMemberInstance" xml:space="preserve">
+    <value>InstanceType thành viên không chứa bất kỳ giá trị. Nó là không thể sử dụng GetInstanceObject với một đối tượng đó không được khởi tạo được.</value>
+  </data>
+  <data name="Object_NullInstance" xml:space="preserve">
+    <value>Thực không thể được tìm thấy cho giao diện đối tượng ảo '{0}'.</value>
+  </data>
+  <data name="Object_PersistentOrThis" xml:space="preserve">
+    <value>Tài khoản của ' {0}.{1}' nên được liên tục hoặc trở về 'này'.</value>
+  </data>
+  <data name="Object_ReferencePropertyViaCollectionAccessor" xml:space="preserve">
+    <value>Một cố gắng thiết lập một tài sản tham khảo thông qua bộ sưu tập accessor.</value>
+  </data>
+  <data name="ObjectLayer_MemberNotFound" xml:space="preserve">
+    <value>Tài khoản của ' {0}.{1}' không tìm thấy.</value>
+  </data>
+  <data name="ObjectLayer_XPClassInfoNotFound" xml:space="preserve">
+    <value>ClassInfo '{0}' không tìm thấy.</value>
+  </data>
+  <data name="Paging_CurrentPageShouldBeGreaterOrEqualZero" xml:space="preserve">
+    <value>The CurrentPage nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="Paging_CurrentPageShouldBeLessThanPageCount" xml:space="preserve">
+    <value>The CurrentPage nên là ít hơn PageCount.</value>
+  </data>
+  <data name="Paging_EnumeratorObjectModifiedOrDeleted" xml:space="preserve">
+    <value>Một hoặc nhiều đối tượng từ phạm vi được yêu cầu đã được thay đổi hoặc xóa. Bạn cần phải làm tươi danh sách giá trị nhận dạng.</value>
+  </data>
+  <data name="Paging_EnumeratorPositioning" xml:space="preserve">
+    <value>Bộ liệt kê được định vị trước phần tử đầu tiên của bộ sưu tập hoặc sau khi tố.</value>
+  </data>
+  <data name="Paging_PageSizeShouldBeGreaterThanZero" xml:space="preserve">
+    <value>The PageSize cần phải lớn hơn 0.</value>
+  </data>
+  <data name="PersistentAliasExpander_NonPersistentCriteria" xml:space="preserve">
+    <value>Không thể truy vấn một lưu trữ dữ liệu bằng cách sử dụng tiêu chí "{0}" mà sử dụng một thuộc tính không liên tục '{1}'. Để biết thêm thông tin chi tiết và các giải pháp, tham khảo http://www.devexpress.com/kb=Q352044 bài viết KB.</value>
+  </data>
+  <data name="PersistentAliasExpander_NonPersistentCriteriaThisValueMember" xml:space="preserve">
+    <value>Không thể truy vấn một lưu trữ dữ liệu bằng cách sử dụng tiêu chuẩn "{0}" có sử dụng một tài sản không liên tục '{1}'. Nếu bạn đang sử dụng '{0}' như là một ValueMember cho một tra cứu, xin vui lòng sử dụng một sản phẩm nào ValueMember thay thế.</value>
+  </data>
+  <data name="PersistentAliasExpander_ReferenceOrCollectionExpectedInTheMiddleOfThePath" xml:space="preserve">
+    <value>Sai thành viên '{0}' trong một con đường. Một hiệp hội bất động sản hoặc bộ sưu tập tài liệu tham khảo dự kiến.</value>
+  </data>
+  <data name="Postgresql_CommandPoolNotSupported" xml:space="preserve">
+    <value>CommandPoolBehavior được chỉ định. {0} không được hỗ trợ bởi PosgreSQL {1}.</value>
+  </data>
+  <data name="Postgresql_LegacyGuidDetected" xml:space="preserve">
+    <value>Để tránh trường hợp ngoại lệ này, đặt UseLegacyGuidSupport hoặc tĩnh lĩnh vực GlobalUseLegacyGuidSupport DevExpress.Xpo.DB.PostgreSqlConnectionProvider 'true'.</value>
+  </data>
+  <data name="Security_DeletingAnObjectWasProhibitedByTheRules" xml:space="preserve">
+    <value>Xóa '{0}' đối tượng bị cấm bởi các quy tắc bảo mật.</value>
+  </data>
+  <data name="Security_ICommandChannel_TransferringRequestsIsProhibited" xml:space="preserve">
+    <value>Chuyển yêu cầu thông qua ICommandChannel bị cấm trong các công cụ bảo mật.</value>
+  </data>
+  <data name="Security_SavingAnObjectWasProhibitedByTheRulesOfVal" xml:space="preserve">
+    <value>Tiết kiệm '{0}' đối tượng bị cấm bởi các quy tắc bảo mật.</value>
+  </data>
+  <data name="Security_SavingAnObjectWasProhibitedByTheRulesWProp" xml:space="preserve">
+    <value>Tiết kiệm các ' {0}. {1}' bất động sản bị cấm theo các quy tắc bảo mật.</value>
+  </data>
+  <data name="Security_TheCommitOperationWasProhibitedByTheRules" xml:space="preserve">
+    <value>Hoạt động cam kết là bị cấm bởi các quy tắc bảo mật.</value>
+  </data>
+  <data name="SerializableObjectLayer_OLDoesNotImplementptISerializableObjectLayerEx" xml:space="preserve">
+    <value>Đối tượng lớp không thực hiện ISerializableObjectLayerEx.</value>
+  </data>
+  <data name="SerializableObjectLayer_OptimisticLockFieldInDLNotExists" xml:space="preserve">
+    <value>ClassInfo '{0}' đã không có OptimisticLockFieldInDataLayer được định nghĩa.</value>
+  </data>
+  <data name="SerializableObjectLayer_OptimisticLockFieldNotExists" xml:space="preserve">
+    <value>ClassInfo '{0}' đã không có OptimisticLockField được định nghĩa.</value>
+  </data>
+  <data name="SerOLHelpers_NestedParentMapIsNull" xml:space="preserve">
+    <value>Lỗi nội bộ: NestedParentMap và ParentNestedMap được null.</value>
+  </data>
+  <data name="ServerModeGridSource_GroupAndAddOrRemoveIsNotAllwed" xml:space="preserve">
+    <value>Nó là không được phép để cùng một lúc nhóm và thêm/loại bỏ mục.</value>
+  </data>
+  <data name="ServerModeGridSource_SummaryItemTypeNotSupported" xml:space="preserve">
+    <value>Nội bộ lỗi: SummaryItemType được chỉ định.{0} không được hỗ trợ.</value>
+  </data>
+  <data name="ServerModeGridSource_WrongTopLevelAggregate" xml:space="preserve">
+    <value>Máy chủ hoặc nội bộ XPO lỗi: nhiều nhóm trong tổng hợp quốc gia một.</value>
+  </data>
+  <data name="ServiceCollectionExtensions_ConnectionPoolCannotBeUsed" xml:space="preserve">
+    <value>Hồ bơi kết nối không thể được sử dụng với các lớp dữ liệu đơn giản</value>
+  </data>
+  <data name="ServiceCollectionExtensions_ConnectionStringEmpty" xml:space="preserve">
+    <value>Kết nối chuỗi không thể rỗng khi sử dụng lưu trữ dữ liệu không-inmemory và lưu trữ dữ liệu tùy chỉnh không</value>
+  </data>
+  <data name="ServiceCollectionExtensions_EntityTypesEmpty" xml:space="preserve">
+    <value>EntityTypes phải không null và chứa mininum 1 mục</value>
+  </data>
+  <data name="ServiceCollectionExtensions_NoConstructor" xml:space="preserve">
+    <value>Kiểu {0} không có nhà xây dựng với tham số {1}.</value>
+  </data>
+  <data name="Session_AlreadyConnected" xml:space="preserve">
+    <value>Phiên làm việc đã được kết nối.</value>
+  </data>
+  <data name="Session_AssociationCollectionWithDisabledLoading" xml:space="preserve">
+    <value>Hiệp hội bộ sưu tập của nhà nước là bị hỏng: LoadingEnabled nên được đúng.</value>
+  </data>
+  <data name="Session_AssociationListExpected" xml:space="preserve">
+    <value>Bộ sưu tập hoặc Hiệp hội danh dự kiến sẽ.</value>
+  </data>
+  <data name="Session_CannotAddObjectToObjectCache" xml:space="preserve">
+    <value>Không thể thêm ' {0}' đối tượng với = quan trọng ' {1}' vào bản đồ nhận dạng đối tượng vì một đối tượng ' (2) ' có cùng khoá đã được thêm vào nó</value>
+  </data>
+  <data name="Session_CannotChangePropertyWhenSessionIsConnected" xml:space="preserve">
+    <value>Không thể thay đổi '{0}' khi phiên được kết nối.</value>
+  </data>
+  <data name="Session_CannotLoadInvalidType" xml:space="preserve">
+    <value>Không thể tải loại không hợp lệ '{0}'.</value>
+  </data>
+  <data name="Session_CannotReloadPurgedObject" xml:space="preserve">
+    <value>Requested không thể nạp được, bởi vì họ không có mặt trong các dữ liệu lưu trữ. Các đối tượng có thể đã được xóa/thanh trừng. Nếu bạn thấy trường hợp ngoại lệ này một lần nữa với cùng một đối tượng trong danh sách, lưu ý rằng sự toàn vẹn referential cất giữ dữ liệu của bạn có thể bị hỏng. Trong trường hợp này, liên hệ với người quản trị hệ thống của bạn. Yêu cầu các đối tượng: {0}.</value>
+  </data>
+  <data name="Session_CrossThreadFailureDetected" xml:space="preserve">
+    <value>Cross-chủ đề hoạt động phát hiện. '{0}' là không một đối tượng chủ đề-Két an toàn, xin vui lòng tránh sử dụng nó cùng một lúc từ chủ đề khác nhau</value>
+  </data>
+  <data name="Session_DictConstractor" xml:space="preserve">
+    <value>khi sử dụng các nhà xây dựng phiên (XPDictionary từ điển), bạn phải chỉ định một Session.ConnectionString hợp lệ trước khi gọi phương pháp Session.Connect.</value>
+  </data>
+  <data name="Session_DifferentObjectsWithSameKey" xml:space="preserve">
+    <value>Các đối tượng với trùng lặp phím tìm.</value>
+  </data>
+  <data name="Session_EnteringTheX0StateFromTheX1StateIsProhibit" xml:space="preserve">
+    <value>Vào nhà nước '{0}' từ nhà nước '{2}' bị cấm do nhà nước '{1}' cho '{3}'.</value>
+  </data>
+  <data name="Session_IncompatibleIdType" xml:space="preserve">
+    <value>Qua id loại '{0}' không tương thích với loại '{3}' phím ' {1}.{2}'.</value>
+  </data>
+  <data name="Session_InternalXPOError" xml:space="preserve">
+    <value>Lỗi nội bộ XPO.</value>
+  </data>
+  <data name="Session_LengthsOfTheCollectionsAreDifferentInArgs" xml:space="preserve">
+    <value>Độ dài của các bộ sưu tập là khác nhau trong các đối số.</value>
+  </data>
+  <data name="Session_MostProbablyYouAreTryingToInitiateAnObject" xml:space="preserve">
+    <value>Nhất có lẽ bạn đang cố gắng để bắt đầu một đối tượng tải hoạt động trong khi đối tượng trước tiết kiệm hoạt động không được hoàn tất. Trì hoãn chiến dịch của bạn cho đến khi sự kiện này Session.ObjectsSaved hoặc IXPObject.OnSaved bắn (trong khi Session.IsObjectsSaving là đúng).</value>
+  </data>
+  <data name="Session_MostProbablyYouAreTryingToInitiateAnObjectEx" xml:space="preserve">
+    <value>Nhất có lẽ bạn đang cố gắng để bắt đầu một đối tượng tải hoạt động trong khi đối tượng trước tải hoạt động không được hoàn tất. Trì hoãn chiến dịch của bạn cho đến khi sự kiện này Session.ObjectsLoaded hoặc IXPObject.OnLoaded bắn (trong khi Session.IsObjectsLoading là đúng). Nguyên nhân gây ra một ngoại lệ này là rằng bạn đang cố gắng để làm việc cùng một lúc với cùng một phiên từ chủ đề khác nhau.</value>
+  </data>
+  <data name="Session_NotClassMember" xml:space="preserve">
+    <value>'{0}' là không một thành viên của lớp '{1}'.</value>
+  </data>
+  <data name="Session_ObjectCannotBePurged" xml:space="preserve">
+    <value>'{0}' Đối tượng với id = '{1}' không thể được tẩy - không có đối tượng đề cập đến nó</value>
+  </data>
+  <data name="Session_ObjectModificationIsNotAllowed" xml:space="preserve">
+    <value>Đối tượng không thể sửa đổi trong khi phiên giao dịch là bang CommitChangesToDataLayerInner.</value>
+  </data>
+  <data name="Session_SessionMixing" xml:space="preserve">
+    <value>'{0}' Đối tượng thuộc về phiên làm việc khác nhau một.</value>
+  </data>
+  <data name="Session_TranSequenceBegin" xml:space="preserve">
+    <value>Không thể chạy nhiều hơn một giao dịch trong một phiên.</value>
+  </data>
+  <data name="Session_TranSequenceCommit" xml:space="preserve">
+    <value>Không thể cam kết vì giao dịch không được kích hoạt.</value>
+  </data>
+  <data name="Session_TranSequenceRollback" xml:space="preserve">
+    <value>Không thể cuộn lại, bởi vì không có giao dịch hoạt động.</value>
+  </data>
+  <data name="Session_TypeFieldIsEmpty" xml:space="preserve">
+    <value>Lĩnh vực '{0}' là null (căn cứ lớp '{1}').</value>
+  </data>
+  <data name="Session_TypeNotFound" xml:space="preserve">
+    <value>Không thể tìm thấy loại với id = '{0}'.</value>
+  </data>
+  <data name="Session_UnexpectedPersistentCriteriaEvaluationBehavior" xml:space="preserve">
+    <value>Nội bộ lỗi: PersistentCriteriaEvaluationBehavior được chỉ định.{0} không được hỗ trợ.</value>
+  </data>
+  <data name="Session_UnexpectedState" xml:space="preserve">
+    <value>Chỉ định SessionState.{0} không được hỗ trợ.</value>
+  </data>
+  <data name="Session_WrongConnectionString" xml:space="preserve">
+    <value>Chuỗi kết nối không hợp lệ được chỉ định: '{0}'.</value>
+  </data>
+  <data name="SqlConnectionProvider_CannotCreateAColumnForTheX0FieldWithTheX1D" xml:space="preserve">
+    <value>Không thể tạo một cột cho lĩnh vực '{0}' giá trị '{1}' mặc định. Xin vui lòng, chỉ định một giá trị mặc định cho các lĩnh vực này</value>
+  </data>
+  <data name="ThreadSafeDataLayer_DictionaryModified" xml:space="preserve">
+    <value>Cannot modify Dictionary because ThreadSafeDataLayer uses it. Modified or created ClassInfo: '{0}'. To avoid this exception, follow these recommendations: https://www.devexpress.com/kb=T901732</value>
+  </data>
+  <data name="View_AtLeastOneFetchProperptyShouldBeDefined" xml:space="preserve">
+    <value>Ít nhất một tài sản nên được xác định cho lấy.</value>
+  </data>
+  <data name="View_IsInLoading" xml:space="preserve">
+    <value>Không thể tải lại quan điểm trong khi nó không đồng bộ tải dữ liệu.</value>
+  </data>
+  <data name="View_PropertyNotFetched" xml:space="preserve">
+    <value>Bất động sản '{0}' không được lấy.</value>
+  </data>
+  <data name="VistaDB_UpdatingSchemaIsForbiddenWhileExplicitTran" xml:space="preserve">
+    <value>Cập Nhật sơ đồ bị cấm trong khi rõ ràng giao dịch là mở.</value>
+  </data>
+  <data name="WebApi_ICacheToCacheCommunicationCore_NotImplemented" xml:space="preserve">
+    <value>Nhà cung cấp {0} kết nối '{0}' của bạn không hỗ trợ giao diện 'DevExpress.Xpo.DB.ICacheToCacheCommunicationCore'. Vui lòng kết thúc bằng phiên bản 'DevExpress.Xpo.DB.DataCacheRoot'. Để biết thêm chi tiết, hãy tham khảo chủ đề trợ giúp sau: https://docs.devexpress.com/XPO/402182.</value>
+  </data>
+  <data name="XPBindingSource_BadClassInfo_DataSource" xml:space="preserve">
+    <value>không thể thay đổi ObjectClassInfo. Các DataSource có ClassInfo riêng của mình.</value>
+  </data>
+  <data name="XPBindingSource_BadClassInfo_DataSourceDictionary" xml:space="preserve">
+    <value>Không thể thay đổi ObjectClassInfo. Từ điển của nó là không bằng các từ điển DataSource.</value>
+  </data>
+  <data name="XPBindingSource_BadClassInfo_Dictionary" xml:space="preserve">
+    <value>Không thể thay đổi ObjectClassInfo. Từ điển của nó không bằng từ điển hiện tại.</value>
+  </data>
+  <data name="XPBindingSource_BadObjectType_DataSource" xml:space="preserve">
+    <value>Không thể thay đổi ObjectType. Các DataSource có ClassInfo riêng của mình.</value>
+  </data>
+  <data name="XpoDefault_CannotAssignPropertyWhileAnotherIsNotNull" xml:space="preserve">
+    <value>Không thể gán XpoDefault.{0} trong khi XpoDefault.{1} được chỉ định.</value>
+  </data>
+  <data name="XpoDefault_CustomGuidGenerationHandlerCannotBeNull" xml:space="preserve">
+    <value>XpoDefault.CustomGuidGenerationHandler lĩnh vực giá trị là null. Bạn nên chỉ định người đại diện tùy chỉnh cho lĩnh vực này nếu bạn thiết lập các lĩnh vực XpoDefault.GuidGenerationMode để 'Tuỳ chỉnh'.</value>
+  </data>
+  <data name="XpoServerMode_NonPersistentIsNotSupported" xml:space="preserve">
+    <value>'{0}' Tự</value>
+  </data>
+  <data name="XPWeakReference_SavedObjectExpected" xml:space="preserve">
+    <value>Bạn có thể sử dụng tài liệu tham khảo yếu để lưu các đối tượng chỉ.</value>
+  </data>
+</root>

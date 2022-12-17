@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign Id="ActionDesign">
+    <Actions Id="Actions">
+      <Action Id="ThamDinh-Btn_CapGiayChungNhan" ImageName="SnapInsertHeader" TargetObjectsCriteria="" />
+    </Actions>
+  </ActionDesign>
+  <Views Id="Views">
+    <DetailView Id="XuPhatHanhChinh_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="XuPhatHanhChinh">
+                <LayoutGroup Id="XuPhatHanhChinh_col1">
+                  <LayoutItem Id="LoaiHinhCoSo" ViewItem="LoaiHinhCoSo" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

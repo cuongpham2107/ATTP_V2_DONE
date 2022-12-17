@@ -1,0 +1,3804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportStringId.CatAppearance" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ReportStringId.CatData" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ReportStringId.CatLayout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ReportStringId.CatBehavior" xml:space="preserve">
+    <value>Hành vi</value>
+  </data>
+  <data name="ReportStringId.CatPageSettings" xml:space="preserve">
+    <value>Thiết lập Trang</value>
+  </data>
+  <data name="ReportStringId.CatPrinting" xml:space="preserve">
+    <value>In ấn</value>
+  </data>
+  <data name="ReportStringId.Cmd_TopMargin" xml:space="preserve">
+    <value>Lề Đỉnh</value>
+  </data>
+  <data name="ReportStringId.Cmd_PageHeader" xml:space="preserve">
+    <value>Tiêu đề đầu Trang</value>
+  </data>
+  <data name="ReportStringId.Cmd_ReportHeader" xml:space="preserve">
+    <value>Tiêu đề cuối Báo cáo</value>
+  </data>
+  <data name="ReportStringId.Cmd_GroupHeader" xml:space="preserve">
+    <value>Tiêu đề đầu Nhóm</value>
+  </data>
+  <data name="ReportStringId.Cmd_GroupFooter" xml:space="preserve">
+    <value>Tiều đề cuối Nhóm</value>
+  </data>
+  <data name="ReportStringId.Cmd_ReportFooter" xml:space="preserve">
+    <value>Tiêu đề đầu Báo cáo</value>
+  </data>
+  <data name="ReportStringId.Cmd_PageFooter" xml:space="preserve">
+    <value>Tiêu đề cuối Trang</value>
+  </data>
+  <data name="ReportStringId.Cmd_BottomMargin" xml:space="preserve">
+    <value>Lề Đáy</value>
+  </data>
+  <data name="ReportStringId.BandDsg_QuantityPerPage" xml:space="preserve">
+    <value>một dải mỗi trang</value>
+  </data>
+  <data name="ReportStringId.BandDsg_QuantityPerReport" xml:space="preserve">
+    <value>một dải mỗi báo cáo</value>
+  </data>
+  <data name="ReportStringId.Msg_CreateReportInstance" xml:space="preserve">
+    <value>Báo cáo hiện thời bạn đã sửa có kiểu khác so với kiểu báo cáo bạn mở trước đó.
+Bạn có muốn mở báo cáo được chọn không?</value>
+  </data>
+  <data name="ReportStringId.Msg_FileCorrupted" xml:space="preserve">
+    <value>Không thể nạp báo cáo này. Tập tin có thể bị hỏng hoặc assembly báo cáo tham chiếu đến bị lỗi.</value>
+  </data>
+  <data name="ReportStringId.Msg_FileContentCorrupted" xml:space="preserve">
+    <value>Không thể nạp giao diện của báo cáo này. Tập tin có thể bị hỏng hoặc chứa thông tin không hợp lệ.</value>
+  </data>
+  <data name="ReportStringId.Msg_FileNotFound" xml:space="preserve">
+    <value>Không tìm thấy tệp.</value>
+  </data>
+  <data name="ReportStringId.Msg_WrongReportClassName" xml:space="preserve">
+    <value>Có một lỗi xảy ra khi ngừng xuất bản - có thể sai tên lớp báo cáo</value>
+  </data>
+  <data name="ReportStringId.Msg_IncorrectBandType" xml:space="preserve">
+    <value>Kiểu dải không hợp lệ</value>
+  </data>
+  <data name="ReportStringId.UD_ReportDesigner" xml:space="preserve">
+    <value>Thiết kế Báo cáo</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ReportChanged" xml:space="preserve">
+    <value>Báo cáo đã bị thay đổi. Bạn có muốn ghi lại những thay đổi ?</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_VertSpaceIncrease" xml:space="preserve">
+    <value>Tăng Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SizeToControl" xml:space="preserve">
+    <value>Làm cho Cùng Kích thước</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_CenterVertically" xml:space="preserve">
+    <value>Giữa Dọc</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatItalic" xml:space="preserve">
+    <value>Nghiêng</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_CenterHorizontally" xml:space="preserve">
+    <value>Giữa Ngang</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FileSave" xml:space="preserve">
+    <value>Ghi Tệp</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_EditCut" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_EditCopy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_EditPaste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignHorizontalCenters" xml:space="preserve">
+    <value>Căn Giữa</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SizeToGrid" xml:space="preserve">
+    <value>Khớp kích cỡ với Lưới chia</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatAlignLeft" xml:space="preserve">
+    <value>Căn Trái</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignRight" xml:space="preserve">
+    <value>Căn Phải</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_HorizSpaceDecrease" xml:space="preserve">
+    <value>Giảm Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignVerticalCenters" xml:space="preserve">
+    <value>Căn Giữa</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatFontSize" xml:space="preserve">
+    <value>Cỡ Phông</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_VertSpaceMakeEqual" xml:space="preserve">
+    <value>Làm cho Khoảng cách Dọc Bằng nhau</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignTop" xml:space="preserve">
+    <value>Căn Đỉnh</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_VertSpaceDecrease" xml:space="preserve">
+    <value>Giảm Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SizeToControlWidth" xml:space="preserve">
+    <value>Làm cho Cùng Chiều rộng</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignLeft" xml:space="preserve">
+    <value>Căn Trái</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatFontName" xml:space="preserve">
+    <value>Tên Phông</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatAlignRight" xml:space="preserve">
+    <value>Căn Phải</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FileOpen" xml:space="preserve">
+    <value>Mở Tệp</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_HorizSpaceMakeEqual" xml:space="preserve">
+    <value>Làm cho Khoảng cách Ngang Bằng nhau</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_BringToFront" xml:space="preserve">
+    <value>Đưa lên Trước</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatBold" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignToGrid" xml:space="preserve">
+    <value>Căn sát Lưới chia</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_VertSpaceConcatenate" xml:space="preserve">
+    <value>Loại bỏ Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatUnderline" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SizeToControlHeight" xml:space="preserve">
+    <value>Làm cho Cùng Chiều cao</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_AlignBottom" xml:space="preserve">
+    <value>Căn Đáy</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_SendToBack" xml:space="preserve">
+    <value>Gửi ra Sau</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_HorizSpaceConcatenate" xml:space="preserve">
+    <value>Loại bỏ Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_HorizSpaceIncrease" xml:space="preserve">
+    <value>Tăng Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.UD_FormCaption" xml:space="preserve">
+    <value>Thiết kế Báo cáo</value>
+  </data>
+  <data name="ReportStringId.Verb_EditBands" xml:space="preserve">
+    <value>Sửa và Sắp xếp lại Các dải...</value>
+  </data>
+  <data name="ReportStringId.Verb_EditGroupFields" xml:space="preserve">
+    <value>Sửa Các TrườngNhóm...</value>
+  </data>
+  <data name="ReportStringId.Verb_Import" xml:space="preserve">
+    <value>Mở/Nhận từ...</value>
+  </data>
+  <data name="ReportStringId.Verb_Save" xml:space="preserve">
+    <value>Ghi...</value>
+  </data>
+  <data name="ReportStringId.Verb_About" xml:space="preserve">
+    <value>Giới thiệu</value>
+  </data>
+  <data name="ReportStringId.Verb_RTFClear" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="ReportStringId.Verb_RTFLoad" xml:space="preserve">
+    <value>Nạp Tệp...</value>
+  </data>
+  <data name="ReportStringId.Verb_FormatString" xml:space="preserve">
+    <value>Chuỗi Định dạng...</value>
+  </data>
+  <data name="ReportStringId.Verb_SummaryWizard" xml:space="preserve">
+    <value>Tổng hợp...</value>
+  </data>
+  <data name="ReportStringId.Verb_ReportWizard" xml:space="preserve">
+    <value>Thiết kế trong Thuật sĩ Báo cáo...</value>
+  </data>
+  <data name="ReportStringId.Verb_Insert" xml:space="preserve">
+    <value>Chèn...</value>
+  </data>
+  <data name="ReportStringId.Verb_Delete" xml:space="preserve">
+    <value>Xóa...</value>
+  </data>
+  <data name="ReportStringId.Verb_Bind" xml:space="preserve">
+    <value>Ràng buộc</value>
+  </data>
+  <data name="ReportStringId.Verb_EditText" xml:space="preserve">
+    <value>Sửa Nội dung</value>
+  </data>
+  <data name="ReportStringId.Verb_AddFieldToArea" xml:space="preserve">
+    <value>Thêm Trường vào Vùng</value>
+  </data>
+  <data name="ReportStringId.Verb_RunDesigner" xml:space="preserve">
+    <value>Chạy Trình thiết kế...</value>
+  </data>
+  <data name="ReportStringId.BCForm_Lbl_Property" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="ReportStringId.BCForm_Lbl_Binding" xml:space="preserve">
+    <value>Ràng buộc</value>
+  </data>
+  <data name="ReportStringId.CatNavigation" xml:space="preserve">
+    <value>Điều hướng</value>
+  </data>
+  <data name="ReportStringId.Msg_IncorrectArgument" xml:space="preserve">
+    <value>Giá trị tham số không hợp lệ</value>
+  </data>
+  <data name="ReportStringId.Cmd_Detail" xml:space="preserve">
+    <value>Thân</value>
+  </data>
+  <data name="ReportStringId.Cmd_InsertDetailReport" xml:space="preserve">
+    <value>Chèn Thân Báo cáo</value>
+  </data>
+  <data name="ReportStringId.Cmd_InsertUnboundDetailReport" xml:space="preserve">
+    <value>Bỏ ràng buộc</value>
+  </data>
+  <data name="ReportStringId.Cmd_ViewCode" xml:space="preserve">
+    <value>Xem &amp;Mã</value>
+  </data>
+  <data name="ReportStringId.Cmd_BringToFront" xml:space="preserve">
+    <value>Đưa Lên &amp;Trước</value>
+  </data>
+  <data name="ReportStringId.Cmd_SendToBack" xml:space="preserve">
+    <value>&amp;Gửi Ra Sau</value>
+  </data>
+  <data name="ReportStringId.Cmd_AlignToGrid" xml:space="preserve">
+    <value>Căn sát &amp;Lưới</value>
+  </data>
+  <data name="ReportStringId.Cmd_RtfLoad" xml:space="preserve">
+    <value>Nạp Tệp...</value>
+  </data>
+  <data name="ReportStringId.Cmd_RtfClear" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsert" xml:space="preserve">
+    <value>&amp;Chèn</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertRowAbove" xml:space="preserve">
+    <value>Hàng Trê&amp;n</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertRowBelow" xml:space="preserve">
+    <value>Hàng &amp;Dưới</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertColumnToLeft" xml:space="preserve">
+    <value>Cột Sang &amp;Trái</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertColumnToRight" xml:space="preserve">
+    <value>Cột Sang &amp;Phải</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableInsertCell" xml:space="preserve">
+    <value>Ô</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDelete" xml:space="preserve">
+    <value>Xó&amp;a</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDeleteRow" xml:space="preserve">
+    <value>&amp;Hàng</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDeleteColumn" xml:space="preserve">
+    <value>&amp;Cột</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDeleteCell" xml:space="preserve">
+    <value>Ô</value>
+  </data>
+  <data name="ReportStringId.Cmd_Cut" xml:space="preserve">
+    <value>&amp;Cắt</value>
+  </data>
+  <data name="ReportStringId.Cmd_Copy" xml:space="preserve">
+    <value>&amp;Sao chép</value>
+  </data>
+  <data name="ReportStringId.Cmd_Paste" xml:space="preserve">
+    <value>&amp;Dán</value>
+  </data>
+  <data name="ReportStringId.Cmd_Delete" xml:space="preserve">
+    <value>&amp;Xóa</value>
+  </data>
+  <data name="ReportStringId.Cmd_Properties" xml:space="preserve">
+    <value>Th&amp;uộc tính</value>
+  </data>
+  <data name="ReportStringId.Cmd_InsertBand" xml:space="preserve">
+    <value>Chèn &amp;Dải</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidReportSource" xml:space="preserve">
+    <value>Không thể thiết lập được hậu duệ của báo cáo hiện thời</value>
+  </data>
+  <data name="ReportStringId.SSForm_Caption" xml:space="preserve">
+    <value>Trình soạn thảo Kiểu</value>
+  </data>
+  <data name="ReportStringId.SSForm_Btn_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_NoStyleSelected" xml:space="preserve">
+    <value>Không có kiểu nào được chọn</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_MoreThanOneStyle" xml:space="preserve">
+    <value>Bạn đã chọn nhiều hơn một kiểu</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_SelectedStylesText" xml:space="preserve">
+    <value> các kiểu được chọn...</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_StyleSheetError" xml:space="preserve">
+    <value>Lỗi BảngKiểu</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_InvalidFileFormat" xml:space="preserve">
+    <value>Định dạng tệp không hợp lệ</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_StyleNamePreviewPostfix" xml:space="preserve">
+    <value> kiểu</value>
+  </data>
+  <data name="ReportStringId.SSForm_Msg_FileFilter" xml:space="preserve">
+    <value>Các tệp Report StyleSheet (*.repss)|*.repss|Tất cả các tệp (*.*)|*.*</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_AddStyle" xml:space="preserve">
+    <value>Thêm một kiểu</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_RemoveStyle" xml:space="preserve">
+    <value>Loại bỏ một kiểu</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_ClearStyles" xml:space="preserve">
+    <value>Xóa trống các kiểu</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_PurgeStyles" xml:space="preserve">
+    <value>Xóa các kiểu không sử dụng</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_SaveStyles" xml:space="preserve">
+    <value>Ghi các kiểu ra một tệp</value>
+  </data>
+  <data name="ReportStringId.SSForm_TTip_LoadStyles" xml:space="preserve">
+    <value>Nạp các kiểu từ một tệp</value>
+  </data>
+  <data name="ReportStringId.SR_Side_Margins" xml:space="preserve">
+    <value>Lề bên</value>
+  </data>
+  <data name="ReportStringId.SR_Top_Margin" xml:space="preserve">
+    <value>Lề
+đỉnh</value>
+  </data>
+  <data name="ReportStringId.SR_Vertical_Pitch" xml:space="preserve">
+    <value>Chiều cao
+dọc</value>
+  </data>
+  <data name="ReportStringId.SR_Horizontal_Pitch" xml:space="preserve">
+    <value>Chiều cao ngang</value>
+  </data>
+  <data name="ReportStringId.SR_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ReportStringId.SR_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ReportStringId.SR_Number_Down" xml:space="preserve">
+    <value>Số
+Xuống</value>
+  </data>
+  <data name="ReportStringId.SR_Number_Across" xml:space="preserve">
+    <value>Số Ngang</value>
+  </data>
+  <data name="ReportStringId.Cmd_DetailReport" xml:space="preserve">
+    <value>Thân Báo cáo</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatBackColor" xml:space="preserve">
+    <value>Màu Nền</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatForeColor" xml:space="preserve">
+    <value>Màu Chữ</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_FormatJustify" xml:space="preserve">
+    <value>Căn đều</value>
+  </data>
+  <data name="ReportStringId.Msg_CreateSomeInstance" xml:space="preserve">
+    <value>Không thể tạo hai thể hiện của một lớp trên một cửa sổ</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_Redo" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_HtmlView" xml:space="preserve">
+    <value>Giao diện HTML</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_Designer" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_ReportStatus" xml:space="preserve">
+    <value>{0} {{ LoạiGiấy: {1} }}</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidMethodCall" xml:space="preserve">
+    <value>Phương thức gọi này là không hợp lệ đối với trạng thái hiện thời của đối tượng</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptError" xml:space="preserve">
+    <value>Có các lỗi sau trong script(s):
+{0}</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptCodeIsNotCorrect" xml:space="preserve">
+    <value>Mã nhập vào không hợp lệ</value>
+  </data>
+  <data name="ReportStringId.Msg_DontSupportMulticolumn" xml:space="preserve">
+    <value>Các Thân báo cáo không hỗ trợ nhiều cột.</value>
+  </data>
+  <data name="ReportStringId.Msg_IncorrectPadding" xml:space="preserve">
+    <value>Căn đệm nên lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningControlsAreOverlapped" xml:space="preserve">
+    <value>Cảnh báo xuất: Các điều khiển sau nằm trồng lên nhau và khi xuất sang HTML, RTF, XLS, XLSX, CSV and Text có thể không đúng định dạng - {0}.</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningControlsAreOutOfMargin" xml:space="preserve">
+    <value>Cảnh báo in: Các điều khiển sau nằm ngoài lề phải của trang, và điều này sẽ gây ra các trang được in bổ sung - {0}.</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningUnsavedReports" xml:space="preserve">
+    <value>Cảnh báo in: Lưu các báo cáo sau để xem trước các subreport với các thay đổi gần đây được áp dụng - {0}.</value>
+  </data>
+  <data name="ReportStringId.Msg_ShapeRotationToolTip" xml:space="preserve">
+    <value>Sửa dụng Ctrl với nút trái chuột để để xoay hình</value>
+  </data>
+  <data name="ReportStringId.PanelDesignMsg" xml:space="preserve">
+    <value>Đặt các điều khiển ở đây để giữ chúng lại cùng nhau</value>
+  </data>
+  <data name="ReportStringId.MultiColumnDesignMsg1" xml:space="preserve">
+    <value>Khoảng trống cho các cột lặp lại.</value>
+  </data>
+  <data name="ReportStringId.MultiColumnDesignMsg2" xml:space="preserve">
+    <value>Điều khiển được đặt ở đây sẽ được in không chính xác.</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptExecutionError" xml:space="preserve">
+    <value>Có lỗi sau xảy ra khi đưa script vào trong thủ tục {0}:
+{1}</value>
+  </data>
+  <data name="ReportStringId.Msg_FillDataError" xml:space="preserve">
+    <value>Lỗi khi cố cư trú datasource. Ngoại lệ sau được ném ra:</value>
+  </data>
+  <data name="ReportStringId.Msg_CyclicBookmarks" xml:space="preserve">
+    <value>Có dấu hiệu lặp vô hạn trong báo cáo.</value>
+  </data>
+  <data name="ReportStringId.Msg_LargeText" xml:space="preserve">
+    <value>Nội dung quá lớn.</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_NewReport" xml:space="preserve">
+    <value>&amp;Mới</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_NewWizardReport" xml:space="preserve">
+    <value>Mới thông qua Th&amp;uật sĩ...</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_OpenFile" xml:space="preserve">
+    <value>&amp;Mở...</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SaveFile" xml:space="preserve">
+    <value>&amp;Ghi</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SaveFileAs" xml:space="preserve">
+    <value>Ghi với tên &amp;khác...</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SaveAll" xml:space="preserve">
+    <value>Ghi Tất &amp;cả</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Exit" xml:space="preserve">
+    <value>Th&amp;oát</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Cut" xml:space="preserve">
+    <value>&amp;Cắt</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Copy" xml:space="preserve">
+    <value>&amp;Sao chép</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Paste" xml:space="preserve">
+    <value>&amp;Dán</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Delete" xml:space="preserve">
+    <value>&amp;Xóa</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SelectAll" xml:space="preserve">
+    <value>Chọn Tất &amp;cả</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Undo" xml:space="preserve">
+    <value>&amp;Hoàn tác</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Redo" xml:space="preserve">
+    <value>&amp;Làm lại</value>
+  </data>
+  <data name="ReportStringId.UD_Group_File" xml:space="preserve">
+    <value>&amp;Tệp</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Edit" xml:space="preserve">
+    <value>&amp;Soạn thảo</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Format" xml:space="preserve">
+    <value>Định &amp;dạng</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Font" xml:space="preserve">
+    <value>&amp;Phông</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Justify" xml:space="preserve">
+    <value>&amp;Căn đều</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Align" xml:space="preserve">
+    <value>&amp;Căn</value>
+  </data>
+  <data name="ReportStringId.UD_Group_MakeSameSize" xml:space="preserve">
+    <value>&amp;Làm cho Cùng Kích thước</value>
+  </data>
+  <data name="ReportStringId.UD_Group_HorizontalSpacing" xml:space="preserve">
+    <value>&amp;Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.UD_Group_VerticalSpacing" xml:space="preserve">
+    <value>Khoảng cách &amp;Dọc</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Order" xml:space="preserve">
+    <value>&amp;Sắp xếp</value>
+  </data>
+  <data name="ReportStringId.UD_Group_CenterInForm" xml:space="preserve">
+    <value>&amp;Giữa Cửa sổ</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ForegroundColor" xml:space="preserve">
+    <value>Mà&amp;u Chữ</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_BackGroundColor" xml:space="preserve">
+    <value>Màu &amp;Nền</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_FontBold" xml:space="preserve">
+    <value>Đậ&amp;m</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_FontItalic" xml:space="preserve">
+    <value>Ngh&amp;iêng</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_FontUnderline" xml:space="preserve">
+    <value>&amp;Gạch chân</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_JustifyLeft" xml:space="preserve">
+    <value>&amp;Trái</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_JustifyCenter" xml:space="preserve">
+    <value>&amp;Giữa</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_JustifyRight" xml:space="preserve">
+    <value>&amp;Phải</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_JustifyJustify" xml:space="preserve">
+    <value>Đề&amp;u</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignLefts" xml:space="preserve">
+    <value>&amp;Trái</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignCenters" xml:space="preserve">
+    <value>&amp;Giữa</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignRights" xml:space="preserve">
+    <value>&amp;Phải</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignTops" xml:space="preserve">
+    <value>Đỉn&amp;h</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignMiddles" xml:space="preserve">
+    <value>&amp;Giữa</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignBottoms" xml:space="preserve">
+    <value>Đá&amp;y</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_AlignToGrid" xml:space="preserve">
+    <value>sát &amp;Lưới chia</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MakeSameSizeWidth" xml:space="preserve">
+    <value>&amp;Chiều rộng</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MakeSameSizeSizeToGrid" xml:space="preserve">
+    <value>Khớp kích cỡ với &amp;Lưới chia</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MakeSameSizeHeight" xml:space="preserve">
+    <value>&amp;Chiều cao</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MakeSameSizeBoth" xml:space="preserve">
+    <value>&amp;Cả hai</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SpacingMakeEqual" xml:space="preserve">
+    <value>Làm &amp;Bằng nhau</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SpacingIncrease" xml:space="preserve">
+    <value>&amp;Tăng</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SpacingDecrease" xml:space="preserve">
+    <value>&amp;Giảm</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_SpacingRemove" xml:space="preserve">
+    <value>&amp;Loại bỏ</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_CenterInFormHorizontally" xml:space="preserve">
+    <value>Ng&amp;ang</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_CenterInFormVertically" xml:space="preserve">
+    <value>&amp;Dọc</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_OrderBringToFront" xml:space="preserve">
+    <value>Đưa lên &amp;Trước</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_OrderSendToBack" xml:space="preserve">
+    <value>&amp;Gửi ra Sau</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Zoom" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ZoomIn" xml:space="preserve">
+    <value>Phóng To</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ZoomOut" xml:space="preserve">
+    <value>Thu Nhỏ</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ZoomFactor" xml:space="preserve">
+    <value>Hệ số Phóng: {0}%</value>
+  </data>
+  <data name="ReportStringId.UD_Title_FieldList" xml:space="preserve">
+    <value>Danh sách Trường</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer" xml:space="preserve">
+    <value>Trình thám hiểm Báo cáo</value>
+  </data>
+  <data name="ReportStringId.UD_Title_PropertyGrid" xml:space="preserve">
+    <value>Lưới Thuộc tính</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ToolBox" xml:space="preserve">
+    <value>Hộp Công cụ</value>
+  </data>
+  <data name="ReportStringId.UD_XtraReportsToolboxCategoryName" xml:space="preserve">
+    <value>Các điều khiển Chuẩn</value>
+  </data>
+  <data name="ReportStringId.UD_XtraReportsPointerItemCaption" xml:space="preserve">
+    <value>Con trỏ</value>
+  </data>
+  <data name="ReportStringId.UD_Group_View" xml:space="preserve">
+    <value>&amp;Hiển thị</value>
+  </data>
+  <data name="ReportStringId.UD_Group_ToolbarsList" xml:space="preserve">
+    <value>&amp;Thanh công cụ</value>
+  </data>
+  <data name="ReportStringId.UD_Group_DockPanelsList" xml:space="preserve">
+    <value>&amp;Cửa sổ</value>
+  </data>
+  <data name="ReportStringId.UD_Group_TabButtonsList" xml:space="preserve">
+    <value>Các nút Tab</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MainMenuName" xml:space="preserve">
+    <value>Thực đơn Chính</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ToolbarName" xml:space="preserve">
+    <value>Thanh công cụ</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_LayoutToolbarName" xml:space="preserve">
+    <value>Thanh công cụ Bài trí</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_FormattingToolbarName" xml:space="preserve">
+    <value>Thanh công cụ Định dạng</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_StatusBarName" xml:space="preserve">
+    <value>Thanh Trạng thái</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_ZoomToolbarName" xml:space="preserve">
+    <value>Thanh công cụ Phóng</value>
+  </data>
+  <data name="ReportStringId.CatUserDesigner" xml:space="preserve">
+    <value>Người dùng Thiết kế</value>
+  </data>
+  <data name="ReportStringId.STag_Name_DataBinding" xml:space="preserve">
+    <value>Ràng buộc Dữ liệu</value>
+  </data>
+  <data name="ReportStringId.STag_Name_FormatString" xml:space="preserve">
+    <value>Chuỗi Định dạng</value>
+  </data>
+  <data name="ReportStringId.STag_Name_Checked" xml:space="preserve">
+    <value>Đã đánh dấu</value>
+  </data>
+  <data name="ReportStringId.STag_Name_PreviewRowCount" xml:space="preserve">
+    <value>Số Hàng Xem trước</value>
+  </data>
+  <data name="ReportStringId.STag_Name_Bands" xml:space="preserve">
+    <value>Dải</value>
+  </data>
+  <data name="ReportStringId.STag_Name_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnMode" xml:space="preserve">
+    <value>Chế độ Nhiều-Cột</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnCount" xml:space="preserve">
+    <value>Số Cột</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnWidth" xml:space="preserve">
+    <value>Độ rộng Cột</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnSpacing" xml:space="preserve">
+    <value>Khoảng cách Cột</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ColumnLayout" xml:space="preserve">
+    <value>Giao diện Nhiều-Cột</value>
+  </data>
+  <data name="ReportStringId.STag_Name_FieldArea" xml:space="preserve">
+    <value>Vùng Trường cho một Trường Mới</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_GroupMain_Caption" xml:space="preserve">
+    <value>Chính</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_GroupMain_Description" xml:space="preserve">
+    <value>Thiết lập chính (Các trường, Giao diện).</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemFields_Caption" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemFields_Description" xml:space="preserve">
+    <value>Quản lý trường.</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemLayout_Caption" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemLayout_Description" xml:space="preserve">
+    <value>Tùy chỉnh giao diện của XRPivotGrid hiện thời và xem trước dữ liệu của nó.</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_GroupPrinting_Caption" xml:space="preserve">
+    <value>In ấn</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_GroupPrinting_Description" xml:space="preserve">
+    <value>Quản lý tùy chọn in ấn cho XRPivotGrid hiện thời.</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemAppearances_Caption" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemAppearances_Description" xml:space="preserve">
+    <value>Điều chỉnh hình dạng in của XRPivotGrid hiện thời.</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemSettings_Caption" xml:space="preserve">
+    <value>Thiết lập In ấn</value>
+  </data>
+  <data name="ReportStringId.PivotGridForm_ItemSettings_Description" xml:space="preserve">
+    <value>Điều chỉnh thiết lập in ấn cho XRPivotGrid hiện thời.</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Fields_ColumnsText" xml:space="preserve">
+    <value>Các trường XRPivotGrid</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Fields_DescriptionText1" xml:space="preserve">
+    <value>Bạn có thể thêm hoặc xóa các trường XRPivotGrid và hiệu chỉnh các thiết lập của chúng.</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Fields_DescriptionText2" xml:space="preserve">
+    <value>Chọn và kéo trường vào vùng trường PivotGrid để tạo trường PivotGrid.</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Layouts_DescriptionText" xml:space="preserve">
+    <value>Hiệu chỉnh giao diện của XRPivotGrid (thiết lập sắp xếp, bài trí trường) và kích vào nút Áp dụng để áp sự hiệu chỉnh cho XRPivotGrid hiện thời. Bạn cũng có thể ghi lại giao diện sang một tệp XML (điều này có thể được nạp và áp dụng cho các giao diện khác tại lúc thiết kế và chạy chương trình).</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Layouts_SelectorCaption1" xml:space="preserve">
+    <value>Ẩn &amp;chọn trường</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Layouts_SelectorCaption2" xml:space="preserve">
+    <value>Hiện &amp;chọn trường</value>
+  </data>
+  <data name="ReportStringId.PivotGridFrame_Appearances_DescriptionText" xml:space="preserve">
+    <value>Chọn một hoặc nhiều các đối tượng Hình dạng để tùy chỉnh hình dạng in ấn của các phần tử trực quan tương ứng.</value>
+  </data>
+  <data name="ReportStringId.STag_Capt_Tasks" xml:space="preserve">
+    <value>Hiệu chỉnh</value>
+  </data>
+  <data name="ReportStringId.STag_Capt_Format" xml:space="preserve">
+    <value>{1} {0}</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_NewReport" xml:space="preserve">
+    <value>Tạo mới một báo cáo trống</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_NewWizardReport" xml:space="preserve">
+    <value>Tạo mới một báo cáo sử dụng Thuật sĩ</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_OpenFile" xml:space="preserve">
+    <value>Mở một báo cáo</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SaveFile" xml:space="preserve">
+    <value>Ghi báo cáo</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SaveFileAs" xml:space="preserve">
+    <value>Ghi báo cáo với một tên mới</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SaveAll" xml:space="preserve">
+    <value>Ghi tất cả báo cáo</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Exit" xml:space="preserve">
+    <value>Đóng thiết kế</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Cut" xml:space="preserve">
+    <value>Xóa điều khiển và sao chép nó vào bộ nhớ đệm</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Copy" xml:space="preserve">
+    <value>Sao chép điều khiển vào bộ nhớ đệm</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Paste" xml:space="preserve">
+    <value>Thêm điều khiển từ bộ nhớ đệm</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Delete" xml:space="preserve">
+    <value>Xóa điều khiển</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SelectAll" xml:space="preserve">
+    <value>Chọn tất cả các điều khiển trong tài liệu</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Undo" xml:space="preserve">
+    <value>Hoàn tác hành động cuối</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Redo" xml:space="preserve">
+    <value>Làm lại hành động cuối</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ForegroundColor" xml:space="preserve">
+    <value>Thiết lập màu chữ của điều khiển</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_BackGroundColor" xml:space="preserve">
+    <value>Thiết lập màu nền của điều khiển</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_FontBold" xml:space="preserve">
+    <value>Làm cho phông đậm</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_FontItalic" xml:space="preserve">
+    <value>Làm cho phông nghiêng</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_FontUnderline" xml:space="preserve">
+    <value>Gạch chân phông</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_JustifyLeft" xml:space="preserve">
+    <value>Căn văn bản của điều khiển sang trái</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_JustifyCenter" xml:space="preserve">
+    <value>Căn văn bản của điều khiển vào giữa</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_JustifyRight" xml:space="preserve">
+    <value>Căn văn bản của điều khiển sang phải</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_JustifyJustify" xml:space="preserve">
+    <value>Căn đều văn bản của điều khiển</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignLefts" xml:space="preserve">
+    <value>Căn trái các điều khiển được chọn</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignCenters" xml:space="preserve">
+    <value>Căn giữa các điều khiển được chọn theo chiều dọc</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignRights" xml:space="preserve">
+    <value>Căn phải các điều khiển được chọn</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignTops" xml:space="preserve">
+    <value>Căn đỉnh các điều khiển được chọn</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignMiddles" xml:space="preserve">
+    <value>Căn giữa các điều khiển được chọn theo chiều ngang</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignBottoms" xml:space="preserve">
+    <value>Căn đáy các điều khiển được chọn</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_AlignToGrid" xml:space="preserve">
+    <value>Căn vị trí của các điều khiển được chọn sát với ô lưới</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MakeSameSizeWidth" xml:space="preserve">
+    <value>Làm cho các điều khiển được chọn có cùng chiều rộng</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MakeSameSizeSizeToGrid" xml:space="preserve">
+    <value>Khớp kích thước của các điều khiển được chọn với lưới chia</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MakeSameSizeHeight" xml:space="preserve">
+    <value>Làm cho các điều khiển được chọn có cùng chiều cao</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MakeSameSizeBoth" xml:space="preserve">
+    <value>Làm cho các điều khiển được chọn có kích thước bằng nhau</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SpacingMakeEqual" xml:space="preserve">
+    <value>Làm cho khoảng cách giữa các điều khiển được chọn bằng nhau</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SpacingIncrease" xml:space="preserve">
+    <value>Tăng khoảng cách giữa các điều khiển được chọn</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SpacingDecrease" xml:space="preserve">
+    <value>Giảm khoảng cách giữa các điều khiển được chọn</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_SpacingRemove" xml:space="preserve">
+    <value>Loại bỏ khoảng cách giữa các điều khiển được chọn</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_CenterInFormHorizontally" xml:space="preserve">
+    <value>Căn dọc giữa các điều khiển được chọn bên trong một dải</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_CenterInFormVertically" xml:space="preserve">
+    <value>Căn ngang giữa các điều khiển được chọn bên trong một dải</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_OrderBringToFront" xml:space="preserve">
+    <value>Đưa các điều khiển được chọn lên trước</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_OrderSendToBack" xml:space="preserve">
+    <value>Chuyển các điều khiển được chọn ra sau</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Zoom" xml:space="preserve">
+    <value>Chọn hoặc nhập hệ số phóng</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ZoomIn" xml:space="preserve">
+    <value>Phóng to bề mặt thiết kế</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ZoomOut" xml:space="preserve">
+    <value>Thu nhỏ bề mặt thiết kế</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ViewBars" xml:space="preserve">
+    <value>Ẩn hoặc hiện {0}</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ViewDockPanels" xml:space="preserve">
+    <value>Ẩn hoặc hiện cửa sổ {0}</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_ViewTabs" xml:space="preserve">
+    <value>Chuyển đến tab {0}</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptingPermissionErrorMessage" xml:space="preserve">
+    <value>Bạn không có đủ quyền để thực hiện các script trong báo cáo này.
+
+Chi tiết:
+
+{0}</value>
+  </data>
+  <data name="ReportStringId.Msg_ErrorTitle" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="ReportStringId.Msg_SerializationErrorTitle" xml:space="preserve">
+    <value>Lỗi Xuất bản</value>
+  </data>
+  <data name="ReportStringId.Msg_ReportImporting" xml:space="preserve">
+    <value>Đang nhận vào một giao diện báo cáo. Vui lòng chờ...</value>
+  </data>
+  <data name="ReportStringId.Cmd_BandMoveDown" xml:space="preserve">
+    <value>Dịch Xuống</value>
+  </data>
+  <data name="ReportStringId.Cmd_BandMoveUp" xml:space="preserve">
+    <value>Dịch Lên</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageText" xml:space="preserve">
+    <value>Thiết kế Báo cáo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlPageText" xml:space="preserve">
+    <value>Giao diện HTML</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Report" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Font" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Alignment" xml:space="preserve">
+    <value>Căn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_SizeAndLayout" xml:space="preserve">
+    <value>Bài trí</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Zoom" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_View" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignToGrid_Caption" xml:space="preserve">
+    <value>Căn sát Lưới chia</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignLeft_Caption" xml:space="preserve">
+    <value>Căn Trái</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignVerticalCenters_Caption" xml:space="preserve">
+    <value>Căn Giữa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignRight_Caption" xml:space="preserve">
+    <value>Căn Phải</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignTop_Caption" xml:space="preserve">
+    <value>Căn Đỉnh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignHorizontalCenters_Caption" xml:space="preserve">
+    <value>Căn Giữa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignBottom_Caption" xml:space="preserve">
+    <value>Nút Căn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlWidth_Caption" xml:space="preserve">
+    <value>Làm cho Cùng Chiều rộng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToGrid_Caption" xml:space="preserve">
+    <value>Khớp kích cỡ với Lưới chia</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlHeight_Caption" xml:space="preserve">
+    <value>Làm cho Cùng Chiều cao</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControl_Caption" xml:space="preserve">
+    <value>Làm cho Cùng Kích cỡ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceMakeEqual_Caption" xml:space="preserve">
+    <value>Làm cho Khoảng cách Ngang Bằng nhau</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceIncrease_Caption" xml:space="preserve">
+    <value>Tăng Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceDecrease_Caption" xml:space="preserve">
+    <value>Giảm Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceConcatenate_Caption" xml:space="preserve">
+    <value>Loại bỏ Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceMakeEqual_Caption" xml:space="preserve">
+    <value>Làm cho Cùng Chiều cao</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceIncrease_Caption" xml:space="preserve">
+    <value>Tăng Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceDecrease_Caption" xml:space="preserve">
+    <value>Giảm Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceConcatenate_Caption" xml:space="preserve">
+    <value>Loại bỏ Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterHorizontally_Caption" xml:space="preserve">
+    <value>Giữa Ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterVertically_Caption" xml:space="preserve">
+    <value>Giữa Dọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BringToFront_Caption" xml:space="preserve">
+    <value>Đưa lên Trước</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SendToBack_Caption" xml:space="preserve">
+    <value>Gửi ra Sau</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontBold_Caption" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontItalic_Caption" xml:space="preserve">
+    <value>Nghiêng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontUnderline_Caption" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ForeColor_Caption" xml:space="preserve">
+    <value>Màu Chữ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BackColor_Caption" xml:space="preserve">
+    <value>Màu Nền</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyLeft_Caption" xml:space="preserve">
+    <value>Căn Văn bản Trái</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyCenter_Caption" xml:space="preserve">
+    <value>Văn bản Giữa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyRight_Caption" xml:space="preserve">
+    <value>Căn Văn bản Phải</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyJustify_Caption" xml:space="preserve">
+    <value>Căn đều</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReport_Caption" xml:space="preserve">
+    <value>Báo cáo Mới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReportWizard_Caption" xml:space="preserve">
+    <value>Báo cáo Mới thông qua Thuật sĩ...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_OpenFile_Caption" xml:space="preserve">
+    <value>Mở...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFile_Caption" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFileAs_Caption" xml:space="preserve">
+    <value>Ghi với tên khác...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveAll_Caption" xml:space="preserve">
+    <value>Ghi Tất cả</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Cut_Caption" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Copy_Caption" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Paste_Caption" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Undo_Caption" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Redo_Caption" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Zoom_Caption" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomIn_Caption" xml:space="preserve">
+    <value>Phóng To</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomOut_Caption" xml:space="preserve">
+    <value>Thu nhỏ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomExact_Caption" xml:space="preserve">
+    <value>Chính xác:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignToGrid_STipTitle" xml:space="preserve">
+    <value>Căn sát Lưới chia</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignLeft_STipTitle" xml:space="preserve">
+    <value>Căn Trái</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignVerticalCenters_STipTitle" xml:space="preserve">
+    <value>Căn Giữa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignRight_STipTitle" xml:space="preserve">
+    <value>Căn Phải</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignTop_STipTitle" xml:space="preserve">
+    <value>Căn Đỉnh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignHorizontalCenters_STipTitle" xml:space="preserve">
+    <value>Căn Giữa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignBottom_STipTitle" xml:space="preserve">
+    <value>Căn Đáy</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlWidth_STipTitle" xml:space="preserve">
+    <value>Làm cho Cùng Chiều rộng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToGrid_STipTitle" xml:space="preserve">
+    <value>Khớp kích cỡ với Lưới chia</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlHeight_STipTitle" xml:space="preserve">
+    <value>Làm cho Cùng Chiều cao</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControl_STipTitle" xml:space="preserve">
+    <value>Làm cho Cùng Kích cỡ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceMakeEqual_STipTitle" xml:space="preserve">
+    <value>Làm cho Khoảng cách Ngang Bằng nhau</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceIncrease_STipTitle" xml:space="preserve">
+    <value>Tăng Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceDecrease_STipTitle" xml:space="preserve">
+    <value>Giảm Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceConcatenate_STipTitle" xml:space="preserve">
+    <value>Loại bỏ Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceMakeEqual_STipTitle" xml:space="preserve">
+    <value>Làm cho Cùng Chiều cao</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceIncrease_STipTitle" xml:space="preserve">
+    <value>Tăng Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceDecrease_STipTitle" xml:space="preserve">
+    <value>Giảm Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceConcatenate_STipTitle" xml:space="preserve">
+    <value>Loại bỏ Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterHorizontally_STipTitle" xml:space="preserve">
+    <value>Giữa Ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterVertically_STipTitle" xml:space="preserve">
+    <value>Giữa Dọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BringToFront_STipTitle" xml:space="preserve">
+    <value>Đưa lên Trước</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SendToBack_STipTitle" xml:space="preserve">
+    <value>Gửi ra Sau</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontBold_STipTitle" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontItalic_STipTitle" xml:space="preserve">
+    <value>Nghiêng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontUnderline_STipTitle" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ForeColor_STipTitle" xml:space="preserve">
+    <value>Màu Chữ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BackColor_STipTitle" xml:space="preserve">
+    <value>Màu Nền</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyLeft_STipTitle" xml:space="preserve">
+    <value>Căn Văn bản Trái</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyCenter_STipTitle" xml:space="preserve">
+    <value>Văn bản Giữa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyRight_STipTitle" xml:space="preserve">
+    <value>Căn Văn bản Phải</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyJustify_STipTitle" xml:space="preserve">
+    <value>Căn đều</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReport_STipTitle" xml:space="preserve">
+    <value>Báo cáo Trống Mới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReportWizard_STipTitle" xml:space="preserve">
+    <value>Báo cáo Mới thông qua Thuật sĩ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_OpenFile_STipTitle" xml:space="preserve">
+    <value>Mở Báo cáo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFile_STipTitle" xml:space="preserve">
+    <value>Ghi Báo cáo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFileAs_STipTitle" xml:space="preserve">
+    <value>Ghi Báo cáo Với</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveAll_STipTitle" xml:space="preserve">
+    <value>Ghi Tất cả Báo cáo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Cut_STipTitle" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Copy_STipTitle" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Paste_STipTitle" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Undo_STipTitle" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Redo_STipTitle" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Zoom_STipTitle" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomIn_STipTitle" xml:space="preserve">
+    <value>Phóng To</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomOut_STipTitle" xml:space="preserve">
+    <value>Thu nhỏ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignToGrid_STipContent" xml:space="preserve">
+    <value>Căn vị trí của các điều khiển được chọn sát đường lưới chia.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignLeft_STipContent" xml:space="preserve">
+    <value>Căn trái các đối tượng được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignVerticalCenters_STipContent" xml:space="preserve">
+    <value>Căn giữa các đối tượng được chọn theo chiều dọc.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignRight_STipContent" xml:space="preserve">
+    <value>Căn phải các đối tượng được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignTop_STipContent" xml:space="preserve">
+    <value>Căn đỉnh các điều khiển được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignHorizontalCenters_STipContent" xml:space="preserve">
+    <value>Căn giữa các điều khiển được chọn theo chiều ngang.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AlignBottom_STipContent" xml:space="preserve">
+    <value>Căn đáy các điều khiển được chọn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlWidth_STipContent" xml:space="preserve">
+    <value>Làm cho các điều khiển được chọn có cùng chiều rộng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToGrid_STipContent" xml:space="preserve">
+    <value>Khớp kích cỡ của các điều khiển được chọn với lưới chia.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControlHeight_STipContent" xml:space="preserve">
+    <value>Làm cho các điều khiển được chọn có cùng chiều cao.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SizeToControl_STipContent" xml:space="preserve">
+    <value>Làm cho các điều khiển được chọn có cùng kích cỡ như nhau.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceMakeEqual_STipContent" xml:space="preserve">
+    <value>Làm cho khoảng cách ngang giữa các điều khiển được chọn bằng nhau.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceIncrease_STipContent" xml:space="preserve">
+    <value>Tăng khoảng cách ngang giữa các điều khiển được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceDecrease_STipContent" xml:space="preserve">
+    <value>Giảm khoảng cách ngang giữa các điều khiển được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HorizSpaceConcatenate_STipContent" xml:space="preserve">
+    <value>Loại bỏ khoảng cách ngang giữa các điều khiển được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceMakeEqual_STipContent" xml:space="preserve">
+    <value>Làm cho khoảng cách dọc giữa các điều khiển được chọn bằng nhau.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceIncrease_STipContent" xml:space="preserve">
+    <value>Tăng khoảng cách dọc giữa các điều khiển được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceDecrease_STipContent" xml:space="preserve">
+    <value>Giảm khoảng cách dọc giữa các điều khiển được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertSpaceConcatenate_STipContent" xml:space="preserve">
+    <value>Loại bỏ khoảng cách dọc giữa các điều khiển được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterHorizontally_STipContent" xml:space="preserve">
+    <value>Đặt ngang giữa các điều khiển được chọn vào trong một dải.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CenterVertically_STipContent" xml:space="preserve">
+    <value>Đặt dọc giữa các điều khiển được chọn vào trong một dải.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BringToFront_STipContent" xml:space="preserve">
+    <value>Đưa các điều khiển được chọn lên trước.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SendToBack_STipContent" xml:space="preserve">
+    <value>Chuyển các điều khiển được chọn ra sau.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontBold_STipContent" xml:space="preserve">
+    <value>Làm đậm văn bản được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontItalic_STipContent" xml:space="preserve">
+    <value>In nghiêng văn bản.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontUnderline_STipContent" xml:space="preserve">
+    <value>Gạch chân văn bản được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ForeColor_STipContent" xml:space="preserve">
+    <value>Thay đổi màu chữ văn bản.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BackColor_STipContent" xml:space="preserve">
+    <value>Thay đổi màu nền văn bản.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyLeft_STipContent" xml:space="preserve">
+    <value>Căn văn bản sang trái.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyCenter_STipContent" xml:space="preserve">
+    <value>Văn bản giữa.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyRight_STipContent" xml:space="preserve">
+    <value>Căn văn bản sang phải.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_JustifyJustify_STipContent" xml:space="preserve">
+    <value>Căn văn bản từ cả hai bên trái và phải, thêm không gian mở rộng giữa các từ khi cần thiết.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReport_STipContent" xml:space="preserve">
+    <value>Tạo một báo cáo trống mới.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontName_STipTitle" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontSize_STipTitle" xml:space="preserve">
+    <value>Cỡ Phông</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReportWizard_STipContent" xml:space="preserve">
+    <value>Khởi chạy thuật sĩ báo cáo để tạo một báo cáo mới.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_OpenFile_STipContent" xml:space="preserve">
+    <value>Mở một báo cáo.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFile_STipContent" xml:space="preserve">
+    <value>Ghi báo cáo hiện thời.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFileAs_STipContent" xml:space="preserve">
+    <value>Ghi báo cáo hiện thời với một tên mới.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveAll_STipContent" xml:space="preserve">
+    <value>Ghi tất cả các báo cáo đã sửa.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Cut_STipContent" xml:space="preserve">
+    <value>Cắt các điều khiển được chọn từ báo cáo và đưa chúng vào Bộ nhớ đệm.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Copy_STipContent" xml:space="preserve">
+    <value>Sao chép các điều khiển được chọn và đặt chúng vào Bộ nhớ đệm.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Paste_STipContent" xml:space="preserve">
+    <value>Dán nội dung của Bộ nhớ đệm.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Undo_STipContent" xml:space="preserve">
+    <value>Hoàn tác hành động cuối.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Redo_STipContent" xml:space="preserve">
+    <value>Làm lại hành động cuối.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Zoom_STipContent" xml:space="preserve">
+    <value>Thay đổi cấp phóng của trình thiết kế tài liệu.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomIn_STipContent" xml:space="preserve">
+    <value>Phóng to để có một cái nhìn cận cảnh của báo cáo.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ZoomOut_STipContent" xml:space="preserve">
+    <value>Thu nhỏ để có một cái nhìn toàn cảnh báo cáo.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontName_STipContent" xml:space="preserve">
+    <value>Thay đổi khuôn dạng phông.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontSize_STipContent" xml:space="preserve">
+    <value>Thay đổi kích cỡ phông.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Windows_Caption" xml:space="preserve">
+    <value>Cửa sổ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Windows_STipTitle" xml:space="preserve">
+    <value>Hiện/Ẩn Cửa sổ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Windows_STipContent" xml:space="preserve">
+    <value>Hiện hoặc ẩn  các cửa sổ Hộp Công cụ, Trình thám hiểm Báo cáo, Danh sách Trường và Lưới Thuộc tính.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_HtmlNavigation" xml:space="preserve">
+    <value>Điều hướng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlHome_Caption" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlBackward_Caption" xml:space="preserve">
+    <value>Sau</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlForward_Caption" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlRefresh_Caption" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlFind_Caption" xml:space="preserve">
+    <value>Tìm</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlHome_STipTitle" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlBackward_STipTitle" xml:space="preserve">
+    <value>Sau</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlForward_STipTitle" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlRefresh_STipTitle" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlFind_STipTitle" xml:space="preserve">
+    <value>Tìm</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlHome_STipContent" xml:space="preserve">
+    <value>Hiển thị trang chủ.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlBackward_STipContent" xml:space="preserve">
+    <value>Quay lại trang trước đó.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlForward_STipContent" xml:space="preserve">
+    <value>Chuyển đến trang tiếp theo.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlRefresh_STipContent" xml:space="preserve">
+    <value>Làm mới trang này.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_HtmlFind_STipContent" xml:space="preserve">
+    <value>Tìm văn bản trên trang này.</value>
+  </data>
+  <data name="ReportStringId.XRSubreport_NameInfo" xml:space="preserve">
+    <value>Tên: {0}
+</value>
+  </data>
+  <data name="ReportStringId.XRSubreport_NullReportSourceInfo" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="ReportStringId.XRSubreport_ReportSourceInfo" xml:space="preserve">
+    <value>Nguồn Báo cáo: {0}
+</value>
+  </data>
+  <data name="ReportStringId.CatDesign" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ReportStringId.CatParameters" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidExpression" xml:space="preserve">
+    <value>Biểu thức được xác định chứa ký tự đặc biệt không hợp lệ (dòng {0}, ký tự {1}).</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_ItemDescription" xml:space="preserve">
+    <value>Kéo và thả mục này để tạo ra một ràng buộc điều khiển với nó;
+- hoặc -
+Kéo mục này cùng với nút phải chuột hoặc SHIFT
+để chọn một điều khiển ràng buộc từ thực đơn bật lên;
+- hoặc -
+Sử dụng thực đơn ngữ cảnh để thêm một trường tính toán hoặc tham số.</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_TableDescription" xml:space="preserve">
+    <value>Kéo và thả mục này để tạo một bảng với các mục của nó;
+- hoặc -
+Kéo mục này cùng với nút phải chuột hoặc SHIFT
+để tạo một bảng 'tiêu đề đầu' với các tên trường;
+- hoặc -
+Sử dụng thực đơn ngữ cảnh để thêm một trường tính toán hoặc tham số.</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveCalculatedFields" xml:space="preserve">
+    <value>Hành động này sẽ bị loại bỏ ở tất cả các trường tính toán từ tất cả các bảng dữ liệu. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveParameters" xml:space="preserve">
+    <value>Hành động này sẽ loại bỏ tất cả các tham số. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="ReportStringId.DesignerStatus_Location" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="ReportStringId.DesignerStatus_Size" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="ReportStringId.DesignerStatus_Height" xml:space="preserve">
+    <value>Chiều Cao</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_NotSetText" xml:space="preserve">
+    <value>(Không thiết lập)</value>
+  </data>
+  <data name="ReportStringId.UD_SaveFileDialog_DialogFilter" xml:space="preserve">
+    <value>Tệp Báo cáo (*{0})|*{1}|Tất cả Các tệp (*.*)|*.*</value>
+  </data>
+  <data name="ReportStringId.UD_Title_FieldList_NonePickerNodeText" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ReportStringId.UD_Title_FieldList_ProjectObjectsText" xml:space="preserve">
+    <value>Đối tượng Dự án</value>
+  </data>
+  <data name="ReportStringId.UD_Title_FieldList_AddNewDataSourceText" xml:space="preserve">
+    <value>Thêm Nguồn Dữ liệu Mới</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidCondition" xml:space="preserve">
+    <value>Điều kiện phải là Boolean!</value>
+  </data>
+  <data name="ReportStringId.FRSForm_Caption" xml:space="preserve">
+    <value>Trình biên tập Bảng qui tắc Định dạng</value>
+  </data>
+  <data name="ReportStringId.FRSForm_Msg_NoRuleSelected" xml:space="preserve">
+    <value>Không có qui tắc định dạng nào được chọn</value>
+  </data>
+  <data name="ReportStringId.FRSForm_Msg_MoreThanOneRule" xml:space="preserve">
+    <value>Bạn chọn nhiều hơn một qui tắc định dạng</value>
+  </data>
+  <data name="ReportStringId.FRSForm_TTip_AddRule" xml:space="preserve">
+    <value>Thêm một qui tắc định dạng</value>
+  </data>
+  <data name="ReportStringId.FRSForm_TTip_RemoveRule" xml:space="preserve">
+    <value>Loại bỏ một qui tắc định dạng</value>
+  </data>
+  <data name="ReportStringId.FRSForm_TTip_ClearRules" xml:space="preserve">
+    <value>Xóa trắng các qui tắc định dạng</value>
+  </data>
+  <data name="ReportStringId.FRSForm_TTip_PurgeRules" xml:space="preserve">
+    <value>Xóa các qui tắc định dạng không sử dụng</value>
+  </data>
+  <data name="ReportStringId.Wizard_PageChooseFields_Msg" xml:space="preserve">
+    <value>Bạn phải chọn các trường cho báo cáo trước khi bạn tiếp tục</value>
+  </data>
+  <data name="ReportStringId.CatStructure" xml:space="preserve">
+    <value>Cấu trúc</value>
+  </data>
+  <data name="ReportStringId.UD_Title_GroupAndSort" xml:space="preserve">
+    <value>Nhóm và Sắp xếp</value>
+  </data>
+  <data name="ReportStringId.GroupSort_AddGroup" xml:space="preserve">
+    <value>Thêm một Nhóm</value>
+  </data>
+  <data name="ReportStringId.GroupSort_AddSort" xml:space="preserve">
+    <value>Thêm một Sắp xếp</value>
+  </data>
+  <data name="ReportStringId.GroupSort_MoveUp" xml:space="preserve">
+    <value>Dịch Lên</value>
+  </data>
+  <data name="ReportStringId.GroupSort_MoveDown" xml:space="preserve">
+    <value>Dịch Xuống</value>
+  </data>
+  <data name="ReportStringId.GroupSort_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ReportStringId.Msg_GroupSortWarning" xml:space="preserve">
+    <value>Tiêu đề đầu hoặc cuối nhóm mà bạn muốn xóa không trống. Bạn có muốn xóa dải này cùng với các điều khiển của nó?</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningFontNameCantBeEmpty" xml:space="preserve">
+    <value>Tên Phông không được trống.</value>
+  </data>
+  <data name="ReportStringId.Msg_GroupSortNoDataSource" xml:space="preserve">
+    <value>Để thêm một cấp nhóm hoặc sắp xếp mới, đầu tiên hãy cung cấp một nguồn dữ liệu cho báo cáo.</value>
+  </data>
+  <data name="ReportStringId.Msg_NotEnoughMemoryToPaint" xml:space="preserve">
+    <value>Không đủ bộ nhớ để vẽ. Cấp phóng sẽ được thiết lập lại.</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ErrorDescription" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ErrorLine" xml:space="preserve">
+    <value>Dòng</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ErrorColumn" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_Validate" xml:space="preserve">
+    <value>Kiểm tra hợp lệ</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_NewString" xml:space="preserve">
+    <value>(Mới)</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Scripts_Caption" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Scripts_STipTitle" xml:space="preserve">
+    <value>Hiện/Ẩn Script</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Scripts_STipContent" xml:space="preserve">
+    <value>Hiện hoặc ẩn Trình biên soạn Script.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Scripts" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_Scripts" xml:space="preserve">
+    <value>Scripts</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ScriptsAreValid" xml:space="preserve">
+    <value>Tất cả các script đều hợp lệ.</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ClickValidate" xml:space="preserve">
+    <value>Kích "Kiểm tra hợp lệ" để kiểm tra script.</value>
+  </data>
+  <data name="ReportStringId.Msg_Caption" xml:space="preserve">
+    <value>XtraReports</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ErrorList" xml:space="preserve">
+    <value>Lỗi Script</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_StatusBar_HtmlProcessing" xml:space="preserve">
+    <value>Đang xử lý...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_StatusBar_HtmlDone" xml:space="preserve">
+    <value>Đã xong</value>
+  </data>
+  <data name="ReportStringId.UD_Group_Window" xml:space="preserve">
+    <value>&amp;Cửa sổ</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MdiCascade" xml:space="preserve">
+    <value>&amp;Xếp tầng</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MdiTileHorizontal" xml:space="preserve">
+    <value>Xếp Ngói &amp;Ngang</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_MdiTileVertical" xml:space="preserve">
+    <value>Xếp Ngói &amp;Dọc</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MdiCascade" xml:space="preserve">
+    <value>Xếp tầng tất cả các tài liệu được mở, để chúng xếp chồng lên nhau</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MdiTileHorizontal" xml:space="preserve">
+    <value>Sắp xếp tất cả các tài liệu được mở từ đỉnh xuống đáy</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_MdiTileVertical" xml:space="preserve">
+    <value>Sắp xếp tất cả các tài liệu được mở từ trái qua phải</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_TabbedInterface" xml:space="preserve">
+    <value>Giao diện &amp;Tabbed</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_TabbedInterface" xml:space="preserve">
+    <value>Chuyển chế độ giao diện giữa tabbed và window MDI</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_MdiReportChanged" xml:space="preserve">
+    <value>"{0}" đã bị thay đổi. Bạn có muốn ghi lại những thay đổi ?</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Exit_Caption" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="ReportStringId.UD_Capt_Close" xml:space="preserve">
+    <value>Đó&amp;ng</value>
+  </data>
+  <data name="ReportStringId.UD_Hint_Close" xml:space="preserve">
+    <value>Đóng báo cáo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Close_Caption" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Exit_STipContent" xml:space="preserve">
+    <value>Đóng thiết kế báo cáo.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Exit_STipTitle" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Close_STipContent" xml:space="preserve">
+    <value>Đóng báo cáo hiện thời.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Close_STipTitle" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ReportStringId.XRSubreport_ReportSourceUrlInfo" xml:space="preserve">
+    <value>URL Nguồn Báo cáo: {0}
+</value>
+  </data>
+  <data name="ReportStringId.Dlg_SaveFile_Title" xml:space="preserve">
+    <value>Ghi '{0}'</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFile_Description" xml:space="preserve">
+    <value>Ghi báo cáo hiện thời.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReport_Description" xml:space="preserve">
+    <value>Tạo một báo cáo trống mới.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SaveFileAs_Description" xml:space="preserve">
+    <value>Ghi báo cáo hiện thời với một tên mới.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NewReportWizard_Description" xml:space="preserve">
+    <value>Khởi chạy thuật sĩ báo cáo để tạo một báo cáo mới.</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_NullControl" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ReportStringId.CatOptions" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidExpressionEx" xml:space="preserve">
+    <value>Câu lệnh không đúng.</value>
+  </data>
+  <data name="ReportStringId.Cmd_DeleteFormattingRule" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ReportStringId.Cmd_DeleteStyle" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_Styles" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_DataSource" xml:space="preserve">
+    <value>Nguồn dữ liệu:</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_FieldsPrefix" xml:space="preserve">
+    <value>Kiểu của trường này là: </value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Variables_CurrentRowIndex_Description" xml:space="preserve">
+    <value>Trả về chỉ số của các dòng dữ liệu hiện thời trong một datasource. Lưu ý rằng chỉ số này giá trị bắt đầu từ 0.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ConditionCaption" xml:space="preserve">
+    <value>Trình soạn thảo Điều kiện</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Fields" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Variables_RowCount_Description" xml:space="preserve">
+    <value>Trả về tổng số hàng có trong một datasource.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Variables" xml:space="preserve">
+    <value>Biến</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ExpressionCaption" xml:space="preserve">
+    <value>Trình soạn thảo Biểu thức</value>
+  </data>
+  <data name="ReportStringId.Cmd_DeleteGalleryItem" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ReportStringId.Cmd_RenameGalleryItem" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="ReportStringId.Cmd_CopyGalleryItem" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ReportStringId.STag_Name_ExpressionBinding" xml:space="preserve">
+    <value>Biểu thức</value>
+  </data>
+  <data name="ReportStringId.Cmd_CutGalleryItem" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ReportStringId.Cmd_PasteGalleryItem" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ReportStringId.Gallery_NewFolder" xml:space="preserve">
+    <value>Thư mục mới</value>
+  </data>
+  <data name="ReportStringId.Cmd_AddToGallery" xml:space="preserve">
+    <value>Thêm vào bộ sưu tập</value>
+  </data>
+  <data name="ReportStringId.Cmd_AddToReportComponents" xml:space="preserve">
+    <value>Thêm vào thành phần báo cáo</value>
+  </data>
+  <data name="ReportStringId.Cmd_AddGalleryFolder" xml:space="preserve">
+    <value>Thêm thư mục mới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Data" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAppearanceName_Caption" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Appearance" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Behavior" xml:space="preserve">
+    <value>Hành vi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_Layout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_Layout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Layout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_TextAlignment" xml:space="preserve">
+    <value>Căn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_View" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_View" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageSize_Caption" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PaperKind_Caption" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsCopy_Caption" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteColumn_Caption" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectColumn_Caption" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_Format" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontStrikeout_Caption" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontStrikeout_STipTitle" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPreviewTab_Caption" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartSave_STipTitle" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageMargins_Caption" xml:space="preserve">
+    <value>Lề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_Page" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeColumnsEvenly_Caption" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_PivotFields" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Sparkline" xml:space="preserve">
+    <value>Sparkline</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsCut_Caption" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsPaste_Caption" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewLine_Caption" xml:space="preserve">
+    <value>Đường</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Values" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteCell_Caption" xml:space="preserve">
+    <value>Ô</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeRowsEvenly_Caption" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageOrientation_Caption" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Insert" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_PageSetup" xml:space="preserve">
+    <value>Thiết lập Trang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Show" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Styles" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ContextPage_Design" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Design" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteColumn_STipTitle" xml:space="preserve">
+    <value>Xóa cột</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteRow_STipTitle" xml:space="preserve">
+    <value>Xóa hàng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Merge" xml:space="preserve">
+    <value>Hợp nhất</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_DrawGridLines_Caption" xml:space="preserve">
+    <value>Đường lưới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_DrawWatermark_Caption" xml:space="preserve">
+    <value>Dấu nước</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageWatermark_Caption" xml:space="preserve">
+    <value>Dấu nước</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowDesignerTab_STipTitle" xml:space="preserve">
+    <value>Thiết kế Báo cáo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Page_Scripts" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowScriptsTab_Caption" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowScriptsTab_STipTitle" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartImageType_Caption" xml:space="preserve">
+    <value>Kiểu Hình ảnh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_GaugeImageType_Caption" xml:space="preserve">
+    <value>Kiểu Hình ảnh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SparklineImageType_Caption" xml:space="preserve">
+    <value>Kiểu Hình ảnh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewRange_Caption" xml:space="preserve">
+    <value>Phạm vi</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsSelectControl_Caption" xml:space="preserve">
+    <value>Điều khiển:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartPaletteName_Caption" xml:space="preserve">
+    <value>Bảng màu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartPaletteName_STipTitle" xml:space="preserve">
+    <value>Bảng màu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CustomMargins_Caption" xml:space="preserve">
+    <value>Tùy chỉnh lề...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_PivotPrintOptions" xml:space="preserve">
+    <value>Tùy chọn in</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsSelectEvent_Caption" xml:space="preserve">
+    <value>Sự kiện:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SparklineAddDataSource_Caption" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SparklineAddDataSource_STipTitle" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectColumn_STipTitle" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectRow_Caption" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectRow_STipTitle" xml:space="preserve">
+    <value>Chọn hàng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectTable_STipTitle" xml:space="preserve">
+    <value>Chọn bảng</value>
+  </data>
+  <data name="ReportStringId.STag_Name_HtmlDataBinding" xml:space="preserve">
+    <value>Ràng buộc dữ liệu HTML</value>
+  </data>
+  <data name="ReportStringId.STag_Name_HtmlExpressionBinding" xml:space="preserve">
+    <value>Biểu thức HTML</value>
+  </data>
+  <data name="ReportStringId.STag_Name_RtfExpressionBinding" xml:space="preserve">
+    <value>Biểu thức RTF</value>
+  </data>
+  <data name="ReportStringId.Wizard_PageMapTemplateFields_DataSourceName" xml:space="preserve">
+    <value>Nguồn dữ liệu báo cáo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddNewDataSource_Caption" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddNewDataSource_STipTitle" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddParameter_Caption" xml:space="preserve">
+    <value>Thêm tham số</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddParameter_STipTitle" xml:space="preserve">
+    <value>Thêm tham số</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeShowText_Caption" xml:space="preserve">
+    <value>Hiển thị văn bản</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeShowText_STipTitle" xml:space="preserve">
+    <value>Hiển thị văn bản</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddDataSource_Caption" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddDataSource_STipTitle" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddTextAnnotation_Caption" xml:space="preserve">
+    <value>Thêm văn bản chú thích</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddTextAnnotation_STipTitle" xml:space="preserve">
+    <value>Thêm văn bản chú thích</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartLoad_STipTitle" xml:space="preserve">
+    <value>Tải</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_DrawGridLines_STipTitle" xml:space="preserve">
+    <value>Hiển thị đường lưới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelCanShrink_Caption" xml:space="preserve">
+    <value>Có thể thu nhỏ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelCanShrink_STipTitle" xml:space="preserve">
+    <value>Có thể thu nhỏ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Select" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageMargins_STipTitle" xml:space="preserve">
+    <value>Điều chỉnh lề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageSize_STipTitle" xml:space="preserve">
+    <value>Chọn kích thước trang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridAddDataSource_Caption" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridAddDataSource_STipTitle" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridColumnHeaders_Caption" xml:space="preserve">
+    <value>Tiêu đề cột</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridColumnHeaders_STipTitle" xml:space="preserve">
+    <value>In tiêu đề cột</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridFilterHeaders_Caption" xml:space="preserve">
+    <value>Lọc tiêu đề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridHorizontalLines_Caption" xml:space="preserve">
+    <value>Đường ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridHorizontalLines_STipContent" xml:space="preserve">
+    <value>In đường lưới ngang.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridHorizontalLines_STipTitle" xml:space="preserve">
+    <value>In đường ngang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridVerticalLines_STipContent" xml:space="preserve">
+    <value>In đường lưới dọc.</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabData" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabProperties" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="ReportStringId.DesignerStatus_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabAppearance" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabBehavior" xml:space="preserve">
+    <value>Hành vi</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Custom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteRow_Caption" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Symbology" xml:space="preserve">
+    <value>Tượng trưng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeSymbology_Caption" xml:space="preserve">
+    <value>Tượng trưng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeSymbology_STipContent" xml:space="preserve">
+    <value>Tượng trưng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeColumnsEvenly_STipTitle" xml:space="preserve">
+    <value>Phân phối các cột đồng đều</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertColumnToRight_STipTitle" xml:space="preserve">
+    <value>Chèn cột bên phải</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertRowAbove_Caption" xml:space="preserve">
+    <value>Hàng trên</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDistributeColumnsEvenly" xml:space="preserve">
+    <value>Phân phối các cột đồng đều</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteTable_STipContent" xml:space="preserve">
+    <value>Xóa toàn bộ bảng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteTable_STipTitle" xml:space="preserve">
+    <value>Xóa bảng</value>
+  </data>
+  <data name="ReportStringId.Cmd_RefreshGallery" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeSymbology_STipTitle" xml:space="preserve">
+    <value>Tượng trưng</value>
+  </data>
+  <data name="ReportStringId.CrossTab_ColumnAreaName" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Language_Caption" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="ReportStringId.CrossTab_DataAreaName" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ReportStringId.CrossTab_RowAreaName" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Language_STipTitle" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Bands" xml:space="preserve">
+    <value>Dải</value>
+  </data>
+  <data name="ReportStringId.Cmd_AddDataSource" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.ReportDesignAnalyzer_GridColumn_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="ReportStringId.ReportDesignAnalyzer_GridColumn_Source" xml:space="preserve">
+    <value>Nguồn</value>
+  </data>
+  <data name="ReportStringId.UD_ReportGallery_Reports" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="ReportStringId.UD_ReportGallery_Styles" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ReportStringId.UD_ReportGallery_Bands" xml:space="preserve">
+    <value>Dải</value>
+  </data>
+  <data name="ReportStringId.CatReportData" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="ReportStringId.BandCollectionEditor_Band" xml:space="preserve">
+    <value>&amp; ban nhạc</value>
+  </data>
+  <data name="ReportStringId.BandCollectionEditor_SubBand" xml:space="preserve">
+    <value>&amp; tiểu ban nhạc</value>
+  </data>
+  <data name="ReportStringId.BandCollectionEditor_UnboundDetailReport" xml:space="preserve">
+    <value>Unbound</value>
+  </data>
+  <data name="ReportStringId.BandCollectionEditor_VerticalBand" xml:space="preserve">
+    <value>&amp; dọc Band</value>
+  </data>
+  <data name="ReportStringId.BindingMapperForm_InvalidBindingWarning" xml:space="preserve">
+    <value>Ràng buộc không hợp lệ</value>
+  </data>
+  <data name="ReportStringId.BindingMapperForm_ShowOnlyInvalidBindings" xml:space="preserve">
+    <value>Hiển thị chỉ không hợp lệ bindings</value>
+  </data>
+  <data name="ReportStringId.BindingsConverter_ComponentHasWrongDataMemberFormat" xml:space="preserve">
+    <value>{0} ' {1} ' ràng buộc với một nguồn dữ liệu không được chỉ định là nguồn dữ liệu của báo cáo (' {2} ').</value>
+  </data>
+  <data name="ReportStringId.BindingsConverter_CustomSummaryNotSupportedFormat" xml:space="preserve">
+    <value>Nhãn '{0}' với một bản tóm tắt tuỳ chỉnh không được hỗ trợ.</value>
+  </data>
+  <data name="ReportStringId.BindingsConverter_FormattingRuleHasWrongDataSourceFormat" xml:space="preserve">
+    <value>Nguồn dữ liệu của quy tắc định dạng ' {0} ' khác với nguồn dữ liệu của báo cáo (' {1} ').</value>
+  </data>
+  <data name="ReportStringId.BindingsConverter_FormattingRuleHasWrongValueFormat" xml:space="preserve">
+    <value>Định dạng quy tắc ' {0} ' có giá trị ' {1} ' mà không thể được chuyển đổi thành biểu thức.</value>
+  </data>
+  <data name="ReportStringId.CatElements" xml:space="preserve">
+    <value>Yếu tố</value>
+  </data>
+  <data name="ReportStringId.Cmd_AddFormattingRule" xml:space="preserve">
+    <value>Thêm quy tắc định dạng</value>
+  </data>
+  <data name="ReportStringId.Cmd_AddStyle" xml:space="preserve">
+    <value>Thêm phong cách</value>
+  </data>
+  <data name="ReportStringId.Cmd_AddSubBand" xml:space="preserve">
+    <value>Chèn &amp; tiểu ban nhạc</value>
+  </data>
+  <data name="ReportStringId.Cmd_AddToReportStyleSheet" xml:space="preserve">
+    <value>Thêm vào báo cáo Style Sheet</value>
+  </data>
+  <data name="ReportStringId.Cmd_ApplyLayoutToBand" xml:space="preserve">
+    <value>Áp dụng Layout cho Band</value>
+  </data>
+  <data name="ReportStringId.Cmd_ApplyLayoutToReport" xml:space="preserve">
+    <value>Áp dụng cách bố trí để báo cáo</value>
+  </data>
+  <data name="ReportStringId.Cmd_AssignEvenStyleToXRControl" xml:space="preserve">
+    <value>Gán thậm chí phong cách để kiểm soát</value>
+  </data>
+  <data name="ReportStringId.Cmd_AssignOddStyleToXRControl" xml:space="preserve">
+    <value>Gán các phong cách kỳ quặc để kiểm soát</value>
+  </data>
+  <data name="ReportStringId.Cmd_AssignStyleToXRControl" xml:space="preserve">
+    <value>Gán các phong cách để kiểm soát</value>
+  </data>
+  <data name="ReportStringId.Cmd_BandCollapseAll" xml:space="preserve">
+    <value>gọn tất cả các</value>
+  </data>
+  <data name="ReportStringId.Cmd_BandCollapseAllButSelected" xml:space="preserve">
+    <value>gọn các ban nhạc khác</value>
+  </data>
+  <data name="ReportStringId.Cmd_BandExpandAll" xml:space="preserve">
+    <value>mở rộng tất cả</value>
+  </data>
+  <data name="ReportStringId.Cmd_ClearFormattingRules" xml:space="preserve">
+    <value>Loại bỏ tất cả các quy tắc định dạng</value>
+  </data>
+  <data name="ReportStringId.Cmd_ClearStyles" xml:space="preserve">
+    <value>Loại bỏ tất cả phong cách</value>
+  </data>
+  <data name="ReportStringId.Cmd_CloneFormattingRule" xml:space="preserve">
+    <value>Clone định dạng quy tắc</value>
+  </data>
+  <data name="ReportStringId.Cmd_CloneStyle" xml:space="preserve">
+    <value>Sao chép phong cách</value>
+  </data>
+  <data name="ReportStringId.Cmd_Commands" xml:space="preserve">
+    <value>Lệnh</value>
+  </data>
+  <data name="ReportStringId.Cmd_DataSetConvertToSqlDataSource" xml:space="preserve">
+    <value>Convert to SqlDataSource</value>
+  </data>
+  <data name="ReportStringId.Cmd_EditFormattingRules" xml:space="preserve">
+    <value>Chỉnh sửa quy tắc định dạng...</value>
+  </data>
+  <data name="ReportStringId.Cmd_EditStyles" xml:space="preserve">
+    <value>Chỉnh sửa phong cách...</value>
+  </data>
+  <data name="ReportStringId.Cmd_ExportGallery" xml:space="preserve">
+    <value>Xuất khẩu...</value>
+  </data>
+  <data name="ReportStringId.Cmd_FitBoundsToContainer" xml:space="preserve">
+    <value>Phù hợp với giới hạn đến Container</value>
+  </data>
+  <data name="ReportStringId.Cmd_FitBoundsToText" xml:space="preserve">
+    <value>Phù hợp với các giới hạn cho văn bản</value>
+  </data>
+  <data name="ReportStringId.Cmd_FitTextToBounds" xml:space="preserve">
+    <value>Phù hợp với văn bản đến giới hạn</value>
+  </data>
+  <data name="ReportStringId.Cmd_ImportGallery" xml:space="preserve">
+    <value>Nhập khẩu...</value>
+  </data>
+  <data name="ReportStringId.Cmd_InsertVerticalBand" xml:space="preserve">
+    <value>Chèn &amp; dọc Band</value>
+  </data>
+  <data name="ReportStringId.Cmd_LabelsConvertToTable" xml:space="preserve">
+    <value>&amp; chuyển đổi sang bảng</value>
+  </data>
+  <data name="ReportStringId.Cmd_NavigateToControl" xml:space="preserve">
+    <value>Điều hướng đến điều khiển</value>
+  </data>
+  <data name="ReportStringId.Cmd_PurgeFormattingRules" xml:space="preserve">
+    <value>Xoá các quy tắc không sử dụng định dạng</value>
+  </data>
+  <data name="ReportStringId.Cmd_PurgeStyles" xml:space="preserve">
+    <value>Xoá không sử dụng phong cách</value>
+  </data>
+  <data name="ReportStringId.Cmd_SelectControlsWithFormattingRule" xml:space="preserve">
+    <value>Chọn điều khiển với quy tắc định dạng</value>
+  </data>
+  <data name="ReportStringId.Cmd_SelectControlsWithStyle" xml:space="preserve">
+    <value>Chọn điều khiển với phong cách</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableConvertToLabels" xml:space="preserve">
+    <value>&amp; chuyển đổi để nhãn</value>
+  </data>
+  <data name="ReportStringId.Cmd_TableDistributeRowsEvenly" xml:space="preserve">
+    <value>Phân phối hàng đều</value>
+  </data>
+  <data name="ReportStringId.Cmd_VerticalDetail" xml:space="preserve">
+    <value>VerticalDetail</value>
+  </data>
+  <data name="ReportStringId.Cmd_VerticalHeader" xml:space="preserve">
+    <value>VerticalHeader</value>
+  </data>
+  <data name="ReportStringId.Cmd_VerticalTotal" xml:space="preserve">
+    <value>VerticalTotal</value>
+  </data>
+  <data name="ReportStringId.CrossTab_DropFieldFromAnotherDataMember_ToolTip" xml:space="preserve">
+    <value>Các ô chéo tab có thể bị ràng buộc đến các trường từ chỉ thành viên dữ liệu được chỉ định.</value>
+  </data>
+  <data name="ReportStringId.CrossTab_DropFieldFromAnotherDataSource_ToolTip" xml:space="preserve">
+    <value>Các ô chéo tab có thể bị ràng buộc với các trường từ nguồn dữ liệu được chỉ định.</value>
+  </data>
+  <data name="ReportStringId.CrossTab_DropOntoReservedCell_ToolTip" xml:space="preserve">
+    <value>Ô chéo tab này được dành riêng.</value>
+  </data>
+  <data name="ReportStringId.CrossTab_DropReportParameter_ToolTip" xml:space="preserve">
+    <value>Các ô chéo tab không thể bị ràng buộc để báo cáo các tham số.</value>
+  </data>
+  <data name="ReportStringId.CrossTab_GrandTotalHeader_DefaultText" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="ReportStringId.CrossTab_TotalHeader_DefaultFormatString" xml:space="preserve">
+    <value>Tổng {0}</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Arguments_PageCount" xml:space="preserve">
+    <value>Trả về số lượng trang trong tài liệu báo cáo.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Arguments_PageIndex" xml:space="preserve">
+    <value>Trả về chỉ số Zero của trang tài liệu hiện đang được tạo báo cáo.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Argb" xml:space="preserve">
+    <value>Argb (Alpha, Red, Green, Blue)
+
+Trả về một chuỗi xác định một màu sắc bằng cách sử dụng Alpha, màu đỏ, màu xanh lá cây và màu xanh màu kênh giá trị.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Avg" xml:space="preserve">
+    <value>[Collection] [điều kiện]. AVG (biểu thức)
+
+Trở về với mức trung bình của tất cả các giá trị biểu thức trong bộ sưu tập dựa trên các điều kiện quy định (tùy chọn).
+
+Ví dụ:
+
+[Sản phẩm] [Ngưng == False]. AVG([UnitsInStock])</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Count" xml:space="preserve">
+    <value>[Collection] [điều kiện]. Số lượng)
+
+Trả về số lượng các mục trong bộ sưu tập dựa trên các điều kiện quy định (tùy chọn).
+
+Ví dụ:
+
+[Sản phẩm] [Ngưng == False]. Count()</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Exists" xml:space="preserve">
+    <value>[Collection] [điều kiện]. Tồn tại)
+
+Xác định các điều kiện quy định đúng cho bộ sưu tập được xác định.
+
+Ví dụ:
+
+[] [UnitPrice &gt; 0]. Exists()</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_GetDisplayText" xml:space="preserve">
+    <value>GetDisplayText(?parameter)
+
+Trả về Văn bản Hiển thị cho giá trị tra cứu của tham số.
+Đối với các tham số không tra cứu, hàm này trả về giá trị được chuyển đổi thành chuỗi.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Max" xml:space="preserve">
+    <value>[Collection] [điều kiện]. Max (biểu thức)
+
+Trả về giá trị biểu thức tối đa trong bộ sưu tập xác định dựa trên các điều kiện quy định (tùy chọn).
+
+Ví dụ:
+
+[] [Ngưng == False]. Max([UnitPrice])</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Min" xml:space="preserve">
+    <value>[Collection] [điều kiện]. Min (biểu thức)
+
+Trả về giá trị nhỏ nhất của biểu thức trong bộ sưu tập xác định dựa trên các điều kiện quy định (tùy chọn).
+
+Ví dụ:
+
+[] [Ngưng == False]. Min([UnitPrice])</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Rgb" xml:space="preserve">
+    <value>Rgb (Red, Green, Blue)
+
+Trả về một chuỗi xác định một màu sắc bằng cách sử dụng các màu đỏ, màu xanh lá cây và màu xanh kênh giá trị.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Single" xml:space="preserve">
+    <value>[Collection] [điều kiện]. Đĩa đơn (biểu thức)
+
+Trả về các biểu hiện nếu bộ sưu tập có chứa chỉ có một đối tượng, đáp ứng các điều kiện quy định (tùy chọn).
+
+Ví dụ:
+
+[Sản phẩm] [UnitPrice &gt; 200]. Single('True')</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_Sum" xml:space="preserve">
+    <value>[Collection] [điều kiện]. Tổng hợp (biểu thức)
+
+Trả về số tiền của tất cả các giá trị biểu thức trong bộ sưu tập dựa trên các điều kiện quy định (tùy chọn).
+
+Ví dụ:
+
+[Sản phẩm] [Ngưng]. Sum([UnitsInStock])</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryAvg" xml:space="preserve">
+    <value>sumAvg(Expression)
+
+Tính toán trung bình của tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryCount" xml:space="preserve">
+    <value>sumCount(Expression)
+
+Đếm số lượng các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDAvg" xml:space="preserve">
+    <value>sumDAvg(Expression)
+
+Tính toán trung bình của tất cả các giá trị khác biệt trong quy định khu vực tóm tắt (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDCount" xml:space="preserve">
+    <value>sumDCount(Expression)
+
+Đếm số lượng các giá trị khác biệt trong quy định khu vực tóm tắt (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDStdDev" xml:space="preserve">
+    <value>sumDStdDev(Expression)
+
+Tính toán độ lệch chuẩn của tất cả các giá trị khác biệt trong quy định khu vực tóm tắt (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDStdDevP" xml:space="preserve">
+    <value>sumDStdDevP(Expression)
+
+Tính toán độ lệch tiêu chuẩn dân trong tất cả các giá trị khác biệt trong quy định khu vực tóm tắt (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDSum" xml:space="preserve">
+    <value>sumDSum(Expression)
+
+Tính toán tổng số tất cả các giá trị khác biệt trong quy định khu vực tóm tắt (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDVar" xml:space="preserve">
+    <value>sumDVar(Expression)
+
+Tính toán số lượng các phương sai cho tất cả các giá trị khác biệt trong quy định khu vực tóm tắt (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryDVarP" xml:space="preserve">
+    <value>sumDVarP(Expression)
+
+Tính toán phương sai dân của tất cả các giá trị khác biệt trong quy định khu vực tóm tắt (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryMax" xml:space="preserve">
+    <value>sumMax(Expression)
+
+Tính toán tối đa tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryMedian" xml:space="preserve">
+    <value>sumMedian(Expression)
+
+Tìm số trung trong một chuỗi.
+Lưu ý rằng nếu tổng các số nguyên tố là số lẻ, chức năng này trả về giá trị của một số trung trong một chuỗi. Nếu tổng các số nguyên tố là số chẵn, chức năng này trở lại trung bình dài giữa hai số.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryMin" xml:space="preserve">
+    <value>sumMin(Expression)
+
+Tính toán tối thiểu của tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryPercentage" xml:space="preserve">
+    <value>sumPercentage(Expression)
+
+Tính toán tỷ lệ phần trăm của giá trị hiện tại của hàng dữ liệu để tổng cộng tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryRecordNumber" xml:space="preserve">
+    <value>sumRecordNumber(Expression)
+
+Trở về con số kỷ lục hiện tại trong nguồn dữ liệu bên trong được chỉ định sơ lược về vùng (nhóm, trang hoặc báo cáo). Điều này có nghĩa là ví dụ, nếu các bản tóm tắt được tính cho một nhóm, sau đó con số kỷ lục được tính chỉ trong nhóm đó, và được đặt lại mỗi khi bắt đầu một nhóm mới.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryRunningSum" xml:space="preserve">
+    <value>sumRunningSum(Expression)
+
+Tóm tắt tất cả các giá trị, mà đã được in trước khi dữ liệu hàng hiện tại, với giá trị hiện tại của hàng dữ liệu.</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryStdDev" xml:space="preserve">
+    <value>sumStdDev(Expression)
+
+Tính toán độ lệch chuẩn của tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryStdDevP" xml:space="preserve">
+    <value>sumStdDevP(Expression)
+
+Tính toán độ lệch tiêu chuẩn dân trong tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummarySum" xml:space="preserve">
+    <value>sumSum(Expression)
+
+Tính toán tổng số tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryVar" xml:space="preserve">
+    <value>sumVar(Expression)
+
+Tính toán số lượng các phương sai cho tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryVarP" xml:space="preserve">
+    <value>sumVarP(Expression)
+
+Tính toán phương sai dân của tất cả các giá trị trong khu vực tóm tắt quy định (nhóm, trang hoặc báo cáo).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_Description_Function_SummaryWAvg" xml:space="preserve">
+    <value>Sumwgiá (biểu thức, biểu thức)
+
+Tính toán trung bình trọng số của tất cả các giá trị trong vùng tóm tắt được chỉ định (nhóm, trang hoặc báo cáo).
+Đây là loại tóm tắt trả về kết quả của các hoạt động sau đây: Sum (Expression1 * Expression2)/sum (Expression2).</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ExpressionSummaryCaption" xml:space="preserve">
+    <value>Tóm tắt biểu hiện biên tập</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_FieldDescription" xml:space="preserve">
+    <value>Mô tả:</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_FunctionSummary" xml:space="preserve">
+    <value>Tóm tắt</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Images" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_ReportItems" xml:space="preserve">
+    <value>Báo cáo mục</value>
+  </data>
+  <data name="ReportStringId.ExpressionEditor_ItemInfo_Variables_CurrentRowHierarchyLevel_Description" xml:space="preserve">
+    <value>Trả về chỉ số không dựa trên mức phân cấp hiện tại.</value>
+  </data>
+  <data name="ReportStringId.FilterEditor_EnterExpression_TextStyle" xml:space="preserve">
+    <value>&lt; nhập một biểu hiện &gt;</value>
+  </data>
+  <data name="ReportStringId.FilterEditor_EnterExpression_VisualStyle" xml:space="preserve">
+    <value>Nhập một biểu thức...</value>
+  </data>
+  <data name="ReportStringId.FilterEditor_EnterValue_TextStyle" xml:space="preserve">
+    <value>&lt; nhập một giá trị &gt;</value>
+  </data>
+  <data name="ReportStringId.FilterEditor_EnterValue_VisualStyle" xml:space="preserve">
+    <value>Nhập một giá trị...</value>
+  </data>
+  <data name="ReportStringId.FilterEditor_SelectParameter_TextStyle" xml:space="preserve">
+    <value>&lt; chọn một tham số &gt;</value>
+  </data>
+  <data name="ReportStringId.FilterEditor_SelectParameter_VisualStyle" xml:space="preserve">
+    <value>Chọn một tham số...</value>
+  </data>
+  <data name="ReportStringId.Gallery_Msg_ApplyLayoutToBand" xml:space="preserve">
+    <value>Bố cục ban nhạc ' {0} ' sẽ bị mất. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="ReportStringId.Gallery_Msg_ApplyLayoutToReport" xml:space="preserve">
+    <value>Bố trí báo cáo hiện tại sẽ bị mất. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="ReportStringId.Gallery_Msg_ImportError" xml:space="preserve">
+    <value>Không thể nhập thư viện mục từ tệp được chỉ định</value>
+  </data>
+  <data name="ReportStringId.Gallery_Msg_ImportFromFile" xml:space="preserve">
+    <value>Tất cả các mục thư viện sẽ được ghi đè. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="ReportStringId.Gallery_Msg_ItemRemoved" xml:space="preserve">
+    <value>Mục ' {0} ' đã bị xóa.</value>
+  </data>
+  <data name="ReportStringId.Gallery_Msg_RestoreRemovedItem" xml:space="preserve">
+    <value>Mục ' {0} ' đã bị xóa. Bạn có muốn khôi phục nó không?</value>
+  </data>
+  <data name="ReportStringId.LEForm_FileFilter" xml:space="preserve">
+    <value>Báo cáo tệp bản địa hóa (*.csv)|*.csv| Tất cả các tập tin (*.*)|*.*</value>
+  </data>
+  <data name="ReportStringId.Msg_ApplyChangesQuestion" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn áp dụng những thay đổi này?</value>
+  </data>
+  <data name="ReportStringId.Msg_CannotObtainDataColumns" xml:space="preserve">
+    <value>Không thể lấy cột dữ liệu. Hãy chắc chắn rằng báo cáo dữ liệu nguồn dữ liệu thành viên và hợp lệ.</value>
+  </data>
+  <data name="ReportStringId.Msg_DataSetConversion_CannotProcessQuery" xml:space="preserve">
+    <value>Cannot process the "{0}" query: {1}</value>
+  </data>
+  <data name="ReportStringId.Msg_DataSetConversion_FoundedIssuesQuestion" xml:space="preserve">
+    <value>The following issues have been found:
+
+{0}
+The converted data source is incomplete. Do you want to use this data source?</value>
+  </data>
+  <data name="ReportStringId.Msg_DataSetConversion_OleDbDataProviderNotSupported" xml:space="preserve">
+    <value>The "{0}" OLE DB data provider is not supported.</value>
+  </data>
+  <data name="ReportStringId.Msg_DataSetConversion_OleDbProviderNotFound" xml:space="preserve">
+    <value>Unable to determine an OLE DB provider type by the connection string.</value>
+  </data>
+  <data name="ReportStringId.Msg_DataSetConversion_Question" xml:space="preserve">
+    <value>Are you sure you want to convert the "{0}" DataSet to SqlDataSource?</value>
+  </data>
+  <data name="ReportStringId.Msg_DuplicatedNameUsage" xml:space="preserve">
+    <value>Báo cáo có chứa một phần tử với tên này. Chỉ rõ tên khác.</value>
+  </data>
+  <data name="ReportStringId.Msg_HierarchyPrintOptions_InvalidFields" xml:space="preserve">
+    <value>Không thể in dữ liệu báo cáo ở chế độ phân cấp. Trường không hợp lệ được gán cho nhóm chi tiết HierarchyPrintOptions.</value>
+  </data>
+  <data name="ReportStringId.Msg_HierarchyPrintOptions_SameKeyAndParentFields" xml:space="preserve">
+    <value>Không thể in dữ liệu báo cáo ở chế độ phân cấp. Cùng một khoá và các trường cha được gán cho HierarchyPrintOptions của nhóm chi tiết.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidDrillDownControl" xml:space="preserve">
+    <value>The DrillDownControl tài sản của ban nhạc '{0}' là không hợp lệ.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidInsertControlOperation" xml:space="preserve">
+    <value>Kiểm soát {0} đã không được đặt để {1} container.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidLeaderSymbolForXrTocLevel" xml:space="preserve">
+    <value>Biểu tượng nhà lãnh đạo không hợp lệ.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidNameUsage" xml:space="preserve">
+    <value>Này tên chứa các ký tự không hợp lệ. Tên gọi nên bắt đầu với một lá thư và chứa các chữ cái, số điện thoại và '_' biểu tượng chỉ.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidOperationForInheritedReport" xml:space="preserve">
+    <value>Hoạt động này là không có sẵn cho một báo cáo được thừa kế bởi vì có thể
+mâu thuẫn giữa các nguồn báo cáo của các ban nhạc và ban nhạc của bố trí báo cáo nạp.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidXrTocInstance" xml:space="preserve">
+    <value>Không có trường hợp thêm bảng nội dung có thể được thêm vào các báo cáo.</value>
+  </data>
+  <data name="ReportStringId.Msg_InvalidXrTocInstanceInBand" xml:space="preserve">
+    <value>Không có trường hợp thêm bảng nội dung có thể được thêm vào nhóm.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoBookmarksWereFoundInReportForXrToc" xml:space="preserve">
+    <value>Dấu trang không được tìm thấy trong báo cáo. Để tạo một bảng nội dung, chỉ định dấu trang cho ít nhất một báo cáo nguyên tố.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoCustomFunction" xml:space="preserve">
+    <value>Chức năng tùy chỉnh '{0}' không tìm thấy.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoEmptySummaryArgumentSupported" xml:space="preserve">
+    <value>Biểu thức đối số của hàm tóm tắt không thể trống được.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoLibrariesToExecuteScripts" xml:space="preserve">
+    <value>Không thể thực thi kịch bản báo cáo vì ứng dụng bao gồm các thư viện yêu cầu.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoNestedAggregateSupported" xml:space="preserve">
+    <value>Biểu thức đối số của hàm tóm tắt không thể chứa hàm tổng hợp.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoNestedSummarySupported" xml:space="preserve">
+    <value>Biểu thức đối số của hàm tóm tắt không thể chứa hàm tóm tắt.</value>
+  </data>
+  <data name="ReportStringId.Msg_NoSummaryNestAggregateSupported" xml:space="preserve">
+    <value>Biểu thức đối số của hàm tổng hợp không thể chứa hàm tóm tắt.</value>
+  </data>
+  <data name="ReportStringId.Msg_ParameterBindingValueTypeMismatch" xml:space="preserve">
+    <value>Một ràng buộc tham số gán một giá trị của một loại không tương thích cho tham số subreport "{0}".</value>
+  </data>
+  <data name="ReportStringId.Msg_PlacingXrTocIntoIncorrectContainer" xml:space="preserve">
+    <value>The Table of Contents can be placed only into Report Header and Report Footer bands.</value>
+  </data>
+  <data name="ReportStringId.Msg_ReservedNameUsage" xml:space="preserve">
+    <value>Tên này được dành riêng. Chỉ định một tên khác.</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptCompilationError" xml:space="preserve">
+    <value>Biên soạn kịch bản không thành công vì lỗi không biết</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptErrorShort" xml:space="preserve">
+    <value>Có lỗi trong tập lệnh</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptEventHandlerInvalidArguments" xml:space="preserve">
+    <value>Arguments for '{0}' are incorrect.</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptEventHandlerInvalidReturnType" xml:space="preserve">
+    <value>Result type for '{0}' is incorrect. The 'Void' result type is expected.</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptEventHandlerNotFound" xml:space="preserve">
+    <value>The script does not contain the '{0}' event handler definition for the following {1}: '{2}'.</value>
+  </data>
+  <data name="ReportStringId.Msg_ScriptLoadingError" xml:space="preserve">
+    <value>Các kịch bản được biên dịch nhưng không thể được thực hiện</value>
+  </data>
+  <data name="ReportStringId.Msg_SuspiciousCodeLoading" xml:space="preserve">
+    <value>Mở tập tin này trong các nhà thiết kế báo cáo có thể không an toàn.
+Tập tin này được lấy từ một nguồn đáng tin cậy?</value>
+  </data>
+  <data name="ReportStringId.Msg_SuspiciousCodeLoadingCanceled" xml:space="preserve">
+    <value>Không thể mở tập tin là nội dung của nó có thể không an toàn.</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningControlsAreOutOfColumnPrintingArea" xml:space="preserve">
+    <value>Cảnh báo: các điều khiển bên ngoài khu vực in ấn báo cáo và sẽ không được đúng in và/hoặc xuất khẩu - {0}.</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveBand" xml:space="preserve">
+    <value>Hoạt động này loại bỏ ban nhạc {0} và tất cả các điều khiển mà nó chứa. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveBands" xml:space="preserve">
+    <value>Hoạt động này loại bỏ các ban nhạc {0} và {1} và tất cả các điều khiển chúng chứa. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveFormattingRules" xml:space="preserve">
+    <value>Thao tác này sẽ loại bỏ tất cả các quy tắc định dạng. Bạn có muốn tiến hành?</value>
+  </data>
+  <data name="ReportStringId.Msg_WarningRemoveStyles" xml:space="preserve">
+    <value>Thao tác này sẽ loại bỏ tất cả phong cách. Bạn có muốn tiến hành?</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_AddNewParameter" xml:space="preserve">
+    <value>Thêm tham số mới</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_DataAdapter" xml:space="preserve">
+    <value>Bộ điều hợp dữ liệu:</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_DataMember" xml:space="preserve">
+    <value>Dữ liệu thành viên:</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_DisplayMember" xml:space="preserve">
+    <value>Hiển thị thành viên:</value>
+  </data>
+  <data name="ReportStringId.NewParameterEditorForm_ValueMember" xml:space="preserve">
+    <value>Giá trị thành viên:</value>
+  </data>
+  <data name="ReportStringId.ParameterCollectionEditorForm_AddGroup" xml:space="preserve">
+    <value>Thêm nhóm</value>
+  </data>
+  <data name="ReportStringId.ParameterCollectionEditorForm_AddParameter" xml:space="preserve">
+    <value>Add Parameter</value>
+  </data>
+  <data name="ReportStringId.ParameterEditor_ParameterListPlaceholder" xml:space="preserve">
+    <value>Không có tham số để hiển thị.</value>
+  </data>
+  <data name="ReportStringId.ParameterEditor_ParameterSettingsPlaceholder" xml:space="preserve">
+    <value>Click vào nút Add để tạo ra một tham số.</value>
+  </data>
+  <data name="ReportStringId.PrintableComponentContainerDesignMsg" xml:space="preserve">
+    <value>In điều khiển cửa sổ hình thức hoặc một liên kết in ấn, gán cho nó để bất động sản PrintableComponent trong mã.</value>
+  </data>
+  <data name="ReportStringId.RepTabCtl_NoReportStatus" xml:space="preserve">
+    <value>Không có gì</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddCalculatedField_Caption" xml:space="preserve">
+    <value>Thêm lĩnh vực tính toán</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddCalculatedField_STipContent" xml:space="preserve">
+    <value>Tạo ra một lĩnh vực tùy chỉnh có giá trị được đánh giá bằng cách sử dụng một biểu hiện dựa trên dữ liệu sẵn có trường.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddCalculatedField_STipTitle" xml:space="preserve">
+    <value>Thêm lĩnh vực tính toán</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddNewDataSource_STipContent" xml:space="preserve">
+    <value>Tạo và thiết lập một nguồn dữ liệu mới cho báo cáo của bạn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_AddParameter_STipContent" xml:space="preserve">
+    <value>Tạo ra một tham số mới để chuyển động giá trị cho báo cáo của bạn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BandCollapseAll_Caption" xml:space="preserve">
+    <value>Thu gọn tất cả</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BandCollapseAll_STipContent" xml:space="preserve">
+    <value>Thu gọn tất cả các dải trên bề mặt thiết kế.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BandCollapseAll_STipTitle" xml:space="preserve">
+    <value>gọn tất cả các</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BandExpandAll_Caption" xml:space="preserve">
+    <value>Mở rộng tất cả</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BandExpandAll_STipContent" xml:space="preserve">
+    <value>Mở rộng tất cả các dải trên bề mặt thiết kế.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BandExpandAll_STipTitle" xml:space="preserve">
+    <value>mở rộng tất cả</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeAutoModule_Caption" xml:space="preserve">
+    <value>Mô-đun tự động</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeAutoModule_STipContent" xml:space="preserve">
+    <value>vạch.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeAutoModule_STipTitle" xml:space="preserve">
+    <value>Mô-đun tự động</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BarCodeShowText_STipContent" xml:space="preserve">
+    <value>Hiển thị văn bản đi kèm trong mã vạch.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderBottom_Caption" xml:space="preserve">
+    <value>Dưới biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderBottom_STipContent" xml:space="preserve">
+    <value>Thêm biên giới dưới điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderBottom_STipTitle" xml:space="preserve">
+    <value>Dưới biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderColor_Caption" xml:space="preserve">
+    <value>Biên giới màu sắc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderColor_STipContent" xml:space="preserve">
+    <value>Thay đổi màu sắc biên giới.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderColor_STipTitle" xml:space="preserve">
+    <value>Biên giới màu sắc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderDashStyle_Caption" xml:space="preserve">
+    <value>Biên giới dấu gạch ngang phong cách</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderDashStyle_STipContent" xml:space="preserve">
+    <value>Thay đổi phong cách biên giới dash.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderDashStyle_STipTitle" xml:space="preserve">
+    <value>Biên giới dấu gạch ngang phong cách</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderLeft_Caption" xml:space="preserve">
+    <value>Còn lại biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderLeft_STipContent" xml:space="preserve">
+    <value>Thêm biên giới trái với các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderLeft_STipTitle" xml:space="preserve">
+    <value>Còn lại biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderRight_Caption" xml:space="preserve">
+    <value>Đúng biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderRight_STipContent" xml:space="preserve">
+    <value>Thêm biên giới bên phải để điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderRight_STipTitle" xml:space="preserve">
+    <value>Đúng biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersAll_Caption" xml:space="preserve">
+    <value>Tất cả biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersAll_STipContent" xml:space="preserve">
+    <value>Thêm tất cả biên giới cho các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersAll_STipTitle" xml:space="preserve">
+    <value>Tất cả biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersNone_Caption" xml:space="preserve">
+    <value>Không có biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersNone_STipContent" xml:space="preserve">
+    <value>Loại bỏ biên giới từ các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BordersNone_STipTitle" xml:space="preserve">
+    <value>Không có biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderTop_Caption" xml:space="preserve">
+    <value>Hàng đầu biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderTop_STipContent" xml:space="preserve">
+    <value>Thêm biên giới hàng đầu cho các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderTop_STipTitle" xml:space="preserve">
+    <value>Hàng đầu biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderWidth_Caption" xml:space="preserve">
+    <value>Chiều rộng biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderWidth_STipContent" xml:space="preserve">
+    <value>Thay đổi chiều rộng biên giới.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_BorderWidth_STipTitle" xml:space="preserve">
+    <value>Chiều rộng biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellAutoHeight_Caption" xml:space="preserve">
+    <value>Chiều cao tự động</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellAutoHeight_STipContent" xml:space="preserve">
+    <value>Tự động điều chỉnh chiều cao di động tùy thuộc vào kích thước phông chữ hiện.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellAutoHeight_STipTitle" xml:space="preserve">
+    <value>Di động tự động chiều cao</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellAutoWidth_Caption" xml:space="preserve">
+    <value>Tự động rộng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellAutoWidth_STipContent" xml:space="preserve">
+    <value>Tự động điều chỉnh độ rộng di động tùy thuộc vào kích thước phông chữ hiện.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellAutoWidth_STipTitle" xml:space="preserve">
+    <value>Tế bào tự động rộng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellHeight_STipContent" xml:space="preserve">
+    <value>Thiết lập chiều cao của ô.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellHeight_STipTitle" xml:space="preserve">
+    <value>Di động cao</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellHorizontalSpacing_Caption" xml:space="preserve">
+    <value>Ngang khoảng cách:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellHorizontalSpacing_STipContent" xml:space="preserve">
+    <value>Thiết lập khoảng cách ngang giữa các tế bào lân cận.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellHorizontalSpacing_STipTitle" xml:space="preserve">
+    <value>Khoảng cách ngang di động</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellVerticalSpacing_Caption" xml:space="preserve">
+    <value>Khoảng cách thẳng đứng:</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellVerticalSpacing_STipContent" xml:space="preserve">
+    <value>Thiết lập khoảng cách thẳng đứng giữa các tế bào lân cận.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellVerticalSpacing_STipTitle" xml:space="preserve">
+    <value>Khoảng cách thẳng đứng di động</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellWidth_STipContent" xml:space="preserve">
+    <value>Thiết lập chiều rộng của ô.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_CharacterCombCellWidth_STipTitle" xml:space="preserve">
+    <value>Chiều rộng di động</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddDataSource_STipContent" xml:space="preserve">
+    <value>Thiết lập một nguồn dữ liệu cho biểu đồ.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddImageAnnotation_Caption" xml:space="preserve">
+    <value>Thêm chú thích hình ảnh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddImageAnnotation_STipContent" xml:space="preserve">
+    <value>Thêm chú thích hình ảnh vào một bảng xếp hạng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddImageAnnotation_STipTitle" xml:space="preserve">
+    <value>Thêm chú thích hình ảnh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewArea_Caption" xml:space="preserve">
+    <value>Khu vực</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewArea_STipContent" xml:space="preserve">
+    <value>Thêm một loạt lá để hiển thị các giá trị như một khu vực đầy với đỉnh và hollows.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewArea_STipTitle" xml:space="preserve">
+    <value>Khu vực Series</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewBar_Caption" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewBar_STipContent" xml:space="preserve">
+    <value>Thêm một thanh dòng để hiển thị giá trị như cột dọc được nhóm lại theo loại.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewBar_STipTitle" xml:space="preserve">
+    <value>Bar Series</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewLine_STipContent" xml:space="preserve">
+    <value>Thêm một loạt dòng để hiển thị đường xu hướng trên thời gian hoặc thể loại.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewLine_STipTitle" xml:space="preserve">
+    <value>Dòng Series</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewOther_Caption" xml:space="preserve">
+    <value>Series khác</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewOther_STipContent" xml:space="preserve">
+    <value>Chọn một loại biểu đồ để hiển thị dữ liệu của bạn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewOther_STipTitle" xml:space="preserve">
+    <value>Series khác</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewPieAndDoughnut_Caption" xml:space="preserve">
+    <value>Chiếc bánh và bánh</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewPieAndDoughnut_STipContent" xml:space="preserve">
+    <value>Thêm một loạt để hiển thị các giá trị tỷ lệ phần trăm của các đối số điểm khác nhau để so sánh các ý nghĩa của.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewPieAndDoughnut_STipTitle" xml:space="preserve">
+    <value>Chiếc bánh và bánh Series</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewRadarAndPolar_Caption" xml:space="preserve">
+    <value>Radar và cực</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewRadarAndPolar_STipContent" xml:space="preserve">
+    <value>Thêm một loạt để hiển thị các giá trị như là một biểu đồ tròn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewRadarAndPolar_STipTitle" xml:space="preserve">
+    <value>Radar And Polar Series</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewRange_STipContent" xml:space="preserve">
+    <value>Thêm một loạt để hiển thị một loạt các giá trị với các giới hạn tối thiểu và tối đa.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddSeriesViewRange_STipTitle" xml:space="preserve">
+    <value>Loạt Series</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartAddTextAnnotation_STipContent" xml:space="preserve">
+    <value>Thêm một chú thích văn bản vào một bảng xếp hạng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartLoad_Caption" xml:space="preserve">
+    <value>Tải...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartLoad_STipContent" xml:space="preserve">
+    <value>Tải một biểu đồ từ một tập tin XML.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartPaletteName_STipContent" xml:space="preserve">
+    <value>Chọn một bảng màu cho bức tranh của bảng xếp hạng phim.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveAnnotation_Caption" xml:space="preserve">
+    <value>Loại bỏ chú thích</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveAnnotation_STipContent" xml:space="preserve">
+    <value>Loại bỏ các chú thích chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveAnnotation_STipTitle" xml:space="preserve">
+    <value>Loại bỏ chú thích</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveSeries_Caption" xml:space="preserve">
+    <value>Xoá loạt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveSeries_STipContent" xml:space="preserve">
+    <value>Loại bỏ dòng được chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRemoveSeries_STipTitle" xml:space="preserve">
+    <value>Xoá loạt</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRunDesigner_Caption" xml:space="preserve">
+    <value>Chạy thiết kế</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRunDesigner_STipContent" xml:space="preserve">
+    <value>Chạy các nhà thiết kế biểu đồ cho phép tạo và chỉnh sửa các thuộc tính của biểu đồ và các yếu tố.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartRunDesigner_STipTitle" xml:space="preserve">
+    <value>Chạy thiết kế</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartSave_Caption" xml:space="preserve">
+    <value>Tiết kiệm...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ChartSave_STipContent" xml:space="preserve">
+    <value>Tiết kiệm một bảng xếp hạng sang tệp XML.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_DrawGridLines_STipContent" xml:space="preserve">
+    <value>Hiển thị các đường lưới trong báo cáo bề mặt cho vị trí kiểm soát hoàn hảo.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_DrawWatermark_STipContent" xml:space="preserve">
+    <value>Màn hình hiển thị các tài liệu của watermark trên bề mặt thiết kế cho những kinh nghiệm thiết kế tốt hơn. Chỉ rõ thiết đặt watermark trong tab Trang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_DrawWatermark_STipTitle" xml:space="preserve">
+    <value>Hiển thị hình mờ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ExtractStyle_Caption" xml:space="preserve">
+    <value>Trích xuất các phong cách</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ExtractStyle_STipContent" xml:space="preserve">
+    <value>Tạo một phong cách mới dựa trên điều khiển đã chọn xuất hiện cài đặt. Áp dụng phong cách tạo từ bộ sưu tập phong cách cho các điều khiển khác trong báo cáo của bạn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ExtractStyle_STipTitle" xml:space="preserve">
+    <value>Trích xuất các phong cách</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitBoundsToContainer_Caption" xml:space="preserve">
+    <value>Phù hợp với giới hạn đến Container</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitBoundsToContainer_STipContent" xml:space="preserve">
+    <value>Điều chỉnh kích thước điều khiển để chiếm tất cả các không gian có sẵn container.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitBoundsToContainer_STipTitle" xml:space="preserve">
+    <value>Phù hợp với giới hạn đến Container</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitBoundsToText_Caption" xml:space="preserve">
+    <value>Phù hợp với các giới hạn cho văn bản</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitBoundsToText_STipContent" xml:space="preserve">
+    <value>Điều chỉnh kích thước của các điều khiển được chọn để phù hợp với văn bản.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitBoundsToText_STipTitle" xml:space="preserve">
+    <value>Phù hợp với các giới hạn cho văn bản</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitTextToBounds_Caption" xml:space="preserve">
+    <value>Phù hợp với văn bản đến giới hạn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitTextToBounds_STipContent" xml:space="preserve">
+    <value>Điều chỉnh cỡ chữ của các điều khiển được chọn để phù hợp với toàn bộ diện tích của.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FitTextToBounds_STipTitle" xml:space="preserve">
+    <value>Phù hợp với văn bản đến giới hạn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_FontStrikeout_STipContent" xml:space="preserve">
+    <value>Vượt qua văn bản đã chọn ra bằng cách vẽ một đường thông qua nó</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_GaugeViewThemeDark_Caption" xml:space="preserve">
+    <value>phẳng Dark</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_GaugeViewThemeDark_STipContent" xml:space="preserve">
+    <value>Set phẳng tối màu chủ đề cho một tuyến khổ.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_GaugeViewThemeDark_STipTitle" xml:space="preserve">
+    <value>Căn hộ tối chủ đề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_GaugeViewThemeLight_Caption" xml:space="preserve">
+    <value>phẳng ánh sáng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_GaugeViewThemeLight_STipContent" xml:space="preserve">
+    <value>Thiết lập chủ đề màu sắc ánh sáng bằng phẳng cho một tuyến khổ.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_GaugeViewThemeLight_STipTitle" xml:space="preserve">
+    <value>Căn hộ ánh sáng chủ đề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelAutoWidth_Caption" xml:space="preserve">
+    <value>Tự động rộng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelAutoWidth_STipContent" xml:space="preserve">
+    <value>Sử các điều khiển đã chọn để điều chỉnh độ rộng của họ để phù hợp với nội dung của họ.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelAutoWidth_STipTitle" xml:space="preserve">
+    <value>Tự động rộng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelCanGrow_Caption" xml:space="preserve">
+    <value>Có thể phát triển</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelCanGrow_STipContent" xml:space="preserve">
+    <value>Sử các điều khiển đã chọn để tăng chiều cao của họ để phù hợp với nội dung của họ.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelCanGrow_STipTitle" xml:space="preserve">
+    <value>Có thể phát triển</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelCanShrink_STipContent" xml:space="preserve">
+    <value>Sử các điều khiển đã chọn để làm giảm chiều cao của họ để phù hợp với nội dung của họ.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelWordWrap_Caption" xml:space="preserve">
+    <value>Từ bọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelWordWrap_STipContent" xml:space="preserve">
+    <value>Sử các điều khiển đã chọn để bọc các văn bản của họ nếu nó không phù hợp với một dòng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_LabelWordWrap_STipTitle" xml:space="preserve">
+    <value>Từ bọc</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_Language_STipContent" xml:space="preserve">
+    <value>Chỉ định ngôn ngữ được liên kết với các giá trị thuộc tính ứng. Mỗi ngôn ngữ có thể có tập hợp các giá trị tài sản riêng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_MorePaperSizes_Caption" xml:space="preserve">
+    <value>Thêm giấy kích thước...</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NoStyles_Caption" xml:space="preserve">
+    <value>Không có không có phong cách có sẵn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_NoStyles_Description" xml:space="preserve">
+    <value>Thêm một phong cách mới để mở khóa các thư viện.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_BarCode" xml:space="preserve">
+    <value>Công cụ mã</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_CharacterComb" xml:space="preserve">
+    <value>Nhân vật lược công cụ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_Chart" xml:space="preserve">
+    <value>Bảng xếp hạng công cụ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_Gauge" xml:space="preserve">
+    <value>Dụng cụ đo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_PivotGrid" xml:space="preserve">
+    <value>Pivot lưới công cụ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_Shape" xml:space="preserve">
+    <value>Công cụ hình dạng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_Sparkline" xml:space="preserve">
+    <value>Công cụ Sparkline</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_Table" xml:space="preserve">
+    <value>Bảng công cụ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageCategory_Text" xml:space="preserve">
+    <value>Công cụ văn bản</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageColor_Caption" xml:space="preserve">
+    <value>Page color</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageColor_STipContent" xml:space="preserve">
+    <value>Chọn màu nền cho các báo cáo trang.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageColor_STipTitle" xml:space="preserve">
+    <value>Chọn Page Color</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Annotations" xml:space="preserve">
+    <value>chú thích</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Arrange" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Borders" xml:space="preserve">
+    <value>Biên giới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_CellSize" xml:space="preserve">
+    <value>Kích thước di động</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Chart" xml:space="preserve">
+    <value>Bảng xếp hạng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Clipboard" xml:space="preserve">
+    <value>Bảng tạm</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_CrossTab" xml:space="preserve">
+    <value>Tab chéo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Distribute" xml:space="preserve">
+    <value>Phân phối</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Localization" xml:space="preserve">
+    <value>Localization</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_PdfContent" xml:space="preserve">
+    <value>nội dung PDF</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_PivotGrid" xml:space="preserve">
+    <value>Pivot lưới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Series" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Snapping" xml:space="preserve">
+    <value>Chụp</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageGroup_Theme" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageMargins_STipContent" xml:space="preserve">
+    <value>Thiết lập kích thước lề cho một báo cáo. Chọn từ một số các định dạng thường được sử dụng hoặc nhấp vào tuỳ chỉnh lề để xác định định dạng của riêng của bạn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageOrientation_STipContent" xml:space="preserve">
+    <value>Chuyển đổi giữa bố cục trang chân dung và phong cảnh.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageOrientation_STipTitle" xml:space="preserve">
+    <value>Thay đổi trang định hướng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageSize_STipContent" xml:space="preserve">
+    <value>Chọn một kích cỡ giấy thường được sử dụng cho một báo cáo hoặc nhấp vào thêm giấy kích thước để xác định kích thước của riêng của bạn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageWatermark_STipContent" xml:space="preserve">
+    <value>Chèn ma văn bản hoặc hình ảnh phía sau của nội dung trang để cho thấy rằng báo cáo yêu cầu điều trị đặc biệt. Sử dụng View tab Hiển thị một hình mờ ở thời gian thiết kế và sử dụng nó như là một mẫu cho một báo cáo.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PageWatermark_STipTitle" xml:space="preserve">
+    <value>Thêm Watermark</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridAddDataSource_STipContent" xml:space="preserve">
+    <value>Thiết lập một nguồn dữ liệu cho một mạng lưới Pivot.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridAddField_Caption" xml:space="preserve">
+    <value>Thêm lĩnh vực</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridAddField_STipContent" xml:space="preserve">
+    <value>Thêm một lĩnh vực lưới điện Pivot mới đến một khu vực tiêu đề yêu cầu.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridAddField_STipTitle" xml:space="preserve">
+    <value>Thêm lĩnh vực</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridColumnAreaOnEveryPage_Caption" xml:space="preserve">
+    <value>Khu vực cột trên mỗi trang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridColumnAreaOnEveryPage_STipContent" xml:space="preserve">
+    <value>In khu vực cột trên mỗi trang.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridColumnAreaOnEveryPage_STipTitle" xml:space="preserve">
+    <value>In diện tích cột trên mỗi trang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridColumnHeaders_STipContent" xml:space="preserve">
+    <value>In tiêu đề cột trường.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridDataHeaders_Caption" xml:space="preserve">
+    <value>Dữ liệu tiêu đề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridDataHeaders_STipContent" xml:space="preserve">
+    <value>In dữ liệu trường tiêu đề.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridDataHeaders_STipTitle" xml:space="preserve">
+    <value>In dữ liệu thông tin thư</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRemoveField_Caption" xml:space="preserve">
+    <value>Loại bỏ các lĩnh vực</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRemoveField_STipContent" xml:space="preserve">
+    <value>Loại bỏ các lĩnh vực đã chọn Pivot lưới.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRemoveField_STipTitle" xml:space="preserve">
+    <value>Loại bỏ các lĩnh vực</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRowAreaOnEveryPage_Caption" xml:space="preserve">
+    <value>Hàng lá trên mỗi trang</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRowAreaOnEveryPage_STipContent" xml:space="preserve">
+    <value>In hàng lá trên mỗi trang.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRowAreaOnEveryPage_STipTitle" xml:space="preserve">
+    <value>Print Row Area on Every Page</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRowHeaders_Caption" xml:space="preserve">
+    <value>Hàng tiêu đề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRowHeaders_STipContent" xml:space="preserve">
+    <value>In hàng lĩnh vực headers.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRowHeaders_STipTitle" xml:space="preserve">
+    <value>In hàng tiêu đề</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRunDesigner_Caption" xml:space="preserve">
+    <value>Chạy thiết kế</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRunDesigner_STipContent" xml:space="preserve">
+    <value>Chạy Pivot lưới nhà thiết kế cho phép tùy chỉnh các lĩnh vực, giao diện điều khiển, cài đặt xuất hiện và in tùy chọn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridRunDesigner_STipTitle" xml:space="preserve">
+    <value>Chạy thiết kế</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridVerticalLines_Caption" xml:space="preserve">
+    <value>Đường thẳng đứng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_PivotGridVerticalLines_STipTitle" xml:space="preserve">
+    <value>In dọc đường</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsSelectControl_STipContent" xml:space="preserve">
+    <value>Chọn một điều khiển cần thiết để chỉ định một sự kiện.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsSelectControl_STipTitle" xml:space="preserve">
+    <value>Kiểm soát</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsSelectEvent_STipContent" xml:space="preserve">
+    <value>Chọn một trong các sự kiện sẵn.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsSelectEvent_STipTitle" xml:space="preserve">
+    <value>Tổ chức sự kiện</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsValidate_Caption" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsValidate_STipContent" xml:space="preserve">
+    <value>Kiểm tra cho dù kịch bản báo cáo có sai sót. Nếu phát hiện lỗi, họ được liệt kê trong bảng điều khiển lỗi Script.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ScriptsValidate_STipTitle" xml:space="preserve">
+    <value>Xác nhận kịch bản</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShapeStretch_Caption" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShapeStretch_STipContent" xml:space="preserve">
+    <value>Căng ra một hình dạng để điền vào toàn bộ diện tích của nó khi nó được quay.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShapeStretch_STipTitle" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowDesignerTab_Caption" xml:space="preserve">
+    <value>Nhà thiết kế</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowDesignerTab_STipContent" xml:space="preserve">
+    <value>Tùy chỉnh bố trí báo cáo hoặc tạo một giao diện mới trong các nhà thiết kế giàu tính năng báo cáo.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowExportWarnings_Caption" xml:space="preserve">
+    <value>Xuất cảnh báo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowExportWarnings_STipContent" xml:space="preserve">
+    <value>Làm nổi bật giao nhau báo cáo điều khiển để cảnh báo bạn về khả năng của corrupting bố trí tài liệu khi xuất khẩu các tài liệu sang định dạng cụ thể.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowExportWarnings_STipTitle" xml:space="preserve">
+    <value>Hiển thị cảnh báo xuất khẩu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowLocalizableProperties_Caption" xml:space="preserve">
+    <value>Hiển thị Properties Localizable</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowLocalizableProperties_STipContent" xml:space="preserve">
+    <value>lọc cửa sổ Properties để hiển thị chỉ có tính ứng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowLocalizableProperties_STipTitle" xml:space="preserve">
+    <value>Hiển thị Properties Localizable</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPreviewTab_STipContent" xml:space="preserve">
+    <value>Hiển thị một báo cáo dân cư với các dữ liệu và chia vào các trang web, tùy chỉnh các cài đặt in và in hoặc xuất khẩu báo cáo này.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPreviewTab_STipTitle" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPrintingWarnings_Caption" xml:space="preserve">
+    <value>In cảnh báo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPrintingWarnings_STipContent" xml:space="preserve">
+    <value>Làm nổi bật điều khiển báo cáo tràn ngập lề bên phải trang để cảnh báo bạn về các phụ trang khi in tài liệu.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowPrintingWarnings_STipTitle" xml:space="preserve">
+    <value>Hiển thị in cảnh báo</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ShowScriptsTab_STipContent" xml:space="preserve">
+    <value>Thực hiện tính toán tùy chỉnh bằng cách xử lý sự kiện kịch bản.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapLines_Caption" xml:space="preserve">
+    <value>Snap đường</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapLines_STipContent" xml:space="preserve">
+    <value>Sử snapping chụp dòng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapLines_STipTitle" xml:space="preserve">
+    <value>Snap đường</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapToGrid_Caption" xml:space="preserve">
+    <value>Snap để lưới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapToGrid_STipContent" xml:space="preserve">
+    <value>Sử chụp với mạng lưới snap.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SnapToGrid_STipTitle" xml:space="preserve">
+    <value>Snap để lưới</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_SparklineAddDataSource_STipContent" xml:space="preserve">
+    <value>Thiết lập một nguồn dữ liệu cho một sparkline.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteCell_STipContent" xml:space="preserve">
+    <value>Xóa các tế bào hiện.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteCell_STipTitle" xml:space="preserve">
+    <value>Xóa di động</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteColumn_STipContent" xml:space="preserve">
+    <value>Xóa cột hiện.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteRow_STipContent" xml:space="preserve">
+    <value>Xóa dòng hiện tại.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDeleteTable_Caption" xml:space="preserve">
+    <value>Bàn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeColumnsEvenly_STipContent" xml:space="preserve">
+    <value>Phân phối rộng các cột đã chọn bằng nhau giữa chúng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeRowsEvenly_STipContent" xml:space="preserve">
+    <value>Phân phối chiều cao của các hàng đã chọn bằng nhau giữa chúng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableDistributeRowsEvenly_STipTitle" xml:space="preserve">
+    <value>Phân phối hàng đều</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertColumnToLeft_Caption" xml:space="preserve">
+    <value>Column to Left</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertColumnToLeft_STipContent" xml:space="preserve">
+    <value>Thêm một cột mới trực tiếp vào phía bên trái của cột hiện.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertColumnToLeft_STipTitle" xml:space="preserve">
+    <value>Chèn cột bên trái</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertColumnToRight_Caption" xml:space="preserve">
+    <value>Column to Right</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertColumnToRight_STipContent" xml:space="preserve">
+    <value>Thêm một cột mới trực tiếp bên phải của hiện tại cột.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertRowAbove_STipContent" xml:space="preserve">
+    <value>Thêm một dòng mới trực tiếp trên dòng hiện tại.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertRowAbove_STipTitle" xml:space="preserve">
+    <value>Chèn hàng phía trên</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertRowBelow_Caption" xml:space="preserve">
+    <value>Hàng dưới đây</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertRowBelow_STipContent" xml:space="preserve">
+    <value>Thêm hàng mới ngay bên dưới dòng hiện tại.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableInsertRowBelow_STipTitle" xml:space="preserve">
+    <value>Chèn hàng phía dưới đây</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableMergeCells_Caption" xml:space="preserve">
+    <value>Hợp nhất các tế bào</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableMergeCells_STipContent" xml:space="preserve">
+    <value>Hợp nhất các tế bào được chọn vào một tế bào.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableMergeCells_STipTitle" xml:space="preserve">
+    <value>Hợp nhất các tế bào</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectColumn_STipContent" xml:space="preserve">
+    <value>Chọn hiện tại cột.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectRow_STipContent" xml:space="preserve">
+    <value>Chọn hàng hiện tại.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectTable_Caption" xml:space="preserve">
+    <value>Bàn</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSelectTable_STipContent" xml:space="preserve">
+    <value>Chọn toàn bộ bảng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSplitCells_Caption" xml:space="preserve">
+    <value>Phân chia tế bào</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSplitCells_STipContent" xml:space="preserve">
+    <value>Phân chia các tế bào được chọn vào số quy định của các hàng hoặc cột.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_TableSplitCells_STipTitle" xml:space="preserve">
+    <value>Phân chia tế bào</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ToolboxControlsPage" xml:space="preserve">
+    <value>Hộp công cụ</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ValidateScripts_Caption" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_ValidateScripts_STipTitle" xml:space="preserve">
+    <value>Xác nhận kịch bản</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignBottom_Caption" xml:space="preserve">
+    <value>Căn chỉnh văn bản dưới cùng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignBottom_STipContent" xml:space="preserve">
+    <value>Sắp xếp các văn bản dưới cùng.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignBottom_STipTitle" xml:space="preserve">
+    <value>Căn chỉnh văn bản dưới cùng</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignMiddle_Caption" xml:space="preserve">
+    <value>Căn chỉnh văn bản Trung</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignMiddle_STipContent" xml:space="preserve">
+    <value>Trung tâm văn bản giữa các đỉnh và đáy.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignMiddle_STipTitle" xml:space="preserve">
+    <value>Căn chỉnh văn bản Trung</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignTop_Caption" xml:space="preserve">
+    <value>Căn chỉnh văn bản hàng đầu</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignTop_STipContent" xml:space="preserve">
+    <value>Sắp xếp các văn bản đầu.</value>
+  </data>
+  <data name="ReportStringId.RibbonXRDesign_VertAlignTop_STipTitle" xml:space="preserve">
+    <value>Căn chỉnh văn bản hàng đầu</value>
+  </data>
+  <data name="ReportStringId.ScriptEditor_ScriptHasBeenChanged" xml:space="preserve">
+    <value>Nhật ký lỗi là không liên quan đến đoạn mã thực tế, bởi vì các kịch bản đã được thay đổi sau khi xác nhận cuối cùng của nó.
+Để xem các lỗi thực tế kịch bản, nhấp vào nút xác nhận một lần nữa.</value>
+  </data>
+  <data name="ReportStringId.STag_Name_MailMerge" xml:space="preserve">
+    <value>Mail Merge</value>
+  </data>
+  <data name="ReportStringId.STag_Name_RtfDataBinding" xml:space="preserve">
+    <value>RTF dữ liệu ràng buộc</value>
+  </data>
+  <data name="ReportStringId.STag_Name_SummaryFunc" xml:space="preserve">
+    <value>Tóm tắt Func</value>
+  </data>
+  <data name="ReportStringId.STag_Name_SummaryRunning" xml:space="preserve">
+    <value>Tóm tắt chạy</value>
+  </data>
+  <data name="ReportStringId.SubreportDesigner_EditParameterBindings" xml:space="preserve">
+    <value>Chỉnh sửa các tham số Bindings...</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindings" xml:space="preserve">
+    <value>{0} chứa bindings. Bạn có muốn chuyển đổi chúng để biểu hiện?</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindings_LinkText" xml:space="preserve">
+    <value>Tìm hiểu thêm về các biểu hiện...</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindings_RememberMyChoice" xml:space="preserve">
+    <value>Nhớ lựa chọn của tôi và đừng hỏi tôi nữa.</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertBindingsCaption" xml:space="preserve">
+    <value>chuyển đổi</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ConvertPivotGridToCrossTab" xml:space="preserve">
+    <value>Chức năng lưới Pivot cụ thể có thể bị mất trong quá trình chuyển đổi.
+Bạn có muốn tiếp tục không?
+
+Bạn có thể sử dụng tùy chọn ' quay trở lại với lưới Pivot gốc ' trong thẻ thông minh của Cross tab để khôi phục lưới Pivot.</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_ReportSourceUrlNotFound" xml:space="preserve">
+    <value>Không có báo cáo với URL cụ thể đã được tìm thấy. Bạn có muốn tạo ra một báo cáo mới?</value>
+  </data>
+  <data name="ReportStringId.UD_Msg_RevertCrossTabToPivotGrid" xml:space="preserve">
+    <value>Tất cả các thay đổi được thực hiện đối với tab chéo sẽ bị mất.
+Bạn có muốn đồng tiếp tục không?</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_Menu_ItemExpression" xml:space="preserve">
+    <value>{0} đã biểu hiện</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabFavorites" xml:space="preserve">
+    <value>yêu thích</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabFavorites_Description" xml:space="preserve">
+    <value>nhấp chuột phải để chỉnh sửa danh sách yêu thích bất động sản của kiểm soát</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabFavorites_EmptyText" xml:space="preserve">
+    <value>Yêu thích tính không được chỉ định cho điều khiển báo cáo này.</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabMiscellaneous" xml:space="preserve">
+    <value>Linh tinh</value>
+  </data>
+  <data name="ReportStringId.UD_PropertyGrid_TabPageSettings" xml:space="preserve">
+    <value>Cài đặt trang</value>
+  </data>
+  <data name="ReportStringId.UD_ReportGallery_DataSources" xml:space="preserve">
+    <value>Nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_Components" xml:space="preserve">
+    <value>Thành phần</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_DataSources" xml:space="preserve">
+    <value>Nguồn dữ liệu</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportExplorer_FormattingRules" xml:space="preserve">
+    <value>Định dạng quy tắc</value>
+  </data>
+  <data name="ReportStringId.UD_Title_ReportGallery" xml:space="preserve">
+    <value>Thư viện báo cáo</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_DataMemberDescription" xml:space="preserve">
+    <value>tế: {0}</value>
+  </data>
+  <data name="ReportStringId.UD_TTip_DataTypeDescription" xml:space="preserve">
+    <value>liệu: {0}</value>
+  </data>
+  <data name="ReportStringId.Verb_ConvertPivotGridToCrossTab" xml:space="preserve">
+    <value>Chuyển đổi sang Cross tab</value>
+  </data>
+  <data name="ReportStringId.Verb_ConvertToExpressions" xml:space="preserve">
+    <value>Chuyển đổi để biểu hiện</value>
+  </data>
+  <data name="ReportStringId.Verb_EditBindings" xml:space="preserve">
+    <value>Chỉnh sửa Bindings...</value>
+  </data>
+  <data name="ReportStringId.Verb_EditLocalization" xml:space="preserve">
+    <value>chỉnh sửa nội địa hóa...</value>
+  </data>
+  <data name="ReportStringId.Verb_Export" xml:space="preserve">
+    <value>Lưu/xuất khẩu...</value>
+  </data>
+  <data name="ReportStringId.Verb_LoadReportTemplate" xml:space="preserve">
+    <value>Tải báo cáo mẫu...</value>
+  </data>
+  <data name="ReportStringId.Verb_RevertCrossTabToPivotGrid" xml:space="preserve">
+    <value>Quay trở lại</value>
+  </data>
+  <data name="ReportStringId.Verb_RTFSave" xml:space="preserve">
+    <value>Lưu Tệp...</value>
+  </data>
+  <data name="ReportStringId.WAvgDisplayName" xml:space="preserve">
+    <value>Trung bình trọng số</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Azure" xml:space="preserve">
+    <value>Azure</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Blue" xml:space="preserve">
+    <value>Màu xanh</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_ColdGrey" xml:space="preserve">
+    <value>Xám lạnh</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Coral" xml:space="preserve">
+    <value>San hô</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Cream" xml:space="preserve">
+    <value>Kem</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Grey" xml:space="preserve">
+    <value>Màu xám</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_JeansBlue" xml:space="preserve">
+    <value>Quần Jean xanh</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_LightBlue" xml:space="preserve">
+    <value>Ánh sáng màu xanh</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_LightGreen" xml:space="preserve">
+    <value>Ánh sáng màu xanh lá cây</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Mint" xml:space="preserve">
+    <value>Bạc hà</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Raspberry" xml:space="preserve">
+    <value>Quả mâm xôi</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Violet" xml:space="preserve">
+    <value>Màu tím</value>
+  </data>
+  <data name="ReportStringId.Wizard_ReportColorScheme_Yellow" xml:space="preserve">
+    <value>Màu vàng</value>
+  </data>
+  <data name="ReportStringId.XRPdfContent_Content" xml:space="preserve">
+    <value>nội dung PDF</value>
+  </data>
+</root>

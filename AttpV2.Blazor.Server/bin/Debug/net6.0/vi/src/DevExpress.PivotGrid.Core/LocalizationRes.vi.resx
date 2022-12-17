@@ -1,0 +1,1075 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PivotGridStringId.FilterCancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="PivotGridStringId.FilterOk" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterLegendVisible" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerPageOptions" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCustom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuCollapse" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuExpand" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="PivotGridStringId.CellError" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="PivotGridStringId.ValueError" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeValue" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterClearButton" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMax" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMin" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="PivotGridStringId.SummaryAverage" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCount" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+  <data name="PivotGridStringId.SummarySum" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerPageBehavior" xml:space="preserve">
+    <value>Hành vi</value>
+  </data>
+  <data name="PivotGridStringId.ColumnArea" xml:space="preserve">
+    <value>Vùng Cột</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryLines" xml:space="preserve">
+    <value>Dòng</value>
+  </data>
+  <data name="PivotGridStringId.RowArea" xml:space="preserve">
+    <value>Vùng Hàng</value>
+  </data>
+  <data name="PivotGridStringId.Alt_DragHideField" xml:space="preserve">
+    <value>Ẩn</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideField" xml:space="preserve">
+    <value>Ẩn</value>
+  </data>
+  <data name="PivotGridStringId.DataFieldCaption" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="PivotGridStringId.SearchBoxText" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesColumn" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeTrend" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionEditorFieldsCategory" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeStatus" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSummaryType" xml:space="preserve">
+    <value>Kiểu Tóm lược</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideFilter" xml:space="preserve">
+    <value>Ẩn bộ lọc</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowFilter" xml:space="preserve">
+    <value>Hiển thị bộ lọc</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterLabelValues" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterLegendHidden" xml:space="preserve">
+    <value>Ẩn</value>
+  </data>
+  <data name="PivotGridStringId.EditFilter" xml:space="preserve">
+    <value>Chỉnh sửa bộ lọc</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalDay" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesRow" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalHour" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalMinute" xml:space="preserve">
+    <value>Phút</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalMonth" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalYear" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="PivotGridStringId.FunctionCategoryWindow" xml:space="preserve">
+    <value>Cửa sổ</value>
+  </data>
+  <data name="PivotGridStringId.FunctionCategoryAggregate" xml:space="preserve">
+    <value>Tổng hợp</value>
+  </data>
+  <data name="PivotGridStringId.Alt_BottomPanelOnly1by4Layout" xml:space="preserve">
+    <value>[Dưới bảng điều khiển duy nhất 1 bởi 4 Layout]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_BottomPanelOnly2by2Layout" xml:space="preserve">
+    <value>[Dưới bảng điều khiển chỉ 2 của 2 Layout]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_Collapse" xml:space="preserve">
+    <value>[Sụp đổ]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_ColumnAreaHeaders" xml:space="preserve">
+    <value>[Tiêu đề cột tích]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_DataAreaHeaders" xml:space="preserve">
+    <value>[Dữ liệu tích tiêu đề]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_Expand" xml:space="preserve">
+    <value>[Mở rộng]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FieldListHeaders" xml:space="preserve">
+    <value>[Ẩn của lĩnh vực tiêu đề]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterAreaHeaders" xml:space="preserve">
+    <value>[Lọc khu vực tiêu đề]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterButton" xml:space="preserve">
+    <value>[Lọc]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterButtonActive" xml:space="preserve">
+    <value>[Lọc]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterWindowSizeGrip" xml:space="preserve">
+    <value>[Thay đổi kích cỡ]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_LayoutButton" xml:space="preserve">
+    <value>[Bố trí nút]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_RowAreaHeaders" xml:space="preserve">
+    <value>[Dòng tiêu đề tích]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_SortedAscending" xml:space="preserve">
+    <value>(Tăng dần)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_SortedDescending" xml:space="preserve">
+    <value>(Giảm dần)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_StackedDefaultLayout" xml:space="preserve">
+    <value>[Xếp chồng lên nhau bố trí mặc định]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_StackedSideBySideLayout" xml:space="preserve">
+    <value>[Xếp chồng lên nhau bên cạnh bố trí]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_TopPanelOnlyLayout" xml:space="preserve">
+    <value>[Đầu bảng điều khiển chỉ bố trí]</value>
+  </data>
+  <data name="PivotGridStringId.ColumnHeadersCustomization" xml:space="preserve">
+    <value>Thả cột lĩnh vực ở đây</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormAddTo" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormAvailableFields" xml:space="preserve">
+    <value>Chọn các lĩnh vực để thêm vào báo cáo:</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormBottomPanelOnly1by4" xml:space="preserve">
+    <value>Khu vực phần chỉ (1 bởi 4)</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormBottomPanelOnly2by2" xml:space="preserve">
+    <value>Khu vực phần chỉ (2 của 2)</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormCaption" xml:space="preserve">
+    <value>Danh sách trường</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormDeferLayoutUpdate" xml:space="preserve">
+    <value>Trì hoãn việc bố trí Cập Nhật</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormEmptyFilterText" xml:space="preserve">
+    <value>Không phù hợp cho chuỗi tìm kiếm</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormHiddenFields" xml:space="preserve">
+    <value>Ẩn lĩnh vực</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormHint" xml:space="preserve">
+    <value>Kéo lĩnh vực giữa khu vực dưới đây:</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormLayoutButtonTooltip" xml:space="preserve">
+    <value>Tuỳ biến hình thức bố trí</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormListBoxText" xml:space="preserve">
+    <value>Kéo một lĩnh vực ở đây để tùy chỉnh bố trí</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormStackedDefault" xml:space="preserve">
+    <value>Lĩnh vực phần và khu vực phần xếp chồng lên nhau</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormStackedSideBySide" xml:space="preserve">
+    <value>Lĩnh vực phần và khu vực phần Side-By-Side</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormText" xml:space="preserve">
+    <value>Kéo các lĩnh vực dưới đây để ẩn</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormTopPanelOnly" xml:space="preserve">
+    <value>Lĩnh vực phần chỉ</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormUpdate" xml:space="preserve">
+    <value>Cập Nhật</value>
+  </data>
+  <data name="PivotGridStringId.DataArea" xml:space="preserve">
+    <value>Diện tích dữ liệu</value>
+  </data>
+  <data name="PivotGridStringId.DataHeadersCustomization" xml:space="preserve">
+    <value>Thả mục dữ liệu ở đây</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalDateHour" xml:space="preserve">
+    <value>Ngày giờ</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalDateHourMinute" xml:space="preserve">
+    <value>Ngày giờ phút</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalDateHourMinuteSecond" xml:space="preserve">
+    <value>Ngày-giờ phút giây</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalDateWeekYear" xml:space="preserve">
+    <value>tuần</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalDayMonthYear" xml:space="preserve">
+    <value>Ngày tháng năm</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalDayOfWeek" xml:space="preserve">
+    <value>Ngày trong tuần</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalDayOfYear" xml:space="preserve">
+    <value>Ngày của năm</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalExactDate" xml:space="preserve">
+    <value>Ngày chính xác</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalMonthYear" xml:space="preserve">
+    <value>Tháng năm</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalQuarter" xml:space="preserve">
+    <value>Khu phố</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalQuarterYear" xml:space="preserve">
+    <value>Quarter-năm</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalSecond" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalWeekOfMonth" xml:space="preserve">
+    <value>Tuần của tháng</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeGroupIntervalWeekOfYear" xml:space="preserve">
+    <value>Tuần của năm</value>
+  </data>
+  <data name="PivotGridStringId.DateTimeQuarterFormat" xml:space="preserve">
+    <value>Q {0}</value>
+  </data>
+  <data name="PivotGridStringId.DrillDownException" xml:space="preserve">
+    <value>Lỗi lấy số liệu drilldown</value>
+  </data>
+  <data name="PivotGridStringId.EditPrefilter" xml:space="preserve">
+    <value>Chỉnh sửa Prefilter</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionEditorFieldDescription" xml:space="preserve">
+    <value>Chú thích: {0}
+Loại: {1}</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationCircularDependency" xml:space="preserve">
+    <value>Các lĩnh vực sau đây có phụ thuộc thông tư: {0}</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationExpressionIsEmpty" xml:space="preserve">
+    <value>một biểu hiện không thể rỗng.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationFunctionIsNotSupported" xml:space="preserve">
+    <value>Chức năng {0} không được hỗ trợ trong chế độ tính toán hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationInvalidArgumentCount" xml:space="preserve">
+    <value>Số cuộc tranh luận cho hàm {0} không hợp lệ.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationInvalidExpression" xml:space="preserve">
+    <value>Biểu thức không thể được đánh giá.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationInvalidFunctionArgument" xml:space="preserve">
+    <value>Chức năng ' {0} ' hy vọng ' {1} ' là đối số {2}.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationInvalidProperty" xml:space="preserve">
+    <value>{0} đã không tìm thấy.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationInvalidWindowExpressionUsage" xml:space="preserve">
+    <value>Chức năng {0} chỉ có thể được sử dụng trong một biểu thức cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationNotSummaryExpressionExpected" xml:space="preserve">
+    <value>Tiêu chuẩn không thể chứa uẩn.</value>
+  </data>
+  <data name="PivotGridStringId.ExpressionValidationSummaryExpressionExpected" xml:space="preserve">
+    <value>Một biểu thức tóm tắt dự kiến sẽ.</value>
+  </data>
+  <data name="PivotGridStringId.FilterArea" xml:space="preserve">
+    <value>Bộ lọc tích</value>
+  </data>
+  <data name="PivotGridStringId.FilterBlank" xml:space="preserve">
+    <value>(Trống)</value>
+  </data>
+  <data name="PivotGridStringId.FilterFormCaption" xml:space="preserve">
+    <value>Lọc Editor</value>
+  </data>
+  <data name="PivotGridStringId.FilterHeadersCustomization" xml:space="preserve">
+    <value>Thả lọc lĩnh vực ở đây</value>
+  </data>
+  <data name="PivotGridStringId.FilterInvert" xml:space="preserve">
+    <value>Hoán đổi bộ lọc</value>
+  </data>
+  <data name="PivotGridStringId.FilterShowAll" xml:space="preserve">
+    <value>(Hiển thị tất cả)</value>
+  </data>
+  <data name="PivotGridStringId.FilterShowBlanks" xml:space="preserve">
+    <value>(Hiển thị bản phôi)</value>
+  </data>
+  <data name="PivotGridStringId.FunctionCategoryAdvanced" xml:space="preserve">
+    <value>Nâng cao</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionAggr" xml:space="preserve">
+    <value>aggr (SummaryExpression, Dimension1, Dimension2,...)
+Tổng hợp dữ liệu cơ bản bằng cách sử dụng mức độ chi tiết và chức năng tóm tắt. Mức được xác định bởi một tập hợp các kích thước.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionAvg" xml:space="preserve">
+    <value>Giá (value)
+Tính toán giá trị trung bình từ các hàng được sử dụng để đếm một giá trị tổng hợp.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionCount" xml:space="preserve">
+    <value>Số lượng ()
+Trả về số hàng được sử dụng để tính toán một giá trị tổng hợp.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionCountDistinct" xml:space="preserve">
+    <value>Countkhác biệt (giá trị)
+Trả về số lượng các giá trị duy nhất trong các hàng được sử dụng để tính toán một giá trị tổng hợp.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionCountNotNull" xml:space="preserve">
+    <value>Countnotnull (giá trị)
+Trả về một số giá trị không null trong hàng được sử dụng để tính toán một giá trị tổng hợp.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionFirst" xml:space="preserve">
+    <value>Đầu tiên ()
+Trả về số hàng từ hàng hiện tại đến hàng đầu tiên trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetDateHour" xml:space="preserve">
+    <value>GetDateHour(DateTime)
+Chiết xuất từ phần ngày với giá trị giờ từ định nghĩa DateTime.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetDateHourMinute" xml:space="preserve">
+    <value>GetDateHourMinute(DateTime)
+Chiết xuất từ một phần ngày với các giá trị giờ và phút từ xác định DateTime.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetDateHourMinuteSecond" xml:space="preserve">
+    <value>GetDateHourMinuteSecond(DateTime)
+Chiết xuất từ ngày, giờ, phút và thứ hai giá trị phần từ định nghĩa DateTime.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetDateMonthYear" xml:space="preserve">
+    <value>Getdatemonthyear (DateTime)
+Trả lại ngày của ngày đầu tiên của tháng cho một DateTime nhất định.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetDateQuarterYear" xml:space="preserve">
+    <value>Getdatequarteryear (DateTime)
+Trả lại ngày của ngày đầu tiên của quý cho một DateTime nhất định.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetDateWeekYear" xml:space="preserve">
+    <value>Getdateweekyear (DateTime)
+Trả về ngày đầu tiên của tuần cho một DateTime nhất định (sử dụng cài đặt văn hóa).</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetDateWeekYear2" xml:space="preserve">
+    <value>Getdateweekyear (ngày giờ, [' FirstDay ', ' FirstFullWeek ', ' FirstFourDayWeek '])
+Trả về ngày đầu tiên của tuần cho một DateTime nhất định. Tham số thứ hai xác định quy tắc để tính toán tuần lịch.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetQuarter" xml:space="preserve">
+    <value>GetQuarter(DateTime)
+Chiết xuất từ một phần tư từ định nghĩa DateTime.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetWeekOfMonth" xml:space="preserve">
+    <value>GetWeekOfMonth(DateTime)
+Chiết xuất từ tuần đầu của tháng từ định nghĩa DateTime.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionGetWeekOfYear" xml:space="preserve">
+    <value>GetWeekOfYear(DateTime)
+Chiết xuất từ tuần năm từ định nghĩa DateTime.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionIndex" xml:space="preserve">
+    <value>Chỉ số ()
+Trả về chỉ mục của hàng hiện tại trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionIsTotal" xml:space="preserve">
+    <value>IsTotal (Dimension1, Dimension2, ...)
+Xác định xem tổng giá trị tóm tắt có đang được tính toán hay không.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionLast" xml:space="preserve">
+    <value>Last ()
+Trả về số hàng từ hàng hiện tại đến hàng cuối cùng trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionLookup" xml:space="preserve">
+    <value>Tra cứu (SummaryExpression, vị trí)
+Trả về giá trị của biểu thức ở vị trí đích được chỉ định là độ lệch tương đối từ vị trí hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionMakeDateTime3" xml:space="preserve">
+    <value>MakeDateTime (năm, tháng, ngày)
+Trả về một giá trị ngày xây dựng từ việc xác định năm, tháng và ngày.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionMakeDateTime4" xml:space="preserve">
+    <value>MakeDateTime (năm, tháng, ngày, giờ)
+Trả về một giá trị ngày xây dựng từ việc xác định năm, tháng, ngày và giờ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionMakeDateTime5" xml:space="preserve">
+    <value>MakeDateTime (năm, tháng, ngày, giờ, phút)
+Trả về một giá trị ngày xây dựng từ việc xác định năm, tháng, ngày, giờ và phút.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionMakeDateTime6" xml:space="preserve">
+    <value>MakeDateTime (năm, tháng, ngày, giờ, phút, giây)
+Trả về một giá trị ngày xây dựng từ việc xác định năm, tháng, ngày, giờ, phút và giây.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionMax" xml:space="preserve">
+    <value>Max (giá trị)
+Trả về giá trị tối đa từ các hàng được sử dụng để tính toán giá trị tổng hợp.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionMedian" xml:space="preserve">
+    <value>Median (giá trị)
+Trả về trung bình của các giá trị trong hàng được sử dụng để tính toán một giá trị tổng hợp.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionMin" xml:space="preserve">
+    <value>Min (giá trị)
+Trả về giá trị tối thiểu từ các hàng được sử dụng để tính toán giá trị tổng hợp.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionMode" xml:space="preserve">
+    <value>Chế độ (giá trị)
+Trả về chế độ của các giá trị, trong đó chế độ là giá trị được lặp lại nhiều nhất.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRankCompetition" xml:space="preserve">
+    <value>Rankcạnh tranh (SummaryExpression, [' ASC ', ' desc '])
+Trả về xếp hạng cạnh tranh tiêu chuẩn cho hàng hiện tại trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRankDense" xml:space="preserve">
+    <value>Rankdense (SummaryExpression, [' ASC ', ' desc '])
+Trả về xếp hạng dày đặc cho hàng hiện tại trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRankModified" xml:space="preserve">
+    <value>Ranksửa đổi (SummaryExpression, [' ASC ', ' desc '])
+Trả về xếp hạng cạnh tranh đã sửa đổi cho hàng hiện tại trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRankPercentile" xml:space="preserve">
+    <value>Rankpercentile (SummaryExpression, [' ASC ', ' desc '])
+Trả về xếp hạng percentile cho hàng hiện tại trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRankUnique" xml:space="preserve">
+    <value>Rankunique (SummaryExpression, [' ASC ', ' desc '])
+Trả về thứ hạng duy nhất cho hàng hiện tại trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRunningAvg" xml:space="preserve">
+    <value>Runningtrung (SummaryExpression)
+Trả về trung bình chạy của biểu thức được chỉ định từ hàng đầu tiên trong cửa sổ đến hàng hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRunningCount" xml:space="preserve">
+    <value>Runningcount (SummaryExpression)
+Trả về số chạy của biểu thức đã chỉ định từ hàng đầu tiên trong cửa sổ đến hàng hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRunningCustomAggregate" xml:space="preserve">
+    <value>RunningAggregate(SummaryExpression, CustomAggregateName) - Trả về kết quả tích lũy của hàm tùy chỉnh được áp dụng cho biểu thức đã xác định từ hàng đầu tiên trong cửa sổ đến hàng hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRunningMax" xml:space="preserve">
+    <value>Runningmax (SummaryExpression)
+Trả về tối đa chạy biểu thức được chỉ định từ hàng đầu tiên trong cửa sổ đến hàng hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRunningMin" xml:space="preserve">
+    <value>Runningmin (SummaryExpression)
+Trả về tối thiểu chạy của biểu thức được chỉ định từ hàng đầu tiên trong cửa sổ đến hàng hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionRunningSum" xml:space="preserve">
+    <value>Runningsum (SummaryExpression)
+Trả về tổng chạy của biểu thức được chỉ định từ hàng đầu tiên trong cửa sổ đến hàng hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionSize" xml:space="preserve">
+    <value>Kích thước ()
+Trả về số hàng trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionStdDev" xml:space="preserve">
+    <value>StdDev(Value)
+Trả về ước tính độ lệch chuẩn của một số người, nơi các mẫu là một tập con của toàn dân.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionStdDevp" xml:space="preserve">
+    <value>StdDevp(Value)
+Trả về độ lệch chuẩn của một số người, nơi có dân số là toàn bộ dữ liệu phải được tóm tắt.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionSum" xml:space="preserve">
+    <value>Sum (giá trị)
+Trả về tổng của các giá trị trong hàng.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionToBoolean" xml:space="preserve">
+    <value>ToBoolean(Value)
+Chuyển giá trị thành một giá trị Boolean đương.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionToDateTime" xml:space="preserve">
+    <value>ToDateTime(Value)
+Chuyển giá trị thành một giá trị DateTime.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionTotal" xml:space="preserve">
+    <value>Tổng số (SummaryExpression)
+Trả về tổng cho biểu thức được chỉ định trong một cửa sổ tính toán bảng.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionVar" xml:space="preserve">
+    <value>Var(Value)
+Trả về một ước tính của phương sai của một số người, nơi các mẫu là một tập con của toàn dân.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionVarp" xml:space="preserve">
+    <value>Varp(Value)
+Trả về phương sai của một số người, nơi có dân số là toàn bộ dữ liệu phải được tóm tắt.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowAvg" xml:space="preserve">
+    <value>Windowgiá (SummaryExpression, StartOffset, EndOffset)
+Trả về trung bình của biểu thức trong cửa sổ, được xác định bằng cách sử dụng offsets từ dòng hiện tại.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowCount" xml:space="preserve">
+    <value>Windowcount (SummaryExpression, StartOffset, EndOffset)
+Trả về số của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowCountDistinct" xml:space="preserve">
+    <value>Windowcountkhác biệt (SummaryExpression, StartOffset, EndOffset)
+Trả về số khác nhau của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowDefinition" xml:space="preserve">
+    <value>w (WindowExpression, Partitionbychức năng, orderbyfunction)
+Tính toán giá trị tổng hợp với chức năng cửa sổ được chỉ định cho cửa sổ được xác định bởi phân vùng và đặt hàng đã chỉ định.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowDefinitionOrderAsc" xml:space="preserve">
+    <value>ASC (cột)
+Các hàng dữ liệu được sắp xếp theo các giá trị trong cột đã chỉ định theo thứ tự tăng dần. Đây là thứ tự sắp xếp mặc định.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowDefinitionOrderBy" xml:space="preserve">
+    <value>Orderby (column1, column2,...)
+Ghi rõ các cột mà các giá trị được sắp xếp.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowDefinitionOrderDesc" xml:space="preserve">
+    <value>desc (cột)
+Các hàng dữ liệu được sắp xếp theo các giá trị trong cột đã chỉ định theo thứ tự giảm dần.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowDefinitionPartitionBy" xml:space="preserve">
+    <value>Partitionby (column1, column2,...)
+Ghi rõ các cột mà các hàng dữ liệu được phân vùng. Chức năng cửa sổ được áp dụng cho từng phân vùng riêng biệt.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowMax" xml:space="preserve">
+    <value>Windowmax (SummaryExpression, StartOffset, EndOffset)
+Trả về tối đa biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowMedian" xml:space="preserve">
+    <value>Windowmedian (SummaryExpression, StartOffset, EndOffset)
+Trả về trung bình của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowMin" xml:space="preserve">
+    <value>Windowmin (SummaryExpression, StartOffset, EndOffset)
+Trả về mức tối thiểu của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowMode" xml:space="preserve">
+    <value>WindowMode (SummaryExpression, StartOffset, EndOffset)
+Trả về chế độ của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowStdDev" xml:space="preserve">
+    <value>Windowstddev (SummaryExpression, StartOffset, EndOffset)
+Trả về độ lệch chuẩn mẫu của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowStdDevp" xml:space="preserve">
+    <value>Windowstddevp (SummaryExpression, StartOffset, EndOffset)
+Trả về độ lệch tiêu chuẩn thiên vị của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowSum" xml:space="preserve">
+    <value>Windowsum (SummaryExpression, StartOffset, EndOffset)
+Trả về tổng của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowVar" xml:space="preserve">
+    <value>Windowvar (SummaryExpression, StartOffset, EndOffset)
+Trả về phương sai của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.FunctionDescriptionWindowVarp" xml:space="preserve">
+    <value>Windowvarp (SummaryExpression, StartOffset, EndOffset)
+Trả về phương sai của biểu thức trong cửa sổ.</value>
+  </data>
+  <data name="PivotGridStringId.GrandTotal" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="PivotGridStringId.OLAPDrillDownFilterException" xml:space="preserve">
+    <value>Hiển thị chi tiết không thể được thực hiện khi nhiều khoản mục được chọn trong một lĩnh vực lọc báo cáo. Chọn một mục duy nhất cho mỗi trường trong lĩnh vực lọc báo cáo trước khi thực hiện một drillthrough.</value>
+  </data>
+  <data name="PivotGridStringId.OLAPDrillDownTopNException" xml:space="preserve">
+    <value>Hiển thị thông tin chi tiết lệnh không được thực thi khi đầu N được áp dụng cho một trong các lĩnh vực hàng/cột.</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPIsCaption" xml:space="preserve">
+    <value>KPIs</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeGoal" xml:space="preserve">
+    <value>Mục tiêu</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeWeight" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="PivotGridStringId.OLAPMeasuresCaption" xml:space="preserve">
+    <value>Các biện pháp</value>
+  </data>
+  <data name="PivotGridStringId.OLAPNoOleDbProvidersMessage" xml:space="preserve">
+    <value>Để sử dụng các chức năng PivotGrid OLAP, bạn cần phải có một nhà cung cấp MS OLAP OleDb được cài đặt trên hệ thống của bạn.
+Bạn có thể tải nó ở đây:</value>
+  </data>
+  <data name="PivotGridStringId.OptimizedEngineServerModeNotSupportedException" xml:space="preserve">
+    <value>Công cụ xử lý dữ liệu tối ưu hóa không hỗ trợ chế độ máy chủ. Không chuyển sang công cụ tối ưu hóa khi làm việc với nguồn dữ liệu hoạt động trong chế độ máy chủ.</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuBestFit" xml:space="preserve">
+    <value>Phù hợp nhất</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuClearSorting" xml:space="preserve">
+    <value>Phân loại rõ ràng</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuCollapseAll" xml:space="preserve">
+    <value>Thu gọn tất cả</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuExpandAll" xml:space="preserve">
+    <value>Mở rộng tất cả</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFieldOrder" xml:space="preserve">
+    <value>Đặt hàng</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFixColumnLeft" xml:space="preserve">
+    <value>Ghim cột này sang trái</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFixColumnRight" xml:space="preserve">
+    <value>Ghim cột này sang phải</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFixRowBottom" xml:space="preserve">
+    <value>Ghim hàng này xuống dưới cùng</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFixRowTop" xml:space="preserve">
+    <value>pin này hàng đầu</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRules" xml:space="preserve">
+    <value>Quy tắc định dạng</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesAnyField" xml:space="preserve">
+    <value>(Bất kỳ)</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesClearAllRules" xml:space="preserve">
+    <value>Các quy tắc rõ ràng từ tất cả các biện pháp</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesClearIntersectionRules" xml:space="preserve">
+    <value>Các quy tắc rõ ràng từ ngã tư này</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesClearMeasureRules" xml:space="preserve">
+    <value>Các quy tắc rõ ràng từ Döï luaät naøy</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesGrandTotal" xml:space="preserve">
+    <value>(Tổng)</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesIntersectionOnly" xml:space="preserve">
+    <value>Áp dụng chỉ cho mức độ cụ thể</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesMeasure" xml:space="preserve">
+    <value>Biện pháp</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideFieldList" xml:space="preserve">
+    <value>Ẩn danh sách trường</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHidePrefilter" xml:space="preserve">
+    <value>Ẩn Prefilter</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphic" xml:space="preserve">
+    <value>KPI đồ họa</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicCylinder" xml:space="preserve">
+    <value>Xi lanh</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicFaces" xml:space="preserve">
+    <value>Phải đối mặt với</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicGauge" xml:space="preserve">
+    <value>Khổ</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicReversedCylinder" xml:space="preserve">
+    <value>Đảo ngược xi lanh</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicReversedGauge" xml:space="preserve">
+    <value>Đảo ngược khổ</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicReversedStatusArrow" xml:space="preserve">
+    <value>Đảo ngược mũi tên tình trạng</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicReversedThermometer" xml:space="preserve">
+    <value>Đảo ngược nhiệt kế</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicRoadSigns" xml:space="preserve">
+    <value>Biển báo giao thông</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicServerDefined" xml:space="preserve">
+    <value>Máy chủ được xác định</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicShapes" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicStandardArrow" xml:space="preserve">
+    <value>Tiêu chuẩn mũi tên</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicStatusArrow" xml:space="preserve">
+    <value>Mũi tên tình trạng</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicThermometer" xml:space="preserve">
+    <value>Nhiệt kế</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicTrafficLights" xml:space="preserve">
+    <value>Đèn giao thông</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicVarianceArrow" xml:space="preserve">
+    <value>Mũi tên phương sai</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMore" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoBeginning" xml:space="preserve">
+    <value>Di chuyển để bắt đầu</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoEnd" xml:space="preserve">
+    <value>Di chuyển đến cuối</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoLeft" xml:space="preserve">
+    <value>Di chuyển sang trái</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoRight" xml:space="preserve">
+    <value>Di chuyển sang phải</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuRefreshData" xml:space="preserve">
+    <value>Tải lại dữ liệu</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuRemoveAllSortByColumn" xml:space="preserve">
+    <value>Loại bỏ tất cả phân loại</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowExpression" xml:space="preserve">
+    <value>Biểu hiện biên tập...</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowFieldList" xml:space="preserve">
+    <value>Hiển thị danh sách trường</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowPrefilter" xml:space="preserve">
+    <value>Hiển thị Prefilter</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortAscending" xml:space="preserve">
+    <value>Loại A-Z</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortBySummary" xml:space="preserve">
+    <value>Sắp xếp theo bản tóm tắt</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortDescending" xml:space="preserve">
+    <value>Loại Z-A</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortFieldByColumn" xml:space="preserve">
+    <value>Loại "{0}" theo cột này</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortFieldByRow" xml:space="preserve">
+    <value>Loại "{0}" bởi hàng này</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuUnfixColumnLeft" xml:space="preserve">
+    <value>Bỏ ghim cột này từ bên trái</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuUnfixColumnRight" xml:space="preserve">
+    <value>bỏ ghim cột này từ bên phải</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuUnfixRowBottom" xml:space="preserve">
+    <value>bỏ ghim hàng này từ phía dưới</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuUnfixRowTop" xml:space="preserve">
+    <value>bỏ ghim hàng này từ các</value>
+  </data>
+  <data name="PivotGridStringId.PrefilterFormCaption" xml:space="preserve">
+    <value>PivotGrid Prefilter</value>
+  </data>
+  <data name="PivotGridStringId.PrefilterInvalidCriteria" xml:space="preserve">
+    <value>Lỗi xảy ra trong các tiêu chí Prefilter. Xin vui lòng phát hiện không hợp lệ thuộc tính chú thích bên trong tiêu chí operands và sửa chữa hoặc loại bỏ chúng.</value>
+  </data>
+  <data name="PivotGridStringId.PrefilterInvalidProperty" xml:space="preserve">
+    <value>(tài sản không hợp lệ)</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesigner" xml:space="preserve">
+    <value>In nhà thiết kế</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryFieldValues" xml:space="preserve">
+    <value>Giá trị trường</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryHeaders" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerColumnAreaOnEveryPage" xml:space="preserve">
+    <value>Khu vực cột trên mỗi trang</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerColumnHeaders" xml:space="preserve">
+    <value>Tiêu đề cột</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerDataHeaders" xml:space="preserve">
+    <value>Dữ liệu tiêu đề</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerFilterHeaders" xml:space="preserve">
+    <value>Lọc tiêu đề</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerHeadersOnEveryPage" xml:space="preserve">
+    <value>Các tiêu đề trên mỗi trang</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerHorizontalLines" xml:space="preserve">
+    <value>Đường ngang</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerMergeColumnFieldValues" xml:space="preserve">
+    <value>Nhập giá trị trường cột</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerMergeRowFieldValues" xml:space="preserve">
+    <value>Giá trị trường hợp hàng</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerRowAreaOnEveryPage" xml:space="preserve">
+    <value>Hàng lá trên mỗi trang</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerRowHeaders" xml:space="preserve">
+    <value>Hàng tiêu đề</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerUnusedFilterFields" xml:space="preserve">
+    <value>Không sử dụng bộ lọc lĩnh vực</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerUsePrintAppearance" xml:space="preserve">
+    <value>Sử dụng in xuất hiện</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerVerticalLines" xml:space="preserve">
+    <value>Đường thẳng đứng</value>
+  </data>
+  <data name="PivotGridStringId.RowHeadersCustomization" xml:space="preserve">
+    <value>Thả hàng lĩnh vực ở đây</value>
+  </data>
+  <data name="PivotGridStringId.SearchForField" xml:space="preserve">
+    <value>trường tìm kiếm hàng đầu...</value>
+  </data>
+  <data name="PivotGridStringId.ServerRequestError" xml:space="preserve">
+    <value>Xuất hiện lỗi trong thực hiện yêu cầu máy chủ ({0})</value>
+  </data>
+  <data name="PivotGridStringId.StatusBad" xml:space="preserve">
+    <value>Xấu</value>
+  </data>
+  <data name="PivotGridStringId.StatusGood" xml:space="preserve">
+    <value>Tốt</value>
+  </data>
+  <data name="PivotGridStringId.StatusNeutral" xml:space="preserve">
+    <value>Trung lập</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCountDistinct" xml:space="preserve">
+    <value>Tính khác biệt</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterApplyToSpecificLevel" xml:space="preserve">
+    <value>Áp dụng đến mức độ cụ thể</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterColumnField" xml:space="preserve">
+    <value>Cột lĩnh vực:</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterMaxValueCount" xml:space="preserve">
+    <value>Tối đa Count</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterMaxVisibleCount" xml:space="preserve">
+    <value>Tối đa có thể nhìn thấy Count</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterRangeFrom" xml:space="preserve">
+    <value>Hiển thị các giá trị từ</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterRangeTo" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterRowField" xml:space="preserve">
+    <value>Lĩnh vực hàng:</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMedian" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMode" xml:space="preserve">
+    <value>Chế độ</value>
+  </data>
+  <data name="PivotGridStringId.SummaryStdDev" xml:space="preserve">
+    <value>StdDev</value>
+  </data>
+  <data name="PivotGridStringId.SummaryStdDevp" xml:space="preserve">
+    <value>StdDevP</value>
+  </data>
+  <data name="PivotGridStringId.SummaryVar" xml:space="preserve">
+    <value>VAR</value>
+  </data>
+  <data name="PivotGridStringId.SummaryVarp" xml:space="preserve">
+    <value>VARP</value>
+  </data>
+  <data name="PivotGridStringId.TopValueOthersRow" xml:space="preserve">
+    <value>Những người khác</value>
+  </data>
+  <data name="PivotGridStringId.Total" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormat" xml:space="preserve">
+    <value>{0} Tổng số</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatAverage" xml:space="preserve">
+    <value>{0} Là</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCount" xml:space="preserve">
+    <value>bá tước {0}</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCountDistinct" xml:space="preserve">
+    <value>{0} tính riêng biệt</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCustom" xml:space="preserve">
+    <value>{0} Custom</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMax" xml:space="preserve">
+    <value>{0} Max</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMedian" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMin" xml:space="preserve">
+    <value>{0} phút</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMode" xml:space="preserve">
+    <value>chế độ {0}</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatStdDev" xml:space="preserve">
+    <value>{0} StdDev</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatStdDevp" xml:space="preserve">
+    <value>{0} StdDevp</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatSum" xml:space="preserve">
+    <value>{0} tổng</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatVar" xml:space="preserve">
+    <value>{0} Var</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatVarp" xml:space="preserve">
+    <value>{0} Varp</value>
+  </data>
+  <data name="PivotGridStringId.TrendGoingDown" xml:space="preserve">
+    <value>đi xuống</value>
+  </data>
+  <data name="PivotGridStringId.TrendGoingUp" xml:space="preserve">
+    <value>đi lên</value>
+  </data>
+  <data name="PivotGridStringId.TrendNoChange" xml:space="preserve">
+    <value>Không có thay đổi</value>
+  </data>
+</root>

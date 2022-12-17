@@ -1,0 +1,1328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataAccessUIStringId.MessageBoxErrorTitle" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumn" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Add" xml:space="preserve">
+    <value>&amp;Thêm</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Cancel" xml:space="preserve">
+    <value>&amp;Hủy</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_OK" xml:space="preserve">
+    <value>&amp;Nhận</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Remove" xml:space="preserve">
+    <value>&amp;Loại bỏ</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType" xml:space="preserve">
+    <value>Kiểu xác thực:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_MSSqlServer" xml:space="preserve">
+    <value>Xác thực máy chủ</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_MSSqlWindows" xml:space="preserve">
+    <value>Xác thực của Windows</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Database" xml:space="preserve">
+    <value>Cơ sở dữ liệu:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Password" xml:space="preserve">
+    <value>Mật khẩu:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Provider" xml:space="preserve">
+    <value>Nhà cung cấp:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerName" xml:space="preserve">
+    <value>Tên máy chủ:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerTypeEmbedded" xml:space="preserve">
+    <value>Nhúng</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerTypeServer" xml:space="preserve">
+    <value>Máy chủ</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_UserName" xml:space="preserve">
+    <value>Tên người dùng:</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Expression" xml:space="preserve">
+    <value>Biểu thức</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_Rename" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_SortOrder" xml:space="preserve">
+    <value>Thứ tự Sắp xếp</value>
+  </data>
+  <data name="DataAccessUIStringId.DataConnectionParametersDialog_Header_UnableConnect" xml:space="preserve">
+    <value>Không thể kết nối với cơ sở dữ liệu. Xem chi tiết dưới đây.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlDataPreviewCaption_All" xml:space="preserve">
+    <value>Xem trước dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_Options" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="DataAccessUIStringId.DataConnectionParametersDialog" xml:space="preserve">
+    <value>Lỗi kết nối</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Version" xml:space="preserve">
+    <value>Phiên bản</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersGridForm_Title" xml:space="preserve">
+    <value>Tham số truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_SortAscending" xml:space="preserve">
+    <value>Sắp xếp tăng dần</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_SortDescending" xml:space="preserve">
+    <value>Sắp xếp giảm dần</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageBoxWarningTitle" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_SaveCredentials" xml:space="preserve">
+    <value>Vâng, lưu tất cả các thông số cần thiết</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFConnectionString_ChooseConnection" xml:space="preserve">
+    <value>Vâng, hãy để tôi chọn từ danh sách</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSParametersEditorTitle" xml:space="preserve">
+    <value>Đặt cấu hình tham số</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_GroupBy" xml:space="preserve">
+    <value>Nhóm theo</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_AddQueryParameter" xml:space="preserve">
+    <value>Thêm tham số truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_CreateQueryParameter" xml:space="preserve">
+    <value>Tạo tham số truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorGreaterOperator" xml:space="preserve">
+    <value>Lớn hơn</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorGreaterOrEqualOperator" xml:space="preserve">
+    <value>Lớn hơn hoặc bằng</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorLessOperator" xml:space="preserve">
+    <value>Nhỏ hơn</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_SelectParameter" xml:space="preserve">
+    <value>&lt; chọn một tham số &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbManageRelations" xml:space="preserve">
+    <value>Quản lý quan hệ...</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlQueryCollectionEditorForm_Title" xml:space="preserve">
+    <value>Quản lý truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseConnection_SpecifyCustomConnection" xml:space="preserve">
+    <value>Không, tôi muốn chỉ định tham số kết nối bản thân mình</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseDataSourceName" xml:space="preserve">
+    <value>Nhập tên nguồn dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFConnectionString" xml:space="preserve">
+    <value>Bạn có muốn chọn một chuỗi kết nối từ danh sách các cài đặt khả dụng?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureParameters" xml:space="preserve">
+    <value>Cấu hình tham số truy vấn và xem trước kết quả.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery_Query" xml:space="preserve">
+    <value>Truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureStoredProcedures" xml:space="preserve">
+    <value>Thêm các thủ tục được lưu trữ để các dữ liệu nguồn, đặt cấu hình tham số của họ và xem trước kết quả.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageObjectConstructorParameters" xml:space="preserve">
+    <value>Chỉ định tham số nhà xây dựng.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageObjectMemberParameters" xml:space="preserve">
+    <value>Chỉ định tham số phương pháp.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_ConfirmSaving" xml:space="preserve">
+    <value>Có, tiết kiệm kết nối như:</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceDesignerVerbEdit" xml:space="preserve">
+    <value>Chỉnh sửa...</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorColumnsHasDifferentTypesConfirmation" xml:space="preserve">
+    <value>Các '{0}'.' {1}' và '{3}'.' {4}' cột có các loại khác nhau ({2} và {5}). Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorRemoveConditionMessage" xml:space="preserve">
+    <value>Loại bỏ các điều kiện</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageBoxConfirmationTitle" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSDataSourceEditorTitle" xml:space="preserve">
+    <value>Cấu hình nguồn dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsCannotResolveDataMember" xml:space="preserve">
+    <value>Không thể giải quyết các thành viên dữ liệu được chỉ định. Để chỉ định các thành viên dữ liệu và các thông số của nó, sử dụng trình soạn thảo tài khoản của dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsCannotResolveDataSource" xml:space="preserve">
+    <value>Không thể giải quyết loại đối tượng được chỉ định. Để chỉ định lắp ráp của đối tượng, loại trở lại, tham số thành viên và/hoặc nhà xây dựng dữ liệu, sử dụng trình soạn thảo nguồn dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsIsPropertyMessage" xml:space="preserve">
+    <value>dữ liệu {0} là một tài sản. Để có thể nhận được tham số, một thành viên dữ liệu phải là phương pháp một.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsNoDataMemberMessage" xml:space="preserve">
+    <value>Không thể chỉ định tham số trừ khi các tài sản DataMember đã được chỉ định giá trị một.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsNoParametersMessage" xml:space="preserve">
+    <value>Thành viên dữ liệu {0} không thể nhận được tham số, bởi vì đây là một phương pháp mà không có tham số.</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_QueryName" xml:space="preserve">
+    <value>Truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.ParametersColumn_Selected" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_AddToSelect" xml:space="preserve">
+    <value>Thêm vào truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumnsOf" xml:space="preserve">
+    <value>Cột của {0}</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderCustomSqlRequiresParameters" xml:space="preserve">
+    <value>Các truy vấn có chứa tham số và không thể được thực hiện trước khi họ được tuyên bố. 
+Xin vui lòng đi đến trang tiếp theo wizard để khai báo các thông số yêu cầu truy vấn và xem trước kết quả.</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_BigQueryOAuth" xml:space="preserve">
+    <value>OAuth</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_DefinedNameItem" xml:space="preserve">
+    <value>Xác định tên</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Aggregate" xml:space="preserve">
+    <value>Tổng hợp</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Output" xml:space="preserve">
+    <value>Đầu ra</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditorViewTitle" xml:space="preserve">
+    <value>Trình soạn thảo Biểu thức</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeAscending" xml:space="preserve">
+    <value>Tăng dần</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeDescending" xml:space="preserve">
+    <value>Giảm dần</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeSql" xml:space="preserve">
+    <value>Cơ sở dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataSourceDesignerVerbEdit" xml:space="preserve">
+    <value>Chỉnh sửa...</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseConnection" xml:space="preserve">
+    <value>Bạn có muốn sử dụng kết nối dữ liệu hiện có?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode_RetrieveData" xml:space="preserve">
+    <value>Truy xuất dữ liệu thực tế</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureEFFilters_EntityColumnName" xml:space="preserve">
+    <value>Tên thực thể</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_WorksheetItem" xml:space="preserve">
+    <value>Bảng tính</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeInternet" xml:space="preserve">
+    <value>Internet</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeRemote" xml:space="preserve">
+    <value>Từ xa</value>
+  </data>
+  <data name="DataAccessUIStringId.DataPreviewForm_Title" xml:space="preserve">
+    <value>Xem trước dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_NoSuggestionsMessage" xml:space="preserve">
+    <value>Không có đề xuất</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_SslModeDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_SslModeNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSchema_FieldName" xml:space="preserve">
+    <value>Tên Trường</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSchema_Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeObject" xml:space="preserve">
+    <value>Đối tượng</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode_RetrieveSchema" xml:space="preserve">
+    <value>Lấy lược đồ nguồn dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection_PasswordText" xml:space="preserve">
+    <value>Mật khẩu:</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceDesignerVerbManageRelations" xml:space="preserve">
+    <value>Quản lý quan hệ...</value>
+  </data>
+  <data name="DataAccessUIStringId.JsonDataSourceDesignerVerbEdit" xml:space="preserve">
+    <value>Chỉnh sửa...</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBQueries_DatabaseNameColumnName" xml:space="preserve">
+    <value>Cơ sở dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_AuthenticationType_None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBQueries_FilterColumnName" xml:space="preserve">
+    <value>Bộ lọc</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseMongoDBSchema_FieldName" xml:space="preserve">
+    <value>Tên Trường</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseMongoDBSchema_Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Source" xml:space="preserve">
+    <value>Nguồn</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Apply" xml:space="preserve">
+    <value>&amp; áp dụng</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Browse" xml:space="preserve">
+    <value>Trình duyệt...</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_EditRelations" xml:space="preserve">
+    <value>&amp; quản lý quan hệ...</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Finish" xml:space="preserve">
+    <value>và kết thúc</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Preview" xml:space="preserve">
+    <value>&amp; Xem trước...</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_Previous" xml:space="preserve">
+    <value>&amp; trước</value>
+  </data>
+  <data name="DataAccessUIStringId.Button_QueryBuilder" xml:space="preserve">
+    <value>&amp; chạy bộ dựng truy vấn...</value>
+  </data>
+  <data name="DataAccessUIStringId.ChooseEFStoredProceduresDialog" xml:space="preserve">
+    <value>Chọn các thủ tục được lưu trữ để thêm</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionEditorTitle" xml:space="preserve">
+    <value>Biên tập viên kết nối</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionErrorFormDetailPattern" xml:space="preserve">
+    <value>Kết nối tên: {0}
+Thông báo lỗi: {1}</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerType" xml:space="preserve">
+    <value>&amp; loại máy chủ:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AdvantageServerTypeLocal" xml:space="preserve">
+    <value>Địa phương</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_AuthenticationType_BigQueryKeyFile" xml:space="preserve">
+    <value>Khóa tập tin</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ClientID" xml:space="preserve">
+    <value>&amp; ID khách hàng:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ClientLibrary" xml:space="preserve">
+    <value>Thư viện &amp; khách hàng:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ClientSecret" xml:space="preserve">
+    <value>&amp; khách hàng bí mật:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ConnectionString" xml:space="preserve">
+    <value>&amp; kết nối chuỗi:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_DatabaseListLoadingError" xml:space="preserve">
+    <value>Cơ sở dữ liệu danh sách tải lỗi</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_DataSetID" xml:space="preserve">
+    <value>&amp; số liệu ID:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Hostname" xml:space="preserve">
+    <value>&amp; hostname:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_KeyFileName" xml:space="preserve">
+    <value>&amp; tên tập tin chính:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_OracleProviderTypeODP" xml:space="preserve">
+    <value>ODP</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_OracleProviderTypeODPManaged" xml:space="preserve">
+    <value>ODP quản lý</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_Port" xml:space="preserve">
+    <value>P &amp; ORT:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ProjectID" xml:space="preserve">
+    <value>&amp; dự án ID:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_RefreshToken" xml:space="preserve">
+    <value>&amp; làm mới mã thông báo:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServerType" xml:space="preserve">
+    <value>Server &amp; loại:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_ServiceAccountEmail" xml:space="preserve">
+    <value>&amp; Dịch vụ tài khoản email:</value>
+  </data>
+  <data name="DataAccessUIStringId.ConnectionProperties_SslMode" xml:space="preserve">
+    <value>chế độ &amp; SSL:</value>
+  </data>
+  <data name="DataAccessUIStringId.CustomAssemblyWarning" xml:space="preserve">
+    <value>Bạn đang tải thư viện bên thứ ba: '{0}'.
+
+Trước khi bạn tiến hành, xin vui lòng xem xét kết quả các nguy cơ bảo mật và đảm bảo rằng thư viện này được cung cấp từ một nguồn đáng tin cậy.</value>
+  </data>
+  <data name="DataAccessUIStringId.DataSourceName" xml:space="preserve">
+    <value>Tên nguồn dữ liệu: {0}</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeEF" xml:space="preserve">
+    <value>Khuôn khổ thực thể</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeExcel" xml:space="preserve">
+    <value>Excel File</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeFederation" xml:space="preserve">
+    <value>Liên kết dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeJson" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeMongoDB" xml:space="preserve">
+    <value>MongoDB</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeNoData" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.DSTypeXpo" xml:space="preserve">
+    <value>Xpo</value>
+  </data>
+  <data name="DataAccessUIStringId.EFConnectionEditorMessageCustomAssembliesProhibited" xml:space="preserve">
+    <value>Chính sách bảo mật hiện thời cấm tải của bên thứ ba hội đồng.
+
+Bấm OK để loại bỏ các thiết đặt nguồn dữ liệu hiện thời và cấu hình chúng từ đầu.
+Bấm Hủy bỏ để giữ thiết đặt hiện thời không có cấu hình nguồn dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.EFConnectionEditorTitle" xml:space="preserve">
+    <value>Thực thể khung dữ liệu kết nối Editor</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataMemberEditorTitle" xml:space="preserve">
+    <value>Thực thể khung dữ liệu tài khoản của biên tập viên</value>
+  </data>
+  <data name="DataAccessUIStringId.EFDataSourceEditorTitle" xml:space="preserve">
+    <value>Thực thể khung dữ liệu nguồn Editor</value>
+  </data>
+  <data name="DataAccessUIStringId.EFEditorsNoStoredProcs" xml:space="preserve">
+    <value>Không có thủ tục được lưu trữ có sẵn trong ngữ cảnh dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.EFFilterCollectionEditor" xml:space="preserve">
+    <value>Biên tập bộ sưu tập thực thể khung Filter</value>
+  </data>
+  <data name="DataAccessUIStringId.EFFilterControl_AddParameter" xml:space="preserve">
+    <value>Thêm bộ lọc tham số</value>
+  </data>
+  <data name="DataAccessUIStringId.EFFilterParametersForm" xml:space="preserve">
+    <value>Bộ lọc tham số</value>
+  </data>
+  <data name="DataAccessUIStringId.EFStoredProcsEditorTitle" xml:space="preserve">
+    <value>Quản lý lưu trữ thủ tục</value>
+  </data>
+  <data name="DataAccessUIStringId.ErrorFormDatasourceInitializationText" xml:space="preserve">
+    <value>Không thể tải dữ liệu vào một hoặc nhiều datasources. Xem thông tin dưới đây để biết chi tiết.</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceDesignerVerbEditSchema" xml:space="preserve">
+    <value>Chỉnh sửa sơ đồ...</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceDesignerVerbUpdateSchema" xml:space="preserve">
+    <value>Xây dựng lại kết quả lược đồ</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceEditorTitle" xml:space="preserve">
+    <value>Trình soạn thảo nguồn dữ liệu Excel</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_TableItem" xml:space="preserve">
+    <value>Bàn</value>
+  </data>
+  <data name="DataAccessUIStringId.ExcelDataSourceWizard_Title" xml:space="preserve">
+    <value>Bàn</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_EmptyExpression" xml:space="preserve">
+    <value>Biểu thức chuỗi không thể rỗng.</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_ExpressionContainsErrors" xml:space="preserve">
+    <value>Biểu thức có chứa lỗi.</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_InvalidProperty" xml:space="preserve">
+    <value>Bất động sản không hợp lệ: '{0}'.</value>
+  </data>
+  <data name="DataAccessUIStringId.ExpressionEditor_NavigateToErrors" xml:space="preserve">
+    <value>Để xem các lỗi, bấm vào nút thả xuống trong các biên tập viên status bar</value>
+  </data>
+  <data name="DataAccessUIStringId.FederatedQueryCollectionEditorForm_Title" xml:space="preserve">
+    <value>Quản lý truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceDesignerVerbManageQueries" xml:space="preserve">
+    <value>Quản lý truy vấn...</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceDesignerVerbRebuildSchema" xml:space="preserve">
+    <value>Xây dựng lại kết quả lược đồ</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_NodeType_Select" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_NodeType_Transform" xml:space="preserve">
+    <value>Biến đổi</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_NodeType_Union" xml:space="preserve">
+    <value>Union</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_NodeType_UnionAll" xml:space="preserve">
+    <value>Union All</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_NodeTypeLabel" xml:space="preserve">
+    <value>Query Type:</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_RemovedColumnMessage" xml:space="preserve">
+    <value>Các "{0}. {1} "cột đã bị xoá khỏi nguồn dữ liệu" {2} ". Loại bỏ cột này từ truy vấn liên kết để tiếp tục.</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_RemovedDataSourceMessage" xml:space="preserve">
+    <value>nguồn dữ liệu "{0}" đã bị xóa. Loại bỏ bảng "{1}" từ truy vấn liên kết để tiếp tục.</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_RemovedTableMessage" xml:space="preserve">
+    <value>Bảng "{0}" đã bị xoá khỏi nguồn dữ liệu "{1}". Loại bỏ bảng này từ truy vấn liên kết để tiếp tục.</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_TransformationNodeRoot" xml:space="preserve">
+    <value>Transformation node root: {0}</value>
+  </data>
+  <data name="DataAccessUIStringId.FederationDataSourceQueryBuilder_TransformationResult" xml:space="preserve">
+    <value>Transformation result</value>
+  </data>
+  <data name="DataAccessUIStringId.FilterStringEditorInvalidQuery" xml:space="preserve">
+    <value>Lỗi xảy ra trong quá trình truy vấn xác nhận: {0}
+Cập nhật các cài đặt kết nối để họ phù hợp với lược đồ cơ sở dữ liệu hoặc loại bỏ truy vấn này.</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView" xml:space="preserve">
+    <value>Lọc Editor</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_CheckText" xml:space="preserve">
+    <value>&amp; chọn chỉ</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_Distinct" xml:space="preserve">
+    <value>Chọn chỉ có giá trị khác biệt</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_Filter" xml:space="preserve">
+    <value>&amp; bộ lọc</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_GroupFilter" xml:space="preserve">
+    <value>&amp; nhóm Filter</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_SkipTooltip" xml:space="preserve">
+    <value>Tùy chọn này chỉ có sẵn khi thiết lập kết quả được sắp xếp.</value>
+  </data>
+  <data name="DataAccessUIStringId.FiltersView_TopAndSkipText" xml:space="preserve">
+    <value>hồ sơ bắt đầu với chỉ số</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditor" xml:space="preserve">
+    <value>Tham gia biên tập</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditor_JoinType" xml:space="preserve">
+    <value>Tham gia loại:</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEmptyColumnText" xml:space="preserve">
+    <value>&lt; chọn một cột &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEmptyTableText" xml:space="preserve">
+    <value>&lt; chọn một bảng &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorEqualOperator" xml:space="preserve">
+    <value>Tương đương với</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorFillAllFieldsException" xml:space="preserve">
+    <value>Một số lĩnh vực có sản phẩm nào. Xin vui lòng điền vào tất cả các trường có sản phẩm nào hoặc loại bỏ các điều kiện tương ứng để tiến hành.</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorLessOrEqualOperator" xml:space="preserve">
+    <value>is less than or equal to</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinEditorNotEqualOperator" xml:space="preserve">
+    <value>Không bằng</value>
+  </data>
+  <data name="DataAccessUIStringId.JoinInformation" xml:space="preserve">
+    <value>Tham gia thông tin</value>
+  </data>
+  <data name="DataAccessUIStringId.JsonDataSourceDesignerVerbEditSchema" xml:space="preserve">
+    <value>Chỉnh sửa sơ đồ...</value>
+  </data>
+  <data name="DataAccessUIStringId.JsonDataSourceEditorTitle" xml:space="preserve">
+    <value>JSON Data nguồn biên tập</value>
+  </data>
+  <data name="DataAccessUIStringId.JsonDataSourceSchemaEditorTitle" xml:space="preserve">
+    <value>JSON dữ liệu nguồn Schema Editor</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataCustomError" xml:space="preserve">
+    <value>Lỗi tin nhắn:
+{0}
+</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataException" xml:space="preserve">
+    <value>Nạp dữ liệu không thành công vì xảy ra ngoại lệ.</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataSourceAborted" xml:space="preserve">
+    <value>Dữ liệu tải đã được hủy bỏ.</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataSourceOpeningConnectionError" xml:space="preserve">
+    <value>Kết nối tên: {0}
+Thông báo lỗi:
+{1}
+</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDatasourceOutOfMemoryError" xml:space="preserve">
+    <value>Không đủ bộ nhớ để tải dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.LoadingDataSqlError" xml:space="preserve">
+    <value>SQL thực hiện lỗi:
+{0}
+</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorAddConditionMessage" xml:space="preserve">
+    <value>Tạo ra một tình trạng mới</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorAddRelationMessage" xml:space="preserve">
+    <value>Thêm một mối quan hệ với truy vấn kiếm chi tiết</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorEditQueryRelations" xml:space="preserve">
+    <value>Chỉnh sửa các quan hệ cho các truy vấn ' {0}'</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorEditRelation" xml:space="preserve">
+    <value>Chỉnh sửa liên quan</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorForm_Title" xml:space="preserve">
+    <value>Trình soạn thảo chi tiết tổng thể quan hệ</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidColumnNameMessage" xml:space="preserve">
+    <value>Không thể tìm thấy các cột đã chỉ rõ: "{0}". Chỉ ra một tên cột hiện.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidColumnQueryNameMessage" xml:space="preserve">
+    <value>Không thể tìm thấy các truy vấn đã chỉ rõ: "{0}". Chỉ định một tên truy vấn hiện tại trước khi chọn một cột.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidQueryNameMessage" xml:space="preserve">
+    <value>Không thể tìm thấy các truy vấn được chỉ định: "{0}". Chỉ định một tên truy vấn hiện tại.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorInvalidRelationNameMessage" xml:space="preserve">
+    <value>Một mối quan hệ với tên đã chỉ rõ đã tồn tại.</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorLabelInvalidRelationsText" xml:space="preserve">
+    <value>{0} đã không hợp lệ relation(s)</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorMultipleValidationErrorsMessage" xml:space="preserve">
+    <value>Các lỗi sau đây đã xảy ra trong quá trình truy vấn xác nhận: {0}</value>
+  </data>
+  <data name="DataAccessUIStringId.MasterDetailEditorRemoveRelationMessage" xml:space="preserve">
+    <value>Loại bỏ mối quan hệ</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageBoxCloseDataSourceWizardConfirmation" xml:space="preserve">
+    <value>Đóng Trình hướng dẫn Nguồn Dữ liệu sẽ loại bỏ các thay đổi. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageCannotLoadDatabasesList" xml:space="preserve">
+    <value>Đã xuất hiện lỗi trong tải danh sách cơ sở dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageCannotLoadServersList" xml:space="preserve">
+    <value>không thể tìm thấy bất kỳ máy chủ cơ sở dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageLessThanTwoQueries" xml:space="preserve">
+    <value>Ít nhất hai truy vấn được yêu cầu để tạo ra một mối quan hệ chi tiết tổng thể.</value>
+  </data>
+  <data name="DataAccessUIStringId.MessageMissingConnection" xml:space="preserve">
+    <value>Không có kết nối đã được chỉ rõ.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSConstructorEditorTitle" xml:space="preserve">
+    <value>Cấu hình thiết lập nhà xây dựng</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSDataMemberEditorTitle" xml:space="preserve">
+    <value>Đặt cấu hình tài khoản của dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsAbstractTypeMessage" xml:space="preserve">
+    <value>Không thể sử dụng một nhà xây dựng để tạo ra một đối tượng của loại {0} là một lớp học tĩnh hoặc trừu tượng, hoặc giao diện.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsNoDataSetMessage" xml:space="preserve">
+    <value>Thao tác hiện thời không thể được thực hiện trừ khi các nguồn dữ liệu đã được chỉ rõ.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsNoMembersInType" xml:space="preserve">
+    <value>Kiểu nguồn dữ liệu {0} không cung cấp bất kỳ thành viên nào phù hợp cho ràng buộc.</value>
+  </data>
+  <data name="DataAccessUIStringId.ODSEditorsStaticMemberMessage" xml:space="preserve">
+    <value>{0} là một thành viên tĩnh. Bằng cách sử dụng một nhà xây dựng để tạo ra một thể loại {1} là không thích hợp.</value>
+  </data>
+  <data name="DataAccessUIStringId.Parameters_AddNewParameterPlaceholder" xml:space="preserve">
+    <value>Click vào nút Add để tạo ra một tham số.</value>
+  </data>
+  <data name="DataAccessUIStringId.PasswordRequest_FileName" xml:space="preserve">
+    <value>&amp; tên tập tin:</value>
+  </data>
+  <data name="DataAccessUIStringId.PasswordRequest_Password" xml:space="preserve">
+    <value>&amp; mật khẩu:</value>
+  </data>
+  <data name="DataAccessUIStringId.PasswordRequest_SavePassword" xml:space="preserve">
+    <value>&amp; lưu mật khẩu</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder" xml:space="preserve">
+    <value>Bộ dựng truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_AllowEdit" xml:space="preserve">
+    <value>&amp; cho phép chỉnh sửa SQL</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_DeleteCondition" xml:space="preserve">
+    <value>Xóa bỏ tình trạng</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_DeleteRelation" xml:space="preserve">
+    <value>Xóa bỏ mối quan hệ</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_EditRelation" xml:space="preserve">
+    <value>Chỉnh sửa liên quan</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_EditSql" xml:space="preserve">
+    <value>&amp; Sửa SQL</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_RemoveFromSelect" xml:space="preserve">
+    <value>Loại bỏ từ truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilder_ReverseRelation" xml:space="preserve">
+    <value>Mối quan hệ ngược</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderButtons_EditParameters" xml:space="preserve">
+    <value>&amp; chỉnh sửa thông số...</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderButtons_Filter" xml:space="preserve">
+    <value>&amp; lọc...</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderButtons_PreviewResults" xml:space="preserve">
+    <value>&amp; Xem trước kết quả...</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderCircularRelationWarning" xml:space="preserve">
+    <value>Liên kết giữa {0}. {1} và {2}. {3} kết quả trong một mối quan hệ hình tròn và không thể được thêm vào.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_Alias" xml:space="preserve">
+    <value>Bí danh</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_ColumnName" xml:space="preserve">
+    <value>Cột tên</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_SortingType" xml:space="preserve">
+    <value>Phân loại các loại</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderColumns_TableName" xml:space="preserve">
+    <value>Bảng tên</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderJoinTypeUpdatingConfirmation" xml:space="preserve">
+    <value>Các loại hình tham gia mới sẽ được áp dụng cho tất cả hiện có mối quan hệ giữa hai bảng sau: {0}, {1}. Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderRelationBetweenTwoColumnsOfTheSameTable" xml:space="preserve">
+    <value>Không thể tạo ra một mối quan hệ giữa hai cột đó thuộc về cùng một bảng {0}.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderReverseRelationConfirmation" xml:space="preserve">
+    <value>Hướng tham gia mới sẽ được áp dụng cho tất cả các mối quan hệ hiện có giữa hai bảng sau: {0}, {1}. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryBuilderTable" xml:space="preserve">
+    <value>Bàn</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryControl_SqlString" xml:space="preserve">
+    <value>SQL chuỗi:</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlAliasAlreadyExists" xml:space="preserve">
+    <value>các đã chỉ rõ đã tồn tại. Bạn có muốn sửa giá trị?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlDataPreviewCaption" xml:space="preserve">
+    <value>Xem trước dữ liệu (1000 lần đầu tiên hàng Hiển thị)</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlExpressionChanged" xml:space="preserve">
+    <value>Hành động này sẽ thiết lập lại những biểu hiện SQL, và tất cả các thay đổi của bạn sẽ bị loại bỏ. Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlJoinCommandPattern" xml:space="preserve">
+    <value>Tham gia {0}</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlNoSelection" xml:space="preserve">
+    <value>Không có cột đã được lựa chọn. Vui lòng chọn ít nhất một cột để tiến hành.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlRemoveTables" xml:space="preserve">
+    <value>Sau đây bảng sẽ được gỡ bỏ từ truy vấn.
+
+{0}
+Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlTableNameAlreadyExists" xml:space="preserve">
+    <value>Một bảng với các quy định tên đã tồn tại. Hãy chỉ ra tên bảng khác nhau một.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryDesignControlTableNameEmpty" xml:space="preserve">
+    <value>Bảng tên không thể rỗng.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryEditorMessageInvalidQuery" xml:space="preserve">
+    <value>Lỗi đã xảy ra trong quá trình truy vấn xác nhận: {0}
+
+Để loại bỏ các truy vấn này và gọi thuật sĩ, bấm vào OK.
+
+Để giữ cho truy vấn này, bấm Hủy bỏ.</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryEditorTitle" xml:space="preserve">
+    <value>Truy vấn biên tập</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryEditorWaitFormValidating" xml:space="preserve">
+    <value>Validating truy vấn...</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_BindTo" xml:space="preserve">
+    <value>Liên kết với</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_BoundTo" xml:space="preserve">
+    <value>Ràng buộc đến {0}</value>
+  </data>
+  <data name="DataAccessUIStringId.QueryFilter_SelectParameterPlaceholder" xml:space="preserve">
+    <value>Chọn một tham số...</value>
+  </data>
+  <data name="DataAccessUIStringId.RebuildResultSchemaCaption" xml:space="preserve">
+    <value>Xây dựng lại kết quả lược đồ</value>
+  </data>
+  <data name="DataAccessUIStringId.RebuildResultSchemaComplete" xml:space="preserve">
+    <value>Kết quả lược đồ xây dựng lại thành công.</value>
+  </data>
+  <data name="DataAccessUIStringId.RebuildResultSchemaConfirmationText" xml:space="preserve">
+    <value>Bạn có muốn thực hiện các truy vấn sau đây trên máy chủ và có được kết quả lược đồ?</value>
+  </data>
+  <data name="DataAccessUIStringId.SortingTypeNone" xml:space="preserve">
+    <value>Phân loại</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbEditConnection" xml:space="preserve">
+    <value>Cấu hình kết nối...</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbManageQueries" xml:space="preserve">
+    <value>Quản lý truy vấn...</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbRebuildSchema" xml:space="preserve">
+    <value>Xây dựng lại kết quả lược đồ</value>
+  </data>
+  <data name="DataAccessUIStringId.SqlDataSourceDesignerVerbRequestDatabaseSchema" xml:space="preserve">
+    <value>Yêu cầu cơ sở dữ liệu giản đồ</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateDBSchemaCaption" xml:space="preserve">
+    <value>Yêu cầu cơ sở dữ liệu giản đồ</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateDBSchemaComplete" xml:space="preserve">
+    <value>Lược đồ cơ sở dữ liệu được cập nhật thành công.</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateSchemaCaption" xml:space="preserve">
+    <value>Lược đồ Cập Nhật</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateSchemaComplete" xml:space="preserve">
+    <value>Lược đồ nguồn dữ liệu đã được cập nhật thành công.</value>
+  </data>
+  <data name="DataAccessUIStringId.UpdateSchemaDataSourceIsNotReady" xml:space="preserve">
+    <value>The FileName và SourceOptions thuộc tính nên được chỉ định.</value>
+  </data>
+  <data name="DataAccessUIStringId.WaitFormWithCancel_Loading" xml:space="preserve">
+    <value>Tải dữ liệu...</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardCannotConnectMessage" xml:space="preserve">
+    <value>Không thể kết nối với cơ sở dữ liệu. Xem chi tiết dưới đây.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardCannotCreateDataSourceMessage" xml:space="preserve">
+    <value>Không thể tạo ra một nguồn dữ liệu trống rỗng. Hãy chọn một đối tượng để bao gồm.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardCannotRetrieveDatabasesMessage" xml:space="preserve">
+    <value>Không thể truy xuất danh sách các cơ sở dữ liệu có sẵn. Xem chi tiết dưới đây.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardConfirmExecutionMessage" xml:space="preserve">
+    <value>Bạn có muốn thực hiện truy vấn trên máy chủ và có được kết quả truy vấn schema?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardDataSourceCreatedMessage" xml:space="preserve">
+    <value>Nguồn dữ liệu đã được tạo thành công</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardDataSourceEmptyNameMessage" xml:space="preserve">
+    <value>&lt; b &gt; dữ liệu nguồn tên không thể rỗng. &lt;/b &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardDataSourceNameExistsMessage" xml:space="preserve">
+    <value>&lt; b &gt; một nguồn dữ liệu với tên đã chỉ rõ đã tồn tại &lt;/b &gt;</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardDuplicatingColumnNameMessage" xml:space="preserve">
+    <value>A dữ liệu giản đồ có chứa một cột trùng lặp '{0}'. Sửa đổi các truy vấn để cho tất cả các cột có tên duy nhất.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardEmptyStoredProceduresListMessage" xml:space="preserve">
+    <value>Không có không có thủ tục được lưu trữ trong cơ sở dữ liệu hiện tại.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardFinishPageText" xml:space="preserve">
+    <value>Chọn một đối tượng bao gồm trong nguồn dữ liệu của bạn</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseConnection_ChooseExistingConnection" xml:space="preserve">
+    <value>Vâng, hãy để tôi chọn kết nối hiện có töø danh saùch</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseConnectionNoChoice" xml:space="preserve">
+    <value>Chọn một kết nối dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseDSType" xml:space="preserve">
+    <value>Chọn loại nguồn dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFConnectionString_CustomConnection" xml:space="preserve">
+    <value>Không, chỉ định một tùy chỉnh kết nối chuỗi</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFContext" xml:space="preserve">
+    <value>Chọn một bối cảnh dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseEFDataMember" xml:space="preserve">
+    <value>Chọn một thành viên dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseExcelFileDataRange" xml:space="preserve">
+    <value>Chọn bảng tính cần thiết, bảng hoặc được xác định tên đề cập đến phạm vi được chỉ định.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFile" xml:space="preserve">
+    <value>Chọn một bảng tính Excel hoặc tệp CSV.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions" xml:space="preserve">
+    <value>Chỉ định thiết đặt chuyển nhập.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_Culture" xml:space="preserve">
+    <value>&amp; văn hóa:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_DetectAutomatically" xml:space="preserve">
+    <value>Phát hiện tự động</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_Encoding" xml:space="preserve">
+    <value>&amp; mã hóa:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_FirstRowAsFieldNames" xml:space="preserve">
+    <value>Sử dụng các giá trị của các &amp; đầu hàng là lĩnh vực tên</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_NewLineType" xml:space="preserve">
+    <value>&amp; Newline loại:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_SkipEmptyRows" xml:space="preserve">
+    <value>Bỏ qua &amp; hàng trống</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_SkipHiddenColumns" xml:space="preserve">
+    <value>Bỏ ẩn &amp; cột</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_SkipHiddenRows" xml:space="preserve">
+    <value>Bỏ ẩn &amp; hàng</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_TextQualifier" xml:space="preserve">
+    <value>Văn bản &amp; vòng loại:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_TrimBlanks" xml:space="preserve">
+    <value>Trim Blanks</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseFileOptions_ValueSeparator" xml:space="preserve">
+    <value>Giá trị &amp; separator:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSchema" xml:space="preserve">
+    <value>Chọn trường dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSchema_FieldExists" xml:space="preserve">
+    <value>tên trường {0} đã tồn tại ở cấp độ này</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSchema_FieldNameIsEmpty" xml:space="preserve">
+    <value>Một tên lĩnh vực không thể rỗng.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSchema_RootElement" xml:space="preserve">
+    <value>&amp; phần tử gốc:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource" xml:space="preserve">
+    <value>chỉ định vị trí dữ liệu JSON.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_Custom" xml:space="preserve">
+    <value>&amp; chuỗi JSON:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_File" xml:space="preserve">
+    <value>Json &amp; file:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_ResultingUri" xml:space="preserve">
+    <value>kết quả URI:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_SourceType" xml:space="preserve">
+    <value>JSON &amp; nguồn:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_SourceType_Custom" xml:space="preserve">
+    <value>Chuỗi JSON</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_SourceType_File" xml:space="preserve">
+    <value>tập tin JSON</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_SourceType_Uri" xml:space="preserve">
+    <value>Điểm cuối dịch vụ web (URI)</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_URI" xml:space="preserve">
+    <value>Điểm cuối dịch vụ web (&amp; URI):</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_UriPathParametersText" xml:space="preserve">
+    <value>Tham số đường dẫn URI</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseJsonSource_UriQueryParametersText" xml:space="preserve">
+    <value>Tham số truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseMongoDBSchema" xml:space="preserve">
+    <value>Chọn trường dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectAssembly" xml:space="preserve">
+    <value>Chọn một hội đồng có chứa định nghĩa loại lớp của nguồn dữ liệu một.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectAssembly_ShowOnlyHighlighted" xml:space="preserve">
+    <value>Hiển thị chỉ hội đồng được đánh dấu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode" xml:space="preserve">
+    <value>Chọn dữ liệu ràng buộc chế độ.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode_RetrieveDataDescription" xml:space="preserve">
+    <value>Nguồn dữ liệu đối tượng sẽ tự động tạo một thể hiện của các loại hình cụ thể bằng cách sử dụng một trong những nhà thầu có sẵn. Nếu chỉ có một nhà xây dựng có sẵn, nhà xây dựng này sẽ được sử dụng.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectBindingMode_RetrieveSchemaDescription" xml:space="preserve">
+    <value>Chỉ những dữ liệu nguồn schema Lấy từ các đối tượng được chỉ định, mà không cần cho ăn các dữ liệu thực tế.
+
+Tự lấy lại dữ liệu thực tế, tạo ra một đối tượng nguồn dữ liệu ví dụ trong mã và gán cho các tài sản ObjectDataSource.DataSource.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectConstructor" xml:space="preserve">
+    <value>Chọn một nhà xây dựng nguồn dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectConstructor_ShowOnlyHighlighted" xml:space="preserve">
+    <value>Hiển thị chỉ nhà thầu được đánh dấu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectMember" xml:space="preserve">
+    <value>Chọn một thành viên nguồn dữ liệu (nếu cần).</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectMember_BindToMember" xml:space="preserve">
+    <value>Chọn một thành viên để ràng buộc.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectMember_BindToObject" xml:space="preserve">
+    <value>Không chọn thành viên, liên kết với toàn bộ đối tượng.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectMember_ShowOnlyHighlighted" xml:space="preserve">
+    <value>Hiển thị chỉ có thành viên nổi bật</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectType" xml:space="preserve">
+    <value>Chọn một kiểu nguồn dữ liệu.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseObjectType_ShowOnlyHighlighted" xml:space="preserve">
+    <value>Hiển thị chỉ nêu bật các loại</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseXPObjectEntityType" xml:space="preserve">
+    <value>Chọn một kiểu thực thể.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseXPObjectSourceConnectionType" xml:space="preserve">
+    <value>Bạn có muốn sử dụng lớp dữ liệu mặc định không?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseXPObjectSourceConnectionType_SpecifyConnection" xml:space="preserve">
+    <value>không, tôi muốn chỉ định một kết nối áp dụng cả lúc thiết kế thời gian và chạy.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageChooseXPObjectSourceConnectionType_UseDefaultDataLayer" xml:space="preserve">
+    <value>Có, kết nối dữ liệu của tôi chỉ có sẵn tại thời gian chạy.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureEFFilters" xml:space="preserve">
+    <value>Tiêu chuẩn lọc thêm dữ liệu nguồn bảng và/hoặc cảnh.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureEFFilters_ChooseEntityPlaceholder" xml:space="preserve">
+    <value>Chọn tổ chức</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureExcelFileColumns" xml:space="preserve">
+    <value>Chọn cột cần thiết và chỉ định các cài đặt.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureExcelFileColumns_ColumnExist" xml:space="preserve">
+    <value>Cột có tên '{0}' đã tồn tại.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureExcelFileColumns_ColumnNameEmptyError" xml:space="preserve">
+    <value>Tên cột không thể rỗng.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureFederatedQueryPage" xml:space="preserve">
+    <value>Tạo truy vấn</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureFederatedQueryPage_EditingIsNotSupported" xml:space="preserve">
+    <value>Chỉnh sửa không được hỗ trợ cho truy vấn này.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureFederatedQueryPage_InvalidQuery" xml:space="preserve">
+    <value>Truy vấn không hợp lệ.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection" xml:space="preserve">
+    <value>Cấu hình yêu cầu điểm cuối dịch vụ web.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection_BasicHttpAuthText" xml:space="preserve">
+    <value>Cơ bản xác thực http</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection_HeaderNameText" xml:space="preserve">
+    <value>tên</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection_HeaderValueText" xml:space="preserve">
+    <value>giá trị</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection_HttpHeadersText" xml:space="preserve">
+    <value>http tiêu đề</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection_ParameterNameText" xml:space="preserve">
+    <value>Tên tham số</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection_ParameterValueText" xml:space="preserve">
+    <value>giá trị</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureJsonConnection_UsernameText" xml:space="preserve">
+    <value>tên người dùng:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection" xml:space="preserve">
+    <value>Chỉ rõ thuộc tính kết nối.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_AuthenticationDatabase" xml:space="preserve">
+    <value>Cơ sở dữ liệu xác thực:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_AuthenticationType" xml:space="preserve">
+    <value>Xác thực:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_AuthenticationType_NamePassword" xml:space="preserve">
+    <value>/ Mật khẩu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_CanonicalizeHostName" xml:space="preserve">
+    <value>Chuẩn hóa Tên Máy chủ</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_EnterConnectionFields" xml:space="preserve">
+    <value>Nhập từng trường kết nối</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_IsSRVRecord" xml:space="preserve">
+    <value>Bản ghi SRV</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_PasteConnectionString" xml:space="preserve">
+    <value>Dán chuỗi kết nối</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_Principal" xml:space="preserve">
+    <value>chính</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBConnection_ServiceName" xml:space="preserve">
+    <value>Tên dịch vụ:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBQueries" xml:space="preserve">
+    <value>Cấu hình truy vấn.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBQueries_ChooseCollectionPlaceholder" xml:space="preserve">
+    <value>Chọn Bộ sưu tập</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBQueries_ChooseDatabasePlaceholder" xml:space="preserve">
+    <value>Chọn Cơ sở dữ liệu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBQueries_CollectionNameColumnName" xml:space="preserve">
+    <value>Bộ sưu tập</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMongoDBQueries_QueryAlias" xml:space="preserve">
+    <value>Bí danh</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureMultiQuery" xml:space="preserve">
+    <value>Tạo ra một truy vấn hoặc chọn một thủ tục được lưu trữ.
+Cột dữ liệu được lựa chọn từ bảng cụ thể và/hoặc xem sẽ được tự động đưa vào trong một truy vấn riêng.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery" xml:space="preserve">
+    <value>Tạo ra một truy vấn hay chọn một thủ tục được lưu trữ.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConfigureQuery_StoredProcedure" xml:space="preserve">
+    <value>Lưu trữ thủ tục</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageConnectionProperties" xml:space="preserve">
+    <value>Chọn nhà cung cấp dữ liệu và xác định các thuộc tính kết nối.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageEFConnectionProperties" xml:space="preserve">
+    <value>Chỉ định chuỗi kết nối một.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageEFConnectionProperties_CustomConnection" xml:space="preserve">
+    <value>Chỉ định một tùy chỉnh kết nối chuỗi</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageEFConnectionProperties_DefaultConnection" xml:space="preserve">
+    <value>Sử dụng mặc định kết nối chuỗi</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageEFConnectionProperties_SaveToConfig" xml:space="preserve">
+    <value>Lưu chuỗi kết nối vào tập tin cấu hình như là:</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageMultipleFederatedQueriesPage" xml:space="preserve">
+    <value>Tạo truy vấn liên kết.
+Các cột dữ liệu được chọn từ các nguồn dữ liệu và/hoặc bảng cụ thể sẽ tự động đưa vào một truy vấn riêng.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageMultipleFederatedQueriesPage_AddQuery" xml:space="preserve">
+    <value>Thêm truy vấn...</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection" xml:space="preserve">
+    <value>Lưu kết nối chuỗi.</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_SaveConnectionString" xml:space="preserve">
+    <value>Bạn có muốn lưu các chuỗi kết nối vào tập tin cấu hình của ứng dụng?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_SaveCredentialsQuestion" xml:space="preserve">
+    <value>Kết nối sử dụng máy chủ xác thực.
+Bạn có muốn lưu tên người dùng và mật khẩu không?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveConnection_SkipSaveCredentials" xml:space="preserve">
+    <value>Không, bỏ qua các ủy nhiệm vì lý do an ninh</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveJsonConnection_SaveRequestParameters" xml:space="preserve">
+    <value>Có, lưu các tham số yêu cầu được chỉ định</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveJsonConnection_SaveRequestParametersPrompt" xml:space="preserve">
+    <value>Thông số yêu cầu có thể chứa dữ liệu nhạy cảm.
+Bạn có muốn lưu thông số yêu cầu không?</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardPageSaveJsonConnection_SkipSaveRequestParameters" xml:space="preserve">
+    <value>Không, bỏ qua các thông số yêu cầu</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardTitleDatasource" xml:space="preserve">
+    <value>Nguồn dữ liệu thuật sĩ</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardTitleODS" xml:space="preserve">
+    <value>ObjectDataSource thuật sĩ</value>
+  </data>
+  <data name="DataAccessUIStringId.WizardUnableToLoadMongoDBDriver" xml:space="preserve">
+    <value>Cố gắng tải chi tiết "MongoDB.Driver.dll" không thành công.
+Gói "MongoDB.Driver" sẽ được cài đặt trong dự án ứng dụng của bạn để cung cấp dữ liệu MongoDB trong thời gian chạy.</value>
+  </data>
+  <data name="DataAccessUIStringId.XPObjectSource_ConfirmClearProperties" xml:space="preserve">
+    <value>Các bộ sưu tập thuộc tính sẽ bị xóa. Nguồn dữ liệu sẽ tải hoàn chỉnh các đối tượng. Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="DataAccessUIStringId.XPObjectSource_ConfirmReplaceProperties" xml:space="preserve">
+    <value>Các bộ sưu tập thuộc tính sẽ được tái tạo dựa trên thông tin loại thực thể được chỉ định. Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="DataAccessUIStringId.XPObjectSource_DataProvidersListMustBeNonEmpty" xml:space="preserve">
+    <value>Danh sách DataProviders là sản phẩm nào.</value>
+  </data>
+  <data name="DataAccessUIStringId.XPObjectSource_EntityTypeNotSet" xml:space="preserve">
+    <value>Bộ sưu tập bất động sản không thể được đưa ra bởi vì EntityType không được thiết lập.</value>
+  </data>
+  <data name="DataAccessUIStringId.XPObjectSourceDesignerVerbClearProperties" xml:space="preserve">
+    <value>Xóa Properties</value>
+  </data>
+  <data name="DataAccessUIStringId.XPObjectSourceDesignerVerbPopulateProperties" xml:space="preserve">
+    <value>Điền Properties</value>
+  </data>
+</root>

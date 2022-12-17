@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DxBlazorStringId.Calendar_ClearButton" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="DxBlazorStringId.Calendar_TodayButton" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_ClearButton" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupPanel" xml:space="preserve">
+    <value>Kéo tên một cột vào đây để nhóm dữ liệu theo cột đó</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_TodayButton" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_DeleteButton" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_ToolTip_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_EditButton" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_ToolTip_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_ApplyButton" xml:space="preserve">
+    <value>Áp dụng</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_CancelButton" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_CloseButton" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_ToolTip_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Save" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="DxBlazorStringId.Pager_NextButton" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_NewButton" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Label" xml:space="preserve">
+    <value>Nhãn</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Location" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Days" xml:space="preserve">
+    <value>ngày</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Months" xml:space="preserve">
+    <value>tháng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_DayViewName" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="DxBlazorStringId.Pager_PageOfLabel" xml:space="preserve">
+    <value>của</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Of" xml:space="preserve">
+    <value>của</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Title" xml:space="preserve">
+    <value>Sự kiện</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_RecurrenceType_Daily" xml:space="preserve">
+    <value>Hàng ngày</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_RecurrenceType_Monthly" xml:space="preserve">
+    <value>Hàng tháng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_RecurrenceType_Weekly" xml:space="preserve">
+    <value>Hàng tuần</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_RecurrenceType_Yearly" xml:space="preserve">
+    <value>Hàng năm</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_StartDate" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_RecurrenceType_Never" xml:space="preserve">
+    <value>Không bao giờ</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekViewName" xml:space="preserve">
+    <value>Tuần</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_AllText" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_EmptyDataRow" xml:space="preserve">
+    <value>Không có dữ liệu để hiển thị</value>
+  </data>
+  <data name="DxBlazorStringId.ListBox_EmptyDataRow" xml:space="preserve">
+    <value>Không có dữ liệu để hiển thị</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_DateTab" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_NowButton" xml:space="preserve">
+    <value>Bây giờ</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Resource" xml:space="preserve">
+    <value>Tài nguyên</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_CancelButton" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_OkButton" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Resources_SelectAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_ResourcesButton" xml:space="preserve">
+    <value>Tài nguyên</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Loading" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_DeleteButton" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_EditButton" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="DxBlazorStringId.ColorPicker_CancelButton" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_CancelButton" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="DxBlazorStringId.Popup_CloseButton" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DxBlazorStringId.ColorPicker_OkButton" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_NewButton" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_EmptyDataRow" xml:space="preserve">
+    <value>Không có dữ liệu để hiển thị</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_AllText" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_ClearButton" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_Loading" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_MonthViewName" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_SummaryCount" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_SummaryMax" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_SummaryMin" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_SummarySum" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_SummaryAvg" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Cyan" xml:space="preserve">
+    <value>Xanh lá mạ</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Green" xml:space="preserve">
+    <value>Màu xanh lá cây</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Orange" xml:space="preserve">
+    <value>Màu cam</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Pink" xml:space="preserve">
+    <value>Màu hồng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Purple" xml:space="preserve">
+    <value>Màu tím</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Yellow" xml:space="preserve">
+    <value>Màu vàng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_AllDay" xml:space="preserve">
+    <value>Tất cả các ngày</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_DeleteButton" xml:space="preserve">
+    <value>Xóa cuộc hẹn</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_EndDate" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Repeat" xml:space="preserve">
+    <value>Lặp lại</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_RepeatAppointment" xml:space="preserve">
+    <value>Lặp lại {0}</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_RecurrenceRange_NoEndDate" xml:space="preserve">
+    <value>Không có ngày kết thúc</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Resources_FilterNullText" xml:space="preserve">
+    <value>Tên tài nguyên...</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_SettingsToolbarTitle" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="DxBlazorStringId.ColorPicker_CustomColor" xml:space="preserve">
+    <value>Tùy chỉnh màu sắc...</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_PageSize" xml:space="preserve">
+    <value>Kích thước trang</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_TimeTab" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="DxBlazorStringId.Pager_PrevButton" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Editing_DeleteButton" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Editing_EditButton" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Editing_CancelButton" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="DxBlazorStringId.No" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Editing_SaveButton" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="DxBlazorStringId.Yes" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Editing_NewButton" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_PageSizeSelector_AllRowsItem" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_ClearFilterButton" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_CheckBoxColumn_FilterTextIndeterminate" xml:space="preserve">
+    <value>Không xác định</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_Count" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_Max" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_Min" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_Sum" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_Average" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_Today" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_Tomorrow" xml:space="preserve">
+    <value>Ngày mai</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_Yesterday" xml:space="preserve">
+    <value>Hôm qua</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_LastMonth" xml:space="preserve">
+    <value>Tháng trước</value>
+  </data>
+  <data name="DxBlazorStringId.GroupControl_Collapse" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="DxBlazorStringId.GroupControl_Expand" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="DxBlazorStringId.Accordion_CollapseButtonTitle" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="DxBlazorStringId.Accordion_ExpandButtonTitle" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="DxBlazorStringId.Accordion_CollapseButton" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="DxBlazorStringId.Accordion_ExpandButton" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_ConfirmEdit" xml:space="preserve">
+    <value>Bạn có muốn chỉnh sửa chỉ cuộc hẹn này hoặc toàn bộ chuỗi?</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_DeleteSeriesButton" xml:space="preserve">
+    <value>Xóa chuỗi</value>
+  </data>
+  <data name="DxBlazorStringId.PivotGrid_TotalFormat" xml:space="preserve">
+    <value>{0} Tổng số</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Blue" xml:space="preserve">
+    <value>Màu xanh</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Teal" xml:space="preserve">
+    <value>Mòng két</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_ColumnChooser_CommandColumn" xml:space="preserve">
+    <value>Lệnh cột</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_EmptyHeaders" xml:space="preserve">
+    <value>Kéo một cột ở đây...</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_BeyondNextMonth" xml:space="preserve">
+    <value>Tháng tới</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_EarlierThisMonth" xml:space="preserve">
+    <value>Đầu tháng này</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_LastWeek" xml:space="preserve">
+    <value>Cuối tuần</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_Older" xml:space="preserve">
+    <value>Cũ hơn</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_ThreeWeeksAway" xml:space="preserve">
+    <value>Ba tuần đã qua</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_TwoWeeksAgo" xml:space="preserve">
+    <value>Hai tuần trước đây</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_TwoWeeksAway" xml:space="preserve">
+    <value>Hai tuần đã qua</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_PageSizeSelector_Caption" xml:space="preserve">
+    <value>Kích thước trang</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Status_Free" xml:space="preserve">
+    <value>Miễn phí</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_ReadyToUpload" xml:space="preserve">
+    <value>Sẵn sàng để tải lên</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WorkWeekViewName" xml:space="preserve">
+    <value>Tuần làm việc</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_FileToUpload" xml:space="preserve">
+    <value>{0} tập tin sẵn sàng để tải lên</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_CommandItem_SelectAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="DxBlazorStringId.FormLayoutGroup_CollapseButton" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="DxBlazorStringId.FormLayoutGroup_ExpandButton" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Days" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_DayShortCaption" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_MinuteShortCaption" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="DxBlazorStringId.Accordion_FilterPanel_NullText" xml:space="preserve">
+    <value>Lọc...</value>
+  </data>
+  <data name="DxBlazorStringId.DataEditor_InvalidMaskValidation" xml:space="preserve">
+    <value>'{0}' không khớp với định dạng yêu cầu.</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_CheckBoxColumn_FilterTextChecked" xml:space="preserve">
+    <value>Đúng</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_CheckBoxColumn_FilterTextUnchecked" xml:space="preserve">
+    <value>Sai</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_ColumnChooser" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_ColumnChooser_Header" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_ColumnChooser_SelectionColumn" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_GroupPanel" xml:space="preserve">
+    <value>Kéo tiêu đề cột vào đây để nhóm theo cột đó</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_PopupEditFormCaption" xml:space="preserve">
+    <value>Sửa form</value>
+  </data>
+  <data name="DxBlazorStringId.DataGrid_UpdateButton" xml:space="preserve">
+    <value>Cập Nhật</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_ChooseDate" xml:space="preserve">
+    <value>Chọn ngày</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_ChooseDateAndTime" xml:space="preserve">
+    <value>Chọn ngày giờ</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_DisabledDateNotification" xml:space="preserve">
+    <value>Ngày không phù hợp. Hãy chọn ngày khác.</value>
+  </data>
+  <data name="DxBlazorStringId.DateEdit_OutOfRangeNotification" xml:space="preserve">
+    <value>Ngày phải nằm trong khoảng {0} và {1}</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_ColumnChooser_CommandColumn" xml:space="preserve">
+    <value>Cột lệnh</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_ColumnChooser_HeaderText" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_ColumnChooser_SelectionColumn" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_CommandItem_DeselectAll" xml:space="preserve">
+    <value>Bỏ chọn</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Editing_DeleteConfirmationText" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa bản ghi này không?</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Editing_PopupEditFormHeaderText" xml:space="preserve">
+    <value>Sửa form</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_LaterThisMonth" xml:space="preserve">
+    <value>Đến cuối tháng</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_NextMonth" xml:space="preserve">
+    <value>Tháng sau</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_NextWeek" xml:space="preserve">
+    <value>Tuần sau</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_GroupInterval_DateRange_ThreeWeeksAgo" xml:space="preserve">
+    <value>Ba tuần trước</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_SearchBoxNullText" xml:space="preserve">
+    <value>Tìm kiếm ...</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_AverageOfAnotherColumn" xml:space="preserve">
+    <value>Trung bình {0}</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_MaxOfAnotherColumn" xml:space="preserve">
+    <value>Lớn nhất {0}</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_MinOfAnotherColumn" xml:space="preserve">
+    <value>Nhỏ nhất {0}</value>
+  </data>
+  <data name="DxBlazorStringId.Grid_Summary_SumOfAnotherColumn" xml:space="preserve">
+    <value>Tổng {0}</value>
+  </data>
+  <data name="DxBlazorStringId.PivotGrid_GrandTotal" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Indigo" xml:space="preserve">
+    <value>Màu Indigo</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Light" xml:space="preserve">
+    <value>Màu nhẹ</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Color_Red" xml:space="preserve">
+    <value>Màu đỏ</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_EmptyResource" xml:space="preserve">
+    <value>Bất kỳ</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_ConfirmDelete" xml:space="preserve">
+    <value>làm bạn muốn xóa chỉ cuộc hẹn này hoặc toàn bộ chuỗi?</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Discard" xml:space="preserve">
+    <value>huỷ</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_EditButton" xml:space="preserve">
+    <value>chỉnh sửa cuộc hẹn</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_EditSeriesButton" xml:space="preserve">
+    <value>Chỉnh sửa loạt</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Occurrences" xml:space="preserve">
+    <value>(s)</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_On" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_OnDay" xml:space="preserve">
+    <value>vào ngày</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_OnThe" xml:space="preserve">
+    <value>Trên các</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_RepeatEnd" xml:space="preserve">
+    <value>kết thúc lặp lại</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_RepeatEvery" xml:space="preserve">
+    <value>Lặp lại mỗi</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Form_Weeks" xml:space="preserve">
+    <value>tuần (s)</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_NoSubject" xml:space="preserve">
+    <value>(không chủ đề)</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_RecurrenceRange_EndAfter" xml:space="preserve">
+    <value>kết thúc sau khi</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_RecurrenceRange_EndBy" xml:space="preserve">
+    <value>kết thúc bằng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Status_Away" xml:space="preserve">
+    <value>cách đi</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Status_Busy" xml:space="preserve">
+    <value>Bận rộn</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Status_Tentative" xml:space="preserve">
+    <value>dự định</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_Status_WorkingElsewhere" xml:space="preserve">
+    <value>Làm việc ở những nơi khác</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_TimelineViewName" xml:space="preserve">
+    <value>Đường thời gian</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_ToolTip_RestoreOccurrence" xml:space="preserve">
+    <value>Khôi phục lại sự xuất hiện</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekDays_Day" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekDays_Weekend" xml:space="preserve">
+    <value>Weekend</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekDays_WorkDay" xml:space="preserve">
+    <value>Ngày làm việc</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekOfMonth_First" xml:space="preserve">
+    <value>Đầu tiên</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekOfMonth_Fourth" xml:space="preserve">
+    <value>Thứ tư</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekOfMonth_Last" xml:space="preserve">
+    <value>Cuối cùng</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekOfMonth_Second" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="DxBlazorStringId.Scheduler_WeekOfMonth_Third" xml:space="preserve">
+    <value>Thứ ba</value>
+  </data>
+  <data name="DxBlazorStringId.TimeEdit_ChooseTime" xml:space="preserve">
+    <value>Choose time</value>
+  </data>
+  <data name="DxBlazorStringId.TimeEdit_OutOfRangeNotification" xml:space="preserve">
+    <value>The selected time value should be between {0} and {1}.</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Day" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_FractionalSecond" xml:space="preserve">
+    <value>Fractional</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_FractionalSeconds" xml:space="preserve">
+    <value>Fractional</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_FractionalSecondShortCaption" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_HourShortCaption" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Millisecond" xml:space="preserve">
+    <value>Millisecond</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Milliseconds" xml:space="preserve">
+    <value>milliseconds</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_MillisecondShortCaption" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Minute" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Second" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_Seconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="DxBlazorStringId.TimeSpan_SecondShortCaption" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="DxBlazorStringId.TreeView_FilterPanel_NullText" xml:space="preserve">
+    <value>Lọc...</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_Canceled" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_Done" xml:space="preserve">
+    <value>Tải lên tải lên</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_Failed" xml:space="preserve">
+    <value>thành</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_FileIsTooLarge" xml:space="preserve">
+    <value>quá lớn</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_FileIsTooSmall" xml:space="preserve">
+    <value>là quá nhỏ</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_FilesToUpload" xml:space="preserve">
+    <value>{0} tập tin đã sẵn sàng để tải lên</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_FilesWereNotUploaded" xml:space="preserve">
+    <value>{0} tập tin không được tải lên</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_FileTypeIsNotAllowed" xml:space="preserve">
+    <value>loại tập tin không được phép</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_FileWasNotUploaded" xml:space="preserve">
+    <value>{0} tập tin không được tải lên</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_SelectFileButton" xml:space="preserve">
+    <value>chọn tập tin</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_UploadedFile" xml:space="preserve">
+    <value>{0} tập tin tải lên</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_UploadedFiles" xml:space="preserve">
+    <value>{0} tập tin tải lên</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_UploadingFile" xml:space="preserve">
+    <value>{0} tập tin</value>
+  </data>
+  <data name="DxBlazorStringId.Upload_UploadingFiles" xml:space="preserve">
+    <value>tải lên {0} tập tin</value>
+  </data>
+</root>

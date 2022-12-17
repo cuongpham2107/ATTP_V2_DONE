@@ -1,0 +1,1185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxReportsStringId.ParametersPanel_Reset" xml:space="preserve">
+    <value>Thiết lập lại</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_png" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_txt" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PageLabel" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down" xml:space="preserve">
+    <value>Xuống</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up" xml:space="preserve">
+    <value>Lên</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_NextPage" xml:space="preserve">
+    <value>Trang Tiếp</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PreviousPage" xml:space="preserve">
+    <value>Trang Trước</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonHomeTabText" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPrintGroupText" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_NextPage" xml:space="preserve">
+    <value>Trang Tiếp</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PreviousPage" xml:space="preserve">
+    <value>Trang Trước</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonExportGroupText" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonNavigationGroupText" xml:space="preserve">
+    <value>Điều hướng</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_OfLabel" xml:space="preserve">
+    <value>của</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_DocumentMap" xml:space="preserve">
+    <value>Lược đồ Tài liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonReportGroupText" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_FirstPage" xml:space="preserve">
+    <value>Trang đầu tiên</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_LastPage" xml:space="preserve">
+    <value>Trang cuối</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintPage" xml:space="preserve">
+    <value>In trang hiện tại</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintReport" xml:space="preserve">
+    <value>In báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToWindow" xml:space="preserve">
+    <value>Xuất khẩu báo cáo và hiển thị nó trong một cửa sổ mới</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Search" xml:space="preserve">
+    <value>Hiển thị cửa sổ tìm kiếm</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_FirstPage" xml:space="preserve">
+    <value>Trang đầu tiên</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_LastPage" xml:space="preserve">
+    <value>Trang cuối</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Header" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Caption" xml:space="preserve">
+    <value>Tựa đề</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Bold" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Landscape" xml:space="preserve">
+    <value>Hướng ngang</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Average" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Count" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Max" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Min" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Sum" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Data" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchResultText" xml:space="preserve">
+    <value>Kết quả tìm kiếm</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Preview_ParametersTitle" xml:space="preserve">
+    <value>Xem trước tham số</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord" xml:space="preserve">
+    <value>Phù hợp với toàn bộ từ duy nhất</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ToggleMultipageMode" xml:space="preserve">
+    <value>Bật tắt chế độ nhiều trang</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Height" xml:space="preserve">
+    <value>Chiều cao:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Width" xml:space="preserve">
+    <value>Chiều rộng:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuItem_AddSqlDataSource" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu SQL...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_NameValidationError" xml:space="preserve">
+    <value>Tên không hợp lệ</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Document" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FontOptions_Unit_Point" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GaugeViewType_Linear" xml:space="preserve">
+    <value>Tuyến tính</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_docx" xml:space="preserve">
+    <value>DOCX</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Casual" xml:space="preserve">
+    <value>Ngẫu nhiên</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_LabelReport" xml:space="preserve">
+    <value>Nhãn báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_Message" xml:space="preserve">
+    <value>Chọn loại báo cáo bạn muốn tạo.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertRowAbove" xml:space="preserve">
+    <value>Chèn hàng phía trên</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptEditor_Toolbar_SelectEvent" xml:space="preserve">
+    <value>Chọn sự kiện...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SortFields_SortBy" xml:space="preserve">
+    <value>Sắp xếp theo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateGroups_Title" xml:space="preserve">
+    <value>Tạo nhóm</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportToText" xml:space="preserve">
+    <value>Xuất khẩu để</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_0Pages" xml:space="preserve">
+    <value>0 trang</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteColumn" xml:space="preserve">
+    <value>Xóa cột</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteRow" xml:space="preserve">
+    <value>Xóa hàng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToLeft" xml:space="preserve">
+    <value>Chèn cột bên trái</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Tables" xml:space="preserve">
+    <value>Bảng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_StylesEditor_CreateNew" xml:space="preserve">
+    <value>Tạo một kiểu mới</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_FindText" xml:space="preserve">
+    <value>Tìm văn bản</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_ParametersPanel" xml:space="preserve">
+    <value>Bảng thông số</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintPage" xml:space="preserve">
+    <value>In trang</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintReport" xml:space="preserve">
+    <value>In báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_FindText" xml:space="preserve">
+    <value>Tìm văn bản trong tài liệu.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_ParametersPanel" xml:space="preserve">
+    <value>Truy cập và sửa đổi các giá trị tham số báo cáo.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageText" xml:space="preserve">
+    <value>Trang hiện tại</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPageCountText" xml:space="preserve">
+    <value>Số lượng trang:</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_csv" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_html" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_mht" xml:space="preserve">
+    <value>MHT</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_pdf" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_rtf" xml:space="preserve">
+    <value>RTF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xls" xml:space="preserve">
+    <value>XLS</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xlsx" xml:space="preserve">
+    <value>Xlsx</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Submit" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_RemoveParameter" xml:space="preserve">
+    <value>Loại bỏ tham số</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Groups" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat" xml:space="preserve">
+    <value>Tìm &amp; nbsp; những gì</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_DataBoundReport" xml:space="preserve">
+    <value>Ràng buộc dữ liệu báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_LabelProduct" xml:space="preserve">
+    <value>Nhãn hiệu sản phẩm:</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Collapse" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="ASPxReportsStringId.SidePanel_Open" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetBuildStatusError" xml:space="preserve">
+    <value>Lỗi thu thập một tình trạng xây dựng</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_LocalAndRemoteSource_Error" xml:space="preserve">
+    <value>Nó là chỉ có thể chỉ định báo cáo địa phương hoặc từ xa mã nguồn của ASPxDocumentViewer tại một thời điểm.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_NoRemoteDocumentInformation_Error" xml:space="preserve">
+    <value>Lệnh này không thể được thực hiện bởi vì một tài liệu đã không được được tạo ra.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorCredential_Error" xml:space="preserve">
+    <value>Thông tin đăng nhập người dùng không thể rỗng.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorCredentialHandled_Error" xml:space="preserve">
+    <value>Để đăng nhập vào máy chủ báo cáo, xử lý sự kiện RequestCredentials.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorLogin_Error" xml:space="preserve">
+    <value>Không thể đăng nhập bằng thông tin đăng nhập người dùng đã chỉ định.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemotePageByPage_Error" xml:space="preserve">
+    <value>Để xem một báo cáo từ xa, cho phép tài sản PageByPage của SettingsReportViewer.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteRequestCredentials_Error" xml:space="preserve">
+    <value>The RequestCredentials sự kiện không được đăng ký với.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceConnection_Error" xml:space="preserve">
+    <value>Dịch vụ báo cáo đã chỉ định không được tìm thấy.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceSettings_CustomTokenStorage_Error" xml:space="preserve">
+    <value>The DocumentViewerRemoteSourceSettings.CustomTokenStorage bất động sản không phân công.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GroupFields_Empty" xml:space="preserve">
+    <value>Để tạo một mục mới, hãy nhấp vào địa chỉ</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case" xml:space="preserve">
+    <value>Trận đấu trường hợp</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SelectReport" xml:space="preserve">
+    <value>Chọn báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_AddNewItem" xml:space="preserve">
+    <value>Thêm mục mới</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PropertyGrid_AutoValueString" xml:space="preserve">
+    <value>(Tự động)</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Mobile_TapHereToSearch" xml:space="preserve">
+    <value>Bấm vào đây để tìm kiếm</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CustomizeLabelPage_LabelCountText" xml:space="preserve">
+    <value>nhãn trên trang</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_OpenReportError" xml:space="preserve">
+    <value>Không thể mở báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_Size" xml:space="preserve">
+    <value>Kích thước:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_Paper" xml:space="preserve">
+    <value>Giấy</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_LeftMargin" xml:space="preserve">
+    <value>Trái:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DistributeColumnsEvenly" xml:space="preserve">
+    <value>Phân phối các cột đồng đều</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_False" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_Save" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_True" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TooltipButtons_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Finish" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Next" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Previous" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PropertyGrid_PopupMenu_Reset" xml:space="preserve">
+    <value>Thiết lập lại</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_DataPreview_Empty" xml:space="preserve">
+    <value>Không có dữ liệu để hiển thị</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_Parameters" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Loading" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Actions" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_QueryBuilder_TableProperties" xml:space="preserve">
+    <value>Thuộc tính bảng</value>
+  </data>
+  <data name="ASPxReportsStringId.FilterEditor_Operand_Type_Parameter" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Inch" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Menu_Text" xml:space="preserve">
+    <value>Thực đơn</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_AddParameter" xml:space="preserve">
+    <value>Thêm tham số</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryFields_Text" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TextAlignment_Horizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TextAlignment_Vertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaLabelZoomCombobox" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Design" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_GroupTitle" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_Rename" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_GroupOrientation" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldList_AddDataSource" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_ExternalRibbonNotFound_Error" xml:space="preserve">
+    <value>Không thể tìm thấy một điều khiển thanh công cụ với tên được chỉ định: '{0}'.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceSettings_Error" xml:space="preserve">
+    <value>Để xem báo cáo từ xa, chỉ định tài sản ServerUri hoặc EndpointConfigurationName của ASPxDocumentViewer.SettingsRemoteSource.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteSourceSettingsAndConfiguration_Error" xml:space="preserve">
+    <value>Nó là chỉ có thể để gán tài sản hoặc SettingsRemoteSource hoặc ConfigurationRemoteSource của ASPxDocumentViewer lúc thời gian một.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_SaveToFile" xml:space="preserve">
+    <value>Lưu vào tập tin</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_SaveToWindow" xml:space="preserve">
+    <value>Lưu vào cửa sổ</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_DocumentMap" xml:space="preserve">
+    <value>Điều hướng thông qua hệ thống phân cấp của báo cáo của bookmarks.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_FirstPage" xml:space="preserve">
+    <value>Hiển thị trang tài liệu đầu tiên.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_LastPage" xml:space="preserve">
+    <value>Hiển thị trang tài liệu cuối.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_NextPage" xml:space="preserve">
+    <value>Hiển thị trang tài liệu tiếp theo.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PreviousPage" xml:space="preserve">
+    <value>Hiển thị trang tài liệu trước.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintPage" xml:space="preserve">
+    <value>Chỉ định cài đặt in và in trang hiện tại.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintReport" xml:space="preserve">
+    <value>Chỉ định cài đặt in và in tài liệu.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_SaveToFile" xml:space="preserve">
+    <value>Lưu tài liệu vào một tập tin trong một định dạng cụ thể.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_SaveToWindow" xml:space="preserve">
+    <value>Lưu tài liệu trong một định dạng được chỉ định và hiển thị kết quả trong một cửa sổ mới.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageToolTip" xml:space="preserve">
+    <value>Hiển thị trang được chỉ định.</value>
+  </data>
+  <data name="ASPxReportsStringId.Error_WithStatus" xml:space="preserve">
+    <value>{0} ({1} {2})</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_400" xml:space="preserve">
+    <value>Yêu cầu không hợp lý</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_401" xml:space="preserve">
+    <value>Phép</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_403" xml:space="preserve">
+    <value>Bị cấm</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_404" xml:space="preserve">
+    <value>Không tìm thấy</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_405" xml:space="preserve">
+    <value>Phương pháp không được phép</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_406" xml:space="preserve">
+    <value>Không được chấp nhận</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_408" xml:space="preserve">
+    <value>Yêu cầu thời gian chờ</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_412" xml:space="preserve">
+    <value>Điều kiện tiên quyết thất bại</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_500" xml:space="preserve">
+    <value>Lỗi Máy chủ Nội bộ</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_501" xml:space="preserve">
+    <value>Không thực hiện</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_502" xml:space="preserve">
+    <value>Cổng Không hợp lý</value>
+  </data>
+  <data name="ASPxReportsStringId.HttpResponseStatusCode_503" xml:space="preserve">
+    <value>Dịch vụ Không sẵn dùng</value>
+  </data>
+  <data name="ASPxReportsStringId.List_More" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_DateTimeValueValidationError" xml:space="preserve">
+    <value>Giá trị không thể để trống.</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_GenericRegexValidationError" xml:space="preserve">
+    <value>Giá trị là không hợp lệ.</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_GuidValidationError" xml:space="preserve">
+    <value>Guid chứa 32 chữ số phân cách với 4 dấu gạch ngang (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Accordion_Collapsed" xml:space="preserve">
+    <value>Sụp đổ</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_AddArgument" xml:space="preserve">
+    <value>Thêm đối số</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_CrossBandControls" xml:space="preserve">
+    <value>Điều khiển Cross-Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_DataSource_FilterCriteriaTitle" xml:space="preserve">
+    <value>Tiêu chuẩn lọc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_DataSources" xml:space="preserve">
+    <value>Nguồn dữ liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ElementsAction_SizeToControl" xml:space="preserve">
+    <value>Kích thước để kiểm soát</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ElementsAction_SizeToControlHeight" xml:space="preserve">
+    <value>Kích thước để điều khiển chiều cao</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ElementsAction_SizeToControlWidth" xml:space="preserve">
+    <value>Kích thước để kiểm soát chiều rộng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ErrorPanel_NoErrors" xml:space="preserve">
+    <value>Không có lỗi</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ErrorPanel_Title" xml:space="preserve">
+    <value>Trình phân tích thiết kế báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldList_Parameters" xml:space="preserve">
+    <value>Không có không có tham số có sẵn nào.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_AddCalculatedField" xml:space="preserve">
+    <value>Thêm lĩnh vực tính toán</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_EditMasterDetailRelations" xml:space="preserve">
+    <value>Chỉnh sửa chi tiết tổng thể quan hệ</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_RemoveCalculatedField" xml:space="preserve">
+    <value>Loại bỏ các lĩnh vực tính toán</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_RemoveDataSource" xml:space="preserve">
+    <value>Loại bỏ các nguồn dữ liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_GaugeViewType_Circular" xml:space="preserve">
+    <value>Thông tư</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_LocalizationEditor_Title" xml:space="preserve">
+    <value>Localization</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_Description" xml:space="preserve">
+    <value>Chọn dữ liệu thành viên chỉ định cho các báo cáo và báo cáo chi tiết và các lĩnh vực để hiển thị trong các báo cáo.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_SelectDataFields" xml:space="preserve">
+    <value>Chọn lĩnh vực dữ liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_ChooseDataMembers_SelectDataMembers" xml:space="preserve">
+    <value>Chọn dữ liệu thành viên</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SelectDataFields" xml:space="preserve">
+    <value>Chọn trường dữ liệu để hiển thị trong báo cáo.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SelectQueries" xml:space="preserve">
+    <value>Chọn các truy vấn cho báo cáo và báo cáo chi tiết.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SelectFieldsAndSummaries" xml:space="preserve">
+    <value>Chọn lĩnh vực và gán các tóm tắt chức năng với họ</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MasterDetailWizard_SummaryOptions_SummaryFunctions" xml:space="preserve">
+    <value>Tóm tắt chức năng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_RunWizard" xml:space="preserve">
+    <value>Chạy thuật sĩ</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuItem_Localization" xml:space="preserve">
+    <value>Localization...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_NameUniqueError" xml:space="preserve">
+    <value>Tên không phải là duy nhất</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PageGroup_TableRows" xml:space="preserve">
+    <value>Hàng bảng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Parameters_CreateParameters" xml:space="preserve">
+    <value>Báo cáo không có tham số nào được nêu ra. Để tạo ra một tham số mới, hãy nhấp vào thêm tham số.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_AllowMultipleValues" xml:space="preserve">
+    <value>Cho phép nhiều giá trị</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_AllowNull" xml:space="preserve">
+    <value>Giá trị bằng không cho phép</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_EditParameters" xml:space="preserve">
+    <value>Chỉnh sửa tham số</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_GroupExpanded" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_GroupTitleVisible" xml:space="preserve">
+    <value>Hiển thị tiêu đề</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ParametersDialog_SelectAllValues" xml:space="preserve">
+    <value>Chọn tất cả giá trị</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Pivot_AddColumnFields" xml:space="preserve">
+    <value>Thêm cột lĩnh vực ở đây</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Pivot_AddDataItems" xml:space="preserve">
+    <value>Thêm mục dữ liệu ở đây</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Pivot_AddFilterFields" xml:space="preserve">
+    <value>Thêm bộ lọc lĩnh vực ở đây</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Pivot_AddRowFields" xml:space="preserve">
+    <value>Thêm các trường hàng ở đây</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PivotActions_InsertFieldInTheColumnArea" xml:space="preserve">
+    <value>Chèn các lĩnh vực trong khu vực cột</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PivotActions_InsertFieldInTheDataArea" xml:space="preserve">
+    <value>Chèn các lĩnh vực trong khu vực dữ liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PivotActions_InsertFieldInTheFilterArea" xml:space="preserve">
+    <value>Chèn các lĩnh vực trong khu vực bộ lọc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PivotActions_InsertFieldInTheRowArea" xml:space="preserve">
+    <value>Chèn các lĩnh vực trong khu vực hàng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_PlatformNotSupported_Error" xml:space="preserve">
+    <value>Để có thể chạy các nhà thiết kế báo cáo, trình duyệt web khách hàng phải hỗ trợ HTML5.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertBottomMarginBand" xml:space="preserve">
+    <value>Chèn đáy lề Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertDetailBand" xml:space="preserve">
+    <value>Chèn ban nhạc chi tiết</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertDetailReportBand" xml:space="preserve">
+    <value>Chèn chi tiết báo cáo ban nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertGroupFooterBand" xml:space="preserve">
+    <value>Chèn nhóm chân ban nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertGroupHeaderBand" xml:space="preserve">
+    <value>Chèn nhóm tiêu đề ban nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertPageFooterBand" xml:space="preserve">
+    <value>Chèn trang chân ban nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertPageHeaderBand" xml:space="preserve">
+    <value>Chèn ban nhạc Page tiêu đề</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertReportFooterBand" xml:space="preserve">
+    <value>Chèn báo cáo chân trang ban nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertReportHeaderBand" xml:space="preserve">
+    <value>Chèn báo cáo tiêu đề ban nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertSubBand" xml:space="preserve">
+    <value>Chèn tiểu ban nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertTopMarginBand" xml:space="preserve">
+    <value>Chèn hàng đầu Margin ban nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertVerticalDetailBand" xml:space="preserve">
+    <value>Chèn dọc chi tiết nhạc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertVerticalHeaderBand" xml:space="preserve">
+    <value>Chèn Header dọc Band</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertVerticalTotalBand" xml:space="preserve">
+    <value>Chèn nhạc tất cả theo chiều dọc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SaveAs_NamePlaceholder" xml:space="preserve">
+    <value>Nhập tên báo cáo để tiết kiệm...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SaveReport_Error" xml:space="preserve">
+    <value>Không thể lưu báo cáo.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SaveReport_Message_OK" xml:space="preserve">
+    <value>Báo cáo đã được lưu thành công.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptEditor_Toolbar_SelectControl" xml:space="preserve">
+    <value>Chọn kiểm soát...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Error" xml:space="preserve">
+    <value>Không thể để xác nhận script.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Message_ContainsErrors" xml:space="preserve">
+    <value>Có chứa đoạn mã lỗi đã.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ScriptValidation_Message_ValidScript" xml:space="preserve">
+    <value>Các kịch bản là hợp lệ.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SortFields_ThenBy" xml:space="preserve">
+    <value>Sau đó bởi</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SummaryEditor_ArgumentExpression" xml:space="preserve">
+    <value>Argument Expression</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_SummaryEditor_Weight" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteCell" xml:space="preserve">
+    <value>Xóa di động</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DistributeRowsEvenly" xml:space="preserve">
+    <value>Phân phối hàng đều</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertCell" xml:space="preserve">
+    <value>Chèn di động</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertColumnToRight" xml:space="preserve">
+    <value>Insert Column To the Right</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertRowBelow" xml:space="preserve">
+    <value>Chèn hàng phía dưới đây</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ToolBarItemText_ValidateBindings" xml:space="preserve">
+    <value>Xác nhận Bindings</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AddDataSource" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AddGroup_Text" xml:space="preserve">
+    <value>Thêm nhóm</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AddGroupFields" xml:space="preserve">
+    <value>Thêm trường nhóm.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AddGroupFields_Placeholder" xml:space="preserve">
+    <value>Để thêm nhóm vào báo cáo, hãy chọn trường dữ liệu.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AddSummaryFields" xml:space="preserve">
+    <value>Thêm trường tóm tắt.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AddSummaryFields_Placeholder" xml:space="preserve">
+    <value>Để thêm một trường tóm tắt vào báo cáo, chọn một trường dữ liệu (số, ngày giờ hoặc boolean) và đảm bảo rằng nó không được sử dụng trong các nhóm.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AvailableFields" xml:space="preserve">
+    <value>Available Fields</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_BottomMargin" xml:space="preserve">
+    <value>Rớt Margin:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseColumns_Description" xml:space="preserve">
+    <value>Chọn các cột bạn muốn hiển thị trong báo cáo của bạn.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseColumns_Title" xml:space="preserve">
+    <value>Chọn cột để hiển thị trong báo cáo của bạn</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataMember_Description" xml:space="preserve">
+    <value>Bảng hoặc chế độ xem bạn chọn sẽ xác định cột sẽ có sẵn trong báo cáo của bạn.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataMember_Title" xml:space="preserve">
+    <value>Chọn một bảng hoặc xem</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSource_Title" xml:space="preserve">
+    <value>Chọn một nguồn dữ liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ColorScheme" xml:space="preserve">
+    <value>Lược đồ màu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ColorScheme_Description" xml:space="preserve">
+    <value>Chọn một bảng màu của báo cáo.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateGroups_Description" xml:space="preserve">
+    <value>Tạo ra nhiều nhóm, mỗi với một giá trị đơn lĩnh vực, hoặc xác định một số lĩnh vực trong cùng một nhóm.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateNewDataSource" xml:space="preserve">
+    <value>Không, tôi muốn tạo một nguồn dữ liệu SQL</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_DataSourceHeader" xml:space="preserve">
+    <value>Nguồn dữ liệu thuật sĩ</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_DefineReportLayout" xml:space="preserve">
+    <value>Xác định bố cục báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Header" xml:space="preserve">
+    <value>Báo cáo thuật sĩ</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_HorizontalPitch" xml:space="preserve">
+    <value>Ngang sân:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Json_ConnectionName" xml:space="preserve">
+    <value>Connection Name:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_JsonSource_UriValidationError" xml:space="preserve">
+    <value>URI không hợp lệ.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_LabelHeight" xml:space="preserve">
+    <value>Nhãn chiều cao:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_LabelWidth" xml:space="preserve">
+    <value>Nhãn chiều rộng:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_LeftMargin" xml:space="preserve">
+    <value>Trái lề:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_BottomMargin" xml:space="preserve">
+    <value>Dưới cùng:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_Description" xml:space="preserve">
+    <value>Chỉ định cài đặt báo cáo trang.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_PageMargins" xml:space="preserve">
+    <value>Lề trang</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_RightMargin" xml:space="preserve">
+    <value>Quyền:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_TopMargin" xml:space="preserve">
+    <value>Đầu:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSetup_Unit" xml:space="preserve">
+    <value>Đơn vị:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PageSize" xml:space="preserve">
+    <value>Trang kích thước:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PaperSize" xml:space="preserve">
+    <value>Giấy kích thước:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_PaperType" xml:space="preserve">
+    <value>Giấy loại:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Pixel" xml:space="preserve">
+    <value>Pixel</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ProductNumber" xml:space="preserve">
+    <value>Product number:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Report_Style" xml:space="preserve">
+    <value>Chọn một phong cách báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportComplete_Description" xml:space="preserve">
+    <value>Chúng tôi có tất cả các thông tin cần thiết để xử lý các báo cáo.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportComplete_SpecifyTitle" xml:space="preserve">
+    <value>Chỉ định của báo cáo tiêu đề</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportComplete_Title" xml:space="preserve">
+    <value>Các báo cáo là hoàn thành</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_AdjustFieldWidth" xml:space="preserve">
+    <value>Điều chỉnh độ rộng lĩnh vực để tất cả các trường phù hợp vào một trang</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_AlignLeft1" xml:space="preserve">
+    <value>Căn trái 1</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_AlignLeft2" xml:space="preserve">
+    <value>Căn trái 2</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Columnar" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Description" xml:space="preserve">
+    <value>Giao diện báo cáo chỉ định cách mà trong đó trường đã chọn dữ liệu được sắp xếp trên trang web riêng lẻ.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Justified" xml:space="preserve">
+    <value>Chứng minh</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Outline1" xml:space="preserve">
+    <value>Phác thảo 1</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Outline2" xml:space="preserve">
+    <value>Phác thảo 2</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Portrait" xml:space="preserve">
+    <value>Gương điển hình</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Stepped" xml:space="preserve">
+    <value>Bước</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Tabular" xml:space="preserve">
+    <value>Bảng</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Title" xml:space="preserve">
+    <value>Chọn một giao diện báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Compact" xml:space="preserve">
+    <value>Nhỏ gọn</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Corporate" xml:space="preserve">
+    <value>Công ty</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Description" xml:space="preserve">
+    <value>Phong cách báo cáo chỉ định sự xuất hiện của báo cáo của bạn.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Formal" xml:space="preserve">
+    <value>Chính thức</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportTitle_Placeholder" xml:space="preserve">
+    <value>Loại tiêu đề ở đây...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_RightMargin" xml:space="preserve">
+    <value>Right Margin:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectDataSource" xml:space="preserve">
+    <value>Chọn nguồn dữ liệu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectedFields" xml:space="preserve">
+    <value>Lĩnh vực chọn lọc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectLabelType" xml:space="preserve">
+    <value>Chọn loại nhãn.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType" xml:space="preserve">
+    <value>Chọn loại báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_CrossTabReport" xml:space="preserve">
+    <value>Báo cáo Cross-tab</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_EmptyReport" xml:space="preserve">
+    <value>Báo cáo sản phẩm nào</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_TableReport" xml:space="preserve">
+    <value>Bảng báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_Title" xml:space="preserve">
+    <value>Chọn một loại báo cáo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectReportType_VerticalReport" xml:space="preserve">
+    <value>Báo cáo theo chiều dọc</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SpecifyPageSettings" xml:space="preserve">
+    <value>Chỉ định cài đặt trang</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SpecifyPageSettingsColorScheme" xml:space="preserve">
+    <value>Chỉ định cài đặt trang và lược đồ màu báo cáo.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SpecifyReportTitle" xml:space="preserve">
+    <value>Chỉ định tiêu đề báo cáo.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Description" xml:space="preserve">
+    <value>Những gì chức năng tóm tắt nào bạn thích để tính toán?</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_IgnoreNullValues" xml:space="preserve">
+    <value>Bỏ qua giá trị null</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Title" xml:space="preserve">
+    <value>Chọn tùy chọn tóm tắt</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_TopMargin" xml:space="preserve">
+    <value>Top Margin:</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_VerticalPitch" xml:space="preserve">
+    <value>Dọc Pitch:</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_EnterText" xml:space="preserve">
+    <value>Nhập văn bản để tìm thấy trong tài liệu.</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindNext" xml:space="preserve">
+    <value>Tìm tiếp theo</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Finished" xml:space="preserve">
+    <value>Kết thúc tìm kiếm tài liệu.</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_FullScreen" xml:space="preserve">
+    <value>Toàn màn hình</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToDisk" xml:space="preserve">
+    <value>Xuất khẩu một báo cáo và lưu nó vào đĩa</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AccessDenied_Error" xml:space="preserve">
+    <value>Truy cập bị từ chối. Bạn không được cấp phép để thực hiện thao tác này.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaActivateEditor" xml:space="preserve">
+    <value>nhấn Enter hoặc Space để kích hoạt trình chỉnh</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaDocumentProgress" xml:space="preserve">
+    <value>{0}% Tài</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaDocumentReady" xml:space="preserve">
+    <value>sẵn</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaLabelPagerCombobox" xml:space="preserve">
+    <value>Trang Xem trước</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaLabelPreviewPage" xml:space="preserve">
+    <value>Báo cáo Máy {0} trang của {1}</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaSearchNoResults" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaSearchResultsAvailable" xml:space="preserve">
+    <value>sẵn</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaSearchString" xml:space="preserve">
+    <value>Bạn đã tìm kiếm {0}</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AriaSwitchToDocumentReadingMode" xml:space="preserve">
+    <value>liệu.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AsyncExportCloseWarning" xml:space="preserve">
+    <value>Không đóng tab này để có được các tập tin kết quả.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_AsyncExportTabTitle" xml:space="preserve">
+    <value>Xuất khẩu...</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_CustomDocumentOperationsDenied_Error" xml:space="preserve">
+    <value>Thao tác đã yêu cầu tài liệu không thể được thực hiện.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DataRetrievalException_Message" xml:space="preserve">
+    <value>Lỗi khi cố gắng để đưa các datasource.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentBuilding" xml:space="preserve">
+    <value>Tài liệu xây dựng...</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentCreationCancelled" xml:space="preserve">
+    <value>Việc tạo tài liệu đã bị hủy bỏ do lỗi hệ phục vụ</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentCreationError" xml:space="preserve">
+    <value>Không thể tạo một tài liệu cho báo cáo hiện tại</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentNotFound_Error" xml:space="preserve">
+    <value>Các tài liệu không được tìm thấy. Xin vui lòng thử mở các tài liệu một lần nữa.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DrillThroughError" xml:space="preserve">
+    <value>Khoan thông qua các hoạt động không thành công</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportError" xml:space="preserve">
+    <value>Lỗi đã xảy ra trong quá trình xuất khẩu</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportStatusError" xml:space="preserve">
+    <value>Lỗi trên lấy trạng thái xuất khẩu:</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetDocumentDataError" xml:space="preserve">
+    <value>Không thể có được tài liệu bổ sung dữ liệu cho tài liệu hiện thời</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetExportStatusError" xml:space="preserve">
+    <value>Lỗi lấy trạng thái xuất khẩu</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetLookUpValuesError" xml:space="preserve">
+    <value>Không thể cung cấp giá trị lọc tra cứu để một trình soạn thảo báo cáo tham số</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_InitializationError" xml:space="preserve">
+    <value>Khởi tạo xem trước báo cáo đã không thành công</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_MultiValueEditor_AllSelected" xml:space="preserve">
+    <value>Tất cả các lựa chọn ({0})</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_OpenReport_Error" xml:space="preserve">
+    <value>Để hiển thị một báo cáo, chỉ có một trong các hành động sau đây có thể được thực hiện tại một thời điểm:
+-việc phân công các tài sản ASPxWebDocumentViewer.ReportSourceId;
+-gọi phương thức ASPxWebDocumentViewer.OpenReport;
+-gọi phương thức ASPxWebDocumentViewer.OpenReportXmlLayout.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_PlatformNotSupported_Error" xml:space="preserve">
+    <value>Để có thể chạy xem tài liệu, trình duyệt web khách hàng phải hỗ trợ HTML5.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ReportNotFound_Error" xml:space="preserve">
+    <value>Báo cáo không được tìm thấy. Xin vui lòng thử mở báo cáo một lần nữa.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchError" xml:space="preserve">
+    <value>Lỗi đã xảy ra trong quá trình tìm kiếm</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchPageNumberText" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+</root>

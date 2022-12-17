@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseReportType_Description" xml:space="preserve">
+    <value>Chọn loại báo cáo bạn muốn tạo.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ReportComplete_Description" xml:space="preserve">
+    <value>Chúng tôi có tất cả các thông tin cần thiết để xử lý các báo cáo.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_AddGroupingLvl_Description" xml:space="preserve">
+    <value>Tạo ra nhiều nhóm, mỗi với một giá trị đơn lĩnh vực, hoặc xác định một số lĩnh vực trong cùng một nhóm.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseColumns_Description" xml:space="preserve">
+    <value>Chọn các cột bạn muốn hiển thị trong báo cáo của bạn.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseDSType_Description" xml:space="preserve">
+    <value>Chọn kiểu nguồn dữ liệu.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseReportColorSchemePage_Description" xml:space="preserve">
+    <value>Chọn một bảng màu của báo cáo.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseReportTemplate_Description" xml:space="preserve">
+    <value>Chọn một bản mẫu cho báo cáo của bạn.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseSummaryOptions_Description" xml:space="preserve">
+    <value>Những gì chức năng tóm tắt nào bạn thích để tính toán?</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseTableOrView_Description" xml:space="preserve">
+    <value>Bảng hoặc chế độ xem bạn chọn sẽ xác định cột sẽ có sẵn trong báo cáo của bạn.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ConfigureCrossTabPage_Description" xml:space="preserve">
+    <value>Thả các trường vào các vùng tab chéo để xác định bố cục của báo cáo.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ConfigureReportPageSettings_Description" xml:space="preserve">
+    <value>Chỉ định cài đặt báo cáo trang.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ConfigureReportTemplateQuery_Description" xml:space="preserve">
+    <value>Chọn một trong các thủ tục bàn/xem/lưu trữ có sẵn hoặc tạo một tuỳ chỉnh truy vấn.
+Giá trị trường mẫu có thể tĩnh hoặc bị ràng buộc với dữ liệu các lĩnh vực được lựa chọn trên Trang này.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_LabelInformation_Description" xml:space="preserve">
+    <value>Chọn một trong các nhãn được xác định trước bằng cách xác định các sản phẩm và ID của nó</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_LabelOptions_Description" xml:space="preserve">
+    <value>Bạn có thể điều chỉnh của nhãn tham số ở đây nếu yêu cầu.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_AlignLeft1" xml:space="preserve">
+    <value>Căn trái 1</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_AlignLeft2" xml:space="preserve">
+    <value>Căn trái 2</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Columnar" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Justified" xml:space="preserve">
+    <value>Chứng minh</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Outline1" xml:space="preserve">
+    <value>Phác thảo 1</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Outline2" xml:space="preserve">
+    <value>Phác thảo 2</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Stepped" xml:space="preserve">
+    <value>Bước</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Tabular" xml:space="preserve">
+    <value>Bảng</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MapReportTemplateFields_Description" xml:space="preserve">
+    <value>Bản đồ dữ liệu nguồn trường để các trường có sẵn trong các mẫu.
+Bạn có thể sử dụng kéo và thả hoặc chỉ định các giá trị yêu cầu trong danh sách thả xuống mẫu lĩnh vực giá trị.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MapReportTemplateFieldsToStaticValues_Description" xml:space="preserve">
+    <value>Thiết lập các lĩnh vực có sẵn trong các bản mẫu để giá trị tĩnh.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MasterDetailAddGroupingLevel_Description" xml:space="preserve">
+    <value>Nhóm dữ liệu trong các báo cáo đã chọn. Bạn có thể chỉ định một hoặc nhiều lĩnh vực cho mỗi nhóm.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MasterDetailChooseSummaryOptions_Description" xml:space="preserve">
+    <value>Chọn tóm tắt chức năng để tính toán trong báo cáo.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MasterDetailSelectReportData_Description" xml:space="preserve">
+    <value>Chọn một hoặc nhiều dữ liệu thành viên chỉ định cho các báo cáo và các chi tiết của báo cáo.
+Chọn các trường để hiển thị trong các báo cáo này.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ReportLayout_Description" xml:space="preserve">
+    <value>Giao diện báo cáo chỉ định cách mà trong đó trường đã chọn dữ liệu được sắp xếp trên trang web riêng lẻ.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ReportStyle_Description" xml:space="preserve">
+    <value>Phong cách báo cáo chỉ định sự xuất hiện của báo cáo của bạn.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ReportStyle_UnexpectedBehavior" xml:space="preserve">
+    <value>Hành vi bất ngờ: không ai trong số kiểu được chọn.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_SelectCrossTabDataMemberPage_Description" xml:space="preserve">
+    <value>chọn một thành viên dữ liệu.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_SelectReportData_Description" xml:space="preserve">
+    <value>Chọn báo cáo trường dữ liệu thành viên và dữ liệu mà sẽ cung cấp dữ liệu cho báo cáo của bạn.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_SelectReportTemplateDataMember_Description" xml:space="preserve">
+    <value>Chọn các thành viên dữ liệu báo cáo.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_SpecifyReportTemplateOptions_Description" xml:space="preserve">
+    <value>Chỉ định các tùy chọn báo cáo.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_WindowTitleDatasource" xml:space="preserve">
+    <value>Nguồn dữ liệu thuật sĩ</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_WindowTitleReport" xml:space="preserve">
+    <value>Báo cáo thuật sĩ</value>
+  </data>
+</root>

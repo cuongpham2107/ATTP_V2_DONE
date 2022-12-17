@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XtraPdfViewerStringId.FileRibbonGroupCaption" xml:space="preserve">
+    <value>Tệp</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandFindTextCaption" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSearchCaption" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageErrorCaption" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOpenFileCaption" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPrintFileCaption" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandViewExactZoomListCaption" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ZoomRibbonGroupCaption" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomInCaption" xml:space="preserve">
+    <value>Phóng To</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomOutCaption" xml:space="preserve">
+    <value>Thu nhỏ</value>
+  </data>
+  <data name="XtraPdfViewerStringId.NavigationRibbonGroupCaption" xml:space="preserve">
+    <value>Điều hướng</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandCopyCaption" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandHandToolCaption" xml:space="preserve">
+    <value>Công cụ Bàn tay</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandHandToolDescription" xml:space="preserve">
+    <value>Công cụ Bàn tay</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandExportFormDataCaption" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPrintPagesCaption" xml:space="preserve">
+    <value>In trang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FindRibbonGroupCaption" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DeleteAnnotationCommandCaption" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandNextPageCaption" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextUnderlineCommandCaption" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextCommentRibbonPageGroupCaption" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPreviousPageCaption" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSecurityWarningCaption" xml:space="preserve">
+    <value>Cảnh báo bảo mật</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionListCreateRibbonTransaction" xml:space="preserve">
+    <value>Tạo Ribbon</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodCreateRibbon" xml:space="preserve">
+    <value>Tạo Ribbon</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSelectAllCaption" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSelectAllDescription" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextStrikethroughCommandCaption" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom100Caption" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageIncorrectNavigationPaneVisibility" xml:space="preserve">
+    <value>Tầm nhìn ngăn điều hướng hiện tại không thể được thiết lập để PdfNavigationPaneVisibility.Default.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageIncorrectPassword" xml:space="preserve">
+    <value>Mật khẩu là không chính xác. Hãy chắc chắn rằng Caps Lock chưa được kích hoạt.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ShowAnnotationPropertiesCommandCaption" xml:space="preserve">
+    <value>Thuộc tính...</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextUnderlineCommandDescription" xml:space="preserve">
+    <value>Gạch dưới văn bản.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.EditCommentMenuItemCaption" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommentStatusNoneCaption" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="XtraPdfViewerStringId.RemoveCommentMenuItemCaption" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SortCommentsByDateCaption" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SortCommentsByPageCaption" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FilterCommentsByTypeCaption" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SortCommentsByTypeCaption" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FilterCommentsByCheckmarkStatusCaption" xml:space="preserve">
+    <value>Đã đánh dấu</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SortCommentsCheckedStatusCaption" xml:space="preserve">
+    <value>Đã đánh dấu</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ClearFilterCommentsCaption" xml:space="preserve">
+    <value>Xóa tất cả</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FilterCommentsByAuthorCaption" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SortCommentsByAuthorCaption" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FilterCommentsByStatusCaption" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FilterCommentsByNoneStatusCaption" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ShowCommentTreeEditorCaption" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ExpandCommentTreeCaption" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="XtraPdfViewerStringId.NoteCommentRibbonPageGroupCaption" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="XtraPdfViewerStringId.BarCaption" xml:space="preserve">
+    <value>Trình xem PDF</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CollapseAllCommentTreeCaption" xml:space="preserve">
+    <value>Thu gọn tất cả</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandCopyDescription" xml:space="preserve">
+    <value>PDF sao chép nội dung vào clipboard</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandEnlargePageThumbnailsCaption" xml:space="preserve">
+    <value>Phóng to thu nhỏ trang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandEnlargePageThumbnailsDescription" xml:space="preserve">
+    <value>Phóng to thu nhỏ trang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandExportFormDataDescription" xml:space="preserve">
+    <value>xuất dữ liệu biểu mẫu vào một tệp.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandFindTextDescription" xml:space="preserve">
+    <value>Tìm văn bản.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandImportFormDataCaption" xml:space="preserve">
+    <value>Nhập khẩu</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandImportFormDataDescription" xml:space="preserve">
+    <value>Nhập khẩu các mẫu dữ liệu từ một tập tin.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandMarqueeZoomCaption" xml:space="preserve">
+    <value>Marquee phóng to</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandMarqueeZoomDescription" xml:space="preserve">
+    <value>Marquee phóng to</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandNextPageDescription" xml:space="preserve">
+    <value>Hiển thị tiếp theo trang.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandNextViewCaption" xml:space="preserve">
+    <value>Tiếp theo xem</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandNextViewDescription" xml:space="preserve">
+    <value>Tiếp theo xem</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOpenFileDescription" xml:space="preserve">
+    <value>Mở một tập tin PDF.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesCollapseTopLevelCaption" xml:space="preserve">
+    <value>Sự sụp đổ quốc gia Bookmarks</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesExpandCurrentCaption" xml:space="preserve">
+    <value>Mở rộng đánh dấu hiện tại</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesExpandTopLevelCaption" xml:space="preserve">
+    <value>Mở rộng quốc gia đánh dấu</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesGotoCaption" xml:space="preserve">
+    <value>Đi đến dấu trang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesHideAfterUseCaption" xml:space="preserve">
+    <value>Ẩn sau khi sử dụng</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesPrintSectionsCaption" xml:space="preserve">
+    <value>Print section(s)</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesTextSizeCaption" xml:space="preserve">
+    <value>Cỡ chữ</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesTextSizeToLargeCaption" xml:space="preserve">
+    <value>LARGE</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesTextSizeToMediumCaption" xml:space="preserve">
+    <value>Phương tiện</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesTextSizeToSmallCaption" xml:space="preserve">
+    <value>SMALL</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandOutlinesWrapLongLinesCaption" xml:space="preserve">
+    <value>Wrap long bookmarks</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPreviousPageDescription" xml:space="preserve">
+    <value>Hiển thị trước trang.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPreviousViewCaption" xml:space="preserve">
+    <value>Previous view</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPreviousViewDescription" xml:space="preserve">
+    <value>Previous view</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandPrintFileDescription" xml:space="preserve">
+    <value>In tệp.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandReducePageThumbnailsCaption" xml:space="preserve">
+    <value>Giảm trang thumbnail</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandReducePageThumbnailsDescription" xml:space="preserve">
+    <value>Giảm trang thumbnail</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandRotatePageClockwiseCaption" xml:space="preserve">
+    <value>Xoay chiều kim đồng hồ</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandRotatePageCounterclockwiseCaption" xml:space="preserve">
+    <value>Xoay ngược</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSaveAsFileCaption" xml:space="preserve">
+    <value>Lưu như</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSaveAsFileDescription" xml:space="preserve">
+    <value>Tập tin tiết kiệm the PDF.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSelectToolCaption" xml:space="preserve">
+    <value>Chọn công cụ</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSelectToolDescription" xml:space="preserve">
+    <value>Chọn công cụ</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetActualSizeZoomModeCaption" xml:space="preserve">
+    <value>Kích thước thực tế</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetFitVisibleZoomModeCaption" xml:space="preserve">
+    <value>Phù hợp có thể nhìn thấy</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetFitWidthZoomModeCaption" xml:space="preserve">
+    <value>Phù hợp với chiều rộng</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetPageLevelZoomModeCaption" xml:space="preserve">
+    <value>Phóng to lên cấp trang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetPageNumberCaption" xml:space="preserve">
+    <value>Page Number</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetPageNumberDescription" xml:space="preserve">
+    <value>Thay đổi số trang và điều hướng đến trang.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandSetPageNumberLabelFormat" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandShowDocumentProperties" xml:space="preserve">
+    <value>Thuộc tính tài liệu</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandViewExactZoomListDescription" xml:space="preserve">
+    <value>Thay đổi mức thu phóng của tài liệu PDF.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom10Caption" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom125Caption" xml:space="preserve">
+    <value>125%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom150Caption" xml:space="preserve">
+    <value>150%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom200Caption" xml:space="preserve">
+    <value>200%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom25Caption" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom400Caption" xml:space="preserve">
+    <value>400%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom500Caption" xml:space="preserve">
+    <value>500%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom50Caption" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoom75Caption" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomInDescription" xml:space="preserve">
+    <value>Phóng to để có được một cái nhìn cận cảnh của các tài liệu PDF.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomInShortcutCaption" xml:space="preserve">
+    <value>(Ctrl + cộng với)</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomOutDescription" xml:space="preserve">
+    <value>Thu nhỏ để xem chi tiết của trang ở một kích thước giảm.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommandZoomOutShortcutCaption" xml:space="preserve">
+    <value>(Ctrl + dấu trừ)</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommentBarCaption" xml:space="preserve">
+    <value>Bình luận</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommentStatusAcceptedCaption" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommentStatusCancelledCaption" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommentStatusCompletedCaption" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="XtraPdfViewerStringId.CommentStatusRejectedCaption" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DeleteAnnotationCommandDescription" xml:space="preserve">
+    <value>Xóa chú thích chọn.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionListCreateAllBarsTransaction" xml:space="preserve">
+    <value>Tạo PDF Viewer quán bar</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionListCreateBarsTransaction" xml:space="preserve">
+    <value>Tạo ra quán bar</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionListCreateBarTransaction" xml:space="preserve">
+    <value>Tạo ra "{0}" thanh</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodCreateAllBars" xml:space="preserve">
+    <value>Tạo tất cả các quán bar</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodCreateBar" xml:space="preserve">
+    <value>Tạo ra "{0}" thanh</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodCreateBars" xml:space="preserve">
+    <value>Tạo ra quán bar</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodDockInParentContainer" xml:space="preserve">
+    <value>Cầu tàu ở phụ huynh container</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodLoadPdf" xml:space="preserve">
+    <value>Tải PDF tập tin...</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodUndockInParentContainer" xml:space="preserve">
+    <value>Undock trong thùng chứa phụ huynh</value>
+  </data>
+  <data name="XtraPdfViewerStringId.DesignerActionMethodUnloadPdf" xml:space="preserve">
+    <value>Dỡ bỏ PDF tập tin</value>
+  </data>
+  <data name="XtraPdfViewerStringId.EditCommentAcceptedBy" xml:space="preserve">
+    <value>Accepted by:</value>
+  </data>
+  <data name="XtraPdfViewerStringId.EditCommentCancelledBy" xml:space="preserve">
+    <value>Cancelled by:</value>
+  </data>
+  <data name="XtraPdfViewerStringId.EditCommentCompletedBy" xml:space="preserve">
+    <value>Completed by:</value>
+  </data>
+  <data name="XtraPdfViewerStringId.EditCommentNullValuePrompt" xml:space="preserve">
+    <value>Add a comment...</value>
+  </data>
+  <data name="XtraPdfViewerStringId.EditCommentRejectedBy" xml:space="preserve">
+    <value>Rejected by:</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ExpandAllCommentTreeCaption" xml:space="preserve">
+    <value>Mở rộng tất cả</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FilterCommentsCountCaption" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FilterCommentsHideAllCaption" xml:space="preserve">
+    <value>Hide All</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FindControlCaseSensitive" xml:space="preserve">
+    <value>Trường hợp nhạy cảm</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FindControlWholeWordsOnly" xml:space="preserve">
+    <value>Toàn bộ từ chỉ</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FormDataBarCaption" xml:space="preserve">
+    <value>Các hình thức tương tác</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FormDataFileFilter" xml:space="preserve">
+    <value>FDF tập tin | *. FDF | Tệp XFDF | *. XFDF | Tệp XML | *. xml | Tệp TXT | *. txt</value>
+  </data>
+  <data name="XtraPdfViewerStringId.FormDataRibbonPageGroupCaption" xml:space="preserve">
+    <value>Dữ liệu biểu mẫu</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageAddCommandConstructorError" xml:space="preserve">
+    <value>không thể tìm thấy một nhà xây dựng với một tham số loại PdfViewer trong lớp {0}</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageClipboardError" xml:space="preserve">
+    <value>Không thể sao chép dữ liệu vào bảng tạm.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageCurrentPageNumberOutOfRange" xml:space="preserve">
+    <value>số trang hiện tại cần phải lớn hơn 0.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageDocumentClosing" xml:space="preserve">
+    <value>Bạn có muốn lưu các thay đổi cho tài liệu trước khi đóng nó?</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageDocumentClosingCaption" xml:space="preserve">
+    <value>Tài liệu đóng</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageDocumentIsProtected" xml:space="preserve">
+    <value>{0} đã được bảo vệ</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageExportError" xml:space="preserve">
+    <value>Lỗi xảy ra trong khi xuất khẩu dữ liệu biểu mẫu từ các tài liệu.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageImportError" xml:space="preserve">
+    <value>Không thể nhập dữ liệu được chỉ định vào các hình thức tài liệu.
+{0}
+ Vui lòng bảo đảm rằng dữ liệu được cung cấp đáp ứng kỹ thuật {1}.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageIncorrectMaxPrintingDpi" xml:space="preserve">
+    <value>Giá trị DPI in tối đa phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageIncorrectPageNumber" xml:space="preserve">
+    <value>Số trang cần phải lớn hơn 0, và nhỏ hơn hoặc bằng số lượng trang tài liệu.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageLoadingError" xml:space="preserve">
+    <value>Không thể tải các tài liệu PDF bởi vì các tập tin sau đây là không có sẵn hoặc nó không phải là một tài liệu PDF hợp lệ.
+{0}
+Xin vui lòng đảm bảo rằng các ứng dụng có thể truy cập vào tập tin này và rằng nó là hợp lệ, hoặc chỉ định tệp khác.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessagePrintError" xml:space="preserve">
+    <value>Không thể in tài liệu. Xin vui lòng liên hệ với quản trị hệ thống của bạn.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSaveAsError" xml:space="preserve">
+    <value>Không thể lưu tài liệu PDF với tên sau: {0}.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSaveAttachmentError" xml:space="preserve">
+    <value>Không thể lưu tập tin đính kèm với tên tập tin sau đây: {0}.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSearchFinished" xml:space="preserve">
+    <value>Trình xem PDF đã hoàn tất tìm kiếm tài liệu. Không tìm thấy kết quả phù hợp nữa.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSearchFinishedNoMatchesFound" xml:space="preserve">
+    <value>Trình xem PDF đã hoàn tất tìm kiếm tài liệu. Không tìm thấy kết quả phù hợp nữa.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSecurityWarningFileAttachmentOpening" xml:space="preserve">
+    <value>Các tài liệu yêu cầu để truy cập vào một ứng dụng bên ngoài để mở tệp này:
+'{0}'
+Bạn có muốn mở nó?</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSecurityWarningShellExecuting" xml:space="preserve">
+    <value>Tài liệu yêu cầu thực hiện hành động sau:
+'{0}'.
+Tiến hành?</value>
+  </data>
+  <data name="XtraPdfViewerStringId.MessageSecurityWarningUriOpening" xml:space="preserve">
+    <value>Tài liệu đang cố gắng truy cập một nguồn lực bên ngoài bằng cách sử dụng URL sau:
+'{0}'
+Bạn có muốn mở nó Tuy nhiên?</value>
+  </data>
+  <data name="XtraPdfViewerStringId.NavigationPaneAttachmentsPageCaption" xml:space="preserve">
+    <value>Tập tin đính kèm</value>
+  </data>
+  <data name="XtraPdfViewerStringId.NavigationPaneCommentsPageCaption" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="XtraPdfViewerStringId.NavigationPaneOutlinesPageCaption" xml:space="preserve">
+    <value>Dấu trang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.NavigationPaneThumbnailsPageCaption" xml:space="preserve">
+    <value>Hình thu nhỏ của trang</value>
+  </data>
+  <data name="XtraPdfViewerStringId.PageSize" xml:space="preserve">
+    <value>{0:0.00} x {1:0.00} trong</value>
+  </data>
+  <data name="XtraPdfViewerStringId.PDFFileFilter" xml:space="preserve">
+    <value>Tập tin PDF | *. PDF</value>
+  </data>
+  <data name="XtraPdfViewerStringId.PRNFileFilter" xml:space="preserve">
+    <value>Các tập tin có in | *. PRN | Tất cả các tệp | *. *</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SelectionRibbonGroupCaption" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SetCommentStatusMenuItemCaption" xml:space="preserve">
+    <value>Set status</value>
+  </data>
+  <data name="XtraPdfViewerStringId.ShowAnnotationPropertiesCommandDescription" xml:space="preserve">
+    <value>Cho thấy hộp thoại thuộc tính chú thích cho chú thích chọn.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SortCommentsByCheckmarkStatusCaption" xml:space="preserve">
+    <value>Check Status</value>
+  </data>
+  <data name="XtraPdfViewerStringId.SortCommentsUncheckedStatusCaption" xml:space="preserve">
+    <value>unchecked</value>
+  </data>
+  <data name="XtraPdfViewerStringId.StickyNoteCommandCaption" xml:space="preserve">
+    <value>Sticky note</value>
+  </data>
+  <data name="XtraPdfViewerStringId.StickyNoteCommandDescription" xml:space="preserve">
+    <value>Thêm ghi chú dính.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextHighlightCommandCaption" xml:space="preserve">
+    <value>Làm nổi bật</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextHighlightTextCommandDescription" xml:space="preserve">
+    <value>Văn bản nổi bật.</value>
+  </data>
+  <data name="XtraPdfViewerStringId.TextStrikethroughCommandDescription" xml:space="preserve">
+    <value>Văn bản gạch ngang.</value>
+  </data>
+</root>

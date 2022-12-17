@@ -169,27 +169,11 @@ namespace AttpV2.Module.BusinessObjects
                 return null;
             }
         }
-        //private string giayChungNhan;
-        //[XafDisplayName("Giấy chứng nhận đã cấp")]
-        //[ModelDefault("AlowEdit", "False")]
-        //public string GiayChungNhanDaCap
-        //{
-        //    get
-        //    {
-        //        if(!IsSaving || !IsLoading)
-        //        {
-        //            if(CoSoSanXuatKinhDoanh != null)
-        //            {
-        //                return CoSoSanXuatKinhDoanh.GiayChungNhan;
-        //            }
-        //        }
-        //        return giayChungNhan;
-        //    }
-        //    set => SetPropertyValue(nameof(GiayChungNhanDaCap), ref giayChungNhan, value);
-        //}
+    
 
         GiayChungNhan _giayChungNhan;
         [XafDisplayName("Thu hồi giấy chứng nhận")]
+        [DataSourceProperty(nameof(GiayChungNhans))]
         [RuleRequiredField("Bắt buộc phải có ThuHoiGCN.GiayChungNhan", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public GiayChungNhan GiayChungNhan
         {
@@ -213,6 +197,7 @@ namespace AttpV2.Module.BusinessObjects
         ThamDinh _thamDinh;
         [XafDisplayName("Căn cứ Thu hồi")]
         [Association("ThamDinh-ThuHoiGCNs")]
+        [DataSourceProperty(nameof(ThamDinhs))]
         [RuleRequiredField("Bắt buộc phải có ThuHoiGCN.ThamDinh", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public ThamDinh ThamDinh
         {
@@ -253,7 +238,6 @@ namespace AttpV2.Module.BusinessObjects
     
 
         [XafDisplayName("Lý do thu hồi")]
-
         public string LyDoThuHoi
         {
             get => lyDoThuHoi;
@@ -318,6 +302,28 @@ namespace AttpV2.Module.BusinessObjects
         #endregion
 
         #region Association
+
+        [Browsable(false)]
+        public XPCollection<ThamDinh> ThamDinhs
+        {
+            get
+            {
+                var result = Session.Query<ThamDinh>().Where(i => i.CoSoSanXuatKinhDoanh == this.CoSoSanXuatKinhDoanh);
+                XPCollection<ThamDinh> thamdinhs = new XPCollection<ThamDinh>(Session, result);
+                return thamdinhs;
+            }
+        }
+
+        [Browsable(false)]
+        public XPCollection<GiayChungNhan> GiayChungNhans
+        {
+            get
+            {
+                var result = Session.Query<GiayChungNhan>().Where(i => i.CoSoSanXuatKinhDoanh == this.CoSoSanXuatKinhDoanh);
+                XPCollection<GiayChungNhan> gcns = new XPCollection<GiayChungNhan>(Session, result);
+                return gcns;
+            }
+        }
 
         [Association("ThuHoiGCN-FileDLs")]
         [XafDisplayName("File Dữ liệu")]

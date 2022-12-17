@@ -1,0 +1,1455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessType_Create" xml:space="preserve">
+    <value>Tạo</value>
+  </data>
+  <data name="AccessType_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DataModel_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Document_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Group_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Job_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Permissions_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="SharedStrings_Table_DeleteButton" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="AccessType_Read" xml:space="preserve">
+    <value>Đọc</value>
+  </data>
+  <data name="AppSection_Users" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="Branding_CustomTitle" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Categories_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="DataModel_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Document_List_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Document_Rename_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Entity_Selector_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Job_List_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_Username" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="JobWizard_GeneralPage_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="ServerSettings_OpenIDConnect_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="ServerSettings_WsFederation_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="ChangePassword_NewPassword" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="DataModel_Columns" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="DataModel_Database" xml:space="preserve">
+    <value>Cơ sở dữ liệu</value>
+  </data>
+  <data name="DataModel_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Document_Rename_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="DataModel_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="Job_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="SharedStrings_Table_EditButton" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="DataModel_Fields" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="DataModel_Password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="ServerSettings_Email_Password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="DataModel_Tables" xml:space="preserve">
+    <value>Bảng</value>
+  </data>
+  <data name="DataModel_WindowsAuthentication" xml:space="preserve">
+    <value>Cửa sổ</value>
+  </data>
+  <data name="ServerSettings_AuthenticationType_Windows" xml:space="preserve">
+    <value>Cửa sổ</value>
+  </data>
+  <data name="Dialog_Apply" xml:space="preserve">
+    <value>Áp dụng</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="SharedStrings_Table_CancelButton" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Permissions_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Dialog_OK" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="Dialog_Save" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="SharedStrings_Table_SaveButton" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="Document_Filter_Reports" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="Document_List_Report" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="Document_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="JobWizard_GeneralPage_Document_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="Document_Rename" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="Group_Permissions" xml:space="preserve">
+    <value>Quyền truy cập</value>
+  </data>
+  <data name="Permissions_Title" xml:space="preserve">
+    <value>Quyền truy cập</value>
+  </data>
+  <data name="User_Permissions" xml:space="preserve">
+    <value>Quyền truy cập</value>
+  </data>
+  <data name="Job_List_Document" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="JobWizard_GeneralPage_Document" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_Email" xml:space="preserve">
+    <value>Thư điện tử</value>
+  </data>
+  <data name="JobWizard_Finish" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="JobWizard_GeneralPage_DataMember" xml:space="preserve">
+    <value>Thành phần Dữ liệu</value>
+  </data>
+  <data name="JobWizard_Next" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="JobWizard_Previous" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="JobWizard_SchedulePage_StartDate" xml:space="preserve">
+    <value>Ngày bắt đầu</value>
+  </data>
+  <data name="Permissions_Group" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="Permissions_New" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Format_Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="ThemeSettings_TextColor" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="ServerSettings_General_Language" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="SharedStrings_Loading" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="SharedStrings_SelectAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="SharedStrings_YesNoValues_No" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="SharedStrings_YesNoValues_Yes" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="ThemeSettings_ResetButton" xml:space="preserve">
+    <value>Thiết lập lại</value>
+  </data>
+  <data name="User_AccountStatus_Activate" xml:space="preserve">
+    <value>Kích hoạt</value>
+  </data>
+  <data name="User_Edit_Groups" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="User_List_FullName" xml:space="preserve">
+    <value>Tên Đầy đủ</value>
+  </data>
+  <data name="Dialog_No" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="Dialog_Yes" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="ThemeSettings_ReportDesigner" xml:space="preserve">
+    <value>Thiết kế Báo cáo</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_Query" xml:space="preserve">
+    <value>Truy vấn</value>
+  </data>
+  <data name="SharedStrings_Group_Mode" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="AccessType_Modify" xml:space="preserve">
+    <value>Sửa đổi</value>
+  </data>
+  <data name="Add_Category" xml:space="preserve">
+    <value>Thêm thể loại</value>
+  </data>
+  <data name="AppSection_DataModels" xml:space="preserve">
+    <value>Mô hình dữ liệu</value>
+  </data>
+  <data name="AppSection_Documents" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="AppSection_LogOut" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="AppSection_Scheduling" xml:space="preserve">
+    <value>Lập kế hoạch</value>
+  </data>
+  <data name="Branding_CustomLogo" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="Branding_DeleteImage" xml:space="preserve">
+    <value>Xóa hình ảnh</value>
+  </data>
+  <data name="Branding_SelectImage" xml:space="preserve">
+    <value>Chọn hình ảnh</value>
+  </data>
+  <data name="Branding_SiteURL" xml:space="preserve">
+    <value>URL trang web</value>
+  </data>
+  <data name="Branding_SiteURL_Placeholder" xml:space="preserve">
+    <value>http://www.yourcompany.com</value>
+  </data>
+  <data name="Categories_Delete" xml:space="preserve">
+    <value>Xóa danh mục</value>
+  </data>
+  <data name="Categories_Delete_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xoá vĩnh viễn các mục này?</value>
+  </data>
+  <data name="Categories_Delete_DialogTitle" xml:space="preserve">
+    <value>Xóa mục</value>
+  </data>
+  <data name="Categories_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa bỏ các danh mục đã chọn không?</value>
+  </data>
+  <data name="Categories_DialogTitle" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="Categories_NewButton" xml:space="preserve">
+    <value>Thể loại mới</value>
+  </data>
+  <data name="Category_Delete" xml:space="preserve">
+    <value>Xóa mục</value>
+  </data>
+  <data name="Category_NumberSelected" xml:space="preserve">
+    <value>{0} loại được chọn</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword" xml:space="preserve">
+    <value>Mật khẩu hiện thời</value>
+  </data>
+  <data name="ChangePassword_Title" xml:space="preserve">
+    <value>Thay đổi mật khẩu</value>
+  </data>
+  <data name="Dashboard_AutoRefresh" xml:space="preserve">
+    <value>Tự động làm mới</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_10Minutes" xml:space="preserve">
+    <value>10 phút</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_10Seconds" xml:space="preserve">
+    <value>10 giây</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_15Minutes" xml:space="preserve">
+    <value>15 phút</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_1Hour" xml:space="preserve">
+    <value>1 giờ</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_1Minute" xml:space="preserve">
+    <value>1 phút</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_20Seconds" xml:space="preserve">
+    <value>20 giây</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_2Minutes" xml:space="preserve">
+    <value>2 phút</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_30Minutes" xml:space="preserve">
+    <value>30 phút</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_30Seconds" xml:space="preserve">
+    <value>30 giây</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_5Minutes" xml:space="preserve">
+    <value>5 phút</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_Label" xml:space="preserve">
+    <value>Tự động làm mới khoảng thời gian</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_Off" xml:space="preserve">
+    <value>Tắt</value>
+  </data>
+  <data name="Dashboard_ExportToXml" xml:space="preserve">
+    <value>Xuất khẩu sang XML</value>
+  </data>
+  <data name="DataModel_Add" xml:space="preserve">
+    <value>Thêm mô hình dữ liệu</value>
+  </data>
+  <data name="DataModel_AdditionalParameters" xml:space="preserve">
+    <value>Tham số bổ sung</value>
+  </data>
+  <data name="DataModel_Authentication" xml:space="preserve">
+    <value>Xác thực</value>
+  </data>
+  <data name="DataModel_CommandTimeout" xml:space="preserve">
+    <value>Thời gian chờ lệnh (giây)</value>
+  </data>
+  <data name="DataModel_ConnectionString" xml:space="preserve">
+    <value>Kết nối chuỗi</value>
+  </data>
+  <data name="DataModel_CubeName" xml:space="preserve">
+    <value>tên khối</value>
+  </data>
+  <data name="DataModel_Delete_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa vĩnh viễn dữ liệu mô hình này?</value>
+  </data>
+  <data name="DataModel_Delete_DialogTitle" xml:space="preserve">
+    <value>Xoá bỏ mô hình dữ liệu</value>
+  </data>
+  <data name="DataModel_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa vĩnh viễn các mô hình dữ liệu đã chọn?</value>
+  </data>
+  <data name="DataModel_DeleteMultiple_DialogTitle" xml:space="preserve">
+    <value>Xóa dữ liệu mô hình</value>
+  </data>
+  <data name="DataModel_DeleteQuery_Button" xml:space="preserve">
+    <value>Xóa bỏ truy vấn</value>
+  </data>
+  <data name="DataModel_DisabledProcedure_Tooltip" xml:space="preserve">
+    <value>Bạn không thể chọn thủ tục được lưu trữ này vì một truy vấn có cùng tên đã tồn tại.</value>
+  </data>
+  <data name="DataModel_DisabledTable_Tooltip" xml:space="preserve">
+    <value>Bạn không thể chọn bảng này vì một truy vấn có cùng tên đã tồn tại.</value>
+  </data>
+  <data name="DataModel_Edit_DialogTitle" xml:space="preserve">
+    <value>Chỉnh sửa mô hình dữ liệu</value>
+  </data>
+  <data name="DataModel_EditQuery_Button" xml:space="preserve">
+    <value>Chỉnh sửa các truy vấn</value>
+  </data>
+  <data name="DataModel_EditSchema_DialogTitle" xml:space="preserve">
+    <value>Chỉnh sửa dữ liệu mẫu lược đồ</value>
+  </data>
+  <data name="DataModel_New_DialogTitle" xml:space="preserve">
+    <value>Mô hình dữ liệu mới</value>
+  </data>
+  <data name="DataModel_NewQuery_Button" xml:space="preserve">
+    <value>Truy vấn mới</value>
+  </data>
+  <data name="DataModel_NoColumns_Placeholder" xml:space="preserve">
+    <value>Chọn một bảng để xem cột của nó</value>
+  </data>
+  <data name="DataModel_NoFields_Placeholder" xml:space="preserve">
+    <value>Chọn một thủ tục để xem các lĩnh vực của mình</value>
+  </data>
+  <data name="DataModel_NoQueriesExist" xml:space="preserve">
+    <value>Mô hình dữ liệu chứa các truy vấn không có</value>
+  </data>
+  <data name="DataModel_NumberSelected" xml:space="preserve">
+    <value>các mô hình dữ liệu {0} đã chọn</value>
+  </data>
+  <data name="DataModel_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="DataModel_ProcedureHasNoFields" xml:space="preserve">
+    <value>Thủ tục đã không có kết quả thiết lập</value>
+  </data>
+  <data name="DataModel_Procedures" xml:space="preserve">
+    <value>Thủ tục</value>
+  </data>
+  <data name="DataModel_Provider" xml:space="preserve">
+    <value>Nhà cung cấp</value>
+  </data>
+  <data name="DataModel_Queries" xml:space="preserve">
+    <value>Truy vấn</value>
+  </data>
+  <data name="DataModel_Queries_RunQueryBuilder" xml:space="preserve">
+    <value>Chạy query Builder</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery" xml:space="preserve">
+    <value>Viết tuỳ SQL query</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_DialogTitle" xml:space="preserve">
+    <value>Viết tuỳ SQL query</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_Name_Placeholder" xml:space="preserve">
+    <value>Nhập tên truy vấn ở đây...</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_Query_Placeholder" xml:space="preserve">
+    <value>Nhập truy vấn ở đây...</value>
+  </data>
+  <data name="DataModel_Query_Delete_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xoá vĩnh viễn các truy vấn này?</value>
+  </data>
+  <data name="DataModel_Query_Delete_DialogTitle" xml:space="preserve">
+    <value>Xóa bỏ truy vấn</value>
+  </data>
+  <data name="DataModel_SaveSelection_DialogContent" xml:space="preserve">
+    <value>Bạn có muốn lưu lựa chọn của bạn không?</value>
+  </data>
+  <data name="DataModel_SaveSelection_DialogTitle" xml:space="preserve">
+    <value>Lưu lựa chọn</value>
+  </data>
+  <data name="DataModel_SecurityWarning" xml:space="preserve">
+    <value>Cảnh báo bảo mật: Các báo cáo và bảng điều khiển của máy chủ cơ sở dữ liệu không mã hóa dữ liệu mô hình cấu hình (bao gồm cả kết nối thông tin)</value>
+  </data>
+  <data name="DataModel_Server" xml:space="preserve">
+    <value>Máy chủ</value>
+  </data>
+  <data name="DataModel_ServerAuthentication" xml:space="preserve">
+    <value>Máy chủ</value>
+  </data>
+  <data name="DataModel_SetCustomCommandTimeout" xml:space="preserve">
+    <value>Đặt thời gian chờ lệnh tùy chỉnh</value>
+  </data>
+  <data name="DataModel_SortType_ByDateModified" xml:space="preserve">
+    <value>sắp xếp theo ngày sửa đổi</value>
+  </data>
+  <data name="DataModel_SortType_ByDescription" xml:space="preserve">
+    <value>Sắp xếp theo mô tả</value>
+  </data>
+  <data name="DataModel_SortType_ByName" xml:space="preserve">
+    <value>sắp xếp theo tên</value>
+  </data>
+  <data name="DataModel_Username" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="Document_AddOperation" xml:space="preserve">
+    <value>Thêm tài liệu</value>
+  </data>
+  <data name="Document_AddOperation_AddDashboard" xml:space="preserve">
+    <value>Thêm bảng điều khiển</value>
+  </data>
+  <data name="Document_AddOperation_AddReport" xml:space="preserve">
+    <value>Thêm bản báo cáo</value>
+  </data>
+  <data name="Document_Category" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="Document_ChangeCategory" xml:space="preserve">
+    <value>Thay đổi thể loại</value>
+  </data>
+  <data name="Document_Delete_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa bỏ tài liệu này?</value>
+  </data>
+  <data name="Document_Delete_DialogTitle" xml:space="preserve">
+    <value>Xóa tài liệu</value>
+  </data>
+  <data name="Document_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa bỏ tài liệu đã chọn?</value>
+  </data>
+  <data name="Document_DeleteMultiple_DialogTitle" xml:space="preserve">
+    <value>Xóa tài liệu</value>
+  </data>
+  <data name="Document_Edit" xml:space="preserve">
+    <value>Chỉnh sửa trong thiết kế</value>
+  </data>
+  <data name="Document_Filter_AllDocuments" xml:space="preserve">
+    <value>Tất cả tài liệu</value>
+  </data>
+  <data name="Document_Filter_ByAllCategories" xml:space="preserve">
+    <value>Hiển thị tất cả các loại</value>
+  </data>
+  <data name="Document_Filter_ByCategory" xml:space="preserve">
+    <value>Thể loại này chỉ hiển thị</value>
+  </data>
+  <data name="Document_Filter_Dashboards" xml:space="preserve">
+    <value>Bảng máy móc</value>
+  </data>
+  <data name="Document_GeneratedDocuments" xml:space="preserve">
+    <value>Tạo ra tài liệu</value>
+  </data>
+  <data name="Document_History" xml:space="preserve">
+    <value>Lịch sử</value>
+  </data>
+  <data name="Document_List_Category" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="Document_List_Dashboard" xml:space="preserve">
+    <value>Bảng điều khiển</value>
+  </data>
+  <data name="Document_List_DocumentType" xml:space="preserve">
+    <value>Loại văn bản</value>
+  </data>
+  <data name="Document_List_HideCategories" xml:space="preserve">
+    <value>Ẩn danh</value>
+  </data>
+  <data name="Document_List_Preview" xml:space="preserve">
+    <value>Xem trước {0}</value>
+  </data>
+  <data name="Document_List_ShowCategories" xml:space="preserve">
+    <value>Hiển thị danh mục</value>
+  </data>
+  <data name="Document_NumberSelected" xml:space="preserve">
+    <value>tài liệu {0} đã được lựa chọn</value>
+  </data>
+  <data name="Document_Rename_DialogTitle" xml:space="preserve">
+    <value>Đổi tên tài liệu</value>
+  </data>
+  <data name="Document_Selector_DocumentCategory" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="Document_Selector_DocumentName" xml:space="preserve">
+    <value>Tài liệu tên</value>
+  </data>
+  <data name="Document_Selector_DocumentType" xml:space="preserve">
+    <value>Loại văn bản</value>
+  </data>
+  <data name="Document_SortType_ByCategory" xml:space="preserve">
+    <value>sắp xếp theo thể loại</value>
+  </data>
+  <data name="Document_SortType_ByDateModified" xml:space="preserve">
+    <value>sắp xếp theo ngày sửa đổi</value>
+  </data>
+  <data name="Document_SortType_ByName" xml:space="preserve">
+    <value>sắp xếp theo tên</value>
+  </data>
+  <data name="Documents_Delete" xml:space="preserve">
+    <value>Xóa tài liệu</value>
+  </data>
+  <data name="FileUpload_ExceedsMaximumSize" xml:space="preserve">
+    <value>tệp vượt quá {0} byte.</value>
+  </data>
+  <data name="FileUpload_GeneralError" xml:space="preserve">
+    <value>Lỗi xuất hiện khi đọc tệp.</value>
+  </data>
+  <data name="FileUpload_WrongImageFormat" xml:space="preserve">
+    <value>Định dạng hình ảnh không được hỗ trợ.</value>
+  </data>
+  <data name="GeneratedDocuments_Count" xml:space="preserve">
+    <value>{0} document(s) gửi {1}</value>
+  </data>
+  <data name="GeneratedDocuments_InProgress" xml:space="preserve">
+    <value>Trong tiến độ...</value>
+  </data>
+  <data name="GeneratedDocuments_NoDocuments" xml:space="preserve">
+    <value>Không có tài liệu để hiển thị.</value>
+  </data>
+  <data name="GeneratedDocuments_NoRecipients" xml:space="preserve">
+    <value>không có người nhận</value>
+  </data>
+  <data name="GeneratedDocuments_Open" xml:space="preserve">
+    <value>Mở tài liệu</value>
+  </data>
+  <data name="GeneratedDocuments_Recipients" xml:space="preserve">
+    <value>Người nhận</value>
+  </data>
+  <data name="GeneratedDocuments_ResultLimitReached" xml:space="preserve">
+    <value>Đầu tiên {0} {1} tài liệu được hiển thị.</value>
+  </data>
+  <data name="GeneratedDocuments_Suspended" xml:space="preserve">
+    <value>Đình chỉ...</value>
+  </data>
+  <data name="Group_Delete_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa nhóm này?</value>
+  </data>
+  <data name="Group_Delete_DialogTitle" xml:space="preserve">
+    <value>Xoá nhóm</value>
+  </data>
+  <data name="Job_AddOperation" xml:space="preserve">
+    <value>Thêm công việc</value>
+  </data>
+  <data name="Job_AddOperation_AddBillingStatement" xml:space="preserve">
+    <value>Thêm hóa đơn báo cáo</value>
+  </data>
+  <data name="Job_AddOperation_AddJob" xml:space="preserve">
+    <value>Thêm công việc</value>
+  </data>
+  <data name="Job_Delete_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa bỏ công việc này?</value>
+  </data>
+  <data name="Job_Delete_DialogTitle" xml:space="preserve">
+    <value>Xóa công việc</value>
+  </data>
+  <data name="Job_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa các công việc đã chọn?</value>
+  </data>
+  <data name="Job_DeleteMultiple_DialogTitle" xml:space="preserve">
+    <value>Xoá bỏ công ăn việc làm</value>
+  </data>
+  <data name="Job_Disable" xml:space="preserve">
+    <value>Vô hiệu hoá</value>
+  </data>
+  <data name="Job_Disable_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn vô hiệu hóa công việc này?</value>
+  </data>
+  <data name="Job_Disable_DialogTitle" xml:space="preserve">
+    <value>Vô hiệu hóa công việc</value>
+  </data>
+  <data name="Job_Enable" xml:space="preserve">
+    <value>sử</value>
+  </data>
+  <data name="Job_Enable_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn bật công việc này?</value>
+  </data>
+  <data name="Job_Enable_DialogTitle" xml:space="preserve">
+    <value>Sử công việc</value>
+  </data>
+  <data name="Job_Execute" xml:space="preserve">
+    <value>Thực hiện bây giờ</value>
+  </data>
+  <data name="Job_ExecuteAll" xml:space="preserve">
+    <value>Thực hiện tất cả</value>
+  </data>
+  <data name="Job_ExternalSubscribers" xml:space="preserve">
+    <value>Ngoài người đăng kí</value>
+  </data>
+  <data name="Job_GeneratedDocuments" xml:space="preserve">
+    <value>Tạo ra tài liệu</value>
+  </data>
+  <data name="Job_InternalSubscribers" xml:space="preserve">
+    <value>Nội bộ người đăng kí</value>
+  </data>
+  <data name="Job_List_NextRun" xml:space="preserve">
+    <value>Tiếp theo chạy</value>
+  </data>
+  <data name="Job_NumberSelected" xml:space="preserve">
+    <value>{0} việc lựa chọn</value>
+  </data>
+  <data name="Job_Recurrence" xml:space="preserve">
+    <value>Tái phát</value>
+  </data>
+  <data name="Job_SortType_ByDateModified" xml:space="preserve">
+    <value>sắp xếp theo ngày sửa đổi</value>
+  </data>
+  <data name="Job_SortType_ByDocumentName" xml:space="preserve">
+    <value>sắp xếp theo tên tài liệu</value>
+  </data>
+  <data name="Job_SortType_ByJobName" xml:space="preserve">
+    <value>sắp xếp theo tên công việc</value>
+  </data>
+  <data name="Job_SortType_ByJobType" xml:space="preserve">
+    <value>sắp xếp theo loại hình công việc</value>
+  </data>
+  <data name="Job_SortType_ByNextStart" xml:space="preserve">
+    <value>sắp xếp theo tiếp theo bắt đầu</value>
+  </data>
+  <data name="Job_StartNotification" xml:space="preserve">
+    <value>công việc {0} đã được bắt đầu</value>
+  </data>
+  <data name="Job_ViewDocument" xml:space="preserve">
+    <value>Xem tài liệu</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentDay" xml:space="preserve">
+    <value>bắt đầu của ngày hiện tại</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentMonth" xml:space="preserve">
+    <value>bắt đầu hiện tại Tháng</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentQuarter" xml:space="preserve">
+    <value>bắt đầu của thành phố hiện tại</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentWeek" xml:space="preserve">
+    <value>bắt đầu trong tuần hiện tại</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentYear" xml:space="preserve">
+    <value>bắt đầu của năm hiện tại</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextDay" xml:space="preserve">
+    <value>bắt đầu ngày hôm sau</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextMonth" xml:space="preserve">
+    <value>bắt đầu của tháng tiếp theo</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextQuarter" xml:space="preserve">
+    <value>bắt đầu quý tiếp theo</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextWeek" xml:space="preserve">
+    <value>bắt đầu của tuần tiếp theo </value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextYear" xml:space="preserve">
+    <value>Bắt đầu trong năm tiếp theo</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousDay" xml:space="preserve">
+    <value>bắt đầu trước ngày</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousMonth" xml:space="preserve">
+    <value>bắt đầu của tháng trước</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousQuarter" xml:space="preserve">
+    <value>bắt đầu của quý trước</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousTask" xml:space="preserve">
+    <value>bắt đầu các nhiệm vụ trước</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousWeek" xml:space="preserve">
+    <value>bắt đầu của tuần trước</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousYear" xml:space="preserve">
+    <value>bắt đầu của các năm trước</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_NoParameters" xml:space="preserve">
+    <value>tài liệu không có tham số.</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_ParameterValueType_Bound" xml:space="preserve">
+    <value>Ràng buộc</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_ParameterValueType_Calculated" xml:space="preserve">
+    <value>Tính toán</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_ParameterValueType_Static" xml:space="preserve">
+    <value>Tĩnh</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat" xml:space="preserve">
+    <value>Định dạng tài liệu</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat_Excel" xml:space="preserve">
+    <value>Đính kèm Excel workbook</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat_Html" xml:space="preserve">
+    <value>Nhúng HTML</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat_Pdf" xml:space="preserve">
+    <value>Gắn vào PDF</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat_Url" xml:space="preserve">
+    <value>Tài liệu xem trước URL</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_SendAs" xml:space="preserve">
+    <value>Gửi như</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_SendAsFormat_IndividualEmails" xml:space="preserve">
+    <value>Email cá nhân</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_SendAsFormat_OneEmail" xml:space="preserve">
+    <value>Một email đến nhiều người nhận</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_SendBlankDocument" xml:space="preserve">
+    <value>Gửi một tài liệu trống</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_ExternalSubscribers_Placeholder" xml:space="preserve">
+    <value>Loại địa chỉ email cách nhau dấu phẩy thuê bao bên ngoài...</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_ExternalSubscribers_ValidationMessage" xml:space="preserve">
+    <value>không hợp lệ. Nhập địa chỉ email hợp lệ, tách bởi dấu phảy.</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_AccountType" xml:space="preserve">
+    <value>Loại tài khoản</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_FilterTooltip_All" xml:space="preserve">
+    <value>Hiển thị tất cả</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_FilterTooltip_Selected" xml:space="preserve">
+    <value>Hiển thị được chọn chỉ</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_FirstName" xml:space="preserve">
+    <value>Tên đầu tiên</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_LastName" xml:space="preserve">
+    <value>Tên cuối cùng</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_Example" xml:space="preserve">
+    <value>Ví dụ: \\someServer\ReportsByYear#Year#\Sales#Month##Day#.pdf</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_FilesToExport" xml:space="preserve">
+    <value>Tập tin xuất khẩu</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_FilesToExport_Placeholder" xml:space="preserve">
+    <value>Đường dẫn tập tin nhập cách nhau bằng dấu phẩy...</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_Info" xml:space="preserve">
+    <value>Bạn có thể sử dụng sau placeholders trong tên thư mục và/hoặc tập tin để biến chúng thành hiện tại ngày/thời gian giá trị trong quá trình xuất khẩu: &lt; br / &gt;&lt; ul &gt;&lt; li &gt; #Year # - bốn chữ số; &lt; /li &gt;&lt; li &gt; #Month # - hai chữ số; &lt; /li &gt;&lt; li &gt; #Day # - hai chữ số; &lt; /li &gt;&lt; li &gt; #Hour # - hai chữ số (định dạng 24 giờ); &lt; /li &gt;&lt; li &gt; #Minute # - hai chữ số. &lt; /li &gt;&lt; /ul &gt; hỗ trợ xuất khẩu định dạng: &lt; ul &gt;&lt; li &gt; báo cáo-CSV, DOCX, HTML, MHT, PDF , RTF, TXT, XLS, XLSX &lt; /li &gt;&lt; li &gt; bảng-PDF, PNG, XLSX &lt; /li &gt;&lt; /ul &gt;</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_ShowLess" xml:space="preserve">
+    <value>Hiển thị ít hơn</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_ShowMore" xml:space="preserve">
+    <value>Hiển thị thêm</value>
+  </data>
+  <data name="JobWizard_GeneralPage_DataModel" xml:space="preserve">
+    <value>Mô hình dữ liệu</value>
+  </data>
+  <data name="JobWizard_GeneralPage_Document_LastModifiedBy" xml:space="preserve">
+    <value>Lần cuối bởi</value>
+  </data>
+  <data name="JobWizard_GeneralPage_EmailAddressField" xml:space="preserve">
+    <value>Trường địa chỉ email</value>
+  </data>
+  <data name="JobWizard_GeneralPage_EmailRecipientField" xml:space="preserve">
+    <value>Lĩnh vực người nhận email</value>
+  </data>
+  <data name="JobWizard_GeneralPage_RetentionPeriod" xml:space="preserve">
+    <value>Duy trì thời gian (ngày)</value>
+  </data>
+  <data name="JobWizard_GeneralPage_SelectDocument" xml:space="preserve">
+    <value>Chọn một tài liệu...</value>
+  </data>
+  <data name="JobWizard_PageTitle_DocumentParameters" xml:space="preserve">
+    <value>Tài liệu tham số</value>
+  </data>
+  <data name="JobWizard_PageTitle_EmailRecipients" xml:space="preserve">
+    <value>Email người nhận</value>
+  </data>
+  <data name="JobWizard_PageTitle_EmailSettings" xml:space="preserve">
+    <value>Cài đặt email</value>
+  </data>
+  <data name="JobWizard_PageTitle_ExportToFileSystem" xml:space="preserve">
+    <value>Xuất khẩu vào hệ thống tập tin</value>
+  </data>
+  <data name="JobWizard_PageTitle_GeneralProperties" xml:space="preserve">
+    <value>Tổng tài sản</value>
+  </data>
+  <data name="JobWizard_PageTitle_Schedule" xml:space="preserve">
+    <value>Lịch trình</value>
+  </data>
+  <data name="JobWizard_SchedulePage_Recurrent" xml:space="preserve">
+    <value>Tái phát</value>
+  </data>
+  <data name="JobWizard_SchedulePage_RunOnce" xml:space="preserve">
+    <value>Chạy một lần</value>
+  </data>
+  <data name="JobWizard_Title" xml:space="preserve">
+    <value>Lịch trình công việc mới</value>
+  </data>
+  <data name="JobWizard_Title_BillingStatement" xml:space="preserve">
+    <value>Lịch trình mới thanh toán tuyên bố</value>
+  </data>
+  <data name="LicenseStatus_Type_Registered" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="LicenseStatus_Type_Trial" xml:space="preserve">
+    <value>Thử nghiệm</value>
+  </data>
+  <data name="LicenseStatus_Type_TrialExpired" xml:space="preserve">
+    <value>Dùng thử hết hạn</value>
+  </data>
+  <data name="MultipleJobs_StartNotification" xml:space="preserve">
+    <value>các công việc đã chọn đã được bắt đầu</value>
+  </data>
+  <data name="Permissions_AccessType" xml:space="preserve">
+    <value>Loại truy cập</value>
+  </data>
+  <data name="Permissions_Delete_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa bỏ lựa chọn permission(s)?</value>
+  </data>
+  <data name="Permissions_Delete_DialogTitle" xml:space="preserve">
+    <value>Xóa quyền truy cập</value>
+  </data>
+  <data name="Permissions_EntityName" xml:space="preserve">
+    <value>Tên thực thể</value>
+  </data>
+  <data name="Permissions_Scope" xml:space="preserve">
+    <value>Phạm vi</value>
+  </data>
+  <data name="PermissionScope_AllCategories" xml:space="preserve">
+    <value>Tất cả thể loại</value>
+  </data>
+  <data name="PermissionScope_AllDataModels" xml:space="preserve">
+    <value>Tất cả các mô hình dữ liệu</value>
+  </data>
+  <data name="PermissionScope_AllDocuments" xml:space="preserve">
+    <value>Tất cả tài liệu</value>
+  </data>
+  <data name="PermissionScope_AllScheduledJobs" xml:space="preserve">
+    <value>Tất cả các công việc</value>
+  </data>
+  <data name="PermissionScope_Category" xml:space="preserve">
+    <value>Thể loại cụ thể</value>
+  </data>
+  <data name="PermissionScope_DataModel" xml:space="preserve">
+    <value>Mô hình dữ liệu cụ thể</value>
+  </data>
+  <data name="PermissionScope_Document" xml:space="preserve">
+    <value>Tài liệu cụ thể</value>
+  </data>
+  <data name="PermissionScope_DocumentsInCategory" xml:space="preserve">
+    <value>Các tài liệu trong thể loại</value>
+  </data>
+  <data name="PermissionScope_ScheduledJob" xml:space="preserve">
+    <value>Các công việc cụ thể</value>
+  </data>
+  <data name="Report_ExportToRepx" xml:space="preserve">
+    <value>Xuất khẩu REPX</value>
+  </data>
+  <data name="Report_LegacyDataSource_AutoUpgrade" xml:space="preserve">
+    <value>Dữ liệu nguồn được sử dụng trong báo cáo này được tạo ra với các báo cáo và bảng điều khiển máy chủ phiên bản cũ hơn.
+
+Nhấp vào OK để tự động Cập Nhật nguồn dữ liệu này.</value>
+  </data>
+  <data name="Report_LegacyDataSource_Title" xml:space="preserve">
+    <value>Báo cáo này sử dụng một phiên bản nguồn dữ liệu cũ.</value>
+  </data>
+  <data name="Report_LegacyDataSourceAndScripts_Upgrade" xml:space="preserve">
+    <value>Dữ liệu nguồn được sử dụng trong báo cáo này được tạo ra với các báo cáo và bảng điều khiển máy chủ phiên bản cũ hơn.
+Bấm OK để tự động Cập Nhật nguồn dữ liệu này.
+
+Báo cáo cũng chứa các kịch bản mà nên được Cập Nhật theo cách thủ công.
+Xem &lt; phong cách = "màu: màu trắng" target = "_blank" href = "https://devexpress.com/Support/Center/Question/Details/T511341" &gt; T511341 &lt; /a &gt; cho biết thêm thông tin.</value>
+  </data>
+  <data name="Revision_Comment" xml:space="preserve">
+    <value>Bình luận</value>
+  </data>
+  <data name="Revision_Date" xml:space="preserve">
+    <value>Sửa đổi ngày</value>
+  </data>
+  <data name="Revision_Rollback_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn quay ngược lại với phiên bản này?</value>
+  </data>
+  <data name="Revision_Rollback_DialogTitle" xml:space="preserve">
+    <value>Quay ngược lại để sửa đổi</value>
+  </data>
+  <data name="Revision_Username" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="ServerSettings_Authentication" xml:space="preserve">
+    <value>Xác thực</value>
+  </data>
+  <data name="ServerSettings_AuthenticationType_OpenIdConnect" xml:space="preserve">
+    <value>OpenId kết nối</value>
+  </data>
+  <data name="ServerSettings_AuthenticationType_ReportServer" xml:space="preserve">
+    <value>Máy chủ</value>
+  </data>
+  <data name="ServerSettings_AuthenticationType_WsFederation" xml:space="preserve">
+    <value>WS-liên đoàn</value>
+  </data>
+  <data name="ServerSettings_AvailableLicenses" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="ServerSettings_AvailableLicenses_Label" xml:space="preserve">
+    <value>Khách hàng có quyền truy cập giấy phép</value>
+  </data>
+  <data name="ServerSettings_CustomBranding" xml:space="preserve">
+    <value>Xây dựng thương hiệu tùy chỉnh</value>
+  </data>
+  <data name="ServerSettings_Email_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="ServerSettings_Email_SenderEmail" xml:space="preserve">
+    <value>Gửi Email</value>
+  </data>
+  <data name="ServerSettings_Email_SenderName" xml:space="preserve">
+    <value>Tên người gửi</value>
+  </data>
+  <data name="ServerSettings_Email_SmtpServer" xml:space="preserve">
+    <value>Hệ phục vụ SMTP</value>
+  </data>
+  <data name="ServerSettings_Email_UserName" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="ServerSettings_Email_UseSSL" xml:space="preserve">
+    <value>Sử dụng kết nối an toàn</value>
+  </data>
+  <data name="ServerSettings_EmailSettings" xml:space="preserve">
+    <value>Cài đặt email</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates" xml:space="preserve">
+    <value>Thư điện tử mẫu</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Body_Placeholder" xml:space="preserve">
+    <value>Loại email cơ thể ở đây...</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Format_Html" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_MessageParameters" xml:space="preserve">
+    <value>Thông báo các thông số</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_ActivateAccountRequest" xml:space="preserve">
+    <value>Kích hoạt tài khoản</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_MessageFooter" xml:space="preserve">
+    <value>Thông điệp chân</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_ResetPasswordRequest" xml:space="preserve">
+    <value>Đặt lại mật khẩu</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_ScheduledDocument" xml:space="preserve">
+    <value>Tạo ra các tài liệu liên kết</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_ScheduledDocumentAttachment" xml:space="preserve">
+    <value>Kèm theo các tài liệu được tạo ra</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_ScheduledDocumentError" xml:space="preserve">
+    <value>Công việc lỗi</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_ResetTemplate" xml:space="preserve">
+    <value>Đặt lại tiêu bản</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Subject_Placeholder" xml:space="preserve">
+    <value>Gõ email chủ đề ở đây...</value>
+  </data>
+  <data name="ServerSettings_General_CustomSqlQueryExecutionMode" xml:space="preserve">
+    <value>Chế độ thực thi truy vấn SQL tuỳ chỉnh</value>
+  </data>
+  <data name="ServerSettings_General_CustomSqlQueryExecutionMode_DenyAll" xml:space="preserve">
+    <value>Từ chối tất cả</value>
+  </data>
+  <data name="ServerSettings_General_CustomSqlQueryExecutionMode_DialogContent" xml:space="preserve">
+    <value>Truy vấn SQL tuỳ chỉnh không an toàn. Chỉ sử dụng chế độ ' thực hiện chọn báo cáo ' hoặc ' chỉ thực hiện tất cả ' nếu bạn tin tưởng người dùng và môi trường của mình.</value>
+  </data>
+  <data name="ServerSettings_General_CustomSqlQueryExecutionMode_ExecuteAll" xml:space="preserve">
+    <value>Thực hiện tất cả</value>
+  </data>
+  <data name="ServerSettings_General_CustomSqlQueryExecutionMode_ExecuteSelectStatements" xml:space="preserve">
+    <value>Thực hiện chọn báo cáo chỉ</value>
+  </data>
+  <data name="ServerSettings_General_EnableCors" xml:space="preserve">
+    <value>Sử CLYDE</value>
+  </data>
+  <data name="ServerSettings_General_ReportScriptExecutionMode" xml:space="preserve">
+    <value>Báo cáo chế độ thực thi lệnh</value>
+  </data>
+  <data name="ServerSettings_General_ReportScriptExecutionMode_Deny" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+  <data name="ServerSettings_General_ReportScriptExecutionMode_DialogContent" xml:space="preserve">
+    <value>Tập lệnh báo cáo không an toàn. Chỉ sử dụng chế độ ' không giới hạn ' nếu bạn tin tưởng người dùng và môi trường của mình.</value>
+  </data>
+  <data name="ServerSettings_General_ReportScriptExecutionMode_Unrestricted" xml:space="preserve">
+    <value>hạn</value>
+  </data>
+  <data name="ServerSettings_General_SecurityWarning_DialogTitle" xml:space="preserve">
+    <value>Cảnh báo bảo mật</value>
+  </data>
+  <data name="ServerSettings_General_SiteURL" xml:space="preserve">
+    <value>URL trang web</value>
+  </data>
+  <data name="ServerSettings_General_UnsafeExecutionModes_DialogContent" xml:space="preserve">
+    <value>Báo cáo tập lệnh và truy vấn SQL tuỳ chỉnh không an toàn. Sử dụng chế độ thực thi lệnh ' không giới hạn ' và ' thực hiện lựa chọn báo cáo chỉ '/' thực hiện tất cả ' truy vấn chế độ chỉ nếu bạn tin tưởng người dùng và môi trường của bạn.</value>
+  </data>
+  <data name="ServerSettings_General_UserActivationExpiration" xml:space="preserve">
+    <value>Người dùng kích hoạt hết hạn (ngày)</value>
+  </data>
+  <data name="ServerSettings_GeneralSettings" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="ServerSettings_InstallDate" xml:space="preserve">
+    <value>Cài đặt ngày</value>
+  </data>
+  <data name="ServerSettings_License_CurrentVersion" xml:space="preserve">
+    <value>Phiên bản hiện tại</value>
+  </data>
+  <data name="ServerSettings_LicenseStatus" xml:space="preserve">
+    <value>Tình trạng giấy phép</value>
+  </data>
+  <data name="ServerSettings_OpenIDConnect_ApplicationID" xml:space="preserve">
+    <value>Ứng dụng ID</value>
+  </data>
+  <data name="ServerSettings_OpenIDConnect_Authority" xml:space="preserve">
+    <value>Thẩm quyền</value>
+  </data>
+  <data name="ServerSettings_SelfSignUp_Enabled" xml:space="preserve">
+    <value>Sử tự đăng ký</value>
+  </data>
+  <data name="ServerSettings_SelfSignUp_UserGroup" xml:space="preserve">
+    <value>Chọn một nhóm người dùng...</value>
+  </data>
+  <data name="ServerSettings_SendTestEmail" xml:space="preserve">
+    <value>Gửi kiểm tra Email</value>
+  </data>
+  <data name="ServerSettings_ShowLinkToClassicInterface" xml:space="preserve">
+    <value>Hiển thị các liên kết để giao diện cổ điển</value>
+  </data>
+  <data name="ServerSettings_ThemeSettings" xml:space="preserve">
+    <value>Thiết đặt chủ đề</value>
+  </data>
+  <data name="ServerSettings_WebSiteRestartRequest" xml:space="preserve">
+    <value>Khởi động lại các trang web để áp dụng cài đặt mới.</value>
+  </data>
+  <data name="ServerSettings_WsFederation_AppIdUri" xml:space="preserve">
+    <value>Ứng dụng ID URI</value>
+  </data>
+  <data name="ServerSettings_WsFederation_Metadata" xml:space="preserve">
+    <value>siêu dữ liệu</value>
+  </data>
+  <data name="SharedStrings_DateFrom" xml:space="preserve">
+    <value>được áp</value>
+  </data>
+  <data name="SharedStrings_DateTo" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="SharedStrings_Email" xml:space="preserve">
+    <value>Địa chỉ email</value>
+  </data>
+  <data name="SharedStrings_FirstName" xml:space="preserve">
+    <value>Tên đầu tiên</value>
+  </data>
+  <data name="SharedStrings_InvalidEmailFormat" xml:space="preserve">
+    <value>Định dạng email không hợp lệ</value>
+  </data>
+  <data name="SharedStrings_InvalidUrlFormat" xml:space="preserve">
+    <value>Định dạng địa chỉ internet không hợp lệ</value>
+  </data>
+  <data name="SharedStrings_LastName" xml:space="preserve">
+    <value>Tên cuối cùng</value>
+  </data>
+  <data name="SharedStrings_List_DateModified" xml:space="preserve">
+    <value>Date Modified</value>
+  </data>
+  <data name="SharedStrings_List_ModifiedBy" xml:space="preserve">
+    <value>Sửa đổi bởi</value>
+  </data>
+  <data name="SharedStrings_NoItemsSelected" xml:space="preserve">
+    <value>Không có khoản mục được chọn</value>
+  </data>
+  <data name="SharedStrings_PageNotFound_Error" xml:space="preserve">
+    <value>Trang được yêu cầu không tồn tại.</value>
+  </data>
+  <data name="SharedStrings_SearchBox_Placeholder" xml:space="preserve">
+    <value>Tìm kiếm...</value>
+  </data>
+  <data name="SharedStrings_UnGroup_Mode" xml:space="preserve">
+    <value>Ungroup</value>
+  </data>
+  <data name="SharedStrings_Updating" xml:space="preserve">
+    <value>Đang Cập Nhật...</value>
+  </data>
+  <data name="SharedStrings_ValueIsRequired" xml:space="preserve">
+    <value>Một giá trị được yêu cầu.</value>
+  </data>
+  <data name="ThemeSettings_AccentColor" xml:space="preserve">
+    <value>Giọng</value>
+  </data>
+  <data name="ThemeSettings_AdminPanel" xml:space="preserve">
+    <value>Bảng điều khiển hành chính</value>
+  </data>
+  <data name="ThemeSettings_ApplyChanges_DialogContent" xml:space="preserve">
+    <value>Bạn có muốn áp dụng thay đổi không?</value>
+  </data>
+  <data name="ThemeSettings_ApplyChanges_DialogTitle" xml:space="preserve">
+    <value>Áp dụng thay đổi</value>
+  </data>
+  <data name="ThemeSettings_DashboardDesigner" xml:space="preserve">
+    <value>Bảng điều khiển thiết kế</value>
+  </data>
+  <data name="ThemeSettings_DashboardDesigner_ReloadRequest" xml:space="preserve">
+    <value>Tải lại trình thiết kế bảng điều khiển để xem các thay đổi được áp dụng.</value>
+  </data>
+  <data name="ThemeSettings_DeleteButtonColor" xml:space="preserve">
+    <value>Xóa nút</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_Carmine" xml:space="preserve">
+    <value>Carmine</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_Contrast" xml:space="preserve">
+    <value>Độ tương phản</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_Dark" xml:space="preserve">
+    <value>Tối</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_DarkCompact" xml:space="preserve">
+    <value>Tối nhỏ gọn</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_DarkMoon" xml:space="preserve">
+    <value>Mặt trăng tối</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_DarkViolet" xml:space="preserve">
+    <value>Dark Violet</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_GreenMist" xml:space="preserve">
+    <value>Sương mù xanh</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_Light" xml:space="preserve">
+    <value>Ánh sáng</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_LightCompact" xml:space="preserve">
+    <value>Nhỏ gọn nhẹ</value>
+  </data>
+  <data name="ThemeSettings_DesignerColorScheme_SoftBlue" xml:space="preserve">
+    <value>Màu xanh mềm mại</value>
+  </data>
+  <data name="ThemeSettings_OtherAccounts_ButtonColor" xml:space="preserve">
+    <value>Nút tài khoản khác</value>
+  </data>
+  <data name="ThemeSettings_PreviewChangesButton" xml:space="preserve">
+    <value>Xem trước thay đổi</value>
+  </data>
+  <data name="ThemeSettings_PrimaryBackgroundColor" xml:space="preserve">
+    <value>Chính nền</value>
+  </data>
+  <data name="ThemeSettings_ReportDesigner_ReloadRequest" xml:space="preserve">
+    <value>Tải lại thiết kế báo cáo để xem các thay đổi được áp dụng.</value>
+  </data>
+  <data name="ThemeSettings_SecondaryBackgroundColor" xml:space="preserve">
+    <value>Trung học nền</value>
+  </data>
+  <data name="ThemeSettings_WarningColor" xml:space="preserve">
+    <value>Cảnh báo thông báo</value>
+  </data>
+  <data name="ThemeSettings_WindowsAccount_ButtonColor" xml:space="preserve">
+    <value>Tài khoản Windows Button</value>
+  </data>
+  <data name="Title_ReportServer" xml:space="preserve">
+    <value>Báo cáo và bảng điều khiển máy chủ</value>
+  </data>
+  <data name="UseClassicInterface" xml:space="preserve">
+    <value>Sử dụng giao diện cổ điển</value>
+  </data>
+  <data name="User_AccountStatus_Deactivate" xml:space="preserve">
+    <value>Tắt</value>
+  </data>
+  <data name="User_AccountStatus_Pending" xml:space="preserve">
+    <value>Đang chờ xử lý</value>
+  </data>
+  <data name="User_Activate_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn kích hoạt người dùng này?</value>
+  </data>
+  <data name="User_Activate_DialogTitle" xml:space="preserve">
+    <value>Kích hoạt User</value>
+  </data>
+  <data name="User_Deactivate_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn tắt người dùng này?</value>
+  </data>
+  <data name="User_Deactivate_DialogTitle" xml:space="preserve">
+    <value>Tắt người dùng</value>
+  </data>
+  <data name="User_Delete_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa người dùng này?</value>
+  </data>
+  <data name="User_Delete_DialogTitle" xml:space="preserve">
+    <value>Xóa người dùng</value>
+  </data>
+  <data name="User_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa người dùng đã chọn?</value>
+  </data>
+  <data name="User_DeleteMultiple_DialogTitle" xml:space="preserve">
+    <value>Xóa người dùng</value>
+  </data>
+  <data name="User_Edit_AccountType" xml:space="preserve">
+    <value>Loại tài khoản</value>
+  </data>
+  <data name="User_Edit_CreateButton" xml:space="preserve">
+    <value>Tạo người dùng</value>
+  </data>
+  <data name="User_Edit_DialogTitle" xml:space="preserve">
+    <value>Chỉnh sửa người dùng</value>
+  </data>
+  <data name="User_Edit_GroupName" xml:space="preserve">
+    <value>Tên nhóm</value>
+  </data>
+  <data name="User_Edit_NewGroupButton" xml:space="preserve">
+    <value>Nhóm mới</value>
+  </data>
+  <data name="User_Edit_UpdateButton" xml:space="preserve">
+    <value>Cập Nhật</value>
+  </data>
+  <data name="User_Edit_Username" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="User_List_Add" xml:space="preserve">
+    <value>Thêm người dùng</value>
+  </data>
+  <data name="User_List_Email" xml:space="preserve">
+    <value>Địa chỉ email</value>
+  </data>
+  <data name="User_List_HideGroups" xml:space="preserve">
+    <value>Ẩn nhóm</value>
+  </data>
+  <data name="User_List_ShowGroups" xml:space="preserve">
+    <value>Hiển thị các nhóm</value>
+  </data>
+  <data name="User_List_Unassigned" xml:space="preserve">
+    <value>Unassigned</value>
+  </data>
+  <data name="User_List_UserGroups" xml:space="preserve">
+    <value>Các nhóm người dùng</value>
+  </data>
+  <data name="User_List_Username" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="User_New_DialogTitle" xml:space="preserve">
+    <value>Người dùng mới</value>
+  </data>
+  <data name="User_NumberSelected" xml:space="preserve">
+    <value>người sử dụng {0} đã chọn</value>
+  </data>
+  <data name="User_SortType_ByEmail" xml:space="preserve">
+    <value>Sắp xếp theo thư điện tử</value>
+  </data>
+  <data name="User_SortType_ByFirstName" xml:space="preserve">
+    <value>sắp xếp theo tên</value>
+  </data>
+  <data name="User_SortType_ByLastName" xml:space="preserve">
+    <value>sắp xếp theo tên cuối cùng</value>
+  </data>
+  <data name="User_SortType_ByUsername" xml:space="preserve">
+    <value>sắp xếp theo tên người dùng</value>
+  </data>
+  <data name="UserProfile_DialogTitle" xml:space="preserve">
+    <value>Của tôi cá nhân</value>
+  </data>
+  <data name="UserProfile_SelectPhoto" xml:space="preserve">
+    <value>Chọn ảnh</value>
+  </data>
+</root>

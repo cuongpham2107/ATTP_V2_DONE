@@ -9,11 +9,9 @@ using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
 using DevExpress.Xpo;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
-using System.Text;
 
 namespace AttpV2.Module.BusinessObjects
 {
@@ -31,12 +29,15 @@ namespace AttpV2.Module.BusinessObjects
     [ListViewFilter("Xếp loại B", "[XLoai] = ##Enum#AttpV2.Module.BusinessObjects.XLoai,B#", Index = 3)]
     [ListViewFilter("Xếp loại C", "[XLoai] = ##Enum#AttpV2.Module.BusinessObjects.XLoai,C#", Index = 4)]
 
-    [Appearance("SaphethanGCN", AppearanceItemType = "ViewItem", TargetItems = "TenCoSo",
-    Criteria = "DateDiffMonth(Today(), [ThoiHanGCN]) < 1 And [ThoiHanGCN] Is Not Null", Context = "ListView", FontColor = "Orange", Priority = 2)]
-    [Appearance("HetHanGCN", AppearanceItemType = "ViewItem", TargetItems = "TenCoSo",
-    Criteria = "[ThoiHanGCN] < Now() And [ThoiHanGCN] Is Null ", Context = "ListView", FontColor = "Red", Priority = 3)]
+    [Appearance("SaphethanGCN", AppearanceItemType = "ViewItem", TargetItems = "ThoiHanGCN",
+    Criteria = "DateDiffMonth(Today(), [ThoiHanGCN]) < 6 And [ThoiHanGCN] Is Not Null And [ThoiHanGCN] > Now()", Context = "ListView", FontColor = "Black",BackColor = "Gold", FontStyle = System.Drawing.FontStyle.Bold, Priority = 2)]
+    [Appearance("HetHanGCN", AppearanceItemType = "ViewItem", TargetItems = "GiayChungNhan",
+    Criteria = "[ThoiHanGCN] < Now() Or [ThoiHanGCN] Is Null", Context = "ListView", FontColor = "Black", BackColor = "Red", FontStyle = System.Drawing.FontStyle.Bold, Priority = 3)]
+
+    [Appearance("HoatDong", AppearanceItemType = "ViewItem", TargetItems = "*",
+    Criteria = "[HoatDong1] = ##Enum#AttpV2.Module.BusinessObjects.HoatDong,khd#", Context = "ListView", FontColor = "Black", BackColor ="OrangeRed",FontStyle =System.Drawing.FontStyle.Bold, Priority = 4)]
     public class CoSoSanXuatKinhDoanh : BaseObject
-    { 
+    {
         public CoSoSanXuatKinhDoanh(Session session)
             : base(session)
         {
@@ -52,7 +53,7 @@ namespace AttpV2.Module.BusinessObjects
             base.OnLoaded();
 
             thamDinh = ThamDinhs.OrderByDescending(i => i.NgayThamDinh).FirstOrDefault();
-            giayChungNhan = GiayChungNhans.Where(t=>t.BiThuHoi == null).OrderByDescending(a=>a.NgayCapGiayChungNhan).FirstOrDefault();
+            giayChungNhan = GiayChungNhans.Where(t => t.BiThuHoi == null).OrderByDescending(a => a.NgayCapGiayChungNhan).FirstOrDefault();
         }
 
         string soDienThoai;
@@ -99,15 +100,15 @@ namespace AttpV2.Module.BusinessObjects
         [RuleRequiredField("Bắt buộc phải có CoSoSanXuatKinhDoanh.CoQuanQuanLy", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public CoQuanQuanLy CoQuanQuanLy
         {
-            get => coQuanQuanLy;
-            //get
-            //{
-            //    var account = Session.GetObjectByKey<ApplicationUser>(SecuritySystem.CurrentUserId);
+            //get => coQuanQuanLy;
+            get
+            {
+                var account = Session.GetObjectByKey<ApplicationUser>(SecuritySystem.CurrentUserId);
 
-            //    if (account.Roles.Any(r => r.Name == "Administrators" || r.Name == "Managers")) 
-            //        return;
-            //    return account.CoquanQuanly;
-            //}
+                if (account.Roles.Any(r => r.Name == "Administrators" || r.Name == "Managers"))
+                    return coQuanQuanLy;
+                return account.CoquanQuanly;
+            }
             set => SetPropertyValue(nameof(CoQuanQuanLy), ref coQuanQuanLy, value);
         }
 
@@ -130,7 +131,7 @@ namespace AttpV2.Module.BusinessObjects
             get => email;
             set => SetPropertyValue(nameof(Email), ref email, value);
         }
-       
+
 
         [XafDisplayName("Tên sản phẩm")]
         public string TenSanPham
@@ -138,7 +139,6 @@ namespace AttpV2.Module.BusinessObjects
             get => tenSanPham;
             set => SetPropertyValue(nameof(TenSanPham), ref tenSanPham, value);
         }
-        private string xepLoaiCoSo;
         [XafDisplayName("Xếp loại")]
         [ModelDefault("AlowEdit", "False")]
         public string XepLoaiCoSo
@@ -151,9 +151,9 @@ namespace AttpV2.Module.BusinessObjects
                     {
                         return $"{thamDinh.KetQuaThamDinh}, {thamDinh.NgayThamDinh.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)}";
                     }
-                   
+
                 }
-                return xepLoaiCoSo;
+                return null;
             }
         }
         XLoai? xLoai;
@@ -174,26 +174,26 @@ namespace AttpV2.Module.BusinessObjects
 
 
         [XafDisplayName("Giấy chứng nhận ")]
-        [ModelDefault("AlowEdit","False")]
+        [ModelDefault("AlowEdit", "False")]
         public string GiayChungNhan
         {
             get
             {
-                if(!IsLoading || !IsSaving)
+                if (!IsLoading || !IsSaving)
                 {
-                    if(giayChungNhan != null)
+                    if (giayChungNhan != null)
                     {
-                        return $"{giayChungNhan.SoCap}, {giayChungNhan.NgayCapGiayChungNhan.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)}";
+                        return $"{giayChungNhan.SoCap}, {giayChungNhan.NgayCapGiayChungNhan?.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)}";
                     }
                 }
                 return null;
             }
-            
+
         }
-        DateTime thoiHanGCN;
+        DateTime? thoiHanGCN;
         [XafDisplayName("Thời hạn")]
         [ModelDefault("AlowEdit", "False")]
-        public DateTime ThoiHanGCN
+        public DateTime? ThoiHanGCN
         {
             get
             {
@@ -206,16 +206,21 @@ namespace AttpV2.Module.BusinessObjects
                 }
                 return thoiHanGCN;
             }
-
+            set { SetPropertyValue(nameof(ThoiHanGCN),ref thoiHanGCN,value); }  
         }
-
-        
+        HoatDong hoatDong;
+        [XafDisplayName("Tình trạng cơ sở")]
+        public HoatDong HoatDong1
+        {
+            get { return hoatDong; }
+            set { SetPropertyValue(nameof(HoatDong1), ref hoatDong, value); }
+        }
 
 
         #region Association
         [XafDisplayName("Kết quả thẩm đinh của cơ sở")]
-        [ModelDefault("AllowLink","False")]
-        [ModelDefault("AllowUnlink","False")]
+        [ModelDefault("AllowLink", "False")]
+        [ModelDefault("AllowUnlink", "False")]
         [Association("CoSoSanXuatKinhDoanh-ThamDinhs")]
         public XPCollection<ThamDinh> ThamDinhs
         {
@@ -236,18 +241,8 @@ namespace AttpV2.Module.BusinessObjects
                 return GetCollection<GiayChungNhan>(nameof(GiayChungNhans));
             }
         }
+       
 
-        [XafDisplayName("Xử phạt hành chính")]
-        [ModelDefault("AllowLink", "False")]
-        [ModelDefault("AllowUnlink", "False")]
-        [Association("CoSoSanXuatKinhDoanh-XuPhatHanhChinhs")]
-        public XPCollection<XuPhatHanhChinh> XuPhatHanhChinhs
-        {
-            get
-            {
-                return GetCollection<XuPhatHanhChinh>(nameof(XuPhatHanhChinhs));
-            }
-        }
 
         [XafDisplayName("Giấy chứng nhận thu hồi")]
         [ModelDefault("AllowLink", "False")]
@@ -260,7 +255,36 @@ namespace AttpV2.Module.BusinessObjects
                 return GetCollection<ThuHoiGCN>(nameof(ThuHoiGCNs));
             }
         }
+
+        [XafDisplayName("Kết quả Thanh kiểm tra")]
+        [ModelDefault("AllowLink", "False")]
+        [ModelDefault("AllowUnlink", "False")]
+        [Association("CoSoSanXuatKinhDoanh-KetQuaThanhKiemTras")]
+        public XPCollection<KetQuaThanhKiemTra> KetQuaThanhKiemTras
+        {
+            get
+            {
+                return GetCollection<KetQuaThanhKiemTra>(nameof(KetQuaThanhKiemTras));
+            }
+        }
+
+        [XafDisplayName("Xử phạt hành chính")]
+        [ModelDefault("AllowLink", "False")]
+        [ModelDefault("AllowUnlink", "False")]
+        [Association("CoSoSanXuatKinhDoanh-XuPhatHanhChinhs")]
+        public XPCollection<XuPhatHanhChinh> XuPhatHanhChinhs
+        {
+            get
+            {
+                return GetCollection<XuPhatHanhChinh>(nameof(XuPhatHanhChinhs));
+            }
+        }
         #endregion
 
+    }
+    public enum HoatDong
+    {
+        [XafDisplayName("Hoạt động")] hd = 0,
+        [XafDisplayName("Không hoạt động")] khd = 1,
     }
 }

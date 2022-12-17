@@ -1,0 +1,2287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditorStringId.DisplayFormatGroupTypeDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="EditorStringId.Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="EditorStringId.LookUpClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="EditorStringId.OK" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeCustom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatNullValue" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="EditorStringId.Today" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="EditorStringId.Copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="EditorStringId.Apply" xml:space="preserve">
+    <value>Áp dụng</value>
+  </data>
+  <data name="EditorStringId.LookUpFind" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="EditorStringId.CalculatorError" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="EditorStringId.CaptionError" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="EditorStringId.Page" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLess" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorGreater" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Fields_Text" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_AllItems" xml:space="preserve">
+    <value>(Tất cả)</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_StringItems" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="EditorStringId.Clear" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="EditorStringId.SetNullValue" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="EditorStringId.CheckChecked" xml:space="preserve">
+    <value>Đã đánh dấu</value>
+  </data>
+  <data name="EditorStringId.FilterEditorChecked" xml:space="preserve">
+    <value>Đã đánh dấu</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonAdd" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="EditorStringId.Cut" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeSpecial" xml:space="preserve">
+    <value>Đặc biệt</value>
+  </data>
+  <data name="EditorStringId.Open" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="EditorStringId.Paste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="EditorStringId.Save" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="EditorStringId.DataTypeCharExample" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Orange" xml:space="preserve">
+    <value>Màu cam</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Red" xml:space="preserve">
+    <value>Màu đỏ</value>
+  </data>
+  <data name="EditorStringId.BrushEditCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="EditorStringId.BrushEditNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeToday" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="EditorStringId.LookUpSearch" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="EditorStringId.CameraRefreshButtonCaption" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Parameters_Text" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="EditorStringId.No" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="EditorStringId.Yes" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="EditorStringId.SparklineViewLine" xml:space="preserve">
+    <value>Đường</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryFormat" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="EditorStringId.CameraTakePictureCaption" xml:space="preserve">
+    <value>Chụp ảnh</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeTomorrow" xml:space="preserve">
+    <value>Ngày mai</value>
+  </data>
+  <data name="EditorStringId.LookUpNext" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBetweenAnd" xml:space="preserve">
+    <value>và</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeThisMonth" xml:space="preserve">
+    <value>Tháng này</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeThisWeek" xml:space="preserve">
+    <value>Tuần này</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeYesterday" xml:space="preserve">
+    <value>Hôm qua</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeNumber" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypePercent" xml:space="preserve">
+    <value>Phần trăm</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringGroupOperatorAnd" xml:space="preserve">
+    <value>Và</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAnd" xml:space="preserve">
+    <value>Và</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringGroupOperatorOr" xml:space="preserve">
+    <value>Hoặc</value>
+  </data>
+  <data name="EditorStringId.FilterGroupOr" xml:space="preserve">
+    <value>Hoặc</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Functions_Text" xml:space="preserve">
+    <value>Hàm</value>
+  </data>
+  <data name="EditorStringId.LookUpPrevious" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAddCondition" xml:space="preserve">
+    <value>Thêm điều kiện</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMul" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorMultiply" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSub" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="EditorStringId.FilterClauseContains" xml:space="preserve">
+    <value>Có chứa</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringFunctionContains" xml:space="preserve">
+    <value>Có chứa</value>
+  </data>
+  <data name="EditorStringId.FilterClauseEquals" xml:space="preserve">
+    <value>Bằng</value>
+  </data>
+  <data name="EditorStringId.FilterClauseGreater" xml:space="preserve">
+    <value>Lớn hơn</value>
+  </data>
+  <data name="EditorStringId.FilterClauseGreaterOrEqual" xml:space="preserve">
+    <value>Lớn hơn hoặc bằng</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLess" xml:space="preserve">
+    <value>Nhỏ hơn</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeNow" xml:space="preserve">
+    <value>Bây giờ</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeThisYear" xml:space="preserve">
+    <value>Năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringFunctionStartsWith" xml:space="preserve">
+    <value>Bắt đầu với</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClearFilter" xml:space="preserve">
+    <value>Xoá bộ lọc</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeAction" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Parameters_Description_Prefix" xml:space="preserve">
+    <value>Các loại hình tham số này là: {0}</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Variables_Text" xml:space="preserve">
+    <value>Biến</value>
+  </data>
+  <data name="EditorStringId.CameraResolutionCaption" xml:space="preserve">
+    <value>Độ phân giải:</value>
+  </data>
+  <data name="EditorStringId.CameraBrightnessCaption" xml:space="preserve">
+    <value>Độ sáng:</value>
+  </data>
+  <data name="EditorStringId.CameraContrastCaption" xml:space="preserve">
+    <value>Độ tương phản:</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryLineSeparator" xml:space="preserve">
+    <value>Dòng phân cách</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryMathSymbol" xml:space="preserve">
+    <value>Ký hiệu toán học</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryOtherNotAssigned" xml:space="preserve">
+    <value>Khác không được chỉ định</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryOtherNumber" xml:space="preserve">
+    <value>Số khác</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryOtherSymbol" xml:space="preserve">
+    <value>Biểu tượng khác</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryParagraphSeparator" xml:space="preserve">
+    <value>Dấu tách đoạn</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryPrivateUse" xml:space="preserve">
+    <value>Sử dụng riêng.</value>
+  </data>
+  <data name="EditorStringId.RefreshPage" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBetween" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Title" xml:space="preserve">
+    <value>Trình soạn thảo Biểu thức</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_And_Description" xml:space="preserve">
+    <value>Thực thi một sự kết hợp giữa hai biểu thức lôgíc.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Between_Description" xml:space="preserve">
+    <value>Between (,)
+Trả về true nếu một giá trị lớn hơn hoặc bằng toán hạng đầu tiên và nhỏ hơn hoặc bằng toán hạng thứ hai.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Divide_Description" xml:space="preserve">
+    <value>Chia toán hàng đầu bởi toán hạng thứ hai.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Equal_Description" xml:space="preserve">
+    <value>Trả về true nếu cả hai toán hạng có cùng giá trị; nếu không, giá trị trả về là false.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_False_Description" xml:space="preserve">
+    <value>Đại diện giá trị Boolean False.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Greater_Description" xml:space="preserve">
+    <value>Toán tử lớn hơn. Được sử dụng để so sánh các biểu thức.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GreaterOrEqual_Description" xml:space="preserve">
+    <value>Toán tử lớn hơn hoặc bằng. Sử dụng để so sánh các biểu thức.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_In_Description" xml:space="preserve">
+    <value>In (,,,)
+Kiểm tra sự tồn tại của một thuộc tính trong một đối tượng.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Less_Description" xml:space="preserve">
+    <value>Toán tử nhỏ hơn. Sử dụng để so sánh các biểu thức.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LessOrEqual_Description" xml:space="preserve">
+    <value>Toán tử nhỏ hơn hoặc bằng. Sử dụng để so sánh các biểu thức.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Like_Description" xml:space="preserve">
+    <value>So sánh một chuỗi với một mẫu. Nếu giá trị của chuỗi phù hợp với mẫu, kết quả là true. Nếu chuỗi không phù hợp với mầu, kết quả là false. Nếu cả chuỗi và mẫu là chuỗi rỗng, kết quả là true.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Minus_Description" xml:space="preserve">
+    <value>Tìm sự khác biệt giữa hai số.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Modulo_Description" xml:space="preserve">
+    <value>Trả về phần còn lại (modulus) thu được bằng cách chia một biểu thức số cho một biểu thức số khác.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Multiply_Description" xml:space="preserve">
+    <value>Nhân giá trị của hai biểu thức.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Not_Description" xml:space="preserve">
+    <value>Thực hiện phủ định lôgíc một biểu thức.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_NotEqual_Description" xml:space="preserve">
+    <value>Trả về true nếu các toán hạng không có cùng giá trị, nếu không, giá trị trả về false.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Null_Description" xml:space="preserve">
+    <value>Đại diện cho một tham chiếu null, cái mà nó không trỏ đến bất kỳ đối tượng nào.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Or_Description" xml:space="preserve">
+    <value>Thực thi một sự phân tách lôgíc trên hai biểu thức Boolean.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_True_Description" xml:space="preserve">
+    <value>Đại diện cho giá trị True của Boolean.</value>
+  </data>
+  <data name="EditorStringId.WaitIndicatorText" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="EditorStringId.BrushEditLinear" xml:space="preserve">
+    <value>Tuyến tính</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonPercent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorModulo" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="EditorStringId.CheckIndeterminate" xml:space="preserve">
+    <value>Không xác định</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_AutomaticButtonCaption" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="EditorStringId.ConfirmationDialogCaption" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="EditorStringId.DatePickerHours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="EditorStringId.FirstPage" xml:space="preserve">
+    <value>Trang đầu tiên</value>
+  </data>
+  <data name="EditorStringId.LastPage" xml:space="preserve">
+    <value>Trang cuối</value>
+  </data>
+  <data name="EditorStringId.NextPage" xml:space="preserve">
+    <value>Trang Tiếp</value>
+  </data>
+  <data name="EditorStringId.PrevPage" xml:space="preserve">
+    <value>Trang Trước</value>
+  </data>
+  <data name="EditorStringId.DragDropOneRecord" xml:space="preserve">
+    <value>Kéo 1 hồ sơ:</value>
+  </data>
+  <data name="EditorStringId.DragDropCannotDrop" xml:space="preserve">
+    <value>Không thể thả ở đây</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategorySurrogate" xml:space="preserve">
+    <value>Thay thế</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryUppercaseLetter" xml:space="preserve">
+    <value>Chữ viết hoa</value>
+  </data>
+  <data name="EditorStringId.FilterElementAllItem" xml:space="preserve">
+    <value>(Tất cả)</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_AggregateItems" xml:space="preserve">
+    <value>Tổng hợp</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonClear" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="EditorStringId.ColorPickerBrightness" xml:space="preserve">
+    <value>Độ sáng</value>
+  </data>
+  <data name="EditorStringId.FilterGroupClearAll" xml:space="preserve">
+    <value>Xóa tất cả</value>
+  </data>
+  <data name="EditorStringId.FilterRulesEmptyValueText" xml:space="preserve">
+    <value>Nhập một giá trị...</value>
+  </data>
+  <data name="EditorStringId.DragDropAddRecords" xml:space="preserve">
+    <value>Thêm hồ sơ</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalToday" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalTomorrow" xml:space="preserve">
+    <value>Ngày mai</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalYesterday" xml:space="preserve">
+    <value>Hôm qua</value>
+  </data>
+  <data name="EditorStringId.FilterElementRadioAllItem" xml:space="preserve">
+    <value>(Tất cả)</value>
+  </data>
+  <data name="EditorStringId.TimeSpanDaysPlural" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="EditorStringId.TimeSpanHoursPlural" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="EditorStringId.TimeSpanDaysShort" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="EditorStringId.ThemedWindow_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="EditorStringId.ThemedWindow_Restore" xml:space="preserve">
+    <value>Khôi phục</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringAboveAverage" xml:space="preserve">
+    <value>Trên trung bình</value>
+  </data>
+  <data name="EditorStringId.PredefinedFormatConditionAboveAverage" xml:space="preserve">
+    <value>Trên trung bình</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBelowAverage" xml:space="preserve">
+    <value>Dưới trung bình</value>
+  </data>
+  <data name="EditorStringId.PredefinedFormatConditionBelowAverage" xml:space="preserve">
+    <value>Dưới trung bình</value>
+  </data>
+  <data name="EditorStringId.TopBottomValueTypePercent" xml:space="preserve">
+    <value>Phần trăm</value>
+  </data>
+  <data name="EditorStringId.FilterOperandValue" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="EditorStringId.FilterOperandParameter" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="EditorStringId.TimeSpanMinutesShort" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseBetween" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeLastMonth" xml:space="preserve">
+    <value>Tháng trước</value>
+  </data>
+  <data name="EditorStringId.BrushEditCenterDescription" xml:space="preserve">
+    <value>Được hoặc bộ Trung tâm của vòng tròn ngoài cùng nhất của xuyên tâm chuyển màu.</value>
+  </data>
+  <data name="EditorStringId.BrushEditEndPoint" xml:space="preserve">
+    <value>Điểm cuối</value>
+  </data>
+  <data name="EditorStringId.BrushEditEndPointDescription" xml:space="preserve">
+    <value>Được hoặc bộ hai chiều tọa độ cho các điểm cuối của tuyến tính gradient.</value>
+  </data>
+  <data name="EditorStringId.BrushEditGradientOrigin" xml:space="preserve">
+    <value>GradientOrigin</value>
+  </data>
+  <data name="EditorStringId.BrushEditGradientOriginDescription" xml:space="preserve">
+    <value>Được hoặc bộ hai chiều tâm điểm xác định sự khởi đầu của một gradient.</value>
+  </data>
+  <data name="EditorStringId.BrushEditMappingMode" xml:space="preserve">
+    <value>MappingMode</value>
+  </data>
+  <data name="EditorStringId.BrushEditMappingModeDescription" xml:space="preserve">
+    <value>Được hoặc đặt một giá trị chỉ định cho dù tọa độ định vị gradient bàn chải là tuyệt đối hay tương đối so với khu vực sản lượng.</value>
+  </data>
+  <data name="EditorStringId.BrushEditRadial" xml:space="preserve">
+    <value>Bố trí hình tròn</value>
+  </data>
+  <data name="EditorStringId.BrushEditRadiusX" xml:space="preserve">
+    <value>RadiusX</value>
+  </data>
+  <data name="EditorStringId.BrushEditRadiusXDescription" xml:space="preserve">
+    <value>Được hoặc đặt bán kính ngang của tròn xuyên tâm chuyển màu, ngoài cùng nhất.</value>
+  </data>
+  <data name="EditorStringId.BrushEditRadiusY" xml:space="preserve">
+    <value>RadiusY</value>
+  </data>
+  <data name="EditorStringId.BrushEditRadiusYDescription" xml:space="preserve">
+    <value>Được hoặc đặt bán kính theo chiều dọc của tròn xuyên tâm chuyển màu, ngoài cùng nhất.</value>
+  </data>
+  <data name="EditorStringId.BrushEditSolid" xml:space="preserve">
+    <value>Rắn</value>
+  </data>
+  <data name="EditorStringId.BrushEditSpreadMethod" xml:space="preserve">
+    <value>SpreadMethod</value>
+  </data>
+  <data name="EditorStringId.BrushEditSpreadMethodDescription" xml:space="preserve">
+    <value>Được hoặc đặt loại phương pháp lây lan chỉ định làm thế nào để vẽ một gradient mà bắt đầu hoặc kết thúc bên trong các giới hạn của đối tượng được sơn.</value>
+  </data>
+  <data name="EditorStringId.BrushEditStartPoint" xml:space="preserve">
+    <value>StartPoint</value>
+  </data>
+  <data name="EditorStringId.BrushEditStartPointDescription" xml:space="preserve">
+    <value>Được hoặc thiết lập tọa độ hai chiều cho điểm bắt đầu của tuyến tính gradient.</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonBack" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonCancel" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonDiv" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonEight" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonEqual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFive" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFour" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonFract" xml:space="preserve">
+    <value>1/x</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMAdd" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMC" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMR" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMS" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonMSub" xml:space="preserve">
+    <value>M-</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonNine" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonOne" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSeven" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSign" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSix" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonSqrt" xml:space="preserve">
+    <value>√</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonThree" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonTwo" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EditorStringId.CalculatorButtonZero" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EditorStringId.CalculatorDivisionByZeroError" xml:space="preserve">
+    <value>Không thể phân chia bởi zero</value>
+  </data>
+  <data name="EditorStringId.CalculatorInvalidInputError" xml:space="preserve">
+    <value>Đầu vào không hợp lệ</value>
+  </data>
+  <data name="EditorStringId.CameraAgainButtonCaption" xml:space="preserve">
+    <value>Thử lại</value>
+  </data>
+  <data name="EditorStringId.CameraCaptureButtonCaption" xml:space="preserve">
+    <value>Nắm bắt</value>
+  </data>
+  <data name="EditorStringId.CameraDesaturateCaption" xml:space="preserve">
+    <value>Desaturate:</value>
+  </data>
+  <data name="EditorStringId.CameraDeviceCaption" xml:space="preserve">
+    <value>Điện thoại:</value>
+  </data>
+  <data name="EditorStringId.CameraErrorCaption" xml:space="preserve">
+    <value>Webcam là không có sẵn. Thử đóng các ứng dụng khác có thể sử dụng nó</value>
+  </data>
+  <data name="EditorStringId.CameraNoDevicesErrorCaption" xml:space="preserve">
+    <value>Ứng dụng không thể tìm thấy một webcam.</value>
+  </data>
+  <data name="EditorStringId.CameraResetButtonCaption" xml:space="preserve">
+    <value>Đặt lại về mặc định</value>
+  </data>
+  <data name="EditorStringId.CameraSettingsCaption" xml:space="preserve">
+    <value>Cài đặt máy ảnh</value>
+  </data>
+  <data name="EditorStringId.CameraTakePictureToolTip" xml:space="preserve">
+    <value>Take Picture From Camera</value>
+  </data>
+  <data name="EditorStringId.CantModifySelectedDates" xml:space="preserve">
+    <value>Chỉ có thể thay đổi bộ sưu tập SelectedDates trong nhiều lựa chọn chế độ. Sử dụng FocusedDate trong chế độ đơn chọn.</value>
+  </data>
+  <data name="EditorStringId.Caption_CommonCharactersToggleButton" xml:space="preserve">
+    <value>Phổ biến nhân vật</value>
+  </data>
+  <data name="EditorStringId.Caption_EncodingUnicode" xml:space="preserve">
+    <value>UNICODE</value>
+  </data>
+  <data name="EditorStringId.Caption_SpecialCharactersToggleButton" xml:space="preserve">
+    <value>Ký tự đặc biệt</value>
+  </data>
+  <data name="EditorStringId.Caption_SymbolFormCharacterSet" xml:space="preserve">
+    <value>Ký tự đặt:</value>
+  </data>
+  <data name="EditorStringId.Caption_SymbolFormFilter" xml:space="preserve">
+    <value>Bộ lọc:</value>
+  </data>
+  <data name="EditorStringId.Caption_SymbolFormFontName" xml:space="preserve">
+    <value>Font tên:</value>
+  </data>
+  <data name="EditorStringId.Caption_SymbolFormSearchByCode" xml:space="preserve">
+    <value>Tìm theo mã:</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryAllSymbols" xml:space="preserve">
+    <value>Tất cả các biểu tượng</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryClosePunctuation" xml:space="preserve">
+    <value>Đóng dấu chấm câu</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryConnectorPunctuation" xml:space="preserve">
+    <value>Kết nối các dấu chấm câu</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryControl" xml:space="preserve">
+    <value>Kiểm soát</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryCurrencySymbol" xml:space="preserve">
+    <value>Ký hiệu tiền tệ</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryDashPunctuation" xml:space="preserve">
+    <value>Dash dấu chấm câu</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryDecimalDigitNumber" xml:space="preserve">
+    <value>Số lượng chữ số thập phân</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryEnclosingMark" xml:space="preserve">
+    <value>Kèm theo nhãn hiệu</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryFinalQuotePunctuation" xml:space="preserve">
+    <value>Dấu chấm câu cuối cùng trích dẫn</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryInitialQuotePunctuation" xml:space="preserve">
+    <value>Ban đầu báo dấu chấm câu</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryLetterNumber" xml:space="preserve">
+    <value>Chữ số</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryLowercaseLetter" xml:space="preserve">
+    <value>Lá thư chữ thường</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryModifierLetter" xml:space="preserve">
+    <value>Công cụ sửa đổi thư</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryModifierSymbol" xml:space="preserve">
+    <value>Biểu tượng công cụ sửa đổi</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryNonSpacingMark" xml:space="preserve">
+    <value>Đánh dấu nonspacing</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryOpenPunctuation" xml:space="preserve">
+    <value>Mở dấu chấm câu</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryOtherLetter" xml:space="preserve">
+    <value>Lá thư khác</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryOtherPunctuation" xml:space="preserve">
+    <value>Dấu chấm câu</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategorySpaceSeparator" xml:space="preserve">
+    <value>Space tách</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategorySpacingCombiningMark" xml:space="preserve">
+    <value>Khoảng cách kết hợp các hiệu</value>
+  </data>
+  <data name="EditorStringId.Caption_UnicodeCategoryTitlecaseLetter" xml:space="preserve">
+    <value>Titlecase thư</value>
+  </data>
+  <data name="EditorStringId.CheckUnchecked" xml:space="preserve">
+    <value>unchecked</value>
+  </data>
+  <data name="EditorStringId.CMYK" xml:space="preserve">
+    <value>CMYK</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_ColorChooserWindowTitle" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Black" xml:space="preserve">
+    <value>Đen</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Blue" xml:space="preserve">
+    <value>Màu xanh</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_DarkBlue" xml:space="preserve">
+    <value>DarkBlue</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_DarkRed" xml:space="preserve">
+    <value>DarkRed</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Green" xml:space="preserve">
+    <value>Màu xanh lá cây</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_LightBlue" xml:space="preserve">
+    <value>LightBlue</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_LightGreen" xml:space="preserve">
+    <value>LightGreen</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Purple" xml:space="preserve">
+    <value>Màu tím</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_White" xml:space="preserve">
+    <value>Trắng</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_DefaultColors_Yellow" xml:space="preserve">
+    <value>Màu vàng</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_MoreColorsButtonCaption" xml:space="preserve">
+    <value>Thêm màu sắc...</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_NoColorButtonCaption" xml:space="preserve">
+    <value>Không có màu</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_RecentColorsCaption" xml:space="preserve">
+    <value>Tại màu sắc</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_StandardColorsCaption" xml:space="preserve">
+    <value>Tiêu chuẩn màu sắc</value>
+  </data>
+  <data name="EditorStringId.ColorEdit_ThemeColorsCaption" xml:space="preserve">
+    <value>Chủ đề màu sắc</value>
+  </data>
+  <data name="EditorStringId.ColorPickerAlpha" xml:space="preserve">
+    <value>Alpha</value>
+  </data>
+  <data name="EditorStringId.ColorPickerBlue" xml:space="preserve">
+    <value>Màu xanh</value>
+  </data>
+  <data name="EditorStringId.ColorPickerCyan" xml:space="preserve">
+    <value>Xanh lá mạ</value>
+  </data>
+  <data name="EditorStringId.ColorPickerGreen" xml:space="preserve">
+    <value>Màu xanh lá cây</value>
+  </data>
+  <data name="EditorStringId.ColorPickerHue" xml:space="preserve">
+    <value>Huế</value>
+  </data>
+  <data name="EditorStringId.ColorPickerKeyColor" xml:space="preserve">
+    <value>Phím màu</value>
+  </data>
+  <data name="EditorStringId.ColorPickerLightness" xml:space="preserve">
+    <value>Nhẹ nhàng</value>
+  </data>
+  <data name="EditorStringId.ColorPickerMagenta" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="EditorStringId.ColorPickerRed" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="EditorStringId.ColorPickerSaturation" xml:space="preserve">
+    <value>Bão hòa</value>
+  </data>
+  <data name="EditorStringId.ColorPickerYellow" xml:space="preserve">
+    <value>Màu vàng</value>
+  </data>
+  <data name="EditorStringId.ConfirmationDialogMessage" xml:space="preserve">
+    <value>Chữ "{0}" không phải là có sẵn trên hệ thống của bạn. Bạn có muốn dùng nó chứ?</value>
+  </data>
+  <data name="EditorStringId.DataTypeStringExample" xml:space="preserve">
+    <value>ABCXYZ</value>
+  </data>
+  <data name="EditorStringId.DateIntervalsMenuCaption" xml:space="preserve">
+    <value>Khoảng ngày</value>
+  </data>
+  <data name="EditorStringId.DatePickerMilliseconds" xml:space="preserve">
+    <value>msecs</value>
+  </data>
+  <data name="EditorStringId.DatePickerMinutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="EditorStringId.DatePickerSeconds" xml:space="preserve">
+    <value>giây</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeCurrency" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatGroupTypeDatetime" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatHelperWrongDisplayFormatValue" xml:space="preserve">
+    <value>Văn bản định dạng hiển thị không hợp lệ</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatTextControlDisplayFormatText" xml:space="preserve">
+    <value>Văn bản định dạng hiển thị:</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatTextControlExample" xml:space="preserve">
+    <value>Ví dụ:</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatTextControlPrefix" xml:space="preserve">
+    <value>Tiền tố:</value>
+  </data>
+  <data name="EditorStringId.DisplayFormatTextControlSuffix" xml:space="preserve">
+    <value>Hậu tố:</value>
+  </data>
+  <data name="EditorStringId.DragDropInsertAfter" xml:space="preserve">
+    <value>Chèn sau khi hồ sơ:</value>
+  </data>
+  <data name="EditorStringId.DragDropInsertBefore" xml:space="preserve">
+    <value>Chèn trước ghi:</value>
+  </data>
+  <data name="EditorStringId.DragDropMoveToChildren" xml:space="preserve">
+    <value>Di chuyển vào bộ sưu tập của trẻ em:</value>
+  </data>
+  <data name="EditorStringId.DragDropMultipleRecords" xml:space="preserve">
+    <value>Kéo bản ghi {0}</value>
+  </data>
+  <data name="EditorStringId.EmptyItem" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="EditorStringId.EmptySource" xml:space="preserve">
+    <value>Không có sẵn dữ liệu</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Abs_Description" xml:space="preserve">
+    <value>Abs(Value)
+Trả về giá trị tuyệt đối, tích cực của biểu thức nhất định số.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Acos_Description" xml:space="preserve">
+    <value>Acos(Value)
+Trả về arccosine một số (góc độ, ở radian, cô sin mà là biểu thức nhất định phao).</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddDays_Description" xml:space="preserve">
+    <value>AddDays (DateTime, DaysCount)
+Trả về một giá trị ngày-thời gian là số ngày ra khỏi DateTime được chỉ định, đã chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddHours_Description" xml:space="preserve">
+    <value>AddHours (DateTime, HoursCount)
+Trả về một giá trị ngày-thời gian là số giờ cách xa DateTime quy định, quy định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMilliSeconds_Description" xml:space="preserve">
+    <value>AddMilliSeconds (DateTime, MilliSecondsCount)
+Trả về một giá trị ngày-thời gian là một số quy định của mili giây từ DateTime đã chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMinutes_Description" xml:space="preserve">
+    <value>AddMinutes (DateTime, MinutesCount)
+Trả về một giá trị ngày-thời gian là số phút đi từ DateTime được chỉ định, đã chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddMonths_Description" xml:space="preserve">
+    <value>AddMonths (DateTime, MonthsCount)
+Trả về một giá trị ngày-thời gian là số tháng đi từ DateTime được chỉ định, đã chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddSeconds_Description" xml:space="preserve">
+    <value>AddSeconds (DateTime, SecondsCount)
+Trả về một giá trị ngày-thời gian là số giây từ DateTime được chỉ định, đã chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddTicks_Description" xml:space="preserve">
+    <value>AddTicks (DateTime, TicksCount)
+Trả về một giá trị ngày-thời gian là một số quy định của bọ ve đi từ DateTime đã chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddTimeSpan_Description" xml:space="preserve">
+    <value>AddTimeSpan (DateTime, TimeSpan)
+Trả về một giá trị ngày-giờ đang ở xa DateTime được chỉ định cho nhất định TimeSpan.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AddYears_Description" xml:space="preserve">
+    <value>AddYears (DateTime, YearsCount)
+Trả về một giá trị ngày-thời gian là một số quy định của năm specieid DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Ascii_Description" xml:space="preserve">
+    <value>Ascii(String)
+Trả về giá trị mã ASCII của các ký tự tận cùng bên trái trong biểu hiện nhân vật một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Asin_Description" xml:space="preserve">
+    <value>Asin(Value)
+Trả về arcsine một số (góc độ, ở radian, Sin mà là biểu thức nhất định phao).</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Atn_Description" xml:space="preserve">
+    <value>Atn(Value)
+Trả về arctangent một số (góc độ, ở radian, ốp mà là biểu thức nhất định phao).</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Atn2_Description" xml:space="preserve">
+    <value>Atn2 (Value1, Value2)
+Trở về góc có ốp là thương hai số điện thoại cụ thể, trong radian.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_AvgAggregate_Description" xml:space="preserve">
+    <value>Avg(Value)
+Đánh giá trung bình của các giá trị trong bộ sưu tập.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BigMul_Description" xml:space="preserve">
+    <value>BigMul (Value1, Value2)
+Trả về một Int64 có chứa sản phẩm đầy đủ của hai chỉ định số 32-bit.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseAnd_Description" xml:space="preserve">
+    <value>Thực hiện một hoạt động và hợp lý bitwise giữa hai số nguyên giá trị.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseOr_Description" xml:space="preserve">
+    <value>So sánh mỗi bit của nó operand đầu tiên đến bit của nó operand thứ hai, tương ứng. Nếu cả hai là 1, bit kết quả tương ứng được thiết lập để 1. Nếu không, bit kết quả tương ứng được thiết lập để 0.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_BitwiseXor_Description" xml:space="preserve">
+    <value>Thực hiện một loại trừ hợp lý trên hai biểu thức Boolean, hoặc một loại trừ bitwise trên hai biểu thức số.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Ceiling_Description" xml:space="preserve">
+    <value>Ceiling(Value)
+Trả về số nguyên nhỏ nhất là lớn hơn hoặc bằng với cụm từ nhất định số.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Char_Description" xml:space="preserve">
+    <value>Char(Number)
+Chuyển đổi một integerASCIICode để nhân vật một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CharIndex_Description" xml:space="preserve">
+    <value>CharIndex (String1, String2)
+Trả về vị trí bắt đầu của String1 trong String2, bắt đầu từ vị trí của nhân vật không đến đầu của chuỗi một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CharIndex3Param_Description" xml:space="preserve">
+    <value>CharIndex (String1, String2, StartLocation)
+Trả về vị trí bắt đầu của String1 trong String2, bắt đầu từ vị trí nhân vật StartLocation đến đầu của chuỗi một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Concat_Description" xml:space="preserve">
+    <value>Concat (String1,..., StringN)
+Trả về một giá trị chuỗi chứa nối của chuỗi hiện tại với bất kỳ bổ sung dây.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Constants_Text" xml:space="preserve">
+    <value>Hằng số</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Contains_Description" xml:space="preserve">
+    <value>Chứa (chuỗi, Chuỗi con)
+Trở về True nếu chuỗi con xảy ra trong chuỗi; Nếu không, trả về False.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Cos_Description" xml:space="preserve">
+    <value>Cos(Value)
+Trả về cô sin góc được định nghĩa trong radian.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Cosh_Description" xml:space="preserve">
+    <value>Cosh(Value)
+Trả về cô sin hyperbol của góc được định nghĩa trong radian.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CountAggregate_Description" xml:space="preserve">
+    <value>Count()
+Trả về số lượng các đối tượng trong bộ sưu tập một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_CurrentRowIndex_Description" xml:space="preserve">
+    <value>Trả về chỉ số của hàng dữ liệu hiện tại trong một datasource. Lưu ý rằng chỉ số này là Zero.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffDay_Description" xml:space="preserve">
+    <value>DateDiffDay (startDate, endDate)
+Trả về số ngày ranh giới giữa hai phòng không nullable ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffHour_Description" xml:space="preserve">
+    <value>DateDiffHour (startDate, endDate)
+Trả về số giờ ranh giới giữa hai phòng không nullable ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMilliSecond_Description" xml:space="preserve">
+    <value>DateDiffMilliSecond (startDate, endDate)
+Trả về số lượng millisecond ranh giới giữa hai phòng không nullable ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMinute_Description" xml:space="preserve">
+    <value>DateDiffMinute (startDate, endDate)
+Trả về số lượng phút ranh giới giữa hai phòng không nullable ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffMonth_Description" xml:space="preserve">
+    <value>DateDiffMonth (startDate, endDate)
+Trả về số lượng tháng ranh giới giữa hai phòng không nullable ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffSecond_Description" xml:space="preserve">
+    <value>DateDiffSecond (startDate, endDate)
+Trả về số lượng thứ hai ranh giới giữa hai phòng không nullable ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffTick_Description" xml:space="preserve">
+    <value>DateDiffTick (startDate, endDate)
+Trả về số lượng đánh dấu ranh giới giữa hai phòng không nullable ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_DateDiffYear_Description" xml:space="preserve">
+    <value>DateDiffYear (startDate, endDate)
+Trả về số lượng năm ranh giới giữa hai phòng không nullable ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_EndsWith_Description" xml:space="preserve">
+    <value>EndsWith (chuỗi, EndString)
+Trở về True nếu kết thúc của chuỗi phù hợp với EndString; Nếu không, trả về False.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ExistsAggregate_Description" xml:space="preserve">
+    <value>Exists()
+Xác định cho dù đối tượng tồn tại trong bộ sưu tập.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Exp_Description" xml:space="preserve">
+    <value>Exp(Value)
+Trả về giá trị mũ của biểu thức nhất định phao.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Fields_Description_Prefix" xml:space="preserve">
+    <value>Các loại hình của lĩnh vực này là: {0}</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Floor_Description" xml:space="preserve">
+    <value>Floor(Value)
+Trả về số nguyên lớn nhất nhỏ hơn hoặc bằng biểu thức nhất định số.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionsSearch_NullText" xml:space="preserve">
+    <value>Nhập văn bản để tìm...</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_DateTimeItems" xml:space="preserve">
+    <value>date-time</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_LogicalItems" xml:space="preserve">
+    <value>logical</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_FunctionType_MathItems" xml:space="preserve">
+    <value>Toán học</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDate_Description" xml:space="preserve">
+    <value>GetDate(DateTime)
+Chất chiết xuất từ một ngày từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDay_Description" xml:space="preserve">
+    <value>GetDay(DateTime)
+Chất chiết xuất từ một ngày từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDayOfWeek_Description" xml:space="preserve">
+    <value>GetDayOfWeek(DateTime)
+Chất chiết xuất từ một ngày trong tuần từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetDayOfYear_Description" xml:space="preserve">
+    <value>GetDayOfYear(DateTime)
+Chất chiết xuất từ một ngày trong năm từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetHour_Description" xml:space="preserve">
+    <value>GetHour(DateTime)
+Chất chiết xuất từ một giờ từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMilliSecond_Description" xml:space="preserve">
+    <value>GetMilliSecond(DateTime)
+Chất chiết xuất từ mili giây từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMinute_Description" xml:space="preserve">
+    <value>GetMinute(DateTime)
+Chất chiết xuất từ phút từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetMonth_Description" xml:space="preserve">
+    <value>GetMonth(DateTime)
+Chất chiết xuất từ một tháng từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetSecond_Description" xml:space="preserve">
+    <value>GetSecond(DateTime)
+Chất chiết xuất từ giây từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetTimeOfDay_Description" xml:space="preserve">
+    <value>GetTimeOfDay(DateTime)
+Chất chiết xuất từ thời gian trong ngày từ DateTime được xác định, trong bọ ve.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GetYear_Description" xml:space="preserve">
+    <value>GetYear(DateTime)
+Chất chiết xuất từ một năm từ định nghĩa DateTime.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_GridFields_Description_Prefix" xml:space="preserve">
+    <value>Lĩnh vực thông tin
+Chú thích: {1}
+Các loại hình của lĩnh vực này là: {2}</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Iif_Description" xml:space="preserve">
+    <value>Iif (biểu hiện, TruePart, FalsePart)
+Trở lại TruePart hoặc FalsePart, tùy thuộc vào đánh giá biểu thức Boolean.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_InDateRange_Description" xml:space="preserve">
+    <value>InDateRange (DateTime, DateTime, DateTime)
+Chỉ định phạm vi ngày để kiểm tra. Trả về true nếu một phần ngày của toán hạng đầu tiên lớn hơn hoặc bằng phần ngày của toán hạng thứ hai và nhỏ hơn hoặc bằng phần ngày của toán hạng thứ ba.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_InRange_Description" xml:space="preserve">
+    <value>InRange(,,)
+Chỉ định một phạm vi để kiểm tra. Trả về true nếu toán hạng đầu tiên lớn hơn hoặc bằng toán hạng thứ hai và nhỏ hơn toán hạng thứ ba.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Insert_Description" xml:space="preserve">
+    <value>Chèn (String1, StartPosition, String2)
+Chèn String2 vào String1 ở vị trí được chỉ định bởi StartPositon</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsApril_Description" xml:space="preserve">
+    <value>IsApril(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng tư.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsAugust_Description" xml:space="preserve">
+    <value>IsAugust(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng tám.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsDecember_Description" xml:space="preserve">
+    <value>IsDecember(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng mười hai.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsFebruary_Description" xml:space="preserve">
+    <value>IsFebruary(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong Nhật.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsJanuary_Description" xml:space="preserve">
+    <value>IsJanuary(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng Giêng.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsJuly_Description" xml:space="preserve">
+    <value>IsJuly(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng bảy.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsJune_Description" xml:space="preserve">
+    <value>IsJune(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng sáu.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsLastMonth_Description" xml:space="preserve">
+    <value>IsLastMonth(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng trước.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsLastYear_Description" xml:space="preserve">
+    <value>IsLastYear(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong các năm trước.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsMarch_Description" xml:space="preserve">
+    <value>IsMarch(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong March.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsMay_Description" xml:space="preserve">
+    <value>IsMay(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng năm.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNextMonth_Description" xml:space="preserve">
+    <value>IsNextMonth(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng tới.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNextYear_Description" xml:space="preserve">
+    <value>IsNextYear(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong những năm tiếp theo.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNovember_Description" xml:space="preserve">
+    <value>IsNovember(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng mười một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNull_Description" xml:space="preserve">
+    <value>IsNull(Value)
+Trả về True nếu giá trị được chỉ định là NULL.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsNullOrEmpty_Description" xml:space="preserve">
+    <value>IsNullOrEmpty(String)
+Trả về True nếu đối tượng String được chỉ định là NULL hoặc một chuỗi rỗng; Nếu không, trả về False.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsOctober_Description" xml:space="preserve">
+    <value>IsOctober(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng mười.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsSameDay_Description" xml:space="preserve">
+    <value>IsSameDay (DateTime, DateTime)
+Trả về True nếu các giá trị ngày-thời gian được chỉ định nằm trong cùng một ngày.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsSeptember_Description" xml:space="preserve">
+    <value>IsSeptember(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng chín.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsThisMonth_Description" xml:space="preserve">
+    <value>IsThisMonth(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong tháng hiện tại.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsThisWeek_Description" xml:space="preserve">
+    <value>IsThisWeek(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong hiện tại tuần.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsThisYear_Description" xml:space="preserve">
+    <value>IsThisYear(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong năm hiện tại.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_IsYearToDate_Description" xml:space="preserve">
+    <value>IsYearToDate(DateTime)
+Trả về True nếu ngày được chỉ định nằm trong giai đoạn năm-to-date (bắt đầu từ ngày đầu tiên của năm hiện tại và tiếp tục đến ngày hiện tại).</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Len_Description" xml:space="preserve">
+    <value>Len(Value)
+Trả về một số nguyên có chứa một số ký tự trong một chuỗi hoặc số byte yêu cầu để lưu trữ một biến, danh nghĩa.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeDayAfterTomorrow_Description" xml:space="preserve">
+    <value>LocalDateTimeDayAfterTomorrow()
+Trả về một giá trị ngày thời gian tương ứng với ngày mốt.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeLastMonth_Description" xml:space="preserve">
+    <value>LocalDateTimeLastMonth()
+Trả về một giá trị thời gian ngày tương ứng với ngày đầu tiên của tháng trước.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeLastWeek_Description" xml:space="preserve">
+    <value>LocalDateTimeLastWeek()
+Trả về một giá trị ngày thời gian tương ứng với ngày đầu tiên của tuần trước.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeLastYear_Description" xml:space="preserve">
+    <value>LocalDateTimeLastYear()
+Trả về một giá trị thời gian ngày tương ứng với ngày đầu tiên của năm trước.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeNextMonth_Description" xml:space="preserve">
+    <value>LocalDateTimeNextMonth()
+Trả về một giá trị ngày thời gian tương ứng với ngày đầu tiên của tháng tiếp theo.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeNextWeek_Description" xml:space="preserve">
+    <value>LocalDateTimeNextWeek()
+Trả về một giá trị ngày thời gian tương ứng với ngày đầu tiên của tuần sau.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeNextYear_Description" xml:space="preserve">
+    <value>LocalDateTimeNextYear()
+Trả về một giá trị ngày thời gian tương ứng với ngày đầu tiên của năm sau.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeNow_Description" xml:space="preserve">
+    <value>LocalDateTimeNow()
+Trả về một giá trị ngày thời gian tương ứng với thời điểm hiện tại trong thời gian.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeThisMonth_Description" xml:space="preserve">
+    <value>LocalDateTimeThisMonth()
+Trả về một giá trị ngày thời gian tương ứng với ngày đầu tiên của tháng hiện tại.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeThisWeek_Description" xml:space="preserve">
+    <value>LocalDateTimeThisWeek()
+Trả về một giá trị ngày thời gian tương ứng với ngày đầu tiên của hiện tại tuần.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeThisYear_Description" xml:space="preserve">
+    <value>LocalDateTimeThisYear()
+Trả về một giá trị ngày thời gian tương ứng với ngày đầu tiên của năm hiện tại.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeToday_Description" xml:space="preserve">
+    <value>LocalDateTimeToday()
+Trả về một giá trị ngày thời gian tương ứng với ngày hôm nay.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeTomorrow_Description" xml:space="preserve">
+    <value>LocalDateTimeTomorrow()
+Trả về một giá trị ngày thời gian tương ứng với ngày mai.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeTwoMonthsAway_Description" xml:space="preserve">
+    <value>LocalDateTimeTwoMonthsAway()
+Trả về một giá trị thời gian ngày tương ứng với ngày đầu tiên của tháng sau khi tiếp.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeTwoWeeksAway_Description" xml:space="preserve">
+    <value>LocalDateTimeTwoWeeksAway()
+Trả về một giá trị ngày thời gian tương ứng với ngày đầu tiên của tuần sau khi tiếp theo tuần.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeTwoYearsAway_Description" xml:space="preserve">
+    <value>LocalDateTimeTwoYearsAway()
+Trả về một giá trị thời gian ngày tương ứng với ngày đầu tiên của năm sau tiếp.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeYearBeforeToday_Description" xml:space="preserve">
+    <value>LocalDateTimeYearBeforeToday()
+Trả về một giá trị thời gian ngày tương ứng với ngày một năm trước đây.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_LocalDateTimeYesterday_Description" xml:space="preserve">
+    <value>LocalDateTimeYesterday()
+Trả về một giá trị ngày thời gian tương ứng với Heating.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log_Description" xml:space="preserve">
+    <value>Log(value)
+Trả về logarit tự nhiên của một số quy định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log10_Description" xml:space="preserve">
+    <value>Log10(Value)
+Trở về căn cứ 10 logarit của một số quy định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Log2Param_Description" xml:space="preserve">
+    <value>(giá trị, cơ sở)
+Trả về logarit của một số quy định trong một cơ sở quy định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Lower_Description" xml:space="preserve">
+    <value>Lower(String)
+Trả về chuỗi trong chữ thường.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Max_Description" xml:space="preserve">
+    <value>Max (Value1, Value2)
+Trả về giá trị tối đa từ các giá trị được chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_MaxAggregate_Description" xml:space="preserve">
+    <value>Max(Value)
+Trả về giá trị tối đa biểu hiện trong bộ sưu tập một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Min_Description" xml:space="preserve">
+    <value>Min (Value1, Value2)
+Trả về giá trị tối thiểu từ các giá trị được chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_MinAggregate_Description" xml:space="preserve">
+    <value>Min(Value)
+Trả về giá trị tối thiểu biểu hiện trong bộ sưu tập một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Now_Description" xml:space="preserve">
+    <value>Now()
+Trả về ngày hệ thống hiện tại và thời gian.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Operators_Text" xml:space="preserve">
+    <value>Quốc gia sử dụng</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadLeft_Description" xml:space="preserve">
+    <value>PadLeft (chuỗi, chiều dài)
+Canh lề trái các nhân vật trong chuỗi được xác định, đệm của nó bên trái với các khoảng trắng nhân vật lên đến tổng chiều dài được chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadLeft3Param_Description" xml:space="preserve">
+    <value>PadLeft (chuỗi, chiều dài, Char)
+Canh lề trái các nhân vật trong chuỗi được xác định, đệm của nó bên trái với Char được chỉ định đến tổng chiều dài được chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadRight_Description" xml:space="preserve">
+    <value>PadRight (chuỗi, chiều dài)
+Canh lề bên phải ký tự trong chuỗi được xác định, đệm của nó bên trái với các khoảng trắng nhân vật lên đến tổng chiều dài được chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_PadRight3Param_Description" xml:space="preserve">
+    <value>PadRight (chuỗi, chiều dài, Char)
+Canh lề bên phải ký tự trong chuỗi được xác định, đệm của nó bên trái với Char được chỉ định đến tổng chiều dài được chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Plus_Description" xml:space="preserve">
+    <value>Cho biết thêm giá trị của một số biểu hiện khác, hoặc concatenates hai dây.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Power_Description" xml:space="preserve">
+    <value>Power (giá trị, quyền lực)
+Trả về một số quy định nêu ra một quyền lực quy định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Remove2Param_Description" xml:space="preserve">
+    <value>Loại bỏ (String, StartPosition)
+Xóa bỏ tất cả các ký tự từ trường hợp này, bắt đầu từ một vị trí đã chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Remove3Param_Description" xml:space="preserve">
+    <value>(chuỗi, StartPosition, chiều dài)
+Xoá một số quy định của nhân vật từ trường hợp này, bắt đầu từ một vị trí đã chỉ rõ.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Replace_Description" xml:space="preserve">
+    <value>(chuỗi, SubString2, String3)
+Trả về một bản sao của String1, trong đó SubString2 đã được thay thế bằng String3.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Reverse_Description" xml:space="preserve">
+    <value>Reverse(String)
+Đảo ngược thứ tự của các yếu tố trong chuỗi một.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Rnd_Description" xml:space="preserve">
+    <value>Rnd()
+Trả về một số ngẫu nhiên mà là ít hơn 1, nhưng lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Round_Description" xml:space="preserve">
+    <value>Round(Value)
+Viên đạn giá trị nhất định để số nguyên gần nhất.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Round2Param_Description" xml:space="preserve">
+    <value>Vòng (giá trị chính xác)
+Viên đạn cho giá trị số nguyên gần nhất, hoặc một số quy định số chữ số thập phân.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_RowCount_Description" xml:space="preserve">
+    <value>Trả về tổng số tiền của các hàng dữ liệu trong một datasource.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sign_Description" xml:space="preserve">
+    <value>Sign(Value)
+Trả lại giữa cực dương (+ 1), số không (0), hoặc tiêu cực (-1) dấu hiệu của biểu thức nhất định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sin_Description" xml:space="preserve">
+    <value>Sin(Value)
+Trả về Sin góc, được định nghĩa trong radian.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_SingleAggregate_Description" xml:space="preserve">
+    <value>Single()
+Trả về một đối tượng duy nhất từ bộ sưu tập.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sinh_Description" xml:space="preserve">
+    <value>Sinh(Value)
+Trả về Sin góc được định nghĩa trong radian, hyperbol.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Sqr_Description" xml:space="preserve">
+    <value>Sqr(Value)
+Trở lại của một số.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_StartsWith_Description" xml:space="preserve">
+    <value>StartsWith (chuỗi, StartString)
+Trở về True nếu sự khởi đầu của chuỗi phù hợp với StartString; Nếu không, trả về False.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Substring2param_Description" xml:space="preserve">
+    <value>Xâu (String, StartPosition)
+Lấy một xâu con từ chuỗi. Chuỗi con bắt đầu lúc StartPosition.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Substring3param_Description" xml:space="preserve">
+    <value>Xâu (String, StartPosition, chiều dài)
+Lấy một xâu con từ chuỗi. Chuỗi con bắt đầu tại StartPosition và có chiều dài được chỉ định.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_SumAggregate_Description" xml:space="preserve">
+    <value>Sum(Value)
+Trả về số tiền của tất cả các giá trị biểu hiện trong bộ sưu tập.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Tan_Description" xml:space="preserve">
+    <value>Tan(Value)
+Trả về ốp góc được định nghĩa trong radian.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Tanh_Description" xml:space="preserve">
+    <value>Tanh(Value)
+Trả về ốp góc được định nghĩa trong radian, hyperbol.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Today_Description" xml:space="preserve">
+    <value>Today()
+Trả về ngày hiện tại. Bất kể thời gian thực tế, chức năng này trở về nửa đêm của ngày hiện tại.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToDecimal_Description" xml:space="preserve">
+    <value>ToDecimal(Value)
+Chuyển đổi giá trị cho một số thập phân tương đương.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToDouble_Description" xml:space="preserve">
+    <value>ToDouble(Value)
+Chuyển đổi giá trị cho một tương đương 64-bit chính xác đôi floating-point số.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToFloat_Description" xml:space="preserve">
+    <value>ToFloat(Value)
+Chuyển đổi giá trị cho một tương đương 32-bit duy nhất-chính xác floating-point số.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToInt_Description" xml:space="preserve">
+    <value>ToInt(Value)
+Chuyển đổi giá trị cho một số nguyên đã ký 32-bit tương đương.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToLong_Description" xml:space="preserve">
+    <value>ToLong(Value)
+Chuyển đổi giá trị cho một số nguyên 64-bit ký tương đương.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_ToStr_Description" xml:space="preserve">
+    <value>ToStr(Value)
+Trả về một chuỗi đại diện của một đối tượng.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Trim_Description" xml:space="preserve">
+    <value>Trim(String)
+Loại bỏ tất cả hàng đầu và dấu SPACE nhân vật từ String.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_Upper_Description" xml:space="preserve">
+    <value>Upper(String)
+Trả về chuỗi trong chữ hoa.</value>
+  </data>
+  <data name="EditorStringId.ExpressionEditor_UtcNow_Description" xml:space="preserve">
+    <value>UtcNow()
+Trả về ngày hệ thống hiện tại và thời gian, thể hiện như là giờ phối hợp quốc tế (UTC).</value>
+  </data>
+  <data name="EditorStringId.FilterClauseAnyOf" xml:space="preserve">
+    <value>Là bất kỳ</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBeginsWith" xml:space="preserve">
+    <value>Bắt đầu với</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBetween" xml:space="preserve">
+    <value>is between</value>
+  </data>
+  <data name="EditorStringId.FilterClauseBetweenDates" xml:space="preserve">
+    <value>Giữa ngày</value>
+  </data>
+  <data name="EditorStringId.FilterClauseDoesNotContain" xml:space="preserve">
+    <value>Does Not Contain</value>
+  </data>
+  <data name="EditorStringId.FilterClauseDoesNotEqual" xml:space="preserve">
+    <value>Does Not Equal</value>
+  </data>
+  <data name="EditorStringId.FilterClauseEndsWith" xml:space="preserve">
+    <value>Kết thúc bằng</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsApril" xml:space="preserve">
+    <value>Là tháng tư</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsAugust" xml:space="preserve">
+    <value>Là tháng tám</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsBeyondThisYear" xml:space="preserve">
+    <value>Vượt ra ngoài năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsDecember" xml:space="preserve">
+    <value>Là tháng mười hai</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisMonth" xml:space="preserve">
+    <value>Is earlier this month</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisWeek" xml:space="preserve">
+    <value>Is earlier this week</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsEarlierThisYear" xml:space="preserve">
+    <value>Is earlier this year</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsFebruary" xml:space="preserve">
+    <value>Là tháng hai</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsJanuary" xml:space="preserve">
+    <value>Là ngày</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsJuly" xml:space="preserve">
+    <value>Là ngày</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsJune" xml:space="preserve">
+    <value>Là ngày</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLastWeek" xml:space="preserve">
+    <value>Là tuần trước</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisMonth" xml:space="preserve">
+    <value>Là sau đó trong tháng này</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisWeek" xml:space="preserve">
+    <value>Sau này các tuần này</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsLaterThisYear" xml:space="preserve">
+    <value>Is later this year</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsMarch" xml:space="preserve">
+    <value>Là ba</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsMay" xml:space="preserve">
+    <value>Là tháng năm</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNextWeek" xml:space="preserve">
+    <value>Là trong tuần tới</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotApril" xml:space="preserve">
+    <value>Không phải là tháng tư</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotAugust" xml:space="preserve">
+    <value>tám</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotDecember" xml:space="preserve">
+    <value>mười hai</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotFebruary" xml:space="preserve">
+    <value>phải là tháng</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotJanuary" xml:space="preserve">
+    <value>Giêng</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotJuly" xml:space="preserve">
+    <value>bảy</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotJune" xml:space="preserve">
+    <value>sáu</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotMarch" xml:space="preserve">
+    <value>là tháng</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotMay" xml:space="preserve">
+    <value>có thể</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotNovember" xml:space="preserve">
+    <value>phải là tháng mười một</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotNull" xml:space="preserve">
+    <value>Là không phải không</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotNullOrEmpty" xml:space="preserve">
+    <value>Là không trống</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotOctober" xml:space="preserve">
+    <value>tháng mười</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotOn" xml:space="preserve">
+    <value>không phải</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNotSeptember" xml:space="preserve">
+    <value>là tháng chín</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNovember" xml:space="preserve">
+    <value>Là tháng mười một</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNull" xml:space="preserve">
+    <value>Là không</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsNullOrEmpty" xml:space="preserve">
+    <value>Is Blank</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOctober" xml:space="preserve">
+    <value>Là ngày</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOn" xml:space="preserve">
+    <value>Là</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOnAnyOfTheFollowing" xml:space="preserve">
+    <value>bất kỳ sau đây</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOnDates" xml:space="preserve">
+    <value>Vào ngày</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalBeyondThisYear" xml:space="preserve">
+    <value>Beyond This Year</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalEarlierThisMonth" xml:space="preserve">
+    <value>Earlier this month</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalEarlierThisWeek" xml:space="preserve">
+    <value>Earlier This Week</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalEarlierThisYear" xml:space="preserve">
+    <value>Earlier This Year</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalLastWeek" xml:space="preserve">
+    <value>Cuối tuần</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalLaterThisMonth" xml:space="preserve">
+    <value>Sau đó trong tháng này</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalLaterThisWeek" xml:space="preserve">
+    <value>Later This Week</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalLaterThisYear" xml:space="preserve">
+    <value>Later This Year</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalNextWeek" xml:space="preserve">
+    <value>Tiếp theo tuần</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsOutlookIntervalPriorThisYear" xml:space="preserve">
+    <value>Trước khi năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsPriorThisYear" xml:space="preserve">
+    <value>Là trước khi năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsSeptember" xml:space="preserve">
+    <value>Là tháng chín</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsToday" xml:space="preserve">
+    <value>Là vào ngày hôm nay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsTomorrow" xml:space="preserve">
+    <value>Là ngày mai</value>
+  </data>
+  <data name="EditorStringId.FilterClauseIsYesterday" xml:space="preserve">
+    <value>Là vào ngày hôm nay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLessOrEqual" xml:space="preserve">
+    <value>is less than or equal to</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLike" xml:space="preserve">
+    <value>Giống như</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeDayAfterTomorrow" xml:space="preserve">
+    <value>Ngày sau khi ngày mai</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeLastWeek" xml:space="preserve">
+    <value>Cuối tuần</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeLastYear" xml:space="preserve">
+    <value>Last year</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeNextMonth" xml:space="preserve">
+    <value>Tiếp theo tháng</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeNextWeek" xml:space="preserve">
+    <value>Tiếp theo tuần</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeNextYear" xml:space="preserve">
+    <value>Next Year</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeTwoMonthsAway" xml:space="preserve">
+    <value>Hai tháng xa</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeTwoWeeksAway" xml:space="preserve">
+    <value>Hai tuần đã qua</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeTwoYearsAway" xml:space="preserve">
+    <value>Hai năm xa</value>
+  </data>
+  <data name="EditorStringId.FilterClauseLocalDateTimeYearBeforeToday" xml:space="preserve">
+    <value>Trước ngày hôm nay</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNoneOf" xml:space="preserve">
+    <value>Không có</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNotBetween" xml:space="preserve">
+    <value>is not between</value>
+  </data>
+  <data name="EditorStringId.FilterClauseNotLike" xml:space="preserve">
+    <value>Không giống như</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaInvalidExpression" xml:space="preserve">
+    <value>Biểu thức được chỉ định chứa ký hiệu không hợp lệ (dòng {0}, nhân vật {1}).</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaInvalidExpressionEx" xml:space="preserve">
+    <value>Biểu thức được chỉ định là không hợp lệ.</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBetweenDates" xml:space="preserve">
+    <value>Giữa ngày</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseAnd" xml:space="preserve">
+    <value>&amp;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseOr" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorBitwiseXor" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorDivide" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorEqual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorGreaterOrEqual" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLessOrEqual" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorLike" xml:space="preserve">
+    <value>Giống như</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBinaryOperatorNotEqual" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBottomItems" xml:space="preserve">
+    <value>Ở dưới cùng {0} mục</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringBottomPercent" xml:space="preserve">
+    <value>ở dưới cùng {0}%</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringDuplicate" xml:space="preserve">
+    <value>Là Duplicate</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringFunctionEndsWith" xml:space="preserve">
+    <value>Kết thúc bằng</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringFunctionIsNullOrEmpty" xml:space="preserve">
+    <value>Là null hoặc rỗng</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringIn" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringIsNotNull" xml:space="preserve">
+    <value>Là không phải không</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringIsOnDates" xml:space="preserve">
+    <value>Vào ngày</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringNotLike" xml:space="preserve">
+    <value>Không giống như</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringTopItems" xml:space="preserve">
+    <value>Trong {0} hàng đầu</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringTopPercent" xml:space="preserve">
+    <value>trong {0}%</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorBitwiseNot" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorIsNull" xml:space="preserve">
+    <value>Là không</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnaryOperatorNot" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="EditorStringId.FilterCriteriaToStringUnique" xml:space="preserve">
+    <value>Là duy nhất</value>
+  </data>
+  <data name="EditorStringId.FilterDateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>DateTime quốc gia sử dụng</value>
+  </data>
+  <data name="EditorStringId.FilterEditorUnchecked" xml:space="preserve">
+    <value>unchecked</value>
+  </data>
+  <data name="EditorStringId.FilterElementBlanksItem" xml:space="preserve">
+    <value>(Khoảng trống)</value>
+  </data>
+  <data name="EditorStringId.FilterElementClauseFrom" xml:space="preserve">
+    <value>được áp</value>
+  </data>
+  <data name="EditorStringId.FilterElementClauseTo" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="EditorStringId.FilterElementDateRangeFrom" xml:space="preserve">
+    <value>được áp</value>
+  </data>
+  <data name="EditorStringId.FilterElementDateRangeTo" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="EditorStringId.FilterElementEmptyItem" xml:space="preserve">
+    <value>(Trống)</value>
+  </data>
+  <data name="EditorStringId.FilterElementFilterRules" xml:space="preserve">
+    <value>Filter Rules</value>
+  </data>
+  <data name="EditorStringId.FilterElementFilterValues" xml:space="preserve">
+    <value>Filter Values</value>
+  </data>
+  <data name="EditorStringId.FilterEmptyDateTimeFunctionText" xml:space="preserve">
+    <value>&lt; chọn chức năng DateTime &gt;</value>
+  </data>
+  <data name="EditorStringId.FilterEmptyParameterText" xml:space="preserve">
+    <value>&lt; chọn một tham số &gt;</value>
+  </data>
+  <data name="EditorStringId.FilterEmptyPropertyText" xml:space="preserve">
+    <value>&lt; chọn một tài sản &gt;</value>
+  </data>
+  <data name="EditorStringId.FilterEmptyValueText" xml:space="preserve">
+    <value>&lt; nhập một giá trị &gt;</value>
+  </data>
+  <data name="EditorStringId.FilterExpressionEmptyValueText" xml:space="preserve">
+    <value>Nhập một biểu thức...</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAddCustomExpression" xml:space="preserve">
+    <value>Thêm tùy chỉnh biểu hiện</value>
+  </data>
+  <data name="EditorStringId.FilterGroupAddGroup" xml:space="preserve">
+    <value>Thêm nhóm</value>
+  </data>
+  <data name="EditorStringId.FilterGroupNotAnd" xml:space="preserve">
+    <value>NotAnd</value>
+  </data>
+  <data name="EditorStringId.FilterGroupNotAndMenuCaption" xml:space="preserve">
+    <value>Không và</value>
+  </data>
+  <data name="EditorStringId.FilterGroupNotOr" xml:space="preserve">
+    <value>NotOr</value>
+  </data>
+  <data name="EditorStringId.FilterGroupNotOrMenuCaption" xml:space="preserve">
+    <value>Không hay</value>
+  </data>
+  <data name="EditorStringId.FilterGroupRemoveGroup" xml:space="preserve">
+    <value>Xoá nhóm</value>
+  </data>
+  <data name="EditorStringId.FilterNoPropertiesFoundText" xml:space="preserve">
+    <value>Không có chỗ nghỉ tìm thấy</value>
+  </data>
+  <data name="EditorStringId.FilterOperandDateTimeFunction" xml:space="preserve">
+    <value>chức năng DateTime</value>
+  </data>
+  <data name="EditorStringId.FilterOperandProperty" xml:space="preserve">
+    <value>Bất động sản</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsBeyondThisYear" xml:space="preserve">
+    <value>Vượt ra ngoài năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsEarlierThisMonth" xml:space="preserve">
+    <value>Is earlier this month</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsEarlierThisWeek" xml:space="preserve">
+    <value>Is earlier this week</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsEarlierThisYear" xml:space="preserve">
+    <value>Is earlier this year</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsLastMonth" xml:space="preserve">
+    <value>Là cuối tháng</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsLastWeek" xml:space="preserve">
+    <value>Là tuần trước</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsLastYear" xml:space="preserve">
+    <value>Là cuối năm</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsLaterThisMonth" xml:space="preserve">
+    <value>Là sau đó trong tháng này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsLaterThisWeek" xml:space="preserve">
+    <value>Sau này các tuần này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsLaterThisYear" xml:space="preserve">
+    <value>Is later this year</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNextMonth" xml:space="preserve">
+    <value>Tiếp theo tháng</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNextWeek" xml:space="preserve">
+    <value>Là trong tuần tới</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNextYear" xml:space="preserve">
+    <value>Năm tới</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotBeyondThisYear" xml:space="preserve">
+    <value>phải là ngoài năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotEarlierThisMonth" xml:space="preserve">
+    <value>tháng này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotEarlierThisWeek" xml:space="preserve">
+    <value>phải là đầu tuần này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotEarlierThisYear" xml:space="preserve">
+    <value>là không đầu năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotLastMonth" xml:space="preserve">
+    <value>Là</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotLastWeek" xml:space="preserve">
+    <value>cuối tuần</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotLastYear" xml:space="preserve">
+    <value>không phải là cuối năm</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotLaterThisMonth" xml:space="preserve">
+    <value>phải là sau đó trong tháng này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotLaterThisWeek" xml:space="preserve">
+    <value>phải là sau đó trong tuần này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotLaterThisYear" xml:space="preserve">
+    <value>Không phải là sau này trong năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotNextMonth" xml:space="preserve">
+    <value>không</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotNextWeek" xml:space="preserve">
+    <value>phải là tuần tiếp</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotNextYear" xml:space="preserve">
+    <value>phải là năm tiếp theo</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotPriorThisYear" xml:space="preserve">
+    <value>phải là trước năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotThisMonth" xml:space="preserve">
+    <value>tháng này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotThisWeek" xml:space="preserve">
+    <value>tuần này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotThisYear" xml:space="preserve">
+    <value>không phải là</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotToday" xml:space="preserve">
+    <value>ngày hôm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotTomorrow" xml:space="preserve">
+    <value>phải là</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsNotYesterday" xml:space="preserve">
+    <value>Không phải là ngày hôm qua</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsPriorThisYear" xml:space="preserve">
+    <value>Là trước khi năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsThisMonth" xml:space="preserve">
+    <value>Tháng này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsThisWeek" xml:space="preserve">
+    <value>Tuần này</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsThisYear" xml:space="preserve">
+    <value>Là năm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsToday" xml:space="preserve">
+    <value>Là vào ngày hôm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsTomorrow" xml:space="preserve">
+    <value>Là ngày mai</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseIsYesterday" xml:space="preserve">
+    <value>Là vào ngày hôm nay</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseNotBetween" xml:space="preserve">
+    <value>not between</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseNotContains" xml:space="preserve">
+    <value>Không chứa</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseNotEndsWith" xml:space="preserve">
+    <value>kết thúc với</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseNotIn" xml:space="preserve">
+    <value>không</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseNotLike" xml:space="preserve">
+    <value>Không giống như</value>
+  </data>
+  <data name="EditorStringId.FilterPanelClauseNotStartsWith" xml:space="preserve">
+    <value>bắt đầu với</value>
+  </data>
+  <data name="EditorStringId.FilterPanelCollapse" xml:space="preserve">
+    <value>bảng điều khiển sụp đổ</value>
+  </data>
+  <data name="EditorStringId.FilterPanelDisableFilter" xml:space="preserve">
+    <value>Vô hiệu hóa bộ lọc</value>
+  </data>
+  <data name="EditorStringId.FilterPanelEditFilter" xml:space="preserve">
+    <value>Chỉnh sửa bộ lọc</value>
+  </data>
+  <data name="EditorStringId.FilterPanelEnableFilter" xml:space="preserve">
+    <value>Sử bộ lọc</value>
+  </data>
+  <data name="EditorStringId.FilterPanelExpand" xml:space="preserve">
+    <value>Mở rộng bảng điều khiển</value>
+  </data>
+  <data name="EditorStringId.FilterPanelMRU" xml:space="preserve">
+    <value>được sử dụng gần đây nhất</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipElementAdd" xml:space="preserve">
+    <value>Thêm một mục mới vào danh sách</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipElementEdit" xml:space="preserve">
+    <value>Chỉnh sửa điều kiện này trong biểu thức Editor</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipKeysAdd" xml:space="preserve">
+    <value>(Sử dụng phím chèn hoặc thêm)</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipKeysRemove" xml:space="preserve">
+    <value>(Sử dụng phím Delete hoặc Subtract)</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeAdd" xml:space="preserve">
+    <value>Thêm một điều kiện mới đến nhóm này</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipNodeRemove" xml:space="preserve">
+    <value>Loại bỏ tình trạng này</value>
+  </data>
+  <data name="EditorStringId.FilterToolTipValueType" xml:space="preserve">
+    <value>So sánh với một giá trị / một giá trị của trường</value>
+  </data>
+  <data name="EditorStringId.FilterValuesSortModeAvailableFirst" xml:space="preserve">
+    <value>Loại: tình trạng sẵn có</value>
+  </data>
+  <data name="EditorStringId.FilterValuesSortModeNoSort" xml:space="preserve">
+    <value>Loại: giá trị</value>
+  </data>
+  <data name="EditorStringId.FilterValuesSortModePopularFirst" xml:space="preserve">
+    <value>Sắp xếp: số lượng</value>
+  </data>
+  <data name="EditorStringId.FormatConditionFilters" xml:space="preserve">
+    <value>Bộ lọc điều kiện định dạng</value>
+  </data>
+  <data name="EditorStringId.HLS" xml:space="preserve">
+    <value>HLS</value>
+  </data>
+  <data name="EditorStringId.HSB" xml:space="preserve">
+    <value>HSB</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_InvalidFormatMessage" xml:space="preserve">
+    <value>Định dạng hình ảnh sai</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_OpenFileFilter" xml:space="preserve">
+    <value>Hình ảnh Files(*.BMP; *.JPG; *.GIF; *.PNG) | *.BMP; *.JPG; *.GIF; *.PNG|Tất cả các tệp (*. *) | *. *</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_OpenFileFilter_SL" xml:space="preserve">
+    <value>hình ảnh Files(*.JPG; *.PNG) | *.JPG; *.PNG|Tất cả các tệp (*. *) | *. *</value>
+  </data>
+  <data name="EditorStringId.ImageEdit_SaveFileFilter" xml:space="preserve">
+    <value>PNG (*.png) | *. png|BMP (*.bmp) | *.BMP|JPG (thẻ) | *. jpg|GIF (*.gif) | * .gif</value>
+  </data>
+  <data name="EditorStringId.InvalidValueConversion" xml:space="preserve">
+    <value>chuyển đổi không hợp lệ giá trị</value>
+  </data>
+  <data name="EditorStringId.ListBoxSelectAllSelectionMode" xml:space="preserve">
+    <value>chỉ có thể gọi SelectAll khi SelectionMode là nhiều hoặc mở rộng.</value>
+  </data>
+  <data name="EditorStringId.LookUpAddNew" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="EditorStringId.LookUpResultInfo" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="EditorStringId.LookUpShow" xml:space="preserve">
+    <value>Hiển thị bảng tìm kiếm</value>
+  </data>
+  <data name="EditorStringId.MaskIncomplete" xml:space="preserve">
+    <value>Mặt nạ không đầy đủ</value>
+  </data>
+  <data name="EditorStringId.Of" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="EditorStringId.OutOfRange" xml:space="preserve">
+    <value>Giá trị nằm ngoài phạm vi</value>
+  </data>
+  <data name="EditorStringId.PasswordBoxEditToolTipContent" xml:space="preserve">
+    <value>Cho phép Caps Lock có thể dẫn đến nhập mật khẩu không chính xác.
+Tắt Caps Lock trước khi nhập mật khẩu của bạn.</value>
+  </data>
+  <data name="EditorStringId.PasswordBoxEditToolTipHeader" xml:space="preserve">
+    <value>Caps Lock đang bật</value>
+  </data>
+  <data name="EditorStringId.PredefinedFilters" xml:space="preserve">
+    <value>Xác định trước các bộ lọc</value>
+  </data>
+  <data name="EditorStringId.PredefinedFormatConditionBottom" xml:space="preserve">
+    <value>Dưới N</value>
+  </data>
+  <data name="EditorStringId.PredefinedFormatConditionDuplicate" xml:space="preserve">
+    <value>duplicate</value>
+  </data>
+  <data name="EditorStringId.PredefinedFormatConditionTop" xml:space="preserve">
+    <value>Top N</value>
+  </data>
+  <data name="EditorStringId.PredefinedFormatConditionUnique" xml:space="preserve">
+    <value>Độc đáo</value>
+  </data>
+  <data name="EditorStringId.RGB" xml:space="preserve">
+    <value>RGB</value>
+  </data>
+  <data name="EditorStringId.SelectAll" xml:space="preserve">
+    <value>(Chọn tất cả)</value>
+  </data>
+  <data name="EditorStringId.SparklineViewArea" xml:space="preserve">
+    <value>Khu vực</value>
+  </data>
+  <data name="EditorStringId.SparklineViewBar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="EditorStringId.SparklineViewWinLoss" xml:space="preserve">
+    <value>WinLoss</value>
+  </data>
+  <data name="EditorStringId.ThemedWindow_Maximize" xml:space="preserve">
+    <value>Tối đa hóa</value>
+  </data>
+  <data name="EditorStringId.ThemedWindow_Minimize" xml:space="preserve">
+    <value>Giảm thiểu</value>
+  </data>
+  <data name="EditorStringId.TimePicker_ValidationErrorGreaterThan" xml:space="preserve">
+    <value>Giá trị phải lớn hơn {0: G}</value>
+  </data>
+  <data name="EditorStringId.TimePicker_ValidationErrorInRange" xml:space="preserve">
+    <value>Giá trị phải giữa {0: g} và giá trị {1: g}</value>
+  </data>
+  <data name="EditorStringId.TimePicker_ValidationErrorLessThan" xml:space="preserve">
+    <value>phải nhỏ hơn {0: g}</value>
+  </data>
+  <data name="EditorStringId.TimeSpanDays" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="EditorStringId.TimeSpanFractionalSeconds" xml:space="preserve">
+    <value>Fractional</value>
+  </data>
+  <data name="EditorStringId.TimeSpanFractionalSecondsPlural" xml:space="preserve">
+    <value>Fractional</value>
+  </data>
+  <data name="EditorStringId.TimeSpanFractionalSecondsShort" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="EditorStringId.TimeSpanHours" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="EditorStringId.TimeSpanHoursShort" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="EditorStringId.TimeSpanMilliseconds" xml:space="preserve">
+    <value>Millisecond</value>
+  </data>
+  <data name="EditorStringId.TimeSpanMillisecondsPlural" xml:space="preserve">
+    <value>milliseconds</value>
+  </data>
+  <data name="EditorStringId.TimeSpanMillisecondsShort" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="EditorStringId.TimeSpanMinutes" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="EditorStringId.TimeSpanMinutesPlural" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="EditorStringId.TimeSpanSeconds" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="EditorStringId.TimeSpanSecondsPlural" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="EditorStringId.TimeSpanSecondsShort" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="EditorStringId.TokenEditorNewTokenText" xml:space="preserve">
+    <value>New...</value>
+  </data>
+  <data name="EditorStringId.TopBottomValueTypeItems" xml:space="preserve">
+    <value>Khoản mục</value>
+  </data>
+  <data name="EditorStringId.TrackBarEditRangeCaption" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="EditorStringId.ValidationErrorTag" xml:space="preserve">
+    <value>. Lỗi.</value>
+  </data>
+  <data name="EditorStringId.ValidationRowErrorsTag" xml:space="preserve">
+    <value>nhưng hàng vẫn chứa lỗi {0}.</value>
+  </data>
+  <data name="EditorStringId.ValidationServiceErrorsTag" xml:space="preserve">
+    <value>nhưng biểu mẫu vẫn chứa {0} lỗi.</value>
+  </data>
+  <data name="EditorStringId.ValidationSuccessTag" xml:space="preserve">
+    <value>. Giá trị bây giờ là chính xác</value>
+  </data>
+</root>

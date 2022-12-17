@@ -1,0 +1,3940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChartStringId.AppDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="ChartStringId.CloseValueMember" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ChartStringId.CmdChangeAppearancePlaceHolderMenuCaption" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBarChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ChartStringId.CmdExportPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+  <data name="ChartStringId.CmdPrintMenuCaption" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="ChartStringId.DefaultMaxValue" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="ChartStringId.DefaultMinValue" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="ChartStringId.ErrorTitle" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="ChartStringId.IndStandardDeviation" xml:space="preserve">
+    <value>Độ lệch Chuẩn</value>
+  </data>
+  <data name="ChartStringId.MenuItemAdd" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="ChartStringId.MenuItemClear" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="ChartStringId.MenuItemDelete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ChartStringId.OpenValueMember" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="ChartStringId.PanesVisibilityDialogVisibleColumn" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="ChartStringId.PltDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="ChartStringId.PltIndDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="ChartStringId.PltPaper" xml:space="preserve">
+    <value>Giấy</value>
+  </data>
+  <data name="ChartStringId.RibbonAppearanceGroupCaption" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ChartStringId.ValueMember" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ChartStringId.ValuePatternDescription" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ChartStringId.VerbAbout" xml:space="preserve">
+    <value>Thông tin về</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionAverage" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionCount" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionSum" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationConnectorStyleNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ChartStringId.WizAppearancePageName" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ChartStringId.WizAxesAlignmentFar" xml:space="preserve">
+    <value>Xa</value>
+  </data>
+  <data name="ChartStringId.WizAxesAlignmentNear" xml:space="preserve">
+    <value>Gần</value>
+  </data>
+  <data name="ChartStringId.WizAxisLabelResolveOverlappingModeNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ChartStringId.WizBarSeriesLabelPositionAuto" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="ChartStringId.WizBarSeriesLabelPositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ChartStringId.WizBarSeriesLabelPositionTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelPositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelValueToDisplayValue" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ChartStringId.WizChartImageSizeModeZoom" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="ChartStringId.WizDataPageName" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeGridAlignmentAuto" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitDay" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitMonth" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitWeek" xml:space="preserve">
+    <value>Tuần</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitYear" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="ChartStringId.WizFunnelSeriesLabelPositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ChartStringId.WizFunnelSeriesLabelPositionLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ChartStringId.WizFunnelSeriesLabelPositionRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ChartStringId.WizHatchHorizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="ChartStringId.WizHatchMax" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="ChartStringId.WizHatchMin" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="ChartStringId.WizHatchVertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="ChartStringId.WizIndentDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="ChartStringId.WizNumericGridAlignmentAuto" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitCustom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="ChartStringId.WizPositionCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ChartStringId.WizPositionLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="ChartStringId.WizPositionRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="ChartStringId.WizResolveOverlappingModeDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="ChartStringId.WizResolveOverlappingModeNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ChartStringId.WizScrollBarAlignmentFar" xml:space="preserve">
+    <value>Xa</value>
+  </data>
+  <data name="ChartStringId.WizScrollBarAlignmentNear" xml:space="preserve">
+    <value>Gần</value>
+  </data>
+  <data name="ChartStringId.WizSeriesLabelTextOrientationHorizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="ChartStringId.WizStringAlignmentCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ChartStringId.WizStringAlignmentFar" xml:space="preserve">
+    <value>Xa</value>
+  </data>
+  <data name="ChartStringId.WizStringAlignmentNear" xml:space="preserve">
+    <value>Gần</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelOpen" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelValue" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ChartStringId.CmdCreateLineChartMenuCaption" xml:space="preserve">
+    <value>Đường</value>
+  </data>
+  <data name="ChartStringId.CmdCreateLineChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Đường</value>
+  </data>
+  <data name="ChartStringId.SvnLine" xml:space="preserve">
+    <value>Đường</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationConnectorStyleLine" xml:space="preserve">
+    <value>Đường</value>
+  </data>
+  <data name="ChartStringId.WizHatchCross" xml:space="preserve">
+    <value>Chữ thập</value>
+  </data>
+  <data name="ChartStringId.ScaleTypeAuto" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Behavior" xml:space="preserve">
+    <value>Hành vi</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Layout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Data" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Appearance" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="ChartStringId.StackedGroupPrefix" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitHour" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="ChartStringId.AlternateTextSeriesPlaceholder" xml:space="preserve">
+    <value>đang hiển thị {0}</value>
+  </data>
+  <data name="ChartStringId.AnnotationRelativePosition" xml:space="preserve">
+    <value>Vị trí tương đối</value>
+  </data>
+  <data name="ChartStringId.CmdExportToBMPDescription" xml:space="preserve">
+    <value>Hình ảnh bitmap</value>
+  </data>
+  <data name="ChartStringId.FontFormat" xml:space="preserve">
+    <value>{0}, {1} pt, {2}</value>
+  </data>
+  <data name="ChartStringId.MenuItemMoveUp" xml:space="preserve">
+    <value>Di chuyển lên</value>
+  </data>
+  <data name="ChartStringId.MsgDiagramToPointIncorrectValue" xml:space="preserve">
+    <value>{0} Được chỉ định tham số loại không phù hợp với các loại thích hợp quy mô là {1} cho trục này.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBarSeriesLabelIndent" xml:space="preserve">
+    <value>Thụt lề phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectRangeBarSeriesLabelIndent" xml:space="preserve">
+    <value>Thụt lề phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSummaryFunctionParametersCount" xml:space="preserve">
+    <value>Chức năng tóm tắt '{0}' chấp nhận {1} tham số thay vì {2}.</value>
+  </data>
+  <data name="ChartStringId.MsgPaletteDoubleClickToEdit" xml:space="preserve">
+    <value>Nhấp đúp vào để chỉnh sửa...</value>
+  </data>
+  <data name="ChartStringId.MsgPaletteEditingIsNotAllowed" xml:space="preserve">
+    <value>Chỉnh sửa không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgSummaryFunctionParameterIsNotSpecified" xml:space="preserve">
+    <value>Bạn nên chỉ định tất cả các thông số tóm tắt chức năng.</value>
+  </data>
+  <data name="ChartStringId.TextAnnotation" xml:space="preserve">
+    <value>Văn bản chú thích</value>
+  </data>
+  <data name="ChartStringId.TextAnnotationPrefix" xml:space="preserve">
+    <value>Văn bản chú thích</value>
+  </data>
+  <data name="ChartStringId.ToolTipRelativePosition" xml:space="preserve">
+    <value>Vị trí tương đối</value>
+  </data>
+  <data name="ChartStringId.TrnAnnotationsChanged" xml:space="preserve">
+    <value>Thay đổi chú thích</value>
+  </data>
+  <data name="ChartStringId.VerbAnnotations" xml:space="preserve">
+    <value>Chú thích...</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionMaximum" xml:space="preserve">
+    <value>Tối đa</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionMinimum" xml:space="preserve">
+    <value>Tối thiểu</value>
+  </data>
+  <data name="ChartStringId.WizScaleModeAutomatic" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="ChartStringId.WizScaleModeContinuous" xml:space="preserve">
+    <value>Liên tục</value>
+  </data>
+  <data name="ChartStringId.WizNoBackImage" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="ChartStringId.WizDataMemberNoneString" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeScaleModeAutomaticAverage" xml:space="preserve">
+    <value>Tự động: trung bình</value>
+  </data>
+  <data name="ChartStringId.CmdExportToBMPMenuCaption" xml:space="preserve">
+    <value>BMP</value>
+  </data>
+  <data name="ChartStringId.CmdExportToGIFMenuCaption" xml:space="preserve">
+    <value>GIF</value>
+  </data>
+  <data name="ChartStringId.CmdExportToJPEGMenuCaption" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="ChartStringId.CmdExportToPNGMenuCaption" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="ChartStringId.CmdExportToTIFFMenuCaption" xml:space="preserve">
+    <value>TIFF</value>
+  </data>
+  <data name="ChartStringId.WizSeriesPointPageName" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionCustom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="ChartStringId.ColumnColor" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ChartStringId.MenuItemInsert" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="ChartStringId.WizDataFiltersDisabled" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="ChartStringId.RibbonDesignPageCaption" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="ChartStringId.HighValueMember" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelHigh" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="ChartStringId.LowValueMember" xml:space="preserve">
+    <value>Thấp</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelLow" xml:space="preserve">
+    <value>Thấp</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePointChartMenuCaption" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="ChartStringId.CmdPointGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="ChartStringId.SvnPoint" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitMinute" xml:space="preserve">
+    <value>Phút</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitBillions" xml:space="preserve">
+    <value>Hàng tỷ</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitMillions" xml:space="preserve">
+    <value>Hàng triệu</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPaneAnchorPointPane" xml:space="preserve">
+    <value>Không thể thiết lập của PaneAnchorPoint ngăn, bởi vì các cửa sổ đã chỉ định không phải là mặc định và không có trong bộ sưu tập của sơ đồ của tấm.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectIndicatorPane" xml:space="preserve">
+    <value>Không thể thiết lập các chỉ số ngăn, vì ngăn được chỉ định không phải là mặc định và không có trong bộ sưu tập các biểu đồ của tấm.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesViewPane" xml:space="preserve">
+    <value>Không thể đặt ngăn xem loạt, bởi vì các cửa sổ đã chỉ định không phải là mặc định và không có trong bộ sưu tập của sơ đồ của tấm.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidLogarithmicBase" xml:space="preserve">
+    <value>Lôgarít cơ sở cần phải lớn hơn 1.</value>
+  </data>
+  <data name="ChartStringId.MsgModifyDefaultPaletteError" xml:space="preserve">
+    <value>Bảng là mặc định và sau đó không thể sửa đổi.</value>
+  </data>
+  <data name="ChartStringId.MsgNoPanes" xml:space="preserve">
+    <value>Không có không có tấm có thể nhìn thấy để hiển thị trong một biểu đồ.
+Cố gắng để thiết lập của bảng xếp hạng Diagram.DefaultPane.Visible sở hữu để thật sự,
+hoặc hiển thị các tấm từ bộ sưu tập Diagram.Panes.</value>
+  </data>
+  <data name="ChartStringId.MsgPolarAxisXLogarithmic" xml:space="preserve">
+    <value>The PolarAxisX không hỗ trợ chế độ lôgarít.</value>
+  </data>
+  <data name="ChartStringId.PanesVisibilityDialogPanesColumn" xml:space="preserve">
+    <value>Tấm</value>
+  </data>
+  <data name="ChartStringId.DefaultLegend" xml:space="preserve">
+    <value>Huyền thoại mặc định</value>
+  </data>
+  <data name="ChartStringId.DefaultPaneName" xml:space="preserve">
+    <value>Mặc định ngăn</value>
+  </data>
+  <data name="ChartStringId.DefaultSeriesPointFilterName" xml:space="preserve">
+    <value>SeriesPointFilter</value>
+  </data>
+  <data name="ChartStringId.DefaultSmallChartText" xml:space="preserve">
+    <value>Tăng kích thước của bảng xếp hạng,
+để xem cách bố trí của nó.</value>
+  </data>
+  <data name="ChartStringId.DefaultWizardPageLabel" xml:space="preserve">
+    <value>Trang hướng dẫn</value>
+  </data>
+  <data name="ChartStringId.ExplodedPointsDialogExplodedColumn" xml:space="preserve">
+    <value>Phát nổ</value>
+  </data>
+  <data name="ChartStringId.IODeleteDefaultPane" xml:space="preserve">
+    <value>Cửa sổ mặc định không thể bị xóa.</value>
+  </data>
+  <data name="ChartStringId.LegendDefaultTitle" xml:space="preserve">
+    <value>Truyền thuyết tiêu đề</value>
+  </data>
+  <data name="ChartStringId.DefaultChartTitle" xml:space="preserve">
+    <value>Tiêu đề bảng xếp hạng</value>
+  </data>
+  <data name="ChartStringId.AxisXDefaultTitle" xml:space="preserve">
+    <value>Trục của đối số</value>
+  </data>
+  <data name="ChartStringId.AxisYDefaultTitle" xml:space="preserve">
+    <value>Trục của giá trị</value>
+  </data>
+  <data name="ChartStringId.TotalSeriesLabelHeader" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="ChartStringId.TotalValuePatternDescription" xml:space="preserve">
+    <value>Tổng giá trị</value>
+  </data>
+  <data name="ChartStringId.CmdChangePalettePlaceHolderMenuCaption" xml:space="preserve">
+    <value>Bảng màu</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBubbleChartMenuCaption" xml:space="preserve">
+    <value>Bong bóng</value>
+  </data>
+  <data name="ChartStringId.PalettePrefix" xml:space="preserve">
+    <value>Bảng màu</value>
+  </data>
+  <data name="ChartStringId.AnnotationChartAnchorPoint" xml:space="preserve">
+    <value>Điểm neo biểu đồ</value>
+  </data>
+  <data name="ChartStringId.StripPrefix" xml:space="preserve">
+    <value>Dải</value>
+  </data>
+  <data name="ChartStringId.SvnBubble" xml:space="preserve">
+    <value>Bong bóng</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitHundreds" xml:space="preserve">
+    <value>Hàng trăm</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Misc" xml:space="preserve">
+    <value>Linh tinh</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelPositionOutside" xml:space="preserve">
+    <value>Bên ngoài</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionOutside" xml:space="preserve">
+    <value>Bên ngoài</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionInside" xml:space="preserve">
+    <value>Bên trong</value>
+  </data>
+  <data name="ChartStringId.Value2PatternDescription" xml:space="preserve">
+    <value>Giá trị 2</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBubbleMaxSize" xml:space="preserve">
+    <value>Kích thước tối đa phải lớn hơn kích thước tối thiểu.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPieSeriesLabelColumnIndent" xml:space="preserve">
+    <value>Thụt đầu dòng cột phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.VerbLoadLayout" xml:space="preserve">
+    <value>Tải...</value>
+  </data>
+  <data name="ChartStringId.WizShapeKindRectangle" xml:space="preserve">
+    <value>Hình chữ nhật</value>
+  </data>
+  <data name="ChartStringId.WizAxesAlignmentCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ChartStringId.MenuItemMoveDown" xml:space="preserve">
+    <value>Dịch Xuống</value>
+  </data>
+  <data name="ChartStringId.RibbonFinancialIndicatorsGroupCaption" xml:space="preserve">
+    <value>Chỉ số</value>
+  </data>
+  <data name="ChartStringId.BoxPlotMaxValueMember" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="ChartStringId.BoxPlotMinValueMember" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="ChartStringId.RibbonFinancialAxisGroupCaption" xml:space="preserve">
+    <value>Trục</value>
+  </data>
+  <data name="ChartStringId.AnnotationFromToolbar1stLine" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="ChartStringId.VerbRibbon" xml:space="preserve">
+    <value>Tạo Ribbon</value>
+  </data>
+  <data name="ChartStringId.AbsoluteValue" xml:space="preserve">
+    <value>Giá trị tuyệt đối</value>
+  </data>
+  <data name="ChartStringId.AllHolidays" xml:space="preserve">
+    <value>Tất cả các ngày lễ</value>
+  </data>
+  <data name="ChartStringId.AlternateTextPlaceholder" xml:space="preserve">
+    <value>Các {0} bảng xếp hạng {1}.</value>
+  </data>
+  <data name="ChartStringId.AlternateTextSeriesText" xml:space="preserve">
+    <value>{0} loạt</value>
+  </data>
+  <data name="ChartStringId.AnnotationFreePosition" xml:space="preserve">
+    <value>Miễn phí vị trí</value>
+  </data>
+  <data name="ChartStringId.AnnotationFromToolbar2ndLine" xml:space="preserve">
+    <value>Annotation</value>
+  </data>
+  <data name="ChartStringId.AnnotationPaneAnchorPoint" xml:space="preserve">
+    <value>Cửa sổ neo điểm</value>
+  </data>
+  <data name="ChartStringId.AnnotationSeriesPointAnchorPoint" xml:space="preserve">
+    <value>Loạt điểm neo điểm</value>
+  </data>
+  <data name="ChartStringId.AppChameleon" xml:space="preserve">
+    <value>Tắc kè hoa</value>
+  </data>
+  <data name="ChartStringId.AppDark" xml:space="preserve">
+    <value>Tối</value>
+  </data>
+  <data name="ChartStringId.AppDarkFlat" xml:space="preserve">
+    <value>Tối phẳng</value>
+  </data>
+  <data name="ChartStringId.AppGray" xml:space="preserve">
+    <value>Màu xám</value>
+  </data>
+  <data name="ChartStringId.AppInAFog" xml:space="preserve">
+    <value>Trong sương mù</value>
+  </data>
+  <data name="ChartStringId.AppLight" xml:space="preserve">
+    <value>Ánh sáng</value>
+  </data>
+  <data name="ChartStringId.AppNatureColors" xml:space="preserve">
+    <value>Màu sắc thiên nhiên</value>
+  </data>
+  <data name="ChartStringId.AppNorthernLights" xml:space="preserve">
+    <value>Northern Lights</value>
+  </data>
+  <data name="ChartStringId.AppPastelKit" xml:space="preserve">
+    <value>Pastel Kit</value>
+  </data>
+  <data name="ChartStringId.AppTerracottaPie" xml:space="preserve">
+    <value>Terracotta Pie</value>
+  </data>
+  <data name="ChartStringId.AppTheTrees" xml:space="preserve">
+    <value>Cây</value>
+  </data>
+  <data name="ChartStringId.ArgumentMember" xml:space="preserve">
+    <value>Đối số</value>
+  </data>
+  <data name="ChartStringId.ArgumentPatternDescription" xml:space="preserve">
+    <value>Đối số</value>
+  </data>
+  <data name="ChartStringId.AutocreatedSeriesName" xml:space="preserve">
+    <value>Tự động tạo ra loạt</value>
+  </data>
+  <data name="ChartStringId.BoxPlotMeanValueMember" xml:space="preserve">
+    <value>Có nghĩa là</value>
+  </data>
+  <data name="ChartStringId.BoxPlotMedianValueMember" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="ChartStringId.BoxPlotQuartile1ValueMember" xml:space="preserve">
+    <value>quartile 1</value>
+  </data>
+  <data name="ChartStringId.BoxPlotQuartile3ValueMember" xml:space="preserve">
+    <value>quartile 3</value>
+  </data>
+  <data name="ChartStringId.CalculatedFieldType" xml:space="preserve">
+    <value>Lĩnh vực loại</value>
+  </data>
+  <data name="ChartStringId.ChartControlDockTarget" xml:space="preserve">
+    <value>Biểu đồ kiểm soát</value>
+  </data>
+  <data name="ChartStringId.CloseValuePatternDescription" xml:space="preserve">
+    <value>Gần giá trị</value>
+  </data>
+  <data name="ChartStringId.ClosingBracketPatternDescription" xml:space="preserve">
+    <value>Khung đóng</value>
+  </data>
+  <data name="ChartStringId.CmdAddHorizontalConstantLineCaption" xml:space="preserve">
+    <value>Thêm đường ngang liên tục</value>
+  </data>
+  <data name="ChartStringId.CmdAddHorizontalConstantLineDescription" xml:space="preserve">
+    <value>để thêm một dòng liên tục, nhấp chuột vào biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.CmdAddImageAnnotationRuntimeCaption" xml:space="preserve">
+    <value>Thêm chú thích hình ảnh</value>
+  </data>
+  <data name="ChartStringId.CmdAddImageAnnotationRuntimeDescription" xml:space="preserve">
+    <value>Để thêm chú thích hình ảnh, hãy nhấp vào biểu đồ và chọn một hình ảnh trong hộp thoại gọi.</value>
+  </data>
+  <data name="ChartStringId.CmdAddIndicatorPlaceHolderDescription" xml:space="preserve">
+    <value>Để vẽ một chỉ báo cho chuỗi hiện tại, chọn chỉ báo mong muốn từ danh sách thả xuống.</value>
+  </data>
+  <data name="ChartStringId.CmdAddIndicatorPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Thêm các chỉ số</value>
+  </data>
+  <data name="ChartStringId.CmdAddTextAnnotationRuntimeCaption" xml:space="preserve">
+    <value>Thêm văn bản chú thích</value>
+  </data>
+  <data name="ChartStringId.CmdAddTextAnnotationRuntimeDescription" xml:space="preserve">
+    <value>để thêm chú thích văn bản, nhấp vào biểu đồ và nhập văn bản.</value>
+  </data>
+  <data name="ChartStringId.CmdAddVerticalConstantLineCaption" xml:space="preserve">
+    <value>Thêm dòng liên tục dọc</value>
+  </data>
+  <data name="ChartStringId.CmdAddVerticalConstantLineDescription" xml:space="preserve">
+    <value>để thêm một dòng liên tục, nhấp chuột vào biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.CmdArea2DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Khu vực 2-D</value>
+  </data>
+  <data name="ChartStringId.CmdArea3DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>3-D lá</value>
+  </data>
+  <data name="ChartStringId.CmdBar2DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>2-D Bar</value>
+  </data>
+  <data name="ChartStringId.CmdBoxPlotGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Boxplot</value>
+  </data>
+  <data name="ChartStringId.CmdChangeAppearancePlaceHolderDescription" xml:space="preserve">
+    <value>Sử dụng thả xuống các danh sách ở trên, để thiết lập một bảng cho biểu đồ. Nó sẽ xác định xem xét tổng thể của biểu đồ, bằng cách vẽ các yếu tố chủ chốt.</value>
+  </data>
+  <data name="ChartStringId.CmdChangePalettePlaceHolderDescription" xml:space="preserve">
+    <value>: văn phòng
+
+Thay đổi bảng cho biểu đồ hiện.</value>
+  </data>
+  <data name="ChartStringId.CmdChangeSeriesViewDescription" xml:space="preserve">
+    <value>thay đổi loại View được sử dụng cho loạt hiện tại.</value>
+  </data>
+  <data name="ChartStringId.CmdColumn2DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>2-D cột</value>
+  </data>
+  <data name="ChartStringId.CmdColumn3DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>3-D cột</value>
+  </data>
+  <data name="ChartStringId.CmdColumnConeGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Nón</value>
+  </data>
+  <data name="ChartStringId.CmdColumnCylinderGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Xi lanh</value>
+  </data>
+  <data name="ChartStringId.CmdColumnPyramidGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Kim tự tháp</value>
+  </data>
+  <data name="ChartStringId.CmdCreateArea3DChartDescription" xml:space="preserve">
+    <value>Hiển thị dữ liệu như lấp đầy các khu vực trên sơ đồ, với mỗi điểm dữ liệu sẽ hiển thị như là một đỉnh cao hoặc rỗng trong khu vực.
+
+Sử dụng nó khi bạn cần để hiển thị các xu hướng cho một số series trên biểu đồ tương tự, và cũng cho thấy mối quan hệ của các bộ phận để cả.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateArea3DChartMenuCaption" xml:space="preserve">
+    <value>3-D lá</value>
+  </data>
+  <data name="ChartStringId.CmdCreateAreaChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng của các giá trị trong thời gian hoặc thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateAreaChartMenuCaption" xml:space="preserve">
+    <value>Khu vực</value>
+  </data>
+  <data name="ChartStringId.CmdCreateAreaChartPlaceHolderDescription" xml:space="preserve">
+    <value>chèn một khu vực.
+
+Bảng xếp hạng tích nhấn mạnh sự khác biệt giữa một số bộ dữ liệu trong một khoảng thời gian.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateAreaChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Khu vực</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBar3DChartDescription" xml:space="preserve">
+    <value>So sánh giá trị trên toàn thể loại và hiển thị nhóm cột trong định dạng 3-D.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBar3DChartMenuCaption" xml:space="preserve">
+    <value>3-D Nhóm cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBarChartDescription" xml:space="preserve">
+    <value>So sánh các giá trị trên các thể loại bằng cách sử dụng thẳng đứng hình chữ nhật.
+
+Sử dụng nó khi bộ của thể loại không phải là quan trọng hoặc để hiển thị số lần mục chẳng hạn như biểu đồ một.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBarChartMenuCaption" xml:space="preserve">
+    <value>Nhóm cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBarChartPlaceHolderDescription" xml:space="preserve">
+    <value>Chèn một cột bảng xếp hạng.
+
+Biểu đồ cột được sử dụng để so sánh giá trị trên toàn thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBoxPlotChartDescription" xml:space="preserve">
+    <value>Biểu đồ Box Plot được sử dụng để phân tích các điểm dữ liệu dựa trên thống kê. Để vẽ một điểm hộp Plot, vượt qua các tham số min, Quartile1, Median, Quartile3, và Max. Bạn cũng có thể hiển thị một tập hợp các Outliers và một giá trị Mean.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBoxPlotChartMenuCaption" xml:space="preserve">
+    <value>Boxplot</value>
+  </data>
+  <data name="ChartStringId.CmdCreateBubbleChartDescription" xml:space="preserve">
+    <value>Giống như một biểu đồ Scatter, nhưng hãy so sánh các bộ ba giá trị thay vì hai. Thứ ba giá trị xác định kích thước của bong bóng điểm đánh dấu.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCandleStickChartDescription" xml:space="preserve">
+    <value>Hiển thị các biến thể trong giá cổ phiếu trong quá trình một ngày. Các mức giá mở và đóng được đại diện bởi một hình chữ nhật điền, và các mức giá thấp và cao được đại diện bởi các giá trị dưới cùng và đầu của đường thẳng đứng được thể hiện tại mỗi điểm.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCandleStickChartMenuCaption" xml:space="preserve">
+    <value>Candle Stick</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeBar3DChartDescription" xml:space="preserve">
+    <value>So sánh giá trị trên toàn thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm hình nón</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeFullStackedBar3DChartDescription" xml:space="preserve">
+    <value>So sánh tỷ lệ phần trăm mỗi giá trị đóng góp tổng cộng trên thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeFullStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau hình nón</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeManhattanBarChartDescription" xml:space="preserve">
+    <value>So sánh giá trị trên toàn thể loại và qua loạt và hiển thị một biểu đồ hình nón trên ba trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeManhattanBarChartMenuCaption" xml:space="preserve">
+    <value>3-D nón</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeSideBySideFullStackedBar3DChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của cả hai các 100% xếp chồng lên nhau hình nón và nhóm nón biểu đồ loại, do đó bạn có thể ngăn xếp nón khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeSideBySideFullStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm 100% xếp chồng lên nhau hình nón</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeSideBySideStackedBar3DChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của nón xếp chồng lên nhau và nón tập trung các loại biểu đồ, do đó bạn có thể ngăn xếp nón khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeSideBySideStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm xếp chồng lên nhau nón</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeStackedBar3DChartDescription" xml:space="preserve">
+    <value>So sánh sự đóng góp của mỗi giá trị tổng cộng trên thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateConeStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau hình nón</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderBar3DChartDescription" xml:space="preserve">
+    <value>So sánh giá trị trên toàn thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm xi lanh</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderFullStackedBar3DChartDescription" xml:space="preserve">
+    <value>So sánh tỷ lệ phần trăm mỗi giá trị đóng góp tổng cộng trên thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderFullStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau xi lanh</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderManhattanBarChartDescription" xml:space="preserve">
+    <value>So sánh giá trị trên toàn thể loại và qua loạt và hiển thị một biểu đồ xi lanh trên ba trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderManhattanBarChartMenuCaption" xml:space="preserve">
+    <value>3-D xi lanh</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderSideBySideFullStackedBar3DChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của cả hai các 100% xếp chồng lên nhau xi lanh và nhóm hình trụ biểu đồ loại, do đó bạn có thể ngăn xếp khác nhau xi lanh, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderSideBySideFullStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm 100% xếp chồng lên nhau xi lanh</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderSideBySideStackedBar3DChartDescription" xml:space="preserve">
+    <value>Kết hợp những lợi thế của loại biểu đồ xếp chồng lên nhau xi lanh và nhóm xi lanh, do đó bạn có thể ngăn xếp khác nhau xi lanh, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderSideBySideStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Xi lanh xếp chồng lên nhau tập hợp điểm</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderStackedBar3DChartDescription" xml:space="preserve">
+    <value>So sánh sự đóng góp của mỗi giá trị tổng cộng trên thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateCylinderStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau xi lanh</value>
+  </data>
+  <data name="ChartStringId.CmdCreateDoughnut3DChartDescription" xml:space="preserve">
+    <value>So sánh các giá trị tỷ lệ phần trăm của đối số điểm khác nhau trong cùng một dòng, và minh họa cho những giá trị này là dễ hiểu bánh lát, nhưng với một lỗ ở trung tâm của nó.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateDoughnut3DChartMenuCaption" xml:space="preserve">
+    <value>Chiếc bánh rán trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateDoughnutChartDescription" xml:space="preserve">
+    <value>Hiển thị sự đóng góp của mỗi giá trị cho một tổng số như một biểu đồ pie, nhưng nó có thể chứa nhiều series.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateDoughnutChartMenuCaption" xml:space="preserve">
+    <value>Chiếc bánh rán</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedArea3DChartDescription" xml:space="preserve">
+    <value>Hiển thị dữ liệu như các khu vực trên sơ đồ, do đó giá trị của dữ liệu mỗi điểm được xếp chồng lên nhau với giá trị tất cả các khác tương ứng dữ liệu điểm.
+
+Sử dụng nó để so sánh giá trị phần trăm của một số series cho các đối số điểm cùng.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedArea3DChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau tích trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedAreaChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng của tỷ lệ phần trăm mỗi giá trị đóng góp trên thời gian hoặc thể loại.
+
+Sử dụng nó để nhấn mạnh các xu hướng trong tỷ lệ của mỗi loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedAreaChartMenuCaption" xml:space="preserve">
+    <value>100% Diện tích xếp chồng lên nhau</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedBar3DChartDescription" xml:space="preserve">
+    <value>so sánh tỷ lệ phần trăm mỗi giá trị đóng góp tổng cộng trên toàn thể loại và hiển thị 100% xếp chồng lên nhau cột trong định dạng 3-D.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau cột trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedBarChartDescription" xml:space="preserve">
+    <value>So sánh tỷ lệ phần trăm mỗi giá trị góp phần vào tổng cộng qua mục bằng cách sử dụng hình chữ nhật theo chiều dọc.
+
+Sử dụng nó để nhấn mạnh các tỷ lệ của mỗi dòng dữ liệu.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedBarChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedLine3DChartDescription" xml:space="preserve">
+    <value>Hiển thị tất cả loạt xếp chồng lên nhau và rất hữu ích khi nó là cần thiết để so sánh bao nhiêu mỗi loạt thêm với Tổng giá trị tổng hợp cho các đối số cụ thể (như là phần trăm).</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedLine3DChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau dòng trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedLineChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng của tỷ lệ phần trăm mỗi giá trị đóng góp qua chuyên mục thời gian hoặc ra lệnh.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedLineChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau dòng</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedSplineArea3DChartDescription" xml:space="preserve">
+    <value>Behave tương tự như 100% xếp chồng lên nhau tích biểu đồ trong 3D, nhưng vẽ một đường cong được trang bị thông qua mỗi điểm dữ liệu trong một loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedSplineArea3DChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau Spline lá trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedSplineAreaChartDescription" xml:space="preserve">
+    <value>Hành xử tương tự như 100% Stacked lá, nhưng âm mưu một đường cong được trang bị thông qua mỗi điểm dữ liệu trong một loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedSplineAreaChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau Spline lá</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedStepAreaChartDescription" xml:space="preserve">
+    <value>Cư xử tương tự như vậy đến 100% Stacked tích biểu đồ nhưng kết nối điểm dữ liệu bằng cách sử dụng dây chuyền ngang và dọc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFullStackedStepAreaChartMenuCaption" xml:space="preserve">
+    <value>100% stacked bước tích</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFunnel3DChartDescription" xml:space="preserve">
+    <value>Hiển thị một khu vực rộng ở phía trên, chỉ ra các điểm Tổng giá trị, trong khi các khu vực khác có tỷ lệ nhỏ hơn.
+
+Sử dụng nó khi nó là cần thiết để đại diện cho các giai đoạn trong quá trình bán hàng, Hiển thị số lượng tiềm năng doanh thu cho từng giai đoạn, cũng như xác định các khu vực vấn đề tiềm năng trong quy trình bán hàng của tổ chức.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFunnel3DChartMenuCaption" xml:space="preserve">
+    <value>3-D kênh</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFunnelChartDescription" xml:space="preserve">
+    <value>Hiển thị một vùng rộng cho biết tổng giá trị điểm ở trên cùng. Các khu vực khác nhỏ hơn theo tỷ lệ.
+
+Sử dụng nó để hiển thị các giai đoạn trong quy trình bán hàng, hiển thị số tiền doanh thu tiềm năng cho từng giai đoạn hoặc xác định các khu vực có vấn đề tiềm ẩn trong quy trình bán hàng của tổ chức.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateFunnelChartMenuCaption" xml:space="preserve">
+    <value>Kênh</value>
+  </data>
+  <data name="ChartStringId.CmdCreateGanttChartDescription" xml:space="preserve">
+    <value>theo dõi các hoạt động khác nhau trong khung thời gian.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateGanttChartMenuCaption" xml:space="preserve">
+    <value>Gantt</value>
+  </data>
+  <data name="ChartStringId.CmdCreateLine3DChartDescription" xml:space="preserve">
+    <value>Hiển thị mỗi hàng hoặc cột dữ liệu như là một dải ruy băng 3-D trên ba trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateLine3DChartMenuCaption" xml:space="preserve">
+    <value>3-D dòng</value>
+  </data>
+  <data name="ChartStringId.CmdCreateLineChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng thời gian bù giờ (ngày tháng, năm) hoặc ra lệnh cho thể loại. Hữu ích khi có rất nhiều điểm dữ liệu và trật tự là quan trọng.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateLineChartPlaceHolderDescription" xml:space="preserve">
+    <value>Chèn một đường biểu đồ.
+
+Bảng xếp hạng dòng được sử dụng để hiển thị các xu hướng tăng ca.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateManhattanBarChartDescription" xml:space="preserve">
+    <value>So sánh giá trị trên toàn thể loại và qua loạt bài về ba trục.
+
+Sử dụng nó khi thể loại và series được quan trọng không kém.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateManhattanBarChartMenuCaption" xml:space="preserve">
+    <value>3-D cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateNestedDoughnutChartDescription" xml:space="preserve">
+    <value>Hiển thị sự đóng góp của mỗi giá trị tổng cộng trong khi so sánh với một chiếc bánh rán lồng trong một số khác.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateNestedDoughnutChartMenuCaption" xml:space="preserve">
+    <value>Lồng nhau chiếc bánh rán</value>
+  </data>
+  <data name="ChartStringId.CmdCreateOtherSeriesTypesChartPlaceHolderDescription" xml:space="preserve">
+    <value>Nhập một điểm, kênh, tài chính, radar, vùng cực, phạm vi, hoặc biểu đồ gantt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateOtherSeriesTypesChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Bảng xếp hạng khác</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePie3DChartDescription" xml:space="preserve">
+    <value>Hiển thị các sự đóng góp của mỗi giá trị tổng cộng.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePie3DChartMenuCaption" xml:space="preserve">
+    <value>Pie trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePieChartDescription" xml:space="preserve">
+    <value>Hiển thị các sự đóng góp của mỗi giá trị cho một tổng số.
+
+Sử dụng nó khi các giá trị có thể được thêm vào với nhau, hoặc khi bạn có hàng loạt các dữ liệu chỉ có một và tất cả các giá trị là tích cực.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePieChartMenuCaption" xml:space="preserve">
+    <value>Chiếc bánh</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePieChartPlaceHolderDescription" xml:space="preserve">
+    <value>Chèn một biểu đồ pie.
+
+Biểu đồ pie Hiển thị sự đóng góp của mỗi giá trị tổng cộng.
+
+Sử dụng nó khi giá trị có thể được thêm vào với nhau hoặc khi bạn có dữ liệu chỉ có một loạt và tất cả các giá trị là tích cực.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePieChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Chiếc bánh</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePointChartDescription" xml:space="preserve">
+    <value>sử dụng nó khi nó là cần thiết để hiển thị điểm độc lập dữ liệu trên cùng một biểu đồ lô.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePolarAreaChartDescription" xml:space="preserve">
+    <value>Hiển thị các dòng như các khu vực đầy trên một biểu đồ hình tròn trên cơ sở các góc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePolarAreaChartMenuCaption" xml:space="preserve">
+    <value>Tích cực</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePolarLineChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng cho một số series và so sánh giá trị của họ cho cùng một điểm đối số trên một sơ đồ tròn trên cơ sở góc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePolarLineChartMenuCaption" xml:space="preserve">
+    <value>Cực dòng</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePolarPointChartDescription" xml:space="preserve">
+    <value>Hiển thị điểm từ hai hoặc nhiều loạt khác nhau trên cùng một biểu đồ tròn trên cơ sở góc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePolarPointChartMenuCaption" xml:space="preserve">
+    <value>Cực điểm</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePolarRangeAreaChartDescription" xml:space="preserve">
+    <value>Hiển thị dòng trên một biểu đồ tròn như lấp đầy các khu vực, được xác định bởi điểm dữ liệu với hai giá trị giới hạn tối thiểu và tối đa. Sử dụng nó khi bạn cần phải nhấn mạnh vùng đồng bằng giữa các giá trị bắt đầu và kết thúc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePolarRangeAreaChartMenuCaption" xml:space="preserve">
+    <value>Khu vực vùng cực nhiều</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidBar3DChartDescription" xml:space="preserve">
+    <value>So sánh giá trị trên toàn thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm kim tự tháp</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidFullStackedBar3DChartDescription" xml:space="preserve">
+    <value>So sánh tỷ lệ phần trăm mỗi giá trị đóng góp tổng cộng trên thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidFullStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>100% Xếp chồng lên nhau kim tự tháp</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidManhattanBarChartDescription" xml:space="preserve">
+    <value>So sánh giá trị trên toàn thể loại và qua loạt và hiển thị một biểu đồ kim tự tháp trên ba trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidManhattanBarChartMenuCaption" xml:space="preserve">
+    <value>3-D kim tự tháp</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidSideBySideFullStackedBar3DChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của cả hai các 100% kim tự tháp xếp chồng lên nhau và nhóm kim tự tháp biểu đồ loại, do đó bạn có thể ngăn xếp kim tự tháp khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidSideBySideFullStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm 100% xếp chồng lên nhau kim tự tháp</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidSideBySideStackedBar3DChartDescription" xml:space="preserve">
+    <value>Kết hợp những lợi thế của kim tự tháp xếp chồng lên nhau và kim tự tháp tập trung các loại biểu đồ, do đó bạn có thể ngăn xếp kim tự tháp khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidSideBySideStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Kim tự tháp xếp chồng lên nhau tập hợp điểm</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidStackedBar3DChartDescription" xml:space="preserve">
+    <value>So sánh sự đóng góp của mỗi giá trị tổng cộng trên thể loại.</value>
+  </data>
+  <data name="ChartStringId.CmdCreatePyramidStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau kim tự tháp</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRadarAreaChartDescription" xml:space="preserve">
+    <value>Hiển thị các dòng như các khu vực điền vào một lưới tròn có nhiều trục dọc mà dữ liệu có thể được âm mưu.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRadarAreaChartMenuCaption" xml:space="preserve">
+    <value>Radar tích</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRadarLineChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng cho một số series và so sánh giá trị của họ cho cùng một điểm lý luận trên một lưới điện thông tư có nhiều trục dọc theo đó dữ liệu có thể được âm mưu.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRadarLineChartMenuCaption" xml:space="preserve">
+    <value>Radar dòng</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRadarPointChartDescription" xml:space="preserve">
+    <value>Hiển thị điểm từ hai hoặc nhiều loạt khác nhau trên các đối số điểm tương tự trên lưới điện thông tư có nhiều trục dọc theo đó dữ liệu có thể được âm mưu.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRadarPointChartMenuCaption" xml:space="preserve">
+    <value>Radar điểm</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRadarRangeAreaChartDescription" xml:space="preserve">
+    <value>Hiển thị dòng trên một biểu đồ hình tròn trên cơ sở các góc như lấp đầy các khu vực, được xác định bởi điểm dữ liệu với hai giá trị giới hạn tối thiểu và tối đa. Sử dụng nó khi bạn cần phải nhấn mạnh vùng đồng bằng giữa các giá trị bắt đầu và kết thúc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRadarRangeAreaChartMenuCaption" xml:space="preserve">
+    <value>Radar tầm khu vực</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRangeArea3DChartDescription" xml:space="preserve">
+    <value>Màn hình loạt như lấp đầy các khu vực trên sơ đồ, được xác định bởi điểm dữ liệu với hai giá trị giới hạn tối thiểu và tối đa.
+
+Sử dụng nó khi bạn cần phải nhấn mạnh vùng đồng bằng giữa các giá trị bắt đầu và kết thúc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRangeArea3DChartMenuCaption" xml:space="preserve">
+    <value>Phạm vi khu vực trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRangeAreaChartDescription" xml:space="preserve">
+    <value>Màn hình loạt như lấp đầy các khu vực trên sơ đồ, được xác định bởi điểm dữ liệu với hai giá trị giới hạn tối thiểu và tối đa.
+
+Sử dụng nó khi bạn cần phải nhấn mạnh vùng đồng bằng giữa các giá trị bắt đầu và kết thúc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRangeAreaChartMenuCaption" xml:space="preserve">
+    <value>Phạm vi khu vực</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRangeBarChartDescription" xml:space="preserve">
+    <value>Hiển thị các cột dọc dọc theo trục (trục giá trị). Mỗi cột đại diện cho một loạt các dữ liệu cho mỗi giá trị của đối số.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRangeBarChartMenuCaption" xml:space="preserve">
+    <value>Phạm vi cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedBarChartDescription" xml:space="preserve">
+    <value>Chèn một biểu đồ thanh.
+
+Bar bảng xếp hạng là loại biểu đồ tốt nhất để so sánh nhiều giá trị.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedBarChartMenuCaption" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedBarChartPlaceHolderDescription" xml:space="preserve">
+    <value>Chèn một biểu đồ thanh.
+
+Bar bảng xếp hạng là loại biểu đồ tốt nhất để so sánh nhiều giá trị.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedBarChartPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedFullStackedBarChartDescription" xml:space="preserve">
+    <value>Hiển thị hình chữ nhật ngang để so sánh tỷ lệ phần trăm mỗi giá trị đóng góp vào tổng số trên các danh mục.
+
+Sử dụng nó khi các giá trị điểm chuỗi chứa thời lượng hoặc khi văn bản thể loại dài.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedFullStackedBarChartMenuCaption" xml:space="preserve">
+    <value>100% Stacked Bar</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedSideBySideFullStackedBarChartDescription" xml:space="preserve">
+    <value>kết hợp những ưu điểm của cả hai các 100% Stacked Bar và Clustered Bar bảng xếp hạng loại, do đó, bạn có thể ngăn xếp các quầy bar khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedSideBySideFullStackedBarChartMenuCaption" xml:space="preserve">
+    <value>Nhóm 100% xếp chồng lên nhau Bar</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedSideBySideStackedBarChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của cả hai Stacked Bar và Clustered Bar bảng xếp hạng loại, do đó bạn có thể ngăn xếp các quầy bar khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedSideBySideStackedBarChartMenuCaption" xml:space="preserve">
+    <value>Nhóm xếp chồng lên nhau Bar</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedStackedBarChartDescription" xml:space="preserve">
+    <value>So sánh sự đóng góp của mỗi giá trị tổng cộng trên toàn thể loại bằng cách sử dụng hình chữ nhật ngang.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateRotatedStackedBarChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau Bar</value>
+  </data>
+  <data name="ChartStringId.CmdCreateScatterLineChartDescription" xml:space="preserve">
+    <value>Hiển thị các điểm chuỗi theo thứ tự như chúng xuất hiện trong bộ sưu tập.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateScatterLineChartMenuCaption" xml:space="preserve">
+    <value>Scatter dòng</value>
+  </data>
+  <data name="ChartStringId.CmdCreateScatterPolarLineChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng cho một số loạt và so sánh giá trị của họ cho các đối số điểm tương tự trên một biểu đồ hình tròn trên cơ sở các góc. Hàng loạt điểm được rút ra trong lưới điện tròn theo thứ tự họ có trong loạt điểm bộ sưu tập.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateScatterPolarLineChartMenuCaption" xml:space="preserve">
+    <value>Scatter cực khổ</value>
+  </data>
+  <data name="ChartStringId.CmdCreateScatterRadarLineChartDescription" xml:space="preserve">
+    <value>Hiển thị dữ liệu như một dòng trên một mạng lưới tròn có nhiều trục dọc mà dữ liệu có thể được âm mưu. Hàng loạt điểm được rút ra trong lưới điện tròn theo thứ tự họ có trong loạt điểm bộ sưu tập.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateScatterRadarLineChartMenuCaption" xml:space="preserve">
+    <value>Scatter Radar dòng</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideFullStackedBar3DChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của cả hai các 100% xếp chồng lên nhau cột và nhóm cột biểu đồ loại trong định dạng 3-D, do đó bạn có thể ngăn xếp các cột khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideFullStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm 100% xếp chồng lên nhau cột trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideFullStackedBarChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của cả hai các 100% xếp chồng lên nhau cột và nhóm cột biểu đồ loại, do đó bạn có thể ngăn xếp các cột khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideFullStackedBarChartMenuCaption" xml:space="preserve">
+    <value>Nhóm 100% xếp chồng lên nhau cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideGanttChartDescription" xml:space="preserve">
+    <value>Hiển thị các thanh nằm ngang dọc theo trục thời gian. Mỗi thanh tượng trưng cho một sự kiện riêng biệt với các giá trị bắt đầu và kết thúc, vì thế các bảng xếp hạng được sử dụng để theo dõi các hoạt động khác nhau trong khung thời gian.
+
+Sử dụng nó khi nó là cần thiết cho hoạt động thanh từ loạt khác nhau một bên trên khác, để so sánh thời gian của họ.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideGanttChartMenuCaption" xml:space="preserve">
+    <value>Nhóm Gantt</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideRangeBarChartDescription" xml:space="preserve">
+    <value>Hiển thị hoạt động cột từ loạt khác nhau được nhóm lại theo lập luận của họ. Mỗi cột đại diện cho một loạt các dữ liệu với hai giá trị cho mỗi giá trị đối số.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideRangeBarChartMenuCaption" xml:space="preserve">
+    <value>Tập trung nhiều cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideStackedBar3DChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của cột xếp chồng lên nhau và nhóm cột loại biểu đồ trong định dạng 3-D, do đó bạn có thể ngăn xếp các cột khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Nhóm cột xếp chồng lên nhau trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideStackedBarChartDescription" xml:space="preserve">
+    <value>Kết hợp những ưu điểm của cột xếp chồng lên nhau và cột nhóm các loại biểu đồ, do đó bạn có thể ngăn xếp các cột khác nhau, và kết hợp chúng thành các nhóm trên cùng một giá trị trục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSideBySideStackedBarChartMenuCaption" xml:space="preserve">
+    <value>Nhóm xếp chồng lên nhau cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSpline3DChartDescription" xml:space="preserve">
+    <value>Đồ thị một đường cong được trang bị thông qua mỗi điểm dữ liệu trong một loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSpline3DChartMenuCaption" xml:space="preserve">
+    <value>3-D Spline</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSplineArea3DChartDescription" xml:space="preserve">
+    <value>Hành xử tương tự như 3D khu vực bảng xếp hạng, nhưng âm mưu một đường cong được trang bị thông qua mỗi điểm dữ liệu trong một loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSplineArea3DChartMenuCaption" xml:space="preserve">
+    <value>Spline lá trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSplineAreaChartDescription" xml:space="preserve">
+    <value>Hành xử tương tự như lá biểu đồ nhưng âm mưu một đường cong được trang bị thông qua mỗi điểm dữ liệu trong một loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSplineAreaChartMenuCaption" xml:space="preserve">
+    <value>Spline lá</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSplineChartDescription" xml:space="preserve">
+    <value>Đồ thị một đường cong được trang bị thông qua mỗi điểm dữ liệu trong một loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateSplineChartMenuCaption" xml:space="preserve">
+    <value>Spline</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedArea3DChartDescription" xml:space="preserve">
+    <value>Hiển thị chuỗi như các khu vực trên sơ đồ, do đó giá trị của mỗi điểm dữ liệu được tổng hợp với những giá trị tiềm ẩn điểm dữ liệu.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedArea3DChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau tích trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedAreaChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng của sự đóng góp của mỗi giá trị theo thời gian hoặc thể loại.
+
+Sử dụng nó để nhấn mạnh các xu hướng trong tổng số trên loạt cho một mục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedAreaChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau tích</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedBar3DChartDescription" xml:space="preserve">
+    <value>so sánh sự đóng góp của mỗi giá trị tổng cộng trên toàn thể loại và hiển thị xếp chồng lên nhau cột trong định dạng 3-D.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedBar3DChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau cột trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedBarChartDescription" xml:space="preserve">
+    <value>So sánh sự đóng góp của mỗi giá trị tổng cộng trên các thể loại bằng cách sử dụng thẳng đứng hình chữ nhật.
+
+Sử dụng nó để nhấn mạnh tổng số trên loạt cho một mục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedBarChartMenuCaption" xml:space="preserve">
+    <value>Chồng cột</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedLine3DChartDescription" xml:space="preserve">
+    <value>Hiển thị tất cả các điểm từ loạt khác nhau một cách chồng và rất hữu ích khi nó là cần thiết để so sánh bao nhiêu mỗi loạt thêm với Tổng giá trị tổng hợp cho cụ thể các đối số.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedLine3DChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau dòng trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedLineChartDescription" xml:space="preserve">
+    <value>Hiển thị các xu hướng của sự đóng góp của mỗi giá trị qua thời gian hoặc ra lệnh cho chuyên mục.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedLineChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau dòng</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedSplineArea3DChartDescription" xml:space="preserve">
+    <value>Hành xử tương tự như lá xếp chồng lên nhau trong 3D biểu đồ, nhưng âm mưu một đường cong được trang bị thông qua mỗi điểm dữ liệu trong một loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedSplineArea3DChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau Spline lá trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedSplineAreaChartDescription" xml:space="preserve">
+    <value>Hành xử tương tự như xếp chồng lên nhau tích biểu đồ nhưng âm mưu một đường cong được trang bị thông qua mỗi điểm dữ liệu trong một loạt.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedSplineAreaChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau Spline lá</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedStepAreaChartDescription" xml:space="preserve">
+    <value>Behaves tương tự với bảng xếp hạng khu vực xếp chồng lên nhau nhưng kết nối điểm dữ liệu bằng cách sử dụng dây chuyền ngang và dọc.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStackedStepAreaChartMenuCaption" xml:space="preserve">
+    <value>Xếp chồng lên nhau bước tích</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepArea3DChartDescription" xml:space="preserve">
+    <value>Hiển thị đến mức độ nào giá trị đã thay đổi cho các điểm khác nhau trong dòng cùng một.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepArea3DChartMenuCaption" xml:space="preserve">
+    <value>Bước tích trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepAreaChartDescription" xml:space="preserve">
+    <value>Hiển thị bao nhiêu giá trị đã thay đổi cho các điểm khác nhau của dòng cùng một.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepAreaChartMenuCaption" xml:space="preserve">
+    <value>Bước tích</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepLine3DChartDescription" xml:space="preserve">
+    <value>Hiển thị đến mức độ nào giá trị đã thay đổi cho các điểm khác nhau trong dòng cùng một.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepLine3DChartMenuCaption" xml:space="preserve">
+    <value>Bước dòng trong 3-D</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepLineChartDescription" xml:space="preserve">
+    <value>Hiển thị đến mức độ nào giá trị đã thay đổi cho các điểm khác nhau trong dòng cùng một.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStepLineChartMenuCaption" xml:space="preserve">
+    <value>Bước dòng</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStockChartDescription" xml:space="preserve">
+    <value>Biến thể hiển thị trong giá cổ phiếu trong quá trình một ngày. Các mức giá mở và đóng được đại diện bởi dòng trái và bên phải trên mỗi điểm, và các mức giá thấp và cao được đại diện bởi các giá trị dưới cùng và đầu của đường thẳng đứng được thể hiện tại mỗi điểm.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateStockChartMenuCaption" xml:space="preserve">
+    <value>Chứng khoán</value>
+  </data>
+  <data name="ChartStringId.CmdCreateWaterfallChartDescription" xml:space="preserve">
+    <value>Một biểu đồ thác nước Hiển thị một chuỗi các thanh chỉ ra những thay đổi tích cực hoặc tiêu cực.</value>
+  </data>
+  <data name="ChartStringId.CmdCreateWaterfallChartMenuCaption" xml:space="preserve">
+    <value>Thác</value>
+  </data>
+  <data name="ChartStringId.CmdDisableIndicatorInteractionPlaceHolderDescription" xml:space="preserve">
+    <value>vô hiệu hóa sử dụng các chỉ số biểu đồ tương tác.</value>
+  </data>
+  <data name="ChartStringId.CmdDisableIndicatorInteractionPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Vô hiệu hóa tương tác</value>
+  </data>
+  <data name="ChartStringId.CmdDrawFibonacciArcsIndicatorPlaceHolderDescription" xml:space="preserve">
+    <value>để thêm một chỉ số Fibonacci Arcs cho chuỗi hiện tại, nhấp vào một điểm hàng loạt và kéo chuột đến điểm mong muốn của chuỗi.</value>
+  </data>
+  <data name="ChartStringId.CmdDrawFibonacciArcsIndicatorPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Fibonacci Arcs</value>
+  </data>
+  <data name="ChartStringId.CmdDrawFibonacciFansIndicatorPlaceHolderDescription" xml:space="preserve">
+    <value>Để thêm chỉ báo Fibonacci Fans cho chuỗi hiện tại, hãy nhấp vào một điểm hàng loạt và kéo chuột đến điểm chuỗi mong muốn.</value>
+  </data>
+  <data name="ChartStringId.CmdDrawFibonacciFansIndicatorPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Người hâm mộ Fibonacci</value>
+  </data>
+  <data name="ChartStringId.CmdDrawFibonacciRetracementIndicatorPlaceHolderDescription" xml:space="preserve">
+    <value>Để thêm một chỉ số thu vào Fibonacci cho chuỗi hiện tại, hãy nhấp vào một điểm hàng loạt và kéo chuột đến điểm chuỗi mong muốn.</value>
+  </data>
+  <data name="ChartStringId.CmdDrawFibonacciRetracementIndicatorPlaceHolderMenuCaption" xml:space="preserve">
+    <value>rút lại xu hướng Fibonacci</value>
+  </data>
+  <data name="ChartStringId.CmdDrawTrendLineIndicatorPlaceHolderDescription" xml:space="preserve">
+    <value>để thêm một chỉ báo xu hướng cho chuỗi hiện tại, nhấp vào một điểm hàng loạt và kéo chuột đến điểm chuỗi mong muốn.</value>
+  </data>
+  <data name="ChartStringId.CmdDrawTrendLineIndicatorPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Xu hướng dòng</value>
+  </data>
+  <data name="ChartStringId.CmdExportPlaceHolderDescription" xml:space="preserve">
+    <value>Xuất khẩu tài liệu hiện thời trong một trong các định dạng có sẵn, và lưu nó vào tập tin vào đĩa một.</value>
+  </data>
+  <data name="ChartStringId.CmdExportToGIFDescription" xml:space="preserve">
+    <value>Graphics Interchange Format</value>
+  </data>
+  <data name="ChartStringId.CmdExportToHTMLDescription" xml:space="preserve">
+    <value>Trang web</value>
+  </data>
+  <data name="ChartStringId.CmdExportToHTMLMenuCaption" xml:space="preserve">
+    <value>Xuất khẩu sang HTML</value>
+  </data>
+  <data name="ChartStringId.CmdExportToImagePlaceHolderMenuCaption" xml:space="preserve">
+    <value>Xuất chuyển sang hình ảnh</value>
+  </data>
+  <data name="ChartStringId.CmdExportToJPEGDescription" xml:space="preserve">
+    <value>Hình ảnh JPEG</value>
+  </data>
+  <data name="ChartStringId.CmdExportToMHTDescription" xml:space="preserve">
+    <value>Tập tin trang Web</value>
+  </data>
+  <data name="ChartStringId.CmdExportToMHTMenuCaption" xml:space="preserve">
+    <value>Xuất khẩu để MHT</value>
+  </data>
+  <data name="ChartStringId.CmdExportToPDFDescription" xml:space="preserve">
+    <value>Adobe Portable tài liệu định dạng</value>
+  </data>
+  <data name="ChartStringId.CmdExportToPDFMenuCaption" xml:space="preserve">
+    <value>Xuất khẩu sang PDF</value>
+  </data>
+  <data name="ChartStringId.CmdExportToPNGDescription" xml:space="preserve">
+    <value>Mạng di động đồ họa</value>
+  </data>
+  <data name="ChartStringId.CmdExportToRTFDescription" xml:space="preserve">
+    <value>Định dạng văn bản phong phú</value>
+  </data>
+  <data name="ChartStringId.CmdExportToRTFMenuCaption" xml:space="preserve">
+    <value>Xuất khẩu sang RTF</value>
+  </data>
+  <data name="ChartStringId.CmdExportToTIFFDescription" xml:space="preserve">
+    <value>Được dán hình ảnh tập tin định dạng</value>
+  </data>
+  <data name="ChartStringId.CmdExportToXLSDescription" xml:space="preserve">
+    <value>Làm việc Microsoft Excel 2000-2003 cuốn sách</value>
+  </data>
+  <data name="ChartStringId.CmdExportToXLSMenuCaption" xml:space="preserve">
+    <value>Xuất khẩu để XLS</value>
+  </data>
+  <data name="ChartStringId.CmdExportToXLSXDescription" xml:space="preserve">
+    <value>Microsoft Excel 2007 làm việc cuốn sách</value>
+  </data>
+  <data name="ChartStringId.CmdExportToXLSXMenuCaption" xml:space="preserve">
+    <value>Xuất khẩu sang XLSX</value>
+  </data>
+  <data name="ChartStringId.CmdFinancialGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Tài chính</value>
+  </data>
+  <data name="ChartStringId.CmdFunnelGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Kênh</value>
+  </data>
+  <data name="ChartStringId.CmdGanttGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Gantt</value>
+  </data>
+  <data name="ChartStringId.CmdIncompatibleScaleTypeNote" xml:space="preserve">
+    <value>Loại biểu đồ này là không tương thích với các đối số DateTime và chất lượng.</value>
+  </data>
+  <data name="ChartStringId.CmdLine2DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>2-D dòng</value>
+  </data>
+  <data name="ChartStringId.CmdLine3DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>3-D dòng</value>
+  </data>
+  <data name="ChartStringId.CmdLoadTemplateDescription" xml:space="preserve">
+    <value>Tải biểu đồ từ mẫu.</value>
+  </data>
+  <data name="ChartStringId.CmdLoadTemplateMenuCaption" xml:space="preserve">
+    <value>Tải
+Mẫu</value>
+  </data>
+  <data name="ChartStringId.CmdPie2DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>2-D Pie</value>
+  </data>
+  <data name="ChartStringId.CmdPie3DGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>3-D Pie</value>
+  </data>
+  <data name="ChartStringId.CmdPolarGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Cực</value>
+  </data>
+  <data name="ChartStringId.CmdPrintDescription" xml:space="preserve">
+    <value>Chọn một máy in, số lượng bản sao và các tùy chọn in ấn trước khi in ấn.</value>
+  </data>
+  <data name="ChartStringId.CmdPrintPreviewDescription" xml:space="preserve">
+    <value>Xem trước và thực hiện thay đổi đối với các trang trước in.</value>
+  </data>
+  <data name="ChartStringId.CmdPrintPreviewMenuCaption" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="ChartStringId.CmdRadarGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Radar</value>
+  </data>
+  <data name="ChartStringId.CmdRangeGroupPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Phạm vi</value>
+  </data>
+  <data name="ChartStringId.CmdRemoveIndicatorPlaceHolderDescription" xml:space="preserve">
+    <value>Chọn một chỉ báo trên biểu đồ để loại bỏ nó.</value>
+  </data>
+  <data name="ChartStringId.CmdRemoveIndicatorPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Loại bỏ chỉ báo</value>
+  </data>
+  <data name="ChartStringId.CmdRunDesignerDescription" xml:space="preserve">
+    <value>Các sơ đồ thiết kế gọi để giúp bạn điều chỉnh cài đặt biểu đồ chính ở một nơi.</value>
+  </data>
+  <data name="ChartStringId.CmdRunDesignerMenuCaption" xml:space="preserve">
+    <value>Chạy bảng thiết kế...</value>
+  </data>
+  <data name="ChartStringId.CmdRunWizardDescription" xml:space="preserve">
+    <value>The Chart Wizard gọi để giúp bạn điều chỉnh các thiết lập bảng xếp hạng chính ở một nơi.</value>
+  </data>
+  <data name="ChartStringId.CmdRunWizardMenuCaption" xml:space="preserve">
+    <value>Chạy Chart Wizard...</value>
+  </data>
+  <data name="ChartStringId.CmdSaveAsTemplateDescription" xml:space="preserve">
+    <value>Tạo ra một bản mẫu với các thiết lập tương tự như bảng xếp hạng hiện tại.</value>
+  </data>
+  <data name="ChartStringId.CmdSaveAsTemplateMenuCaption" xml:space="preserve">
+    <value>Lưu như
+Mẫu</value>
+  </data>
+  <data name="ChartStringId.CmdSelectAxisMeasureUnitPlaceHolderDescription" xml:space="preserve">
+    <value>chọn đơn vị đo lường mong muốn cho trục đối số của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.CmdSelectAxisMeasureUnitPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Đơn vị trục</value>
+  </data>
+  <data name="ChartStringId.CmdSelectPeriodPlaceHolderDescription" xml:space="preserve">
+    <value>chọn một khoảng thời gian mong muốn.</value>
+  </data>
+  <data name="ChartStringId.CmdSelectPeriodPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="ChartStringId.CmdSelectSeriesPlaceHolderDescription" xml:space="preserve">
+    <value>Chọn một loạt từ danh sách thả xuống.</value>
+  </data>
+  <data name="ChartStringId.CmdSelectSeriesPlaceHolderMenuCaption" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="ChartStringId.ColumnAnnotations" xml:space="preserve">
+    <value>chú thích</value>
+  </data>
+  <data name="ChartStringId.ColumnLinks" xml:space="preserve">
+    <value>liên kết</value>
+  </data>
+  <data name="ChartStringId.ColumnOutliers" xml:space="preserve">
+    <value>Outliers</value>
+  </data>
+  <data name="ChartStringId.CrosshairLabelFreePosition" xml:space="preserve">
+    <value>Miễn phí vị trí</value>
+  </data>
+  <data name="ChartStringId.CrosshairLabelMousePosition" xml:space="preserve">
+    <value>vị trí chuột</value>
+  </data>
+  <data name="ChartStringId.DefaultAnnotation" xml:space="preserve">
+    <value>Annotation</value>
+  </data>
+  <data name="ChartStringId.DefaultConstantLineTitleOnAddingFromToolbox" xml:space="preserve">
+    <value>Liên tục dòng</value>
+  </data>
+  <data name="ChartStringId.DefaultDataFilterName" xml:space="preserve">
+    <value>DataFilter</value>
+  </data>
+  <data name="ChartStringId.DefaultPaneTitle" xml:space="preserve">
+    <value>Tiêu đề cửa sổ</value>
+  </data>
+  <data name="ChartStringId.DesignTimeDrillDownLevel1" xml:space="preserve">
+    <value>Cấp độ 1</value>
+  </data>
+  <data name="ChartStringId.DesignTimeDrillDownLevel2" xml:space="preserve">
+    <value>Cấp độ 2</value>
+  </data>
+  <data name="ChartStringId.EmptySankeyDefaultText" xml:space="preserve">
+    <value>Không có dữ liệu trong sơ đồ.
+Để điền sơ đồ này, hãy chọn một nguồn dữ liệu,
+và đảm bảo rằng các thành viên dữ liệu Nguồn và Đích được chỉ định.</value>
+  </data>
+  <data name="ChartStringId.ExactWorkdays" xml:space="preserve">
+    <value>Chính xác Workdays</value>
+  </data>
+  <data name="ChartStringId.FibonacciArcs" xml:space="preserve">
+    <value>Fibonacci Arcs</value>
+  </data>
+  <data name="ChartStringId.FibonacciFans" xml:space="preserve">
+    <value>Người hâm mộ Fibonacci</value>
+  </data>
+  <data name="ChartStringId.FibonacciRetracement" xml:space="preserve">
+    <value>Fibonacci Retracement</value>
+  </data>
+  <data name="ChartStringId.FunctionArgumentName" xml:space="preserve">
+    <value>Đối số</value>
+  </data>
+  <data name="ChartStringId.FunctionNameAverage" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="ChartStringId.FunctionNameCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="ChartStringId.FunctionNameMax" xml:space="preserve">
+    <value>MAX</value>
+  </data>
+  <data name="ChartStringId.FunctionNameMin" xml:space="preserve">
+    <value>MIN</value>
+  </data>
+  <data name="ChartStringId.FunctionNameSum" xml:space="preserve">
+    <value>Tổng hợp</value>
+  </data>
+  <data name="ChartStringId.HighValuePatternDescription" xml:space="preserve">
+    <value>Giá trị cao</value>
+  </data>
+  <data name="ChartStringId.Holiday" xml:space="preserve">
+    <value>Holiday</value>
+  </data>
+  <data name="ChartStringId.Holidays" xml:space="preserve">
+    <value>Ngày lễ</value>
+  </data>
+  <data name="ChartStringId.HolidaysImportFilter" xml:space="preserve">
+    <value>DevExpress lịch nghỉ tập tin (*.xml) | *. xml|Microsoft Office Outlook ngày lễ tập tin (*.hol) | *. hol|Tập tin văn bản (*.txt) | *. txt|Tất cả các tệp (*. *) | *. *</value>
+  </data>
+  <data name="ChartStringId.ImageAnnotation" xml:space="preserve">
+    <value>Chú thích hình ảnh</value>
+  </data>
+  <data name="ChartStringId.IncompatibleSeriesMessage" xml:space="preserve">
+    <value>bởi {0} với "{1}"</value>
+  </data>
+  <data name="ChartStringId.IncompatibleSeriesView" xml:space="preserve">
+    <value>(không tương thích)</value>
+  </data>
+  <data name="ChartStringId.IncorrectDiagramTypeToolTipText" xml:space="preserve">
+    <value>có là không có tấm để neo, bởi vì loại sơ đồ của biểu đồ không hỗ trợ ngăn.</value>
+  </data>
+  <data name="ChartStringId.IncorrectSeriesCollectionToolTipText" xml:space="preserve">
+    <value>Không có không có loạt trong bộ sưu tập của bảng xếp hạng với ít nhất một loạt điểm.</value>
+  </data>
+  <data name="ChartStringId.IndAverageTrueRange" xml:space="preserve">
+    <value>Trung bình True Range</value>
+  </data>
+  <data name="ChartStringId.IndBollingerBands" xml:space="preserve">
+    <value>Bollinger Bands</value>
+  </data>
+  <data name="ChartStringId.IndChaikinsVolatility" xml:space="preserve">
+    <value>Biến động của Chaikin</value>
+  </data>
+  <data name="ChartStringId.IndCommodityChannelIndex" xml:space="preserve">
+    <value>Kênh hàng hóa Index</value>
+  </data>
+  <data name="ChartStringId.IndDataSourceBasedErrorBars" xml:space="preserve">
+    <value>Nguồn dữ liệu dựa trên lỗi thanh</value>
+  </data>
+  <data name="ChartStringId.IndDetrendedPriceOscillator" xml:space="preserve">
+    <value>Detrended giá dao động</value>
+  </data>
+  <data name="ChartStringId.IndEaseOfMovement" xml:space="preserve">
+    <value>Dễ dàng di chuyển</value>
+  </data>
+  <data name="ChartStringId.IndErrorBars" xml:space="preserve">
+    <value>Lỗi thanh</value>
+  </data>
+  <data name="ChartStringId.IndExponentialMovingAverage" xml:space="preserve">
+    <value>Mũ di chuyển trung bình</value>
+  </data>
+  <data name="ChartStringId.IndFibonacciIndicator" xml:space="preserve">
+    <value>Chỉ số Fibonacci</value>
+  </data>
+  <data name="ChartStringId.IndFixedValueErrorBars" xml:space="preserve">
+    <value>Cố định giá trị lỗi thanh</value>
+  </data>
+  <data name="ChartStringId.IndMassIndex" xml:space="preserve">
+    <value>Chỉ số khối lượng</value>
+  </data>
+  <data name="ChartStringId.IndMedianPrice" xml:space="preserve">
+    <value>Giá trung bình</value>
+  </data>
+  <data name="ChartStringId.IndMovingAverageConvergenceDivergence" xml:space="preserve">
+    <value>Di chuyển trung bình tụ/phân kỳ</value>
+  </data>
+  <data name="ChartStringId.IndPercentageErrorBars" xml:space="preserve">
+    <value>Tỷ lệ phần trăm lỗi thanh</value>
+  </data>
+  <data name="ChartStringId.IndRateOfChange" xml:space="preserve">
+    <value>Mức độ thay đổi</value>
+  </data>
+  <data name="ChartStringId.IndRegressionLine" xml:space="preserve">
+    <value>Hồi quy dòng</value>
+  </data>
+  <data name="ChartStringId.IndRelativeStrengthIndex" xml:space="preserve">
+    <value>Chỉ số sức mạnh tương</value>
+  </data>
+  <data name="ChartStringId.IndSimpleMovingAverage" xml:space="preserve">
+    <value>Đơn giản di chuyển trung bình</value>
+  </data>
+  <data name="ChartStringId.IndStandardDeviationErrorBars" xml:space="preserve">
+    <value>Tiêu chuẩn độ lệch lỗi thanh</value>
+  </data>
+  <data name="ChartStringId.IndStandardErrorBars" xml:space="preserve">
+    <value>Tiêu chuẩn lỗi thanh</value>
+  </data>
+  <data name="ChartStringId.IndTrendLine" xml:space="preserve">
+    <value>Xu hướng dòng</value>
+  </data>
+  <data name="ChartStringId.IndTriangularMovingAverage" xml:space="preserve">
+    <value>Hình tam giác trung bình di chuyển</value>
+  </data>
+  <data name="ChartStringId.IndTripleExponentialMovingAverageTema" xml:space="preserve">
+    <value>Triple mũ di chuyển trung bình (TEMA)</value>
+  </data>
+  <data name="ChartStringId.IndTripleExponentialMovingAverageTrix" xml:space="preserve">
+    <value>Triple Exponential Moving Average (TRIX)</value>
+  </data>
+  <data name="ChartStringId.IndTypicalPrice" xml:space="preserve">
+    <value>Giá điển hình</value>
+  </data>
+  <data name="ChartStringId.IndWeightedClose" xml:space="preserve">
+    <value>Trọng đóng</value>
+  </data>
+  <data name="ChartStringId.IndWeightedMovingAverage" xml:space="preserve">
+    <value>Trọng di chuyển trung bình</value>
+  </data>
+  <data name="ChartStringId.IndWilliamsR" xml:space="preserve">
+    <value>Williams %R</value>
+  </data>
+  <data name="ChartStringId.IntervalArgumentMaxPatternDescription" xml:space="preserve">
+    <value>Đối số 2</value>
+  </data>
+  <data name="ChartStringId.IntervalArgumentMinPatternDescription" xml:space="preserve">
+    <value>Đối số 1</value>
+  </data>
+  <data name="ChartStringId.InvalidRangeControlText" xml:space="preserve">
+    <value>Sơ đồ biểu đồ này không thể được hiển thị trong một phạm vi kiểm soát.</value>
+  </data>
+  <data name="ChartStringId.InvisibleSeriesView" xml:space="preserve">
+    <value>(vô hình)</value>
+  </data>
+  <data name="ChartStringId.IOCaption" xml:space="preserve">
+    <value>Hoạt động bất hợp pháp</value>
+  </data>
+  <data name="ChartStringId.IODeleteAxis" xml:space="preserve">
+    <value>Trục chính không thể bị xóa. Nếu bạn muốn giấu nó, đặt thuộc tính có thể nhìn thấy thành false.</value>
+  </data>
+  <data name="ChartStringId.LegendEmptyText" xml:space="preserve">
+    <value>Huyền thoại rỗng</value>
+  </data>
+  <data name="ChartStringId.LowValuePatternDescription" xml:space="preserve">
+    <value>Thấp giá trị</value>
+  </data>
+  <data name="ChartStringId.Msg2DPieExplodingToolTip" xml:space="preserve">
+    <value>Sử dụng Ctrl với nút chuột trái
+để phát nổ hoặc thu hẹp lát.</value>
+  </data>
+  <data name="ChartStringId.Msg2DScrollingToolTip" xml:space="preserve">
+    <value>Sử dụng Ctrl với nút chuột trái
+để di chuyển bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.Msg3DRotationToolTip" xml:space="preserve">
+    <value>Sử dụng Ctrl với nút chuột trái
+để xoay bảng.</value>
+  </data>
+  <data name="ChartStringId.Msg3DScrollingToolTip" xml:space="preserve">
+    <value>Sử dụng Ctrl chuột điều khiển trung tâm (bánh xe)
+để di chuyển bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.Msg3DZoomToolTip" xml:space="preserve">
+    <value>Sử dụng Shift với chuột trái
+phóng to các biểu đồ.
+Sử dụng Alt với nút chuột trái để phóng to ra bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.MsgAddExistingPaletteError" xml:space="preserve">
+    <value>Bảng với tên {0} đã tồn tại trong kho.</value>
+  </data>
+  <data name="ChartStringId.MsgAddLastViewType" xml:space="preserve">
+    <value>Bạn không thể thêm bất kỳ loại xem trong bộ sưu tập này, bởi vì xem ít nhất một loại phải có sẵn trong thuật sĩ.</value>
+  </data>
+  <data name="ChartStringId.MsgAddPresentViewType" xml:space="preserve">
+    <value>Loại quy định xem là đã có trong bộ sưu tập.</value>
+  </data>
+  <data name="ChartStringId.MsgAnchorPointMovingToolTip" xml:space="preserve">
+    <value>Use the left mouse button
+to move the anchor point.</value>
+  </data>
+  <data name="ChartStringId.MsgAnnotationMovingToolTip" xml:space="preserve">
+    <value>Use the left mouse button
+to move the annotation.</value>
+  </data>
+  <data name="ChartStringId.MsgAnnotationResizingToolTip" xml:space="preserve">
+    <value>Use the left mouse button
+to resize the annotation.</value>
+  </data>
+  <data name="ChartStringId.MsgAnnotationRotationToolTip" xml:space="preserve">
+    <value>Use the left mouse button
+to rotate the annotation.</value>
+  </data>
+  <data name="ChartStringId.MsgAttemptToSetScaleModeForAxisY" xml:space="preserve">
+    <value>Bất động sản các ScaleMode không thể thiết lập cho các trục Y.</value>
+  </data>
+  <data name="ChartStringId.MsgCalcHitInfoNotSupported" xml:space="preserve">
+    <value>Hit thử nghiệm cho loại biểu đồ 3D không được hỗ trợ. Vì vậy, phương pháp này được hỗ trợ cho 2D loại bảng xếp hạng chỉ.</value>
+  </data>
+  <data name="ChartStringId.MsgCantImportHolidays" xml:space="preserve">
+    <value>Thất bại trong việc nhập ngày lễ từ tập tin '{0}'.</value>
+  </data>
+  <data name="ChartStringId.MsgCantOpenImageMessage" xml:space="preserve">
+    <value>Định dạng hình ảnh không được hỗ trợ hoặc không chính xác</value>
+  </data>
+  <data name="ChartStringId.MsgCantOpenImageMessageBoxHeader" xml:space="preserve">
+    <value>hình ảnh không thể mở</value>
+  </data>
+  <data name="ChartStringId.MsgCantSwapSeries" xml:space="preserve">
+    <value>Không thể trao đổi autocreated và cố định series.</value>
+  </data>
+  <data name="ChartStringId.MsgChartLoadingException" xml:space="preserve">
+    <value>Các tệp tin XML đã chỉ định không thể được mở ra,
+bởi vì nó là hoặc không một tập tin được hỗ trợ gõ,
+hoặc bởi vì các tập tin đã bị hư hỏng.</value>
+  </data>
+  <data name="ChartStringId.MsgChildSeriesPointNotExist" xml:space="preserve">
+    <value>Trẻ em loạt điểm với ID bằng {0} đã không tồn tại.</value>
+  </data>
+  <data name="ChartStringId.MsgDataSnapshot" xml:space="preserve">
+    <value>Ảnh chụp nhanh dữ liệu hoạt động được hoàn tất. Tất cả loạt dữ liệu bây giờ tĩnh vẫn tồn tại trong bảng xếp hạng.
+Điều này cũng có nghĩa rằng bây giờ biểu đồ là trong chế độ toạc.
+
+Lưu ý: Bạn có thể hoàn tác thao tác này bằng cách nhấn Ctrl + Z trong designer Visual Studio.</value>
+  </data>
+  <data name="ChartStringId.MsgDenyChangeSeriesPointArgument" xml:space="preserve">
+    <value>Bạn không thể tự thay đổi điểm loạt tranh luận, bởi vì một biểu đồ là ràng buộc để dữ liệu.</value>
+  </data>
+  <data name="ChartStringId.MsgDenyChangeSeriesPointCollection" xml:space="preserve">
+    <value>Bạn không thể tự thay đổi này loạt điểm bộ sưu tập, bởi vì một biểu đồ là ràng buộc để dữ liệu.</value>
+  </data>
+  <data name="ChartStringId.MsgDenyChangeSeriesPointValue" xml:space="preserve">
+    <value>Bạn không thể tự thay đổi giá trị của loạt điểm, bởi vì một biểu đồ là ràng buộc để dữ liệu.</value>
+  </data>
+  <data name="ChartStringId.MsgDesignTimeOnlySetting" xml:space="preserve">
+    <value>Bất động sản này không thể được tùy biến tại thời gian chạy.</value>
+  </data>
+  <data name="ChartStringId.MsgEmptyArgument" xml:space="preserve">
+    <value>Một đối số không thể rỗng.</value>
+  </data>
+  <data name="ChartStringId.MsgEmptyArrayOfValues" xml:space="preserve">
+    <value>Các mảng của các giá trị là trống.</value>
+  </data>
+  <data name="ChartStringId.MsgEmptyCalculatedFieldName" xml:space="preserve">
+    <value>một trường tính tên không thể trống.</value>
+  </data>
+  <data name="ChartStringId.MsgEmptyChart" xml:space="preserve">
+    <value>Không có chuỗi hiển thị trong biểu đồ.
+Cố gắng thêm chuỗi mới hoặc đảm bảo rằng
+ít nhất một trong số chúng có thể nhìn thấy.</value>
+  </data>
+  <data name="ChartStringId.MsgEmptyPaneName" xml:space="preserve">
+    <value>Của một ô tên không thể rỗng.</value>
+  </data>
+  <data name="ChartStringId.MsgEmptyPaneTextForHorizontalLayout" xml:space="preserve">
+    <value>Chỉ định này ngăn để các
+Series.View.Pane bất động sản,
+để hiển thị một loạt trên cửa sổ này</value>
+  </data>
+  <data name="ChartStringId.MsgEmptyPaneTextForVerticalLayout" xml:space="preserve">
+    <value>chỉ định này ngăn để bất động sản Series.View.Pane,
+để hiển thị một loạt trên cửa sổ này</value>
+  </data>
+  <data name="ChartStringId.MsgEmptySecondaryAxisName" xml:space="preserve">
+    <value>một trục trung học tên không thể rỗng.</value>
+  </data>
+  <data name="ChartStringId.MsgEquallySpacedItemsNotUsable" xml:space="preserve">
+    <value>Bất động sản này không thể được sử dụng nếu bất động sản hướng được thiết lập để {0}.</value>
+  </data>
+  <data name="ChartStringId.MsgFileNotFound" xml:space="preserve">
+    <value>Không tìm thấy tệp '{0}'.</value>
+  </data>
+  <data name="ChartStringId.MsgFirstPointSettingRuntimeError" xml:space="preserve">
+    <value>Thuộc tính "FirstPoint" không thể đặt ở thời gian chạy.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleArgument" xml:space="preserve">
+    <value>Một đối số {0} không tương thích với quy mô loại hiện thời của đối số.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleArgumentDataMember" xml:space="preserve">
+    <value>Loại thành "{0}" đối số dữ liệu viên không tương thích với quy mô {1}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleArgumentScaleType" xml:space="preserve">
+    <value>Loại quy mô {0} đối số là không tương thích với xem loạt {1}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleByArgumentScaleType" xml:space="preserve">
+    <value>đối số quy mô loại</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleByValueScaleType" xml:space="preserve">
+    <value>loại giá trị quy mô</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleByViewType" xml:space="preserve">
+    <value>loại xem</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleDataMember" xml:space="preserve">
+    <value>The type of the "{0}" data member isn't compatible with the {1} scale.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatiblePointType" xml:space="preserve">
+    <value>Loại "{0}" điểm không tương thích với quy mô {1}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleSummaryFunction" xml:space="preserve">
+    <value>'{0}' Tóm tắt chức năng là không tương thích với quy mô {1}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleSummaryFunctionDimension" xml:space="preserve">
+    <value>Kích thước của các chức năng tóm tắt {0} không tương thích với xem loạt {1} ({2} nhưng nên {3}).</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleValue" xml:space="preserve">
+    <value>Một giá trị {0} không tương thích với các loại quy mô giá trị hiện tại.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleValueDataMember" xml:space="preserve">
+    <value>Loại thành "{0}" giá trị dữ liệu viên không tương thích với quy mô {1}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncompatibleValueScaleType" xml:space="preserve">
+    <value>Loại {0} giá trị quy mô là không tương thích với xem loạt {1}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAnchorPoint" xml:space="preserve">
+    <value>Điểm neo không thể được null.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAnchorPointSeriesPoint" xml:space="preserve">
+    <value>Không thể thiết lập điểm hàng loạt, vì nó sẽ thuộc về một loạt các dòng phải được chứa trong bộ sưu tập của bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAnnotationHeight" xml:space="preserve">
+    <value>Chiều cao chú thích cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAnnotationWidth" xml:space="preserve">
+    <value>The annotation width should be greater than 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAnnotationZOrder" xml:space="preserve">
+    <value>The ZOrder nên được lớn hơn hoặc bằng 0 và ít hơn 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAppearanceName" xml:space="preserve">
+    <value>Bảng xếp hạng không chứa một xuất hiện với tên {0}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAreaWidth" xml:space="preserve">
+    <value>Chiều rộng của khu vực cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectArrayOfValues" xml:space="preserve">
+    <value>Mảng giá trị phải chứa giá trị số, ngày giờ hoặc khoảng thời gian.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectArrowHeight" xml:space="preserve">
+    <value>Chiều cao của mũi tên nên là lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectArrowWidth" xml:space="preserve">
+    <value>Chiều rộng của mũi tên nên là luôn luôn lẻ và lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisCoordinateAxisValue" xml:space="preserve">
+    <value>AxisValue không thể được thiết lập để trống cho đối tượng AxisCoordinate.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisRange" xml:space="preserve">
+    <value>Giá trị phút của dãy trục nên là ít hơn so với giá trị tối đa của nó.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisRangeMaxValue" xml:space="preserve">
+    <value>MaxValue không thể được thiết lập để null.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisRangeMaxValueInternal" xml:space="preserve">
+    <value>MaxValueInternal không thể thiết lập giá trị NaN và Infinity.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisRangeMinValue" xml:space="preserve">
+    <value>MinValue không thể được thiết lập để null.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisRangeMinValueInternal" xml:space="preserve">
+    <value>MinValueInternal không thể thiết lập giá trị NaN và Infinity.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisThickness" xml:space="preserve">
+    <value>Trục dày cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisXCoordinateAxis" xml:space="preserve">
+    <value>Không thể thiết lập của AxisXCoordinate trục, bởi vì các trục đã chỉ định không phải là chính và không có trong bộ sưu tập của biểu đồ của Trung học X-axes.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectAxisYCoordinateAxis" xml:space="preserve">
+    <value>Không thể thiết lập của AxisYCoordinate trục, bởi vì các trục đã chỉ định không phải là chính và không có trong bộ sưu tập của biểu đồ của Trung học Y-axes.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBackEaseAmplitude" xml:space="preserve">
+    <value>Giá trị bất động sản biên độ phải lớn hơn hoặc bằng 0. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBarDepth" xml:space="preserve">
+    <value>Thanh độ sâu cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBarDistanceFixedPropertyUsing" xml:space="preserve">
+    <value>Không thể thiết lập các tài sản BarDistanceFixed trừ khi dòng được thêm vào bộ sưu tập của bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBarDistancePropertyUsing" xml:space="preserve">
+    <value>Không thể thiết lập các tài sản BarDistance trừ khi dòng được thêm vào bộ sưu tập của bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBarSeriesLabelPosition" xml:space="preserve">
+    <value>The BarSeriesLabelPosition.Top giá trị không được hỗ trợ đối với loại xem loạt.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBarWidth" xml:space="preserve">
+    <value>Thanh chiều rộng cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBorderThickness" xml:space="preserve">
+    <value>Chiều rộng biên giới cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBounceEaseBounceCount" xml:space="preserve">
+    <value>Các BounceCount bất động sản giá trị phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBounceEaseBounciness" xml:space="preserve">
+    <value>Các Bounciness bất động sản giá trị nên lớn hơn 1. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectBubbleMinSize" xml:space="preserve">
+    <value>Kích thước tối thiểu phải là lớn hơn hoặc bằng 0, và nhỏ hơn kích thước tối đa.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectCalculatedFieldExpression" xml:space="preserve">
+    <value>Biểu thức được chỉ định chứa ký hiệu không hợp lệ (dòng {0}, nhân vật {1}).</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectCapWidthPercentage" xml:space="preserve">
+    <value>trăm chiều rộng nắp phải bằng hoặc lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectChartTitleIndent" xml:space="preserve">
+    <value>Thụt đầu dòng tiêu đề nên được lớn hơn hoặc bằng 0 và ít hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectChildSeriesPointID" xml:space="preserve">
+    <value>Trẻ em loạt điểm ID phải được tích cực hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectChildSeriesPointOwner" xml:space="preserve">
+    <value>Chủ sở hữu của trẻ em loạt điểm không thể được null và phải loại Series.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectCollectionDataMember" xml:space="preserve">
+    <value>Các thành viên dữ liệu với tên "{0}" không tồn tại hoặc loại của nó không phải là một bộ sưu tập.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectConnectorColorPropertyUsing" xml:space="preserve">
+    <value>Không thể đặt thuộc tính ConnectorColor trừ khi dòng được thêm vào bộ sưu tập của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectConnectorStylePropertyUsing" xml:space="preserve">
+    <value>Không thể đặt thuộc tính ConnectorStyle trừ khi dòng được thêm vào bộ sưu tập của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectConstantLineAxisValue" xml:space="preserve">
+    <value>AxisValue không thể được thiết lập để trống cho đối tượng ConstantLine.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectConstantLineLegend" xml:space="preserve">
+    <value>Không thể đặt các đường dây liên tục truyền thuyết, vì truyền thuyết đã chỉ rõ không chứa trong các bảng xếp hạng bộ sưu tập của huyền thoại.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectCrosshairPosition" xml:space="preserve">
+    <value>Vị trí với hình ảnh không thể được null.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectCustomAxisLabelAxisValue" xml:space="preserve">
+    <value>AxisValue không thể được thiết lập để trống cho đối tượng CustomAxisLabel.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDashStyle" xml:space="preserve">
+    <value>DashStyle.Empty chỉ có thể được giao cho một dòng liên tục LineStyle tài sản.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDataAdapter" xml:space="preserve">
+    <value>Đối tượng {0} không phải là một bộ chuyển đổi dữ liệu.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDataMember" xml:space="preserve">
+    <value>Các datasource không chứa một thành viên dữ liệu với tên "{0}".</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDateTimeGridAlignment" xml:space="preserve">
+    <value>The GridAlignment bất động sản phải lớn hơn hoặc bằng hiện tại đơn vị đo lường</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDateTimeGridAlignmentPropertyUsing" xml:space="preserve">
+    <value>The GridAlignment bất động sản không thể sửa đổi trong chế độ tự động ngày thời gian quy mô.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDateTimeMeasureUnitMultiplierPropertyUsing" xml:space="preserve">
+    <value>Các MeasureUnitMultiplier bất động sản không thể sửa đổi trong cả hai chế độ tự động và liên tục quy mô thời gian ngày.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDateTimeMeasureUnitMultiplierValue" xml:space="preserve">
+    <value>Các MeasureUnitMultiplier bất động sản giá trị cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDateTimeMeasureUnitPropertyUsing" xml:space="preserve">
+    <value>Bất động sản MeasureUnit không thể sửa đổi trong cả hai chế độ tự động và liên tục ngày thời gian quy mô.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDateTimeRangeControlClientSpacing" xml:space="preserve">
+    <value>Bất động sản {0} không thể được thiết lập để phòng không số nguyên cho quy mô ngày giờ.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDoubleValue" xml:space="preserve">
+    <value>Giá trị không thể được tương đương với Double.NaN, Double.PositiveInfinity, hay Double.NegativeInfinity.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectDoughnutHolePercent" xml:space="preserve">
+    <value>Tỷ lệ phần trăm lỗ bánh nên được lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectElasticEaseOscillationCount" xml:space="preserve">
+    <value>Các OscillationCount bất động sản giá trị phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectElasticEaseSpringiness" xml:space="preserve">
+    <value>Các Springiness bất động sản giá trị phải lớn hơn hoặc bằng 0. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectEnvelopePercent" xml:space="preserve">
+    <value>Phần trăm phong bì cần phải lớn hơn 0 và nhỏ hơn hoặc bằng 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectEqualBarWidthPropertyUsing" xml:space="preserve">
+    <value>Không thể thiết lập các tài sản EqualBarWidth trừ khi dòng được thêm vào bộ sưu tập của bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectExplodedDistancePercentage" xml:space="preserve">
+    <value>Giá trị tỷ lệ khoảng cách phát nổ cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectExponentialEaseExponent" xml:space="preserve">
+    <value>The số mũ bất động sản giá trị cần phải lớn hơn tiêu cực vô cực và ít hơn dương vô cực.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectFixedErrorBarsNegativeError" xml:space="preserve">
+    <value>Giá trị phải lớn hơn hoặc bằng 0. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectFixedErrorBarsPositiveError" xml:space="preserve">
+    <value>Giá trị phải lớn hơn hoặc bằng 0. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectFont" xml:space="preserve">
+    <value>Font không thể được null.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectFreePositionDockTarget" xml:space="preserve">
+    <value>Một không chính xác giá trị được chỉ định. Một mục tiêu dock chỉ có thể là ngăn một, hoặc null (có nghĩa là sự kiểm soát bảng xếp hạng chính nó).</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectFunnelHolePercent" xml:space="preserve">
+    <value>Tỷ lệ phần trăm lỗ kênh phải lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectGridSpacing" xml:space="preserve">
+    <value>Khoảng cách lưới phải là lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectHorizontalScrollPercent" xml:space="preserve">
+    <value>Phần trăm ngang nên được lớn hơn hoặc bằng với-{0} và nhỏ hơn hoặc bằng {0}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectImageBounds" xml:space="preserve">
+    <value>Không thể tạo ra một hình ảnh cho kích thước được chỉ định.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectImageFormat" xml:space="preserve">
+    <value>Không thể xuất chuyển một biểu đồ để xác định hình ảnh định dạng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectIndentFromMarker" xml:space="preserve">
+    <value>Giá trị thụt lề phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectIndicator" xml:space="preserve">
+    <value>Bạn có thể thêm chỉ có đối tượng chỉ số vào bộ sưu tập này.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectIndicatorAxisY" xml:space="preserve">
+    <value>Không thể thiết lập các chỉ số trục, vì trục đã chỉ định không phải là chính và không có trong bộ sưu tập các biểu đồ của phụ Y-axes.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectIndicatorLegend" xml:space="preserve">
+    <value>Không thể thiết lập các chỉ số huyền thoại, vì truyền thuyết đã chỉ rõ không chứa trong các bảng xếp hạng bộ sưu tập của huyền thoại.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectInvertedStepPropertyUsing" xml:space="preserve">
+    <value>Không thể thiết lập các tài sản InvertedStep trừ khi truyện được thêm vào bộ sưu tập của bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLabelAngle" xml:space="preserve">
+    <value>Góc của nhãn nên được lớn hơn hoặc bằng-360 và nhỏ hơn hoặc bằng 360.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLabelMaxWidth" xml:space="preserve">
+    <value>Chiều rộng tối đa của nhãn nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendCrosshairContentOffset" xml:space="preserve">
+    <value>Với hình ảnh huyền thoại nội dung bù đắp phải lớn hơn hoặc bằng 0 và nhỏ hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendHorizontalIndent" xml:space="preserve">
+    <value>Huyền thoại thụt lề ngang nên được lớn hơn hoặc bằng 0 và ít hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMarkerOffset" xml:space="preserve">
+    <value>In offset đánh dấu huyền thoại phải lớn hơn hoặc bằng 0 và nhỏ hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMarkerSize" xml:space="preserve">
+    <value>Kích thước điểm đánh dấu huyền thoại cần phải lớn hơn 0 và ít hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMaxCrosshairContentHeight" xml:space="preserve">
+    <value>Giá trị tài sản của huyền thoại MaxCrosshairContentHeight phải lớn hơn hoặc bằng 0 và nhỏ hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendMaxCrosshairContentWidth" xml:space="preserve">
+    <value>Giá trị tài sản của huyền thoại MaxCrosshairContentWidth phải lớn hơn 0 và nhỏ hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendTextOffset" xml:space="preserve">
+    <value>Huyền thoại văn bản đối tượng dời hình nên được lớn hơn hoặc bằng 0 và ít hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLegendVerticalIndent" xml:space="preserve">
+    <value>Huyền thoại thụt lề dọc nên được lớn hơn hoặc bằng 0 và ít hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLineTensionPercent" xml:space="preserve">
+    <value>Dòng căng thẳng tỷ lệ phần trăm nên được lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLineThickness" xml:space="preserve">
+    <value>Dòng dày cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectLineWidth" xml:space="preserve">
+    <value>Độ rộng đường cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectMarkerSize" xml:space="preserve">
+    <value>Kích thước điểm đánh dấu cần phải lớn hơn 1.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectMarkerStarPointCount" xml:space="preserve">
+    <value>Số điểm sao cần phải lớn hơn 3 và ít hơn 101.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectMaxLineCount" xml:space="preserve">
+    <value>Số dòng tối đa phải lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng 20.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectMaxZoomPercent" xml:space="preserve">
+    <value>Phần trăm zoom nên lớn hơn hoặc bằng 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectMinGridSpacingLength" xml:space="preserve">
+    <value>Giá trị tài sản cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectMinorCount" xml:space="preserve">
+    <value>Số lượng nhỏ tính cần phải lớn hơn 0 và ít hơn 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectNestedDoughnutInnerIndent" xml:space="preserve">
+    <value>Thụt lề bên trong chiếc bánh rán lồng nhau nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectNestedDoughnutWeight" xml:space="preserve">
+    <value>Trọng lượng lồng nhau bánh cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectNumericGridAlignment" xml:space="preserve">
+    <value>Mạng lưới liên kết nên được lớn hơn hoặc bằng hiện nay đo lường đơn vị</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectNumericGridAlignmentPropertyUsing" xml:space="preserve">
+    <value>The GridAlignment bất động sản không thể sửa đổi trong chế độ tự động quy mô số.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectNumericMeasureUnit" xml:space="preserve">
+    <value>Các biện pháp hiện tại đơn vị cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectNumericMeasureUnitPropertyUsing" xml:space="preserve">
+    <value>The MeasureUnit bất động sản không thể sửa đổi trong cả hai chế độ tự động và liên tục quy mô số.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectNumericPrecision" xml:space="preserve">
+    <value>Độ chính xác nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPaletteBaseColorNumber" xml:space="preserve">
+    <value>Bảng màu cơ bản số nên được lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng tổng số bảng màu sắc.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPaneDistance" xml:space="preserve">
+    <value>Khoảng cách giữa các tấm nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPaneGridLayoutColumn" xml:space="preserve">
+    <value>Của ô cột chỉ số nên lớn hơn hoặc bằng 0 để ngăn một cột cụ thể vị trí, hoặc -1 để bố trí các cửa sổ tự động.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPaneGridLayoutColumnSpan" xml:space="preserve">
+    <value>Của ô cột nên là lớn hơn hoặc bằng 1 để căng ra ngăn cho một số quy định cột.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPaneGridLayoutRow" xml:space="preserve">
+    <value>Của ô liên tiếp chỉ số nên lớn hơn hoặc bằng 0 để định vị ngăn để một hàng cụ thể, hoặc -1 để bố trí các cửa sổ tự động.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPaneGridLayoutRowSpan" xml:space="preserve">
+    <value>Của ô hàng nên là lớn hơn hoặc bằng 1 để căng ra ngăn cho một số quy định hàng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPaneWeight" xml:space="preserve">
+    <value>Trọng lượng của các cửa sổ cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectParentSeriesPointOwner" xml:space="preserve">
+    <value>Chủ sở hữu của phụ huynh loạt điểm không thể được null và phải loại Series.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPath" xml:space="preserve">
+    <value>Đường dẫn đã chỉ định không thể được giải quyết: {0}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPercentageAccuracy" xml:space="preserve">
+    <value>Tỷ lệ phần trăm chính xác cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgInCorrectPercentageErrorBarsPercent" xml:space="preserve">
+    <value>Giá trị phải lớn hơn 0. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPercentPrecision" xml:space="preserve">
+    <value>Chính xác của giá trị phần trăm cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPercentValue" xml:space="preserve">
+    <value>Phần trăm giá trị nên được lớn hơn hoặc bằng 0 và nhỏ hơn hoặc bằng 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPerspectiveAngle" xml:space="preserve">
+    <value>Góc quan điểm nên được lớn hơn hoặc bằng 0 và ít hơn 180.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPieArgumentScaleType" xml:space="preserve">
+    <value>{0} đối số quy mô loại không thể được xác định, bởi vì hiện tại phát nổ điểm bộ lọc không tương ứng với nó</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPieDepth" xml:space="preserve">
+    <value>Chiếc bánh sâu cần phải lớn hơn 0 và nhỏ hơn hoặc bằng 100, kể từ khi giá trị của nó được đo bằng phần trăm.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPlaneDepthFixed" xml:space="preserve">
+    <value>Cố định máy bay sâu nên được lớn hơn hoặc bằng 1.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPointDistance" xml:space="preserve">
+    <value>Giá trị khoảng cách điểm cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPointsCount" xml:space="preserve">
+    <value>Số điểm cần phải lớn hơn 1.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPowerEasePower" xml:space="preserve">
+    <value>sức mạnh cần phải lớn hơn 0. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectPropertyValue" xml:space="preserve">
+    <value>Sai giá trị "{0}" cho bất động sản "{1}".</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectRangeControlClientSpacing" xml:space="preserve">
+    <value>Bất động sản {0} cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectReductionColorValue" xml:space="preserve">
+    <value>Giá trị màu giảm không thể rỗng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectRelativePositionAngle" xml:space="preserve">
+    <value>Góc phải lớn hơn hoặc bằng-360 và nhỏ hơn hoặc bằng 360.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectRelativePositionConnectorLength" xml:space="preserve">
+    <value>Chiều dài kết nối nên được lớn hơn hoặc bằng 0 và ít hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectScrollBarThickness" xml:space="preserve">
+    <value>Độ dày bar di chuyển phải lớn hơn hoặc bằng 3 và nhỏ hơn hoặc bằng 25.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesDistance" xml:space="preserve">
+    <value>Khoảng cách loạt nên lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesDistanceFixed" xml:space="preserve">
+    <value>Khoảng cách cố định loạt nên lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesIndentFixed" xml:space="preserve">
+    <value>Cố định loạt thụt lề phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesLabelLineLength" xml:space="preserve">
+    <value>Chiều dài dòng nên được lớn hơn hoặc bằng 0 và ít hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesLegend" xml:space="preserve">
+    <value>Không thể đặt bộ truyện truyền thuyết, vì truyền thuyết đã chỉ rõ không chứa trong các bảng xếp hạng bộ sưu tập của huyền thoại.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesOfParentAndChildPoints" xml:space="preserve">
+    <value>Điểm phụ huynh và trẻ em phải thuộc về cùng một loạt.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesViewAxisX" xml:space="preserve">
+    <value>Không thể đặt xem loạt trục x, vì các trục đã chỉ định không phải là chính và không có trong bộ sưu tập của biểu đồ của Trung học X-axes.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSeriesViewAxisY" xml:space="preserve">
+    <value>Không thể đặt trục y của loạt xem, bởi vì các trục đã chỉ định không phải là chính và không có trong bộ sưu tập của biểu đồ của Trung học Y-axes.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectShadowSize" xml:space="preserve">
+    <value>Kích thước bóng cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectShapeFillet" xml:space="preserve">
+    <value>Phi lê hình dạng nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectShapePosition" xml:space="preserve">
+    <value>Hình dạng vị trí không thể được null.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectShowCrosshairUsage" xml:space="preserve">
+    <value>Phương pháp này là chỉ có sẵn trên nền tảng WinForms. Để hiển thị với hình ảnh lập trình cho các điều khiển ASP.NET, sử dụng phương pháp ASPxClientXYDiagram2D.ShowCrosshair phía khách hàng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSimpleDiagramDimension" xml:space="preserve">
+    <value>Kích thước của biểu đồ đơn giản cần phải lớn hơn 0 và ít hơn 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStandardDeviationErrorBarsMultiplier" xml:space="preserve">
+    <value>Giá trị phải lớn hơn hoặc bằng 0. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStartAngle" xml:space="preserve">
+    <value>Giá trị góc bắt đầu nên được lớn hơn hoặc bằng-360 và nhỏ hơn hoặc bằng 360 độ.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStartBarColorPropertyUsing" xml:space="preserve">
+    <value>Không thể đặt thuộc tính StartBarColor trừ khi chuỗi được thêm vào bộ sưu tập của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStockLevelLineLengthValue" xml:space="preserve">
+    <value>Giá trị chiều dài dòng cấp chứng khoán nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStripConstructorParameters" xml:space="preserve">
+    <value>Các giới hạn tối thiểu và tối đa của bộ truyện không thể cùng.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStripLegend" xml:space="preserve">
+    <value>Không thể đặt dải truyền thuyết, vì truyền thuyết đã chỉ rõ không chứa trong các bảng xếp hạng bộ sưu tập của huyền thoại.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStripLimitAxisValue" xml:space="preserve">
+    <value>The AxisValue bất động sản không thể được thiết lập để trống cho đối tượng StripLimit.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStripMaxLimit" xml:space="preserve">
+    <value>Giới hạn tối đa của dải cần phải lớn hơn giới hạn min.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectStripMinLimit" xml:space="preserve">
+    <value>Giới hạn min của dải nên là ít hơn mức giới hạn tối đa.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSubtotalBarColorPropertyUsing" xml:space="preserve">
+    <value>Không thể đặt thuộc tính SubtotalBarColor trừ khi dòng được thêm vào bộ sưu tập của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectSummaryFunction" xml:space="preserve">
+    <value>Chuỗi quy định chức năng tóm tắt là trong một định dạng sai.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTaskLinkMinIndent" xml:space="preserve">
+    <value>Liên kết công việc tối thiểu thụt lề phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTextAnnotationAngle" xml:space="preserve">
+    <value>Góc chú thích nên được lớn hơn hoặc bằng-360 và nhỏ hơn hoặc bằng 360.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTickmarkLength" xml:space="preserve">
+    <value>Chiều dài tickmark cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTickmarkMinorLength" xml:space="preserve">
+    <value>Độ dài của tickmark nhỏ cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTickmarkMinorThickness" xml:space="preserve">
+    <value>Độ dày của tickmark nhỏ cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTickmarkThickness" xml:space="preserve">
+    <value>Độ dày tickmark cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTimeSpanGridAlignment" xml:space="preserve">
+    <value>The GridAlignment bất động sản phải lớn hơn hoặc bằng hiện tại đơn vị đo lường</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTimeSpanGridAlignmentPropertyUsing" xml:space="preserve">
+    <value>Không thể sửa đổi thuộc tính GridAlignment trong chế độ quy mô khoảng thời gian tự động.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTimeSpanMeasureUnitMultiplierPropertyUsing" xml:space="preserve">
+    <value>Thuộc tính MeasureUnitMultiplier không thể sửa đổi ở cả chế độ quy mô khoảng thời gian tự động và liên tục.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTimeSpanMeasureUnitMultiplierValue" xml:space="preserve">
+    <value>Các MeasureUnitMultiplier bất động sản giá trị cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTimeSpanMeasureUnitPropertyUsing" xml:space="preserve">
+    <value>Thuộc tính MeasureUnit không thể sửa đổi ở cả chế độ quy mô khoảng thời gian tự động và liên tục.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTimeSpanRangeControlClientSpacing" xml:space="preserve">
+    <value>Không thể đặt thuộc tính {0} thành không phải là số nguyên cho quy mô khoảng thời gian.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectToolTipPosition" xml:space="preserve">
+    <value>Công cụ Mẹo vị trí không thể được null.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTopNCount" xml:space="preserve">
+    <value>Đầu N giá trị tính cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTopNThresholdPercent" xml:space="preserve">
+    <value>Phần trăm ngưỡng đầu N cần phải lớn hơn 0 và nhỏ hơn hoặc bằng 100.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTopNThresholdValue" xml:space="preserve">
+    <value>Giá trị ngưỡng đầu N cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTotalBarColorPropertyUsing" xml:space="preserve">
+    <value>Không thể đặt thuộc tính TotalBarColor trừ khi dòng được thêm vào bộ sưu tập của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTotalLabelIndent" xml:space="preserve">
+    <value>Tất cả nhãn thụt đầu dòng phải lớn hơn hoặc bằng 0 và nhỏ hơn 1000.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTransformationMatrix" xml:space="preserve">
+    <value>Ma trận biến đổi không chính xác.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectTurnsNumber" xml:space="preserve">
+    <value>Giá trị phải lớn hơn 0. Giá trị của PositiveInfinity là không được phép.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectUseImageUrlProperty" xml:space="preserve">
+    <value>ImageUrl bất động sản có thể được sử dụng cho chỉ WebChartControl. Xin vui lòng, sử dụng tài sản hình ảnh thay thế.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectValueDataMemberCount" xml:space="preserve">
+    <value>Nó là cần thiết để xác định {0} giá trị dữ liệu thành viên cho quan điểm loạt hiện nay.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectValueLevel" xml:space="preserve">
+    <value>{0} ValueLevel là không hợp lệ cho dòng hiện tại của hồi quy.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectValueOptionsPropertyUsing" xml:space="preserve">
+    <value>Không thể đặt hoặc lấy thuộc tính ValueOptions trừ khi chuỗi được thêm vào bộ sưu tập của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectVerticalScrollPercent" xml:space="preserve">
+    <value>Phần trăm di chuyển dọc nên được lớn hơn hoặc bằng với-{0} và nhỏ hơn hoặc bằng {0}.</value>
+  </data>
+  <data name="ChartStringId.MsgIncorrectZoomPercent" xml:space="preserve">
+    <value>Phần trăm zoom cần phải lớn hơn 0 và nhỏ hơn hoặc bằng {0}.</value>
+  </data>
+  <data name="ChartStringId.MsgInitializeChartNotFound" xml:space="preserve">
+    <value>The ChartControl không tìm thấy, hoặc có là một số bảng xếp hạng về kiểm soát này. Để giải quyết vấn đề, bạn nên xử lý sự kiện WizardPage.InitializePage và chỉ định thủ công bảng.</value>
+  </data>
+  <data name="ChartStringId.MsgInternalPropertyChangeError" xml:space="preserve">
+    <value>Tài sản này được thiết kế để chỉ sử dụng nội bộ. Bạn không được phép thay đổi giá trị của nó.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidCenterAxisAlignment" xml:space="preserve">
+    <value>Liên kết không được đặt thành Alignment. Center cho trục phụ.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidDataSource" xml:space="preserve">
+    <value>Loại datasource không hợp lệ (không có giao diện được hỗ trợ được thực hiện).</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidEdge1" xml:space="preserve">
+    <value>Edge1 giá trị không thể được null.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidEdge2" xml:space="preserve">
+    <value>Edge2 giá trị không thể được null.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidExplodedModeAdd" xml:space="preserve">
+    <value>Vì quan điểm loạt Pie hiện nay sẽ hiển thị dòng tạo ra bằng cách sử dụng một loạt các mẫu, điểm loạt đã chỉ định không thể được thêm vào bộ sưu tập của điểm phát nổ. Bạn cần phải sử dụng chế độ phát nổ khác thay thế.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidExplodedModeRemove" xml:space="preserve">
+    <value>Vì quan điểm loạt Pie hiện nay sẽ hiển thị dòng tạo ra bằng cách sử dụng một loạt các mẫu, điểm loạt được chỉ định không thể được gỡ bỏ từ bộ sưu tập của điểm phát nổ. Bạn cần phải sử dụng chế độ phát nổ khác thay thế.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidExplodedSeriesPoint" xml:space="preserve">
+    <value>Đã chỉ ra hàng loạt điểm không thuộc về bộ sưu tập hiện tại Pie loạt xem loạt điểm, và vì vậy nó không thể được thêm vào bộ sưu tập của điểm phát nổ.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidFilterCondition" xml:space="preserve">
+    <value>Điều kiện {0} không được áp dụng cho dữ liệu "{1}".</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidGradientMode" xml:space="preserve">
+    <value>PolygonGradientMode này không tương thích với AreaSeriesView.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidMaxCount" xml:space="preserve">
+    <value>Tối đa count cần phải lớn hơn 0.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidPaletteName" xml:space="preserve">
+    <value>Không thể thêm một bảng màu mà có một tên rỗng ("") cho kho lưu trữ bảng màu. Xin vui lòng chỉ rõ tên cho bảng.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidPaneSizeInPixels" xml:space="preserve">
+    <value>Kích thước của ô theo điểm ảnh nên được lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidScaleType" xml:space="preserve">
+    <value>Giá trị chỉ định để chuyển đổi để đại diện nội bộ của quy mô không tương thích với loại quy mô hiện thời.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidSizeInPixels" xml:space="preserve">
+    <value>Kích thước trong điểm ảnh nên được lớn hơn hoặc bằng -1 và ít hơn 50.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidSortingKey" xml:space="preserve">
+    <value>Không thể thiết lập giá trị của key sắp xếp để {0}.</value>
+  </data>
+  <data name="ChartStringId.MsgInvalidZeroAxisAlignment" xml:space="preserve">
+    <value>The chỉnh không thể được thiết lập để Alignment.Zero cho các trục trung học.</value>
+  </data>
+  <data name="ChartStringId.MsgItemNotInCollection" xml:space="preserve">
+    <value>Bộ sưu tập không chứa mục đã chỉ định.</value>
+  </data>
+  <data name="ChartStringId.MsgLabelSettingRuntimeError" xml:space="preserve">
+    <value>Bất động sản "Nhãn" không thể được thiết lập tại thời gian chạy.</value>
+  </data>
+  <data name="ChartStringId.MsgLastPointSettingRuntimeError" xml:space="preserve">
+    <value>Thuộc tính "LastPoint" không thể đặt tại thời gian chạy.</value>
+  </data>
+  <data name="ChartStringId.MsgLegendPointOptionsSettingRuntimeError" xml:space="preserve">
+    <value>Bất động sản "LegendPointOptions" không thể được thiết lập tại thời gian chạy.</value>
+  </data>
+  <data name="ChartStringId.MsgMeasureUnitCanNotBeSetForAxisY" xml:space="preserve">
+    <value>Bất động sản các MeasureUnit không thể thiết lập cho các trục Y.</value>
+  </data>
+  <data name="ChartStringId.MsgMeasureUnitMultiplierCanNotBeSetForAxisY" xml:space="preserve">
+    <value>Bất động sản MeasureUnitMultiplier không thể thiết lập cho các trục Y.</value>
+  </data>
+  <data name="ChartStringId.MsgMinMaxDifferentTypes" xml:space="preserve">
+    <value>Các loại MinValue và MaxValue không phù hợp.</value>
+  </data>
+  <data name="ChartStringId.MsgNotBelongingChart" xml:space="preserve">
+    <value>Điều khiển này không chứa biểu đồ được chỉ định.</value>
+  </data>
+  <data name="ChartStringId.MsgNotChartControl" xml:space="preserve">
+    <value>Đối tượng đã chỉ định không phải là một ChartControl.</value>
+  </data>
+  <data name="ChartStringId.MsgNullAnchorPointSeriesPoint" xml:space="preserve">
+    <value>Loạt các điểm không thể thiết lập để không cho các đối tượng SeriesPointAnchorPoint.</value>
+  </data>
+  <data name="ChartStringId.MsgNullAxisXCoordinateAxis" xml:space="preserve">
+    <value>Trục không thể được thiết lập để trống cho đối tượng AxisXCoordinate.</value>
+  </data>
+  <data name="ChartStringId.MsgNullAxisYCoordinateAxis" xml:space="preserve">
+    <value>Trục không thể được thiết lập để trống cho đối tượng AxisYCoordinate.</value>
+  </data>
+  <data name="ChartStringId.MsgNullFinancialIndicatorArgument" xml:space="preserve">
+    <value>Là đối số của các chỉ số tài chính điểm không thể được thiết lập để null.</value>
+  </data>
+  <data name="ChartStringId.MsgNullPaneAnchorPointPane" xml:space="preserve">
+    <value>Ngăn không thể được thiết lập để trống cho đối tượng PaneAnchorPoint.</value>
+  </data>
+  <data name="ChartStringId.MsgNullProperty" xml:space="preserve">
+    <value>Bất động sản {0} đã không thể được null.</value>
+  </data>
+  <data name="ChartStringId.MsgNullSeriesViewAxisX" xml:space="preserve">
+    <value>Loạt các trục x của xem không thể được thiết lập để null.</value>
+  </data>
+  <data name="ChartStringId.MsgNullSeriesViewAxisY" xml:space="preserve">
+    <value>Loạt các trục y của xem không thể được thiết lập để null.</value>
+  </data>
+  <data name="ChartStringId.MsgNullSeriesViewPane" xml:space="preserve">
+    <value>Xem loạt ngăn không thể được thiết lập để null.</value>
+  </data>
+  <data name="ChartStringId.MsgOrderArrayLengthMismatch" xml:space="preserve">
+    <value>Độ dài của mảng thứ tự không phải là tương đương với tổng số yếu tố đăng ký.</value>
+  </data>
+  <data name="ChartStringId.MsgOrderRepeatedElementFound" xml:space="preserve">
+    <value>Các yếu tố tương tự được lặp lại nhiều lần trong thứ tự mảng.</value>
+  </data>
+  <data name="ChartStringId.MsgOrderUnregisteredElementFound" xml:space="preserve">
+    <value>Nguyên tố chưa được tìm thấy.</value>
+  </data>
+  <data name="ChartStringId.MsgOutOfRangeIndexInSeriesPointCollection" xml:space="preserve">
+    <value>Chỉ số đã ra khỏi phạm vi. Phải không âm và ít hơn so với kích thước của các bộ sưu tập.</value>
+  </data>
+  <data name="ChartStringId.MsgPaletteEditorInvalidFile" xml:space="preserve">
+    <value>Một tập tin bảng biểu đồ không hợp lệ</value>
+  </data>
+  <data name="ChartStringId.MsgPaletteEditorTitle" xml:space="preserve">
+    <value>Trình soạn thảo bảng</value>
+  </data>
+  <data name="ChartStringId.MsgPaletteNotFound" xml:space="preserve">
+    <value>Bảng xếp hạng không chứa một bảng với tên {0}.</value>
+  </data>
+  <data name="ChartStringId.MsgPivotGridDataSourceOptionsNotSupportedProperty" xml:space="preserve">
+    <value>Các PivotGridDataSourceOptions.{0} tài sản có sẵn chỉ khi nguồn dữ liệu của bảng xếp hạng là PivotGrid một.</value>
+  </data>
+  <data name="ChartStringId.MsgPointOptionsSettingRuntimeError" xml:space="preserve">
+    <value>Bất động sản "PointOptions" không thể được thiết lập tại thời gian chạy.</value>
+  </data>
+  <data name="ChartStringId.MsgPolarAxisXGridSpacingChanged" xml:space="preserve">
+    <value>Khoảng cách lưới của một trục x cực không thể thay đổi.</value>
+  </data>
+  <data name="ChartStringId.MsgPolarAxisXRangeChanged" xml:space="preserve">
+    <value>Phạm vi của một trục x cực không thể thay đổi.</value>
+  </data>
+  <data name="ChartStringId.MsgProcessMissingPointsForContinuousScale" xml:space="preserve">
+    <value>The ProcessMissingPoints bất động sản không thể được xác định trong chế độ liên tục scale.</value>
+  </data>
+  <data name="ChartStringId.MsgProcessMissingPointsForValueAxis" xml:space="preserve">
+    <value>Các ProcessMissingPoints bất động sản hoạt động với quy mô trục x chỉ.</value>
+  </data>
+  <data name="ChartStringId.MsgRegisterPageInUnregisterGroup" xml:space="preserve">
+    <value>Trang không thể được đăng ký trong nhóm chưa</value>
+  </data>
+  <data name="ChartStringId.MsgRelationChildPointIDNotUnique" xml:space="preserve">
+    <value>Của mối quan hệ ChildPointID phải là duy nhất.</value>
+  </data>
+  <data name="ChartStringId.MsgSankeyEqualDataMembers" xml:space="preserve">
+    <value>The source and target data members must be different.</value>
+  </data>
+  <data name="ChartStringId.MsgSelfRelatedSeriesPoint" xml:space="preserve">
+    <value>Loạt điểm không thể có một mối quan hệ đến chính nó.</value>
+  </data>
+  <data name="ChartStringId.MsgSeriesPointIDNotUnique" xml:space="preserve">
+    <value>Loạt điểm ID phải là duy nhất.</value>
+  </data>
+  <data name="ChartStringId.MsgSeriesPointRelationAlreadyExists" xml:space="preserve">
+    <value>The SeriesPointRelations bộ sưu tập đã có mối quan hệ này.</value>
+  </data>
+  <data name="ChartStringId.MsgSeriesViewDoesNotExist" xml:space="preserve">
+    <value>{0} SeriesView không tồn tại.</value>
+  </data>
+  <data name="ChartStringId.MsgSeriesViewNotSupportRelations" xml:space="preserve">
+    <value>Loạt các quan điểm này không hỗ trợ mối quan hệ.</value>
+  </data>
+  <data name="ChartStringId.MsgSkipRangesWithoutPointsForContinuousScale" xml:space="preserve">
+    <value>Không thể chỉ định thuộc tính SkipRangesWithoutPoints ở chế độ cân liên tục.</value>
+  </data>
+  <data name="ChartStringId.MsgSkipRangesWithoutPointsForValueAxis" xml:space="preserve">
+    <value>Thuộc tính SkipRangesWithoutPoints hoạt động với quy mô trục X chỉ.</value>
+  </data>
+  <data name="ChartStringId.MsgSummaryFunctionIsNotRegistered" xml:space="preserve">
+    <value>Một chức năng tóm tắt với tên '{0}' không được đăng ký.</value>
+  </data>
+  <data name="ChartStringId.MsgSynchronizePointOptionsSettingRuntimeError" xml:space="preserve">
+    <value>Bất động sản "SynchronizePointOptions" không thể được thiết lập tại thời gian chạy.</value>
+  </data>
+  <data name="ChartStringId.MsgUnregisterGroupError" xml:space="preserve">
+    <value>Nhóm này đã chưa đăng ký.</value>
+  </data>
+  <data name="ChartStringId.MsgUnregisterPageError" xml:space="preserve">
+    <value>Sửa đổi đã chưa đăng ký.</value>
+  </data>
+  <data name="ChartStringId.MsgUnsupportedDateTimeScaleModeForGanttDiagram" xml:space="preserve">
+    <value>DateTimeScaleMode không được hỗ trợ cho GanttDiagram.</value>
+  </data>
+  <data name="ChartStringId.MsgUnsupportedDateTimeScaleModeWithScrollingZooming" xml:space="preserve">
+    <value>DateTimeScaleMode tự động không thể làm việc cùng với phóng to và cuộn.</value>
+  </data>
+  <data name="ChartStringId.MsgUnsupportedResolveOverlappingMode" xml:space="preserve">
+    <value>Chế độ chồng chéo đã chỉ định không được hỗ trợ bởi quan điểm loạt hiện nay.</value>
+  </data>
+  <data name="ChartStringId.MsgUnsupportedResolveOverlappingModeInStackedBarTotalLabel" xml:space="preserve">
+    <value>Các chế độ quy định chồng chéo không được hỗ trợ bởi thanh xếp chồng lên nhau tất cả các nhãn hiệu.</value>
+  </data>
+  <data name="ChartStringId.MsgUnsupportedTopNOptions" xml:space="preserve">
+    <value>TopNOptions không thể được kích hoạt cho loạt bài này, bởi vì ValueScaleType của nó không phải là số hoặc các điểm dữ liệu có giá trị hơn 1.</value>
+  </data>
+  <data name="ChartStringId.MsgUnsupportedValueLevel" xml:space="preserve">
+    <value>Mức giá trị {0} không được hỗ trợ bởi các {1}.</value>
+  </data>
+  <data name="ChartStringId.MsgUnsupportedWorkdaysForWorkdaysOptions" xml:space="preserve">
+    <value>Giá trị không không phải là chấp nhận được cho các workdays.  Sử dụng công việc ngày một tuần.</value>
+  </data>
+  <data name="ChartStringId.MsgValueMustBeGreaterThenZero" xml:space="preserve">
+    <value>Giá trị phải bằng hoặc lớn hơn sau đó 0.</value>
+  </data>
+  <data name="ChartStringId.MsgWebInvalidHeightUnit" xml:space="preserve">
+    <value>Chiều cao của bảng xếp hạng phải được đặt trong pixel.</value>
+  </data>
+  <data name="ChartStringId.MsgWebInvalidWidthUnit" xml:space="preserve">
+    <value>Bảng xếp hạng chiều rộng phải được thiết lập bằng pixel.</value>
+  </data>
+  <data name="ChartStringId.MsgWizardAbstractPageType" xml:space="preserve">
+    <value>{0} Là trừu tượng, và vì vậy một đối tượng của loại hình này không thể được instantiated và thêm vào như một trang wizard.</value>
+  </data>
+  <data name="ChartStringId.MsgWizardIncorrectBasePageType" xml:space="preserve">
+    <value>{0} Phải được thừa kế từ lớp học {1}</value>
+  </data>
+  <data name="ChartStringId.MsgWizardNonUniqueGroupName" xml:space="preserve">
+    <value>Nhóm với tên {0} đã được đăng ký.</value>
+  </data>
+  <data name="ChartStringId.MsgWizardNonUniquePageType" xml:space="preserve">
+    <value>Trang web của loại {0} đã được đăng ký. Bạn không thể thêm nhiều hơn một trang của một loại hình cụ thể.</value>
+  </data>
+  <data name="ChartStringId.OpenFileDialogAllFiles" xml:space="preserve">
+    <value>Tất cả các tệp</value>
+  </data>
+  <data name="ChartStringId.OpenFileDialogImageFiles" xml:space="preserve">
+    <value>Tệp hình ảnh</value>
+  </data>
+  <data name="ChartStringId.OpeningBracketPatternDescription" xml:space="preserve">
+    <value>Mở bracket</value>
+  </data>
+  <data name="ChartStringId.OpenValuePatternDescription" xml:space="preserve">
+    <value>Giá trị mở</value>
+  </data>
+  <data name="ChartStringId.OthersArgument" xml:space="preserve">
+    <value>Những người khác</value>
+  </data>
+  <data name="ChartStringId.OverflowSymbolPatternDescription" xml:space="preserve">
+    <value>Biểu tượng tràn</value>
+  </data>
+  <data name="ChartStringId.PatternEditorPreviewCaption" xml:space="preserve">
+    <value>Chọn một giữ chỗ để xem xem trước</value>
+  </data>
+  <data name="ChartStringId.PercentValuePatternDescription" xml:space="preserve">
+    <value>Phần trăm giá trị</value>
+  </data>
+  <data name="ChartStringId.PieIncorrectValuesText" xml:space="preserve">
+    <value>Dạng xem này không thể hiển thị âm
+giá trị. Tất cả các giá trị phải lớn hơn
+hoặc bằng 0.</value>
+  </data>
+  <data name="ChartStringId.PltApex" xml:space="preserve">
+    <value>Apex</value>
+  </data>
+  <data name="ChartStringId.PltAspect" xml:space="preserve">
+    <value>Khía cạnh</value>
+  </data>
+  <data name="ChartStringId.PltBlackAndWhite" xml:space="preserve">
+    <value>Màu đen và trắng</value>
+  </data>
+  <data name="ChartStringId.PltBlue" xml:space="preserve">
+    <value>Màu xanh</value>
+  </data>
+  <data name="ChartStringId.PltBlueGreen" xml:space="preserve">
+    <value>Màu xanh lá cây xanh</value>
+  </data>
+  <data name="ChartStringId.PltBlueII" xml:space="preserve">
+    <value>Màu xanh II</value>
+  </data>
+  <data name="ChartStringId.PltBlueWarm" xml:space="preserve">
+    <value>Ấm màu xanh</value>
+  </data>
+  <data name="ChartStringId.PltChameleon" xml:space="preserve">
+    <value>Tắc kè hoa</value>
+  </data>
+  <data name="ChartStringId.PltCivic" xml:space="preserve">
+    <value>Công dân</value>
+  </data>
+  <data name="ChartStringId.PltConcourse" xml:space="preserve">
+    <value>Phòng chờ</value>
+  </data>
+  <data name="ChartStringId.PltEquity" xml:space="preserve">
+    <value>Vốn chủ sở hữu</value>
+  </data>
+  <data name="ChartStringId.PltFlow" xml:space="preserve">
+    <value>Dòng chảy</value>
+  </data>
+  <data name="ChartStringId.PltFoundry" xml:space="preserve">
+    <value>Đúc</value>
+  </data>
+  <data name="ChartStringId.PltGrayscale" xml:space="preserve">
+    <value>Màu xám</value>
+  </data>
+  <data name="ChartStringId.PltGreen" xml:space="preserve">
+    <value>Màu xanh lá cây</value>
+  </data>
+  <data name="ChartStringId.PltGreenYellow" xml:space="preserve">
+    <value>Màu xanh lá cây vàng</value>
+  </data>
+  <data name="ChartStringId.PltInAFog" xml:space="preserve">
+    <value>Trong sương mù</value>
+  </data>
+  <data name="ChartStringId.PltMarquee" xml:space="preserve">
+    <value>Marquee</value>
+  </data>
+  <data name="ChartStringId.PltMedian" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="ChartStringId.PltMetro" xml:space="preserve">
+    <value>Tàu điện ngầm</value>
+  </data>
+  <data name="ChartStringId.PltMixed" xml:space="preserve">
+    <value>Hỗn hợp</value>
+  </data>
+  <data name="ChartStringId.PltModule" xml:space="preserve">
+    <value>Mô-đun</value>
+  </data>
+  <data name="ChartStringId.PltNatureColors" xml:space="preserve">
+    <value>Màu sắc thiên nhiên</value>
+  </data>
+  <data name="ChartStringId.PltNorthernLights" xml:space="preserve">
+    <value>Northern Lights</value>
+  </data>
+  <data name="ChartStringId.PltOffice" xml:space="preserve">
+    <value>Văn phòng</value>
+  </data>
+  <data name="ChartStringId.PltOffice2013" xml:space="preserve">
+    <value>Văn phòng năm 2013</value>
+  </data>
+  <data name="ChartStringId.PltOpulent" xml:space="preserve">
+    <value>Sang trọng</value>
+  </data>
+  <data name="ChartStringId.PltOrange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="ChartStringId.PltOrangeRed" xml:space="preserve">
+    <value>Cam đỏ</value>
+  </data>
+  <data name="ChartStringId.PltOriel" xml:space="preserve">
+    <value>Oriel</value>
+  </data>
+  <data name="ChartStringId.PltOrigin" xml:space="preserve">
+    <value>nguồn gốc</value>
+  </data>
+  <data name="ChartStringId.PltPastelKit" xml:space="preserve">
+    <value>Pastel Kit</value>
+  </data>
+  <data name="ChartStringId.PltRed" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="ChartStringId.PltRedOrange" xml:space="preserve">
+    <value>Màu đỏ da cam</value>
+  </data>
+  <data name="ChartStringId.PltRedViolet" xml:space="preserve">
+    <value>Màu đỏ tím</value>
+  </data>
+  <data name="ChartStringId.PltSlipstream" xml:space="preserve">
+    <value>Slipstream</value>
+  </data>
+  <data name="ChartStringId.PltSolstice" xml:space="preserve">
+    <value>Solstice</value>
+  </data>
+  <data name="ChartStringId.PltTechnic" xml:space="preserve">
+    <value>Kỹ thuật</value>
+  </data>
+  <data name="ChartStringId.PltTerracottaPie" xml:space="preserve">
+    <value>Terracotta Pie</value>
+  </data>
+  <data name="ChartStringId.PltTheTrees" xml:space="preserve">
+    <value>Cây</value>
+  </data>
+  <data name="ChartStringId.PltTrek" xml:space="preserve">
+    <value>Đi bộ</value>
+  </data>
+  <data name="ChartStringId.PltUrban" xml:space="preserve">
+    <value>Đô thị</value>
+  </data>
+  <data name="ChartStringId.PltVerve" xml:space="preserve">
+    <value>Verve</value>
+  </data>
+  <data name="ChartStringId.PltViolet" xml:space="preserve">
+    <value>Màu tím</value>
+  </data>
+  <data name="ChartStringId.PltVioletII" xml:space="preserve">
+    <value>Tím II</value>
+  </data>
+  <data name="ChartStringId.PltYellow" xml:space="preserve">
+    <value>Màu vàng</value>
+  </data>
+  <data name="ChartStringId.PltYellowOrange" xml:space="preserve">
+    <value>Màu vàng cam</value>
+  </data>
+  <data name="ChartStringId.PointHintPatternDescription" xml:space="preserve">
+    <value>Gợi ý</value>
+  </data>
+  <data name="ChartStringId.PrimaryAxisXName" xml:space="preserve">
+    <value>Chính AxisX</value>
+  </data>
+  <data name="ChartStringId.PrimaryAxisYName" xml:space="preserve">
+    <value>Chính AxisY</value>
+  </data>
+  <data name="ChartStringId.PrintSizeModeNone" xml:space="preserve">
+    <value>Không có (một biểu đồ được in với kích thước giống hệt nhau để mà
+Hiển thị trên các hình thức)</value>
+  </data>
+  <data name="ChartStringId.PrintSizeModeStretch" xml:space="preserve">
+    <value>căng (một biểu đồ kéo dài hoặc thu nhỏ để phù hợp với trang
+ngày mà nó được in)</value>
+  </data>
+  <data name="ChartStringId.PrintSizeModeZoom" xml:space="preserve">
+    <value>Zoom (một biểu đồ l╞░ß╗úng tương ứng (không có cắt),
+do đó, rằng nó tốt nhất phù hợp với trang mà trên đó nó được in)</value>
+  </data>
+  <data name="ChartStringId.PropertyGridCategory_Elements" xml:space="preserve">
+    <value>Yếu tố</value>
+  </data>
+  <data name="ChartStringId.QuarterFormat" xml:space="preserve">
+    <value>Q {0}</value>
+  </data>
+  <data name="ChartStringId.RibbonAnnotationsGroupCaption" xml:space="preserve">
+    <value>chú thích</value>
+  </data>
+  <data name="ChartStringId.RibbonConstantLinesGroupCaption" xml:space="preserve">
+    <value>Liên tục dòng</value>
+  </data>
+  <data name="ChartStringId.RibbonDesignerGroupCaption" xml:space="preserve">
+    <value>Nhà thiết kế</value>
+  </data>
+  <data name="ChartStringId.RibbonFinancialPageCaption" xml:space="preserve">
+    <value>Tùy chọn tài chính</value>
+  </data>
+  <data name="ChartStringId.RibbonFinancialSeriesGroupCaption" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="ChartStringId.RibbonOtherPageCaption" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="ChartStringId.RibbonPageCategoryCaption" xml:space="preserve">
+    <value>Bảng xếp hạng công cụ</value>
+  </data>
+  <data name="ChartStringId.RibbonPrintExportGroupCaption" xml:space="preserve">
+    <value>In và xuất khẩu</value>
+  </data>
+  <data name="ChartStringId.RibbonTemplatesGroupCaption" xml:space="preserve">
+    <value>Mẫu</value>
+  </data>
+  <data name="ChartStringId.RibbonTypesGroupCaption" xml:space="preserve">
+    <value>Loại biểu đồ</value>
+  </data>
+  <data name="ChartStringId.RibbonWizardGroupCaption" xml:space="preserve">
+    <value>Thuật sĩ</value>
+  </data>
+  <data name="ChartStringId.SankeyPrintSizeModeNone" xml:space="preserve">
+    <value>Không có (sơ đồ được in với kích thước giống hệt với sơ đồ đó
+hiển thị trên biểu mẫu)</value>
+  </data>
+  <data name="ChartStringId.SankeyPrintSizeModeStretch" xml:space="preserve">
+    <value>Kéo giãn (sơ đồ được kéo dài hoặc thu nhỏ để vừa với trang
+trên đó nó được in) Thu phóng</value>
+  </data>
+  <data name="ChartStringId.SankeyPrintSizeModeZoom" xml:space="preserve">
+    <value>(một sơ đồ được thay đổi kích thước tương ứng (không có cắt),
+để nó phù hợp nhất với trang mà</value>
+  </data>
+  <data name="ChartStringId.ScaleBreakPrefix" xml:space="preserve">
+    <value>Phá vỡ quy mô</value>
+  </data>
+  <data name="ChartStringId.ScaleTypeDateTime" xml:space="preserve">
+    <value>date-time</value>
+  </data>
+  <data name="ChartStringId.ScaleTypeNumerical" xml:space="preserve">
+    <value>Numeric</value>
+  </data>
+  <data name="ChartStringId.ScaleTypeQualitative" xml:space="preserve">
+    <value>qualitative</value>
+  </data>
+  <data name="ChartStringId.ScaleTypeTimeSpan" xml:space="preserve">
+    <value>thời gian-span</value>
+  </data>
+  <data name="ChartStringId.SecondaryAxisXPrefix" xml:space="preserve">
+    <value>Trung học AxisX</value>
+  </data>
+  <data name="ChartStringId.SecondaryAxisYPrefix" xml:space="preserve">
+    <value>Trung học AxisY</value>
+  </data>
+  <data name="ChartStringId.SeriesNamePatternDescription" xml:space="preserve">
+    <value>Series name</value>
+  </data>
+  <data name="ChartStringId.SmallSankeyDefaultText" xml:space="preserve">
+    <value>Increase the diagram's size,
+to view its layout.</value>
+  </data>
+  <data name="ChartStringId.StackedGroupPatternDescription" xml:space="preserve">
+    <value>Loạt nhóm</value>
+  </data>
+  <data name="ChartStringId.StringArray" xml:space="preserve">
+    <value>String Array Nút</value>
+  </data>
+  <data name="ChartStringId.StyleAllColors" xml:space="preserve">
+    <value>Tất cả màu sắc</value>
+  </data>
+  <data name="ChartStringId.StyleColorNumber" xml:space="preserve">
+    <value>Màu {0}</value>
+  </data>
+  <data name="ChartStringId.SvnArea" xml:space="preserve">
+    <value>Khu vực</value>
+  </data>
+  <data name="ChartStringId.SvnArea3D" xml:space="preserve">
+    <value>Khu vực 3D</value>
+  </data>
+  <data name="ChartStringId.SvnBoxPlot" xml:space="preserve">
+    <value>hộp Plot</value>
+  </data>
+  <data name="ChartStringId.SvnCandleStick" xml:space="preserve">
+    <value>Candle Stick</value>
+  </data>
+  <data name="ChartStringId.SvnDoughnut" xml:space="preserve">
+    <value>Chiếc bánh rán</value>
+  </data>
+  <data name="ChartStringId.SvnDoughnut3D" xml:space="preserve">
+    <value>Chiếc bánh rán 3D</value>
+  </data>
+  <data name="ChartStringId.SvnFullStackedArea" xml:space="preserve">
+    <value>Khu vực xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnFullStackedArea3D" xml:space="preserve">
+    <value>Khu vực 3D xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnFullStackedBar" xml:space="preserve">
+    <value>Bar xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnFullStackedBar3D" xml:space="preserve">
+    <value>Bar 3D xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnFullStackedLine" xml:space="preserve">
+    <value>Dòng xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnFullStackedLine3D" xml:space="preserve">
+    <value>Dòng 3D xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnFullStackedStepArea" xml:space="preserve">
+    <value>Khu vực bước chồng 100%</value>
+  </data>
+  <data name="ChartStringId.SvnFunnel" xml:space="preserve">
+    <value>Kênh</value>
+  </data>
+  <data name="ChartStringId.SvnFunnel3D" xml:space="preserve">
+    <value>Kênh 3D</value>
+  </data>
+  <data name="ChartStringId.SvnLine3D" xml:space="preserve">
+    <value>Dòng 3D</value>
+  </data>
+  <data name="ChartStringId.SvnManhattanBar" xml:space="preserve">
+    <value>Manhattan Bar</value>
+  </data>
+  <data name="ChartStringId.SvnNestedDoughnut" xml:space="preserve">
+    <value>Lồng nhau chiếc bánh rán</value>
+  </data>
+  <data name="ChartStringId.SvnOverlappedGantt" xml:space="preserve">
+    <value>Gantt</value>
+  </data>
+  <data name="ChartStringId.SvnOverlappedRangeBar" xml:space="preserve">
+    <value>Thanh phạm vi</value>
+  </data>
+  <data name="ChartStringId.SvnPie" xml:space="preserve">
+    <value>Chiếc bánh</value>
+  </data>
+  <data name="ChartStringId.SvnPie3D" xml:space="preserve">
+    <value>Pie 3D</value>
+  </data>
+  <data name="ChartStringId.SvnPolarArea" xml:space="preserve">
+    <value>Tích cực</value>
+  </data>
+  <data name="ChartStringId.SvnPolarLine" xml:space="preserve">
+    <value>Cực dòng</value>
+  </data>
+  <data name="ChartStringId.SvnPolarPoint" xml:space="preserve">
+    <value>Cực điểm</value>
+  </data>
+  <data name="ChartStringId.SvnPolarRangeArea" xml:space="preserve">
+    <value>Khu vực vùng cực nhiều</value>
+  </data>
+  <data name="ChartStringId.SvnRadarArea" xml:space="preserve">
+    <value>Radar tích</value>
+  </data>
+  <data name="ChartStringId.SvnRadarLine" xml:space="preserve">
+    <value>Radar dòng</value>
+  </data>
+  <data name="ChartStringId.SvnRadarPoint" xml:space="preserve">
+    <value>Radar điểm</value>
+  </data>
+  <data name="ChartStringId.SvnRadarRangeArea" xml:space="preserve">
+    <value>Radar tầm khu vực</value>
+  </data>
+  <data name="ChartStringId.SvnRangeArea" xml:space="preserve">
+    <value>Phạm vi khu vực</value>
+  </data>
+  <data name="ChartStringId.SvnRangeArea3D" xml:space="preserve">
+    <value>Phạm vi khu vực 3D</value>
+  </data>
+  <data name="ChartStringId.SvnScatterLine" xml:space="preserve">
+    <value>Scatter dòng</value>
+  </data>
+  <data name="ChartStringId.SvnScatterPolarLine" xml:space="preserve">
+    <value>Scatter cực khổ</value>
+  </data>
+  <data name="ChartStringId.SvnScatterRadarLine" xml:space="preserve">
+    <value>Scatter Radar dòng</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideBar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideBar3D" xml:space="preserve">
+    <value>Bar 3D</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideFullStackedBar" xml:space="preserve">
+    <value>Cạnh nhau Bar xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideFullStackedBar3D" xml:space="preserve">
+    <value>Side By Side Bar 3D xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideGantt" xml:space="preserve">
+    <value>Side By Side Gantt</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideRangeBar" xml:space="preserve">
+    <value>Bên cạnh phạm vi Bar</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideStackedBar" xml:space="preserve">
+    <value>Xếp chồng lên nhau Side By Side Bar</value>
+  </data>
+  <data name="ChartStringId.SvnSideBySideStackedBar3D" xml:space="preserve">
+    <value>Side By Side Bar 3D xếp chồng lên nhau</value>
+  </data>
+  <data name="ChartStringId.SvnSpline" xml:space="preserve">
+    <value>Spline</value>
+  </data>
+  <data name="ChartStringId.SvnSpline3D" xml:space="preserve">
+    <value>Spline 3D</value>
+  </data>
+  <data name="ChartStringId.SvnSpline3DArea" xml:space="preserve">
+    <value>Spline khu vực 3D</value>
+  </data>
+  <data name="ChartStringId.SvnSplineArea" xml:space="preserve">
+    <value>Spline lá</value>
+  </data>
+  <data name="ChartStringId.SvnSplineAreaFullStacked3D" xml:space="preserve">
+    <value>Spline tích 3D xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnSplineAreaStacked3D" xml:space="preserve">
+    <value>Spline tích 3D xếp chồng lên nhau</value>
+  </data>
+  <data name="ChartStringId.SvnSplineFullStackedArea" xml:space="preserve">
+    <value>Spline lá xếp chồng lên nhau 100%</value>
+  </data>
+  <data name="ChartStringId.SvnSplineStackedArea" xml:space="preserve">
+    <value>Spline lá xếp chồng lên nhau</value>
+  </data>
+  <data name="ChartStringId.SvnStackedArea" xml:space="preserve">
+    <value>Khu vực chồng</value>
+  </data>
+  <data name="ChartStringId.SvnStackedArea3D" xml:space="preserve">
+    <value>Khu vực 3D xếp chồng lên nhau</value>
+  </data>
+  <data name="ChartStringId.SvnStackedBar" xml:space="preserve">
+    <value>Xếp chồng lên nhau Bar</value>
+  </data>
+  <data name="ChartStringId.SvnStackedBar3D" xml:space="preserve">
+    <value>Bar 3D xếp chồng lên nhau</value>
+  </data>
+  <data name="ChartStringId.SvnStackedLine" xml:space="preserve">
+    <value>Xếp chồng lên nhau dòng</value>
+  </data>
+  <data name="ChartStringId.SvnStackedLine3D" xml:space="preserve">
+    <value>Dòng 3D xếp chồng lên nhau</value>
+  </data>
+  <data name="ChartStringId.SvnStackedStepArea" xml:space="preserve">
+    <value>Khu vực bước xếp chồng lên nhau</value>
+  </data>
+  <data name="ChartStringId.SvnStepArea" xml:space="preserve">
+    <value>Bước tích</value>
+  </data>
+  <data name="ChartStringId.SvnStepArea3D" xml:space="preserve">
+    <value>Bước tích 3D</value>
+  </data>
+  <data name="ChartStringId.SvnStepLine" xml:space="preserve">
+    <value>Bước dòng</value>
+  </data>
+  <data name="ChartStringId.SvnStepLine3D" xml:space="preserve">
+    <value>Bước dòng 3D</value>
+  </data>
+  <data name="ChartStringId.SvnStock" xml:space="preserve">
+    <value>Chứng khoán</value>
+  </data>
+  <data name="ChartStringId.SvnSwiftPlot" xml:space="preserve">
+    <value>Swift lô</value>
+  </data>
+  <data name="ChartStringId.SvnWaterfall" xml:space="preserve">
+    <value>Thác</value>
+  </data>
+  <data name="ChartStringId.TitleSummaryFunction" xml:space="preserve">
+    <value>Tóm tắt chức năng</value>
+  </data>
+  <data name="ChartStringId.ToolTipFreePosition" xml:space="preserve">
+    <value>Miễn phí vị trí</value>
+  </data>
+  <data name="ChartStringId.ToolTipMousePosition" xml:space="preserve">
+    <value>vị trí chuột</value>
+  </data>
+  <data name="ChartStringId.TrnAnnotationDeleted" xml:space="preserve">
+    <value>Chú thích xóa</value>
+  </data>
+  <data name="ChartStringId.TrnAxisVisibilityChanged" xml:space="preserve">
+    <value>Khả năng hiển thị trục thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnCalculatedFieldsChanged" xml:space="preserve">
+    <value>Trường tính toán thay</value>
+  </data>
+  <data name="ChartStringId.TrnChartTitleDeleted" xml:space="preserve">
+    <value>Tiêu đề biểu đồ xóa</value>
+  </data>
+  <data name="ChartStringId.TrnChartTitlesChanged" xml:space="preserve">
+    <value>Bảng xếp hạng tiêu đề thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnChartWizard" xml:space="preserve">
+    <value>Bảng xếp hạng thuật sĩ cài đặt áp dụng</value>
+  </data>
+  <data name="ChartStringId.TrnConstantLineDeleted" xml:space="preserve">
+    <value>Liên tục dòng xóa</value>
+  </data>
+  <data name="ChartStringId.TrnConstantLinesChanged" xml:space="preserve">
+    <value>Dòng liên tục thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnCustomAxisLabelChanged" xml:space="preserve">
+    <value>Custom trục nhãn thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnCustomLegendItemsChanged" xml:space="preserve">
+    <value>Huyền thoại tuỳ chỉnh mục thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnDataFiltersChanged" xml:space="preserve">
+    <value>DataFilters thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnExactWorkdaysChanged" xml:space="preserve">
+    <value>Workdays chính xác thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnExplodedPoints" xml:space="preserve">
+    <value>Phát nổ điểm thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnExplodedPointsFilters" xml:space="preserve">
+    <value>ExplodedPointsFilters thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnHolidaysChanged" xml:space="preserve">
+    <value>Ngày nghỉ thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnIndicatorDeleted" xml:space="preserve">
+    <value>Chỉ báo xóa</value>
+  </data>
+  <data name="ChartStringId.TrnIndicatorsChanged" xml:space="preserve">
+    <value>Chỉ số thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnIntervalChanged" xml:space="preserve">
+    <value>khoảng thời gian thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnLayoutDefinitionsChanged" xml:space="preserve">
+    <value>Thay đổi bố trí định nghĩa</value>
+  </data>
+  <data name="ChartStringId.TrnLegendPointOptionsReset" xml:space="preserve">
+    <value>LegendPointOptions đặt lại</value>
+  </data>
+  <data name="ChartStringId.TrnLegendsChanged" xml:space="preserve">
+    <value>Truyền thuyết đã thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnLoadLayout" xml:space="preserve">
+    <value>Cách bố trí bảng xếp hạng tải</value>
+  </data>
+  <data name="ChartStringId.TrnPalettesChanged" xml:space="preserve">
+    <value>Bảng thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnPaneDeleted" xml:space="preserve">
+    <value>Ngăn xoá</value>
+  </data>
+  <data name="ChartStringId.TrnSankeyLoadLayout" xml:space="preserve">
+    <value>Sankey diagram layout loaded</value>
+  </data>
+  <data name="ChartStringId.TrnScaleBreaksChanged" xml:space="preserve">
+    <value>Phá vỡ quy mô thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnSecondaryAxesXChanged" xml:space="preserve">
+    <value>Trung học trục X thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnSecondaryAxesYChanged" xml:space="preserve">
+    <value>Trung học trục Y thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnSecondaryAxisXDeleted" xml:space="preserve">
+    <value>Trung học trục X xóa</value>
+  </data>
+  <data name="ChartStringId.TrnSecondaryAxisYDeleted" xml:space="preserve">
+    <value>Trung học trục Y xóa</value>
+  </data>
+  <data name="ChartStringId.TrnSeriesChanged" xml:space="preserve">
+    <value>Loạt các thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnSeriesDeleted" xml:space="preserve">
+    <value>Loạt đã xóa</value>
+  </data>
+  <data name="ChartStringId.TrnSeriesTitleChanged" xml:space="preserve">
+    <value>Series tiêu đề thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnSeriesTitleDeleted" xml:space="preserve">
+    <value>Series tiêu đề đã xóa</value>
+  </data>
+  <data name="ChartStringId.TrnStripsChanged" xml:space="preserve">
+    <value>Dải thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnSummaryFunctionChanged" xml:space="preserve">
+    <value>Tóm tắt chức năng thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnViewTypeChanged" xml:space="preserve">
+    <value>Dạng xem thay đổi</value>
+  </data>
+  <data name="ChartStringId.TrnXYDiagramPanesChanged" xml:space="preserve">
+    <value>Tấm thay đổi</value>
+  </data>
+  <data name="ChartStringId.UnderflowSymbolPatternDescription" xml:space="preserve">
+    <value>Ký hiệu underflow</value>
+  </data>
+  <data name="ChartStringId.UnknownPatternPlaceholder" xml:space="preserve">
+    <value>Không rõ mẫu đặt chỗ</value>
+  </data>
+  <data name="ChartStringId.Value1PatternDescription" xml:space="preserve">
+    <value>Giá trị 1</value>
+  </data>
+  <data name="ChartStringId.ValueDurationDaysPatternDescription" xml:space="preserve">
+    <value>Thời hạn có giá trị (ngày)</value>
+  </data>
+  <data name="ChartStringId.ValueDurationHoursPatternDescription" xml:space="preserve">
+    <value>Giá trị thời gian (giờ)</value>
+  </data>
+  <data name="ChartStringId.ValueDurationMillisecondsPatternDescription" xml:space="preserve">
+    <value>Giá trị thời gian (mSecs)</value>
+  </data>
+  <data name="ChartStringId.ValueDurationMinutesPatternDescription" xml:space="preserve">
+    <value>Giá trị thời gian (phút)</value>
+  </data>
+  <data name="ChartStringId.ValueDurationPatternDescription" xml:space="preserve">
+    <value>Giá trị thời gian</value>
+  </data>
+  <data name="ChartStringId.ValueDurationSecondsPatternDescription" xml:space="preserve">
+    <value>Giá trị thời gian (giây)</value>
+  </data>
+  <data name="ChartStringId.VerbAboutDescription" xml:space="preserve">
+    <value>Xem thông tin cơ bản về XtraCharts.</value>
+  </data>
+  <data name="ChartStringId.VerbAllBars" xml:space="preserve">
+    <value>Tạo tất cả các quán bar</value>
+  </data>
+  <data name="ChartStringId.VerbAllBarsDescription" xml:space="preserve">
+    <value>Thêm hoặc khôi phục tất cả các trang/thanh công cụ.</value>
+  </data>
+  <data name="ChartStringId.VerbAnnotationsDescription" xml:space="preserve">
+    <value>Mở chỉnh sửa bộ sưu tập chú thích.</value>
+  </data>
+  <data name="ChartStringId.VerbBarManager" xml:space="preserve">
+    <value>Tạo BarManager</value>
+  </data>
+  <data name="ChartStringId.VerbBarManagerDescription" xml:space="preserve">
+    <value>Thêm một người quản lý thanh mới vào biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.VerbClearDataSource" xml:space="preserve">
+    <value>Xóa dữ liệu nguồn</value>
+  </data>
+  <data name="ChartStringId.VerbClearDataSourceDescription" xml:space="preserve">
+    <value>Rõ ràng của bảng xếp hạng datasource.</value>
+  </data>
+  <data name="ChartStringId.VerbCommonBars" xml:space="preserve">
+    <value>Tạo các thanh thông thường</value>
+  </data>
+  <data name="ChartStringId.VerbCommonBarsDescription" xml:space="preserve">
+    <value>Thêm hoặc khôi phục các trang/thanh công cụ phổ biến.</value>
+  </data>
+  <data name="ChartStringId.VerbDataSnapshot" xml:space="preserve">
+    <value>Dữ liệu ảnh chụp</value>
+  </data>
+  <data name="ChartStringId.VerbDataSnapshotDescription" xml:space="preserve">
+    <value>Sao chép tất cả các dữ liệu từ các datasource bị ràng buộc vào bảng xếp hạng, và sau đó unbind biểu.</value>
+  </data>
+  <data name="ChartStringId.VerbDesigner" xml:space="preserve">
+    <value>Chạy thiết kế...</value>
+  </data>
+  <data name="ChartStringId.VerbDesignerDescription" xml:space="preserve">
+    <value>Chạy thiết kế biểu đồ, cho phép các thuộc tính của biểu đồ phải được chỉnh sửa.</value>
+  </data>
+  <data name="ChartStringId.VerbEditPalettes" xml:space="preserve">
+    <value>Bảng...</value>
+  </data>
+  <data name="ChartStringId.VerbEditPalettesDescription" xml:space="preserve">
+    <value>Mở trình soạn thảo bảng.</value>
+  </data>
+  <data name="ChartStringId.VerbFinancialBars" xml:space="preserve">
+    <value>Tạo thanh tài chính</value>
+  </data>
+  <data name="ChartStringId.VerbFinancialBarsDescription" xml:space="preserve">
+    <value>Thêm hoặc khôi phục các trang tùy chọn tài chính/thanh công cụ.</value>
+  </data>
+  <data name="ChartStringId.VerbLoadLayoutDescription" xml:space="preserve">
+    <value>Tải một biểu đồ từ một tập tin XML.</value>
+  </data>
+  <data name="ChartStringId.VerbPopulate" xml:space="preserve">
+    <value>Cư trú</value>
+  </data>
+  <data name="ChartStringId.VerbPopulateDescription" xml:space="preserve">
+    <value>Cư của bảng xếp hạng datasource với dữ liệu.</value>
+  </data>
+  <data name="ChartStringId.VerbResetLegendPointOptions" xml:space="preserve">
+    <value>Thiết lập lại truyền thuyết điểm tùy chọn</value>
+  </data>
+  <data name="ChartStringId.VerbResetLegendPointOptionsDescription" xml:space="preserve">
+    <value>Trở lại các tùy chọn điểm huyền thoại của giá trị mặc định.</value>
+  </data>
+  <data name="ChartStringId.VerbRibbonDescription" xml:space="preserve">
+    <value>Thêm điều khiển ruy băng mới vào biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.VerbSankeyLoadLayoutDescription" xml:space="preserve">
+    <value>Load a sankey diagram from an XML file.</value>
+  </data>
+  <data name="ChartStringId.VerbSankeyPopulateDescription" xml:space="preserve">
+    <value>Populate the sankey diagram's datasource with data.</value>
+  </data>
+  <data name="ChartStringId.VerbSankeySaveLayoutDescription" xml:space="preserve">
+    <value>Save a sankey diagram to an XML file.</value>
+  </data>
+  <data name="ChartStringId.VerbSaveLayout" xml:space="preserve">
+    <value>Tiết kiệm...</value>
+  </data>
+  <data name="ChartStringId.VerbSaveLayoutDescription" xml:space="preserve">
+    <value>Tiết kiệm một bảng xếp hạng sang tệp XML.</value>
+  </data>
+  <data name="ChartStringId.VerbSeries" xml:space="preserve">
+    <value>Loạt...</value>
+  </data>
+  <data name="ChartStringId.VerbSeriesDescription" xml:space="preserve">
+    <value>Mở biên tập bộ sưu tập Series.</value>
+  </data>
+  <data name="ChartStringId.VerbWizard" xml:space="preserve">
+    <value>Chạy thuật sĩ...</value>
+  </data>
+  <data name="ChartStringId.VerbWizardDescription" xml:space="preserve">
+    <value>Chạy thuật sĩ biểu đồ, cho phép các thuộc tính của bảng xếp hạng phải được chỉnh sửa.</value>
+  </data>
+  <data name="ChartStringId.VisibilityInPanes" xml:space="preserve">
+    <value>Khả năng hiển thị trong tấm</value>
+  </data>
+  <data name="ChartStringId.WeightMember" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="ChartStringId.WeightPatternDescription" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="ChartStringId.WizAggregateFunctionFinancial" xml:space="preserve">
+    <value>Tài chính</value>
+  </data>
+  <data name="ChartStringId.WizAnchorPointChart" xml:space="preserve">
+    <value>Bảng xếp hạng</value>
+  </data>
+  <data name="ChartStringId.WizAnchorPointPane" xml:space="preserve">
+    <value>Ngăn</value>
+  </data>
+  <data name="ChartStringId.WizAnchorPointSeriesPoint" xml:space="preserve">
+    <value>Loạt điểm</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationConnectorStyleArrow" xml:space="preserve">
+    <value>Mũi tên</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationConnectorStyleNotchedArrow" xml:space="preserve">
+    <value>Notched mũi tên</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationConnectorStyleTail" xml:space="preserve">
+    <value>Đuôi</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationsPageDescription" xml:space="preserve">
+    <value>Tạo và tùy chỉnh chú thích neo vào một điểm biểu đồ, ngăn hoặc loạt.
+Lưu ý rằng bạn có thể chọn chú thích bằng cách nhấp vào nó trong xem trước bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.WizAnnotationsPageName" xml:space="preserve">
+    <value>chú thích</value>
+  </data>
+  <data name="ChartStringId.WizAppearancePageDescription" xml:space="preserve">
+    <value>chọn một bảng màu loạt hoặc dữ liệu của họ. Cũng chọn phong cách chỉ định của bảng xếp hạng xuất hiện tùy thuộc vào bảng màu hiện tại.</value>
+  </data>
+  <data name="ChartStringId.WizAutoCreatedSeries" xml:space="preserve">
+    <value>Tự động tạo ra loạt</value>
+  </data>
+  <data name="ChartStringId.WizAxesAlignmentZero" xml:space="preserve">
+    <value>Zero</value>
+  </data>
+  <data name="ChartStringId.WizAxesPageDescription" xml:space="preserve">
+    <value>Tuỳ X và Y trục của biểu đồ.
+Lưu ý rằng bạn có thể chọn một trục bằng cách nhấn vào nó trong xem trước bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.WizAxesPageName" xml:space="preserve">
+    <value>Trục</value>
+  </data>
+  <data name="ChartStringId.WizAxisLabelResolveOverlappingModeHideOverlapping" xml:space="preserve">
+    <value>HideOverlapping</value>
+  </data>
+  <data name="ChartStringId.WizBackImageFileNameFilter" xml:space="preserve">
+    <value>Hình ảnh Files(*.gif;*.jpg;*.jpeg;*.bmp;*.wmf;*.png) | * .gif; thẻ; *.jpeg; *.bmp; *.wmf; *. png|Tất cả files(*.*) | *. *</value>
+  </data>
+  <data name="ChartStringId.WizBar3DModelBox" xml:space="preserve">
+    <value>hộp</value>
+  </data>
+  <data name="ChartStringId.WizBar3DModelCone" xml:space="preserve">
+    <value>Nón</value>
+  </data>
+  <data name="ChartStringId.WizBar3DModelCylinder" xml:space="preserve">
+    <value>Xi lanh</value>
+  </data>
+  <data name="ChartStringId.WizBar3DModelPyramid" xml:space="preserve">
+    <value>Kim tự tháp</value>
+  </data>
+  <data name="ChartStringId.WizBarSeriesLabelPositionBottomInside" xml:space="preserve">
+    <value>Dưới cùng bên trong</value>
+  </data>
+  <data name="ChartStringId.WizBarSeriesLabelPositionTopInside" xml:space="preserve">
+    <value>Top bên trong</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelValueToDisplayValueAndWeight" xml:space="preserve">
+    <value>Giá trị và trọng lượng</value>
+  </data>
+  <data name="ChartStringId.WizBubbleLabelValueToDisplayWeight" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="ChartStringId.WizChartImageSizeModeAutoSize" xml:space="preserve">
+    <value>Kích thước tự động</value>
+  </data>
+  <data name="ChartStringId.WizChartImageSizeModeStretch" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="ChartStringId.WizChartImageSizeModeTile" xml:space="preserve">
+    <value>Gạch</value>
+  </data>
+  <data name="ChartStringId.WizChartPageDescription" xml:space="preserve">
+    <value>Tùy chỉnh thuộc tính của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.WizChartPageName" xml:space="preserve">
+    <value>Bảng xếp hạng</value>
+  </data>
+  <data name="ChartStringId.WizChartTitlesPageDescription" xml:space="preserve">
+    <value>Thêm tên sách vào biểu đồ của bạn, và tùy chỉnh các tùy chọn.</value>
+  </data>
+  <data name="ChartStringId.WizChartTitlesPageName" xml:space="preserve">
+    <value>Tiêu đề bảng xếp hạng</value>
+  </data>
+  <data name="ChartStringId.WizChartTypePageDescription" xml:space="preserve">
+    <value>Chọn một loại biểu đồ bạn muốn sử dụng. Để lọc các loại biểu đồ bởi nhóm của họ, sử dụng các giá trị trong hộp thả xuống.</value>
+  </data>
+  <data name="ChartStringId.WizChartTypePageName" xml:space="preserve">
+    <value>Loại biểu đồ</value>
+  </data>
+  <data name="ChartStringId.WizConstructionGroupName" xml:space="preserve">
+    <value>Xây dựng</value>
+  </data>
+  <data name="ChartStringId.WizDataFiltersEntered" xml:space="preserve">
+    <value>{0} dữ liệu filter(s)</value>
+  </data>
+  <data name="ChartStringId.WizDataPageDescription" xml:space="preserve">
+    <value>để nhập dữ liệu điểm bằng tay, sử dụng tab điểm. Hoặc, sử dụng các tab khác để chỉ rõ thiết đặt nguồn dữ liệu cho cá nhân hoặc tự động tạo ra loạt.</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitMillisecond" xml:space="preserve">
+    <value>Millisecond</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitQuarter" xml:space="preserve">
+    <value>Khu phố</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeMeasureUnitSecond" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeScaleModeAutomaticIntegral" xml:space="preserve">
+    <value>Tự động: không thể thiếu</value>
+  </data>
+  <data name="ChartStringId.WizDateTimeScaleModeManual" xml:space="preserve">
+    <value>hướng dẫn sử dụng</value>
+  </data>
+  <data name="ChartStringId.WizDiagramPageDescription" xml:space="preserve">
+    <value>Tùy chỉnh thuộc tính của biểu đồ.</value>
+  </data>
+  <data name="ChartStringId.WizDiagramPageName" xml:space="preserve">
+    <value>Sơ đồ</value>
+  </data>
+  <data name="ChartStringId.WizDockCornerLeftBottom" xml:space="preserve">
+    <value>Dưới cùng bên trái</value>
+  </data>
+  <data name="ChartStringId.WizDockCornerLeftTop" xml:space="preserve">
+    <value>Đầu trang trái</value>
+  </data>
+  <data name="ChartStringId.WizDockCornerRightBottom" xml:space="preserve">
+    <value>Dưới cùng bên phải</value>
+  </data>
+  <data name="ChartStringId.WizDockCornerRightTop" xml:space="preserve">
+    <value>Quyền-top</value>
+  </data>
+  <data name="ChartStringId.WizEnableScrollingFalse" xml:space="preserve">
+    <value>Sử di chuyển (sai)</value>
+  </data>
+  <data name="ChartStringId.WizEnableScrollingTrue" xml:space="preserve">
+    <value>Sử di chuyển (đúng)</value>
+  </data>
+  <data name="ChartStringId.WizEnableZoomingFalse" xml:space="preserve">
+    <value>Sử phóng to (sai)</value>
+  </data>
+  <data name="ChartStringId.WizEnableZoomingTrue" xml:space="preserve">
+    <value>Sử phóng to (đúng)</value>
+  </data>
+  <data name="ChartStringId.WizErrorMessageTitle" xml:space="preserve">
+    <value>Chart Wizard</value>
+  </data>
+  <data name="ChartStringId.WizFormTitle" xml:space="preserve">
+    <value>Chart Wizard</value>
+  </data>
+  <data name="ChartStringId.WizFunnelSeriesLabelPositionLeftColumn" xml:space="preserve">
+    <value>Left column</value>
+  </data>
+  <data name="ChartStringId.WizFunnelSeriesLabelPositionRightColumn" xml:space="preserve">
+    <value>Cột bên phải</value>
+  </data>
+  <data name="ChartStringId.WizGradientBottomLeftToTopRight" xml:space="preserve">
+    <value>BottomLeftToTopRight</value>
+  </data>
+  <data name="ChartStringId.WizGradientBottomRightToTopLeft" xml:space="preserve">
+    <value>BottomRightToTopLeft</value>
+  </data>
+  <data name="ChartStringId.WizGradientBottomToTop" xml:space="preserve">
+    <value>BottomToTop</value>
+  </data>
+  <data name="ChartStringId.WizGradientFromCenter" xml:space="preserve">
+    <value>FromCenter</value>
+  </data>
+  <data name="ChartStringId.WizGradientFromCenterHorizontal" xml:space="preserve">
+    <value>FromCenterHorizontal</value>
+  </data>
+  <data name="ChartStringId.WizGradientFromCenterVertical" xml:space="preserve">
+    <value>FromCenterVertical</value>
+  </data>
+  <data name="ChartStringId.WizGradientLeftToRight" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ChartStringId.WizGradientRightToLeft" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="ChartStringId.WizGradientToCenter" xml:space="preserve">
+    <value>ToCenter</value>
+  </data>
+  <data name="ChartStringId.WizGradientToCenterHorizontal" xml:space="preserve">
+    <value>ToCenterHorizontal</value>
+  </data>
+  <data name="ChartStringId.WizGradientToCenterVertical" xml:space="preserve">
+    <value>ToCenterVertical</value>
+  </data>
+  <data name="ChartStringId.WizGradientTopLeftToBottomRight" xml:space="preserve">
+    <value>TopLeftToBottomRight</value>
+  </data>
+  <data name="ChartStringId.WizGradientTopRightToBottomLeft" xml:space="preserve">
+    <value>TopRightToBottomLeft</value>
+  </data>
+  <data name="ChartStringId.WizGradientTopToBottom" xml:space="preserve">
+    <value>TopToBottom</value>
+  </data>
+  <data name="ChartStringId.WizHatchBackwardDiagonal" xml:space="preserve">
+    <value>BackwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchDarkDownwardDiagonal" xml:space="preserve">
+    <value>DarkDownwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchDarkHorizontal" xml:space="preserve">
+    <value>DarkHorizontal</value>
+  </data>
+  <data name="ChartStringId.WizHatchDarkUpwardDiagonal" xml:space="preserve">
+    <value>DarkUpwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchDarkVertical" xml:space="preserve">
+    <value>DarkVertical</value>
+  </data>
+  <data name="ChartStringId.WizHatchDashedDownwardDiagonal" xml:space="preserve">
+    <value>DashedDownwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchDashedHorizontal" xml:space="preserve">
+    <value>DashedHorizontal</value>
+  </data>
+  <data name="ChartStringId.WizHatchDashedUpwardDiagonal" xml:space="preserve">
+    <value>DashedUpwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchDashedVertical" xml:space="preserve">
+    <value>DashedVertical</value>
+  </data>
+  <data name="ChartStringId.WizHatchDiagonalBrick" xml:space="preserve">
+    <value>DiagonalBrick</value>
+  </data>
+  <data name="ChartStringId.WizHatchDiagonalCross" xml:space="preserve">
+    <value>DiagonalCross</value>
+  </data>
+  <data name="ChartStringId.WizHatchDivot" xml:space="preserve">
+    <value>Divot</value>
+  </data>
+  <data name="ChartStringId.WizHatchDottedDiamond" xml:space="preserve">
+    <value>DottedDiamond</value>
+  </data>
+  <data name="ChartStringId.WizHatchDottedGrid" xml:space="preserve">
+    <value>DottedGrid</value>
+  </data>
+  <data name="ChartStringId.WizHatchForwardDiagonal" xml:space="preserve">
+    <value>ForwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchHorizontalBrick" xml:space="preserve">
+    <value>HorizontalBrick</value>
+  </data>
+  <data name="ChartStringId.WizHatchLargeCheckerBoard" xml:space="preserve">
+    <value>LargeCheckerBoard</value>
+  </data>
+  <data name="ChartStringId.WizHatchLargeConfetti" xml:space="preserve">
+    <value>LargeConfetti</value>
+  </data>
+  <data name="ChartStringId.WizHatchLargeGrid" xml:space="preserve">
+    <value>LargeGrid</value>
+  </data>
+  <data name="ChartStringId.WizHatchLightDownwardDiagonal" xml:space="preserve">
+    <value>LightDownwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchLightHorizontal" xml:space="preserve">
+    <value>LightHorizontal</value>
+  </data>
+  <data name="ChartStringId.WizHatchLightUpwardDiagonal" xml:space="preserve">
+    <value>LightUpwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchLightVertical" xml:space="preserve">
+    <value>LightVertical</value>
+  </data>
+  <data name="ChartStringId.WizHatchNarrowHorizontal" xml:space="preserve">
+    <value>NarrowHorizontal</value>
+  </data>
+  <data name="ChartStringId.WizHatchNarrowVertical" xml:space="preserve">
+    <value>NarrowVertical</value>
+  </data>
+  <data name="ChartStringId.WizHatchOutlinedDiamond" xml:space="preserve">
+    <value>OutlinedDiamond</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent05" xml:space="preserve">
+    <value>Percent05</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent10" xml:space="preserve">
+    <value>Percent10</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent20" xml:space="preserve">
+    <value>Percent20</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent25" xml:space="preserve">
+    <value>Percent25</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent30" xml:space="preserve">
+    <value>Percent30</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent40" xml:space="preserve">
+    <value>Percent40</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent50" xml:space="preserve">
+    <value>Percent50</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent60" xml:space="preserve">
+    <value>Percent60</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent70" xml:space="preserve">
+    <value>Percent70</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent75" xml:space="preserve">
+    <value>Percent75</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent80" xml:space="preserve">
+    <value>Percent80</value>
+  </data>
+  <data name="ChartStringId.WizHatchPercent90" xml:space="preserve">
+    <value>Percent90</value>
+  </data>
+  <data name="ChartStringId.WizHatchPlaid" xml:space="preserve">
+    <value>Plaid</value>
+  </data>
+  <data name="ChartStringId.WizHatchShingle" xml:space="preserve">
+    <value>Shingle</value>
+  </data>
+  <data name="ChartStringId.WizHatchSmallCheckerBoard" xml:space="preserve">
+    <value>SmallCheckerBoard</value>
+  </data>
+  <data name="ChartStringId.WizHatchSmallConfetti" xml:space="preserve">
+    <value>SmallConfetti</value>
+  </data>
+  <data name="ChartStringId.WizHatchSmallGrid" xml:space="preserve">
+    <value>SmallGrid</value>
+  </data>
+  <data name="ChartStringId.WizHatchSolidDiamond" xml:space="preserve">
+    <value>SolidDiamond</value>
+  </data>
+  <data name="ChartStringId.WizHatchSphere" xml:space="preserve">
+    <value>Lĩnh vực</value>
+  </data>
+  <data name="ChartStringId.WizHatchTrellis" xml:space="preserve">
+    <value>Ngoài trời</value>
+  </data>
+  <data name="ChartStringId.WizHatchWave" xml:space="preserve">
+    <value>Làn sóng</value>
+  </data>
+  <data name="ChartStringId.WizHatchWeave" xml:space="preserve">
+    <value>Dệt</value>
+  </data>
+  <data name="ChartStringId.WizHatchWideDownwardDiagonal" xml:space="preserve">
+    <value>WideDownwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchWideUpwardDiagonal" xml:space="preserve">
+    <value>WideUpwardDiagonal</value>
+  </data>
+  <data name="ChartStringId.WizHatchZigZag" xml:space="preserve">
+    <value>ZigZag</value>
+  </data>
+  <data name="ChartStringId.WizIndentUndefined" xml:space="preserve">
+    <value>Không xác định</value>
+  </data>
+  <data name="ChartStringId.WizInvalidBackgroundImage" xml:space="preserve">
+    <value>Tệp đã chỉ định không phải là một tập tin hình ảnh chính xác. Hãy chọn một.</value>
+  </data>
+  <data name="ChartStringId.WizLegendPageDescription" xml:space="preserve">
+    <value>Tùy chỉnh thuộc tính của truyền thuyết.</value>
+  </data>
+  <data name="ChartStringId.WizLegendPageName" xml:space="preserve">
+    <value>Truyền thuyết</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitOnes" xml:space="preserve">
+    <value>Những người</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitTens" xml:space="preserve">
+    <value>Hàng chục</value>
+  </data>
+  <data name="ChartStringId.WizNumericMeasureUnitThousands" xml:space="preserve">
+    <value>Hàng ngàn</value>
+  </data>
+  <data name="ChartStringId.WizPanesPageDescription" xml:space="preserve">
+    <value>tùy chỉnh biểu đồ.
+Lưu ý rằng bạn có thể chọn một khung bằng cách nhấp vào nó trong xem trước bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.WizPanesPageName" xml:space="preserve">
+    <value>Tấm</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionRadial" xml:space="preserve">
+    <value>Bố trí hình tròn</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionTangent" xml:space="preserve">
+    <value>Ốp</value>
+  </data>
+  <data name="ChartStringId.WizPieSeriesLabelPositionTwoColumns" xml:space="preserve">
+    <value>Hai cột</value>
+  </data>
+  <data name="ChartStringId.WizPivotGridDataSourcePageName" xml:space="preserve">
+    <value>Pivot lưới Datasource</value>
+  </data>
+  <data name="ChartStringId.WizPositionLeftColumn" xml:space="preserve">
+    <value>LeftColumn</value>
+  </data>
+  <data name="ChartStringId.WizPositionRightColumn" xml:space="preserve">
+    <value>RightColumn</value>
+  </data>
+  <data name="ChartStringId.WizPresentationGroupName" xml:space="preserve">
+    <value>Trình bày</value>
+  </data>
+  <data name="ChartStringId.WizResolveOverlappingModeHideOverlapping" xml:space="preserve">
+    <value>HideOverlapping</value>
+  </data>
+  <data name="ChartStringId.WizResolveOverlappingModeJustifyAllAroundPoints" xml:space="preserve">
+    <value>JustifyAllAroundPoints</value>
+  </data>
+  <data name="ChartStringId.WizResolveOverlappingModeJustifyAroundPoint" xml:space="preserve">
+    <value>JustifyAroundPoint</value>
+  </data>
+  <data name="ChartStringId.WizScaleBreakStyleRagged" xml:space="preserve">
+    <value>Nát</value>
+  </data>
+  <data name="ChartStringId.WizScaleBreakStyleStraight" xml:space="preserve">
+    <value>Thẳng</value>
+  </data>
+  <data name="ChartStringId.WizScaleBreakStyleWaved" xml:space="preserve">
+    <value>Vẫy</value>
+  </data>
+  <data name="ChartStringId.WizScaleModeManual" xml:space="preserve">
+    <value>hướng dẫn sử dụng</value>
+  </data>
+  <data name="ChartStringId.WizSeriesDataBindingPageName" xml:space="preserve">
+    <value>Loạt ràng buộc</value>
+  </data>
+  <data name="ChartStringId.WizSeriesLabelsPageDescription" xml:space="preserve">
+    <value>Tuỳ điểm nhãn của một loạt.
+Lưu ý rằng bạn có thể chọn nhãn của một loạt bằng cách nhấp vào chúng trong xem trước bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.WizSeriesLabelsPageName" xml:space="preserve">
+    <value>Điểm nhãn</value>
+  </data>
+  <data name="ChartStringId.WizSeriesLabelTextOrientationBottomToTop" xml:space="preserve">
+    <value>BottomToTop</value>
+  </data>
+  <data name="ChartStringId.WizSeriesLabelTextOrientationTopToBottom" xml:space="preserve">
+    <value>TopToBottom</value>
+  </data>
+  <data name="ChartStringId.WizSeriesPageDescription" xml:space="preserve">
+    <value>Tạo ra loạt, và điều chỉnh tài sản chung của họ.
+Lưu ý rằng loại xem loạt có thể nhìn thấy đầu tiên xác định loại biểu đồ và thiết lập của nó cụ thể tùy chọn.</value>
+  </data>
+  <data name="ChartStringId.WizSeriesPageName" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="ChartStringId.WizSeriesViewPageDescription" xml:space="preserve">
+    <value>Tuỳ xem loại cụ thể các tùy chọn của một loạt.
+Lưu ý rằng bạn có thể chọn một loạt bằng cách nhấp vào nó trong xem trước bảng xếp hạng.</value>
+  </data>
+  <data name="ChartStringId.WizSeriesViewPageName" xml:space="preserve">
+    <value>Xem phim</value>
+  </data>
+  <data name="ChartStringId.WizShapeKindEllipse" xml:space="preserve">
+    <value>Hình elip</value>
+  </data>
+  <data name="ChartStringId.WizShapeKindRoundedRectangle" xml:space="preserve">
+    <value>Làm tròn hình chữ nhật</value>
+  </data>
+  <data name="ChartStringId.WizShapePositionKindFree" xml:space="preserve">
+    <value>Miễn phí</value>
+  </data>
+  <data name="ChartStringId.WizShapePositionKindRelative" xml:space="preserve">
+    <value>Tương đối</value>
+  </data>
+  <data name="ChartStringId.WizSpecifyDataFilters" xml:space="preserve">
+    <value>Nhấp vào nút ellipsis...</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelBoxPlotMax" xml:space="preserve">
+    <value>Box Plot Max</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelBoxPlotMean" xml:space="preserve">
+    <value>Box Plot Mean</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelBoxPlotMedian" xml:space="preserve">
+    <value>Box Plot Median</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelBoxPlotMin" xml:space="preserve">
+    <value>Box Plot min</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelBoxPlotQuartile1" xml:space="preserve">
+    <value>Box Plot quartile 1</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelBoxPlotQuartile3" xml:space="preserve">
+    <value>Box Plot quartile 3</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelValue_1" xml:space="preserve">
+    <value>Value_1</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelValue_2" xml:space="preserve">
+    <value>Value_2</value>
+  </data>
+  <data name="ChartStringId.WizValueLevelWeight" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="ChartStringId.Workday" xml:space="preserve">
+    <value>Ngày làm việc</value>
+  </data>
+</root>

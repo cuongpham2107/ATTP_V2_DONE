@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="FileDL_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="FileDL">
+              <LayoutGroup Id="FileDL_col1" RelativeSize="49.95801847187238">
+                <LayoutItem Id="File" RelativeSize="5.167173252279635" />
+                <LayoutItem Id="Mota" RelativeSize="3.6474164133738602" />
+                <LayoutItem Id="NgayTao" RelativeSize="3.6474164133738602" />
+                <LayoutItem Id="ThamDinh" RelativeSize="87.53799392097264" />
+              </LayoutGroup>
+              <LayoutGroup Id="FileDL_col2" RelativeSize="50.04198152812762">
+                <LayoutItem Id="GiayChungNhan" RelativeSize="5.167173252279635" />
+                <LayoutItem Id="ThuHoiGCN" RelativeSize="3.6474164133738602" />
+                <LayoutItem Id="XuPhatHanhChinh" RelativeSize="91.1854103343465" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="XuPhatHanhChinh_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="XuPhatHanhChinh">
+                <LayoutGroup Id="XuPhatHanhChinh_col1">
+                  <LayoutItem Id="LoaiHinhCoSo" ViewItem="LoaiHinhCoSo" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

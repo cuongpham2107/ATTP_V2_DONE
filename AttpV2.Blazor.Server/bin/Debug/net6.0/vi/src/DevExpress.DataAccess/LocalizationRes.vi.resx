@@ -1,0 +1,886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataAccessStringId.DefaultNameDataSource" xml:space="preserve">
+    <value>Nguồn Dữ liệu</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridBehaviorCategoryName" xml:space="preserve">
+    <value>Hành vi</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridDataCategoryName" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Parameters" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Columns" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Text" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="DataAccessStringId.ParameterListEmpty" xml:space="preserve">
+    <value>Không có</value>
+  </data>
+  <data name="DataAccessStringId.MessageWrongCharacterParameterName" xml:space="preserve">
+    <value>Tên tham số ' {0}' chứa các ký tự sai</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamNullValidationException" xml:space="preserve">
+    <value>Một tham số không thể được null.</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Custom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Functions" xml:space="preserve">
+    <value>Hàm</value>
+  </data>
+  <data name="DataAccessStringId.MessageNonexistentColumn" xml:space="preserve">
+    <value>Cột '{0}'.' {1}' không tồn tại.</value>
+  </data>
+  <data name="DataAccessStringId.MessageNonexistentQuery" xml:space="preserve">
+    <value>Truy vấn '{0}' không tồn tại.</value>
+  </data>
+  <data name="DataAccessStringId.ParameterlessConstructor" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="DataAccessStringId.ParameterListNull" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilder_AllTables" xml:space="preserve">
+    <value>(Tất cả bảng)</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridTableSelectionCategoryName" xml:space="preserve">
+    <value>Lựa chọn bảng</value>
+  </data>
+  <data name="DataAccessStringId.SqlExecutionException_WithParameters" xml:space="preserve">
+    <value>với tham số: {0} {1}</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamCountValidationException" xml:space="preserve">
+    <value>Tham số đếm mismatch: &lt; {0} &gt; &lt; {1} &gt; dự kiến sẽ.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamNameValidationException" xml:space="preserve">
+    <value>Tham số tên mismatch: &lt; {0} &gt; &lt; {1} &gt; dự kiến sẽ.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamTypeValidationException" xml:space="preserve">
+    <value>Tham số loại mismatch: &lt; {0} &gt; &lt; {1} &gt; dự kiến sẽ.</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_QueryCategory" xml:space="preserve">
+    <value>Truy vấn</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_TableCategory" xml:space="preserve">
+    <value>Bảng</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionPropertiesPage_ProviderNotSupported" xml:space="preserve">
+    <value>đã bị loại bỏ bởi vì các nhà cung cấp {0} không được hỗ trợ. 
+Chọn một trong những nhà cung cấp dữ liệu sẵn có và chỉ định tham số kết nối hoặc đóng thuật sĩ bằng cách sử dụng nút đóng để hoàn tác các thay đổi này.</value>
+  </data>
+  <data name="DataAccessStringId.DefaultNameParameter" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Parameters_Tooltip" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_InvalidColumn" xml:space="preserve">
+    <value>Cột không hợp lệ: '{0}'.</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_InvalidCustomFunction" xml:space="preserve">
+    <value>Chức năng không hợp lệ: '{0}'.</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_InvalidParameter" xml:space="preserve">
+    <value>Tham số không hợp lệ: '{0}'.</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridConnectionCategoryName" xml:space="preserve">
+    <value>Kết nối</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_AllFormats" xml:space="preserve">
+    <value>Tất cả các định dạng hỗ trợ</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotOpenDatabase" xml:space="preserve">
+    <value>Không thể mở cơ sở dữ liệu.</value>
+  </data>
+  <data name="DataAccessStringId.Type_Object" xml:space="preserve">
+    <value>Đối tượng</value>
+  </data>
+  <data name="DataAccessStringId.Type_SByte" xml:space="preserve">
+    <value>Số (số nguyên 8 bit)</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Comma" xml:space="preserve">
+    <value>Dấu phẩy</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Semicolon" xml:space="preserve">
+    <value>Dấu chấm phẩy</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Aggregate" xml:space="preserve">
+    <value>Tổng hợp</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Constants" xml:space="preserve">
+    <value>Hằng số</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Math" xml:space="preserve">
+    <value>Toán học</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_NotSupportedAggregateFunction" xml:space="preserve">
+    <value>Chức năng tổng hợp sau đây không được hỗ trợ: '{0}'.</value>
+  </data>
+  <data name="DataAccessStringId.QueryDesignerJoinExpressionElementSeparator" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilder_AllColumns" xml:space="preserve">
+    <value>* (Tất cả các cột)</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionAborted_ExceptionMessage" xml:space="preserve">
+    <value>Kết nối đã bị hủy bỏ.</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_Caption" xml:space="preserve">
+    <value>Trình soạn thảo Biểu thức</value>
+  </data>
+  <data name="DataAccessStringId.LoadingPanelText" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridCommonCategoryName" xml:space="preserve">
+    <value>Phổ biến</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridDesignCategoryName" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="DataAccessStringId.AggregateQueryInvalidSortingValidationException" xml:space="preserve">
+    <value>Không hợp lệ sắp xếp cột "{0}"." {1}". Kết quả của một TableQuery có chức năng tổng hợp chỉ có thể được sắp xếp theo cột được sử dụng như là nhóm tiêu chí.</value>
+  </data>
+  <data name="DataAccessStringId.AggregationWithoutAliasValidationException" xml:space="preserve">
+    <value>Một cột tổng hợp nên có một bí danh.</value>
+  </data>
+  <data name="DataAccessStringId.CircularRelationsValidationException" xml:space="preserve">
+    <value>Tròn quan hệ đã được phát hiện.</value>
+  </data>
+  <data name="DataAccessStringId.ColumnNotInSchemaValidationException" xml:space="preserve">
+    <value>Giản đồ không chứa các cột sau: "{0}". " {1}".</value>
+  </data>
+  <data name="DataAccessStringId.ColumnNullValidationException" xml:space="preserve">
+    <value>Một cột không thể được null.</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_SpCategory" xml:space="preserve">
+    <value>Lưu trữ thủ tục</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_ValidateRelationError" xml:space="preserve">
+    <value>Một hoặc nhiều quan hệ là không hợp lệ. 
+Để tìm hiểu về các chi tiết lỗi, hãy nhấp vào quản lý quan hệ.</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_ViewCategory" xml:space="preserve">
+    <value>Số lần xem</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureQueryPage_CustomSqlWillBeLost" xml:space="preserve">
+    <value>Hướng dẫn sử dụng chỉnh sửa của SQL tùy chỉnh là không được phép. Các truy vấn hiện tại được đại diện bởi một tuỳ chỉnh SQL query string, nó sẽ bị mất nếu bạn tiến hành chỉnh sửa các truy vấn bằng cách sử dụng hộp thoại bộ dựng truy vấn. 
+
+Bạn có muốn loại bỏ SQL tùy chỉnh và tiến hành xây dựng truy vấn không?</value>
+  </data>
+  <data name="DataAccessStringId.ConnectingToDatabaseCaption" xml:space="preserve">
+    <value>Xin vui lòng chờ đợi</value>
+  </data>
+  <data name="DataAccessStringId.ConnectingToDatabaseMessage" xml:space="preserve">
+    <value>Đang kết nối vào cơ sở dữ liệu...</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionNotSpecified_ExceptionMessage" xml:space="preserve">
+    <value>Không có kết nối đã được chỉ rõ.</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionStringPostfixAppConfig" xml:space="preserve">
+    <value>(trong tập tin cấu hình)</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionStringPostfixServerExplorer" xml:space="preserve">
+    <value>(từ nhà thám hiểm máy chủ)</value>
+  </data>
+  <data name="DataAccessStringId.CustomExpressionWithAmbiguousColumnValidationException" xml:space="preserve">
+    <value>Tên cột [{0}] được sử dụng trong các biểu hiện tùy chỉnh không phải là duy nhất. Cột với tên này tồn tại trong bảng sau: {1}.</value>
+  </data>
+  <data name="DataAccessStringId.CustomExpressionWithColumnOfMissingTableValidationException" xml:space="preserve">
+    <value>Không có không có bảng chứa các cột [{0}] được sử dụng trong các biểu hiện tùy chỉnh.</value>
+  </data>
+  <data name="DataAccessStringId.CustomExpressionWithMissingInSchemaColumnValidationException" xml:space="preserve">
+    <value>Cột [{0}]. [{1}] được sử dụng trong các biểu hiện tùy chỉnh, nhưng nó là mất tích trong DBSchema.</value>
+  </data>
+  <data name="DataAccessStringId.CustomExpressionWithMissingParameterValidationException" xml:space="preserve">
+    <value>Tham số [{0}] được sử dụng trong các biểu hiện tùy chỉnh, nhưng là thiếu trong truy vấn.</value>
+  </data>
+  <data name="DataAccessStringId.CustomSqlQueryValidationException" xml:space="preserve">
+    <value>Một truy vấn SQL tùy chỉnh nên chứa chỉ chọn phát biểu.</value>
+  </data>
+  <data name="DataAccessStringId.DatabaseConnectionExceptionMessage" xml:space="preserve">
+    <value>Tên kết nối: {0}
+ Thông báo lỗi:
+{1}</value>
+  </data>
+  <data name="DataAccessStringId.DatabaseConnectionExceptionStringId" xml:space="preserve">
+    <value>Không thể kết nối với cơ sở dữ liệu. Để tìm hiểu thêm, hãy xem chi tiết ngoại lệ. 
+
+Ngoại lệ chi tiết:
+ {0}</value>
+  </data>
+  <data name="DataAccessStringId.DataSourceFillExceptionMessage" xml:space="preserve">
+    <value>Không thể nạp dữ liệu. Tham khảo chi tiết ngoại lệ để biết thêm thông tin. 
+
+Chi tiết ngoại lệ:
+ {0}</value>
+  </data>
+  <data name="DataAccessStringId.DuplicatingColumnNamesValidationException" xml:space="preserve">
+    <value>Một cột với cái tên đã tồn tại: "{0}". " {1}".</value>
+  </data>
+  <data name="DataAccessStringId.DuplicatingTableNamesValidationException" xml:space="preserve">
+    <value>Một bảng với tên sau đây đã tồn tại: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.EFFilterControl_EmptyFilterString" xml:space="preserve">
+    <value>Một chuỗi các bộ lọc có thể không được trống.</value>
+  </data>
+  <data name="DataAccessStringId.EmptyColumnAliasPattern" xml:space="preserve">
+    <value>Cột {0}</value>
+  </data>
+  <data name="DataAccessStringId.ExcelDataSource_FileNotFoundMessage" xml:space="preserve">
+    <value>{0}
+Không tìm thấy tệp.
+Kiểm tra tên tệp và thử lại.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelDataSource_SchemaLoadingText" xml:space="preserve">
+    <value>Lược đồ tải...</value>
+  </data>
+  <data name="DataAccessStringId.ExcelDataSource_WorksheetIndexNotFoundMessage" xml:space="preserve">
+    <value>Không tìm thấy {0} tính.
+Kiểm tra chỉ mục trang tính và thử lại.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelDataSource_WorksheetNotFoundMessage" xml:space="preserve">
+    <value>{0}
+Không tìm thấy trang tính.
+Kiểm tra tên trang tính và thử lại.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_EncryptionTypeNotSupported" xml:space="preserve">
+    <value>Không thể mở được các tập tin được bảo vệ.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_PasswordRequired" xml:space="preserve">
+    <value>Một mật khẩu cần thiết để mở bảng tính này.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_WrongPassword" xml:space="preserve">
+    <value>Mật khẩu là không đúng. Xin vui lòng thử lại.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelInvalidFileException_BIFF5Format" xml:space="preserve">
+    <value>BIFF5 (Excel 5.0/95) XLS tập tin định dạng không được hỗ trợ.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelInvalidFileException_CorruptedFile" xml:space="preserve">
+    <value>Các tập tin bị hỏng.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelInvalidFileException_WrongFormat" xml:space="preserve">
+    <value>Sai định dạng tập tin</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_ColumnDescriptionFormat" xml:space="preserve">
+    <value>Loại: {0}</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Columns_Tooltip" xml:space="preserve">
+    <value>column</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Constants_Tooltip" xml:space="preserve">
+    <value>liên tục</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Functions_Tooltip" xml:space="preserve">
+    <value>Chức năng</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Operators" xml:space="preserve">
+    <value>Quốc gia sử dụng</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Operators_Tooltip" xml:space="preserve">
+    <value>Nhà điều hành</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_EmptyExpression" xml:space="preserve">
+    <value>Biểu thức chuỗi không thể rỗng.</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_DateTime" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Logical" xml:space="preserve">
+    <value>logical</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_InvalidExpression" xml:space="preserve">
+    <value>Biểu hiện không hợp lệ.</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionNullValidationException" xml:space="preserve">
+    <value>Một biểu thức không thể được null, cột hoặc tùy chỉnh biểu dự kiến sẽ.</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionStringNullValidationException" xml:space="preserve">
+    <value>Một chuỗi biểu thức không thể được null</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ColumnNotExistInTableValidationErrorMessage" xml:space="preserve">
+    <value>Bảng [{0}] không chứa cột [{1}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ColumnTableNotExistValidationErrorMessage" xml:space="preserve">
+    <value>Cột [{0}]. [{1}] không tồn tại trong nguồn dữ liệu.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ConditionAmbiguousColumnNameValidationErrorMessage" xml:space="preserve">
+    <value>Tên cột [{0}] không phải là duy nhất. Tên cột giống nhau tồn tại trong các bảng: {1}. điều kiện: [{2}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ConditionColumnMissingInTableValidationErrorMessage" xml:space="preserve">
+    <value>Cột [{0}]. [{1}] không tồn tại trong bảng [{0}]. Điều kiện: [{2}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ConditionColumnNotExistValidationErrorMessage" xml:space="preserve">
+    <value>Cột [{0}] không tồn tại trong nguồn dữ liệu. Điều kiện: [{1}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_DuplicatedExpressionNamesValidationErrorMessage" xml:space="preserve">
+    <value>Node {0} chứa các biểu thức với tên thực của nhân đôi: {1}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_DuplicateSourceNameErrorMessage" xml:space="preserve">
+    <value>Một nguồn có tên đã chỉ định đã tồn tại: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_EmptySourceNameErrorMessage" xml:space="preserve">
+    <value>Tên nguồn không thể trống.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ExpressionAmbiguousColumnNameValidationErrorMessage" xml:space="preserve">
+    <value>Tên cột [{0}] không phải là duy nhất. Tên cột giống nhau tồn tại trong các bảng: {1}. Expression: [{2}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ExpressionColumnMissingInTableValidationErrorMessage" xml:space="preserve">
+    <value>Cột [{0}]. [{1}] không tồn tại trong bảng [{0}]. Biểu thức: [{2}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ExpressionColumnNotExistValidationErrorMessage" xml:space="preserve">
+    <value>Cột [{0}] không tồn tại trong nguồn dữ liệu. Biểu thức: [{1}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_ExpressionNodeNullValidationErrorMessage" xml:space="preserve">
+    <value>Node chứa một biểu thức không được liên kết đến một node: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_FilterAmbiguousColumnNameValidationErrorMessage" xml:space="preserve">
+    <value>Tên cột [{0}] không phải là duy nhất. Tên cột giống nhau tồn tại trong các bảng: {1}. chuỗi bộ lọc: [{2}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_FilterColumnMissingInTableValidationErrorMessage" xml:space="preserve">
+    <value>Cột [{0}]. [{1}] không tồn tại trong bảng [{0}]. Chuỗi lọc: [{2}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_FilterColumnNotExistValidationErrorMessage" xml:space="preserve">
+    <value>Cột [{0}] không tồn tại trong nguồn dữ liệu. Chuỗi lọc: [{1}].</value>
+  </data>
+  <data name="DataAccessStringId.Federation_NestedFederatedDataSourceErrorMessage" xml:space="preserve">
+    <value>Nguồn dữ liệu liên kết không được sử dụng như một nguồn dữ liệu cho một nguồn dữ liệu</value>
+  </data>
+  <data name="DataAccessStringId.Federation_NodeExpressionNameNullValidationErrorMessage" xml:space="preserve">
+    <value>Node chứa một biểu thức không tên: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_NodeIsNotUniqueValidationErrorMessage" xml:space="preserve">
+    <value>nút không cho phép trùng lặp: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_NodeWithoutExpressionValidationErrorMessage" xml:space="preserve">
+    <value>Node không có biểu thức: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_RootNullValidationErrorMessage" xml:space="preserve">
+    <value>Tham chiếu gốc không được khởi tạo: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_SourceNullValidationErrorMessage" xml:space="preserve">
+    <value>Nguồn tham chiếu không được khởi tạo: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_TransformationDuplicatedColumnNamesValidationErrorMessage" xml:space="preserve">
+    <value>lặp: {1}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_TransformationNodeWithoutRuleValidationErrorMessage" xml:space="preserve">
+    <value>Transformation node without rule: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_UnionWithDifferentColumnTypesErrorMessage" xml:space="preserve">
+    <value>Nút liên {0}: cột liên quan phải có loại tương tự: {1}. {2}, {3}. {4}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_UnionWithDifferentNumberOfColumnsErrorMessage" xml:space="preserve">
+    <value>{0} nút liên minh: các phần tử phải có cùng số cột: {1}, {2}.</value>
+  </data>
+  <data name="DataAccessStringId.Federation_UnionWithNoElementsValidationErrorMessage" xml:space="preserve">
+    <value>Nút liên minh không chứa phần tử: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_CSV" xml:space="preserve">
+    <value>Csv files</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_Excel" xml:space="preserve">
+    <value>Sổ làm việc Excel</value>
+  </data>
+  <data name="DataAccessStringId.FilterByAmbiguousColumnValidationException" xml:space="preserve">
+    <value>Tên cột [{0}] được sử dụng trong các chuỗi lọc không phải là duy nhất. Cột với tên này tồn tại trong bảng sau: {1}.</value>
+  </data>
+  <data name="DataAccessStringId.FilterByColumnOfMissingTableValidationException" xml:space="preserve">
+    <value>Không có không có bảng chứa các cột [{0}] được sử dụng trong bộ lọc chuỗi.</value>
+  </data>
+  <data name="DataAccessStringId.FilterByMissingInSchemaColumnValidationException" xml:space="preserve">
+    <value>Cột [{0}]. [{1}] được sử dụng trong bộ lọc chuỗi, nhưng nó là mất tích trong DBSchema.</value>
+  </data>
+  <data name="DataAccessStringId.FilterByMissingParameterValidationException" xml:space="preserve">
+    <value>Tham số [{0}] được sử dụng trong bộ lọc chuỗi, nhưng là thiếu trong truy vấn.</value>
+  </data>
+  <data name="DataAccessStringId.FilterEditor_TreeCreationError" xml:space="preserve">
+    <value>Không thể tạo ra một cây cho cụm từ này</value>
+  </data>
+  <data name="DataAccessStringId.GatheringTypesPanelText" xml:space="preserve">
+    <value>Thu thập các loại thông tin...</value>
+  </data>
+  <data name="DataAccessStringId.GroupByAggregateColumnValidationException" xml:space="preserve">
+    <value>Không thể nhóm theo một cột tổng hợp: "{0}". " {1}".</value>
+  </data>
+  <data name="DataAccessStringId.GroupByWithoutAggregateValidationException" xml:space="preserve">
+    <value>Nhóm đòi hỏi ít nhất một cột tổng hợp.</value>
+  </data>
+  <data name="DataAccessStringId.GroupFilterStringEditorNoGroups" xml:space="preserve">
+    <value>Nhóm bộ lọc không được áp dụng cho dữ liệu không được nhóm lại. Xin vui lòng áp dụng dữ liệu nhóm đầu tiên.</value>
+  </data>
+  <data name="DataAccessStringId.GroupNullValidationException" xml:space="preserve">
+    <value>Một tiêu chí phân nhóm không thể được null.</value>
+  </data>
+  <data name="DataAccessStringId.HavingWithoutGroupByValidationException" xml:space="preserve">
+    <value>Nhóm các tiêu chí lọc được xác định trong khi dữ liệu không được xếp vào nhóm. Xin vui lòng áp dụng dữ liệu nhóm hoặc loại bỏ nhóm các tiêu chí lọc trên tab Nhóm bộ lọc trong hộp thoại Filter Editor.</value>
+  </data>
+  <data name="DataAccessStringId.IncompleteRelationValidationException" xml:space="preserve">
+    <value>Mối quan hệ được chỉ định là không đầy đủ: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.IntegerDivisionValidationMessage" xml:space="preserve">
+    <value>Xin lưu ý: công cụ biểu thức này loại bỏ các phân số trong các hoạt động của bộ phận số nguyên. Để trả về các giá trị thập phân (Floating-Point Division), sử dụng Tothập phân (), ToDouble () hoặc ToFloat () cho biểu thức của bạn. Ví dụ, Tothập phân (10)/4 sẽ trở lại 2,5 trong khi 10/4 sẽ trở lại 2.</value>
+  </data>
+  <data name="DataAccessStringId.InvalidExpressionStringValidationException" xml:space="preserve">
+    <value>Không thể phân tích chuỗi biểu thức sau đây: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.InvalidPortErrorMessage" xml:space="preserve">
+    <value>không hợp lệ. Một số hiệu cổng nên từ 0 đến 65535 inclusive.</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataPanelText" xml:space="preserve">
+    <value>Tải dữ liệu...</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataSourcePanelCounter" xml:space="preserve">
+    <value>{0} of {1}...</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataSourcePanelText" xml:space="preserve">
+    <value>Tải nguồn dữ liệu</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotCreateSelectStatement" xml:space="preserve">
+    <value>Chọn tạo ra tuyên bố đã thất bại.</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotLoadCustomAssembly" xml:space="preserve">
+    <value>Không thể tải lắp ráp {0} cho bối cảnh {1}. Hãy chọn một hội bên ngoài hiện có và/hoặc hiện có bối cảnh.</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotRebuildSchema" xml:space="preserve">
+    <value>Lỗi xảy ra trong khi xây dựng lại một lược đồ nguồn dữ liệu.</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateItem" xml:space="preserve">
+    <value>Các bộ sưu tập đã có ' {0}' mục</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateItemName" xml:space="preserve">
+    <value>Bộ sưu tập này đã có một mục có tên ' {0}'</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateQueryName" xml:space="preserve">
+    <value>Đã có một truy vấn với tên định sẵn: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.MessageEmptyQueryName" xml:space="preserve">
+    <value>Truy vấn tên không thể rỗng.</value>
+  </data>
+  <data name="DataAccessStringId.MessageInvalidItemName" xml:space="preserve">
+    <value>Tên khoản mục không thể là null hoặc một chuỗi rỗng</value>
+  </data>
+  <data name="DataAccessStringId.MessageNullItem" xml:space="preserve">
+    <value>Không thể thêm một giá trị bằng không cho bộ sưu tập</value>
+  </data>
+  <data name="DataAccessStringId.MessageWrongCharacterItemName" xml:space="preserve">
+    <value>Tên khoản mục ' {0}' chứa các ký tự sai</value>
+  </data>
+  <data name="DataAccessStringId.MongoDB_DuplicateQueryNameMessage" xml:space="preserve">
+    <value>Đã có một truy vấn với tên định sẵn: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.MongoDB_InvalidCollectionName" xml:space="preserve">
+    <value>Tên bộ sưu tập không hợp lệ: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.MongoDB_InvalidDatabaseName" xml:space="preserve">
+    <value>Tên cơ sở dữ liệu không hợp lệ: '{0}'.</value>
+  </data>
+  <data name="DataAccessStringId.MongoDB_NoQueriesMessage" xml:space="preserve">
+    <value>Không có truy vấn.</value>
+  </data>
+  <data name="DataAccessStringId.MongoDB_QueryExecutionException" xml:space="preserve">
+    <value>kiếm {0} đã không thực hiện.</value>
+  </data>
+  <data name="DataAccessStringId.NegativeTopSkipValidationException" xml:space="preserve">
+    <value>Đầu trang và bỏ qua các thuộc tính nên là số nguyên không âm.</value>
+  </data>
+  <data name="DataAccessStringId.NoColumnsValidationException" xml:space="preserve">
+    <value>Không ai trong số các bảng chứa các cột nào.</value>
+  </data>
+  <data name="DataAccessStringId.NoRelationColumnsValidationException" xml:space="preserve">
+    <value>cột không được chỉ định cho mối quan hệ: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.NoTablesValidationException" xml:space="preserve">
+    <value>Bộ sưu tập của các bảng không thể rỗng.</value>
+  </data>
+  <data name="DataAccessStringId.NoXpoProviderStringId" xml:space="preserve">
+    <value>Kết nối chuỗi có chứa không có phím XpoProvider hoặc phím xác định là không hợp lệ. 
+
+Ngoại lệ chi tiết:
+ {0}</value>
+  </data>
+  <data name="DataAccessStringId.ObjectDataSourceLoadingWarningMessage" xml:space="preserve">
+    <value>Tải nguồn dữ liệu tham chiếu trong tập tin này có thể làm hại máy tính của bạn. Tệp này nhận được từ một nguồn đáng tin cậy?
+
+Nhấp vào 'Có' để tải nội dung nguồn dữ liệu như là.
+Bấm 'Không' để tải chỉ nội dung nguồn dữ liệu đáng tin cậy.</value>
+  </data>
+  <data name="DataAccessStringId.ObjectDataSourceWizard_CannotGetPropertiesForThisMethodReturnType" xml:space="preserve">
+    <value>Không thể có được tài sản đối với loại trở lại bằng phương pháp này.</value>
+  </data>
+  <data name="DataAccessStringId.ObjectDataSourceWizard_CannotGetTypeProperties" xml:space="preserve">
+    <value>Không thể có được tài sản đối với loại.</value>
+  </data>
+  <data name="DataAccessStringId.ODSErrorMissingMember" xml:space="preserve">
+    <value>Thành viên dữ liệu '{0}' không tồn tại.</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorExceptionInCtor" xml:space="preserve">
+    <value>Các nhà xây dựng mặc định của một thực hiện ITypedList đã ném một ngoại lệ.</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorExceptionInGetItemProperties" xml:space="preserve">
+    <value>The GetItemProperties phương pháp của một ITypedList đã ném một ngoại lệ.</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorNoDefaultCtor" xml:space="preserve">
+    <value>Không thể có được tài sản hàng từ IListSource mà không có mặc định nhà xây dựng.</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorStaticValue" xml:space="preserve">
+    <value>Loại là tĩnh và không có bất kỳ thành viên nào trở lại IEnumerable.</value>
+  </data>
+  <data name="DataAccessStringId.PartialAggregationValidationException" xml:space="preserve">
+    <value>Một số cột trong danh sách chọn là không hợp lệ vì họ không được chứa trong một chức năng tổng hợp hoặc hoặc mệnh đề Group By. Áp dụng tập hợp/nhóm để tất cả các cột hoặc để không ai trong số họ.</value>
+  </data>
+  <data name="DataAccessStringId.PositiveIntegerError" xml:space="preserve">
+    <value>Cho phép chỉ có giá trị số không âm.</value>
+  </data>
+  <data name="DataAccessStringId.ProviderNotSupportedException" xml:space="preserve">
+    <value>Nhà cung cấp cơ sở dữ liệu sau không được hỗ trợ: {0}.</value>
+  </data>
+  <data name="DataAccessStringId.ProviderNotSupportedFeatureExceptionHeader" xml:space="preserve">
+    <value>Các tính năng truy vấn sau không được hỗ trợ cho các nhà cung cấp hiện tại:</value>
+  </data>
+  <data name="DataAccessStringId.ProviderNotSupportedFeatureParametersInSelect" xml:space="preserve">
+    <value>tham số trong cột biểu thức</value>
+  </data>
+  <data name="DataAccessStringId.ProviderNotSupportedLabel" xml:space="preserve">
+    <value>các truy vấn tính năng không được hỗ trợ cho các nhà cung cấp hiện tại.</value>
+  </data>
+  <data name="DataAccessStringId.QueriesFailedToExecute_ExceptionMessage" xml:space="preserve">
+    <value>Một hoặc nhiều truy vấn đã không thực hiện.</value>
+  </data>
+  <data name="DataAccessStringId.QueriesFailedToValidate_ExceptionMessage" xml:space="preserve">
+    <value>Một hoặc nhiều truy vấn đã thất bại để xác nhận.</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilder_RowCount" xml:space="preserve">
+    <value>(Số lượng hàng)</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderAliasAlreadyExists" xml:space="preserve">
+    <value>Chỉ định các bí danh đã tồn tại.</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderCanJoin" xml:space="preserve">
+    <value>Có thể tham gia {0}</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderInvalidFilter" xml:space="preserve">
+    <value>Xin vui lòng nhấp vào nút 'Bộ lọc...' để sửa chữa các chuỗi lọc.</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderJoinEditorMissingData" xml:space="preserve">
+    <value>Không phải tất cả các bộ phận của biểu thức được chỉ định.</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderJoinedOn" xml:space="preserve">
+    <value>Gia nhập {0}</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderNoRules" xml:space="preserve">
+    <value>No rule has been added. Please add at least one rule to proceed.</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderNoTablesAndViews" xml:space="preserve">
+    <value>A cơ sở dữ liệu không chứa bảng hoặc lượt xem và không hỗ trợ SQL chỉnh sửa. Để có thể chạy bộ dựng truy vấn, hãy chắc chắn rằng cơ sở dữ liệu của bạn có chứa ít nhất một bàn hoặc hỗ trợ SQL biên tập.</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderNoTablesSelected" xml:space="preserve">
+    <value>Không có bảng đã được lựa chọn. Vui lòng chọn ít nhất một bảng để tiến hành.</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderNothingSelected" xml:space="preserve">
+    <value>Không có cột đã được lựa chọn. Vui lòng chọn ít nhất một cột để tiến hành.</value>
+  </data>
+  <data name="DataAccessStringId.QueryDesignerJoinExpressionPattern" xml:space="preserve">
+    <value>{0} ngày {1}</value>
+  </data>
+  <data name="DataAccessStringId.QueryDesignerJoinTooltipPattern" xml:space="preserve">
+    <value>[{0}] {1} tham gia [{2}] trên {3}</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridCustomSqlCategoryName" xml:space="preserve">
+    <value>Custom SQL</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridStoredProcCategoryName" xml:space="preserve">
+    <value>Lưu trữ thủ tục</value>
+  </data>
+  <data name="DataAccessStringId.RebuildResultSchemaWaitFormText" xml:space="preserve">
+    <value>Rebuilding the Result schema...</value>
+  </data>
+  <data name="DataAccessStringId.RelationColumnNotInSchemaValidationException" xml:space="preserve">
+    <value>Giản đồ không chứa các cột mối quan hệ sau đây: "{0}". " {1}".</value>
+  </data>
+  <data name="DataAccessStringId.RelationColumnNullValidationException" xml:space="preserve">
+    <value>Cột mối quan hệ không thể được null.</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeInnerJoin" xml:space="preserve">
+    <value>Bên trong tham gia</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeLeftOuterJoin" xml:space="preserve">
+    <value>Tham gia bên ngoài trái</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeMasterDetail" xml:space="preserve">
+    <value>Chi tiết tổng thể quan hệ</value>
+  </data>
+  <data name="DataAccessStringId.RelationException" xml:space="preserve">
+    <value>Không thể thiết lập mối quan hệ giữa cột '{0}'.' {1}' loại {2} và '{3}'.' {4}' của loại {5}.</value>
+  </data>
+  <data name="DataAccessStringId.RelationNullValidationException" xml:space="preserve">
+    <value>Một mối quan hệ không thể được null.</value>
+  </data>
+  <data name="DataAccessStringId.RelationTableNotSelectedValidationException" xml:space="preserve">
+    <value>Bảng tham chiếu không được chọn: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.ResultRelation_ColumnNotFoundError" xml:space="preserve">
+    <value>Cột không được tìm thấy: '{0}'.' {1}'.</value>
+  </data>
+  <data name="DataAccessStringId.RunExpressionEditor" xml:space="preserve">
+    <value>Biểu hiện biên tập...</value>
+  </data>
+  <data name="DataAccessStringId.SchemaDiscoveryMaxItemCountExceptionMessage" xml:space="preserve">
+    <value>Giá trị phải lớn hơn hoặc bằng 0.</value>
+  </data>
+  <data name="DataAccessStringId.SkipWithoutSortingPropertyGridError" xml:space="preserve">
+    <value>Bỏ qua các thiết lập được thiết lập trong khi hồ sơ không được sắp xếp. Xin vui lòng áp dụng phân loại để có thể bỏ qua các hồ sơ đầu tiên N.</value>
+  </data>
+  <data name="DataAccessStringId.SkipWithoutSortingValidationException" xml:space="preserve">
+    <value>Bỏ qua các thiết lập được thiết lập trong khi hồ sơ không được sắp xếp. Xin vui lòng áp dụng phân loại để có thể bỏ qua các bản ghi N đầu tiên hoặc thiết lập lại các thiết lập bỏ trong hộp thoại chỉnh sửa bộ lọc.</value>
+  </data>
+  <data name="DataAccessStringId.SkipWithoutSortingWebValidationException" xml:space="preserve">
+    <value>Thiết lập bù đắp được thiết lập trong khi hồ sơ không được sắp xếp. Xin vui lòng áp dụng phân loại để có thể bỏ qua các bản ghi N đầu tiên.</value>
+  </data>
+  <data name="DataAccessStringId.SortByAggregateColumnValidationException" xml:space="preserve">
+    <value>Không thể sắp xếp theo một cột tổng hợp: {0}({1}), bởi vì các truy vấn không được tổng hợp.</value>
+  </data>
+  <data name="DataAccessStringId.SortingBySameColumnTwiceValidationException" xml:space="preserve">
+    <value>Sau cột được sử dụng như là một tiêu chí phân loại nhiều hơn một lần: "{0}". " {1}".</value>
+  </data>
+  <data name="DataAccessStringId.SortingNullValidationException" xml:space="preserve">
+    <value>Một tiêu chí phân loại không thể được null.</value>
+  </data>
+  <data name="DataAccessStringId.SqlExecutionException" xml:space="preserve">
+    <value>Lỗi cố gắng để thực hiện một SQL query {0} {1}. {2} Lỗi: {3}</value>
+  </data>
+  <data name="DataAccessStringId.SqlQueryExecutionException" xml:space="preserve">
+    <value>kiếm {0} đã không thực hiện.</value>
+  </data>
+  <data name="DataAccessStringId.SqlStringEmptyValidationException" xml:space="preserve">
+    <value>The SQL chuỗi là null hoặc rỗng.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcedureParameterTypeValidationException" xml:space="preserve">
+    <value>Tham số '{2}' loại mismatch: &lt; {0} &gt; &lt; {1} &gt; dự kiến sẽ.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcNameNullValidationException" xml:space="preserve">
+    <value>Tên của một thủ tục được lưu trữ không thể được null.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcNotInSchemaValidationException" xml:space="preserve">
+    <value>Không thể tìm thấy các thủ tục được lưu trữ đã chỉ rõ: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.TableNotInSchemaValidationException" xml:space="preserve">
+    <value>Giản đồ không chứa bảng quy định: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.TableNotSelectedValidationException" xml:space="preserve">
+    <value>Bảng dưới đây không phải là trong bảng danh sách, nhưng cột của nó được sử dụng: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.TableNullValidationException" xml:space="preserve">
+    <value>Một bảng không thể được null.</value>
+  </data>
+  <data name="DataAccessStringId.TablesNotRelatedValidationException" xml:space="preserve">
+    <value>Bảng dưới đây có quan hệ không: "{0}".</value>
+  </data>
+  <data name="DataAccessStringId.Type_Byte" xml:space="preserve">
+    <value>Phòng không âm số (số nguyên 8 bit)</value>
+  </data>
+  <data name="DataAccessStringId.Type_ByteArray" xml:space="preserve">
+    <value>Byte mảng</value>
+  </data>
+  <data name="DataAccessStringId.Type_Char" xml:space="preserve">
+    <value>CHAR</value>
+  </data>
+  <data name="DataAccessStringId.Type_TimeSpan" xml:space="preserve">
+    <value>thời gian khoảng</value>
+  </data>
+  <data name="DataAccessStringId.Type_UInt" xml:space="preserve">
+    <value>Phòng không âm số (số nguyên 32 bit)</value>
+  </data>
+  <data name="DataAccessStringId.Type_ULong" xml:space="preserve">
+    <value>Phòng không âm số (số nguyên 64 bit)</value>
+  </data>
+  <data name="DataAccessStringId.Type_UShort" xml:space="preserve">
+    <value>Phòng không âm số (số nguyên 16 bit)</value>
+  </data>
+  <data name="DataAccessStringId.UnknownType" xml:space="preserve">
+    <value>Không rõ</value>
+  </data>
+  <data name="DataAccessStringId.UnnamedColumnValidationException" xml:space="preserve">
+    <value>Tên cột không được chỉ định.</value>
+  </data>
+  <data name="DataAccessStringId.UnnamedTableValidationException" xml:space="preserve">
+    <value>Bảng tên không được chỉ định.</value>
+  </data>
+  <data name="DataAccessStringId.Wizard_NoDataSourcesForDataFederationMessage" xml:space="preserve">
+    <value>Cung cấp ít nhất một nguồn dữ liệu được sử dụng để tạo nguồn dữ liệu liên kết.</value>
+  </data>
+  <data name="DataAccessStringId.WizardAssemblyLoadingDisallowed" xml:space="preserve">
+    <value>Không thể nạp này lắp ráp cho các lý do an ninh.</value>
+  </data>
+  <data name="DataAccessStringId.WizardCustomConnectionString" xml:space="preserve">
+    <value>Custom Connection String</value>
+  </data>
+  <data name="DataAccessStringId.WizardDataConnectionNameExistsMessage" xml:space="preserve">
+    <value>Kết nối dữ liệu với các quy định tên đã tồn tại. Hãy chỉ ra một tên kết nối khác nhau.</value>
+  </data>
+  <data name="DataAccessStringId.WizardEmptyConnectionNameMessage" xml:space="preserve">
+    <value>Tên không được trống, rỗng hoặc chứa chỉ whitespaces.</value>
+  </data>
+  <data name="DataAccessStringId.WizardNoEFDataContextsMessage" xml:space="preserve">
+    <value>Hội đồng đã chọn không chứa khuôn khổ tổ chức dữ liệu bối cảnh.</value>
+  </data>
+  <data name="DataAccessStringId.WizardPageChooseJsonSchema_EmptySelection" xml:space="preserve">
+    <value>Chọn ít nhất một trường dữ liệu.</value>
+  </data>
+  <data name="DataAccessStringId.WizardPageChooseJsonSource_DataLocationMismatch" xml:space="preserve">
+    <value>Vị trí dữ liệu JSON được chỉ định không tương ứng với nguồn JSON đã chọn.</value>
+  </data>
+  <data name="DataAccessStringId.WizardPageChooseJsonSource_UnknownFormat" xml:space="preserve">
+    <value>nạp dữ liệu vì định dạng URI đã chỉ định không thể xác định được.</value>
+  </data>
+  <data name="DataAccessStringId.XmlFileStrategy_FileNameFilter" xml:space="preserve">
+    <value>XML Files</value>
+  </data>
+  <data name="DataAccessStringId.XmlProviderNotSupportedFeatureException" xml:space="preserve">
+    <value>sau đây không được hỗ trợ cho các tập tin XML:
+	• tùy chỉnh biểu hiện trong cột;
+	• dấu;
+	• ghi số;
+	• khác biệt.
+Để tiến hành, loại bỏ các tính năng từ các truy vấn hoặc chuyển sang sử dụng các nhà cung cấp dữ liệu khác.</value>
+  </data>
+  <data name="DataAccessStringId.XmlProviderNotSupportedLabel" xml:space="preserve">
+    <value>một số tính năng truy vấn không được hỗ trợ cho tệp XML.</value>
+  </data>
+  <data name="DataAccessStringId.XPObjectSource_ConnectionStringIsEmpty" xml:space="preserve">
+    <value>Chuỗi kết nối là trống. Để chỉ định kết nối, thực hiện một trong các cách sau: chỉ định giá trị thuộc tính ConnectionString; Thêm chuỗi kết nối tệp cấu hình ứng dụng và chỉ định giá trị thuộc tính ConnectionStringName; xử lý sự kiện ResolveSession; thiết lập DataLayer mặc định.</value>
+  </data>
+  <data name="DataAccessStringId.XPObjectSource_IncorrectXmlRootElement" xml:space="preserve">
+    <value>&lt; {0} &gt; phần tử gốc không chính xác. &lt; {1} &gt; phần tử được mong đợi.</value>
+  </data>
+  <data name="DataAccessStringId.XPObjectSource_PropertiesCollectionDoesNotContainFetch" xml:space="preserve">
+    <value>Các bộ sưu tập thuộc tính không chứa bất kỳ mục nào với các tùy chọn tìm nạp được kích hoạt.</value>
+  </data>
+</root>

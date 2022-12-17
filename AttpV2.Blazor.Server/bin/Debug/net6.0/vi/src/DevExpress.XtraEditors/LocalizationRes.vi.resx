@@ -1,0 +1,2236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringId.CaptionError" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="StringId.InvalidValueText" xml:space="preserve">
+    <value>Giá trị Không hợp lệ</value>
+  </data>
+  <data name="StringId.CheckChecked" xml:space="preserve">
+    <value>Đã đánh dấu</value>
+  </data>
+  <data name="StringId.CheckUnchecked" xml:space="preserve">
+    <value>Không được đánh dấu</value>
+  </data>
+  <data name="StringId.CheckIndeterminate" xml:space="preserve">
+    <value>Không xác định</value>
+  </data>
+  <data name="StringId.DateEditToday" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="StringId.DateEditClear" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="StringId.OK" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="StringId.Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="StringId.NavigatorFirstButtonHint" xml:space="preserve">
+    <value>Đầu</value>
+  </data>
+  <data name="StringId.NavigatorPreviousButtonHint" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="StringId.NavigatorPreviousPageButtonHint" xml:space="preserve">
+    <value>Trang Trước</value>
+  </data>
+  <data name="StringId.NavigatorNextButtonHint" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="StringId.NavigatorNextPageButtonHint" xml:space="preserve">
+    <value>Trang Tiếp</value>
+  </data>
+  <data name="StringId.NavigatorLastButtonHint" xml:space="preserve">
+    <value>Cuối</value>
+  </data>
+  <data name="StringId.NavigatorAppendButtonHint" xml:space="preserve">
+    <value>Bổ sung</value>
+  </data>
+  <data name="StringId.NavigatorRemoveButtonHint" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="StringId.NavigatorEditButtonHint" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="StringId.NavigatorEndEditButtonHint" xml:space="preserve">
+    <value>Kết thúc Sửa</value>
+  </data>
+  <data name="StringId.NavigatorCancelEditButtonHint" xml:space="preserve">
+    <value>Hủy Sửa</value>
+  </data>
+  <data name="StringId.NavigatorTextStringFormat" xml:space="preserve">
+    <value>Bản ghi {0} / {1}</value>
+  </data>
+  <data name="StringId.PictureEditMenuCut" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="StringId.PictureEditMenuCopy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="StringId.PictureEditMenuPaste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="StringId.PictureEditMenuDelete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="StringId.PictureEditMenuLoad" xml:space="preserve">
+    <value>Nạp</value>
+  </data>
+  <data name="StringId.PictureEditMenuSave" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileTitle" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="StringId.PictureEditSaveFileTitle" xml:space="preserve">
+    <value>Lưu thành</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileError" xml:space="preserve">
+    <value>Sai định dạng ảnh</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileErrorCaption" xml:space="preserve">
+    <value>Mở lỗi</value>
+  </data>
+  <data name="StringId.PictureEditCopyImageError" xml:space="preserve">
+    <value>Không thể sao chép ảnh</value>
+  </data>
+  <data name="StringId.LookUpEditValueIsNull" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StringId.LookUpInvalidEditValueType" xml:space="preserve">
+    <value>Kiểu dữ liệu nhập vào không hợp lệ.</value>
+  </data>
+  <data name="StringId.LookUpColumnDefaultName" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileFilter" xml:space="preserve">
+    <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg;*.jpeg)|*.jpg;*.jpeg|Icon Files (*.ico)|*.ico|All Picture Files |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif|All Files |*.*</value>
+  </data>
+  <data name="StringId.PictureEditSaveFileFilter" xml:space="preserve">
+    <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg)|*.jpg</value>
+  </data>
+  <data name="StringId.MaskBoxValidateError" xml:space="preserve">
+    <value>Giá trị đưa vào chưa hoàn chỉnh. Bạn có muốn sửa lại không?
+	
+	
+	Yes - Sửa lại giá trị.
+	No - Giữ nguyên giá trị đã nhập.
+	Cancel - Quay lại giá trị trước khi nhập.
+	</value>
+  </data>
+  <data name="StringId.UnknownPictureFormat" xml:space="preserve">
+    <value>Không hiểu định dạng ảnh</value>
+  </data>
+  <data name="StringId.DataEmpty" xml:space="preserve">
+    <value>Không có dữ liệu ảnh</value>
+  </data>
+  <data name="StringId.FilterCriteriaInvalidExpression" xml:space="preserve">
+    <value>Câu lệnh lỗi (line {0}, character {1}).</value>
+  </data>
+  <data name="StringId.FilterCriteriaInvalidExpressionEx" xml:space="preserve">
+    <value>Câu lệnh không đúng.</value>
+  </data>
+  <data name="StringId.NotValidArrayLength" xml:space="preserve">
+    <value>Độ dài mảng không hợp lệ.</value>
+  </data>
+  <data name="StringId.ImagePopupEmpty" xml:space="preserve">
+    <value>(Rỗng)</value>
+  </data>
+  <data name="StringId.ImagePopupPicture" xml:space="preserve">
+    <value>(Hình ảnh)</value>
+  </data>
+  <data name="StringId.ColorTabCustom" xml:space="preserve">
+    <value>Tùy biến</value>
+  </data>
+  <data name="StringId.ColorTabWeb" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="StringId.ColorTabSystem" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="StringId.CalcButtonMC" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="StringId.CalcButtonMR" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="StringId.CalcButtonMS" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="StringId.CalcButtonMx" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="StringId.CalcButtonSqrt" xml:space="preserve">
+    <value>sqrt</value>
+  </data>
+  <data name="StringId.CalcButtonBack" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="StringId.CalcButtonCE" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="StringId.CalcButtonC" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="StringId.CalcError" xml:space="preserve">
+    <value>Tính toán Lỗi</value>
+  </data>
+  <data name="StringId.TabHeaderButtonPrev" xml:space="preserve">
+    <value>Cuộn Trái</value>
+  </data>
+  <data name="StringId.TabHeaderButtonNext" xml:space="preserve">
+    <value>Cuộn Phải</value>
+  </data>
+  <data name="StringId.TabHeaderButtonClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="StringId.XtraMessageBoxOkButtonText" xml:space="preserve">
+    <value>&amp;Nhận</value>
+  </data>
+  <data name="StringId.XtraMessageBoxCancelButtonText" xml:space="preserve">
+    <value>&amp;Hủy</value>
+  </data>
+  <data name="StringId.XtraMessageBoxYesButtonText" xml:space="preserve">
+    <value>&amp;Có</value>
+  </data>
+  <data name="StringId.XtraMessageBoxNoButtonText" xml:space="preserve">
+    <value>&amp;Không</value>
+  </data>
+  <data name="StringId.XtraMessageBoxAbortButtonText" xml:space="preserve">
+    <value>&amp;Dừng</value>
+  </data>
+  <data name="StringId.XtraMessageBoxRetryButtonText" xml:space="preserve">
+    <value>&amp;Thử lại</value>
+  </data>
+  <data name="StringId.XtraMessageBoxIgnoreButtonText" xml:space="preserve">
+    <value>&amp;Bỏ qua</value>
+  </data>
+  <data name="StringId.TextEditMenuUndo" xml:space="preserve">
+    <value>&amp;Hoàn tác</value>
+  </data>
+  <data name="StringId.TextEditMenuCut" xml:space="preserve">
+    <value>&amp;Cắt</value>
+  </data>
+  <data name="StringId.TextEditMenuCopy" xml:space="preserve">
+    <value>&amp;Sao chép</value>
+  </data>
+  <data name="StringId.TextEditMenuPaste" xml:space="preserve">
+    <value>&amp;Dán</value>
+  </data>
+  <data name="StringId.TextEditMenuDelete" xml:space="preserve">
+    <value>&amp;Xóa</value>
+  </data>
+  <data name="StringId.TextEditMenuSelectAll" xml:space="preserve">
+    <value>Chọn &amp;Tất cả</value>
+  </data>
+  <data name="StringId.FilterEditorTabText" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="StringId.FilterEditorTabVisual" xml:space="preserve">
+    <value>Trực quan</value>
+  </data>
+  <data name="StringId.FilterShowAll" xml:space="preserve">
+    <value>(Chọn tất)</value>
+  </data>
+  <data name="StringId.FilterGroupAnd" xml:space="preserve">
+    <value>Và</value>
+  </data>
+  <data name="StringId.FilterGroupNotAnd" xml:space="preserve">
+    <value>Không Và</value>
+  </data>
+  <data name="StringId.FilterGroupNotOr" xml:space="preserve">
+    <value>Không hoặc</value>
+  </data>
+  <data name="StringId.FilterGroupOr" xml:space="preserve">
+    <value>Hoặc</value>
+  </data>
+  <data name="StringId.FilterClauseAnyOf" xml:space="preserve">
+    <value>Là bất kỳ của</value>
+  </data>
+  <data name="StringId.FilterClauseBeginsWith" xml:space="preserve">
+    <value>Bắt đầu bằng</value>
+  </data>
+  <data name="StringId.FilterClauseBetween" xml:space="preserve">
+    <value>Nằm trong khoảng</value>
+  </data>
+  <data name="StringId.FilterClauseBetweenAnd" xml:space="preserve">
+    <value>và</value>
+  </data>
+  <data name="StringId.FilterClauseContains" xml:space="preserve">
+    <value>Có chứa</value>
+  </data>
+  <data name="StringId.FilterClauseEndsWith" xml:space="preserve">
+    <value>Kết thúc bởi</value>
+  </data>
+  <data name="StringId.FilterClauseEquals" xml:space="preserve">
+    <value>Bằng</value>
+  </data>
+  <data name="StringId.FilterClauseGreater" xml:space="preserve">
+    <value>Lớn hơn</value>
+  </data>
+  <data name="StringId.FilterClauseGreaterOrEqual" xml:space="preserve">
+    <value>Lớn hơn hoặc bằng</value>
+  </data>
+  <data name="StringId.FilterClauseIsNotNull" xml:space="preserve">
+    <value>Có dữ liệu (not null)</value>
+  </data>
+  <data name="StringId.FilterClauseIsNull" xml:space="preserve">
+    <value>Là trống</value>
+  </data>
+  <data name="StringId.FilterClauseLess" xml:space="preserve">
+    <value>Nhỏ hơn</value>
+  </data>
+  <data name="StringId.FilterClauseLessOrEqual" xml:space="preserve">
+    <value>Nhở hơn hoặc bằng</value>
+  </data>
+  <data name="StringId.FilterClauseLike" xml:space="preserve">
+    <value>Chứa (sử dụng %)</value>
+  </data>
+  <data name="StringId.FilterClauseNoneOf" xml:space="preserve">
+    <value>Is none of</value>
+  </data>
+  <data name="StringId.FilterClauseNotBetween" xml:space="preserve">
+    <value>Nằm ngoài khoảng</value>
+  </data>
+  <data name="StringId.FilterClauseDoesNotContain" xml:space="preserve">
+    <value>Không chứa</value>
+  </data>
+  <data name="StringId.FilterClauseDoesNotEqual" xml:space="preserve">
+    <value>Không bằng</value>
+  </data>
+  <data name="StringId.FilterClauseNotLike" xml:space="preserve">
+    <value>Không chứa (sử dụng %)</value>
+  </data>
+  <data name="StringId.FilterEmptyEnter" xml:space="preserve">
+    <value>&lt;Nhập giá trị&gt;</value>
+  </data>
+  <data name="StringId.FilterEmptyValue" xml:space="preserve">
+    <value>&lt;Dữ liệu trống&gt;</value>
+  </data>
+  <data name="StringId.FilterMenuConditionAdd" xml:space="preserve">
+    <value>Thêm điều kiện</value>
+  </data>
+  <data name="StringId.FilterMenuGroupAdd" xml:space="preserve">
+    <value>Thêm Nhóm</value>
+  </data>
+  <data name="StringId.FilterMenuClearAll" xml:space="preserve">
+    <value>Xóa tất cả</value>
+  </data>
+  <data name="StringId.FilterMenuRowRemove" xml:space="preserve">
+    <value>Xóa bỏ nhóm</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeAdd" xml:space="preserve">
+    <value>Thêm điều kiện vào nhóm điều kiện</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeRemove" xml:space="preserve">
+    <value>Loại bỏ điều kiện</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeAction" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="StringId.FilterToolTipValueType" xml:space="preserve">
+    <value>So sánh với một giá trị / giá trị khác của trường</value>
+  </data>
+  <data name="StringId.FilterToolTipElementAdd" xml:space="preserve">
+    <value>Thêm đối tượng vào danh sách</value>
+  </data>
+  <data name="StringId.FilterToolTipKeysAdd" xml:space="preserve">
+    <value>(Sử dụng phím Insert hoặc +)</value>
+  </data>
+  <data name="StringId.FilterToolTipKeysRemove" xml:space="preserve">
+    <value>(Sử dụng phím Delete hoặc -)</value>
+  </data>
+  <data name="StringId.ContainerAccessibleEditName" xml:space="preserve">
+    <value>Công cụ chỉnh sửa</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringGroupOperatorAnd" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringGroupOperatorOr" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorBitwiseNot" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorIsNull" xml:space="preserve">
+    <value>Is Null</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorNot" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseAnd" xml:space="preserve">
+    <value>&amp;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseOr" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseXor" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorDivide" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorEqual" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorGreater" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorGreaterOrEqual" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLess" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLessOrEqual" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLike" xml:space="preserve">
+    <value>Giống</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorModulo" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorMultiply" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorNotEqual" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBetween" xml:space="preserve">
+    <value>Nằm nữa</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringIn" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringIsNotNull" xml:space="preserve">
+    <value>Is Not Null</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringNotLike" xml:space="preserve">
+    <value>Not Like</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCustom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIif" xml:space="preserve">
+    <value>Iif</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNull" xml:space="preserve">
+    <value>IsNull</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTrim" xml:space="preserve">
+    <value>Trim</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLen" xml:space="preserve">
+    <value>Len</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSubstring" xml:space="preserve">
+    <value>Substring</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionUpper" xml:space="preserve">
+    <value>Upper</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLower" xml:space="preserve">
+    <value>Lower</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionConcat" xml:space="preserve">
+    <value>Concat</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisYear" xml:space="preserve">
+    <value>Năm nay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisMonth" xml:space="preserve">
+    <value>Tháng này</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastWeek" xml:space="preserve">
+    <value>Tuần trước</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisWeek" xml:space="preserve">
+    <value>Tuần này</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYesterday" xml:space="preserve">
+    <value>Hôm qua</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeToday" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNow" xml:space="preserve">
+    <value>Bây giờ</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTomorrow" xml:space="preserve">
+    <value>Ngày mai</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeDayAfterTomorrow" xml:space="preserve">
+    <value>Ngày kia</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextWeek" xml:space="preserve">
+    <value>Tuần tới</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoWeeksAway" xml:space="preserve">
+    <value>Hai tuần nữa</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextMonth" xml:space="preserve">
+    <value>Tháng tới</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextYear" xml:space="preserve">
+    <value>Năm tới</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalBeyondThisYear" xml:space="preserve">
+    <value>Là sau năm nay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisYear" xml:space="preserve">
+    <value>Là cuối năm nay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisMonth" xml:space="preserve">
+    <value>Là cuối tháng này</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalNextWeek" xml:space="preserve">
+    <value>Là tuần tới</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisWeek" xml:space="preserve">
+    <value>Là cuối tuần này</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalTomorrow" xml:space="preserve">
+    <value>Là ngày mai</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalToday" xml:space="preserve">
+    <value>Là hôm nay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalYesterday" xml:space="preserve">
+    <value>Là hôm qua</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisWeek" xml:space="preserve">
+    <value>Là đầu tuần này</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLastWeek" xml:space="preserve">
+    <value>Là tuần trước</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisMonth" xml:space="preserve">
+    <value>Là đầu tháng này</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisYear" xml:space="preserve">
+    <value>Là đầu năm nay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalPriorThisYear" xml:space="preserve">
+    <value>Là trước năm nay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCustomNonDeterministic" xml:space="preserve">
+    <value>Tùy chỉnh không xác định</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNullOrEmpty" xml:space="preserve">
+    <value>Là null hoặc rỗng</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAscii" xml:space="preserve">
+    <value>Ascii</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionChar" xml:space="preserve">
+    <value>Char</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToStr" xml:space="preserve">
+    <value>To str</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionReplace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionReverse" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionInsert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCharIndex" xml:space="preserve">
+    <value>Char index</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAbs" xml:space="preserve">
+    <value>Abs</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSqr" xml:space="preserve">
+    <value>Sqr</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCos" xml:space="preserve">
+    <value>Cos</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSin" xml:space="preserve">
+    <value>Sin</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAtn" xml:space="preserve">
+    <value>Atn</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionExp" xml:space="preserve">
+    <value>Exp</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLog" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRnd" xml:space="preserve">
+    <value>Rnd</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTan" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPower" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSign" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRound" xml:space="preserve">
+    <value>Round</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCeiling" xml:space="preserve">
+    <value>Ceiling</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionFloor" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionMax" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAcos" xml:space="preserve">
+    <value>Acos</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAsin" xml:space="preserve">
+    <value>Asin</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAtn2" xml:space="preserve">
+    <value>Atn2</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionBigMul" xml:space="preserve">
+    <value>Big mul</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCosh" xml:space="preserve">
+    <value>Cosh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLog10" xml:space="preserve">
+    <value>Log10</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSinh" xml:space="preserve">
+    <value>Sinh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTanh" xml:space="preserve">
+    <value>Tanh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPadLeft" xml:space="preserve">
+    <value>Pad left</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPadRight" xml:space="preserve">
+    <value>Pad right</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffTick" xml:space="preserve">
+    <value>Tick chênh lệch</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffSecond" xml:space="preserve">
+    <value>Giây chênh lệch</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMilliSecond" xml:space="preserve">
+    <value>Phần nghìn giây chênh lệnh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMinute" xml:space="preserve">
+    <value>Phút chênh lệch</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffHour" xml:space="preserve">
+    <value>Giờ chênh lệch</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffDay" xml:space="preserve">
+    <value>Ngày chênh lệch</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMonth" xml:space="preserve">
+    <value>Tháng chênh lệch</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffYear" xml:space="preserve">
+    <value>Năm chênh lệch</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDate" xml:space="preserve">
+    <value>Lấy ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMilliSecond" xml:space="preserve">
+    <value>Lấy phần nghìn giây</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetSecond" xml:space="preserve">
+    <value>Lấy giây</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMinute" xml:space="preserve">
+    <value>Lấy phút</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetHour" xml:space="preserve">
+    <value>Lấy giờ</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDay" xml:space="preserve">
+    <value>Lấy ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMonth" xml:space="preserve">
+    <value>Lấy tháng</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetYear" xml:space="preserve">
+    <value>Lấy năm</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDayOfWeek" xml:space="preserve">
+    <value>Lấy ngày trong tuần</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDayOfYear" xml:space="preserve">
+    <value>Lấy ngày trong năm</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetTimeOfDay" xml:space="preserve">
+    <value>Lấy thời gian của ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionNow" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionUtcNow" xml:space="preserve">
+    <value>Utc now</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToday" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddTimeSpan" xml:space="preserve">
+    <value>Thêm khoảng thời gian</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddTicks" xml:space="preserve">
+    <value>Thêm tick (1/10 triệu giây)</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMilliSeconds" xml:space="preserve">
+    <value>Thêm phần nghìn giây</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddSeconds" xml:space="preserve">
+    <value>Thêm giây</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMinutes" xml:space="preserve">
+    <value>Thêm phút</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddHours" xml:space="preserve">
+    <value>Thêm giờ</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddDays" xml:space="preserve">
+    <value>Thêm ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMonths" xml:space="preserve">
+    <value>Thêm tháng</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddYears" xml:space="preserve">
+    <value>Thêm năm</value>
+  </data>
+  <data name="StringId.Apply" xml:space="preserve">
+    <value>Chấp nhận</value>
+  </data>
+  <data name="StringId.PreviewPanelText" xml:space="preserve">
+    <value>Xem trước:</value>
+  </data>
+  <data name="StringId.TransparentBackColorNotSupported" xml:space="preserve">
+    <value>Điều khiển này không hỗ trợ màu nền trong suốt</value>
+  </data>
+  <data name="StringId.FilterOutlookDateText" xml:space="preserve">
+    <value>Hiển thị tất cảl|Show Empty|Filter by a specific date:|Beyond this year|Later this year|Later this month|Next week|Later this week|Tomorrow|Today|Yesterday|Earlier this week|Last week|Earlier this month|Earlier this year|Prior to this year</value>
+  </data>
+  <data name="StringId.FilterDateTimeConstantMenuCaption" xml:space="preserve">
+    <value>Hàng số ngày và giờ</value>
+  </data>
+  <data name="StringId.FilterDateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>Toán tử ngày và giờ</value>
+  </data>
+  <data name="StringId.FilterEmptyParameter" xml:space="preserve">
+    <value>&lt;Nhập thông số&gt;</value>
+  </data>
+  <data name="StringId.FilterMenuAddNewParameter" xml:space="preserve">
+    <value>Thêm thông số ...</value>
+  </data>
+  <data name="StringId.FilterDateTextAlt" xml:space="preserve">
+    <value>Hiển thị tất cả|Hiển thị Rỗng|Lọc theo một ngày xác định:|Sau|||Tuần tới|Hôm nay|Tuần này|Tháng này|Trước|{0:yyyy}, {0:MMMM}</value>
+  </data>
+  <data name="StringId.FilterFunctionsMenuCaption" xml:space="preserve">
+    <value>Hàm</value>
+  </data>
+  <data name="StringId.DefaultBooleanTrue" xml:space="preserve">
+    <value>Đúng (True)</value>
+  </data>
+  <data name="StringId.DefaultBooleanFalse" xml:space="preserve">
+    <value>Sai (False)</value>
+  </data>
+  <data name="StringId.DefaultBooleanDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="StringId.ProgressExport" xml:space="preserve">
+    <value>Xuất dữ liệu</value>
+  </data>
+  <data name="StringId.ProgressPrinting" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="StringId.ProgressCreateDocument" xml:space="preserve">
+    <value>Tạo mới document</value>
+  </data>
+  <data name="StringId.ProgressCancel" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="StringId.ProgressCancelPending" xml:space="preserve">
+    <value>Thoát chờ</value>
+  </data>
+  <data name="StringId.ProgressLoadingData" xml:space="preserve">
+    <value>Nạp dữ liệu</value>
+  </data>
+  <data name="StringId.FilterAggregateAvg" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="StringId.FilterAggregateCount" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="StringId.FilterAggregateExists" xml:space="preserve">
+    <value>Tồn tại</value>
+  </data>
+  <data name="StringId.FilterAggregateMax" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="StringId.FilterAggregateMin" xml:space="preserve">
+    <value>Nhỏ Nhất</value>
+  </data>
+  <data name="StringId.FilterAggregateSum" xml:space="preserve">
+    <value>Tổng cộng</value>
+  </data>
+  <data name="StringId.FilterClauseIsNotNullOrEmpty" xml:space="preserve">
+    <value>Có dữ liệu (not blank)</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarRadioMode" xml:space="preserve">
+    <value>Chế độ chọn đơn</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarInvertFilter" xml:space="preserve">
+    <value>Lọc ngược lại</value>
+  </data>
+  <data name="StringId.PictureEditMenuFullSize" xml:space="preserve">
+    <value>Đặt kích thước lớn nhất</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomTo" xml:space="preserve">
+    <value>Zoom tới:</value>
+  </data>
+  <data name="StringId.ColorPickPopupAutomaticItemCaption" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomOut" xml:space="preserve">
+    <value>Thu nhỏ</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomIn" xml:space="preserve">
+    <value>Phóng to</value>
+  </data>
+  <data name="StringId.PictureEditMenuFitImage" xml:space="preserve">
+    <value>Đặt vừa kích thước ảnh</value>
+  </data>
+  <data name="StringId.FieldListName" xml:space="preserve">
+    <value>Danh sách trường ({0})</value>
+  </data>
+  <data name="StringId.PreviewError" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoom" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisMonth" xml:space="preserve">
+    <value>Tháng này</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisWeek" xml:space="preserve">
+    <value>Tuần này</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionStartsWith" xml:space="preserve">
+    <value>Bắt đầu với</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarIncrementalSearch" xml:space="preserve">
+    <value>Tìm kiếm gia tăng</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarMultiSelection" xml:space="preserve">
+    <value>Đa lựa chọn</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarShowNewValues" xml:space="preserve">
+    <value>Hiển thị giá trị trường mới</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomToolTip" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="StringId.RestoreLayoutDialogFileFilter" xml:space="preserve">
+    <value>XML tập tin (*.xml) | *. xml|Tất cả files| *. *</value>
+  </data>
+  <data name="StringId.SaveLayoutDialogFileFilter" xml:space="preserve">
+    <value>Tập tin XML (*.xml) | * .xml</value>
+  </data>
+  <data name="StringId.ManageRuleCommonColor" xml:space="preserve">
+    <value>Màu:</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringToday" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="StringId.ManageRuleDown" xml:space="preserve">
+    <value>Xuống</value>
+  </data>
+  <data name="StringId.ManageRuleUp" xml:space="preserve">
+    <value>Lên</value>
+  </data>
+  <data name="StringId.TakePictureDialogSave" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="StringId.ManageRuleCommonPreview" xml:space="preserve">
+    <value>Xem trước:</value>
+  </data>
+  <data name="StringId.ColorPickOpacityAxisName" xml:space="preserve">
+    <value>Độ mờ</value>
+  </data>
+  <data name="StringId.ManageRuleAllColumns" xml:space="preserve">
+    <value>(Tất cả)</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionColumn" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionFormat" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsBold" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsItalic" xml:space="preserve">
+    <value>Nghiêng</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsUnderline" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsClear" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFont" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringTomorrow" xml:space="preserve">
+    <value>Ngày mai</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringYesterday" xml:space="preserve">
+    <value>Hôm qua</value>
+  </data>
+  <data name="StringId.ManageRuleCommonNumber" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="StringId.ManageRuleCommonPercent" xml:space="preserve">
+    <value>Phần trăm</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionContains" xml:space="preserve">
+    <value>Có chứa</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo1" xml:space="preserve">
+    <value>Tháng trước</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringThisMonth" xml:space="preserve">
+    <value>Tháng này</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarContext" xml:space="preserve">
+    <value>Ngữ cảnh</value>
+  </data>
+  <data name="StringId.TakePictureDialogTryAgain" xml:space="preserve">
+    <value>Thử lại</value>
+  </data>
+  <data name="StringId.CameraSettingsBrightness" xml:space="preserve">
+    <value>Độ sáng:</value>
+  </data>
+  <data name="StringId.CameraSettingsContrast" xml:space="preserve">
+    <value>Độ tương phản:</value>
+  </data>
+  <data name="StringId.CameraSettingsResolution" xml:space="preserve">
+    <value>Độ phân giải:</value>
+  </data>
+  <data name="StringId.ColorPickBrightnessAxisName" xml:space="preserve">
+    <value>Độ sáng</value>
+  </data>
+  <data name="StringId.ColorPickPopupMoreColorsItemCaption" xml:space="preserve">
+    <value>Thêm màu sắc...</value>
+  </data>
+  <data name="StringId.Days" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsApril" xml:space="preserve">
+    <value>Là tháng tư</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsAugust" xml:space="preserve">
+    <value>Là tháng tám</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsDecember" xml:space="preserve">
+    <value>Là tháng mười hai</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsFebruary" xml:space="preserve">
+    <value>Là tháng hai</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsLastYear" xml:space="preserve">
+    <value>Là cuối năm</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsMay" xml:space="preserve">
+    <value>Là tháng năm</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNovember" xml:space="preserve">
+    <value>Là tháng mười một</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsSeptember" xml:space="preserve">
+    <value>Là tháng chín</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisYear" xml:space="preserve">
+    <value>Là năm nay</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastMonth" xml:space="preserve">
+    <value>Tháng trước</value>
+  </data>
+  <data name="StringId.FormatRuleForThisColumnWith" xml:space="preserve">
+    <value>cho cột này với</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemAboveAverage" xml:space="preserve">
+    <value>Trên trung bình</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBelowAverage" xml:space="preserve">
+    <value>Dưới trung bình</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBetween" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemGreaterThan" xml:space="preserve">
+    <value>Lớn hơn</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemIconSets" xml:space="preserve">
+    <value>Bộ biểu tượng</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemManageRules" xml:space="preserve">
+    <value>Quản lý quy tắc...</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTextThatContains" xml:space="preserve">
+    <value>Văn bản có chứa</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemUnique" xml:space="preserve">
+    <value>Giá trị duy nhất</value>
+  </data>
+  <data name="StringId.FormatRuleWith" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="StringId.Hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="StringId.IconSetCategoryIndicators" xml:space="preserve">
+    <value>Chỉ số</value>
+  </data>
+  <data name="StringId.IconSetCategorySymbols" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="StringId.IncorrectNumberCopies" xml:space="preserve">
+    <value>Số phải giữa 1 và 32767.</value>
+  </data>
+  <data name="StringId.ManageRuleAboveAverage" xml:space="preserve">
+    <value>Trên trung bình</value>
+  </data>
+  <data name="StringId.ManageRuleBelowAverage" xml:space="preserve">
+    <value>Dưới trung bình</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueGreaterThan" xml:space="preserve">
+    <value>Lớn hơn</value>
+  </data>
+  <data name="StringId.ManageRuleCommonMaximum" xml:space="preserve">
+    <value>Tối đa</value>
+  </data>
+  <data name="StringId.ManageRuleCommonMinimum" xml:space="preserve">
+    <value>Tối thiểu</value>
+  </data>
+  <data name="StringId.ManageRuleCommonValue" xml:space="preserve">
+    <value>Giá trị:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarDrawAxis" xml:space="preserve">
+    <value>Vẽ trục</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarLTR" xml:space="preserve">
+    <value>Trái-qua-phải</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarRTL" xml:space="preserve">
+    <value>Phải-qua-trái</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringBeyondThisYear" xml:space="preserve">
+    <value>Sau năm nay</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringThisWeek" xml:space="preserve">
+    <value>Tuần này</value>
+  </data>
+  <data name="StringId.ManageRuleDeleteRule" xml:space="preserve">
+    <value>Xoá quy tắc</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsStrikethrough" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionApplyToTheRow" xml:space="preserve">
+    <value>Áp dụng cho dòng</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionRule" xml:space="preserve">
+    <value>Quy tắc</value>
+  </data>
+  <data name="StringId.ManageRuleIconSets" xml:space="preserve">
+    <value>Bộ biểu tượng</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsReverseIconOrder" xml:space="preserve">
+    <value>Đảo ngược thứ tự biểu tượng</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsValueIs" xml:space="preserve">
+    <value>giá trị là</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsWhen" xml:space="preserve">
+    <value>khi</value>
+  </data>
+  <data name="StringId.ManageRuleNewRule" xml:space="preserve">
+    <value>Quy tắc mới...</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesOfTheColumnsCellValues" xml:space="preserve">
+    <value>% của giá trị cột</value>
+  </data>
+  <data name="StringId.ManageRuleShowFormattingRules" xml:space="preserve">
+    <value>Hiển thị các quy tắc cho:</value>
+  </data>
+  <data name="StringId.ManageRuleSimpleRuleBaseFormat" xml:space="preserve">
+    <value>Định dạng...</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextBeginningWith" xml:space="preserve">
+    <value>Bắt đầu với</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextContaining" xml:space="preserve">
+    <value>Có chứa</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextEndingWith" xml:space="preserve">
+    <value>Kết thúc với</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainBlanks" xml:space="preserve">
+    <value>Khoảng trống</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainErrors" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainNoBlanks" xml:space="preserve">
+    <value>Không có khoảng trống</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainNoErrors" xml:space="preserve">
+    <value>Không có lỗi</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainSpecificText" xml:space="preserve">
+    <value>Văn bản cụ thể</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateFormatAll" xml:space="preserve">
+    <value>Định dạng tất cả:</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateValuesInTheSelectedRange" xml:space="preserve">
+    <value>cột giá trị</value>
+  </data>
+  <data name="StringId.Mins" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleEditTheRuleDescription" xml:space="preserve">
+    <value>Chỉnh sửa mô tả quy tắc:</value>
+  </data>
+  <data name="StringId.NewFormattingRule" xml:space="preserve">
+    <value>Quy tắc định dạng mới</value>
+  </data>
+  <data name="StringId.Secs" xml:space="preserve">
+    <value>giây</value>
+  </data>
+  <data name="StringId.TabHeaderButtonUnpin" xml:space="preserve">
+    <value>Bỏ ghim</value>
+  </data>
+  <data name="StringId.TabHeaderButtonUp" xml:space="preserve">
+    <value>Cuộn lên</value>
+  </data>
+  <data name="StringId.TakePictureDialogTitle" xml:space="preserve">
+    <value>Chụp ảnh</value>
+  </data>
+  <data name="StringId.ManageRuleFormula" xml:space="preserve">
+    <value>Công thức</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueBetween" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Lớn hơn hoặc bằng</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatAllCellsBasedOnTheirValues" xml:space="preserve">
+    <value>Định dạng tế bào tất cả dựa trên giá trị của họ</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyCellsThatContain" xml:space="preserve">
+    <value>Định dạng tế bào chỉ có chứa</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyTopOrBottomRankedValues" xml:space="preserve">
+    <value>Định dạng chỉ trên hoặc dưới xếp hạng giá trị</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyUniqueOrDuplicateValues" xml:space="preserve">
+    <value>Định dạng giá trị chỉ duy nhất hoặc trùng lặp</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleUseAFormulaToDetermineWhichCellsToFormat" xml:space="preserve">
+    <value>Sử dụng một công thức để xác định những tế bào để định dạng</value>
+  </data>
+  <data name="StringId.ProgressPanelDefaultDescription" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="StringId.NoneItemText" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsYearToDate" xml:space="preserve">
+    <value>Là giai đoạn năm đến ngày</value>
+  </data>
+  <data name="StringId.ManageRuleCommonAutomatic" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="StringId.PictureEditMenuEdit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="StringId.TimeSpanDaysPlural" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="StringId.TimeSpanHoursPlural" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="StringId.TimeSpanDaysShort" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="StringId.TimeSpanMinutesShort" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="StringId.Version" xml:space="preserve">
+    <value>Phiên bản</value>
+  </data>
+  <data name="StringId.DXCollectionEditorCancelButtonText" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="StringId.DXCollectionEditorOKButtonText" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="StringId.DXCollectionEditorPreviewGroupCaption" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="StringId.DXCollectionEditorItemPropertiesGroupCaption" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="StringId.DXCollectionEditorAddItemButtonText" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="StringId.DXCollectionEditorRemoveItemButtonText" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionRow" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="StringId.SyntaxEditFindPanelCloseButtonTooltip" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="StringId.AllRightsReserved" xml:space="preserve">
+    <value>Tất cả các quyền.</value>
+  </data>
+  <data name="StringId.CameraDesignTimeInfo" xml:space="preserve">
+    <value>Thể hiện bị vô hiệu hóa thiết kế thời.</value>
+  </data>
+  <data name="StringId.CameraDeviceIsBusy" xml:space="preserve">
+    <value>Không thể sử dụng thiết bị, như nó đã được sử dụng trong một ứng dụng.</value>
+  </data>
+  <data name="StringId.CameraDeviceNotFound" xml:space="preserve">
+    <value>Webcam không tìm thấy. Kiểm tra cài đặt thiết bị hoặc kết nối webcam.</value>
+  </data>
+  <data name="StringId.CameraSettingsActiveDevice" xml:space="preserve">
+    <value>Thiết bị hoạt động:</value>
+  </data>
+  <data name="StringId.CameraSettingsCaption" xml:space="preserve">
+    <value>Cài đặt máy ảnh</value>
+  </data>
+  <data name="StringId.CameraSettingsDefaults" xml:space="preserve">
+    <value>Đặt lại về mặc định</value>
+  </data>
+  <data name="StringId.CameraSettingsDesaturate" xml:space="preserve">
+    <value>Desaturate:</value>
+  </data>
+  <data name="StringId.ChartRangeControlClientInvalidGrid" xml:space="preserve">
+    <value>Khoảng thời gian giữa đường lưới là quá nhỏ để được đại diện trong phạm vi kiểm soát.</value>
+  </data>
+  <data name="StringId.ChartRangeControlClientNoData" xml:space="preserve">
+    <value>Không có dữ liệu để đại diện cho một phạm vi kiểm soát.</value>
+  </data>
+  <data name="StringId.ChartRangeControlClientRangeValidationMsg" xml:space="preserve">
+    <value>Max nên lớn hơn hoặc bằng min</value>
+  </data>
+  <data name="StringId.ColorPickBlueValidationMsg" xml:space="preserve">
+    <value>Thành phần màu xanh nên trong phạm vi 0..255</value>
+  </data>
+  <data name="StringId.ColorPickBrightValidationMsg" xml:space="preserve">
+    <value>Độ sáng thành phần nên trong phạm vi 0..100</value>
+  </data>
+  <data name="StringId.ColorPickColorHexValidationMsg" xml:space="preserve">
+    <value>Giá trị không hợp lệ</value>
+  </data>
+  <data name="StringId.ColorPickGreenValidationMsg" xml:space="preserve">
+    <value>Thành phần màu xanh lá cây nên trong phạm vi 0..255</value>
+  </data>
+  <data name="StringId.ColorPickHueAxisName" xml:space="preserve">
+    <value>Huế</value>
+  </data>
+  <data name="StringId.ColorPickHueValidationMsg" xml:space="preserve">
+    <value>Huế thành phần nên trong phạm vi 0..359</value>
+  </data>
+  <data name="StringId.ColorPickLuminanceAxisName" xml:space="preserve">
+    <value>Luminance</value>
+  </data>
+  <data name="StringId.ColorPickOpacityValidationMsg" xml:space="preserve">
+    <value>Thành phần opacity phải ở trong phạm vi 0..255</value>
+  </data>
+  <data name="StringId.ColorPickPopupRecentColorsGroupCaption" xml:space="preserve">
+    <value>Tại màu sắc</value>
+  </data>
+  <data name="StringId.ColorPickPopupStandardColorsGroupCaption" xml:space="preserve">
+    <value>Tiêu chuẩn màu sắc</value>
+  </data>
+  <data name="StringId.ColorPickPopupThemeColorsGroupCaption" xml:space="preserve">
+    <value>Chủ đề màu sắc</value>
+  </data>
+  <data name="StringId.ColorPickRedValidationMsg" xml:space="preserve">
+    <value>Thành phần màu đỏ nên trong phạm vi 0..255</value>
+  </data>
+  <data name="StringId.ColorPickSaturationAxisName" xml:space="preserve">
+    <value>Bão hòa</value>
+  </data>
+  <data name="StringId.ColorPickSaturationValidationMsg" xml:space="preserve">
+    <value>Bão hòa thành phần nên trong phạm vi 0..100</value>
+  </data>
+  <data name="StringId.ColorScaleBlueWhiteRed" xml:space="preserve">
+    <value>Màu xanh - trắng - đỏ</value>
+  </data>
+  <data name="StringId.ColorScaleEmeraldAzureBlue" xml:space="preserve">
+    <value>Emerald - Azure - Blue</value>
+  </data>
+  <data name="StringId.ColorScaleGreenWhiteRed" xml:space="preserve">
+    <value>Màu xanh lá cây - trắng - đỏ</value>
+  </data>
+  <data name="StringId.ColorScaleGreenYellowRed" xml:space="preserve">
+    <value>Màu xanh lá cây - màu vàng - đỏ</value>
+  </data>
+  <data name="StringId.ColorScalePurpleWhiteAzure" xml:space="preserve">
+    <value>Azure - trắng - tím</value>
+  </data>
+  <data name="StringId.ColorScaleWhiteAzure" xml:space="preserve">
+    <value>Trắng - xanh</value>
+  </data>
+  <data name="StringId.ColorScaleWhiteGreen" xml:space="preserve">
+    <value>Trắng - xanh</value>
+  </data>
+  <data name="StringId.ColorScaleWhiteRed" xml:space="preserve">
+    <value>Trắng - đỏ</value>
+  </data>
+  <data name="StringId.ColorScaleYellowGreen" xml:space="preserve">
+    <value>Màu vàng - màu xanh lá cây</value>
+  </data>
+  <data name="StringId.ColorScaleYellowOrangeCoral" xml:space="preserve">
+    <value>Màu vàng - cam - Coral</value>
+  </data>
+  <data name="StringId.ColorTabWebSafeColors" xml:space="preserve">
+    <value>Web-Safe</value>
+  </data>
+  <data name="StringId.DataBarBlue" xml:space="preserve">
+    <value>Blue dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarBlueGradient" xml:space="preserve">
+    <value>Gradient Blue dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarCoral" xml:space="preserve">
+    <value>Coral dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarCoralGradient" xml:space="preserve">
+    <value>Coral dữ liệu Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarGreen" xml:space="preserve">
+    <value>Màu xanh lá cây dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarGreenGradient" xml:space="preserve">
+    <value>Màu xanh lá cây dữ liệu Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarLightBlue" xml:space="preserve">
+    <value>Ánh sáng màu xanh dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarLightBlueGradient" xml:space="preserve">
+    <value>Ánh sáng màu xanh dữ liệu Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarMint" xml:space="preserve">
+    <value>Mint dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarMintGradient" xml:space="preserve">
+    <value>Mint dữ liệu Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarOrange" xml:space="preserve">
+    <value>Orange dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarOrangeGradient" xml:space="preserve">
+    <value>Orange dữ liệu Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarRaspberry" xml:space="preserve">
+    <value>Mâm xôi dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarRaspberryGradient" xml:space="preserve">
+    <value>Mâm xôi dữ liệu Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarViolet" xml:space="preserve">
+    <value>Violet dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarVioletGradient" xml:space="preserve">
+    <value>Violet dữ liệu Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarYellow" xml:space="preserve">
+    <value>Vàng dữ liệu Bar</value>
+  </data>
+  <data name="StringId.DataBarYellowGradient" xml:space="preserve">
+    <value>Vàng dữ liệu Bar Gradient</value>
+  </data>
+  <data name="StringId.DataUpdateTriggerChanged" xml:space="preserve">
+    <value>Thay</value>
+  </data>
+  <data name="StringId.DataUpdateTriggerDecreased" xml:space="preserve">
+    <value>Giảm</value>
+  </data>
+  <data name="StringId.DataUpdateTriggerIncreased" xml:space="preserve">
+    <value>Tăng lên</value>
+  </data>
+  <data name="StringId.DXCollectionEditorItemsListGroupCaptionStringFormat" xml:space="preserve">
+    <value>Khoản mục({0})</value>
+  </data>
+  <data name="StringId.DXCollectionEditorSomeItemsTypeAddItemButtonStringFormat" xml:space="preserve">
+    <value>Thêm {0}</value>
+  </data>
+  <data name="StringId.EditFormattingRule" xml:space="preserve">
+    <value>Soạn thảo quy tắc định dạng</value>
+  </data>
+  <data name="StringId.FilterAdvancedDateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>Toán tử ngày và giờ nâng cao</value>
+  </data>
+  <data name="StringId.FilterClauseInRangeFrom" xml:space="preserve">
+    <value>được áp</value>
+  </data>
+  <data name="StringId.FilterClauseInRangeTo" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="StringId.FilterClauseIsNullOrEmpty" xml:space="preserve">
+    <value>Is Blank</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionEndsWith" xml:space="preserve">
+    <value>Kết thúc bằng</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsJanuary" xml:space="preserve">
+    <value>Là ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsJuly" xml:space="preserve">
+    <value>Là ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsJune" xml:space="preserve">
+    <value>Là ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsLastMonth" xml:space="preserve">
+    <value>Là cuối tháng</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsMarch" xml:space="preserve">
+    <value>Là ba</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNextMonth" xml:space="preserve">
+    <value>Tiếp theo tháng</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNextYear" xml:space="preserve">
+    <value>Năm tới</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOctober" xml:space="preserve">
+    <value>Là ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsSameDay" xml:space="preserve">
+    <value>Là cùng một ngày</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastYear" xml:space="preserve">
+    <value>Last year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoMonthsAway" xml:space="preserve">
+    <value>Hai tháng xa</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoYearsAway" xml:space="preserve">
+    <value>Hai năm xa</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYearBeforeToday" xml:space="preserve">
+    <value>Một năm trước</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToDecimal" xml:space="preserve">
+    <value>Đến thập phân</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToDouble" xml:space="preserve">
+    <value>Tăng gấp đôi</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToFloat" xml:space="preserve">
+    <value>Để nổi</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToInt" xml:space="preserve">
+    <value>Để int</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToLong" xml:space="preserve">
+    <value>Để lâu</value>
+  </data>
+  <data name="StringId.FilterCustomFunctionsMenuCaption" xml:space="preserve">
+    <value>Chức năng tùy chỉnh</value>
+  </data>
+  <data name="StringId.FilterEmptyField" xml:space="preserve">
+    <value>Tên trường</value>
+  </data>
+  <data name="StringId.FilterExpressionEmptyText" xml:space="preserve">
+    <value>Chỉnh sửa biểu hiện...</value>
+  </data>
+  <data name="StringId.FilterMenuExpressionAdd" xml:space="preserve">
+    <value>Thêm tùy chỉnh biểu hiện</value>
+  </data>
+  <data name="StringId.FilterNewEmptyEnter" xml:space="preserve">
+    <value>Nhập một giá trị...</value>
+  </data>
+  <data name="StringId.FilterNewEmptyParameter" xml:space="preserve">
+    <value>Nhập tên tham số...</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarShowOnlyAvailableItems" xml:space="preserve">
+    <value>Hiển thị chỉ có mục</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceBoldText" xml:space="preserve">
+    <value>Bold văn bản</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenBoldText" xml:space="preserve">
+    <value>Văn bản màu xanh lá cây đậm</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenFill" xml:space="preserve">
+    <value>Màu xanh lá cây điền</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenFillGreenText" xml:space="preserve">
+    <value>Màu xanh lá cây điền vào với các văn bản màu xanh lá cây</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenText" xml:space="preserve">
+    <value>Văn bản màu xanh lá cây</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceItalicText" xml:space="preserve">
+    <value>Văn bản nghiêng</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedBoldText" xml:space="preserve">
+    <value>Văn bản màu đỏ đậm</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedFill" xml:space="preserve">
+    <value>Red điền</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedFillRedText" xml:space="preserve">
+    <value>Red điền vào với văn bản màu đỏ</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedText" xml:space="preserve">
+    <value>Văn bản màu đỏ</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceStrikeoutText" xml:space="preserve">
+    <value>Văn bản gaïch</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceYellowFillYellowText" xml:space="preserve">
+    <value>Tô màu vàng với màu vàng văn bản</value>
+  </data>
+  <data name="StringId.FormatRuleAboveAverageText" xml:space="preserve">
+    <value>Định dạng tế bào mà là trên trung bình</value>
+  </data>
+  <data name="StringId.FormatRuleApplyFormatProperty" xml:space="preserve">
+    <value>Áp dụng định dạng, để một toàn bộ hàng</value>
+  </data>
+  <data name="StringId.FormatRuleApplyFormatPropertyRecord" xml:space="preserve">
+    <value>Áp dụng định dạng cho toàn bộ bản ghi</value>
+  </data>
+  <data name="StringId.FormatRuleBelowAverageText" xml:space="preserve">
+    <value>Định dạng tế bào mà là dưới trung bình</value>
+  </data>
+  <data name="StringId.FormatRuleBetweenText" xml:space="preserve">
+    <value>Định dạng tế bào là giữa</value>
+  </data>
+  <data name="StringId.FormatRuleBottomText" xml:space="preserve">
+    <value>Định dạng tế bào mà xếp hạng ở dưới cùng</value>
+  </data>
+  <data name="StringId.FormatRuleCustomConditionText" xml:space="preserve">
+    <value>Định dạng tế bào mà phù hợp với điều kiện sau</value>
+  </data>
+  <data name="StringId.FormatRuleDataUpdateText" xml:space="preserve">
+    <value>Định dạng ô có giá trị</value>
+  </data>
+  <data name="StringId.FormatRuleDateOccurring" xml:space="preserve">
+    <value>Định dạng tế bào có chứa một ngày phù hợp với các điều kiện</value>
+  </data>
+  <data name="StringId.FormatRuleDuplicateText" xml:space="preserve">
+    <value>Định dạng tế bào có giá trị lặp lại</value>
+  </data>
+  <data name="StringId.FormatRuleEqualToText" xml:space="preserve">
+    <value>Định dạng tế bào mà là tương đương để</value>
+  </data>
+  <data name="StringId.FormatRuleExpressionEmptyEnter" xml:space="preserve">
+    <value>&lt; nhập một biểu hiện &gt;</value>
+  </data>
+  <data name="StringId.FormatRuleForThisRowWith" xml:space="preserve">
+    <value>cho hàng này với</value>
+  </data>
+  <data name="StringId.FormatRuleGreaterThanText" xml:space="preserve">
+    <value>Định dạng tế bào mà là lớn hơn</value>
+  </data>
+  <data name="StringId.FormatRuleLessThanText" xml:space="preserve">
+    <value>Định dạng tế bào có ít THAN</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBottom10Items" xml:space="preserve">
+    <value>Dưới 10 mục</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBottom10Percent" xml:space="preserve">
+    <value>Dưới 10%</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemClearAllRules" xml:space="preserve">
+    <value>Các quy tắc rõ ràng từ tất cả các cột</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemClearColumnRules" xml:space="preserve">
+    <value>Các quy tắc rõ ràng từ cột này</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemClearRules" xml:space="preserve">
+    <value>Quy tắc rõ ràng</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemColorScaleDescription" xml:space="preserve">
+    <value>Áp dụng một màu gradient để một loạt các
+tế bào trong cột này. Màu sắc chỉ ra
+nơi mỗi tế bào nằm trong phạm vi đó.</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemColorScales" xml:space="preserve">
+    <value>Màu quy mô</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemCustomCondition" xml:space="preserve">
+    <value>Tùy chỉnh điều kiện</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDataBarDescription" xml:space="preserve">
+    <value>Thêm một thanh màu dữ liệu để đại diện cho
+giá trị trong một tế bào. Cao hơn các
+giá trị, còn Bar</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDataBars" xml:space="preserve">
+    <value>Dữ liệu thanh</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDataUpdateRules" xml:space="preserve">
+    <value>Quy tắc Cập nhật dữ liệu</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDateOccurring" xml:space="preserve">
+    <value>Một ngày xảy ra</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDuplicate" xml:space="preserve">
+    <value>Lặp lại giá trị</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemEqualTo" xml:space="preserve">
+    <value>equal to</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemGradientFill" xml:space="preserve">
+    <value>Gradient điền</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemHighlightCellRules" xml:space="preserve">
+    <value>Đánh dấu di động quy tắc</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemLessThan" xml:space="preserve">
+    <value>less than</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemSolidFill" xml:space="preserve">
+    <value>Rắn điền</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTop10Items" xml:space="preserve">
+    <value>Top 10 items</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTop10Percent" xml:space="preserve">
+    <value>Top 10%</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTopBottomRules" xml:space="preserve">
+    <value>Quy tắc trên/dưới cùng</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemUniqueDuplicateRules" xml:space="preserve">
+    <value>Quy tắc duy nhất/trùng lặp</value>
+  </data>
+  <data name="StringId.FormatRuleNoCellIcon" xml:space="preserve">
+    <value>Không có biểu tượng di động</value>
+  </data>
+  <data name="StringId.FormatRuleTextThatContainsText" xml:space="preserve">
+    <value>Định dạng tế bào có chứa văn bản</value>
+  </data>
+  <data name="StringId.FormatRuleTopText" xml:space="preserve">
+    <value>Định dạng tế bào mà xếp hạng trong TOP</value>
+  </data>
+  <data name="StringId.FormatRuleUniqueText" xml:space="preserve">
+    <value>Định dạng tế bào mà là giá trị duy nhất</value>
+  </data>
+  <data name="StringId.IconSetCategoryDirectional" xml:space="preserve">
+    <value>Định hướng</value>
+  </data>
+  <data name="StringId.IconSetCategoryPositiveNegative" xml:space="preserve">
+    <value>Tích cực/tiêu cực</value>
+  </data>
+  <data name="StringId.IconSetCategoryRatings" xml:space="preserve">
+    <value>Xếp hạng</value>
+  </data>
+  <data name="StringId.IconSetCategoryShapes" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows3Colored" xml:space="preserve">
+    <value>3 Mũi tên (màu)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows3Gray" xml:space="preserve">
+    <value>3 Mũi tên (màu xám)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows4Colored" xml:space="preserve">
+    <value>4 Mũi tên (màu)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows4Gray" xml:space="preserve">
+    <value>4 Mũi tên (màu xám)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows5Colored" xml:space="preserve">
+    <value>5 Mũi tên (màu)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows5Gray" xml:space="preserve">
+    <value>5 Mũi tên (màu xám)</value>
+  </data>
+  <data name="StringId.IconSetTitleBoxes5" xml:space="preserve">
+    <value>5 Hộp</value>
+  </data>
+  <data name="StringId.IconSetTitleFlags3" xml:space="preserve">
+    <value>3 Lá cờ</value>
+  </data>
+  <data name="StringId.IconSetTitlePositiveNegativeArrows" xml:space="preserve">
+    <value>Mũi tên (màu)</value>
+  </data>
+  <data name="StringId.IconSetTitlePositiveNegativeArrowsGray" xml:space="preserve">
+    <value>Mũi tên (màu xám)</value>
+  </data>
+  <data name="StringId.IconSetTitlePositiveNegativeTriangles" xml:space="preserve">
+    <value>Hình tam giác</value>
+  </data>
+  <data name="StringId.IconSetTitleQuarters5" xml:space="preserve">
+    <value>5 Khu</value>
+  </data>
+  <data name="StringId.IconSetTitleRatings4" xml:space="preserve">
+    <value>4 Xếp hạng</value>
+  </data>
+  <data name="StringId.IconSetTitleRatings5" xml:space="preserve">
+    <value>5 Xếp hạng</value>
+  </data>
+  <data name="StringId.IconSetTitleRedToBlack" xml:space="preserve">
+    <value>Màu đỏ đen</value>
+  </data>
+  <data name="StringId.IconSetTitleSigns3" xml:space="preserve">
+    <value>3 Dấu hiệu</value>
+  </data>
+  <data name="StringId.IconSetTitleStars3" xml:space="preserve">
+    <value>3 Sao</value>
+  </data>
+  <data name="StringId.IconSetTitleSymbols3Circled" xml:space="preserve">
+    <value>3 Biểu tượng (vòng)</value>
+  </data>
+  <data name="StringId.IconSetTitleSymbols3Uncircled" xml:space="preserve">
+    <value>3 Biểu tượng (Uncircled)</value>
+  </data>
+  <data name="StringId.IconSetTitleTrafficLights3Rimmed" xml:space="preserve">
+    <value>3 Đèn giao thông (gọng)</value>
+  </data>
+  <data name="StringId.IconSetTitleTrafficLights3Unrimmed" xml:space="preserve">
+    <value>3 đèn giao thông (Unrimmed)</value>
+  </data>
+  <data name="StringId.IconSetTitleTrafficLights4" xml:space="preserve">
+    <value>Đèn giao thông 4</value>
+  </data>
+  <data name="StringId.IconSetTitleTriangles3" xml:space="preserve">
+    <value>3 Tam giác</value>
+  </data>
+  <data name="StringId.ImageEditorDialogCaption" xml:space="preserve">
+    <value>Chỉnh sửa hình ảnh</value>
+  </data>
+  <data name="StringId.ManageRuleAverageAbove" xml:space="preserve">
+    <value>Ở trên</value>
+  </data>
+  <data name="StringId.ManageRuleAverageBelow" xml:space="preserve">
+    <value>dưới đây</value>
+  </data>
+  <data name="StringId.ManageRuleAverageEqualOrAbove" xml:space="preserve">
+    <value>Bằng hoặc cao hơn</value>
+  </data>
+  <data name="StringId.ManageRuleAverageEqualOrBelow" xml:space="preserve">
+    <value>Bằng hoặc dưới đây</value>
+  </data>
+  <data name="StringId.ManageRuleAverageFormatValuesThatAre" xml:space="preserve">
+    <value>Định dạng giá trị:</value>
+  </data>
+  <data name="StringId.ManageRuleAverageTheAverageForTheSelectedRange" xml:space="preserve">
+    <value>mức trung bình của các giá trị cột</value>
+  </data>
+  <data name="StringId.ManageRuleAverageTheAverageForTheSelectedRangeRow" xml:space="preserve">
+    <value>giá trị trung bình của hàng</value>
+  </data>
+  <data name="StringId.ManageRuleCaption" xml:space="preserve">
+    <value>Quản lý quy tắc định dạng có điều kiện</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueEqualTo" xml:space="preserve">
+    <value>equal to</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueLessThan" xml:space="preserve">
+    <value>less than</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueLessThanOrEqualTo" xml:space="preserve">
+    <value>less than or equal to</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueNotBetween" xml:space="preserve">
+    <value>not between</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueNotEqualTo" xml:space="preserve">
+    <value>not equal to</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale" xml:space="preserve">
+    <value>Xếp loại màu quy mô</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale2" xml:space="preserve">
+    <value>2-màu quy mô</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale3" xml:space="preserve">
+    <value>3-màu quy mô</value>
+  </data>
+  <data name="StringId.ManageRuleColorScaleMidpoint" xml:space="preserve">
+    <value>Trung điểm</value>
+  </data>
+  <data name="StringId.ManageRuleCommonType" xml:space="preserve">
+    <value>Loại:</value>
+  </data>
+  <data name="StringId.ManageRuleComplexRuleBaseFormatStyle" xml:space="preserve">
+    <value>Định dạng phong cách:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBar" xml:space="preserve">
+    <value>Dữ liệu Bar</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarAxisColor" xml:space="preserve">
+    <value>Axis color:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarBarAppearance" xml:space="preserve">
+    <value>Thanh xuất hiện:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarBarDirection" xml:space="preserve">
+    <value>Bar hướng</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarBorder" xml:space="preserve">
+    <value>Biên giới:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarFill" xml:space="preserve">
+    <value>Điền vào:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarGradientFill" xml:space="preserve">
+    <value>Gradient điền</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarNoBorder" xml:space="preserve">
+    <value>Không có biên giới</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarSolidBorder" xml:space="preserve">
+    <value>Rắn biên giới</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarSolidFill" xml:space="preserve">
+    <value>Rắn điền</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarUseNegativeBar" xml:space="preserve">
+    <value>Sử dụng âm thanh</value>
+  </data>
+  <data name="StringId.ManageRuleDataUpdate" xml:space="preserve">
+    <value>Cập nhật dữ liệu</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringBeyond" xml:space="preserve">
+    <value>Sau tháng trong thời gian 2 tháng</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringEarlier" xml:space="preserve">
+    <value>Trước khi đến tháng 6 vài tháng trước đây</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringEarlierThisMonth" xml:space="preserve">
+    <value>Tháng này, trước khi tuần trước</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringEarlierThisWeek" xml:space="preserve">
+    <value>Tuần này, trước khi hôm qua</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringEarlierThisYear" xml:space="preserve">
+    <value>Năm nay, trước khi tháng này</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLastWeek" xml:space="preserve">
+    <value>Cuối tuần</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLaterThisMonth" xml:space="preserve">
+    <value>Tháng này, vượt ra ngoài tuần tới</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLaterThisWeek" xml:space="preserve">
+    <value>Tuần này, hơn thế nữa ngày mai</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLaterThisYear" xml:space="preserve">
+    <value>Năm nay, tháng này</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAfter1" xml:space="preserve">
+    <value>Tiếp theo tháng</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAfter2" xml:space="preserve">
+    <value>Trong tháng trong thời gian 2 tháng</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo2" xml:space="preserve">
+    <value>Trong tháng 2 vài tháng trước đây</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo3" xml:space="preserve">
+    <value>Trong tháng 3 vài tháng trước đây</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo4" xml:space="preserve">
+    <value>Trong tháng 4 vài tháng trước đây</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo5" xml:space="preserve">
+    <value>Trong tháng 5 vài tháng trước đây</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo6" xml:space="preserve">
+    <value>Trong tháng 6 vài tháng trước đây</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringNextWeek" xml:space="preserve">
+    <value>Tiếp theo tuần</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringPriorThisYear" xml:space="preserve">
+    <value>Trước khi năm nay</value>
+  </data>
+  <data name="StringId.ManageRuleEditRule" xml:space="preserve">
+    <value>Soạn thảo quy tắc...</value>
+  </data>
+  <data name="StringId.ManageRuleEqualOrAboveAverage" xml:space="preserve">
+    <value>Bình đẳng để hoặc trên trung bình</value>
+  </data>
+  <data name="StringId.ManageRuleEqualOrBelowAverage" xml:space="preserve">
+    <value>Bình đẳng để hoặc dưới mức trung bình</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsBackgroundColor" xml:space="preserve">
+    <value>Background Color:</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsCaption" xml:space="preserve">
+    <value>Định dạng tế bào</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsEffects" xml:space="preserve">
+    <value>Tác dụng:</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFill" xml:space="preserve">
+    <value>Điền vào</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFontColor" xml:space="preserve">
+    <value>Màu sắc font</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFontSizeDelta" xml:space="preserve">
+    <value>Cỡ Phông Delta:</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFontStyle" xml:space="preserve">
+    <value>Loại phông</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsPredefinedAppearance" xml:space="preserve">
+    <value>Được xác định trước xuất hiện</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsRegular" xml:space="preserve">
+    <value>Thường xuyên</value>
+  </data>
+  <data name="StringId.ManageRuleFormulaFormatValuesWhereThisFormulaIsTrue" xml:space="preserve">
+    <value>Định dạng giá trị mà công thức này là sự thật:</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionApplyToTheRecord" xml:space="preserve">
+    <value>Áp dụng cho bản ghi</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionColumnApplyTo" xml:space="preserve">
+    <value>Cột áp dụng cho</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionRowApplyTo" xml:space="preserve">
+    <value>Hàng Áp dụng cho</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionStopIfTrue" xml:space="preserve">
+    <value>Dừng nếu đúng sự thật</value>
+  </data>
+  <data name="StringId.ManageRuleIconSet" xml:space="preserve">
+    <value>Biểu tượng thiết lập</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsDisplayEachIconAccordingToTheseRules" xml:space="preserve">
+    <value>Hiển thị mỗi biểu tượng theo những quy tắc này:</value>
+  </data>
+  <data name="StringId.ManageRuleMillisecond" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="StringId.ManageRuleNoFormatSet" xml:space="preserve">
+    <value>Định dạng không có thiết lập</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesFormatValuesThatRankInThe" xml:space="preserve">
+    <value>Định dạng giá trị đó đánh giá trong những:</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesOfTheRowCellValues" xml:space="preserve">
+    <value>% giá trị hàng</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextNotContaining" xml:space="preserve">
+    <value>not containing</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainCellValue" xml:space="preserve">
+    <value>Giá trị di động</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainDatesOccurring" xml:space="preserve">
+    <value>Ngày xảy ra</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainFormatOnlyCellsWith" xml:space="preserve">
+    <value>Định dạng chỉ các tế bào với:</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateDuplicate" xml:space="preserve">
+    <value>duplicate</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateUnique" xml:space="preserve">
+    <value>Độc đáo</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateValuesInTheSelectedRangeRow" xml:space="preserve">
+    <value>giá trị hàng</value>
+  </data>
+  <data name="StringId.ManageRuleValuesFor" xml:space="preserve">
+    <value>giá trị cho</value>
+  </data>
+  <data name="StringId.Millisecs" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyChangingValues" xml:space="preserve">
+    <value>Chỉ định dạng thay đổi giá trị</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyValuesThatAreAboveOrBelowAverage" xml:space="preserve">
+    <value>Định dạng chỉ có giá trị mà ở trên hoặc dưới mức trung bình</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleSelectARuleType" xml:space="preserve">
+    <value>Chọn một loại quy tắc:</value>
+  </data>
+  <data name="StringId.OfficeNavigationOptions" xml:space="preserve">
+    <value>Tùy chọn chuyển hướng</value>
+  </data>
+  <data name="StringId.ProgressCopyingData" xml:space="preserve">
+    <value>Copying</value>
+  </data>
+  <data name="StringId.ProgressPanelDefaultCaption" xml:space="preserve">
+    <value>Xin vui lòng chờ đợi</value>
+  </data>
+  <data name="StringId.ProgressPastingData" xml:space="preserve">
+    <value>Pasting</value>
+  </data>
+  <data name="StringId.RestoreLayoutDialogTitle" xml:space="preserve">
+    <value>Khôi phục lại bố trí</value>
+  </data>
+  <data name="StringId.SaveLayoutDialogTitle" xml:space="preserve">
+    <value>Lưu bố trí</value>
+  </data>
+  <data name="StringId.SearchControlNullValuePrompt" xml:space="preserve">
+    <value>Nhập văn bản để tìm...</value>
+  </data>
+  <data name="StringId.SearchControlSearchByMemberAny" xml:space="preserve">
+    <value>bất kỳ</value>
+  </data>
+  <data name="StringId.SearchForColumn" xml:space="preserve">
+    <value>Tìm kiếm một cột...</value>
+  </data>
+  <data name="StringId.SearchForField" xml:space="preserve">
+    <value>Tìm kiếm một lĩnh vực...</value>
+  </data>
+  <data name="StringId.SyntaxEditFindPanelExpandButtonTooltip" xml:space="preserve">
+    <value>Chuyển đổi để chuyển đổi giữa các chế độ tìm và thay thế</value>
+  </data>
+  <data name="StringId.SyntaxEditFindPanelFindCaption" xml:space="preserve">
+    <value>Tìm thấy...</value>
+  </data>
+  <data name="StringId.SyntaxEditFindPanelFindNextButtonTooltip" xml:space="preserve">
+    <value>Tìm tiếp theo</value>
+  </data>
+  <data name="StringId.SyntaxEditFindPanelFindPreviousButtonTooltip" xml:space="preserve">
+    <value>Tìm trước</value>
+  </data>
+  <data name="StringId.SyntaxEditReplaceAllButtonTooltip" xml:space="preserve">
+    <value>Thay thế tất cả</value>
+  </data>
+  <data name="StringId.SyntaxEditReplaceButtonTooltip" xml:space="preserve">
+    <value>Thay thế</value>
+  </data>
+  <data name="StringId.TabHeaderButtonDown" xml:space="preserve">
+    <value>Di chuyển xuống</value>
+  </data>
+  <data name="StringId.TabHeaderButtonPin" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="StringId.TabHeaderSelectorButton" xml:space="preserve">
+    <value>Hiển thị cửa sổ danh sách</value>
+  </data>
+  <data name="StringId.TakePictureDialogCapture" xml:space="preserve">
+    <value>Nắm bắt</value>
+  </data>
+  <data name="StringId.TakePictureMenuItem" xml:space="preserve">
+    <value>Take Picture From Camera</value>
+  </data>
+  <data name="StringId.TimeSpanDays" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="StringId.TimeSpanFractionalSeconds" xml:space="preserve">
+    <value>Fractional</value>
+  </data>
+  <data name="StringId.TimeSpanFractionalSecondsPlural" xml:space="preserve">
+    <value>Fractional</value>
+  </data>
+  <data name="StringId.TimeSpanFractionalSecondsShort" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="StringId.TimeSpanHours" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="StringId.TimeSpanHoursShort" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="StringId.TimeSpanMilliseconds" xml:space="preserve">
+    <value>Millisecond</value>
+  </data>
+  <data name="StringId.TimeSpanMillisecondsPlural" xml:space="preserve">
+    <value>milliseconds</value>
+  </data>
+  <data name="StringId.TimeSpanMillisecondsShort" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="StringId.TimeSpanMinutes" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="StringId.TimeSpanMinutesPlural" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="StringId.TimeSpanSeconds" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="StringId.TimeSpanSecondsPlural" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="StringId.TimeSpanSecondsShort" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="StringId.XtraMessageBoxDoNotShowThisMessageAgain" xml:space="preserve">
+    <value>Hiển thị thông báo này lại</value>
+  </data>
+</root>

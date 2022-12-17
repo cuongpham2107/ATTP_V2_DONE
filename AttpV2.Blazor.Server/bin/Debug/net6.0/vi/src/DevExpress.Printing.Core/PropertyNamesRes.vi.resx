@@ -1,0 +1,1782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DevExpress.XtraReports.Parameters.ParameterType.String" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.ParameterType.DateTime" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.ParameterType.Int32" xml:space="preserve">
+    <value>Int32</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.ParameterType.Float" xml:space="preserve">
+    <value>Float</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.ParameterType.Double" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.ParameterType.Decimal" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.ParameterType.Boolean" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.Visible" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings.DataSource" xml:space="preserve">
+    <value>Nguồn Dữ liệu</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings.DataMember" xml:space="preserve">
+    <value>Thành phần Dữ liệu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Rectangle" xml:space="preserve">
+    <value>Chữ nhật</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Ellipse" xml:space="preserve">
+    <value>Êllíp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Arrow" xml:space="preserve">
+    <value>Mũi tên</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.TopArrow" xml:space="preserve">
+    <value>Đỉnh Mũi tên</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.BottomArrow" xml:space="preserve">
+    <value>Đáy Mũi tên</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.LeftArrow" xml:space="preserve">
+    <value>Mũi tên Trái</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.RightArrow" xml:space="preserve">
+    <value>Mũi tên Phải</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Polygon" xml:space="preserve">
+    <value>Đa giác</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Triangle" xml:space="preserve">
+    <value>Tam giác</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Square" xml:space="preserve">
+    <value>Vuông</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Pentagon" xml:space="preserve">
+    <value>Ngũ giác</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Hexagon" xml:space="preserve">
+    <value>Lục giác</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Octagon" xml:space="preserve">
+    <value>Bát giác</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Star" xml:space="preserve">
+    <value>Sao</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.ThreePointStar" xml:space="preserve">
+    <value>Sao 3 Cánh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.FourPointStar" xml:space="preserve">
+    <value>Sao 4 Cánh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.FivePointStar" xml:space="preserve">
+    <value>Sao 5 Cánh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.SixPointStar" xml:space="preserve">
+    <value>Sao 6 Cánh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.EightPointStar" xml:space="preserve">
+    <value>Sao 8 Cánh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Line" xml:space="preserve">
+    <value>Đường</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.SlantLine" xml:space="preserve">
+    <value>Đường Nghiêng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.BackslantLine" xml:space="preserve">
+    <value>Đường Nghiêng sau</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.HorizontalLine" xml:space="preserve">
+    <value>Đường Ngang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.VerticalLine" xml:space="preserve">
+    <value>Đường Dọc</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Cross" xml:space="preserve">
+    <value>Chữ thập</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Brace" xml:space="preserve">
+    <value>Nối</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.Native.ShapeId.Bracket" xml:space="preserve">
+    <value>Dấu ngoặc</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.LookUpSettings.DataMember" xml:space="preserve">
+    <value>Thành phần Dữ liệu</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.LookUpSettings.DataSource" xml:space="preserve">
+    <value>Nguồn Dữ liệu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.BarCodeOrientation.RotateRight" xml:space="preserve">
+    <value>Cuộn sang Bên phải</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextExportOptionsBase.QuoteStringsWithSeparators" xml:space="preserve">
+    <value>Trích dẫn Các chuỗi với Dải phân cách</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.EmailOptions" xml:space="preserve">
+    <value>Tùy chọn E-mail</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.EAN128Generator.FNC1Substitute" xml:space="preserve">
+    <value>Ký tự Chức năng FNC1</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ChangingPermissions.AnyExceptExtractingPages" xml:space="preserve">
+    <value>Bất kỳ Ngoại trừ Các trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix24x24" xml:space="preserve">
+    <value>24 x 24</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix40x40" xml:space="preserve">
+    <value>40 x 40</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.PrintOnPages.NotWithReportFooter" xml:space="preserve">
+    <value>Không có Tiêu đề đầu Báo cáo</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất Văn bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level1" xml:space="preserve">
+    <value>Mức 1</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Code128Charset.CharsetA" xml:space="preserve">
+    <value>Charset A</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrinterSettingsUsing" xml:space="preserve">
+    <value>Sử dụng Thiết lập Máy in</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrinterSettingsUsing.UseLandscape" xml:space="preserve">
+    <value>Sử dụng Giấy ngang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportMode.SingleFile" xml:space="preserve">
+    <value>Tệp Đơn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất XLS</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeStar.StarPointCount" xml:space="preserve">
+    <value>Đếm Điểm Sao</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintPreviewOptions.DefaultDirectory" xml:space="preserve">
+    <value>Thư mục Mặc định</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.VerticalAnchorStyles.Bottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.ShowPrintDialogOnOpen" xml:space="preserve">
+    <value>Hiển thị Hộp thoại In lúc Mở</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.CsvExportOptions.SkipEmptyColumns" xml:space="preserve">
+    <value>Bỏ qua cột trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level3" xml:space="preserve">
+    <value>Mức 3</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsDocumentOptions.Keywords" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.PrintOnPages.NotWithReportHeader" xml:space="preserve">
+    <value>Not with Report Header</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất Hình ảnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix16x48" xml:space="preserve">
+    <value>16 x 48</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix14x14" xml:space="preserve">
+    <value>14 x 14</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.LineDirection.Horizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.MSICheckSum.DoubleModulo10" xml:space="preserve">
+    <value>Modulo Kép 10</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.ImageTransparency" xml:space="preserve">
+    <value>Hình Trong suốt</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.RtfExportMode.SingleFilePageByPage" xml:space="preserve">
+    <value>Tệp Đơn (Page-by-Page)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxExportMode.SingleFilePageByPage" xml:space="preserve">
+    <value>Tệp Đơn (Page-by-Page)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPermissionsOptions.EnableCopying" xml:space="preserve">
+    <value>Cho phép Sao chép</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix20x20" xml:space="preserve">
+    <value>20 x 20</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.ExportMode" xml:space="preserve">
+    <value>Chế độ Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ChangingPermissions.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.PageBorderWidth" xml:space="preserve">
+    <value>Độ rộng Đường viền Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PDF417Generator.Columns" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.BarCodeOrientation.RotateLeft" xml:space="preserve">
+    <value>Cuộn sang Bên trái</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportMode.SingleFile" xml:space="preserve">
+    <value>Tệp Đơn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất HTML</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PDF417Generator.TruncateSymbol" xml:space="preserve">
+    <value>Cắt bỏ Ký tự đặc biệt</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Industrial2of5Generator.WideNarrowRatio" xml:space="preserve">
+    <value>Tỷ lệ Rộng Hẹp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.RtfExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất RTF</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsExportOptions.DocumentOptions" xml:space="preserve">
+    <value>Tùy chọn Tài liệu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.CsvExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất CSV</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix132x132" xml:space="preserve">
+    <value>132 x 132</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.LineDirection.Slant" xml:space="preserve">
+    <value>Xiên</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.ShowGridLines" xml:space="preserve">
+    <value>Hiển thị Đường Lưới</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixGenerator.MatrixSize" xml:space="preserve">
+    <value>Kích thước Ma trận</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfDocumentOptions.Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPermissionsOptions.ChangingPermissions" xml:space="preserve">
+    <value>Thay đổi Quyền truy cập</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix32x32" xml:space="preserve">
+    <value>32 x 32</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ActionAfterExport.Open" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintPreviewOptions" xml:space="preserve">
+    <value>Tùy chọn Xem trước khi in</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.LineDirection.Vertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix12x26" xml:space="preserve">
+    <value>12 x 26</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfDocumentOptions" xml:space="preserve">
+    <value>Tùy chọn Tài liệu PDF</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.ImageAlign" xml:space="preserve">
+    <value>Căn Hình ảnh</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.VerticalAnchorStyles.Top" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix26x26" xml:space="preserve">
+    <value>26 x 26</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsDocumentOptions.Category" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.Suppress256ColumnsWarning" xml:space="preserve">
+    <value>Chặn Cảnh báo 256 Cột</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextExportOptionsBase.Encoding" xml:space="preserve">
+    <value>Mã hóa</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level7" xml:space="preserve">
+    <value>Mức 7</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopPair.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintPreviewOptions.SaveMode" xml:space="preserve">
+    <value>Chế độ Ghi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportMode.DifferentFiles" xml:space="preserve">
+    <value>Các tệp Khác nhau</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ChangingPermissions.InsertingDeletingRotating" xml:space="preserve">
+    <value>Chèn Xóa Cuộn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeArrow.ArrowHeight" xml:space="preserve">
+    <value>Chiều cao Mũi tên</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.FilletShapeBase.Fillet" xml:space="preserve">
+    <value>Fillet</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.EmailOptions.RecipientAddress" xml:space="preserve">
+    <value>Địa chỉ Người nhận</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptions.EmbedImagesInHTML" xml:space="preserve">
+    <value>Nhúng Hình ảnh Trong HTML</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.HorizontalAnchorStyles.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.RtfExportMode.SingleFile" xml:space="preserve">
+    <value>Tệp Đơn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxExportMode.SingleFile" xml:space="preserve">
+    <value>Tệp Đơn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPasswordSecurityOptions.PermissionsPassword" xml:space="preserve">
+    <value>Mật khẩu Quyền truy cập</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsDocumentOptions.Creator" xml:space="preserve">
+    <value>Người tạo</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PDF417Generator.ErrorCorrectionLevel" xml:space="preserve">
+    <value>Mức Sửa Lỗi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsxExportMode.DifferentFiles" xml:space="preserve">
+    <value>Các tệp Khác nhau</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsDocumentOptions" xml:space="preserve">
+    <value>Tùy chọn Tài liệu XPS</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.DirectionMode.Vertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions.PageBorderWidth" xml:space="preserve">
+    <value>Độ rộng Đường viền Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level8" xml:space="preserve">
+    <value>Mức 8</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SaveMode.UsingDefaultPath" xml:space="preserve">
+    <value>Sử dụng một Đường dẫn Mặc định</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.MhtExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất MHT</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level2" xml:space="preserve">
+    <value>Mức 2</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix80x80" xml:space="preserve">
+    <value>80 x 80</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Code128Charset.CharsetB" xml:space="preserve">
+    <value>Charset B</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextExportMode.Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix64x64" xml:space="preserve">
+    <value>64 x 64</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SaveMode.UsingSaveFileDialog" xml:space="preserve">
+    <value>Sử dụng một Hộp thoại Ghi Tệp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions.Resolution" xml:space="preserve">
+    <value>Độ phân giải</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingPermissions.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.RtfExportOptions.ExportMode" xml:space="preserve">
+    <value>Chế độ Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.EmailOptions.Body" xml:space="preserve">
+    <value>Thân</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level0" xml:space="preserve">
+    <value>Mức 0</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ChangingPermissions.CommentingFillingSigning" xml:space="preserve">
+    <value>Commenting Filling Signing</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextExportMode.Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.Watermark.PageRange" xml:space="preserve">
+    <value>Khoảng Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Interleaved2of5Generator.WideNarrowRatio" xml:space="preserve">
+    <value>Tỷ lệ Rộng Hẹp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapePolygon.NumberOfSides" xml:space="preserve">
+    <value>Số Cạnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ColumnLayout.AcrossThenDown" xml:space="preserve">
+    <value>Đầu tiên Ngang, sau đó Xuống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.TextDirection" xml:space="preserve">
+    <value>Hướng Văn bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfDocumentOptions.Author" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsxExportMode.SingleFile" xml:space="preserve">
+    <value>Tệp Đơn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfJpegImageQuality.Low" xml:space="preserve">
+    <value>Thấp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.ImageTiling" xml:space="preserve">
+    <value>Hình ảnh Lát</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.ImageViewMode.Clip" xml:space="preserve">
+    <value>Xén</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfJpegImageQuality.High" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix52x52" xml:space="preserve">
+    <value>52 x 52</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ActionAfterExport.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ChangingPermissions.FillingSigning" xml:space="preserve">
+    <value>Filling Signing</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.Font" xml:space="preserve">
+    <value>Phông chữ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.ConvertImagesToJpeg" xml:space="preserve">
+    <value>Chuyển Hình ảnh sang Jpeg</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportMode.SingleFilePageByPage" xml:space="preserve">
+    <value>Tệp Đơn (Page-by-Page)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix12x36" xml:space="preserve">
+    <value>12 x 36</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPermissionsOptions.PrintingPermissions" xml:space="preserve">
+    <value>Quyền Truy cập In ấn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level6" xml:space="preserve">
+    <value>Mức 6</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfDocumentOptions.Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.MSICheckSum.Modulo10" xml:space="preserve">
+    <value>Modulo 10</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix18x18" xml:space="preserve">
+    <value>18 x 18</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix16x16" xml:space="preserve">
+    <value>16 x 16</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.DirectionMode.ForwardDiagonal" xml:space="preserve">
+    <value>Chéo Lên</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions.Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.ImageViewMode.Zoom" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeBracket.TipLength" xml:space="preserve">
+    <value>Độ dài Mũi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.MatrixAuto" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeArrow.ArrowWidth" xml:space="preserve">
+    <value>Độ rộng Mũi tên</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix10x10" xml:space="preserve">
+    <value>10 x 10</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportMode.SingleFilePageByPage" xml:space="preserve">
+    <value>Tệp Đơn (Page-by-Page)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportMode.DifferentFiles" xml:space="preserve">
+    <value>Các tệp Khác nhau</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.LineDirection.BackSlant" xml:space="preserve">
+    <value>Xiên Sau</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarGenerator.StartStopPair" xml:space="preserve">
+    <value>Ký hiệu Bắt đầu và Dừng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.DirectionMode.BackwardDiagonal" xml:space="preserve">
+    <value>Chéo Xuống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.BarCodeOrientation.UpsideDown" xml:space="preserve">
+    <value>Lộn ngược</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix12x12" xml:space="preserve">
+    <value>12 x 12</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.VerticalAnchorStyles.Both" xml:space="preserve">
+    <value>Cả hai</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.ImageViewMode.Stretch" xml:space="preserve">
+    <value>Trải rộng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPermissionsOptions.EnableScreenReaders" xml:space="preserve">
+    <value>Cho phép Đọc Màn hình</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.ShowBehind" xml:space="preserve">
+    <value>Hiển thị Phía sau</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintPreviewOptions.ActionAfterExport" xml:space="preserve">
+    <value>Hành động Sau khi Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPermissionsOptions" xml:space="preserve">
+    <value>Tùy chọn Quyền truy cập Pdf</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfJpegImageQuality.Lowest" xml:space="preserve">
+    <value>Thấp nhất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix144x144" xml:space="preserve">
+    <value>144 x 144</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixCompactionMode.Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopPair.CStar" xml:space="preserve">
+    <value>CStar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.NativeFormatOptions" xml:space="preserve">
+    <value>Tùy chọn Định dạng Bản địa</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Code128Charset.CharsetC" xml:space="preserve">
+    <value>Charset C</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix88x88" xml:space="preserve">
+    <value>88 x 88</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfJpegImageQuality.Medium" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfJpegImageQuality.Highest" xml:space="preserve">
+    <value>Cao nhất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix8x18" xml:space="preserve">
+    <value>8 x 18</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix44x44" xml:space="preserve">
+    <value>44 x 44</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.NativeFormatOptions.ShowOptionsBeforeSave" xml:space="preserve">
+    <value>Hiển thị Tùy chọn trước khi Ghi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Code39Generator.WideNarrowRatio" xml:space="preserve">
+    <value>Tỷ lệ Rộng Hẹp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopPair.BN" xml:space="preserve">
+    <value>BN</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PDF417CompactionMode.Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level5" xml:space="preserve">
+    <value>Mức 5</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.PageRange" xml:space="preserve">
+    <value>Khoảng Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.PageBorderColor" xml:space="preserve">
+    <value>Màu Đường viền Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PDF417Generator.YToXRatio" xml:space="preserve">
+    <value>Tỷ lệ Y tới X</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions.PageRange" xml:space="preserve">
+    <value>Khoảng Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextExportOptionsBase.Separator" xml:space="preserve">
+    <value>Dải phân cách</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.ExportWatermarks" xml:space="preserve">
+    <value>Xuất Dấu nước</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ActionAfterExport.AskUser" xml:space="preserve">
+    <value>Hỏi một Người dùng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions.Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPasswordSecurityOptions.PermissionsOptions" xml:space="preserve">
+    <value>Tùy chọn Quyền truy cập</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.PageRange" xml:space="preserve">
+    <value>Khoảng Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.EmailOptions.RecipientAddressPrefix" xml:space="preserve">
+    <value>Tiền tố Địa chỉ Người nhận</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.VerticalAnchorStyles.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.EAN128Generator.HumanReadableText" xml:space="preserve">
+    <value>Văn bản Con người - Có thể đọc được</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsDocumentOptions.Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ITF14Generator.WideNarrowRatio" xml:space="preserve">
+    <value>Tỷ lệ Rộng Hẹp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix22x22" xml:space="preserve">
+    <value>22 x 22</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsxExportOptions.ExportMode" xml:space="preserve">
+    <value>Chế độ Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.Suppress65536RowsWarning" xml:space="preserve">
+    <value>Chặn Cảnh báo 65536 Dòng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsxExportOptions.PageRange" xml:space="preserve">
+    <value>Khoảng Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.TextTransparency" xml:space="preserve">
+    <value>Văn bản Trong suốt</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrinterSettingsUsing.UsePaperKind" xml:space="preserve">
+    <value>Sử dụng Kiểu Giấy</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsxExportMode.SingleFilePageByPage" xml:space="preserve">
+    <value>Tệp Đơn (Page-by-Page)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.BarCodeOrientation.Normal" xml:space="preserve">
+    <value>Thường</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions.PageBorderColor" xml:space="preserve">
+    <value>Màu Đường viền Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PDF417CompactionMode.Binary" xml:space="preserve">
+    <value>Nhị phân</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfDocumentOptions.Application" xml:space="preserve">
+    <value>Ứng dụng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.EmailOptions.RecipientName" xml:space="preserve">
+    <value>Tên Người nhận</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlIgnoreErrors.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Code128Generator.CharacterSet" xml:space="preserve">
+    <value>Bộ Ký tự</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixCompactionMode.X12" xml:space="preserve">
+    <value>X12</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportMode.SingleFilePageByPage" xml:space="preserve">
+    <value>Tệp Đơn (Page-by-Page)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodeMSIGenerator.MSICheckSum" xml:space="preserve">
+    <value>Kiểm tra nguyên vẹn MSI</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.PrintOnPages.AllPages" xml:space="preserve">
+    <value>Tất cả Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeBrace.TailLength" xml:space="preserve">
+    <value>Độ dài Đuôi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.TextExportOptionsBase.TextExportMode" xml:space="preserve">
+    <value>Chế độ Xuất Văn bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix96x96" xml:space="preserve">
+    <value>96 x 96</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportMode.DifferentFiles" xml:space="preserve">
+    <value>Các tệp Khác nhau</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PDF417Generator.CompactionMode" xml:space="preserve">
+    <value>Chế độ Nén</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix120x120" xml:space="preserve">
+    <value>120 x 120</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixCompactionMode.C40" xml:space="preserve">
+    <value>C40</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.DocumentOptions" xml:space="preserve">
+    <value>Tùy chọn Tài liệu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.Image" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeCross.HorizontalLineWidth" xml:space="preserve">
+    <value>Độ rộng Đường Ngang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsDocumentOptions.Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PDF417Generator.Rows" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.CharacterSet" xml:space="preserve">
+    <value>Bộ Ký tự</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsDocumentOptions.Version" xml:space="preserve">
+    <value>Phiên bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopPair.DE" xml:space="preserve">
+    <value>DE</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ColumnLayout.DownThenAcross" xml:space="preserve">
+    <value>Đầu tiên Xuống, sau đó Ngang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions.Format" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingPermissions.HighResolution" xml:space="preserve">
+    <value>Độ phân giải Cao</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.ImageQuality" xml:space="preserve">
+    <value>Chất lượng Hình ảnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixGenerator.CompactionMode" xml:space="preserve">
+    <value>Chế độ Nén</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.PrintOnPages.NotWithReportHeaderAndReportFooter" xml:space="preserve">
+    <value>Not with Report Header and Report Footer</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsExportOptions.Compression" xml:space="preserve">
+    <value>Nén</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.PageRange" xml:space="preserve">
+    <value>Khoảng Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarGenerator.WideNarrowRatio" xml:space="preserve">
+    <value>Tỷ lệ Rộng Hẹp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix8x32" xml:space="preserve">
+    <value>8 x 32</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintPreviewOptions.DefaultSendFormat" xml:space="preserve">
+    <value>Định dạng Gửi Mặc định</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintPreviewOptions.ShowOptionsBeforeExport" xml:space="preserve">
+    <value>Hiển thị Hộp thoại Tùy chọn Trước khi Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.MSICheckSum.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix16x36" xml:space="preserve">
+    <value>16 x 36</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixCompactionMode.ASCII" xml:space="preserve">
+    <value>ASCII</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.BarCodeGeneratorBase.CalcCheckSum" xml:space="preserve">
+    <value>Tính toán Kiểm tra nguyên vẹn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPasswordSecurityOptions" xml:space="preserve">
+    <value>Tùy chọn Bảo mật Mật khẩu Pdf</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeStar.Concavity" xml:space="preserve">
+    <value>Mặt lõm</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Code128Charset.CharsetAuto" xml:space="preserve">
+    <value>Auto Charset</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix72x72" xml:space="preserve">
+    <value>72 x 72</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixCompactionMode.Edifact" xml:space="preserve">
+    <value>Edifact</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix36x36" xml:space="preserve">
+    <value>36 x 36</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintPreviewOptions.DefaultFileName" xml:space="preserve">
+    <value>Tên Tệp Mặc định</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeBrace.Fillet" xml:space="preserve">
+    <value>Fillet</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.SheetName" xml:space="preserve">
+    <value>Tên Bảng tính</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.Compressed" xml:space="preserve">
+    <value>Nén</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.ForeColor" xml:space="preserve">
+    <value>Màu chữ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.EmailOptions.Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.DirectionMode.Horizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintingPermissions.LowResolution" xml:space="preserve">
+    <value>Độ phân giải Thấp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất PDF</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportMode.SingleFile" xml:space="preserve">
+    <value>Tệp Đơn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.ErrorCorrectionLevel.Level4" xml:space="preserve">
+    <value>Mức 4</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.NativeFormatOptions.Compressed" xml:space="preserve">
+    <value>Nén</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.NeverEmbeddedFonts" xml:space="preserve">
+    <value>Không bao giờ Nhúng Phông chữ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PrintPreviewOptions.DefaultExportFormat" xml:space="preserve">
+    <value>Định dạng Xuất Mặc định</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.RemoveSecondarySymbols" xml:space="preserve">
+    <value>Loại bỏ Các ký tự đặc biệt Thứ hai</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions.ExportMode" xml:space="preserve">
+    <value>Chế độ Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.PasswordSecurityOptions" xml:space="preserve">
+    <value>Tùy chọn Bảo mật</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageByPageExportOptionsBase.PageRange" xml:space="preserve">
+    <value>Khoảng Trang</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixCompactionMode.Binary" xml:space="preserve">
+    <value>Nhị phân</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopPair.AT" xml:space="preserve">
+    <value>AT</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix48x48" xml:space="preserve">
+    <value>48 x 48</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Shape.ShapeCross.VerticalLineWidth" xml:space="preserve">
+    <value>Độ rộng Đường Dọc</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixSize.Matrix104x104" xml:space="preserve">
+    <value>104 x 104</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.ImageViewMode" xml:space="preserve">
+    <value>Chế độ Xem Hình ảnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsxExportOptions" xml:space="preserve">
+    <value>Tùy chọn Xuất XLSx</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPasswordSecurityOptions.OpenPassword" xml:space="preserve">
+    <value>Mật khẩu Mở</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XpsDocumentOptions.Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.ExportMode" xml:space="preserve">
+    <value>Chế độ Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfDocumentOptions.Keywords" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.ExportHyperlinks" xml:space="preserve">
+    <value>Xuất Siêu liên kết</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfACompatibility.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SizeMode.Custom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarGenerator.Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlEncryptionOptions.Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlEncryptionOptions.Password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeGenerator.Version" xml:space="preserve">
+    <value>Phiên bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxExportOptions.ExportMode" xml:space="preserve">
+    <value>Chế độ Xuất</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxExportOptions.TableLayout" xml:space="preserve">
+    <value>Cách bố trí bảng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.EmailOptions.AdditionalRecipients" xml:space="preserve">
+    <value>Thêm người nhận</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.InlineCss" xml:space="preserve">
+    <value>Inline CSS</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeCompactionMode.Byte" xml:space="preserve">
+    <value>Byte</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeErrorCorrectionLevel.H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeErrorCorrectionLevel.L" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeErrorCorrectionLevel.M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeErrorCorrectionLevel.Q" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="DevExpress.XtraReports.UI.HorizontalAnchorStyles.Both" xml:space="preserve">
+    <value>Cả hai</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Author" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions.Author" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Keywords" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code11" xml:space="preserve">
+    <value>Mã số 11</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code128" xml:space="preserve">
+    <value>Mã 128</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.CodeMSI" xml:space="preserve">
+    <value>Mã MSI</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DataMatrixGS1" xml:space="preserve">
+    <value>Dữ liệu ma trận GS1</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN128" xml:space="preserve">
+    <value>EAN 128</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN13" xml:space="preserve">
+    <value>EAN 13</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.EAN8" xml:space="preserve">
+    <value>EAN 8</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.ITF14" xml:space="preserve">
+    <value>ITF 14</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.PDF417" xml:space="preserve">
+    <value>PDF 417</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.QRCode" xml:space="preserve">
+    <value>Mã QR</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCA" xml:space="preserve">
+    <value>UPC A</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCE0" xml:space="preserve">
+    <value>UPC E0</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCE1" xml:space="preserve">
+    <value>UPC E1</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCSupplemental2" xml:space="preserve">
+    <value>UPC bổ sung 2</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.UPCSupplemental5" xml:space="preserve">
+    <value>UPC bổ sung 5</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.B" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageItem.Image" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.C" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings.SortOrder" xml:space="preserve">
+    <value>Thứ tự Sắp xếp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Recipient.Address" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.RecipientFieldType.BCC" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.RecipientFieldType.CC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfACompatibility.PdfA1b" xml:space="preserve">
+    <value>PDF/A-1b</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfACompatibility.PdfA2b" xml:space="preserve">
+    <value>PDF/A-2b</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfACompatibility.PdfA3b" xml:space="preserve">
+    <value>PDF/A-3b</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfEncryptionLevel.AES128" xml:space="preserve">
+    <value>128-bit AES</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfEncryptionLevel.AES256" xml:space="preserve">
+    <value>256-bit AES</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfEncryptionLevel.ARC4" xml:space="preserve">
+    <value>128-bit ARC4</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DataMatrix" xml:space="preserve">
+    <value>Ma trận dữ liệu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Matrix2of5" xml:space="preserve">
+    <value>Ma trận 2 của 5</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="System.Drawing.GraphicsUnit.Inch" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+  <data name="System.Drawing.GraphicsUnit.Point" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="System.Drawing.GraphicsUnit.Document" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SignatureImageDisplayMode.Show" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SignatureImageDisplayMode.Hide" xml:space="preserve">
+    <value>Ẩn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfUACompatibility.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.Enabled" xml:space="preserve">
+    <value>Kích hoạt</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Orientation.Horizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Orientation.Vertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarGenerator.StartSymbol" xml:space="preserve">
+    <value>Bắt đầu biểu tượng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarGenerator.StopSymbol" xml:space="preserve">
+    <value>Ngăn chặn các biểu tượng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.CodabarStartStopSymbol.D" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Code128Generator.AddLeadingZero" xml:space="preserve">
+    <value>Thêm hàng đầu thế giới Zero</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarGenerator.FNC1Substitute" xml:space="preserve">
+    <value>FNC1 chức năng nhân vật</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarGenerator.SegmentsInRow" xml:space="preserve">
+    <value>Các phân đoạn trong hàng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarType.Expanded" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarType.ExpandedStacked" xml:space="preserve">
+    <value>Mở rộng xếp chồng lên nhau</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarType.Limited" xml:space="preserve">
+    <value>Giới hạn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarType.Omnidirectional" xml:space="preserve">
+    <value>Omnidirectional</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarType.Stacked" xml:space="preserve">
+    <value>Xếp chồng lên nhau</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarType.StackedOmnidirectional" xml:space="preserve">
+    <value>Xếp chồng lên nhau Omnidirectional</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataBarType.Truncated" xml:space="preserve">
+    <value>Cắt ngắn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixGS1Generator.FNC1Substitute" xml:space="preserve">
+    <value>FNC1 chức năng nhân vật</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.DataMatrixGS1Generator.HumanReadableText" xml:space="preserve">
+    <value>Văn bản có thể đọc được con người</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Codabar" xml:space="preserve">
+    <value>Codabar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code39" xml:space="preserve">
+    <value>Code 39</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code39Extended" xml:space="preserve">
+    <value>Code 39 mở rộng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code93" xml:space="preserve">
+    <value>Mã số 93</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Code93Extended" xml:space="preserve">
+    <value>Mã số 93 mở rộng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DataBar" xml:space="preserve">
+    <value>DataBar</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DeutschePostIdentcode" xml:space="preserve">
+    <value>Mã nhận dạng Deutsche Post</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.DeutschePostLeitcode" xml:space="preserve">
+    <value>Deutsche Post Leitcode</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Industrial2of5" xml:space="preserve">
+    <value>Công nghiệp 2 của 5</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.IntelligentMail" xml:space="preserve">
+    <value>Minh thư</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.IntelligentMailPackage" xml:space="preserve">
+    <value>Trọn gói thư thông minh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Interleaved2of5" xml:space="preserve">
+    <value>Interleaved 2 of 5</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.Pharmacode" xml:space="preserve">
+    <value>Pharmacode</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.Native.BarCodeSymbology.PostNet" xml:space="preserve">
+    <value>PostNet</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PharmacodeGenerator.PharmacodeType" xml:space="preserve">
+    <value>Pharmacode Type</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PharmacodeType.OneTrack" xml:space="preserve">
+    <value>One-Track</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.PharmacodeType.TwoTrack" xml:space="preserve">
+    <value>Two-Track</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeCompactionMode.AlphaNumeric" xml:space="preserve">
+    <value>Số Alpha</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeCompactionMode.Numeric" xml:space="preserve">
+    <value>Numeric</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeGenerator.CompactionMode" xml:space="preserve">
+    <value>Chế độ nén chặt</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeGenerator.ErrorCorrectionLevel" xml:space="preserve">
+    <value>Lỗi sửa chữa cấp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeGenerator.IncludeQuietZone" xml:space="preserve">
+    <value>Bao gồm khu vực yên tĩnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeGenerator.Logo" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeGenerator.LogoSize" xml:space="preserve">
+    <value>Logo kích thước</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.AutoVersion" xml:space="preserve">
+    <value>Chọn tự động phiên bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version1" xml:space="preserve">
+    <value>Phiên bản 1 (21 x 21)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version10" xml:space="preserve">
+    <value>Phiên bản 10 (57 x 57)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version11" xml:space="preserve">
+    <value>Phiên bản 11 (61 x 61)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version12" xml:space="preserve">
+    <value>Phiên bản 12 (65 x 65)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version13" xml:space="preserve">
+    <value>Phiên bản 13 (69 x 69)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version14" xml:space="preserve">
+    <value>Phiên bản 14 (73 x 73)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version15" xml:space="preserve">
+    <value>Phiên bản 15 (77 x 77)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version16" xml:space="preserve">
+    <value>Phiên bản 16 (81 x 81)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version17" xml:space="preserve">
+    <value>Phiên bản 17 (85 x 85)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version18" xml:space="preserve">
+    <value>Phiên bản 18 (89 x 89)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version19" xml:space="preserve">
+    <value>Phiên bản 19 (93 x 93)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version2" xml:space="preserve">
+    <value>Phiên bản 2 (25 x 25)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version20" xml:space="preserve">
+    <value>Phiên bản 20 (97 x 97)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version21" xml:space="preserve">
+    <value>Phiên bản 21 (101 x 101)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version22" xml:space="preserve">
+    <value>Phiên bản 22 (105 x 105)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version23" xml:space="preserve">
+    <value>Phiên bản 23 (109 x 109)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version24" xml:space="preserve">
+    <value>Phiên bản 24 (113 x 113)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version25" xml:space="preserve">
+    <value>Phiên bản 25 (117 x 117)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version26" xml:space="preserve">
+    <value>Phiên bản 26 (121 x 121)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version27" xml:space="preserve">
+    <value>Phiên bản 27 (125 x 125)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version28" xml:space="preserve">
+    <value>Phiên bản 28 (129 x 129)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version29" xml:space="preserve">
+    <value>Phiên bản 29 (133 x 133)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version3" xml:space="preserve">
+    <value>Phiên bản 3 (29 x 29)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version30" xml:space="preserve">
+    <value>Phiên bản 30 (137 x 137)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version31" xml:space="preserve">
+    <value>Phiên bản 31 (141 x 141)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version32" xml:space="preserve">
+    <value>Phiên bản 32 (145 x 145)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version33" xml:space="preserve">
+    <value>Phiên bản 33 (149 x 149)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version34" xml:space="preserve">
+    <value>Phiên bản 34 (153 x 153)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version35" xml:space="preserve">
+    <value>Phiên bản 35 (157 x 157)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version36" xml:space="preserve">
+    <value>Phiên bản 36 (161 x 161)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version37" xml:space="preserve">
+    <value>Phiên bản 37 (165 x 165)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version38" xml:space="preserve">
+    <value>Phiên bản 38 (169 x 169)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version39" xml:space="preserve">
+    <value>Phiên bản 39 (173 x 173)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version4" xml:space="preserve">
+    <value>Phiên bản 4 (33 x 33)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version40" xml:space="preserve">
+    <value>Phiên bản 40 (177 x 177)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version5" xml:space="preserve">
+    <value>Phiên bản 5 (37 x 37)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version6" xml:space="preserve">
+    <value>Phiên bản 6 (41 x 41)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version7" xml:space="preserve">
+    <value>Phiên bản 7 (45 x 45)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version8" xml:space="preserve">
+    <value>Phiên bản 8 (49 x 49)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.BarCode.QRCodeVersion.Version9" xml:space="preserve">
+    <value>Phiên bản 9 (53 x 53)</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.CsvExportOptions.EncodeExecutableContent" xml:space="preserve">
+    <value>Mã hóa nội dung thực thi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.CsvExportOptions.SkipEmptyRows" xml:space="preserve">
+    <value>Sản phẩm nào bỏ qua hàng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.CsvExportOptions.UseCustomSeparator" xml:space="preserve">
+    <value>Sử dụng dấu phân cách tùy chỉnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions" xml:space="preserve">
+    <value>Lựa chọn tài liệu DOCx</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Category" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxDocumentOptions.Comments" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxExportOptions" xml:space="preserve">
+    <value>DOCX xuất khẩu tùy chọn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxExportOptions.AllowFloatingPictures" xml:space="preserve">
+    <value>Cho phép nổi hình ảnh</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.DocxExportOptions.DocumentOptions" xml:space="preserve">
+    <value>Lựa chọn tài liệu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.ImageItem" xml:space="preserve">
+    <value>Hình ảnh mục</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.ImageSource" xml:space="preserve">
+    <value>Hình ảnh nguồn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Drawing.PageWatermark.ImageSource" xml:space="preserve">
+    <value>Hình ảnh nguồn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.EmptyFirstPageHeaderFooter" xml:space="preserve">
+    <value>Trống đầu trang Header/Footer</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.ExportPageBreaks" xml:space="preserve">
+    <value>Khẩu trang Breaks</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.FormattedTextExportOptions.KeepRowHeight" xml:space="preserve">
+    <value>Giữ hàng chiều cao</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.Heart" xml:space="preserve">
+    <value>Trái tim</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.RadioButton" xml:space="preserve">
+    <value>Nút radio</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.Smiley" xml:space="preserve">
+    <value>Smiley</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.StandardBox1" xml:space="preserve">
+    <value>Hộp tiêu chuẩn 1</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.StandardBox2" xml:space="preserve">
+    <value>Hộp tiêu chuẩn 2</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.Star" xml:space="preserve">
+    <value>Ngôi sao</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.Thumb" xml:space="preserve">
+    <value>Thumb</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.Toggle" xml:space="preserve">
+    <value>Toggle</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.YesNo" xml:space="preserve">
+    <value>Yes/No</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.YesNoBox" xml:space="preserve">
+    <value>Có/không hộp</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.GlyphStyle.YesNoSolidBox" xml:space="preserve">
+    <value>Có/không có hộp rắn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.AllowURLsWithJSContent" xml:space="preserve">
+    <value>Cho phép các URL với JS nội dung</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.ExportWatermarks" xml:space="preserve">
+    <value>Xuất khẩu watermarks</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.TableLayout" xml:space="preserve">
+    <value>Cách bố trí bảng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.HtmlExportOptionsBase.UseHRefHyperlinks" xml:space="preserve">
+    <value>Sử dụng HRef liên kết</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions.RetainBackgroundTransparency" xml:space="preserve">
+    <value>Duy trì nền minh bạch</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageExportOptions.TextRenderingMode" xml:space="preserve">
+    <value>Văn bản vẽ chế độ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageItem.Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.ImageItem.ImageSource" xml:space="preserve">
+    <value>Hình ảnh nguồn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.MailMessageExportOptions" xml:space="preserve">
+    <value>Mail thông điệp xuất khẩu tùy chọn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageByPageExportOptionsBase.RasterizationResolution" xml:space="preserve">
+    <value>Độ phân giải rasterization</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PageByPageExportOptionsBase.RasterizeImages" xml:space="preserve">
+    <value>Hình ảnh Rasterize</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfACompatibility.PdfA1a" xml:space="preserve">
+    <value>PDF/A-1a</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfACompatibility.PdfA2a" xml:space="preserve">
+    <value>PDF/A-2a</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfACompatibility.PdfA3a" xml:space="preserve">
+    <value>Pdf/A-3a</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.AdditionalMetadata" xml:space="preserve">
+    <value>Siêu dữ liệu bổ sung</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.Attachments" xml:space="preserve">
+    <value>Tập tin đính kèm</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.ExportEditingFieldsToAcroForms" xml:space="preserve">
+    <value>Chỉnh sửa các lĩnh vực xuất khẩu AcroForms</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.PdfACompatibility" xml:space="preserve">
+    <value>PDF/A khả năng tương thích</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.PdfUACompatibility" xml:space="preserve">
+    <value>Tương thích PDF/UA</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfExportOptions.SignatureOptions" xml:space="preserve">
+    <value>Tùy chọn chữ ký</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfHashAlgorithm.SHA1" xml:space="preserve">
+    <value>SHA-1</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfHashAlgorithm.SHA256" xml:space="preserve">
+    <value>SHA-256</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfHashAlgorithm.SHA384" xml:space="preserve">
+    <value>SHA-384</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfHashAlgorithm.SHA512" xml:space="preserve">
+    <value>SHA-512</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfPasswordSecurityOptions.EncryptionLevel" xml:space="preserve">
+    <value>Mức mã hóa</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.PdfUACompatibility.PdfUA1" xml:space="preserve">
+    <value>PDF/UA-1</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Recipient.ContactName" xml:space="preserve">
+    <value>Liên hệ với tên</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Recipient.FieldType" xml:space="preserve">
+    <value>Lĩnh vực loại</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.Recipient.Prefix" xml:space="preserve">
+    <value>tiền tố</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.RecipientFieldType.TO" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SignatureImageDisplayMode.ShowCertificateNameAsImage" xml:space="preserve">
+    <value>Show Certificate Name As Image</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SizeMode.AutoHeight" xml:space="preserve">
+    <value>Chiều cao tự động</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SizeMode.AutoSize" xml:space="preserve">
+    <value>Kích thước tự động</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.SizeMode.AutoWidth" xml:space="preserve">
+    <value>Tự động rộng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.WorkbookColorPaletteCompliance.AdjustColorsToDefaultPalette" xml:space="preserve">
+    <value>Điều chỉnh màu sắc để mặc định bảng màu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.WorkbookColorPaletteCompliance.ReducePaletteForExactColors" xml:space="preserve">
+    <value>Giảm cho màu sắc chính xác</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions" xml:space="preserve">
+    <value>Excel tài liệu tuỳ chọn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions.Application" xml:space="preserve">
+    <value>Ứng dụng</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions.Category" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions.Comments" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions.Company" xml:space="preserve">
+    <value>Công ty</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlDocumentOptions.Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlEncryptionOptions" xml:space="preserve">
+    <value>Excel mã hóa tùy chọn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlEncryptionType.Compatible" xml:space="preserve">
+    <value>Tương thích</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlEncryptionType.Strong" xml:space="preserve">
+    <value>Mạnh mẽ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlExportOptionsBase.EncryptionOptions" xml:space="preserve">
+    <value>Mật mã hoá tùy chọn</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlExportOptionsBase.FitToPrintedPageHeight" xml:space="preserve">
+    <value>Phù hợp để in Page chiều cao</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlExportOptionsBase.FitToPrintedPageWidth" xml:space="preserve">
+    <value>Fit to Printed Page Width</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlExportOptionsBase.IgnoreErrors" xml:space="preserve">
+    <value>Bỏ qua các lỗi</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlExportOptionsBase.RightToLeftDocument" xml:space="preserve">
+    <value>Right to Left Document</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlExportOptionsBase.TextExportMode" xml:space="preserve">
+    <value>Xuất khẩu văn bản chế độ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlIgnoreErrors.NumberStoredAsText" xml:space="preserve">
+    <value>Số lưu trữ dưới dạng văn bản</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.DocumentOptions" xml:space="preserve">
+    <value>Lựa chọn tài liệu</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.RawDataMode" xml:space="preserve">
+    <value>Dữ liệu thô chế độ</value>
+  </data>
+  <data name="DevExpress.XtraPrinting.XlsExportOptions.WorkbookColorPaletteCompliance" xml:space="preserve">
+    <value>Tuân thủ bảng màu màu bảng tính</value>
+  </data>
+  <data name="DevExpress.XtraReports.Diagnostics.ErrorSource.ReportCreation" xml:space="preserve">
+    <value>Tạo báo cáo</value>
+  </data>
+  <data name="DevExpress.XtraReports.Diagnostics.ErrorSource.ReportLayout" xml:space="preserve">
+    <value>Bố trí báo cáo</value>
+  </data>
+  <data name="DevExpress.XtraReports.Diagnostics.ErrorSource.ReportScripts" xml:space="preserve">
+    <value>Tập lệnh Báo cáo</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings" xml:space="preserve">
+    <value>Danh sách động</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings.DisplayMember" xml:space="preserve">
+    <value>Hiển thị thành viên</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings.SortMember" xml:space="preserve">
+    <value>Loại thành viên</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings.ValueMember" xml:space="preserve">
+    <value>Tài khoản của giá trị</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.LookUpSettings.DataAdapter" xml:space="preserve">
+    <value>Bộ chuyển đổi dữ liệu</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.AllowNull" xml:space="preserve">
+    <value>Cho phép Null</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.MultiValue" xml:space="preserve">
+    <value>Nhiều giá trị</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.SelectAllValues" xml:space="preserve">
+    <value>Chọn tất cả giá trị</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.ValueExpression" xml:space="preserve">
+    <value>Giá trị biểu thức</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.Parameter.ValueSourceSettings" xml:space="preserve">
+    <value>giá trị nguồn</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.RangeEndParameter" xml:space="preserve">
+    <value>kết thúc tham số</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.RangeParametersSettings" xml:space="preserve">
+    <value>phạm vi</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.RangeParametersSettings.EndParameter" xml:space="preserve">
+    <value>kết thúc</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.RangeParametersSettings.StartParameter" xml:space="preserve">
+    <value>bắt đầu</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.RangeStartParameter" xml:space="preserve">
+    <value>phạm vi bắt đầu tham</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.StaticListLookUpSettings" xml:space="preserve">
+    <value>Danh sách tĩnh</value>
+  </data>
+  <data name="DevExpress.XtraReports.Parameters.StaticListLookUpSettings.LookUpValues" xml:space="preserve">
+    <value>Nhìn lên giá trị</value>
+  </data>
+  <data name="System.Drawing.GraphicsUnit.Display" xml:space="preserve">
+    <value>Màn hình hiển thị</value>
+  </data>
+  <data name="System.Drawing.GraphicsUnit.Millimeter" xml:space="preserve">
+    <value>Mm</value>
+  </data>
+  <data name="System.Drawing.GraphicsUnit.Pixel" xml:space="preserve">
+    <value>Pixel</value>
+  </data>
+  <data name="System.Drawing.GraphicsUnit.World" xml:space="preserve">
+    <value>Trên thế giới</value>
+  </data>
+</root>

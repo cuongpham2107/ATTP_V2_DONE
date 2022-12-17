@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoCompleteTypeDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="PropertiesCaption" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="AutoCompleteTypeNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="MaskTypeNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="AppearanceCaption" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="RuleCaption" xml:space="preserve">
+    <value>Quy tắc</value>
+  </data>
+  <data name="ColumnsCaption" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ConfirmationCaption" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="TimeOfDateWithSecondsAMPMDescription" xml:space="preserve">
+    <value>12 giờ ngày thời gian với giây:
+10:03:10 AM
+03:00:01 PM</value>
+  </data>
+  <data name="TimeOfDateWithSecondsDescription" xml:space="preserve">
+    <value>24 giờ ngày thời gian với giây:
+12:45:10
+3:00:01</value>
+  </data>
+  <data name="LoadDatafromXMLCaption" xml:space="preserve">
+    <value>Tải dữ liệu từ XML</value>
+  </data>
+  <data name="EditAddressCaption" xml:space="preserve">
+    <value>Chỉnh sửa địa chỉ</value>
+  </data>
+  <data name="HideFieldListCaption" xml:space="preserve">
+    <value>Ẩn danh sách trường</value>
+  </data>
+  <data name="FormatRulesCaption" xml:space="preserve">
+    <value>Quy tắc định dạng ({0})</value>
+  </data>
+  <data name="ColorPickBrightnessAxisName" xml:space="preserve">
+    <value>Độ sáng</value>
+  </data>
+  <data name="ColorPickSaturationAxisName" xml:space="preserve">
+    <value>Bão hòa</value>
+  </data>
+  <data name="Decimal" xml:space="preserve">
+    <value>Thập phân</value>
+  </data>
+  <data name="BinaryNumber" xml:space="preserve">
+    <value>Số nhị phân</value>
+  </data>
+  <data name="RFC1123" xml:space="preserve">
+    <value>RFC1123</value>
+  </data>
+  <data name="OpenFileCaption" xml:space="preserve">
+    <value>Mở tập tin</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="SelectTableCaption" xml:space="preserve">
+    <value>Chọn bảng từ {0}</value>
+  </data>
+  <data name="ShowFieldListCaption" xml:space="preserve">
+    <value>Hiển thị danh sách trường</value>
+  </data>
+  <data name="TelephoneNumber" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="TelephoneNumberDescription" xml:space="preserve">
+    <value>Số điện thoại có hoặc không có mã thành phố:
+(345) 234-12-07
+(210) 7-17-81
+26-32-22</value>
+  </data>
+  <data name="TimeOfDayAMPM" xml:space="preserve">
+    <value>Thời gian trong ngày (sáng/chiều)</value>
+  </data>
+  <data name="TrueFalse" xml:space="preserve">
+    <value>True/False</value>
+  </data>
+  <data name="FormatConditionsCaption" xml:space="preserve">
+    <value>Điều kiện định dạng ({0})</value>
+  </data>
+  <data name="Number2DecimalPlaces" xml:space="preserve">
+    <value>Số (2 chữ số thập phân)</value>
+  </data>
+  <data name="Number3DecimalPlaces" xml:space="preserve">
+    <value>Số (3 chữ số thập phân)</value>
+  </data>
+  <data name="NumberInteger" xml:space="preserve">
+    <value>Số (số nguyên)</value>
+  </data>
+  <data name="PercentMode1" xml:space="preserve">
+    <value>Phần trăm (chế độ 1)</value>
+  </data>
+  <data name="PercentMode2" xml:space="preserve">
+    <value>Phần trăm (chế độ 2)</value>
+  </data>
+  <data name="SocialSecurity" xml:space="preserve">
+    <value>An sinh xã hội</value>
+  </data>
+  <data name="SortableDateTimeDescription" xml:space="preserve">
+    <value>Phù hợp với tiêu chuẩn ISO 8601</value>
+  </data>
+  <data name="LowercaseLetters" xml:space="preserve">
+    <value>Chữ thường</value>
+  </data>
+  <data name="MonthDay" xml:space="preserve">
+    <value>Tháng ngày</value>
+  </data>
+  <data name="MaskTypeSimple" xml:space="preserve">
+    <value>Đơn giản</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="AnySymbols" xml:space="preserve">
+    <value>Bất kỳ biểu tượng</value>
+  </data>
+  <data name="AnySymbolsDescription" xml:space="preserve">
+    <value>Bất kỳ biểu tượng</value>
+  </data>
+  <data name="AppearanceDesignerDescription" xml:space="preserve">
+    <value>Chọn một hoặc xuất hiện các đối tượng tương ứng với các yếu tố kiểm soát cụ thể, để truy cập và sửa đổi các cài đặt của họ thông qua mạng lưới bất động sản. Lưu ý cụ thể xuất hiện được bỏ qua khi da, WindowsXP hoặc Office2003 sơn đề án được áp dụng.</value>
+  </data>
+  <data name="AppearanceObjectPreviewCaption" xml:space="preserve">
+    <value>Xuất hiện đối tượng xem trước</value>
+  </data>
+  <data name="AppearancePreviewText" xml:space="preserve">
+    <value>Xuất hiện xem trước:</value>
+  </data>
+  <data name="AppearancesPreviewCaption" xml:space="preserve">
+    <value>Xem trước xuất hiện</value>
+  </data>
+  <data name="AppObjectEmptyCaption" xml:space="preserve">
+    <value>Đối tượng xuất hiện là có sản phẩm nào.</value>
+  </data>
+  <data name="AutoCompleteTypeOptimistic" xml:space="preserve">
+    <value>Lạc quan</value>
+  </data>
+  <data name="AutoCompleteTypeStrong" xml:space="preserve">
+    <value>Mạnh mẽ</value>
+  </data>
+  <data name="BinaryNumberDescription" xml:space="preserve">
+    <value>Bất kỳ số nhị phân</value>
+  </data>
+  <data name="ChartRangeControlClientRangeValidationMsg" xml:space="preserve">
+    <value>Max nên lớn hơn hoặc bằng min</value>
+  </data>
+  <data name="ColorPickBlueValidationMsg" xml:space="preserve">
+    <value>Thành phần màu xanh nên trong phạm vi 0..255</value>
+  </data>
+  <data name="ColorPickBrightValidationMsg" xml:space="preserve">
+    <value>Độ sáng thành phần nên trong phạm vi 0..100</value>
+  </data>
+  <data name="ColorPickColorHexValidationMsg" xml:space="preserve">
+    <value>Giá trị không hợp lệ</value>
+  </data>
+  <data name="ColorPickGreenValidationMsg" xml:space="preserve">
+    <value>Thành phần màu xanh lá cây nên trong phạm vi 0..255</value>
+  </data>
+  <data name="ColorPickHueAxisName" xml:space="preserve">
+    <value>Huế</value>
+  </data>
+  <data name="ColorPickHueValidationMsg" xml:space="preserve">
+    <value>Huế thành phần nên trong phạm vi 0..359</value>
+  </data>
+  <data name="ColorPickLuminanceAxisName" xml:space="preserve">
+    <value>Luminance</value>
+  </data>
+  <data name="ColorPickOpacityAxisName" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="ColorPickOpacityValidationMsg" xml:space="preserve">
+    <value>Thành phần opacity phải ở trong phạm vi 0..255</value>
+  </data>
+  <data name="ColorPickPopupMoreColorsItemCaption" xml:space="preserve">
+    <value>Thêm màu sắc...</value>
+  </data>
+  <data name="ColorPickPopupRecentColorsGroupCaption" xml:space="preserve">
+    <value>Tại màu sắc</value>
+  </data>
+  <data name="ColorPickPopupStandardColorsGroupCaption" xml:space="preserve">
+    <value>Tiêu chuẩn màu sắc</value>
+  </data>
+  <data name="ColorPickPopupThemeColorsGroupCaption" xml:space="preserve">
+    <value>Chủ đề màu sắc</value>
+  </data>
+  <data name="ColorPickRedValidationMsg" xml:space="preserve">
+    <value>Thành phần màu đỏ nên trong phạm vi 0..255</value>
+  </data>
+  <data name="ColorPickSaturationValidationMsg" xml:space="preserve">
+    <value>Bão hòa thành phần nên trong phạm vi 0..100</value>
+  </data>
+  <data name="ColorTabWebSafeColors" xml:space="preserve">
+    <value>Web-Safe</value>
+  </data>
+  <data name="ColumnDesignerDescription1" xml:space="preserve">
+    <value>Bạn có thể thêm và xoá cột, sửa đổi các cài đặt, chỉ định biên tập tại chỗ và sử tất cả tóm lược.</value>
+  </data>
+  <data name="ColumnDesignerDescription2" xml:space="preserve">
+    <value>Chọn và kéo một lĩnh vực từ bảng danh sách trường vào cột bảng để tạo ra một cột.</value>
+  </data>
+  <data name="ConditionItemIndexCaption" xml:space="preserve">
+    <value>{1} - chỉ mục {0} đã</value>
+  </data>
+  <data name="ConstantFormat" xml:space="preserve">
+    <value>định dạng liên tục</value>
+  </data>
+  <data name="CopyAddressCaption" xml:space="preserve">
+    <value>sao chép địa chỉ</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="Currency2DecimalPlaces" xml:space="preserve">
+    <value>thu (2 chữ số thập phân)</value>
+  </data>
+  <data name="Currency3DecimalPlaces" xml:space="preserve">
+    <value>thu (3 chữ số thập phân)</value>
+  </data>
+  <data name="CurrencyInteger" xml:space="preserve">
+    <value>thu (số nguyên)</value>
+  </data>
+  <data name="CustomTimeSpanTimer" xml:space="preserve">
+    <value>: Timer</value>
+  </data>
+  <data name="CustomTimeSpanTimerCountdown" xml:space="preserve">
+    <value>Tùy chỉnh: đếm ngược hẹn giờ</value>
+  </data>
+  <data name="DataAdaptersCaption" xml:space="preserve">
+    <value>Dữ liệu bộ điều hợp mạng</value>
+  </data>
+  <data name="DateDescription" xml:space="preserve">
+    <value>Ngày dd/MM/yy hay dd-MM-yyyy với năm từ 1000 đến 3999:
+3/12/99
+25-06-1800</value>
+  </data>
+  <data name="DecimalNumber" xml:space="preserve">
+    <value>số thập phân</value>
+  </data>
+  <data name="DecimalNumberDescription" xml:space="preserve">
+    <value>bất kỳ số thập phân</value>
+  </data>
+  <data name="DeleteHistoryCaption" xml:space="preserve">
+    <value>xoá lịch sử</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>mở rộng</value>
+  </data>
+  <data name="FixedPoint" xml:space="preserve">
+    <value>Fixed-point</value>
+  </data>
+  <data name="FixedPoint2DecimalPlaces" xml:space="preserve">
+    <value>Brouwer (2 chữ số thập phân)</value>
+  </data>
+  <data name="FixedPoint3DecimalPlaces" xml:space="preserve">
+    <value>Brouwer (3 chữ số thập phân)</value>
+  </data>
+  <data name="FixedPointInteger" xml:space="preserve">
+    <value>Brouwer (số nguyên)</value>
+  </data>
+  <data name="FullDateTimeLongTime" xml:space="preserve">
+    <value>Đầy đủ ngày tháng/thời gian (thời gian dài)</value>
+  </data>
+  <data name="FullDateTimeShortTime" xml:space="preserve">
+    <value>Đầy đủ ngày tháng/thời gian (thời gian ngắn)</value>
+  </data>
+  <data name="GeneralDateTimeLongTime" xml:space="preserve">
+    <value>Tổng thời gian/ngày (thời gian dài)</value>
+  </data>
+  <data name="GeneralDateTimeShortTime" xml:space="preserve">
+    <value>Tổng thời gian/ngày (thời gian ngắn)</value>
+  </data>
+  <data name="GeneralTimeSpanLongFormat" xml:space="preserve">
+    <value>chung định dạng dài</value>
+  </data>
+  <data name="GeneralTimeSpanShortFormat" xml:space="preserve">
+    <value>chung định dạng ngắn</value>
+  </data>
+  <data name="GridPreviewCaption" xml:space="preserve">
+    <value>Lưới xem trước</value>
+  </data>
+  <data name="HexadecimalNumber" xml:space="preserve">
+    <value>Hệ thập lục phân số</value>
+  </data>
+  <data name="HexadecimalNumberDescription" xml:space="preserve">
+    <value>Bất kỳ số thập lục phân</value>
+  </data>
+  <data name="HideColumnSelectorCaption" xml:space="preserve">
+    <value>Ẩn cột &amp; Selector</value>
+  </data>
+  <data name="HideColumnsSortIndex" xml:space="preserve">
+    <value>Ẩn cột loại chỉ số</value>
+  </data>
+  <data name="LatinLettersOnly" xml:space="preserve">
+    <value>Chữ cái Latin chỉ</value>
+  </data>
+  <data name="LatinLettersOnlyDescription" xml:space="preserve">
+    <value>Bất kỳ chữ cái của bảng chữ cái Latinh</value>
+  </data>
+  <data name="LayoutCloseWarning" xml:space="preserve">
+    <value>Bố trí đã bị thay đổi.
+Bạn có muốn lưu các thay đổi không?</value>
+  </data>
+  <data name="LettersOnly" xml:space="preserve">
+    <value>Chữ cái chỉ</value>
+  </data>
+  <data name="LettersOnlyDescription" xml:space="preserve">
+    <value>Bất cứ thư</value>
+  </data>
+  <data name="LongDate" xml:space="preserve">
+    <value>Ngày tháng đầy đủ</value>
+  </data>
+  <data name="LongTime" xml:space="preserve">
+    <value>Thời gian dài</value>
+  </data>
+  <data name="LongZipCode" xml:space="preserve">
+    <value>Dài zip code</value>
+  </data>
+  <data name="LowercaseLettersDescription" xml:space="preserve">
+    <value>Bất kỳ chữ</value>
+  </data>
+  <data name="MaskTypeDateTime" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="MaskTypeDateTimeAdvancingCaret" xml:space="preserve">
+    <value>DateTime tiến Caret</value>
+  </data>
+  <data name="MaskTypeDateTimeDescription" xml:space="preserve">
+    <value>Các mặt nạ để nhập giá trị ngày/thời gian</value>
+  </data>
+  <data name="MaskTypeNoneDescription" xml:space="preserve">
+    <value>Các chức năng mặt nạ bị vô hiệu hóa</value>
+  </data>
+  <data name="MaskTypeNumeric" xml:space="preserve">
+    <value>Numeric</value>
+  </data>
+  <data name="MaskTypeNumericDescription" xml:space="preserve">
+    <value>Các mặt nạ để nhập giá trị số</value>
+  </data>
+  <data name="MaskTypeRegEx" xml:space="preserve">
+    <value>RegEx</value>
+  </data>
+  <data name="MaskTypeRegExDescription" xml:space="preserve">
+    <value>Biểu thức thông thường chức năng đầy đủ</value>
+  </data>
+  <data name="MaskTypeRegular" xml:space="preserve">
+    <value>Thường xuyên</value>
+  </data>
+  <data name="MaskTypeRegularDescription" xml:space="preserve">
+    <value>Giản thể biểu thức thông thường (không có xoay chiều, không có tự động hoàn thành)</value>
+  </data>
+  <data name="MaskTypeSimpleDescription" xml:space="preserve">
+    <value>Các mặt nạ để nhập giá trị của một định dạng cố định (ví dụ như số điện thoại)</value>
+  </data>
+  <data name="OctalNumber" xml:space="preserve">
+    <value>Hệ bát phân số</value>
+  </data>
+  <data name="OctalNumberDescription" xml:space="preserve">
+    <value>Bất kỳ số bát phân</value>
+  </data>
+  <data name="PercentMode1_2DecimalPlaces" xml:space="preserve">
+    <value>% (Chế độ 1) (2 chữ số thập phân)</value>
+  </data>
+  <data name="PercentMode1_3DecimalPlaces" xml:space="preserve">
+    <value>% (Chế độ 1) (3 chữ số thập phân)</value>
+  </data>
+  <data name="PercentMode1Explanation" xml:space="preserve">
+    <value>Nếu văn bản là 12% ' sau đó EditValue = 12</value>
+  </data>
+  <data name="PercentMode1Integer" xml:space="preserve">
+    <value>% (Chế độ 1) (số nguyên)</value>
+  </data>
+  <data name="PercentMode2_2DecimalPlaces" xml:space="preserve">
+    <value>% (Chế độ 2) (2 chữ số thập phân)</value>
+  </data>
+  <data name="PercentMode2_3DecimalPlaces" xml:space="preserve">
+    <value>% (Chế độ 2) (3 chữ số thập phân)</value>
+  </data>
+  <data name="PercentMode2Explanation" xml:space="preserve">
+    <value>Nếu văn bản là 12% ' sau đó EditValue = 0,12</value>
+  </data>
+  <data name="PercentMode2Integer" xml:space="preserve">
+    <value>% (Chế độ 2) (số nguyên)</value>
+  </data>
+  <data name="RangeControlWarning" xml:space="preserve">
+    <value>Xin vui lòng Thêm khách hàng để RangeControl</value>
+  </data>
+  <data name="RetrieveColumnsConfirmation" xml:space="preserve">
+    <value>Bộ sưu tập sẽ được xóa và sau đó dân cư với các mục cho mỗi lĩnh vực trong nguồn dữ liệu bị ràng buộc.
+Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="RowCaption" xml:space="preserve">
+    <value>Row(s)</value>
+  </data>
+  <data name="SelectWarning1" xml:space="preserve">
+    <value>Nhiều hơn một đối tượng được chọn.</value>
+  </data>
+  <data name="SelectWarning2" xml:space="preserve">
+    <value>Không ai chọn.</value>
+  </data>
+  <data name="ShortDate" xml:space="preserve">
+    <value>Ngày tháng ngắn</value>
+  </data>
+  <data name="ShortTime" xml:space="preserve">
+    <value>Thời gian ngắn</value>
+  </data>
+  <data name="ShortZipCode" xml:space="preserve">
+    <value>Mã zip ngắn</value>
+  </data>
+  <data name="ShowColumnSelectorCaption" xml:space="preserve">
+    <value>Hiển thị cột &amp; Selector</value>
+  </data>
+  <data name="ShowColumnsSortIndex" xml:space="preserve">
+    <value>Hiển thị cột loại chỉ số</value>
+  </data>
+  <data name="SortableDateTime" xml:space="preserve">
+    <value>Sắp xếp ngày/thời gian</value>
+  </data>
+  <data name="StyleFormatConditionsCaption" xml:space="preserve">
+    <value>Điều kiện định dạng phong cách</value>
+  </data>
+  <data name="StyleFormatRulesCaption" xml:space="preserve">
+    <value>Quy tắc định dạng phong cách</value>
+  </data>
+  <data name="TimeOfDateWithSeconds" xml:space="preserve">
+    <value>thời gian trong ngày với giây</value>
+  </data>
+  <data name="TimeOfDateWithSecondsAMPM" xml:space="preserve">
+    <value>thời gian trong ngày với giây (AM/PM)</value>
+  </data>
+  <data name="TimeOfDay" xml:space="preserve">
+    <value>thời gian trong ngày</value>
+  </data>
+  <data name="TimeOfDayAMPMDescription" xml:space="preserve">
+    <value>12 giờ ngày thời gian:
+1:35 CHIỀU
+12:45 AM</value>
+  </data>
+  <data name="TimeOfDayDescription" xml:space="preserve">
+    <value>24 giờ ngày thời gian:
+15:25
+2:05
+03:57</value>
+  </data>
+  <data name="TrueFalseDescription" xml:space="preserve">
+    <value>đúng sự thật
+Sai</value>
+  </data>
+  <data name="UniversalSortableDateTime" xml:space="preserve">
+    <value>Universal sắp xếp ngày/thời gian</value>
+  </data>
+  <data name="UppercaseLetters" xml:space="preserve">
+    <value>chữ</value>
+  </data>
+  <data name="UppercaseLettersDescription" xml:space="preserve">
+    <value>bất kỳ chữ</value>
+  </data>
+  <data name="YearMonth" xml:space="preserve">
+    <value>năm tháng</value>
+  </data>
+  <data name="YesNo" xml:space="preserve">
+    <value>Yes/No</value>
+  </data>
+  <data name="YesNoDescription" xml:space="preserve">
+    <value>Có
+Không có</value>
+  </data>
+  <data name="ZeroRows" xml:space="preserve">
+    <value>0 hàng nạp...</value>
+  </data>
+</root>

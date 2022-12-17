@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionDesign\Actions\Close\ShortCaption" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ActionDesign\Actions\Close\ToolTip" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ActionDesign\Actions\ColumnChooser\ShortCaption" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="ActionDesign\Actions\ColumnChooser\ToolTip" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="ActionDesign\Actions\Export\ShortCaption" xml:space="preserve">
+    <value>Xuất ra</value>
+  </data>
+  <data name="ActionDesign\Actions\Export\ToolTip" xml:space="preserve">
+    <value>Xuất ra</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Close\Caption" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ColumnChooser\Caption" xml:space="preserve">
+    <value>Chọn cột</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Export\Caption" xml:space="preserve">
+    <value>Xuất ra</value>
+  </data>
+  <data name="Non-calculated\Localization\Confirmations\Cancel\Value" xml:space="preserve">
+    <value>Các thay đổi chưa lưu sẽ bị mất. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\No\Value" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="Non-calculated\Localization\DialogButtons\Yes\Value" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\CannotUploadFile\Value" xml:space="preserve">
+    <value>Không thể tải lên tệp {0} trong khi tệp khác đang tải lên.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\ErrorPage\ApplicationError\Value" xml:space="preserve">
+    <value>Lỗi Ứng dụng.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\ErrorPage\ErrorOccurred\Value" xml:space="preserve">
+    <value>Lỗi xảy ra trong khi xử lý yêu cầu của bạn.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\ErrorPage\RefreshPage\Value" xml:space="preserve">
+    <value>Tải lại</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\ErrorPage\ShowDetails\Value" xml:space="preserve">
+    <value>Hiện chi tiết</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\FileSizeLimit\Value" xml:space="preserve">
+    <value>Kích thước tệp phải nhỏ hơn {0} MB</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\ModifiedObjectWarning\Value" xml:space="preserve">
+    <value>Bạn phải lưu các thay đổi đang chờ xử lý trước khi sửa bản ghi này.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\PageIsNotFound\Value" xml:space="preserve">
+    <value>Không tìm thấy trang được yêu cầu.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\ProcessViewShortcutAccessDenied\Value" xml:space="preserve">
+    <value>Truy cập vào tài nguyên này bị cấm. Vui lòng liên hệ với quản trị viên của bạn để biết thêm thông tin.</value>
+  </data>
+  <data name="Non-calculated\Localization\Messages\SelectItemToEdit\Value" xml:space="preserve">
+    <value>Chọn một mục để chỉnh sửa</value>
+  </data>
+  <data name="Non-calculated\Localization\Security\Account\UserName\Value" xml:space="preserve">
+    <value>Tên Người dùng</value>
+  </data>
+  <data name="Non-calculated\Localization\Security\LoginPage\ExternalAuthorizationActionSeparator\Value" xml:space="preserve">
+    <value>hoặc</value>
+  </data>
+  <data name="Non-calculated\Localization\Security\LoginPage\TryAgain\Value" xml:space="preserve">
+    <value>Thử lại</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\Alert\CloseAll\Value" xml:space="preserve">
+    <value>({0}) Đóng Tất cả</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\Alert\IgnoreAllWarnings\Value" xml:space="preserve">
+    <value>Bỏ qua tất cả cảnh báo</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\Alert\Messages\Value" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\Alert\ShowAll\Value" xml:space="preserve">
+    <value>Hiển thị tất cả</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\ImageEdit\Cancel\Value" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\ImageEdit\Change\Value" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\ImageEdit\Remove\Value" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\LoadingIndicator\Loading\Value" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\ThemeSwitcher\Compact\Value" xml:space="preserve">
+    <value>Nhỏ gọn</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\ThemeSwitcher\SelectLanguage\Value" xml:space="preserve">
+    <value>Chọn ngôn ngữ</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\ThemeSwitcher\SizeMode\Value" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="Non-calculated\Localization\VisualComponents\ThemeSwitcher\Standard\Value" xml:space="preserve">
+    <value>Tiêu chuẩn</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.DateTime\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:d}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.DateTime\DefaultEditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Decimal\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:C}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Decimal\DefaultEditMask" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Double\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0: #, ###, ## 0. ###}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Double\DefaultEditMask" xml:space="preserve">
+    <value>#, ###, ## 0. ###</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int16\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int16\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int32\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int32\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int64\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Int64\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Single\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0: #, ###, ## 0. ###}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.Single\DefaultEditMask" xml:space="preserve">
+    <value>#, ###, ## 0. ###</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.TimeSpan\DefaultEditMask" xml:space="preserve">
+    <value>([0-9] {1,5} \.)?? (([0-9]) | ([0-1][0-9]) | ([2][0123])): [0-5] [0-9]: [0-5] [0-9] (\. [ 0-9] {1,3})??</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt16\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt16\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt32\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt32\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt64\DefaultDisplayFormat" xml:space="preserve">
+    <value>{0:N0}</value>
+  </data>
+  <data name="Non-calculated\ViewItems\PropertyEditors\System.UInt64\DefaultEditMask" xml:space="preserve">
+    <value>N0</value>
+  </data>
+</root>

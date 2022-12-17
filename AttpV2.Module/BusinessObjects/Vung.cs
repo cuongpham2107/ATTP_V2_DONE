@@ -35,6 +35,7 @@ namespace AttpV2.Module.BusinessObjects
             base.AfterConstruction();
         }
 
+        
         string diaChi;
         string tenVung;
         [XafDisplayName("Tên vùng")]
@@ -49,6 +50,28 @@ namespace AttpV2.Module.BusinessObjects
             get => diaChi;
             set => SetPropertyValue(nameof(DiaChi), ref diaChi, value);
         }
+        //[XafDisplayName("Cơ quan quản lý")]
+        //[VisibleInListView(false)]
+        //public CoQuanQuanLy CoQuanQuanLy
+        //{
+        //    get
+        //    {
+        //        if(!IsLoading && !IsSaving)
+        //        {
+        //            var account = Session.GetObjectByKey<ApplicationUser>(SecuritySystem.CurrentUserId);
+        //            if (account.Roles.Any(r => r.Name == "Administrators" || r.Name == "Managers"))
+        //            {
+        //                return coQuanQuanLy;
+        //            }
+        //            else
+        //            {
+        //                return account.CoquanQuanly;
+        //            }  
+        //        }
+        //        return coQuanQuanLy;
+        //    }
+        //    set => SetPropertyValue(nameof(CoQuanQuanLy), ref coQuanQuanLy, value);
+        //}
         [XafDisplayName("Các chỉ tiêu")]
         [Association("Vung-ChiTieuPhatTriemKinhTes")]
         public XPCollection<PhatTrienKinhTe> ChiTieuPhatTriemKinhTes

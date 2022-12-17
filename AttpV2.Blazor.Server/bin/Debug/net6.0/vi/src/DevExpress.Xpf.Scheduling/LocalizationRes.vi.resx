@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SchedulerStringId.ButtonCaption_Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CancelDropAppointments" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupAppointmentOptions" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="SchedulerStringId.PageCaption_Options" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteAppointment" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_OK" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Redo" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupLayout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageView" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CopyAppointmentsOnDrop" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Next" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageFile" xml:space="preserve">
+    <value>Tệp</value>
+  </data>
+  <data name="SchedulerStringId.DailyRecurrenceControl_Every" xml:space="preserve">
+    <value>Mỗi</value>
+  </data>
+  <data name="SchedulerStringId.GotoDateWindow_Date" xml:space="preserve">
+    <value>Ngày:</value>
+  </data>
+  <data name="SchedulerStringId.MonthlyRecurrenceControl_Day" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="SchedulerStringId.MonthlyRecurrenceControl_OfEvery" xml:space="preserve">
+    <value>của mỗi</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Save" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="SchedulerStringId.YearlyRecurrenceControl_of" xml:space="preserve">
+    <value>của</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageHome" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Previous" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_Now" xml:space="preserve">
+    <value>Bây giờ</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupAppointmentActions" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="SchedulerStringId.PageCaption_Actions" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenAppointment" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupAppointment" xml:space="preserve">
+    <value>Sự kiện</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageAppointment" xml:space="preserve">
+    <value>Sự kiện</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Subject" xml:space="preserve">
+    <value>Chủ đề:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_CategoryDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NoneReminder" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="SchedulerStringId.Caption_FirstVisibleResources" xml:space="preserve">
+    <value>Đầu</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFirst" xml:space="preserve">
+    <value>Đầu</value>
+  </data>
+  <data name="SchedulerStringId.Caption_LastVisibleResources" xml:space="preserve">
+    <value>Cuối</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthLast" xml:space="preserve">
+    <value>Cuối</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResources" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_Caption_ResourceAll" xml:space="preserve">
+    <value>(Tất cả)</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_PrintingSettings_Format" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysEveryDay" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResources" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResourcesPage" xml:space="preserve">
+    <value>Trang Tiếp</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResourcesPage" xml:space="preserve">
+    <value>Trang Trước</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeDaily" xml:space="preserve">
+    <value>Hàng ngày</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMonthly" xml:space="preserve">
+    <value>Hàng tháng</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeYearly" xml:space="preserve">
+    <value>Hàng năm</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_PrintingSettings_Resources" xml:space="preserve">
+    <value>Tài nguyên</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_Dismiss" xml:space="preserve">
+    <value>Bỏ qua</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupGroupBy" xml:space="preserve">
+    <value>Nhóm theo</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NavigateForward" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupWindow" xml:space="preserve">
+    <value>Cửa sổ</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_Location" xml:space="preserve">
+    <value>Vị trí:</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_Title" xml:space="preserve">
+    <value>Tùy chọn in</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_DismissAll" xml:space="preserve">
+    <value>Bỏ qua tất cả</value>
+  </data>
+  <data name="SchedulerStringId.Caption_IntervalCount" xml:space="preserve">
+    <value>Khoảng thời gian đếm</value>
+  </data>
+  <data name="SchedulerStringId.PrintingSettingsWindow_ResourcesKind" xml:space="preserve">
+    <value>Loại tài nguyên:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrintingSettings" xml:space="preserve">
+    <value>Tùy chọn in</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Reminder" xml:space="preserve">
+    <value>Nhắc nhở</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Location" xml:space="preserve">
+    <value>Vị trí:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupViewNavigator" xml:space="preserve">
+    <value>Điều hướng</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Birthday" xml:space="preserve">
+    <value>Sinh nhật</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_Rename" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Label" xml:space="preserve">
+    <value>Nhãn</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Location" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_Find" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleDay" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="SchedulerStringId.SnapToCells_Auto" xml:space="preserve">
+    <value>Tự động</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Reminder" xml:space="preserve">
+    <value>Nhắc nhở</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Resource" xml:space="preserve">
+    <value>Tài nguyên</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Start" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="SchedulerStringId.SnapToCells_Never" xml:space="preserve">
+    <value>Không bao giờ</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleHour" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleMonth" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleWeek" xml:space="preserve">
+    <value>Tuần</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleYear" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_AllDay" xml:space="preserve">
+    <value>Tất cả các ngày</value>
+  </data>
+  <data name="SchedulerStringId.Description_IntervalCount" xml:space="preserve">
+    <value>Thay đổi khoảng thời gian đếm</value>
+  </data>
+  <data name="SchedulerStringId.TimeRulerWindow_TimeZone" xml:space="preserve">
+    <value>Múi giờ:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Reminders" xml:space="preserve">
+    <value>{0} nhắc nhở</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWeekendDays" xml:space="preserve">
+    <value>Ngày cuối tuần</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWorkDays" xml:space="preserve">
+    <value>Ngày trong tuần</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceRangeControl_EndAfter" xml:space="preserve">
+    <value>Kết thúc sau:</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceRangeControl_NoEndDate" xml:space="preserve">
+    <value>Không có ngày kết thúc</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_DayNumber" xml:space="preserve">
+    <value>Số ngày</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_DayOfWeek" xml:space="preserve">
+    <value>Ngày trong tuần</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_RecurrencePattern" xml:space="preserve">
+    <value>Mẫu lặp lại</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_TimeZone" xml:space="preserve">
+    <value>Múi giờ:</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeHourly" xml:space="preserve">
+    <value>Hàng giờ</value>
+  </data>
+  <data name="SchedulerStringId.Caption_EmptyResource" xml:space="preserve">
+    <value>(Bất kỳ)</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CopyAppointment" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CutAppointment" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_PasteAppointment" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Days" xml:space="preserve">
+    <value>ngày</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_DaysShort" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hour" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_HoursShort" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minute" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_MinutesShort1" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_MinutesShort2" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Month" xml:space="preserve">
+    <value>tháng</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Months" xml:space="preserve">
+    <value>tháng</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Week" xml:space="preserve">
+    <value>tuần</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Weeks" xml:space="preserve">
+    <value>tuần</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_WeeksShort" xml:space="preserve">
+    <value>w</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Year" xml:space="preserve">
+    <value>năm</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Years" xml:space="preserve">
+    <value>năm</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Appointment" xml:space="preserve">
+    <value>{0} - Sự kiện</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Event" xml:space="preserve">
+    <value>{0} - Sự kiện</value>
+  </data>
+  <data name="SchedulerStringId.Caption_UntitledAppointment" xml:space="preserve">
+    <value>Không tên</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Duration" xml:space="preserve">
+    <value>Khoảng thời gian</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeWeekly" xml:space="preserve">
+    <value>Hàng tuần</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceRangeControl_Occurrences" xml:space="preserve">
+    <value>lần xuất hiện</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupCommon" xml:space="preserve">
+    <value>Phổ biến</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_End" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Day" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Recurrence" xml:space="preserve">
+    <value>Tái phát</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Anniversary" xml:space="preserve">
+    <value>Kỷ niệm</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Business" xml:space="preserve">
+    <value>Kinh doanh</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Important" xml:space="preserve">
+    <value>Quan trọng</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_MustAttend" xml:space="preserve">
+    <value>Phải tham dự</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_NeedsPreparation" xml:space="preserve">
+    <value>Cần chuẩn bị</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Personal" xml:space="preserve">
+    <value>Cá nhân</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_PhoneCall" xml:space="preserve">
+    <value>Gọi điện thoại</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_TravelRequired" xml:space="preserve">
+    <value>Du lịch yêu cầu</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Vacation" xml:space="preserve">
+    <value>Kỳ nghỉ</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_AllDayEvent" xml:space="preserve">
+    <value>Tất cả ngày của sự kiện</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Description" xml:space="preserve">
+    <value>Mô tả:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_EndDate" xml:space="preserve">
+    <value>Ngày kết thúc:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_EndTime" xml:space="preserve">
+    <value>Kết thúc thời gian:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Label" xml:space="preserve">
+    <value>Nhãn hiệu:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_Reminder" xml:space="preserve">
+    <value>Nhắc nhở:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_ShowTimeAs" xml:space="preserve">
+    <value>Hiển thị thời gian là:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_StartDate" xml:space="preserve">
+    <value>Ngày bắt đầu:</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentWindow_StartTime" xml:space="preserve">
+    <value>Thời gian bắt đầu:</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_Recurrence" xml:space="preserve">
+    <value>Tái phát</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_SaveAndClose" xml:space="preserve">
+    <value>Save and Close</value>
+  </data>
+  <data name="SchedulerStringId.ButtonCaption_TimeZones" xml:space="preserve">
+    <value>Múi giờ</value>
+  </data>
+  <data name="SchedulerStringId.ButtonDescription_Recurrence" xml:space="preserve">
+    <value>Làm cho lựa chọn cuộc hẹn định kỳ, hoặc chỉnh sửa mẫu lặp lại.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AgendaView" xml:space="preserve">
+    <value>Xem chương trình nghị sự</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Busy" xml:space="preserve">
+    <value>Bận rộn</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DayView" xml:space="preserve">
+    <value>Xem ngày</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DecreaseVisibleResourcesCount" xml:space="preserve">
+    <value>Giảm số lượng tài nguyên có thể nhìn thấy</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DeleteRecurrentApt" xml:space="preserve">
+    <value>Xác nhận xoá bỏ</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Free" xml:space="preserve">
+    <value>Miễn phí</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GotoDate" xml:space="preserve">
+    <value>Đi đến nay</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupArrangeView" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByDateDescription" xml:space="preserve">
+    <value>Nhóm các cuộc hẹn theo ngày.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByNoneDescription" xml:space="preserve">
+    <value>Ungroup hẹn.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByResourceDescription" xml:space="preserve">
+    <value>Nhóm các cuộc hẹn theo nguồn lực.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupTimeScale" xml:space="preserve">
+    <value>Quy mô thời gian</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupViewSelector" xml:space="preserve">
+    <value>Xem hoạt động</value>
+  </data>
+  <data name="SchedulerStringId.Caption_IncreaseVisibleResourcesCount" xml:space="preserve">
+    <value>Tăng nguồn tài nguyên có thể nhìn thấy tính</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ListView" xml:space="preserve">
+    <value>Xem danh sách</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MonthView" xml:space="preserve">
+    <value>Giao diện tháng</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NAppointmentsAreSelected" xml:space="preserve">
+    <value>cuộc hẹn {0} đã được lựa chọn</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextAppointment" xml:space="preserve">
+    <value>Cuộc hẹn tiếp theo</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OpenRecurrentApt" xml:space="preserve">
+    <value>Mục mở theo định kỳ</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OutOfOffice" xml:space="preserve">
+    <value>Ra khỏi văn phòng</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PageCategoryAppointmentTools" xml:space="preserve">
+    <value>Công cụ lịch</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevAppointment" xml:space="preserve">
+    <value>Trước cuộc hẹn</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Reminder" xml:space="preserve">
+    <value>{0} đã nhắc nhở</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SchedulerControl" xml:space="preserve">
+    <value>Điều khiển trình lập lịch biểu</value>
+  </data>
+  <data name="SchedulerStringId.Caption_StartTime" xml:space="preserve">
+    <value>thời gian bắt đầu: {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Tentative" xml:space="preserve">
+    <value>dự định</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimelineView" xml:space="preserve">
+    <value>Xem thời gian</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeRuler" xml:space="preserve">
+    <value>Thời gian cai trị</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleDays" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleHours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleMilliseconds" xml:space="preserve">
+    <value>{0} milliseconds</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleMinutes" xml:space="preserve">
+    <value>{0} phút</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleMonths" xml:space="preserve">
+    <value>{0} months</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleQuarter" xml:space="preserve">
+    <value>Khu phố</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleQuarters" xml:space="preserve">
+    <value>{0} quarters</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleSeconds" xml:space="preserve">
+    <value>{0} seconds</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleWeeks" xml:space="preserve">
+    <value>{0} weeks</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleWorkDay" xml:space="preserve">
+    <value>Ngày làm việc</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleWorkHour" xml:space="preserve">
+    <value>Làm việc giờ</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimeScaleYears" xml:space="preserve">
+    <value>{0} years</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFourth" xml:space="preserve">
+    <value>Thứ tư</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthSecond" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthThird" xml:space="preserve">
+    <value>Thứ ba</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekView" xml:space="preserve">
+    <value>Dạng xem tuần</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WorkingElsewhere" xml:space="preserve">
+    <value>Làm việc ở những nơi khác</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WorkWeekView" xml:space="preserve">
+    <value>Dạng xem tuần làm việc</value>
+  </data>
+  <data name="SchedulerStringId.DailyRecurrenceControl_EveryWeekday" xml:space="preserve">
+    <value>Mỗi ngày trong tuần</value>
+  </data>
+  <data name="SchedulerStringId.DeleteOccurrenceWindow_DeleteOccurrence" xml:space="preserve">
+    <value>Xoá sự kiện này</value>
+  </data>
+  <data name="SchedulerStringId.DeleteOccurrenceWindow_DeleteRecurrentAppointmentMessage" xml:space="preserve">
+    <value>Bạn có muốn xóa tất cả các sự kiện của cuộc hẹn định kỳ "{0}", hoặc chỉ là một trong này?</value>
+  </data>
+  <data name="SchedulerStringId.DeleteOccurrenceWindow_DeleteSeries" xml:space="preserve">
+    <value>Xoá dòng</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_CopyAppointment" xml:space="preserve">
+    <value>Sao chép (các) cuộc hẹn đã chọn.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_CutAppointment" xml:space="preserve">
+    <value>Cắt (các) cuộc hẹn đã chọn.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_DeleteAppointment" xml:space="preserve">
+    <value>Xóa đã chọn appointment(s).</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_GotoToday" xml:space="preserve">
+    <value>Thay đổi ngày Hiển thị trong chế độ xem hiện tại để ngày hiện tại.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_LabelAs" xml:space="preserve">
+    <value>Thay đổi nhãn đã chọn bổ nhiệm.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NavigateBackward" xml:space="preserve">
+    <value>Bước trở lại trong thời gian theo đề nghị của xem hiện thời.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NavigateForward" xml:space="preserve">
+    <value>Tiến về phía trước trong thời gian theo đề nghị của xem hiện thời.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NewAllDayEvent" xml:space="preserve">
+    <value>Tạo ra một mới tất cả các sự kiện ngày.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NewAppointment" xml:space="preserve">
+    <value>Tạo một cuộc hẹn mới.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NewRecurringAppointment" xml:space="preserve">
+    <value>Tạo một cuộc hẹn định kỳ mới.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NewRecurringEvent" xml:space="preserve">
+    <value>Tạo ra một sự kiện lặp lại mới.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_OpenAppointment" xml:space="preserve">
+    <value>Mở cuộc hẹn được chọn.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_OpenRemindersWindow" xml:space="preserve">
+    <value>Hiển thị cửa sổ nhắc nhở</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_PasteAppointment" xml:space="preserve">
+    <value>Dán cuộc hẹn từ clipboard.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_Reminder" xml:space="preserve">
+    <value>Chọn khi được nhắc nhở của khoản mục này</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ShowTimeAs" xml:space="preserve">
+    <value>Thay đổi trạng thái đã chọn bổ nhiệm.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ShowWorkDaysOnly" xml:space="preserve">
+    <value>Chỉ hiện ngày làm việc trong lịch.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ShowWorkTimeOnly" xml:space="preserve">
+    <value>Hiển thị chỉ làm việc giờ trong lịch.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_SwitchSnapToCells" xml:space="preserve">
+    <value>Chỉ định một chế độ snapping để hiển thị các cuộc hẹn trong vòng thời gian tế bào.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_TimeScalesMenu" xml:space="preserve">
+    <value>Thay đổi quy mô thời gian.</value>
+  </data>
+  <data name="SchedulerStringId.Description_AgendaView" xml:space="preserve">
+    <value>Chuyển sang chế xem chương trình nghị sự. Hiển thị danh sách các sự kiện sắp tới được nhóm theo ngày.</value>
+  </data>
+  <data name="SchedulerStringId.Description_DayView" xml:space="preserve">
+    <value>Chuyển đến giao diện ngày. Xem các cuộc hẹn cho một ngày cụ thể, chi tiết nhất.</value>
+  </data>
+  <data name="SchedulerStringId.Description_ListView" xml:space="preserve">
+    <value>Chuyển sang chế xem danh sách. Hiển thị danh sách các cuộc hẹn</value>
+  </data>
+  <data name="SchedulerStringId.Description_MonthView" xml:space="preserve">
+    <value>chuyển sang tháng (đa tuần). Calendar view hữu ích cho các kế hoạch dài hạn.</value>
+  </data>
+  <data name="SchedulerStringId.Description_TimelineView" xml:space="preserve">
+    <value>Switch để xem thời gian. Âm mưu liên quan đến thời gian các cuộc hẹn.</value>
+  </data>
+  <data name="SchedulerStringId.Description_WeekView" xml:space="preserve">
+    <value>Chuyển đến giao diện tuần. Sắp xếp các cuộc hẹn cho một tuần cụ thể trong một hình thức nhỏ gọn.</value>
+  </data>
+  <data name="SchedulerStringId.Description_WorkWeekView" xml:space="preserve">
+    <value>Chuyển sang tuần làm việc. Chi tiết xem cho ngày làm việc trong một số tuần.</value>
+  </data>
+  <data name="SchedulerStringId.DisplayFormat_TimeScaleQuarter" xml:space="preserve">
+    <value>Q {0}</value>
+  </data>
+  <data name="SchedulerStringId.EditOccurrenceWindow_EditOccurrence" xml:space="preserve">
+    <value>Chỉ cần cái này</value>
+  </data>
+  <data name="SchedulerStringId.EditOccurrenceWindow_EditRecurrentAppointmentMessage" xml:space="preserve">
+    <value>Đây là một trong những cuộc hẹn trong một loạt. Những gì bạn muốn mở?</value>
+  </data>
+  <data name="SchedulerStringId.EditOccurrenceWindow_EditSeries" xml:space="preserve">
+    <value>Toàn bộ truyện</value>
+  </data>
+  <data name="SchedulerStringId.Format_TimeBeforeStart" xml:space="preserve">
+    <value>{0} trước khi bắt đầu</value>
+  </data>
+  <data name="SchedulerStringId.GotoDateWindow_ShowIn" xml:space="preserve">
+    <value>Xem tại:</value>
+  </data>
+  <data name="SchedulerStringId.Interval_From" xml:space="preserve">
+    <value>được áp</value>
+  </data>
+  <data name="SchedulerStringId.Interval_To" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CustomizeTimeRuler" xml:space="preserve">
+    <value>Tùy chỉnh thời gian cai trị...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_EditSeries" xml:space="preserve">
+    <value>Chỉnh sửa loạt</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoDate" xml:space="preserve">
+    <value>Đến ngày...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoToday" xml:space="preserve">
+    <value>Đi đến ngày hôm nay</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_LabelAs" xml:space="preserve">
+    <value>Các nhãn hiệu như</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_MoveAppointmentsOnDrop" xml:space="preserve">
+    <value>Di chuyển</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NavigateBackward" xml:space="preserve">
+    <value>Quay trở lại</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewAllDayEvent" xml:space="preserve">
+    <value>Mới tất cả các sự kiện ngày</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewAppointment" xml:space="preserve">
+    <value>Cuộc hẹn mới</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewRecurringAppointment" xml:space="preserve">
+    <value>Cuộc hẹn định kỳ mới</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewRecurringEvent" xml:space="preserve">
+    <value>Sự kiện theo định kỳ mới</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenRemindersWindow" xml:space="preserve">
+    <value>Cửa sổ lời nhắc</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_RestoreOccurrence" xml:space="preserve">
+    <value>Khôi phục trạng thái mặc định</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ShowTimeAs" xml:space="preserve">
+    <value>Hiển thị thời gian là</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ShowWorkDaysOnly" xml:space="preserve">
+    <value>Ngày làm</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ShowWorkTimeOnly" xml:space="preserve">
+    <value>Giờ làm việc</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchSnapToCells" xml:space="preserve">
+    <value>Snap để tế bào</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByDate" xml:space="preserve">
+    <value>Nhóm theo ngày</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByNone" xml:space="preserve">
+    <value>Nhóm bởi None</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByResource" xml:space="preserve">
+    <value>Nhóm của tài nguyên</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchViewMenu" xml:space="preserve">
+    <value>Thay đổi chế độ xem để</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleCaptionsMenu" xml:space="preserve">
+    <value>Thời gian quy mô phụ đề</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScalesMenu" xml:space="preserve">
+    <value>Quy mô thời gian</value>
+  </data>
+  <data name="SchedulerStringId.MonthlyRecurrenceControl_The" xml:space="preserve">
+    <value>Các</value>
+  </data>
+  <data name="SchedulerStringId.Msg_Conflict" xml:space="preserve">
+    <value>Hẹn edited xung đột với một hoặc một số các cuộc hẹn khác.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_DateOutsideLimitInterval" xml:space="preserve">
+    <value>Ngày bạn nhập là bên ngoài khoảng thời gian giới hạn.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayNumber" xml:space="preserve">
+    <value>không hợp lệ. Vui lòng nhập một giá trị số nguyên từ 1 đến {0}.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayOfWeek" xml:space="preserve">
+    <value>Không có ngày đã chọn. Vui lòng chọn ít nhất một ngày trong tuần.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidEndDate" xml:space="preserve">
+    <value>Ngày mà bạn đã nhập xảy ra trước khi bắt đầu ngày.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_RecurrenceExceptionsWillBeLost" xml:space="preserve">
+    <value>Bất kỳ trường hợp ngoại lệ liên kết với cuộc hẹn định kỳ này sẽ bị mất. Tiến hành?</value>
+  </data>
+  <data name="SchedulerStringId.Msg_SaveBeforeClose" xml:space="preserve">
+    <value>Bạn muốn lưu thay đổi của bạn?</value>
+  </data>
+  <data name="SchedulerStringId.Msg_WarningDayNumber" xml:space="preserve">
+    <value>Một vài tháng có ít hơn {0} ngày. Những tháng này, các sự kiện sẽ rơi vào ngày cuối cùng của tháng.</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceControl_RecurEvery" xml:space="preserve">
+    <value>Recur mỗi</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceRangeControl_EndBy" xml:space="preserve">
+    <value>Kết thúc bởi:</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_AppointmentTime" xml:space="preserve">
+    <value>Thời gian bổ nhiệm</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_Duration" xml:space="preserve">
+    <value>Thời gian:</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_End" xml:space="preserve">
+    <value>Cuối cùng:</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_RangeOfRecurrence" xml:space="preserve">
+    <value>Tái phát cuối</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_Start" xml:space="preserve">
+    <value>Bắt đầu:</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceWindow_Title" xml:space="preserve">
+    <value>Cuộc hẹn định kỳ</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_ClickSnoozeToBeReminderAgainIn" xml:space="preserve">
+    <value>Nhấp vào tạm dừng để được nhắc nhở một lần nữa trong:</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_OpenItem" xml:space="preserve">
+    <value>Mở mục</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_OverdueTimeBeforeAppointmentStart" xml:space="preserve">
+    <value>{0} đã quá hạn</value>
+  </data>
+  <data name="SchedulerStringId.RemindersWindow_Snooze" xml:space="preserve">
+    <value>Tạm dừng</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_NewGroup" xml:space="preserve">
+    <value>Nhóm mới</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_MenuCmd_NewResource" xml:space="preserve">
+    <value>Nguồn tài nguyên mới</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_NewGroupText" xml:space="preserve">
+    <value>Nhóm mới</value>
+  </data>
+  <data name="SchedulerStringId.ResourceTree_NewResourceText" xml:space="preserve">
+    <value>Nguồn tài nguyên mới</value>
+  </data>
+  <data name="SchedulerStringId.SnapToCells_Always" xml:space="preserve">
+    <value>Luôn luôn</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMinutely" xml:space="preserve">
+    <value>nghiên</value>
+  </data>
+  <data name="SchedulerStringId.TimeRulerWindow_CurrentTime" xml:space="preserve">
+    <value>Tất cả thời gian:</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_Description" xml:space="preserve">
+    <value>Mô tả:</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_End" xml:space="preserve">
+    <value>Cuối cùng:</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_Reminder" xml:space="preserve">
+    <value>Nhắc nhở:</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_Resources" xml:space="preserve">
+    <value>Nguồn:</value>
+  </data>
+  <data name="SchedulerStringId.Tooltip_Start" xml:space="preserve">
+    <value>Bắt đầu:</value>
+  </data>
+  <data name="SchedulerStringId.WeeklyRecurrenceControl_WeekOrWeeksOn" xml:space="preserve">
+    <value>tuần ngày:</value>
+  </data>
+  <data name="SchedulerStringId.YearlyRecurrenceControl_On" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="SchedulerStringId.YearlyRecurrenceControl_OnThe" xml:space="preserve">
+    <value>Trên các</value>
+  </data>
+</root>

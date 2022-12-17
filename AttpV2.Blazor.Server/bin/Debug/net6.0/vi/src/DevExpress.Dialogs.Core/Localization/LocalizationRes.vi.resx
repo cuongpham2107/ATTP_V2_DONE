@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DialogsStringId.ContentViewMode" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="DialogsStringId.CancelButtonText" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="DialogsStringId.OkButtonText" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="DialogsStringId.DetailsView_NameColumnCaption" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="DialogsStringId.DetailsView_SizeColumnCaption" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="DialogsStringId.SaveFileDialogOkButtonText" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="DialogsStringId.DetailsView_TypeColumnCaption" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuCopyCommandText" xml:space="preserve">
+    <value>&amp;Sao chép</value>
+  </data>
+  <data name="DialogsStringId.OpenFileDialogDefaultTitle" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="DialogsStringId.OpenFileDialogOkButtonText" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuDeleteCommandText" xml:space="preserve">
+    <value>&amp;Xóa</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuCutCommandText" xml:space="preserve">
+    <value>&amp;Cắt</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPasteCommandText" xml:space="preserve">
+    <value>&amp;Dán</value>
+  </data>
+  <data name="DialogsStringId.DetailsViewMode" xml:space="preserve">
+    <value>Thông tin chi tiết</value>
+  </data>
+  <data name="DialogsStringId.DragDrop_CopyTooltip" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="DialogsStringId.DragDrop_LinkTooltip" xml:space="preserve">
+    <value>Tạo liên kết trong</value>
+  </data>
+  <data name="DialogsStringId.DragDrop_MoveTooltip" xml:space="preserve">
+    <value>Di chuyển đến</value>
+  </data>
+  <data name="DialogsStringId.DragDropConfirmationDialog_Move" xml:space="preserve">
+    <value>Bạn có chắc muốn di chuyển "{0};" đến "{1}"?</value>
+  </data>
+  <data name="DialogsStringId.FileIsReadOnlyMessage" xml:space="preserve">
+    <value>Tập tin này được thiết lập để chỉ đọc.
+
+Hãy thử lại với tên tệp khác.</value>
+  </data>
+  <data name="DialogsStringId.FileNameLabelText" xml:space="preserve">
+    <value>Tên tập tin:</value>
+  </data>
+  <data name="DialogsStringId.FileNotFoundMessage" xml:space="preserve">
+    <value>Không tìm thấy tệp.
+
+Kiểm tra tên tệp và thử lại.</value>
+  </data>
+  <data name="DialogsStringId.MakeNewFolderButtonText" xml:space="preserve">
+    <value>Tạo thư mục mới</value>
+  </data>
+  <data name="DialogsStringId.MessageBoxCaption" xml:space="preserve">
+    <value>Lỗi!</value>
+  </data>
+  <data name="DialogsStringId.NewFolderButtonText" xml:space="preserve">
+    <value>Thư mục mới</value>
+  </data>
+  <data name="DialogsStringId.NewStyleFolderBrowserFileNameLabelText" xml:space="preserve">
+    <value>Thư mục:</value>
+  </data>
+  <data name="DialogsStringId.PathError_MessageFormatString" xml:space="preserve">
+    <value>Windows không tìm thấy '{0}'. Kiểm tra chính tả rồi thử lại.</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuAddNetworkPlaceCommandText" xml:space="preserve">
+    <value>Thêm một mạng &amp; vị trí</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuCollapseCommandText" xml:space="preserve">
+    <value>Coll &amp; apse</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuConnectNetworkDriveCommandText" xml:space="preserve">
+    <value>Bản đồ &amp; mạng ổ...</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuDisconnectNetworkDriveCommandText" xml:space="preserve">
+    <value>Dis &amp; kết nối ổ đĩa mạng...</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuDisplaySettingsCommandText" xml:space="preserve">
+    <value>&amp; thiết đặt hiển thị</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuEditCommandText" xml:space="preserve">
+    <value>&amp; chỉnh sửa</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuEjectCommandText" xml:space="preserve">
+    <value>E &amp; ject</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuExpandCommandText" xml:space="preserve">
+    <value>Điểm kinh nghiệm &amp; và</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuExtractCommandText" xml:space="preserve">
+    <value>Ex &amp; đường tất cả...</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuFormatCommandText" xml:space="preserve">
+    <value>Hình thức &amp; tại...</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuLinkCommandText" xml:space="preserve">
+    <value>Tạo &amp; đường tắt</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuManageCommandText" xml:space="preserve">
+    <value>Mana &amp; ge</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuOpenAsCommandText" xml:space="preserve">
+    <value>Mở wit &amp; h</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuOpenCommandText" xml:space="preserve">
+    <value>&amp; mở</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuOpenContainingCommandText" xml:space="preserve">
+    <value>Mở thư mục locat &amp; ion</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPersonalizeCommandText" xml:space="preserve">
+    <value>PE &amp; rsonalize</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPinToHomeCommandText" xml:space="preserve">
+    <value>Pin để truy cập nhanh</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPreviousVersionsCommandText" xml:space="preserve">
+    <value>Khôi phục trước đó và các phiên bản</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPrintCommandText" xml:space="preserve">
+    <value>&amp; in</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPropertiesCommandText" xml:space="preserve">
+    <value>P &amp; roperties</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuRenameCommandText" xml:space="preserve">
+    <value>Rena &amp; tôi</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuSelectCommandText" xml:space="preserve">
+    <value>SE &amp; lect</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuUpdateEncryptionSettingsWorkCommandText" xml:space="preserve">
+    <value>Quyền sở hữu tập tin</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuWindowsShareCommandText" xml:space="preserve">
+    <value>&amp; cung cấp cho truy cập vào</value>
+  </data>
+  <data name="DialogsStringId.CreatePromptMessage" xml:space="preserve">
+    <value>{0} không tồn tại.
+Bạn có muốn tạo ra nó không?</value>
+  </data>
+  <data name="DialogsStringId.DetailsView_DateModifiedColumnCaption" xml:space="preserve">
+    <value>Date Modified</value>
+  </data>
+  <data name="DialogsStringId.DragDropConfirmationDialog_Copy" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn sao chép "{0}" đến "{1}"?</value>
+  </data>
+  <data name="DialogsStringId.DragDropConfirmationDialog_CreateLink" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn thêm một phím tắt cho "{0}" đến "{1}" thư mục?</value>
+  </data>
+  <data name="DialogsStringId.ExtraLargeViewMode" xml:space="preserve">
+    <value>Phụ lớn mục</value>
+  </data>
+  <data name="DialogsStringId.FolderBrowserDialogDefaultTitle" xml:space="preserve">
+    <value>Duyệt tìm cặp</value>
+  </data>
+  <data name="DialogsStringId.InvalidFileNameMessage" xml:space="preserve">
+    <value>Tên tập tin là không hợp lệ.</value>
+  </data>
+  <data name="DialogsStringId.InvalidFolderNameMessage" xml:space="preserve">
+    <value>Thư mục tên là không hợp lệ.</value>
+  </data>
+  <data name="DialogsStringId.LargeViewMode" xml:space="preserve">
+    <value>Mục lớn</value>
+  </data>
+  <data name="DialogsStringId.ListViewMode" xml:space="preserve">
+    <value>danh sách</value>
+  </data>
+  <data name="DialogsStringId.MediumViewMode" xml:space="preserve">
+    <value>Khoản mục phương tiện</value>
+  </data>
+  <data name="DialogsStringId.NewFolderText" xml:space="preserve">
+    <value>Thư mục mới</value>
+  </data>
+  <data name="DialogsStringId.OverwritePromptMessage" xml:space="preserve">
+    <value>{0} đã tồn tại.
+Bạn có muốn thay thế nó không?</value>
+  </data>
+  <data name="DialogsStringId.PathError_Caption" xml:space="preserve">
+    <value>File Explorer</value>
+  </data>
+  <data name="DialogsStringId.PathNotExistsMessage" xml:space="preserve">
+    <value>Con đường không tồn tại.
+Kiểm tra đường dẫn rồi thử lại.</value>
+  </data>
+  <data name="DialogsStringId.PromptMessagesCaption" xml:space="preserve">
+    <value>Xác nhận lưu như</value>
+  </data>
+  <data name="DialogsStringId.SaveFileDialogDefaultTitle" xml:space="preserve">
+    <value>Lưu như</value>
+  </data>
+  <data name="DialogsStringId.SaveFileDialogFolderWritePermissionMessage" xml:space="preserve">
+    <value>{0} từ
+Bạn không có quyền lưu ở vị trí này.
+Liên hệ với người quản trị để được cấp phép.
+
+Thay vào đó bạn có muốn lưu trong thư mục {1} không?</value>
+  </data>
+  <data name="DialogsStringId.SmallViewMode" xml:space="preserve">
+    <value>Mục nhỏ</value>
+  </data>
+  <data name="DialogsStringId.TilesViewMode" xml:space="preserve">
+    <value>Gạch</value>
+  </data>
+  <data name="DialogsStringId.WideFolderBrowserInvalidFolderLocation" xml:space="preserve">
+    <value>Bạn không thể mở vị trí này bằng cách sử dụng chương trình này.
+Hãy thử một vị trí khác.</value>
+  </data>
+</root>

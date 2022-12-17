@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Thiết đặt trang</value>
+  </data>
+  <data name="btnCancel.AccessibleName" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="btnCustomHeaderFooter.AccessibleName" xml:space="preserve">
+    <value>Tuỳ chỉnh tiêu đề và chân trang</value>
+  </data>
+  <data name="btnCustomHeaderFooter.Text" xml:space="preserve">
+    <value>&amp; custom Header/Footer...</value>
+  </data>
+  <data name="btnOk.AccessibleName" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnPrint.AccessibleName" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="btnPrint.Text" xml:space="preserve">
+    <value>&amp; Print...</value>
+  </data>
+  <data name="btnPrint2.AccessibleName" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="btnPrint2.Text" xml:space="preserve">
+    <value>&amp; Print...</value>
+  </data>
+  <data name="btnPrint3.AccessibleName" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="btnPrint3.Text" xml:space="preserve">
+    <value>&amp; Print...</value>
+  </data>
+  <data name="btnPrint4.AccessibleName" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="btnPrint4.Text" xml:space="preserve">
+    <value>&amp; Print...</value>
+  </data>
+  <data name="btnPrint5.AccessibleName" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="btnPrint5.Text" xml:space="preserve">
+    <value>&amp; Print...</value>
+  </data>
+  <data name="btnPrintPreview.AccessibleName" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="btnPrintPreview.Text" xml:space="preserve">
+    <value>In Previe &amp; w</value>
+  </data>
+  <data name="btnPrintPreview2.AccessibleName" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="btnPrintPreview2.Text" xml:space="preserve">
+    <value>In Previe &amp; w</value>
+  </data>
+  <data name="btnPrintPreview3.AccessibleName" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="btnPrintPreview3.Text" xml:space="preserve">
+    <value>In Previe &amp; w</value>
+  </data>
+  <data name="btnPrintPreview4.AccessibleName" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="btnPrintPreview4.Text" xml:space="preserve">
+    <value>In Previe &amp; w</value>
+  </data>
+  <data name="btnPrintPreview5.AccessibleName" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="btnPrintPreview5.Text" xml:space="preserve">
+    <value>In Previe &amp; w</value>
+  </data>
+  <data name="chkAlignWithPageMargins.Properties.AccessibleName" xml:space="preserve">
+    <value>Align với trang lợi nhuận</value>
+  </data>
+  <data name="chkAlignWithPageMargins.Properties.Caption" xml:space="preserve">
+    <value>Align với trang &amp; lợi nhuận</value>
+  </data>
+  <data name="chkBlackAndWhite.Properties.AccessibleName" xml:space="preserve">
+    <value>Màu đen và trắng</value>
+  </data>
+  <data name="chkBlackAndWhite.Properties.Caption" xml:space="preserve">
+    <value>màu đen và trắng</value>
+  </data>
+  <data name="chkBlackAndWhiteChartsheet.Properties.AccessibleName" xml:space="preserve">
+    <value>In màu đen và trắng</value>
+  </data>
+  <data name="chkBlackAndWhiteChartsheet.Properties.Caption" xml:space="preserve">
+    <value>In trong &amp; đen và trắng</value>
+  </data>
+  <data name="chkDifferentFirstPage.Properties.AccessibleName" xml:space="preserve">
+    <value>Khác nhau trang đầu tiên</value>
+  </data>
+  <data name="chkDifferentFirstPage.Properties.Caption" xml:space="preserve">
+    <value>D &amp; ifferent trang đầu tiên</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPages.Properties.AccessibleName" xml:space="preserve">
+    <value>Trang lẻ, và thậm chí khác nhau</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPages.Properties.Caption" xml:space="preserve">
+    <value>&amp; trang lẻ, và thậm chí khác nhau</value>
+  </data>
+  <data name="chkDraftQuality.Properties.AccessibleName" xml:space="preserve">
+    <value>Dự thảo chất lượng</value>
+  </data>
+  <data name="chkDraftQuality.Properties.Caption" xml:space="preserve">
+    <value>Dự thảo &amp; chất lượng</value>
+  </data>
+  <data name="chkDraftQualityChartsheet.Properties.AccessibleName" xml:space="preserve">
+    <value>Dự thảo chất lượng</value>
+  </data>
+  <data name="chkDraftQualityChartsheet.Properties.Caption" xml:space="preserve">
+    <value>Dự thảo &amp; chất lượng</value>
+  </data>
+  <data name="chkGridlines.Properties.AccessibleName" xml:space="preserve">
+    <value>Đường lưới</value>
+  </data>
+  <data name="chkGridlines.Properties.Caption" xml:space="preserve">
+    <value>&amp; đường lưới</value>
+  </data>
+  <data name="chkRowAndColumnHeadings.Properties.AccessibleName" xml:space="preserve">
+    <value>Hàng và cột tiêu đề</value>
+  </data>
+  <data name="chkRowAndColumnHeadings.Properties.Caption" xml:space="preserve">
+    <value>Đề mục liên tiếp và hợp tác &amp; lumn</value>
+  </data>
+  <data name="chkScaleWithDocument.Properties.AccessibleName" xml:space="preserve">
+    <value>Quy mô với các tài liệu</value>
+  </data>
+  <data name="chkScaleWithDocument.Properties.Caption" xml:space="preserve">
+    <value>SCA &amp; le với tài liệu</value>
+  </data>
+  <data name="edtCellErrorsAs.Properties.AccessibleName" xml:space="preserve">
+    <value>Bào lỗi như</value>
+  </data>
+  <data name="edtCenterFooter.Properties.AccessibleName" xml:space="preserve">
+    <value>Trung tâm chân</value>
+  </data>
+  <data name="edtCenterHeader.Properties.AccessibleName" xml:space="preserve">
+    <value>Trung tâm tiêu đề</value>
+  </data>
+  <data name="edtComments.Properties.AccessibleName" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="edtFirstPageNumber.Properties.AccessibleName" xml:space="preserve">
+    <value>Số trang đầu tiên</value>
+  </data>
+  <data name="edtFitToHeight.Properties.AccessibleName" xml:space="preserve">
+    <value>Phù hợp với chiều cao</value>
+  </data>
+  <data name="edtFitToWidth.Properties.AccessibleName" xml:space="preserve">
+    <value>Vừa chiều rộng</value>
+  </data>
+  <data name="edtFooter.Properties.AccessibleName" xml:space="preserve">
+    <value>Chân trang</value>
+  </data>
+  <data name="edtHeader.Properties.AccessibleName" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="edtLeftFooter.Properties.AccessibleName" xml:space="preserve">
+    <value>Rời chân</value>
+  </data>
+  <data name="edtLeftHeader.Properties.AccessibleName" xml:space="preserve">
+    <value>Trái tiêu đề</value>
+  </data>
+  <data name="edtPaperSize.Properties.AccessibleName" xml:space="preserve">
+    <value>Kích thước giấy</value>
+  </data>
+  <data name="edtPrintQuality.Properties.AccessibleName" xml:space="preserve">
+    <value>In chất lượng</value>
+  </data>
+  <data name="edtRightFooter.Properties.AccessibleName" xml:space="preserve">
+    <value>Chân bên phải</value>
+  </data>
+  <data name="edtRightHeader.Properties.AccessibleName" xml:space="preserve">
+    <value>Bên phải tiêu đề</value>
+  </data>
+  <data name="edtScale.Properties.AccessibleName" xml:space="preserve">
+    <value>Quy mô</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="lblCellErrorsAs.AccessibleName" xml:space="preserve">
+    <value>Bào lỗi như</value>
+  </data>
+  <data name="lblCellErrorsAs.Text" xml:space="preserve">
+    <value>Di động &amp; các lỗi như:</value>
+  </data>
+  <data name="lblColumnsRepeatAtLeft.AccessibleName" xml:space="preserve">
+    <value>Cột để lặp lại ở bên trái</value>
+  </data>
+  <data name="lblColumnsRepeatAtLeft.Text" xml:space="preserve">
+    <value>&amp; cột để lặp lại ở bên trái:</value>
+  </data>
+  <data name="lblComments.AccessibleName" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="lblComments.Text" xml:space="preserve">
+    <value>Co &amp; mments:</value>
+  </data>
+  <data name="lblFirstPageNumber.AccessibleName" xml:space="preserve">
+    <value>Số trang đầu tiên</value>
+  </data>
+  <data name="lblFirstPageNumber.Text" xml:space="preserve">
+    <value>Fi &amp; rst trang số:</value>
+  </data>
+  <data name="lblFooter.AccessibleName" xml:space="preserve">
+    <value>Chân trang</value>
+  </data>
+  <data name="lblFooter.Text" xml:space="preserve">
+    <value>&amp; chân trang:</value>
+  </data>
+  <data name="lblHeader.AccessibleName" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="lblHeader.Text" xml:space="preserve">
+    <value>Ông &amp; buôn:</value>
+  </data>
+  <data name="lblNormalSize.AccessibleName" xml:space="preserve">
+    <value>kích thước bình thường</value>
+  </data>
+  <data name="lblNormalSize.Text" xml:space="preserve">
+    <value>% kích thước bình thường</value>
+  </data>
+  <data name="lblPageOrder.AccessibleName" xml:space="preserve">
+    <value>Thứ tự trang</value>
+  </data>
+  <data name="lblPageOrder.Text" xml:space="preserve">
+    <value>Thứ tự trang</value>
+  </data>
+  <data name="lblPagesWideBy.AccessibleName" xml:space="preserve">
+    <value>Trang rộng</value>
+  </data>
+  <data name="lblPagesWideBy.Text" xml:space="preserve">
+    <value>trong trang rộng</value>
+  </data>
+  <data name="lblPaperSize.AccessibleName" xml:space="preserve">
+    <value>Kích thước giấy</value>
+  </data>
+  <data name="lblPaperSize.Text" xml:space="preserve">
+    <value>Giấy si &amp; ze:</value>
+  </data>
+  <data name="lblPrint.Text" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="lblPrintArea.AccessibleName" xml:space="preserve">
+    <value>In diện tích</value>
+  </data>
+  <data name="lblPrintArea.Text" xml:space="preserve">
+    <value>In &amp; khu vực:</value>
+  </data>
+  <data name="lblPrintingQuality.Text" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="lblPrintQuality.AccessibleName" xml:space="preserve">
+    <value>In chất lượng</value>
+  </data>
+  <data name="lblPrintQuality.Text" xml:space="preserve">
+    <value>In &amp; chất lượng:</value>
+  </data>
+  <data name="lblPrintTitles.AccessibleName" xml:space="preserve">
+    <value>Print Titles</value>
+  </data>
+  <data name="lblPrintTitles.Text" xml:space="preserve">
+    <value>Print Titles</value>
+  </data>
+  <data name="lblRowsRepeatAtTop.AccessibleName" xml:space="preserve">
+    <value>Hàng lặp lại ở trên</value>
+  </data>
+  <data name="lblRowsRepeatAtTop.Text" xml:space="preserve">
+    <value>&amp; hàng lặp lại ở đầu trang:</value>
+  </data>
+  <data name="lblScaling.AccessibleName" xml:space="preserve">
+    <value>Mở rộng quy mô</value>
+  </data>
+  <data name="lblScaling.Text" xml:space="preserve">
+    <value>Mở rộng quy mô</value>
+  </data>
+  <data name="lblTall.AccessibleName" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="lblTall.Text" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="rgrpFitToPage.Properties.AccessibleName" xml:space="preserve">
+    <value>Phù hợp với trang</value>
+  </data>
+  <data name="rgrpFitToPage.Properties.Items1" xml:space="preserve">
+    <value>&amp; điều chỉnh:</value>
+  </data>
+  <data name="rgrpFitToPage.Properties.Items3" xml:space="preserve">
+    <value>&amp; phù hợp với:</value>
+  </data>
+  <data name="rgrpOrientation.Properties.Items1" xml:space="preserve">
+    <value>Por &amp; đặc điểm</value>
+  </data>
+  <data name="rgrpOrientation.Properties.Items3" xml:space="preserve">
+    <value>&amp; phong cảnh</value>
+  </data>
+  <data name="rgrpPageOrder.Properties.Items1" xml:space="preserve">
+    <value>&amp; xuống, sau đó qua</value>
+  </data>
+  <data name="rgrpPageOrder.Properties.Items3" xml:space="preserve">
+    <value>O &amp; ver, sau đó xuống</value>
+  </data>
+  <data name="tabChart.Text" xml:space="preserve">
+    <value>Bảng xếp hạng</value>
+  </data>
+  <data name="tabHeaderFooter.Text" xml:space="preserve">
+    <value>Header/Footer</value>
+  </data>
+  <data name="tabMargins.Text" xml:space="preserve">
+    <value>Lợi nhuận</value>
+  </data>
+  <data name="tabPage.Text" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="tabSheet.Text" xml:space="preserve">
+    <value>Sheet</value>
+  </data>
+</root>

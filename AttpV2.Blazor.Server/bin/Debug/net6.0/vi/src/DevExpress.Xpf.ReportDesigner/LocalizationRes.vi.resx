@@ -1,0 +1,1973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportDesignerStringId.Chart_SummaryFunctionEditor_NoFunctionIsSelected_Text" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_OptionsTab_Header" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="ReportDesignerStringId.Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ReportDesignerStringId.Delete_Caption" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_Header" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Data" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_SeriesElements_AddSeriesTitle_Caption" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_ChartTitle" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesTitle" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Redo_Hint" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="ReportDesignerStringId.Redo_Caption" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Undo_Hint" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="ReportDesignerStringId.Undo_Caption" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="ReportDesignerStringId.Warning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_NoDataTargetControlText" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ReportDesignerStringId.None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_LayoutGroup" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesLabel" xml:space="preserve">
+    <value>Nhãn</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_AlignmentGroup" xml:space="preserve">
+    <value>Căn</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="ReportDesignerStringId.Copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ReportDesignerStringId.Copy_Caption" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ReportDesignerStringId.All" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="ReportDesignerStringId.Add" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PalettesEditor_Add" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="ReportDesignerStringId.Remove" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="ReportDesignerStringId.Error" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="ReportDesignerStringId.Column" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportDesignerStringId.Clear" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_FontGroup" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="ReportDesignerStringId.RibbonGroup_Font" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle_Caption" xml:space="preserve">
+    <value>Tựa đề</value>
+  </data>
+  <data name="ReportDesignerStringId.RibbonPage_Preview" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_DataFiltersEditor_And" xml:space="preserve">
+    <value>Và</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_DataFiltersEditor_Or" xml:space="preserve">
+    <value>Hoặc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Enabled" xml:space="preserve">
+    <value>Kích hoạt</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesEditor_ValueColumn" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_ValueDropTargetControlText" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PalettesEditor_Save" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="ReportDesignerStringId.SaveReport_Caption" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="ReportDesignerStringId.PageOrientation_Landscape" xml:space="preserve">
+    <value>Hướng ngang</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SummaryRunning_Page" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_Height" xml:space="preserve">
+    <value>Chiều cao:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_Width" xml:space="preserve">
+    <value>Chiều rộng:</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ReportDesignerStringId.ExpressionEditor_Fields_Caption" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="ReportDesignerStringId.Fields" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="ReportDesignerStringId.Parameters" xml:space="preserve">
+    <value>Tham số</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_EditGroup" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="ReportDesignerStringId.RibbonGroup_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="ReportDesignerStringId.Cut" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ReportDesignerStringId.Cut_Caption" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ReportDesignerStringId.Paste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ReportDesignerStringId.Paste_Caption" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ReportDesignerStringId.Cell" xml:space="preserve">
+    <value>Ô</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Count" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+  <data name="ReportDesignerStringId.PageSetup_Caption" xml:space="preserve">
+    <value>Thiết lập Trang</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Max" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Min" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Sum" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_Avg" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportExplorer_Styles" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg3DZoomInActionName" xml:space="preserve">
+    <value>Phóng To</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SummaryRunning_Group" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="ReportDesignerStringId.SortOrder" xml:space="preserve">
+    <value>Thứ tự Sắp xếp</value>
+  </data>
+  <data name="ReportDesignerStringId.BringToFront_Caption" xml:space="preserve">
+    <value>Đưa lên Trước</value>
+  </data>
+  <data name="ReportDesignerStringId.SentToBack_Caption" xml:space="preserve">
+    <value>Gửi ra Sau</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg3DZoomOutActionName" xml:space="preserve">
+    <value>Thu nhỏ</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SummaryRunning_Report" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_ReportGroup" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.RibbonGroup_Report" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.Field" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="ReportDesignerStringId.Watermark_Caption" xml:space="preserve">
+    <value>Dấu nước</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignHorizontalCenters_Caption" xml:space="preserve">
+    <value>Căn Giữa</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignLeft_Caption" xml:space="preserve">
+    <value>Căn Trái</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignRight_Caption" xml:space="preserve">
+    <value>Căn Phải</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignToGrid_Caption" xml:space="preserve">
+    <value>Căn sát Lưới chia</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignTop_Caption" xml:space="preserve">
+    <value>Căn Đỉnh</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignVerticalCenters_Caption" xml:space="preserve">
+    <value>Căn Giữa</value>
+  </data>
+  <data name="ReportDesignerStringId.CenterHorizontally_Caption" xml:space="preserve">
+    <value>Giữa Ngang</value>
+  </data>
+  <data name="ReportDesignerStringId.HorizontalSpaceConcatenate_Caption" xml:space="preserve">
+    <value>Loại bỏ Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportDesignerStringId.HorizontalSpaceDecrease_Caption" xml:space="preserve">
+    <value>Giảm Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportDesignerStringId.HorizontalSpaceIncrease_Caption" xml:space="preserve">
+    <value>Tăng Khoảng cách Ngang</value>
+  </data>
+  <data name="ReportDesignerStringId.HorizontalSpaceMakeEqual_Caption" xml:space="preserve">
+    <value>Làm cho Khoảng cách Ngang Bằng nhau</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_DesignerPage" xml:space="preserve">
+    <value>Thiết kế Báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.RibbonPage_Designer" xml:space="preserve">
+    <value>Thiết kế Báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.Scripts_Caption" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ReportDesignerStringId.SizeToControlHeight_Caption" xml:space="preserve">
+    <value>Làm cho Cùng Chiều cao</value>
+  </data>
+  <data name="ReportDesignerStringId.SizeToControlWidth_Caption" xml:space="preserve">
+    <value>Làm cho Cùng Chiều rộng</value>
+  </data>
+  <data name="ReportDesignerStringId.SizeToGrid_Caption" xml:space="preserve">
+    <value>Khớp kích cỡ với Lưới chia</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalSpaceConcatenate_Caption" xml:space="preserve">
+    <value>Loại bỏ Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalSpaceDecrease_Caption" xml:space="preserve">
+    <value>Giảm Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalSpaceIncrease_Caption" xml:space="preserve">
+    <value>Tăng Khoảng cách Dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.FieldList" xml:space="preserve">
+    <value>Danh sách trường</value>
+  </data>
+  <data name="ReportDesignerStringId.FormatStringEditor_Sample" xml:space="preserve">
+    <value>Mẫu:</value>
+  </data>
+  <data name="ReportDesignerStringId.FormatStringEditor_StandardFormats" xml:space="preserve">
+    <value>Định dạng chuẩn</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRuleSheetEditor_AddRule" xml:space="preserve">
+    <value>Thêm một quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRuleSheetEditor_RemoveRule" xml:space="preserve">
+    <value>Xoá quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.GroupAndSort_ShowFooter" xml:space="preserve">
+    <value>Hiển thị chân trang</value>
+  </data>
+  <data name="ReportDesignerStringId.GroupAndSort_ShowHeader" xml:space="preserve">
+    <value>Hiển thị tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.GroupHeader" xml:space="preserve">
+    <value>Nhóm tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.HorizontalSpaceConcatenate_Hint" xml:space="preserve">
+    <value>Loại bỏ khoảng cách ngang giữa các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.HorizontalSpaceDecrease_Hint" xml:space="preserve">
+    <value>Giảm khoảng cách ngang giữa các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.HorizontalSpaceIncrease_Hint" xml:space="preserve">
+    <value>Tăng khoảng cách ngang giữa các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.Insert" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="ReportDesignerStringId.InvalidValue" xml:space="preserve">
+    <value>Giá trị không hợp lệ</value>
+  </data>
+  <data name="ReportDesignerStringId.Load" xml:space="preserve">
+    <value>Tải...</value>
+  </data>
+  <data name="ReportDesignerStringId.MoveUp" xml:space="preserve">
+    <value>Di chuyển lên</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_AllowMultipleValues" xml:space="preserve">
+    <value>Cho phép nhiều giá trị</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_ShowInParametersPanel" xml:space="preserve">
+    <value>Hiển thị trong bảng thông số</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_StaticValues" xml:space="preserve">
+    <value>Giá trị tĩnh</value>
+  </data>
+  <data name="ReportDesignerStringId.NewReport_Caption" xml:space="preserve">
+    <value>Báo cáo mới</value>
+  </data>
+  <data name="ReportDesignerStringId.NewReportParameter" xml:space="preserve">
+    <value>Tham số báo cáo mới...</value>
+  </data>
+  <data name="ReportDesignerStringId.OpenReport_Caption" xml:space="preserve">
+    <value>Mở...</value>
+  </data>
+  <data name="ReportDesignerStringId.PageFooter" xml:space="preserve">
+    <value>Chân trang</value>
+  </data>
+  <data name="ReportDesignerStringId.PageHeader" xml:space="preserve">
+    <value>Tiêu đề trang</value>
+  </data>
+  <data name="ReportDesignerStringId.Parameters_Add" xml:space="preserve">
+    <value>Thêm tham số</value>
+  </data>
+  <data name="ReportDesignerStringId.Parameters_EditParameters" xml:space="preserve">
+    <value>Chỉnh sửa thông số...</value>
+  </data>
+  <data name="ReportDesignerStringId.Parameters_NewParameterEditor_Title" xml:space="preserve">
+    <value>Thêm tham số mới</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ColumnSpacing" xml:space="preserve">
+    <value>Khoảng cách cột</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ShowText" xml:space="preserve">
+    <value>Hiển thị văn bản</value>
+  </data>
+  <data name="ReportDesignerStringId.Redo_Hint" xml:space="preserve">
+    <value>Làm lại thao tác cuối.</value>
+  </data>
+  <data name="ReportDesignerStringId.RemoveAllFormattingRules" xml:space="preserve">
+    <value>Loại bỏ tất cả các quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.RemoveAllParameters" xml:space="preserve">
+    <value>Loại bỏ tất cả các thông số</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportExplorer_Components" xml:space="preserve">
+    <value>Thành phần</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType" xml:space="preserve">
+    <value>Chọn loại báo cáo bạn muốn tạo.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType_Label" xml:space="preserve">
+    <value>Nhãn báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_LabelWidth" xml:space="preserve">
+    <value>Độ rộng nhãn</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_PageSize" xml:space="preserve">
+    <value>Kích thước trang</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MasterDetailAddGroupingLevelPage_SelectReport" xml:space="preserve">
+    <value>Chọn báo cáo:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MasterDetailConfigurePage_SelectDataFields" xml:space="preserve">
+    <value>Chọn trường dữ liệu:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MultiQuerySelectFieldsPage_SelectDataFields" xml:space="preserve">
+    <value>Chọn trường dữ liệu:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectColumns_SelectedColumns" xml:space="preserve">
+    <value>Chọn cột:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_LabelProduct" xml:space="preserve">
+    <value>Nhãn hiệu sản phẩm:</value>
+  </data>
+  <data name="ReportDesignerStringId.Row" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="ReportDesignerStringId.RowAbove" xml:space="preserve">
+    <value>Hàng trên</value>
+  </data>
+  <data name="ReportDesignerStringId.SaveReport_Hint" xml:space="preserve">
+    <value>Lưu báo cáo hiện tại.</value>
+  </data>
+  <data name="ReportDesignerStringId.SelectControlsWithFormattingRule" xml:space="preserve">
+    <value>Chọn điều khiển với quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.WatermarkEditor_Pages" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="ReportDesignerStringId.AddFormattingRule" xml:space="preserve">
+    <value>Thêm quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.AddParameter" xml:space="preserve">
+    <value>Thêm tham số</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_AnnotationAnchorPointEditor_Title" xml:space="preserve">
+    <value>Chọn điểm neo</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_AxisVisibilityEditor_Title" xml:space="preserve">
+    <value>Khả năng hiển thị trục</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PalettesEditor_Load" xml:space="preserve">
+    <value>Tải</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesEditor_ColorColumn" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesEditor_PointsTab" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesEditor_PropertiesTab" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AnnotationMove" xml:space="preserve">
+    <value>Ctrl + nút chuột trái để di chuyển chú thích</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChartElements_AddAnnotation_Caption" xml:space="preserve">
+    <value>Chú thích...</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_ChooseDataSource_Caption" xml:space="preserve">
+    <value>Chọn nguồn dữ liệu...</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_NoDataToDisplay_Caption" xml:space="preserve">
+    <value>Không có dữ liệu để hiển thị</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg3DRotationActionName" xml:space="preserve">
+    <value>Xoay</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg3DRotationToolTip" xml:space="preserve">
+    <value>Ctrl + nút chuột trái</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_PropertiesTab_Header" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_SeriesElements_AddIndicator_Caption" xml:space="preserve">
+    <value>Chỉ số</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_ChartTitleCollection" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_GanttDiagram" xml:space="preserve">
+    <value>Biểu đồ Gantt</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_IndicatorCollection" xml:space="preserve">
+    <value>Chỉ số</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesTitleCollection" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.ColumnToLeft" xml:space="preserve">
+    <value>Cột bên trái</value>
+  </data>
+  <data name="ReportDesignerStringId.ColumnToRight" xml:space="preserve">
+    <value>Cột bên phải</value>
+  </data>
+  <data name="ReportDesignerStringId.ContextMenu_Edit" xml:space="preserve">
+    <value>Chỉnh sửa...</value>
+  </data>
+  <data name="ReportDesignerStringId.DataSource_ConfigureConnection" xml:space="preserve">
+    <value>Cấu hình kết nối...</value>
+  </data>
+  <data name="ReportDesignerStringId.DataSource_ManageQueries" xml:space="preserve">
+    <value>Quản lý truy vấn...</value>
+  </data>
+  <data name="ReportDesignerStringId.DataSource_ManageRelations" xml:space="preserve">
+    <value>Quản lý quan hệ...</value>
+  </data>
+  <data name="ReportDesignerStringId.DataSource_QueriesEditor_Title" xml:space="preserve">
+    <value>Quản lý truy vấn</value>
+  </data>
+  <data name="ReportDesignerStringId.EditFormattingRules" xml:space="preserve">
+    <value>Chỉnh sửa quy tắc định dạng...</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesPointCollection" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_ColorDropTargetControlText" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Expression" xml:space="preserve">
+    <value>Biểu thức</value>
+  </data>
+  <data name="ReportDesignerStringId.ExpressionEditor_Title" xml:space="preserve">
+    <value>Trình soạn thảo Biểu thức</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_HomePage" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="ReportDesignerStringId.Editors_NullValue_Text" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Field" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_FormatString" xml:space="preserve">
+    <value>Chuỗi Định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.ColorEditor_None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ReportDesignerStringId.ColorEditor_Custom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MapReportTemplateFieldsPage_ReportDataSource" xml:space="preserve">
+    <value>Nguồn dữ liệu báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_EditPalettes" xml:space="preserve">
+    <value>Chỉnh sửa bảng...</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AxisElements_AddStrip_Caption" xml:space="preserve">
+    <value>Dải</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_StripCollection" xml:space="preserve">
+    <value>Dải</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_AnchorVertically" xml:space="preserve">
+    <value>Neo theo chiều dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.ColorEditor_Colors" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ReportDesignerStringId.PropertyGrid_BarControl_BarItem_Alphabetical" xml:space="preserve">
+    <value>Thứ tự chữ cái</value>
+  </data>
+  <data name="ReportDesignerStringId.FitHeightToText" xml:space="preserve">
+    <value>Phù hợp với chiều cao văn bản</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_DataSource" xml:space="preserve">
+    <value>Nguồn dữ liệu</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_MeasureUnits" xml:space="preserve">
+    <value>Đơn vị đo lường</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PageBreak" xml:space="preserve">
+    <value>Ngắt trang</value>
+  </data>
+  <data name="ReportDesignerStringId.Undo_Hint" xml:space="preserve">
+    <value>Hoàn tác thao tác cuối.</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ActualValue" xml:space="preserve">
+    <value>Giá trị thực tế</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_HtmlDataBinding" xml:space="preserve">
+    <value>Ràng buộc dữ liệu HTML</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_HtmlExpression" xml:space="preserve">
+    <value>Biểu thức HTML</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Image" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ImageURL" xml:space="preserve">
+    <value>URL của hình ảnh</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Maximum" xml:space="preserve">
+    <value>Tối đa</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Minimum" xml:space="preserve">
+    <value>Tối thiểu</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Module" xml:space="preserve">
+    <value>Mô-đun</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_MultiColumnLayout" xml:space="preserve">
+    <value>Bố trí nhiều cột</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PrintOn" xml:space="preserve">
+    <value>In trên</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_RepeatEveryPage" xml:space="preserve">
+    <value>Lặp lại mỗi trang</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_RtfExpression" xml:space="preserve">
+    <value>Biểu thức RTF</value>
+  </data>
+  <data name="ReportDesignerStringId.WatermarkEditor_Behind" xml:space="preserve">
+    <value>Phía sau</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Symbology" xml:space="preserve">
+    <value>Tượng trưng</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_AlignLeft1" xml:space="preserve">
+    <value>Căn trái 1</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_AlignLeft2" xml:space="preserve">
+    <value>Căn trái 2</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Angle" xml:space="preserve">
+    <value>Góc</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_Outline1" xml:space="preserve">
+    <value>Phác thảo 1</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_Outline2" xml:space="preserve">
+    <value>Phác thảo 2</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Alignment" xml:space="preserve">
+    <value>Căn</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Style" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ReportDesignerStringId.MoveDown" xml:space="preserve">
+    <value>Dịch Xuống</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Format" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Format_Number" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Format_Percent" xml:space="preserve">
+    <value>Phần trăm</value>
+  </data>
+  <data name="ReportDesignerStringId.KeyCollectionEditor_Value" xml:space="preserve">
+    <value>Giá trị:</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Format_Special" xml:space="preserve">
+    <value>Đặc biệt</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_Expression" xml:space="preserve">
+    <value>Biểu thức</value>
+  </data>
+  <data name="ReportDesignerStringId.LocalizationEditor_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSource" xml:space="preserve">
+    <value>Nguồn</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ConfigureCrossTagPage_Columns" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ConfigureCrossTagPage_Data" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ConfigureCrossTagPage_Rows" xml:space="preserve">
+    <value>Hàng</value>
+  </data>
+  <data name="ReportDesignerStringId.Button_Export" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_GroupTitle" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_GroupOrientation" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="ReportDesignerStringId.AddCalculatedField" xml:space="preserve">
+    <value>Thêm lĩnh vực tính toán</value>
+  </data>
+  <data name="ReportDesignerStringId.AddStyle" xml:space="preserve">
+    <value>Thêm phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.AddSubBand" xml:space="preserve">
+    <value>Thêm SubBand</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignBottom_Caption" xml:space="preserve">
+    <value>Căn chỉnh đáy</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignBottom_Hint" xml:space="preserve">
+    <value>Căn chỉnh đáy của các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignHorizontalCenters_Hint" xml:space="preserve">
+    <value>Sắp xếp các trung tâm của các điều khiển đã chọn theo chiều ngang.</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignLeft_Hint" xml:space="preserve">
+    <value>Còn lại align các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignRight_Hint" xml:space="preserve">
+    <value>Phải sắp xếp các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignToGrid_Hint" xml:space="preserve">
+    <value>Sắp xếp các vị trí của các điều khiển đã chọn vào lưới.</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignTop_Hint" xml:space="preserve">
+    <value>Sắp xếp các đỉnh của các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.AlignVerticalCenters_Hint" xml:space="preserve">
+    <value>Sắp xếp các trung tâm của các điều khiển đã chọn theo chiều dọc.</value>
+  </data>
+  <data name="ReportDesignerStringId.BackGround_Hint" xml:space="preserve">
+    <value>Thiết lập màu nền của sự kiểm soát.</value>
+  </data>
+  <data name="ReportDesignerStringId.BandCollectionEditor_Title" xml:space="preserve">
+    <value>Ban nhạc bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.BindingsEditor_ControlColumn" xml:space="preserve">
+    <value>Kiểm soát</value>
+  </data>
+  <data name="ReportDesignerStringId.BindingsEditor_DestinationBindingColumn" xml:space="preserve">
+    <value>Điểm đến ràng buộc</value>
+  </data>
+  <data name="ReportDesignerStringId.BindingsEditor_PropertyNameColumn" xml:space="preserve">
+    <value>Tên thuộc tính</value>
+  </data>
+  <data name="ReportDesignerStringId.BindingsEditor_SourceBindingColumn" xml:space="preserve">
+    <value>Nguồn ràng buộc</value>
+  </data>
+  <data name="ReportDesignerStringId.BindingsEditor_Title" xml:space="preserve">
+    <value>Chỉnh sửa Bindings...</value>
+  </data>
+  <data name="ReportDesignerStringId.BringForward_Caption" xml:space="preserve">
+    <value>Mang về phía trước</value>
+  </data>
+  <data name="ReportDesignerStringId.BringToFront_Hint" xml:space="preserve">
+    <value>Mang lại cho các điều khiển đã chọn để front.</value>
+  </data>
+  <data name="ReportDesignerStringId.Button_Import" xml:space="preserve">
+    <value>Nhập khẩu</value>
+  </data>
+  <data name="ReportDesignerStringId.CalculatedFields_Editor_Title" xml:space="preserve">
+    <value>Tính toán các lĩnh vực biên tập viên bộ sưu tập</value>
+  </data>
+  <data name="ReportDesignerStringId.CenterHorizontally_Hint" xml:space="preserve">
+    <value>Theo chiều ngang trung tâm điều khiển đã chọn trong một ban nhạc.</value>
+  </data>
+  <data name="ReportDesignerStringId.CenterVertically_Caption" xml:space="preserve">
+    <value>Trung tâm theo chiều dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.CenterVertically_Hint" xml:space="preserve">
+    <value>Theo chiều dọc Trung tâm điều khiển đã chọn trong một ban nhạc.</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_AnnotationsEditor_Title" xml:space="preserve">
+    <value>Chú thích bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_AnnotationShapePositionEditor_Title" xml:space="preserve">
+    <value>Chọn vị trí hình dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_ConstantLinesEditor_Title" xml:space="preserve">
+    <value>Hằng số dòng bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_CustomLabelsEditor_Title" xml:space="preserve">
+    <value>Custom trục nhãn bộ sưu tập biên tập viên</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_DataFiltersEditor_Title" xml:space="preserve">
+    <value>Dữ liệu lọc biên tập bộ sưu tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_DiagramPanesEditor_Title" xml:space="preserve">
+    <value>Sơ đồ cửa sổ bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_IndicatorCollectionEditor_Title" xml:space="preserve">
+    <value>Chỉ số bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_LegendCollectionEditor_Title" xml:space="preserve">
+    <value>Huyền thoại bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PalettesEditor_Title" xml:space="preserve">
+    <value>Trình soạn thảo bảng</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Caption" xml:space="preserve">
+    <value>Mô hình Editor</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Format_Currency" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Format_DateTime" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Pattern" xml:space="preserve">
+    <value>Mô hình</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_PatternEditor_Placeholders" xml:space="preserve">
+    <value>Placeholders</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_RecipientsEditor_Title" xml:space="preserve">
+    <value>Nhận bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_RunDesigner" xml:space="preserve">
+    <value>Chạy thiết kế...</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_ScaleBreaksEditor_Title" xml:space="preserve">
+    <value>Quy mô phá vỡ bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SecondaryAxesXEditor_Title" xml:space="preserve">
+    <value>Biên tập viên bộ sưu tập thứ hai trục X</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SecondaryAxesYEditor_Title" xml:space="preserve">
+    <value>Biên tập bộ sưu tập trung trục Y</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_Series" xml:space="preserve">
+    <value>Chỉnh sửa loạt...</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesEditor_ArgumentColumn" xml:space="preserve">
+    <value>Đối số</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesEditor_Title" xml:space="preserve">
+    <value>Series bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesPointEditor_Title" xml:space="preserve">
+    <value>Loạt điểm</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesTitleCollectionEditor_Title" xml:space="preserve">
+    <value>Chuỗi tiêu đề bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SeriesViewEditor_Title" xml:space="preserve">
+    <value>Chọn loạt View</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_StripsEditor_Title" xml:space="preserve">
+    <value>Dải bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SummaryFunctionEditor_Argument_Caption" xml:space="preserve">
+    <value>Đối số</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SummaryFunctionEditor_ChooseSummaryFunction_Caption" xml:space="preserve">
+    <value>Chọn chức năng tóm tắt...</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SummaryFunctionEditor_NoDataToSelect_Caption" xml:space="preserve">
+    <value>Không có dữ liệu để lựa chọn</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_SummaryFunctionEditor_Title" xml:space="preserve">
+    <value>Tóm tắt chức năng biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Chart_TitlesEditor_Title" xml:space="preserve">
+    <value>Bảng xếp hạng tiêu đề bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddChartElement_Hint" xml:space="preserve">
+    <value>Thêm bảng xếp hạng yếu tố</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_AreaSeries3DGroup" xml:space="preserve">
+    <value>Khu vực truyện 3D</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_AreaSeriesGroup" xml:space="preserve">
+    <value>Khu vực Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_BarSeries3DGroup" xml:space="preserve">
+    <value>Thanh truyện 3D</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_BarSeriesGroup" xml:space="preserve">
+    <value>Bar Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_FinancialSeriesGroup" xml:space="preserve">
+    <value>Tài chính Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_FunnelSeriesGroup" xml:space="preserve">
+    <value>Kênh Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_GanttSeriesGroup" xml:space="preserve">
+    <value>Gantt Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_LineSeries3DGroup" xml:space="preserve">
+    <value>Dòng phim 3D</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_LineSeriesGroup" xml:space="preserve">
+    <value>Dòng Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_PieAndDoughnutSeriesGroup" xml:space="preserve">
+    <value>Chiếc bánh và bánh Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_PointAndBubbleSeriesGroup" xml:space="preserve">
+    <value>Point And Bubble Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_PolarSeriesGroup" xml:space="preserve">
+    <value>Cực Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_RadarSeriesGroup" xml:space="preserve">
+    <value>Radar Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AddSeriesGallery_RangeSeriesGroup" xml:space="preserve">
+    <value>Loạt Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AxisElements_AddConstantLine_Caption" xml:space="preserve">
+    <value>Liên tục dòng</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_AxisElements_Caption" xml:space="preserve">
+    <value>Trục các yếu tố</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChangeChartType_Hint" xml:space="preserve">
+    <value>Thay đổi loại biểu đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChartElements_AddAxisX_Caption" xml:space="preserve">
+    <value>Hai trục X</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChartElements_AddAxisY_Caption" xml:space="preserve">
+    <value>Hai trục Y</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChartElements_AddChartTitle_Caption" xml:space="preserve">
+    <value>Tiêu đề bảng xếp hạng</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChartElements_AddLegend_Caption" xml:space="preserve">
+    <value>Truyền thuyết</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChartElements_AddPane_Caption" xml:space="preserve">
+    <value>Ngăn</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChartElements_AddSeries_Caption" xml:space="preserve">
+    <value>Loạt...</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_ChartElements_Caption" xml:space="preserve">
+    <value>Bảng xếp hạng yếu tố</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_ArgumentDropTargetControlText" xml:space="preserve">
+    <value>Đối số</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_SeriesDropTargetControlText" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DataTab_ToolTipHintDropTargetControlText" xml:space="preserve">
+    <value>ToolTip gợi ý</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Dialog_Title" xml:space="preserve">
+    <value>Nhà thiết kế bảng xếp hạng</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_DragDataMembersToCorrespondingCell_Hint" xml:space="preserve">
+    <value>Kéo dữ liệu thành viên để các tế bào tương ứng để xác định các dữ liệu bảng xếp hạng</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg2DPieExplodingToolTip" xml:space="preserve">
+    <value>Sử dụng Ctrl với nút chuột trái
+để phát nổ hoặc thu hẹp lát.</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg2DScrollingToolTip" xml:space="preserve">
+    <value>Sử dụng Ctrl với nút chuột trái
+để di chuyển bảng xếp hạng.</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg3DScrollingActionName" xml:space="preserve">
+    <value>Di chuyển</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg3DScrollingToolTip" xml:space="preserve">
+    <value>Ctrl + chuột bánh xe</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg3DZoomInToolTip" xml:space="preserve">
+    <value>Shift + nút chuột trái</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Msg3DZoomOutToolTip" xml:space="preserve">
+    <value>Alt + trái chuột vào nút</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_RunDesignerSettings" xml:space="preserve">
+    <value>Hiển thị các nhà thiết kế mỗi khi một biểu đồ mới được thêm vào</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_SeriesElements_Caption" xml:space="preserve">
+    <value>Hàng loạt các yếu tố</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_AdditionalLegendCollection" xml:space="preserve">
+    <value>Thêm huyền thoại</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_AdditionalPaneCollection" xml:space="preserve">
+    <value>Bổ sung tấm</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_AnnotationCollection" xml:space="preserve">
+    <value>chú thích</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_AutoCreatedSeries" xml:space="preserve">
+    <value>Tự động tạo ra loạt</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_Chart" xml:space="preserve">
+    <value>Bảng xếp hạng</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_ConstantLineCollection" xml:space="preserve">
+    <value>Liên tục dòng</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_FunnelDiagram3D" xml:space="preserve">
+    <value>3D kênh sơ đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_Legend" xml:space="preserve">
+    <value>Truyền thuyết</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_PolarDiagram" xml:space="preserve">
+    <value>Cực sơ đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_RadarDiagram" xml:space="preserve">
+    <value>Radar biểu đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_ScaleBreakCollection" xml:space="preserve">
+    <value>Phá vỡ quy mô</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SeriesCollection" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SimpleDiagram" xml:space="preserve">
+    <value>Sơ đồ đơn giản</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SimpleDiagram3D" xml:space="preserve">
+    <value>Sơ đồ đơn giản 3D</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SwiftPlotDiagram" xml:space="preserve">
+    <value>Swift vẽ sơ đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SwiftPlotSecondaryAxisXCollection" xml:space="preserve">
+    <value>Trung học X-Axes</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_SwiftPlotSecondaryAxisYCollection" xml:space="preserve">
+    <value>Trung học Y-Axes</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_XYDiagram" xml:space="preserve">
+    <value>XY-sơ đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_XYDiagram3D" xml:space="preserve">
+    <value>3D XY-sơ đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_XYDiagramSecondaryAxisXCollection" xml:space="preserve">
+    <value>Trung học X-Axes</value>
+  </data>
+  <data name="ReportDesignerStringId.ChartDesigner_Tree_XYDiagramSecondaryAxisYCollection" xml:space="preserve">
+    <value>Trung học Y-Axes</value>
+  </data>
+  <data name="ReportDesignerStringId.ClearFormattingRules" xml:space="preserve">
+    <value>Xóa định dạng quy tắc</value>
+  </data>
+  <data name="ReportDesignerStringId.ClearStyles" xml:space="preserve">
+    <value>Rõ ràng phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.CloneFormattingRule" xml:space="preserve">
+    <value>Clone định dạng quy tắc</value>
+  </data>
+  <data name="ReportDesignerStringId.CloneStyle" xml:space="preserve">
+    <value>Sao chép phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.CollectionItems" xml:space="preserve">
+    <value>Các bộ sưu tập</value>
+  </data>
+  <data name="ReportDesignerStringId.ColorEditor_SystemColors" xml:space="preserve">
+    <value>Hệ thống màu sắc</value>
+  </data>
+  <data name="ReportDesignerStringId.ConditionEditor_Title" xml:space="preserve">
+    <value>Điều kiện biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.ContextMenu_EditExpression" xml:space="preserve">
+    <value>Chỉnh sửa biểu hiện...</value>
+  </data>
+  <data name="ReportDesignerStringId.ContextMenu_EditFields" xml:space="preserve">
+    <value>Chỉnh sửa các tính toán các lĩnh vực...</value>
+  </data>
+  <data name="ReportDesignerStringId.Copy_Hint" xml:space="preserve">
+    <value>Sao chép điều khiển được chọn và đặt chúng vào bảng tạm.</value>
+  </data>
+  <data name="ReportDesignerStringId.Cut_Hint" xml:space="preserve">
+    <value>Cắt các điều khiển đã chọn từ các báo cáo và đặt chúng vào bảng tạm.</value>
+  </data>
+  <data name="ReportDesignerStringId.DataSource_RebuildDatabaseSchema " xml:space="preserve">
+    <value>Xây dựng lại cơ sở dữ liệu giản đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.DataSource_RebuildSchema" xml:space="preserve">
+    <value>Xây dựng lại lược đồ</value>
+  </data>
+  <data name="ReportDesignerStringId.DataSource_RelationsEditor_Title" xml:space="preserve">
+    <value>Trình soạn thảo chi tiết tổng thể quan hệ</value>
+  </data>
+  <data name="ReportDesignerStringId.DataSource_UpdateSchema" xml:space="preserve">
+    <value>Lược đồ Cập Nhật</value>
+  </data>
+  <data name="ReportDesignerStringId.DeleteUnusedFormattingRules" xml:space="preserve">
+    <value>Xoá các quy tắc không sử dụng định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.DeleteUnusedStyles" xml:space="preserve">
+    <value>Xoá không sử dụng phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.DesignInReportWizard" xml:space="preserve">
+    <value>Thiết kế trong báo cáo thuật sĩ...</value>
+  </data>
+  <data name="ReportDesignerStringId.Detail" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="ReportDesignerStringId.EditBands" xml:space="preserve">
+    <value>Chỉnh sửa và sắp xếp lại các ban nhạc...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditBindings" xml:space="preserve">
+    <value>Chỉnh sửa Bindings...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditCalculatedFields" xml:space="preserve">
+    <value>Chỉnh sửa các tính toán các lĩnh vực...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditFormattingRuleSheet" xml:space="preserve">
+    <value>Chỉnh sửa định dạng tấm tắc...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditGroupFields" xml:space="preserve">
+    <value>Chỉnh sửa nhóm lĩnh vực...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditLevels" xml:space="preserve">
+    <value>Chỉnh sửa mức độ...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditParameters" xml:space="preserve">
+    <value>Chỉnh sửa thông số...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditSortFields" xml:space="preserve">
+    <value>Chỉnh sửa loại lĩnh vực...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditStyles" xml:space="preserve">
+    <value>Chỉnh sửa phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.EditStyleSheet" xml:space="preserve">
+    <value>Chỉnh sửa Style Sheet...</value>
+  </data>
+  <data name="ReportDesignerStringId.EditWatermark" xml:space="preserve">
+    <value>Chỉnh sửa Watermark...</value>
+  </data>
+  <data name="ReportDesignerStringId.FavoritePropertiesEditor" xml:space="preserve">
+    <value>Trình soạn thảo yêu thích tính chất</value>
+  </data>
+  <data name="ReportDesignerStringId.FilterStringEditor_Title" xml:space="preserve">
+    <value>Bộ lọc chuỗi Editor</value>
+  </data>
+  <data name="ReportDesignerStringId.FitBoundsToText" xml:space="preserve">
+    <value>Phù hợp với các giới hạn cho văn bản</value>
+  </data>
+  <data name="ReportDesignerStringId.FitTextToBounds" xml:space="preserve">
+    <value>Phù hợp với văn bản đến giới hạn</value>
+  </data>
+  <data name="ReportDesignerStringId.FitWidthToText" xml:space="preserve">
+    <value>Phù hợp với chiều rộng đến văn bản</value>
+  </data>
+  <data name="ReportDesignerStringId.FontBold_Hint" xml:space="preserve">
+    <value>Làm cho phông chữ đậm.</value>
+  </data>
+  <data name="ReportDesignerStringId.FontItalic_Hint" xml:space="preserve">
+    <value>Làm chữ nghiêng.</value>
+  </data>
+  <data name="ReportDesignerStringId.FontName_Hint" xml:space="preserve">
+    <value>Thay đổi bộ mặt chữ.</value>
+  </data>
+  <data name="ReportDesignerStringId.FontSize_Hint" xml:space="preserve">
+    <value>Thay đổi cỡ phông.</value>
+  </data>
+  <data name="ReportDesignerStringId.FontStrikeOut_Hint" xml:space="preserve">
+    <value>Tấn công ra font.</value>
+  </data>
+  <data name="ReportDesignerStringId.FontUnderline_Hint" xml:space="preserve">
+    <value>Font chữ gạch dưới.</value>
+  </data>
+  <data name="ReportDesignerStringId.Foreground_Hint" xml:space="preserve">
+    <value>Đặt màu foreground của control.</value>
+  </data>
+  <data name="ReportDesignerStringId.FormatStringEditor_Category" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="ReportDesignerStringId.FormatStringEditor_CustomFormats" xml:space="preserve">
+    <value>Thiết chế tạo các định dạng tuỳ chỉnh</value>
+  </data>
+  <data name="ReportDesignerStringId.FormatStringEditor_NotSupported" xml:space="preserve">
+    <value>Định dạng chung này có không có định dạng số cụ thể</value>
+  </data>
+  <data name="ReportDesignerStringId.FormatStringEditor_Title" xml:space="preserve">
+    <value>Định dạng chuỗi Editor</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRulesEditor_AppliedRules" xml:space="preserve">
+    <value>Quy tắc áp dụng cho một điều khiển:</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRulesEditor_AvailableRules" xml:space="preserve">
+    <value>Quy định có sẵn trong một báo cáo:</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRulesEditor_EditRuleSheet" xml:space="preserve">
+    <value>Chỉnh sửa quy tắc tờ...</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRulesEditor_Title" xml:space="preserve">
+    <value>Soạn thảo quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRuleSheetEditor_ClearRules" xml:space="preserve">
+    <value>Xóa định dạng quy tắc</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRuleSheetEditor_CloneRule" xml:space="preserve">
+    <value>Clone một quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRuleSheetEditor_DeleteUnusedRules" xml:space="preserve">
+    <value>Xoá các quy tắc không sử dụng định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.FormattingRuleSheetEditor_Title" xml:space="preserve">
+    <value>Định dạng các biên tập viên tờ quy tắc</value>
+  </data>
+  <data name="ReportDesignerStringId.FunctionNameCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="ReportDesignerStringId.GroupAndSort" xml:space="preserve">
+    <value>Nhóm và phân loại</value>
+  </data>
+  <data name="ReportDesignerStringId.GroupAndSort_AddGroup" xml:space="preserve">
+    <value>Thêm một nhóm</value>
+  </data>
+  <data name="ReportDesignerStringId.GroupAndSort_AddSort" xml:space="preserve">
+    <value>Thêm một loại</value>
+  </data>
+  <data name="ReportDesignerStringId.GroupFieldsEditor_Title" xml:space="preserve">
+    <value>Nhóm trường bộ sưu tập biên soạn</value>
+  </data>
+  <data name="ReportDesignerStringId.GroupFooter" xml:space="preserve">
+    <value>Nhóm chân</value>
+  </data>
+  <data name="ReportDesignerStringId.HorizontalSpaceMakeEqual_Hint" xml:space="preserve">
+    <value>Làm cho khoảng cách ngang giữa các điều khiển đã chọn bằng.</value>
+  </data>
+  <data name="ReportDesignerStringId.ImageResourcesEditor_AddImage" xml:space="preserve">
+    <value>Thêm hình ảnh</value>
+  </data>
+  <data name="ReportDesignerStringId.ImageResourcesEditor_RemoveImage" xml:space="preserve">
+    <value>Xóa hình ảnh</value>
+  </data>
+  <data name="ReportDesignerStringId.ImageResourcesEditor_Title" xml:space="preserve">
+    <value>Hình ảnh tài nguyên thu thập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.InsertBand" xml:space="preserve">
+    <value>Chèn nhạc</value>
+  </data>
+  <data name="ReportDesignerStringId.InsertDetailReport" xml:space="preserve">
+    <value>Chèn bản báo cáo chi tiết</value>
+  </data>
+  <data name="ReportDesignerStringId.InsertVerticalBand" xml:space="preserve">
+    <value>Chèn nhạc theo chiều dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.KeyCollectionEditor_Title" xml:space="preserve">
+    <value>Chìa khóa bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.KeyCollectionEditor_Type" xml:space="preserve">
+    <value>Loại:</value>
+  </data>
+  <data name="ReportDesignerStringId.LoadFile" xml:space="preserve">
+    <value>Tải tập tin...</value>
+  </data>
+  <data name="ReportDesignerStringId.LocalizationEditor_DefaultLanguage" xml:space="preserve">
+    <value>Default Language</value>
+  </data>
+  <data name="ReportDesignerStringId.LocalizationEditor_Languages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="ReportDesignerStringId.LocalizationEditor_LocalizedTextValues" xml:space="preserve">
+    <value>Localized Text Values</value>
+  </data>
+  <data name="ReportDesignerStringId.LocalizationEditor_Property" xml:space="preserve">
+    <value>Bất động sản</value>
+  </data>
+  <data name="ReportDesignerStringId.LocalizationEditor_Title" xml:space="preserve">
+    <value>Localization Editor</value>
+  </data>
+  <data name="ReportDesignerStringId.LookUpValuesEditor_Title" xml:space="preserve">
+    <value>Nhìn lên giá trị</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_AllowNull" xml:space="preserve">
+    <value>Giá trị bằng không cho phép</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_DefaultValue" xml:space="preserve">
+    <value>Giá trị mặc định</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_DynamicValues" xml:space="preserve">
+    <value>Năng động giá trị</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_GroupExpanded" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_GroupTitleVisible" xml:space="preserve">
+    <value>Hiển thị tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_SelectAllValues" xml:space="preserve">
+    <value>Chọn tất cả giá trị</value>
+  </data>
+  <data name="ReportDesignerStringId.NewParameterEditor_SupportsStandardValues" xml:space="preserve">
+    <value>Hỗ trợ bộ sưu tập của các giá trị tiêu chuẩn</value>
+  </data>
+  <data name="ReportDesignerStringId.NewReport_Hint" xml:space="preserve">
+    <value>Khởi động thuật sĩ báo cáo để tạo ra một báo cáo mới.</value>
+  </data>
+  <data name="ReportDesignerStringId.OpenReport_Hint" xml:space="preserve">
+    <value>Mở một báo cáo.</value>
+  </data>
+  <data name="ReportDesignerStringId.PageOrientation_Portrait" xml:space="preserve">
+    <value>Gương điển hình</value>
+  </data>
+  <data name="ReportDesignerStringId.PageSetup_Hint" xml:space="preserve">
+    <value>Điều chỉnh các cài đặt của báo cáo trang.</value>
+  </data>
+  <data name="ReportDesignerStringId.PageSetup_MarginsInHundredthsOfAnInch" xml:space="preserve">
+    <value>Lợi nhuận trong Hundredths của một Inch</value>
+  </data>
+  <data name="ReportDesignerStringId.PageSetup_MarginsInPixels" xml:space="preserve">
+    <value>Lợi nhuận trong pixel</value>
+  </data>
+  <data name="ReportDesignerStringId.PageSetup_MarginsInTenthsOfAMillimeter" xml:space="preserve">
+    <value>Lợi nhuận trong Tenths của một mm</value>
+  </data>
+  <data name="ReportDesignerStringId.ParameterBindingsEditor_ParameterBinding" xml:space="preserve">
+    <value>Parameter Binding</value>
+  </data>
+  <data name="ReportDesignerStringId.ParameterBindingsEditor_Sync" xml:space="preserve">
+    <value>Đồng bộ</value>
+  </data>
+  <data name="ReportDesignerStringId.ParameterBindingsEditor_Title" xml:space="preserve">
+    <value>Tham số ràng buộc bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.ParametersEditor_Title" xml:space="preserve">
+    <value>Các thông số bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Paste_Hint" xml:space="preserve">
+    <value>Dán nội dung của bảng tạm.</value>
+  </data>
+  <data name="ReportDesignerStringId.Pivot_AddNewField" xml:space="preserve">
+    <value>Thêm các lĩnh vực mới đến khu vực</value>
+  </data>
+  <data name="ReportDesignerStringId.Pivot_FieldArea" xml:space="preserve">
+    <value>Khu vực trường cho một lĩnh vực mới</value>
+  </data>
+  <data name="ReportDesignerStringId.Pivot_RunDesigner" xml:space="preserve">
+    <value>Chạy thiết kế...</value>
+  </data>
+  <data name="ReportDesignerStringId.PivotGrid_Designer_Title" xml:space="preserve">
+    <value>Nhà thiết kế PivotGrid</value>
+  </data>
+  <data name="ReportDesignerStringId.PivotGrid_FieldCustomTotalsEditor_Title" xml:space="preserve">
+    <value>PivotGridField tuỳ chỉnh bộ sưu tập tổng biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.PivotGrid_FieldsEditor_Title" xml:space="preserve">
+    <value>Trường bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.PivotGrid_FieldSortConditionsEditor_Title" xml:space="preserve">
+    <value>PivotGridField phân loại điều kiện biên tập bộ sưu tập</value>
+  </data>
+  <data name="ReportDesignerStringId.PivotGrid_OLAPConStringEditor_Title" xml:space="preserve">
+    <value>OLAP nối chuỗi Editor</value>
+  </data>
+  <data name="ReportDesignerStringId.PivotGridFieldSortCondition_DuplicateFieldEntry_MessageText" xml:space="preserve">
+    <value>Lặp lại mục: điều kiện của trường</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Argument_Expression" xml:space="preserve">
+    <value>Argument Expression</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_AutoModule" xml:space="preserve">
+    <value>Auto-mô-đun</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_AutoWidth" xml:space="preserve">
+    <value>Tự động rộng</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_BandLayout" xml:space="preserve">
+    <value>Cách bố trí ban nhạc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_BoundField" xml:space="preserve">
+    <value>Ràng buộc các lĩnh vực</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_CanGrow" xml:space="preserve">
+    <value>Có thể phát triển</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_CanShrink" xml:space="preserve">
+    <value>Có thể thu nhỏ</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_CheckState" xml:space="preserve">
+    <value>Kiểm tra nhà nước</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_DataBinding" xml:space="preserve">
+    <value>Dữ liệu ràng buộc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_DetailCountAtDesignTime" xml:space="preserve">
+    <value>Detail Count at Design Time </value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_EndBand" xml:space="preserve">
+    <value>Cuối cùng ban nhạc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_FilterString" xml:space="preserve">
+    <value>Filter String </value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_FormattingRules" xml:space="preserve">
+    <value>Định dạng quy tắc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_GroupFields" xml:space="preserve">
+    <value>Nhóm lĩnh vực</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_GroupUnion" xml:space="preserve">
+    <value>Nhóm liên minh</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_IgnoreNullValues" xml:space="preserve">
+    <value>Bỏ qua giá trị null</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_KeepTogether" xml:space="preserve">
+    <value>Giữ lại với nhau</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_KeepTogetherWithDetailReport" xml:space="preserve">
+    <value>Hãy cùng với báo cáo chi tiết</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_LineDirection" xml:space="preserve">
+    <value>Đường hướng</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_MultiColumnMode" xml:space="preserve">
+    <value>Cột đa chế độ</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Multiline" xml:space="preserve">
+    <value>Multiline</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_OlapConnectionString" xml:space="preserve">
+    <value>OLAP kết nối chuỗi</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Orientation" xml:space="preserve">
+    <value>Orientation </value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PageInformation" xml:space="preserve">
+    <value>Trang thông tin</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ParameterBindings" xml:space="preserve">
+    <value>Tham số Bindings</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ParentBookmark" xml:space="preserve">
+    <value>Dấu trang phụ huynh</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSignature_DisplayDocumentSignature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSignature_ImageDisplayMode" xml:space="preserve">
+    <value>Image Display Mode</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSignature_ShowCaptions" xml:space="preserve">
+    <value>Show Captions</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSignature_ShowCertificateName" xml:space="preserve">
+    <value>Show Certificate Name</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSignature_ShowDate" xml:space="preserve">
+    <value>Show Date</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSignature_ShowDistinguishedName" xml:space="preserve">
+    <value>Show Distinguished Name</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSignature_ShowLocation" xml:space="preserve">
+    <value>Show Location</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSignature_ShowReason" xml:space="preserve">
+    <value>Show Reason</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PdfSourceUrl" xml:space="preserve">
+    <value>nguồn URL</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_PrintAtBottom" xml:space="preserve">
+    <value>In ở dưới</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ReportSourceUrl" xml:space="preserve">
+    <value>Báo cáo nguồn Url</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_RtfDataBinding" xml:space="preserve">
+    <value>RTF dữ liệu ràng buộc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_RunningBand" xml:space="preserve">
+    <value>Chạy nhạc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SegmentWidth" xml:space="preserve">
+    <value>Chiều rộng phân khúc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SortFields" xml:space="preserve">
+    <value>Loại lĩnh vực</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SortingSummary" xml:space="preserve">
+    <value>Sắp xếp bản tóm tắt</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SortOrder" xml:space="preserve">
+    <value>Phân loại đặt hàng</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_StartBand" xml:space="preserve">
+    <value>Bắt đầu ban nhạc</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_StartPageNumber" xml:space="preserve">
+    <value>Số trang bắt đầu</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Stretch" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_StyleSheet" xml:space="preserve">
+    <value>Style Sheet</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SummaryFunction" xml:space="preserve">
+    <value>Tóm tắt chức năng</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_SummaryRunning" xml:space="preserve">
+    <value>Tóm tắt chạy</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_TreatStringsAsNumerics" xml:space="preserve">
+    <value>Treat strings as numerics</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_ViewType" xml:space="preserve">
+    <value>View Type </value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_Weight" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="ReportDesignerStringId.Properties_WordWrap" xml:space="preserve">
+    <value>Từ bọc</value>
+  </data>
+  <data name="ReportDesignerStringId.PropertyGrid_BarControl_BarItem_Categorized" xml:space="preserve">
+    <value>Phân loại</value>
+  </data>
+  <data name="ReportDesignerStringId.PropertyGrid_TabExpressions" xml:space="preserve">
+    <value>Biểu thức</value>
+  </data>
+  <data name="ReportDesignerStringId.RemoveAllStyles" xml:space="preserve">
+    <value>Loại bỏ tất cả phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.RemoveCalculatedFields" xml:space="preserve">
+    <value>Loại bỏ tất cả các lĩnh vực tính toán</value>
+  </data>
+  <data name="ReportDesignerStringId.RemoveFormattingRule" xml:space="preserve">
+    <value>Xoá quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.RemoveStyle" xml:space="preserve">
+    <value>Loại bỏ phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.RemoveUnusedFormattingRules" xml:space="preserve">
+    <value>Loại bỏ không sử dụng quy tắc định dạng</value>
+  </data>
+  <data name="ReportDesignerStringId.RemoveUnusedStyles" xml:space="preserve">
+    <value>Loại bỏ không sử dụng phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportDesignAnalyzer" xml:space="preserve">
+    <value>Trình phân tích thiết kế báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportExplorer" xml:space="preserve">
+    <value>Báo cáo Explorer</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportExplorer_FormattingRules" xml:space="preserve">
+    <value>Định dạng quy tắc</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportFooter" xml:space="preserve">
+    <value>Báo cáo chân trang</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportGallery" xml:space="preserve">
+    <value>Thư viện báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportGallery_Name_Already_Exists_Msg" xml:space="preserve">
+    <value>Tên {0} đã tồn tại</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportHeader" xml:space="preserve">
+    <value>Báo cáo tiêu đề</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AddGroupingLevel" xml:space="preserve">
+    <value>Tạo ra nhiều nhóm, mỗi với một giá trị đơn lĩnh vực, hoặc xác định một số lĩnh vực trong cùng một nhóm.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_AddGroupingLevel_AvailableColumns" xml:space="preserve">
+    <value>Cột có sẵn:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseDataSourceTypePage_DataSourceNoData_Name" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportColorSchemePage" xml:space="preserve">
+    <value>Chọn lược đồ màu của báo cáo.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout" xml:space="preserve">
+    <value>Giao diện báo cáo chỉ định cách mà trong đó trường đã chọn dữ liệu được sắp xếp trên trang web riêng lẻ.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_Columnar" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_Justified" xml:space="preserve">
+    <value>Chứng minh</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_Stepped" xml:space="preserve">
+    <value>Bước</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportLayout_Tabular" xml:space="preserve">
+    <value>Bảng</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportStyle" xml:space="preserve">
+    <value>Phong cách báo cáo chỉ định sự xuất hiện của báo cáo của bạn.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportTemplate_Description" xml:space="preserve">
+    <value>Chọn một bản mẫu cho báo cáo của bạn.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType_CrossTab" xml:space="preserve">
+    <value>Báo cáo Cross-tab</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType_DataBound" xml:space="preserve">
+    <value>DataBound báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType_Empty" xml:space="preserve">
+    <value>Báo cáo sản phẩm nào</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType_Table" xml:space="preserve">
+    <value>Bảng báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType_Template" xml:space="preserve">
+    <value>Mẫu báo cáo</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseReportType_Vertical" xml:space="preserve">
+    <value>Báo cáo theo chiều dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ChooseXPObjectEntityTypePage" xml:space="preserve">
+    <value>Chọn một kiểu thực thể.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ConfigureCrossTagPage" xml:space="preserve">
+    <value>Thả các trường vào các vùng tab chéo để xác định bố cục của báo cáo.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ConfigureCrossTagPage_AvailableFields" xml:space="preserve">
+    <value>Available Fields</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_ConfigureReportPageSettingsPage" xml:space="preserve">
+    <value>Chỉ rõ thiết đặt trang của báo cáo.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel" xml:space="preserve">
+    <value>Bạn có thể điều chỉnh của nhãn tham số ở đây nếu yêu cầu.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_BottomMargin" xml:space="preserve">
+    <value>Đáy lề</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_HorizontalPitch" xml:space="preserve">
+    <value>HORIZONTAL PITCH</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_LabelHeight" xml:space="preserve">
+    <value>Nhãn chiều cao</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_LeftMargin" xml:space="preserve">
+    <value>Bên trái lề</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_RightMargin" xml:space="preserve">
+    <value>Bên lề</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_TopMargin" xml:space="preserve">
+    <value>Hàng đầu Margin</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_CustomizeLabel_VerticalPitch" xml:space="preserve">
+    <value>Theo chiều dọc sân</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MapReportTemplateFields_Description" xml:space="preserve">
+    <value>Bản đồ dữ liệu nguồn trường để các trường có sẵn trong các mẫu.
+Bạn có thể sử dụng kéo và thả hoặc chỉ định các giá trị yêu cầu trong danh sách thả xuống mẫu lĩnh vực giá trị.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MasterDetailAddGroupingLevelPage" xml:space="preserve">
+    <value>Nhóm dữ liệu trong các báo cáo đã chọn. Bạn có thể chỉ định một hoặc nhiều lĩnh vực cho mỗi nhóm.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MasterDetailAddGroupingLevelPage_SelectFields" xml:space="preserve">
+    <value>Chọn các lĩnh vực:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MasterDetailConfigurePage" xml:space="preserve">
+    <value>Chọn một hoặc nhiều dữ liệu thành viên chỉ định cho các báo cáo và các chi tiết của báo cáo.
+Chọn các trường để hiển thị trong các báo cáo này.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MasterDetailConfigurePage_SelectDataMembers" xml:space="preserve">
+    <value>Chọn dữ liệu thành viên:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MultiQuerySelectFieldsPage" xml:space="preserve">
+    <value>Chọn báo cáo trường dữ liệu thành viên và dữ liệu mà sẽ sipply dữ liệu báo cáo của bạn.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_MultiQuerySelectFieldsPage_SelectDataMember" xml:space="preserve">
+    <value>Chọn dữ liệu thành viên:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectColumns" xml:space="preserve">
+    <value>Chọn các cột bạn muốn hiển thị trong báo cáo của bạn.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectColumns_AvailableColumns" xml:space="preserve">
+    <value>Cột có sẵn:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectCrossTabDataMemberPage" xml:space="preserve">
+    <value>chọn một thành viên dữ liệu.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType" xml:space="preserve">
+    <value>Chọn một trong các nhãn được xác định trước bằng cách xác định các sản phẩm và ID của nó</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_PaperType" xml:space="preserve">
+    <value>Giấy loại:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SelectLabelType_ProductNumber" xml:space="preserve">
+    <value>Product number:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SetReportTitle" xml:space="preserve">
+    <value>Chúng tôi có tất cả các thông tin cần thiết để xử lý các báo cáo.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SetReportTitle_ReportTitle" xml:space="preserve">
+    <value>Báo cáo tiêu đề:</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SpecifyReportTemplateOptions_Description" xml:space="preserve">
+    <value>Chỉ định các tùy chọn báo cáo.</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions" xml:space="preserve">
+    <value>Những gì chức năng tóm tắt nào bạn thích để tính toán?</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_SummaryOptions_IgnoreNullValues" xml:space="preserve">
+    <value>Bỏ qua giá trị null</value>
+  </data>
+  <data name="ReportDesignerStringId.ReportWizard_Title" xml:space="preserve">
+    <value>Báo cáo thuật sĩ</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_ArrangeGroup" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_EditorsGroup" xml:space="preserve">
+    <value>Biên tập viên</value>
+  </data>
+  <data name="ReportDesignerStringId.Ribbon_PreviewPage" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="ReportDesignerStringId.RibbonGroup_Arrange" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="ReportDesignerStringId.RibbonGroup_Editors" xml:space="preserve">
+    <value>Biên tập viên</value>
+  </data>
+  <data name="ReportDesignerStringId.RibbonPageCategory_Table" xml:space="preserve">
+    <value>Bảng công cụ</value>
+  </data>
+  <data name="ReportDesignerStringId.RowBelow" xml:space="preserve">
+    <value>Hàng dưới đây</value>
+  </data>
+  <data name="ReportDesignerStringId.RtlException" xml:space="preserve">
+    <value>Chế độ-phải-qua-trái không được hỗ trợ hiện nay.</value>
+  </data>
+  <data name="ReportDesignerStringId.RunRichTextEditor" xml:space="preserve">
+    <value>Chạy Rich Text Editor...</value>
+  </data>
+  <data name="ReportDesignerStringId.Save" xml:space="preserve">
+    <value>Tiết kiệm...</value>
+  </data>
+  <data name="ReportDesignerStringId.SaveReportAs_Caption" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <data name="ReportDesignerStringId.SaveReportAs_Hint" xml:space="preserve">
+    <value>Lưu báo cáo hiện tại với tên mới.</value>
+  </data>
+  <data name="ReportDesignerStringId.Scripts_Hint" xml:space="preserve">
+    <value>Hiển thị hoặc ẩn các script Editor.</value>
+  </data>
+  <data name="ReportDesignerStringId.SelectControlsWithStyle" xml:space="preserve">
+    <value>Chọn điều khiển với phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.SentBackward_Caption" xml:space="preserve">
+    <value>Gửi quay trở lại</value>
+  </data>
+  <data name="ReportDesignerStringId.SentToBack_Hint" xml:space="preserve">
+    <value>Di chuyển các điều khiển đã chọn mặt.</value>
+  </data>
+  <data name="ReportDesignerStringId.SizeToControl_Caption" xml:space="preserve">
+    <value>Làm cho cùng một kích thước</value>
+  </data>
+  <data name="ReportDesignerStringId.SizeToControl_Hint" xml:space="preserve">
+    <value>Làm cho các điều khiển đã chọn có cùng kích thước.</value>
+  </data>
+  <data name="ReportDesignerStringId.SizeToControlHeight_Hint" xml:space="preserve">
+    <value>Làm cho các điều khiển được chọn có chiều cao cùng.</value>
+  </data>
+  <data name="ReportDesignerStringId.SizeToControlWidth_Hint" xml:space="preserve">
+    <value>Làm cho các điều khiển được chọn có độ rộng cùng.</value>
+  </data>
+  <data name="ReportDesignerStringId.SizeToGrid_Hint" xml:space="preserve">
+    <value>Kích cỡ các điều khiển đã chọn vào lưới.</value>
+  </data>
+  <data name="ReportDesignerStringId.SortFieldsEditor_Title" xml:space="preserve">
+    <value>Phân loại lĩnh vực biên tập bộ sưu tập</value>
+  </data>
+  <data name="ReportDesignerStringId.SortingSummaryEditor_Title" xml:space="preserve">
+    <value>Phân loại nhóm biên tập tóm tắt</value>
+  </data>
+  <data name="ReportDesignerStringId.SplitCells" xml:space="preserve">
+    <value>Phân chia tế bào</value>
+  </data>
+  <data name="ReportDesignerStringId.StringCollectionEditor_Title" xml:space="preserve">
+    <value>Chuỗi bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.StyleSheetEditor_AddStyle" xml:space="preserve">
+    <value>Thêm phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.StyleSheetEditor_ClearStyles" xml:space="preserve">
+    <value>Rõ ràng phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.StyleSheetEditor_CloneStyle" xml:space="preserve">
+    <value>Clone một phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.StyleSheetEditor_DeleteUnusedStyles" xml:space="preserve">
+    <value>Xoá không sử dụng phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.StyleSheetEditor_LoadFromFile" xml:space="preserve">
+    <value>Phong cách tải từ một tập tin</value>
+  </data>
+  <data name="ReportDesignerStringId.StyleSheetEditor_RemoveStyle" xml:space="preserve">
+    <value>Loại bỏ phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.StyleSheetEditor_SaveToFile" xml:space="preserve">
+    <value>Lưu kiểu tập tin</value>
+  </data>
+  <data name="ReportDesignerStringId.StyleSheetEditor_Title" xml:space="preserve">
+    <value>Trình soạn thảo phong cách</value>
+  </data>
+  <data name="ReportDesignerStringId.SubBandCollectionEditor_Title" xml:space="preserve">
+    <value>SubBand bộ sưu tập biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.SubReport_EditParameterBindings" xml:space="preserve">
+    <value>Chỉnh sửa các tham số Bindings...</value>
+  </data>
+  <data name="ReportDesignerStringId.SummaryEditor_Title" xml:space="preserve">
+    <value>Tóm tắt biên tập</value>
+  </data>
+  <data name="ReportDesignerStringId.Table_ConvertToLabels" xml:space="preserve">
+    <value>Chuyển đổi để nhãn</value>
+  </data>
+  <data name="ReportDesignerStringId.TextHorizontalAlignment_Center_Hint" xml:space="preserve">
+    <value>Sự kiểm soát văn bản để Trung tâm align.</value>
+  </data>
+  <data name="ReportDesignerStringId.TextHorizontalAlignment_Justify_Hint" xml:space="preserve">
+    <value>Sắp xếp các văn bản bên trái và bên phải bên, thêm không gian giữa các từ như là cần thiết.</value>
+  </data>
+  <data name="ReportDesignerStringId.TextHorizontalAlignment_Left_Hint" xml:space="preserve">
+    <value>Sắp xếp văn bản của điều khiển bên trái.</value>
+  </data>
+  <data name="ReportDesignerStringId.TextHorizontalAlignment_Right_Hint" xml:space="preserve">
+    <value>Sắp xếp văn bản của điều khiển bên phải.</value>
+  </data>
+  <data name="ReportDesignerStringId.TextVerticalAlignment_Bottom_Hint" xml:space="preserve">
+    <value>Sắp xếp văn bản của điều khiển phía dưới.</value>
+  </data>
+  <data name="ReportDesignerStringId.TextVerticalAlignment_Center_Hint" xml:space="preserve">
+    <value>Sắp xếp văn bản của điều khiển để nó là trung tâm giữa trên và dưới cùng của kiểm soát.</value>
+  </data>
+  <data name="ReportDesignerStringId.TextVerticalAlignment_Top_Hint" xml:space="preserve">
+    <value>Sắp xếp văn bản của điều khiển đầu.</value>
+  </data>
+  <data name="ReportDesignerStringId.ToC_LevelsEditor_Title" xml:space="preserve">
+    <value>Table Of Contents Level Collection Editor</value>
+  </data>
+  <data name="ReportDesignerStringId.Unbound" xml:space="preserve">
+    <value>Unbound</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalBands" xml:space="preserve">
+    <value>Dọc các ban nhạc</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalDetail" xml:space="preserve">
+    <value>Chi tiết theo chiều dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalHeader" xml:space="preserve">
+    <value>Tiêu đề theo chiều dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalSpaceConcatenate_Hint" xml:space="preserve">
+    <value>Loại bỏ khoảng cách thẳng đứng giữa các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalSpaceDecrease_Hint" xml:space="preserve">
+    <value>Giảm khoảng cách thẳng đứng giữa các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalSpaceIncrease_Hint" xml:space="preserve">
+    <value>Tăng khoảng cách thẳng đứng giữa các điều khiển đã chọn.</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalSpaceMakeEqual_Caption" xml:space="preserve">
+    <value>Làm cho khoảng cách dọc bằng</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalSpaceMakeEqual_Hint" xml:space="preserve">
+    <value>Làm cho khoảng cách thẳng đứng giữa các điều khiển đã chọn bằng.</value>
+  </data>
+  <data name="ReportDesignerStringId.VerticalTotal" xml:space="preserve">
+    <value>Tổng cộng theo chiều dọc</value>
+  </data>
+  <data name="ReportDesignerStringId.Watermark_Hint" xml:space="preserve">
+    <value>Điều chỉnh các cài đặt của báo cáo watermark.</value>
+  </data>
+  <data name="ReportDesignerStringId.WatermarkEditor_InFront" xml:space="preserve">
+    <value>Ở phía trước</value>
+  </data>
+</root>

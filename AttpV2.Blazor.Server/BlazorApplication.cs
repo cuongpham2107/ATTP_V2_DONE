@@ -32,6 +32,8 @@ public class AttpV2BlazorApplication : BlazorApplication {
        
     }
     public AttpV2BlazorApplication() {
+
+        LinkNewObjectToParentImmediately = true;
         ApplicationName = "AttpV2";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
         DatabaseVersionMismatch += AttpV2BlazorApplication_DatabaseVersionMismatch;

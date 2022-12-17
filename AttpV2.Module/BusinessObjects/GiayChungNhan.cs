@@ -1,4 +1,5 @@
 ﻿
+using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
@@ -75,8 +76,8 @@ namespace AttpV2.Module.BusinessObjects
         }
         #region Properties
 
-        DateTime ngayHetHanGCN;
-        DateTime ngayCapGiayChungNhan;
+        DateTime? ngayHetHanGCN;
+        DateTime? ngayCapGiayChungNhan;
         string soCap;
         CoSoSanXuatKinhDoanh coSoSanXuatKinhDoanh;
 
@@ -174,6 +175,7 @@ namespace AttpV2.Module.BusinessObjects
         ThamDinh _thamDinh;
         [XafDisplayName("Căn cứ cấp")]
         [Association("ThamDinh-GiayChungNhans")]
+        [DataSourceProperty(nameof(ThamDinhs))]
         [RuleRequiredField]
         public ThamDinh ThamDinh
         {
@@ -206,7 +208,7 @@ namespace AttpV2.Module.BusinessObjects
 
         [XafDisplayName("Ngày cấp")]
         [RuleRequiredField("Bắt buộc phải có GiayChungNhan.NgayCapGiayChungNhan", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
-        public DateTime NgayCapGiayChungNhan
+        public DateTime? NgayCapGiayChungNhan
         {
             get => ngayCapGiayChungNhan;
             set => SetPropertyValue(nameof(NgayCapGiayChungNhan), ref ngayCapGiayChungNhan, value);
@@ -214,10 +216,22 @@ namespace AttpV2.Module.BusinessObjects
 
 
         [XafDisplayName("Ngày hết hạn")]
+        [ModelDefault("AllowEdit", "False")]
         [RuleRequiredField("Bắt buộc phải có GiayChungNhan.NgayHetHanGCN", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
-        public DateTime NgayHetHanGCN
+        public DateTime? NgayHetHanGCN
         {
-            get => ngayHetHanGCN;
+            get
+            {
+
+                if(!IsLoading && !IsSaving)
+                {
+                    if(NgayCapGiayChungNhan != null) 
+                    {
+                        return NgayCapGiayChungNhan?.AddYears(3); 
+                    }
+                }
+                return ngayHetHanGCN;
+            }
             set => SetPropertyValue(nameof(NgayHetHanGCN), ref ngayHetHanGCN, value);
         }
 
@@ -310,6 +324,19 @@ namespace AttpV2.Module.BusinessObjects
         #endregion
 
         #region Association
+        private XPCollection<ThamDinh> thamDinhlist;
+        [Browsable(false)]
+        public XPCollection<ThamDinh> ThamDinhs
+        {
+
+            get
+            {
+                var result = Session.Query<ThamDinh>().Where(i => i.CoSoSanXuatKinhDoanh == this.CoSoSanXuatKinhDoanh);
+                XPCollection<ThamDinh> thamdinhs = new XPCollection<ThamDinh>(Session, result);
+                return thamdinhs;
+
+            }
+        }
 
         [Association("GiayChungNhan-FileDLs")]
         public XPCollection<FileDL> FileDLs

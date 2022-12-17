@@ -1,0 +1,2292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DiagramControlStringId.SoftwareIcons_Add_Name" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Remove_Name" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Appearance" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_TreeLayout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="DiagramControlStringId.Tools_Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Options" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_NewFile" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_CanvasNoneAutoSize" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_PageSize" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Collapse_Name" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Expand_Name" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Zoom" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_File" xml:space="preserve">
+    <value>Tệp</value>
+  </data>
+  <data name="DiagramControlStringId.Font_Font" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Font" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontUnderline" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Tools" xml:space="preserve">
+    <value>Công cụ</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Tools_Name" xml:space="preserve">
+    <value>Công cụ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontBold" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontItalic" xml:space="preserve">
+    <value>Nghiêng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SaveFile" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Save_Name" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_HorizontalOrientation" xml:space="preserve">
+    <value>Hướng ngang</value>
+  </data>
+  <data name="DiagramControlStringId.PageSize_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="DiagramControlStringId.ShapeInfo_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="DiagramControlStringId.PageSize_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="DiagramControlStringId.ShapeInfo_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Cut" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Paste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Justify" xml:space="preserve">
+    <value>Căn đều</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_Orientation" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Data_Name" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_PageSetup" xml:space="preserve">
+    <value>Thiết lập Trang</value>
+  </data>
+  <data name="DiagramControlStringId.Font_FontSize" xml:space="preserve">
+    <value>Kích thước phông chữ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Redo" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_View" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_View" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_BringToFront" xml:space="preserve">
+    <value>Đưa lên Trước</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SendToBack" xml:space="preserve">
+    <value>Gửi ra Sau</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ZoomIn" xml:space="preserve">
+    <value>Phóng To</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ZoomOut" xml:space="preserve">
+    <value>Thu nhỏ</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Lines_Name" xml:space="preserve">
+    <value>Dòng</value>
+  </data>
+  <data name="DiagramControlStringId.Tool_Pointer" xml:space="preserve">
+    <value>Con trỏ</value>
+  </data>
+  <data name="DiagramControlStringId.Shape_BackgroundColor" xml:space="preserve">
+    <value>Nền</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Options" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="DiagramControlStringId.PageMargin_Bottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="DiagramControlStringId.PageMargin_Left" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="DiagramControlStringId.PageMargin_Right" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="DiagramControlStringId.PageMargin_Top" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="DiagramControlStringId.PageSize" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarZoomEditor" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="DiagramControlStringId.FontFamily" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Layout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientation_Horizontal" xml:space="preserve">
+    <value>Hướng ngang</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarHeight" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarWidth" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Print" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="DiagramControlStringId.PrintMenu" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientation" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="DiagramControlStringId.FontSize" xml:space="preserve">
+    <value>Kích thước phông chữ</value>
+  </data>
+  <data name="DiagramControlStringId.BackgroundColor" xml:space="preserve">
+    <value>Nền</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Appearance" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Behavior" xml:space="preserve">
+    <value>Hành vi</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Cross_Name" xml:space="preserve">
+    <value>Chữ thập</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetPageParameters_PageSize_Header" xml:space="preserve">
+    <value>Thiết lập trang</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Data" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="DiagramControlStringId.ImageFlipMode_Vertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Navigation" xml:space="preserve">
+    <value>Điều hướng</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding" xml:space="preserve">
+    <value>Căn đệm</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Title" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="DiagramControlStringId.ImageFlipMode_Horizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_FormatImage" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Print" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_FormatContainer" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Zoom" xml:space="preserve">
+    <value>Phóng</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_ContainerSize" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Export" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+  <data name="DiagramControlStringId.ImageFlipMode_None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayout_Horizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayoutForSubordinates_Horizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayout_Vertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MindMapTreeLayoutForSubordinates_Vertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Back_Name" xml:space="preserve">
+    <value>Sau</value>
+  </data>
+  <data name="DiagramControlStringId.PropertyGridView_Alphabetical" xml:space="preserve">
+    <value>Thứ tự chữ cái</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SaveFileAs" xml:space="preserve">
+    <value>Ghi với tên khác...</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Forward_Name" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_RectangleTool_Description" xml:space="preserve">
+    <value>Kéo để vẽ một hình chữ nhật.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_RightTriangleTool_Description" xml:space="preserve">
+    <value>Kéo để vẽ một tam giác.</value>
+  </data>
+  <data name="DiagramControlStringId.Validation_Size" xml:space="preserve">
+    <value>Giá trị {0} phải lớn hơn hoặc bằng {1}.</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Document" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_ImageTools_Picture" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Show" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Toolbox" xml:space="preserve">
+    <value>Hộp công cụ</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_DiskStorage_Name" xml:space="preserve">
+    <value>Dung lượng đĩa</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Document_Name" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_MessageFromUser_Name" xml:space="preserve">
+    <value>Thông điệp từ người dùng</value>
+  </data>
+  <data name="DiagramControlStringId.Selector_CustomSize" xml:space="preserve">
+    <value>Tùy chỉnh kích thước</value>
+  </data>
+  <data name="DiagramControlStringId.ShowGrid" xml:space="preserve">
+    <value>Lưới</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Calendar_Name" xml:space="preserve">
+    <value>Lịch</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Database_Name" xml:space="preserve">
+    <value>Cơ sở dữ liệu</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Document_Name" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Filter_Name" xml:space="preserve">
+    <value>Bộ lọc</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Lock_Name" xml:space="preserve">
+    <value>Khóa</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Name" xml:space="preserve">
+    <value>Biểu tượng phần mềm</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Properties_Name" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarAngle" xml:space="preserve">
+    <value>Góc</value>
+  </data>
+  <data name="DiagramControlStringId.TabHeader_PageSize" xml:space="preserve">
+    <value>Kích thước trang</value>
+  </data>
+  <data name="DiagramControlStringId.QuickShapes_Name" xml:space="preserve">
+    <value>Nhanh chóng hình dạng</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_GridSize" xml:space="preserve">
+    <value>Kích thước lưới</value>
+  </data>
+  <data name="DiagramControlStringId.Ribbon_MeasureUnit" xml:space="preserve">
+    <value>Đơn vị đo</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_Design" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportDiagram_BMP" xml:space="preserve">
+    <value>Windows Bitmap</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_IncreaseFontSize" xml:space="preserve">
+    <value>Tăng kích thước phông chữ</value>
+  </data>
+  <data name="DiagramControlStringId.MeasureUnit_Degrees_Shorthand" xml:space="preserve">
+    <value>deg</value>
+  </data>
+  <data name="DiagramControlStringId.MeasureUnit_Pixels" xml:space="preserve">
+    <value>điểm ảnh</value>
+  </data>
+  <data name="DiagramControlStringId.MeasureUnit_Pixels_Shorthand" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="DiagramControlStringId.MessageAddCommandConstructorError" xml:space="preserve">
+    <value>Không thể tìm thấy một nhà xây dựng với một tham số kiểu DiagramControl trong lớp {0}</value>
+  </data>
+  <data name="DiagramControlStringId.OpenFileDialogTitle" xml:space="preserve">
+    <value>Mở tập tin</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayout_BufferSize" xml:space="preserve">
+    <value>Kích cỡ bộ đệm</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayout_Left" xml:space="preserve">
+    <value>Phải sang trái</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayout_Right" xml:space="preserve">
+    <value>Trái sang phải</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayoutForSubordinates_LeftToRight" xml:space="preserve">
+    <value>Trái sang phải</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayoutForSubordinates_RightToLeft" xml:space="preserve">
+    <value>Phải sang trái</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Undo_Description" xml:space="preserve">
+    <value>Hoàn tác thao tác cuối.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramDesigner_SaveChangesConfirmation" xml:space="preserve">
+    <value>Bạn có muốn áp dụng các thay đổi?</value>
+  </data>
+  <data name="DiagramControlStringId.DocumentDisplayFormat_Modified" xml:space="preserve">
+    <value>{0}*</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsRotate" xml:space="preserve">
+    <value>Xoay</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale_0_25" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale_0_5" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale_0_75" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale_1" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale_1_5" xml:space="preserve">
+    <value>150%</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale_2" xml:space="preserve">
+    <value>200%</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale_4" xml:space="preserve">
+    <value>400%</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_LoadImage" xml:space="preserve">
+    <value>Thay đổi hình ảnh</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_OpenFile" xml:space="preserve">
+    <value>Mở...</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_QuickPrint" xml:space="preserve">
+    <value>Nhanh chóng in</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_QuickPrint_Description" xml:space="preserve">
+    <value>Gửi tài liệu trực tiếp đến máy in mặc định mà không thực hiện thay đổi.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Redo_Description" xml:space="preserve">
+    <value>Làm lại thao tác cuối.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Rotate_Left90" xml:space="preserve">
+    <value>Xoay trái 90 °</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Rotate_Right90" xml:space="preserve">
+    <value>Xoay bên phải 90 °</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectAll" xml:space="preserve">
+    <value>Chọn tất cả các mục</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectNextItem" xml:space="preserve">
+    <value>Chọn mục kế tiếp</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectPrevItem" xml:space="preserve">
+    <value>Chọn mục trước</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_EllipseTool_Description" xml:space="preserve">
+    <value>Kéo để vẽ một hình ellipse.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_HexagonTool_Description" xml:space="preserve">
+    <value>Kéo để vẽ một hình lục giác.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_PanTool_Description" xml:space="preserve">
+    <value>Kéo để xoay trên canvas.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Left" xml:space="preserve">
+    <value>Căn trái</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetVerticalAlignment_Center" xml:space="preserve">
+    <value>Căn giữa</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ShowContainerHeader" xml:space="preserve">
+    <value>Hiển thị tiêu đề</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SugiyamaLayout_Left" xml:space="preserve">
+    <value>Phải sang trái</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SugiyamaLayout_Right" xml:space="preserve">
+    <value>Trái sang phải</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TipOverTreeLayout_LeftToRight" xml:space="preserve">
+    <value>Trái sang phải</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TipOverTreeLayout_RightToLeft" xml:space="preserve">
+    <value>Phải sang trái</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TipOverTreeLayoutForSubordinates_LeftToRight" xml:space="preserve">
+    <value>Trái sang phải</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TipOverTreeLayoutForSubordinates_RightToLeft" xml:space="preserve">
+    <value>Phải sang trái</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Database_Name" xml:space="preserve">
+    <value>Cơ sở dữ liệu</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_LeftParenthesis_Name" xml:space="preserve">
+    <value>Ngoặc đơn trái</value>
+  </data>
+  <data name="DiagramControlStringId.Category_DiagramDocument" xml:space="preserve">
+    <value>Sơ đồ tài liệu</value>
+  </data>
+  <data name="DiagramControlStringId.Container_Heading" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding_P0" xml:space="preserve">
+    <value>0 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding_P12" xml:space="preserve">
+    <value>12 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding_P16" xml:space="preserve">
+    <value>16 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding_P24" xml:space="preserve">
+    <value>24 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding_P24" xml:space="preserve">
+    <value>24 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding_P32" xml:space="preserve">
+    <value>32 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding_P4" xml:space="preserve">
+    <value>4 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding_P8" xml:space="preserve">
+    <value>8 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Icons_And_Names" xml:space="preserve">
+    <value>Tên và biểu tượng</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Move_Up" xml:space="preserve">
+    <value>Di chuyển lên</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Names_Under_Icons" xml:space="preserve">
+    <value>Tên dưới biểu tượng</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_Dash" xml:space="preserve">
+    <value>Dấu gạch ngang</value>
+  </data>
+  <data name="DiagramControlStringId.DefaultDocumentName" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_DecreaseFontSize" xml:space="preserve">
+    <value>Giảm kích thước phông chữ</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize" xml:space="preserve">
+    <value>Kích thước tự động</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_AutoSize" xml:space="preserve">
+    <value>Kích thước tự động</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_AutoSize_Description" xml:space="preserve">
+    <value>Tự động thay đổi kích thước trang.</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_Description2" xml:space="preserve">
+    <value>Tự động thay đổi kích thước trang.</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Sort_Name" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Start_Name" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_StartEnd_Name" xml:space="preserve">
+    <value>Bắt đầu/kết thúc</value>
+  </data>
+  <data name="DiagramControlStringId.Panel_Properties_Name" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontStrikethrough" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Linear_Name" xml:space="preserve">
+    <value>Tuyến tính</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_Insert" xml:space="preserve">
+    <value>Chèn</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Paragraph" xml:space="preserve">
+    <value>Đoạn</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Document_Name" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="DiagramControlStringId.ImageFlipMode_Both" xml:space="preserve">
+    <value>Cả hai</value>
+  </data>
+  <data name="DiagramControlStringId.PropertyGridOption_None" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Decision_Name" xml:space="preserve">
+    <value>Quyết định</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding_P32" xml:space="preserve">
+    <value>32 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding_P4" xml:space="preserve">
+    <value>4 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding_P8" xml:space="preserve">
+    <value>8 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding_P0" xml:space="preserve">
+    <value>0 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding_P12" xml:space="preserve">
+    <value>12 px.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding_P16" xml:space="preserve">
+    <value>16 px.</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_HorizontalScroll_Name" xml:space="preserve">
+    <value>Cuộn ngang</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ChangeConnectorType_RightAngle" xml:space="preserve">
+    <value>Góc bên phải</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool" xml:space="preserve">
+    <value>Chọn công cụ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_ConnectorTool" xml:space="preserve">
+    <value>Kết nối</value>
+  </data>
+  <data name="DiagramControlStringId.No_Shapes_Found_Name" xml:space="preserve">
+    <value>Không có kết quả phù hợp</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel" xml:space="preserve">
+    <value>Bảng thuộc tính</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_HardDrive_Name" xml:space="preserve">
+    <value>Đĩa cứng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FitToDrawing" xml:space="preserve">
+    <value>Phù hợp với bản vẽ</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Common" xml:space="preserve">
+    <value>Phổ biến</value>
+  </data>
+  <data name="DiagramControlStringId.Category_SizeAndPosition" xml:space="preserve">
+    <value>Kích thước &amp; vị trí</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_RectangleTool" xml:space="preserve">
+    <value>Hình chữ nhật</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Rectangle_Name" xml:space="preserve">
+    <value>Hình chữ nhật</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutSugiyama" xml:space="preserve">
+    <value>Lớp</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ResetSelectedImages" xml:space="preserve">
+    <value>Đặt lại hình ảnh</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Move_Down" xml:space="preserve">
+    <value>Dịch Xuống</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Scale" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Scale_Dialog_Title" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="DiagramControlStringId.Tool_Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Content" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Bottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Left" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Right" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Top" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Landscape" xml:space="preserve">
+    <value>Hướng ngang</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Padding" xml:space="preserve">
+    <value>Căn đệm</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Angle" xml:space="preserve">
+    <value>Góc</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BackgroundColor" xml:space="preserve">
+    <value>Nền</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BottomLeft" xml:space="preserve">
+    <value>Dưới cùng bên trái</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_TopLeft" xml:space="preserve">
+    <value>Trên bên trái</value>
+  </data>
+  <data name="DiagramControlStringId.ListOrientation_Horizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="DiagramControlStringId.ListOrientation_Vertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="DiagramControlStringId.ListOrientation" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Orientation" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_PageSize" xml:space="preserve">
+    <value>Kích thước trang</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_ClosedASMEArrow" xml:space="preserve">
+    <value>Đóng cửa ASME mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_ClosedDiamond" xml:space="preserve">
+    <value>Đóng kim cương</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_ClosedDot" xml:space="preserve">
+    <value>Đóng dấu chấm</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_ClosedDoubleArrow" xml:space="preserve">
+    <value>Đóng cửa đôi mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_Diamond" xml:space="preserve">
+    <value>Kim cương</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_Filled90" xml:space="preserve">
+    <value>Mũi tên đầy 90</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_FilledDiamond" xml:space="preserve">
+    <value>Đầy kim cương</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_FilledDot" xml:space="preserve">
+    <value>Filled dot</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_FilledDoubleArrow" xml:space="preserve">
+    <value>Filled đôi mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_FilledFletch" xml:space="preserve">
+    <value>Filled fletch</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_FilledSquare" xml:space="preserve">
+    <value>Filled square</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_IndentedFilledArrow" xml:space="preserve">
+    <value>Indented đầy mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_Open90" xml:space="preserve">
+    <value>Mũi tên mở 90</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_OpenFletch" xml:space="preserve">
+    <value>Mở fletch</value>
+  </data>
+  <data name="DiagramControlStringId.Arrow_OutdentedFilledArrow" xml:space="preserve">
+    <value>Outdented đầy mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_BentArrow_Name" xml:space="preserve">
+    <value>Mũi tên cong</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_BlockArrow_Name" xml:space="preserve">
+    <value>Mũi tên khối</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_CircularArrow_Name" xml:space="preserve">
+    <value>Mũi tên vòng tròn</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_CurvedLeftArrow_Name" xml:space="preserve">
+    <value>Cong mũi tên trái</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_CurvedRightArrow_Name" xml:space="preserve">
+    <value>Cong mũi tên bên phải</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_FlexibleArrow_Name" xml:space="preserve">
+    <value>Mũi tên linh hoạt</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_LeftRightArrowBlock_Name" xml:space="preserve">
+    <value>Trái mũi tên bên phải chặn</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_LeftRightUpArrow_Name" xml:space="preserve">
+    <value>Bên trái bên phải mũi tên lên</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_ModernArrow_Name" xml:space="preserve">
+    <value>Mũi tên hiện đại</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_Name" xml:space="preserve">
+    <value>Hình dạng mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_NotchedArrow_Name" xml:space="preserve">
+    <value>Notched mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_QuadArrow_Name" xml:space="preserve">
+    <value>Quad mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_QuadArrowBlock_Name" xml:space="preserve">
+    <value>Mũi tên Quad chặn</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_SharpBentArrow_Name" xml:space="preserve">
+    <value>Mũi tên cong sắc nét</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_SimpleArrow_Name" xml:space="preserve">
+    <value>Mũi tên đơn giản</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_SimpleDoubleArrow_Name" xml:space="preserve">
+    <value>Arrow đôi đơn giản</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_StripedArrow_Name" xml:space="preserve">
+    <value>Mũi tên sọc</value>
+  </data>
+  <data name="DiagramControlStringId.ArrowShapes_UTurnArrow_Name" xml:space="preserve">
+    <value>U chuyển mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_Description" xml:space="preserve">
+    <value>Điều chỉnh kích thước trang di chuyển các yếu tố bên ngoài biên giới của mình.</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_Fill" xml:space="preserve">
+    <value>Điền vào</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_Fill_Description" xml:space="preserve">
+    <value>Điền vào các khu vực có thể nhìn thấy toàn bộ</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSize_None_Description" xml:space="preserve">
+    <value>Trang có kích thước không thay đổi về di chuyển các yếu tố bên ngoài biên giới của mình.</value>
+  </data>
+  <data name="DiagramControlStringId.AutoSizeSelector" xml:space="preserve">
+    <value>Tự động kích thước Selector</value>
+  </data>
+  <data name="DiagramControlStringId.BackgroundColor_Description" xml:space="preserve">
+    <value>Thay đổi màu nền.</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Custom1_Name" xml:space="preserve">
+    <value>Custom1</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Custom2_Name" xml:space="preserve">
+    <value>Custom2</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Custom3_Name" xml:space="preserve">
+    <value>Custom3</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Custom4_Name" xml:space="preserve">
+    <value>Custom4</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_ExternalData_Name" xml:space="preserve">
+    <value>Dữ liệu bên ngoài</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Name" xml:space="preserve">
+    <value>Hình dạng cơ bản sơ đồ</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_OffPageReference_Name" xml:space="preserve">
+    <value>Off-trang tài liệu tham khảo</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_OnPageReference_Name" xml:space="preserve">
+    <value>Trang tài liệu tham khảo</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Process_Name" xml:space="preserve">
+    <value>Quá trình</value>
+  </data>
+  <data name="DiagramControlStringId.BasicFlowchartShapes_Subprocess_Name" xml:space="preserve">
+    <value>Subprocess</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Can_Name" xml:space="preserve">
+    <value>Có thể</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Chevron_Name" xml:space="preserve">
+    <value>Chevron</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Cube_Name" xml:space="preserve">
+    <value>Khối lập phương</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Decagon_Name" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_DiagonalStripe_Name" xml:space="preserve">
+    <value>Đường chéo sọc</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Diamond_Name" xml:space="preserve">
+    <value>Kim cương</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Donut_Name" xml:space="preserve">
+    <value>Bánh rán</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Ellipse_Name" xml:space="preserve">
+    <value>Hình elip</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Frame_Name" xml:space="preserve">
+    <value>Khung hình</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_FrameCorner_Name" xml:space="preserve">
+    <value>Khung hình góc</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Heptagon_Name" xml:space="preserve">
+    <value>Heptagon</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Hexagon_Name" xml:space="preserve">
+    <value>Hình lục giác</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_LeftBrace_Name" xml:space="preserve">
+    <value>Rời đôi</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_LShape_Name" xml:space="preserve">
+    <value>Hình dạng L</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Name" xml:space="preserve">
+    <value>Hình dạng cơ bản</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_NoSymbol_Name" xml:space="preserve">
+    <value>NoSymbol</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Octagon_Name" xml:space="preserve">
+    <value>Octagon</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Parallelogram_Name" xml:space="preserve">
+    <value>Hình bình hành</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Pentagon_Name" xml:space="preserve">
+    <value>Lầu năm góc</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Plaque_Name" xml:space="preserve">
+    <value>Mảng bám</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_RightBrace_Name" xml:space="preserve">
+    <value>Đôi bên phải</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_RightParenthesis_Name" xml:space="preserve">
+    <value>Ngoặc đơn phải</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_RightTriangle_Name" xml:space="preserve">
+    <value>Tam giác vuông</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_RoundCornerRectangle_Name" xml:space="preserve">
+    <value>Hình chữ nhật tròn góc</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_RoundDiagonalCornerRectangle_Name" xml:space="preserve">
+    <value>Hình chữ nhật tròn góc chéo</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_RoundedRectangle_Name" xml:space="preserve">
+    <value>Làm tròn hình chữ nhật</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_RoundSameSideCornerRectangle_Name" xml:space="preserve">
+    <value>Vòng cùng một bên góc hình chữ nhật</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_SingleRoundCornerRectangle_Name" xml:space="preserve">
+    <value>Hình chữ nhật góc tròn đơn</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_SingleSnipCornerRectangle_Name" xml:space="preserve">
+    <value>Một Snip góc hình chữ nhật</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_SnipAndRoundCornerRectangle_Name" xml:space="preserve">
+    <value>Snip và hình chữ nhật tròn góc</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_SnipAndRoundSingleCornerRectangle_Name" xml:space="preserve">
+    <value>Snip và hình chữ nhật tròn góc đơn</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_SnipCornerRectangle_Name" xml:space="preserve">
+    <value>Snip góc hình chữ nhật</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_SnipDiagonalCornerRectangle_Name" xml:space="preserve">
+    <value>Snip chéo góc hình chữ nhật</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_SnipSameSideCornerRectangle_Name" xml:space="preserve">
+    <value>Snip cùng bên góc hình chữ nhật</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Star16_Name" xml:space="preserve">
+    <value>16-điểm sao</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Star24_Name" xml:space="preserve">
+    <value>Ngôi sao 24 điểm</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Star32_Name" xml:space="preserve">
+    <value>32 điểm sao</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Star4_Name" xml:space="preserve">
+    <value>4-điểm sao</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Star5_Name" xml:space="preserve">
+    <value>5-điểm sao</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Star6_Name" xml:space="preserve">
+    <value>6 điểm sao</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Star7_Name" xml:space="preserve">
+    <value>7-điểm sao</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Trapezoid_Name" xml:space="preserve">
+    <value>Hình thang</value>
+  </data>
+  <data name="DiagramControlStringId.BasicShapes_Triangle_Name" xml:space="preserve">
+    <value>Tam giác</value>
+  </data>
+  <data name="DiagramControlStringId.BindingEditorDialogTitle" xml:space="preserve">
+    <value>Mục dữ liệu ràng buộc Editor</value>
+  </data>
+  <data name="DiagramControlStringId.Category_DiagramItems" xml:space="preserve">
+    <value>Sơ đồ mặt hàng</value>
+  </data>
+  <data name="DiagramControlStringId.Category_DiagramPaint" xml:space="preserve">
+    <value>Sơ đồ sơn</value>
+  </data>
+  <data name="DiagramControlStringId.Category_DiagramPropertyChanged" xml:space="preserve">
+    <value>Sơ đồ tài sản thay đổi</value>
+  </data>
+  <data name="DiagramControlStringId.Category_ExpandAndCollapse" xml:space="preserve">
+    <value>Mở rộng &amp; thu gọn</value>
+  </data>
+  <data name="DiagramControlStringId.Category_Protection" xml:space="preserve">
+    <value>Bảo vệ</value>
+  </data>
+  <data name="DiagramControlStringId.ChangeConnectorType" xml:space="preserve">
+    <value>Kết nối</value>
+  </data>
+  <data name="DiagramControlStringId.ChangeConnectorType_Description" xml:space="preserve">
+    <value>Thay đổi sự xuất hiện của các kết nối trong sơ đồ.</value>
+  </data>
+  <data name="DiagramControlStringId.ClipboardPasteErrorMessage" xml:space="preserve">
+    <value>Không thể dán các mục từ clipboard</value>
+  </data>
+  <data name="DiagramControlStringId.CollapseSelectedContainers" xml:space="preserve">
+    <value>gọn container</value>
+  </data>
+  <data name="DiagramControlStringId.CollapseSelectedContainers_Description" xml:space="preserve">
+    <value>Thu gọn/mở rộng vùng chứa đã chọn trong biểu đồ</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding" xml:space="preserve">
+    <value>Tiêu đề Padding</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerHeaderPadding_Description" xml:space="preserve">
+    <value>Đặt khoảng cách giữa ranh giới container tiêu đề và nội dung của nó.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerPadding_Description" xml:space="preserve">
+    <value>Đặt khoảng cách giữa ranh giới hình dạng của thùng chứa và nội dung của nó.</value>
+  </data>
+  <data name="DiagramControlStringId.ContainerStyles" xml:space="preserve">
+    <value>Phong cách container</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Icons_Only" xml:space="preserve">
+    <value>Chỉ các biểu tượng</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Names_Only" xml:space="preserve">
+    <value>Tên chỉ</value>
+  </data>
+  <data name="DiagramControlStringId.ContextMenu_Order" xml:space="preserve">
+    <value>Đặt hàng</value>
+  </data>
+  <data name="DiagramControlStringId.CreateDockingDesignerActionListCommand" xml:space="preserve">
+    <value>Tạo ra các công cụ và PropertyGrid</value>
+  </data>
+  <data name="DiagramControlStringId.CreatePanAndZoomDesignerActionListCommand" xml:space="preserve">
+    <value>Tạo Pan và Zoom panel</value>
+  </data>
+  <data name="DiagramControlStringId.CreateRibbonDesignerActionListCommand" xml:space="preserve">
+    <value>Tạo Ribbon Menu</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_DashDashDot" xml:space="preserve">
+    <value>Dash dash dấu chấm</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_DashDot" xml:space="preserve">
+    <value>Dấu gạch ngang Dot</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_DashDotDot" xml:space="preserve">
+    <value>Dấu gạch ngang Dot Dot</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_Dot" xml:space="preserve">
+    <value>Dot</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_HalfDash" xml:space="preserve">
+    <value>Dấu gạch ngang nửa</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_HalfDot" xml:space="preserve">
+    <value>Một nửa dot</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_LongDashShortDash" xml:space="preserve">
+    <value>Dấu gạch ngang dài ngắn dash</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_LongDashShortDashShortDash" xml:space="preserve">
+    <value>Dấu gạch ngang dài ngắn ngắn dash dash</value>
+  </data>
+  <data name="DiagramControlStringId.DashType_Solid" xml:space="preserve">
+    <value>Rắn</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_Cloud_Name" xml:space="preserve">
+    <value>Đám mây</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_DoubleWave_Name" xml:space="preserve">
+    <value>Làn sóng đôi</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_DownRibbon_Name" xml:space="preserve">
+    <value>Xuống Ribbon</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_Heart_Name" xml:space="preserve">
+    <value>Trái tim</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_LightningBolt_Name" xml:space="preserve">
+    <value>Lightning Bolt</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_Moon_Name" xml:space="preserve">
+    <value>Mặt trăng</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_Name" xml:space="preserve">
+    <value>Trang trí hình dạng</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_UpRibbon_Name" xml:space="preserve">
+    <value>Lên Ribbon</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_VerticalScroll_Name" xml:space="preserve">
+    <value>Di chuyển dọc</value>
+  </data>
+  <data name="DiagramControlStringId.DecorativeShapes_Wave_Name" xml:space="preserve">
+    <value>Làn sóng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_BringForward" xml:space="preserve">
+    <value>Mang về phía trước</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_BringForward_Description" xml:space="preserve">
+    <value>Mang các đối tượng được lựa chọn chuyển tiếp một mức vì vậy mà nó là ẩn đằng sau các đối tượng ít hơn</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_BringToFront_Description" xml:space="preserve">
+    <value>Mang lại cho các đối tượng đã chọn ở phía trước của tất cả các đối tượng khác.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ChangeConnectorType_Curved" xml:space="preserve">
+    <value>Cong</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ChangeConnectorType_OrgChart" xml:space="preserve">
+    <value>OrgChart</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ChangeConnectorType_Straight" xml:space="preserve">
+    <value>Thẳng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_CircularLayout" xml:space="preserve">
+    <value>Thông tư</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Close_Description" xml:space="preserve">
+    <value>Các tài liệu mà bạn đang định đóng cửa đã lưu thay đổi. Bạn có muốn lưu {0}?</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_CollapseSelectedContainers" xml:space="preserve">
+    <value>gọn container</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_CollapseSelectedContainers_Description" xml:space="preserve">
+    <value>Thu gọn/mở rộng vùng chứa đã chọn trong biểu đồ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Copy_Description" xml:space="preserve">
+    <value>Đặt một bản sao của lựa chọn vào bảng tạm để bạn có thể dán nó ở một nơi khác.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Cut_Description" xml:space="preserve">
+    <value>Loại bỏ lựa chọn và đặt nó vào bảng tạm để bạn có thể dán nó ở một nơi khác.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_DecreaseFontSize_Description" xml:space="preserve">
+    <value>Làm cho văn bản của bạn nhỏ hơn một chút.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Edit" xml:space="preserve">
+    <value>Chỉnh sửa văn bản</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Empty" xml:space="preserve">
+    <value>Không có</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportDiagram_BMP_Description" xml:space="preserve">
+    <value>Lưu các biểu đồ như tập tin hình ảnh bitmap có thêm không gian đĩa do thiếu nén.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportDiagram_GIF" xml:space="preserve">
+    <value>Graphics Interchange Format</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportDiagram_GIF_Description" xml:space="preserve">
+    <value>Lưu các biểu đồ như hình ảnh GIF đó là nhỏ gọn nhưng có chất lượng giảm nếu sơ đồ có màu sắc hơn 256.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportDiagram_JPEG" xml:space="preserve">
+    <value>Trao đổi tập tin JPEG định dạng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportDiagram_JPEG_Description" xml:space="preserve">
+    <value>Lưu các biểu đồ như là một hình ảnh JPEG nén tốt với ít thể nhận mất chất lượng hình ảnh đạt.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportDiagram_PNG" xml:space="preserve">
+    <value>Mạng di động đồ họa</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportDiagram_PNG_Description" xml:space="preserve">
+    <value>Lưu các biểu đồ như là một hình ảnh PNG có một chất lượng cao và mất rất ít không gian nếu sơ đồ có các khu vực rộng lớn của màu sắc chính xác phục.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportToPdf" xml:space="preserve">
+    <value>Định dạng tài liệu di động</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportToPdf_Description" xml:space="preserve">
+    <value>Lưu sơ đồ dưới dạng tài liệu PDF đơn trang.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportToSvg" xml:space="preserve">
+    <value>Scalable Vector Graphics</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ExportToSvg_Description" xml:space="preserve">
+    <value>Save the diagram in the SVG format, which uses an XML-based language to describe vector graphics.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FitToDrawing_Description" xml:space="preserve">
+    <value>Truncate trang chiều rộng và chiều cao, do đó trang có kích thước phù hợp với kích thước diagram.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FitToPage" xml:space="preserve">
+    <value>Phù hợp với cửa sổ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FitToPage_Description" xml:space="preserve">
+    <value>Thu nhỏ các tài liệu do đó toàn bộ trang phù hợp và điền vào cửa sổ.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FitToWidth" xml:space="preserve">
+    <value>Chiều rộng Page</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FitToWidth_Description" xml:space="preserve">
+    <value>Thu nhỏ các tài liệu do đó trang là rộng như cửa sổ.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FlipImage_Horizontal" xml:space="preserve">
+    <value>Lật ngang</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FlipImage_Horizontal_Description" xml:space="preserve">
+    <value>Flip ngang aûnh ñaõ choïn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FlipImage_Vertical" xml:space="preserve">
+    <value>Lật dọc</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FlipImage_Vertical_Description" xml:space="preserve">
+    <value>Flip vertical aûnh ñaõ choïn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FocusNextControl" xml:space="preserve">
+    <value>Tập trung kiểm soát tiếp theo</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_FocusPrevControl" xml:space="preserve">
+    <value>Tập trung kiểm soát trước</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_IncreaseFontSize_Description" xml:space="preserve">
+    <value>Làm cho văn bản của bạn lớn hơn một chút.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_InsertImage" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_InsertImage_Description" xml:space="preserve">
+    <value>Chèn hình ảnh từ máy tính của bạn hoặc từ máy tính khác mà bạn đang kết nối tới.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_LoadImage_Description" xml:space="preserve">
+    <value>Mở một tập tin ảnh sẽ được hiển thị trong mục.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MoveSelection_Down" xml:space="preserve">
+    <value>Chuyển mục chọn xuống</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MoveSelection_Left" xml:space="preserve">
+    <value>Di chuyển lựa chọn trái</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MoveSelection_Right" xml:space="preserve">
+    <value>Di chuyển lựa chọn phải</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_MoveSelection_Up" xml:space="preserve">
+    <value>Chuyển mục chọn lên</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_NewFile_Description" xml:space="preserve">
+    <value>Tạo một sơ đồ mới</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_OpenFile_Description" xml:space="preserve">
+    <value>Mở một tập tin sơ đồ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Paste_Description" xml:space="preserve">
+    <value>Dán nội dung của bảng tạm.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Print_Description" xml:space="preserve">
+    <value>Chọn máy in, số lượng bản sao, và các tùy chọn in ấn trước khi in ấn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ResetSelectedImages_Description" xml:space="preserve">
+    <value>Thay đổi kích thước của mặt hàng đó để cho nó phù hợp với kích thước của hình ảnh nguồn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Rotate_Left90_Description" xml:space="preserve">
+    <value>Xoay trái các khoản mục đã chọn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_Rotate_Right90_Description" xml:space="preserve">
+    <value>Xoay phải các khoản mục đã chọn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SaveFile_Description" xml:space="preserve">
+    <value>Lưu biểu đồ này</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SaveFileAs_Description" xml:space="preserve">
+    <value>Lưu biểu đồ này với một tên khác nhau</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_ConnectorTool_Description" xml:space="preserve">
+    <value>Rút ra kết nối giữa các đối tượng.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_EllipseTool" xml:space="preserve">
+    <value>Hình elip</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_HexagonTool" xml:space="preserve">
+    <value>Hình lục giác</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_PanTool" xml:space="preserve">
+    <value>Công cụ Pan</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_PointerTool" xml:space="preserve">
+    <value>Con trỏ công cụ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_PointerTool_Description" xml:space="preserve">
+    <value>Lựa chọn, di chuyển và thay đổi kích thước đối tượng.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_RightTriangleTool" xml:space="preserve">
+    <value>Tam giác vuông</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_TextTool" xml:space="preserve">
+    <value>Công cụ văn</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SelectTool_TextTool_Description" xml:space="preserve">
+    <value>thêm hình dạng văn bản hoặc chọn văn bản hiện có.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SendBackward" xml:space="preserve">
+    <value>Gửi quay trở lại</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SendBackward_Description" xml:space="preserve">
+    <value>Gửi cho đối tượng đã chọn lại một mức để nó là ẩn đằng sau các đối tượng thêm.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SendToBack_Description" xml:space="preserve">
+    <value>Gửi đối tượng đằng sau tất cả các đối tượng khác.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Center" xml:space="preserve">
+    <value>Căn Trung tâm</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Center_Description" xml:space="preserve">
+    <value>Trung tâm nội dung của bạn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Justify_Description" xml:space="preserve">
+    <value>Phân phối văn bản của bạn đồng đều giữa các lề.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Left_Description" xml:space="preserve">
+    <value>Sắp xếp nội dung của bạn ở bên trái.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Right" xml:space="preserve">
+    <value>Align right</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetHorizontalAlignment_Right_Description" xml:space="preserve">
+    <value>Sắp xếp nội dung của bạn ở bên phải.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetPageParameters_PageSize" xml:space="preserve">
+    <value>Thêm kích thước trang...</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetPageParameters_PageSize_Description" xml:space="preserve">
+    <value>Chọn một kích cỡ trang từ danh sách, hoặc thiết lập tùy chỉnh kích thước.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetSelectedImagesStretchMode_Stretch" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetSelectedImagesStretchMode_Stretch_Description" xml:space="preserve">
+    <value>Kéo dài hình ảnh nguồn để điền vào sơ đồ hình ảnh mục.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetSelectedImagesStretchMode_Uniform" xml:space="preserve">
+    <value>Đồng phục</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetSelectedImagesStretchMode_Uniform_Description" xml:space="preserve">
+    <value>Duy trì tỷ lệ khía cạnh của hình ảnh nguồn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetSelectedImagesStretchMode_UniformToFill" xml:space="preserve">
+    <value>Đồng phục để điền vào</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetSelectedImagesStretchMode_UniformToFill_Description" xml:space="preserve">
+    <value>Điền hình ảnh các khoản mục trong khi bảo quản tỷ lệ khía cạnh bản xứ của hình ảnh nguồn. Hình ảnh được cắt bớt nếu tỷ lệ khía cạnh của nó khác với hình ảnh mục.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetVerticalAlignment_Bottom" xml:space="preserve">
+    <value>Sắp xếp dưới cùng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetVerticalAlignment_Bottom_Description" xml:space="preserve">
+    <value>Sắp xếp các văn bản vào đáy của khối văn bản.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetVerticalAlignment_Center_Description" xml:space="preserve">
+    <value>Sắp xếp văn bản, do đó nó là trung tâm giữa trên và dưới cùng của khối văn bản.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetVerticalAlignment_Top" xml:space="preserve">
+    <value>Align Top</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetVerticalAlignment_Top_Description" xml:space="preserve">
+    <value>Sắp xếp các văn bản trên cùng của khối văn bản.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SetZoom" xml:space="preserve">
+    <value>Cài đặt thu phóng</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ShowContainerHeader_Description" xml:space="preserve">
+    <value>Hiển thị/ẩn tiêu đề cho các thùng chứa</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ShowPopupMenu" xml:space="preserve">
+    <value>Hiển thị Popup Menu</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ShowPrintPreview" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ShowPrintPreview_Description" xml:space="preserve">
+    <value>Xem trước và thực hiện các thay đổi trước khi in Ấn</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ShowPropertiesPanel" xml:space="preserve">
+    <value>Hiển thị khoản mục tài sản</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_StartDragTool" xml:space="preserve">
+    <value>Bắt đầu kéo công cụ</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_StartDragToolAlternate" xml:space="preserve">
+    <value>Bắt đầu kéo công cụ thay thế</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SugiyamaLayout_Down" xml:space="preserve">
+    <value>Trên xuống dưới</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_SugiyamaLayout_Up" xml:space="preserve">
+    <value>Dưới lên trên</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontBold_Description" xml:space="preserve">
+    <value>Làm cho văn bản đậm.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontItalic_Description" xml:space="preserve">
+    <value>Italicize văn bản của bạn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontStrikethrough_Description" xml:space="preserve">
+    <value>Vượt qua một cái gì đó ra bằng cách vẽ một đường thông qua nó</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ToggleFontUnderline_Description" xml:space="preserve">
+    <value>Gạch dưới văn bản của bạn.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayout_Down" xml:space="preserve">
+    <value>Trên xuống dưới</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayout_Up" xml:space="preserve">
+    <value>Dưới lên trên</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayoutForSubordinates_BottomToTop" xml:space="preserve">
+    <value>Dưới lên trên</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_TreeLayoutForSubordinates_TopToBottom" xml:space="preserve">
+    <value>Trên xuống dưới</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ZoomIn_Description" xml:space="preserve">
+    <value>Phóng to để có được một cái nhìn cận cảnh của tài liệu.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramCommand_ZoomOut_Description" xml:space="preserve">
+    <value>Thu nhỏ để xem chi tiết của trang ở một kích thước giảm.</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramDoubleCollection_EmptyFormat" xml:space="preserve">
+    <value>Sản phẩm nào</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramNotification_ApplyPageSettings" xml:space="preserve">
+    <value>Bạn có muốn áp dụng thiết đặt trang mới cho sơ đồ?</value>
+  </data>
+  <data name="DiagramControlStringId.DiagramNotification_DefaultCaption" xml:space="preserve">
+    <value>Sơ đồ thiết kế</value>
+  </data>
+  <data name="DiagramControlStringId.DocumentFormat_AllFiles" xml:space="preserve">
+    <value>Tất cả các tệp</value>
+  </data>
+  <data name="DiagramControlStringId.DocumentFormat_XmlFiles" xml:space="preserve">
+    <value>XML Files</value>
+  </data>
+  <data name="DiagramControlStringId.DocumentLoadErrorMessage" xml:space="preserve">
+    <value>Tệp chỉ định không thể nạp được</value>
+  </data>
+  <data name="DiagramControlStringId.DocumentSaveErrorMessage" xml:space="preserve">
+    <value>Không thể lưu tệp đã chỉ định</value>
+  </data>
+  <data name="DiagramControlStringId.ExportAs" xml:space="preserve">
+    <value>Xuất khẩu As...</value>
+  </data>
+  <data name="DiagramControlStringId.ExportAs_Description" xml:space="preserve">
+    <value>Xuất khẩu sơ đồ để định dạng tập tin khác nhau như PNG hay JPEG</value>
+  </data>
+  <data name="DiagramControlStringId.ExportDiagram_ExportFailed" xml:space="preserve">
+    <value>Xuất khẩu không thành công</value>
+  </data>
+  <data name="DiagramControlStringId.ExportDiagram_ExportFailed_UnsupportedFormat_Message" xml:space="preserve">
+    <value>Cố gắng để lưu nội dung sơ đồ bằng cách sử dụng một phần mở rộng tập tin không được hỗ trợ.</value>
+  </data>
+  <data name="DiagramControlStringId.ExportDiagram_ExportFailedMessage" xml:space="preserve">
+    <value>Không được xuất khẩu sơ đồ vì những hình ảnh quả là quá lớn.</value>
+  </data>
+  <data name="DiagramControlStringId.FontFamily_Description" xml:space="preserve">
+    <value>Chọn một phông chữ mới đối với văn bản của bạn.</value>
+  </data>
+  <data name="DiagramControlStringId.FontSize_Description" xml:space="preserve">
+    <value>Thay đổi kích thước văn bản của bạn.</value>
+  </data>
+  <data name="DiagramControlStringId.FontSize_NonNumericErrorMessage" xml:space="preserve">
+    <value>Kích cỡ phông được chỉ định là không hợp lệ.</value>
+  </data>
+  <data name="DiagramControlStringId.FontSize_OutOfRangeErrorMessage" xml:space="preserve">
+    <value>Kích thước phông chữ phải giữa {0} và {1}.</value>
+  </data>
+  <data name="DiagramControlStringId.FontSizeAndFamilyButtonGroup" xml:space="preserve">
+    <value>Kích thước phông chữ và gia đình nút Group</value>
+  </data>
+  <data name="DiagramControlStringId.FontTypeAndColorButtonGroup" xml:space="preserve">
+    <value>Loại phông chữ và màu nút Group</value>
+  </data>
+  <data name="DiagramControlStringId.ForegroundColor" xml:space="preserve">
+    <value>Màu sắc font</value>
+  </data>
+  <data name="DiagramControlStringId.ForegroundColor_Description" xml:space="preserve">
+    <value>Thay đổi màu của văn bản của bạn.</value>
+  </data>
+  <data name="DiagramControlStringId.HorizontalTextAlignmentButtonGroup" xml:space="preserve">
+    <value>Ngang văn bản Alignment nút nhóm</value>
+  </data>
+  <data name="DiagramControlStringId.ImageLoadErrorMessage" xml:space="preserve">
+    <value>Tệp chỉ định không thể nạp được</value>
+  </data>
+  <data name="DiagramControlStringId.ImageStretchMode_Stretch" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="DiagramControlStringId.ImageStretchMode_Uniform" xml:space="preserve">
+    <value>Đồng phục</value>
+  </data>
+  <data name="DiagramControlStringId.ImageStretchMode_UniformToFill" xml:space="preserve">
+    <value>Đồng phục để điền vào</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsRotate_Description" xml:space="preserve">
+    <value>Xoay hoặc lật hình ảnh được chọn.</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale" xml:space="preserve">
+    <value>Quy mô thiết lập hình ảnh</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsSetImageScale_Description" xml:space="preserve">
+    <value>Xác định các yếu tố quy mô ảnh.</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsStretchMode" xml:space="preserve">
+    <value>Thiết lập chế độ căng</value>
+  </data>
+  <data name="DiagramControlStringId.ImageToolsStretchMode_Description" xml:space="preserve">
+    <value>Quản lý như thế nào hình ảnh nguồn thay đổi kích cỡ để điền vào không gian được phân bổ.</value>
+  </data>
+  <data name="DiagramControlStringId.InsertContainer" xml:space="preserve">
+    <value>Container</value>
+  </data>
+  <data name="DiagramControlStringId.InsertContainer_Description" xml:space="preserve">
+    <value>Đặt một container xung quanh các hình dạng được lựa chọn trong biểu đồ.</value>
+  </data>
+  <data name="DiagramControlStringId.InsertImage_DialogFilter" xml:space="preserve">
+    <value>Tất cả hình ảnh</value>
+  </data>
+  <data name="DiagramControlStringId.InsertList" xml:space="preserve">
+    <value>danh sách</value>
+  </data>
+  <data name="DiagramControlStringId.InsertList_Description" xml:space="preserve">
+    <value>Place a horizontal or vertical list in the diagram.</value>
+  </data>
+  <data name="DiagramControlStringId.InsertPictureTitle" xml:space="preserve">
+    <value>Chèn hình ảnh</value>
+  </data>
+  <data name="DiagramControlStringId.LayoutAndRoutingGroupSuperTip_Caption" xml:space="preserve">
+    <value>Định tuyến và bố trí</value>
+  </data>
+  <data name="DiagramControlStringId.LayoutAndRoutingGroupSuperTip_Description" xml:space="preserve">
+    <value>Hiển thị tab Layout và định tuyến trong hộp thoại.</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_Bow" xml:space="preserve">
+    <value>Bow</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_FiveSides" xml:space="preserve">
+    <value>5 mặt</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_FourSides" xml:space="preserve">
+    <value>4 mặt</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_Gap" xml:space="preserve">
+    <value>Khoảng cách</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_HeightSetter" xml:space="preserve">
+    <value>Dây nhảy cao</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_HorizontalLines" xml:space="preserve">
+    <value>Đường ngang</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_LinesSelector" xml:space="preserve">
+    <value>Thêm dây nhảy</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_SevenSides" xml:space="preserve">
+    <value>7 mặt</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_SixSides" xml:space="preserve">
+    <value>6 bên</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_Square" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_StyleSelector" xml:space="preserve">
+    <value>Dây nhảy theo phong cách</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_ThreeSides" xml:space="preserve">
+    <value>3 mặt</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_TwoSides" xml:space="preserve">
+    <value>2 mặt</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_VerticalLines" xml:space="preserve">
+    <value>Đường thẳng đứng</value>
+  </data>
+  <data name="DiagramControlStringId.LineJump_WidthSetter" xml:space="preserve">
+    <value>Dây nhảy rộng</value>
+  </data>
+  <data name="DiagramControlStringId.ListOrientation_Description" xml:space="preserve">
+    <value>Switch the list between vertical and horizontal layouts.</value>
+  </data>
+  <data name="DiagramControlStringId.MeasureUnit_Inches" xml:space="preserve">
+    <value>Inch</value>
+  </data>
+  <data name="DiagramControlStringId.MeasureUnit_Inches_Shorthand" xml:space="preserve">
+    <value>in.</value>
+  </data>
+  <data name="DiagramControlStringId.MeasureUnit_Millimeters" xml:space="preserve">
+    <value>Mm</value>
+  </data>
+  <data name="DiagramControlStringId.MeasureUnit_Millimeters_Shorthand" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="DiagramControlStringId.Menu_AllowEmptySelection_Button" xml:space="preserve">
+    <value>Lựa chọn sản phẩm nào</value>
+  </data>
+  <data name="DiagramControlStringId.Menu_AllowLiveResizing_Button" xml:space="preserve">
+    <value>Sống thay đổi kích thước</value>
+  </data>
+  <data name="DiagramControlStringId.Menu_SnapDistance_Editor" xml:space="preserve">
+    <value>Chụp từ xa</value>
+  </data>
+  <data name="DiagramControlStringId.Menu_SnapToGrid_Button" xml:space="preserve">
+    <value>Snap để lưới</value>
+  </data>
+  <data name="DiagramControlStringId.Menu_SnapToItems_Button" xml:space="preserve">
+    <value>Chụp cho các mục</value>
+  </data>
+  <data name="DiagramControlStringId.More_Shapes_Name" xml:space="preserve">
+    <value>Thêm hình dạng</value>
+  </data>
+  <data name="DiagramControlStringId.No_Stencils_Open_Name" xml:space="preserve">
+    <value>Không có không có giấy nến mở.</value>
+  </data>
+  <data name="DiagramControlStringId.OpenFile_UnknownItemKindMessage" xml:space="preserve">
+    <value>Sơ đồ chứa một mục không xác định: '{0}'</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientation_Description" xml:space="preserve">
+    <value>Chuyển đổi trang giữa bố cục chân dung và phong cảnh.</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientation_Vertical" xml:space="preserve">
+    <value>Gương điển hình</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientationHeader" xml:space="preserve">
+    <value>Trang định hướng Gallery</value>
+  </data>
+  <data name="DiagramControlStringId.PageOrientationSelectorName" xml:space="preserve">
+    <value>Trang định hướng chọn</value>
+  </data>
+  <data name="DiagramControlStringId.PageSize_Description" xml:space="preserve">
+    <value>Chọn một kích cỡ trang.</value>
+  </data>
+  <data name="DiagramControlStringId.PageSizeHeader" xml:space="preserve">
+    <value>Trang kích thước Gallery</value>
+  </data>
+  <data name="DiagramControlStringId.PageSizeSelectorName" xml:space="preserve">
+    <value>Chọn kích thước trang</value>
+  </data>
+  <data name="DiagramControlStringId.PanAndZoomPanel" xml:space="preserve">
+    <value>Pan &amp; &amp; Zoom</value>
+  </data>
+  <data name="DiagramControlStringId.PanAndZoomPanel_Description" xml:space="preserve">
+    <value>Hiển thị Pan &amp; &amp; phóng to cửa sổ.</value>
+  </data>
+  <data name="DiagramControlStringId.PanAndZoomPanel_SingleAmp" xml:space="preserve">
+    <value>Pan &amp; Zoom</value>
+  </data>
+  <data name="DiagramControlStringId.PanAndZoomPanel_SingleAmp_Description" xml:space="preserve">
+    <value>Hiển thị cửa sổ Pan &amp; Zoom.</value>
+  </data>
+  <data name="DiagramControlStringId.Panel_PanAndZoom_Name" xml:space="preserve">
+    <value>Pan &amp; Zoom</value>
+  </data>
+  <data name="DiagramControlStringId.Panel_Shapes_Name" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="DiagramControlStringId.Panes" xml:space="preserve">
+    <value>Tấm</value>
+  </data>
+  <data name="DiagramControlStringId.Panes_Description" xml:space="preserve">
+    <value>Hiển thị tấm để xem hình dạng dữ liệu và hình dạng.</value>
+  </data>
+  <data name="DiagramControlStringId.PrintMenu_Description" xml:space="preserve">
+    <value>In sơ đồ này</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_BestFit" xml:space="preserve">
+    <value>Phù hợp nhất</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_BestFit_Description" xml:space="preserve">
+    <value>Thiết lập tối ưu Zoom và các trang liên tiếp trong các bản xem trước.</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Close_Description" xml:space="preserve">
+    <value>Đóng xem trước.</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_FitToMaxPagesAcrossHeader" xml:space="preserve">
+    <value>Max trang trên</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_FitToMaxPagesAcrossSelector" xml:space="preserve">
+    <value>Phù hợp với tối đa trang trên chọn</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_PageOfPagesDisplayFormat" xml:space="preserve">
+    <value>Trang {0} của {1}</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Scale_Description" xml:space="preserve">
+    <value>Căng hoặc thu hẹp các tài liệu của nội dung để một tỷ lệ kích thước thực tế của nó.</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Scale_Dialog_BeginAdjustLabel" xml:space="preserve">
+    <value>Điều chỉnh để</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Scale_Dialog_BeginFitLabel" xml:space="preserve">
+    <value>Phù hợp với</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Scale_Dialog_EndAdjustLabel" xml:space="preserve">
+    <value>kích thước bình thường</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Scale_Dialog_EndFitLabel" xml:space="preserve">
+    <value>trang (s) để</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Scale_Dialog_ValidationError" xml:space="preserve">
+    <value>Giá trị nằm ngoài phạm vi</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_Zoom_Description" xml:space="preserve">
+    <value>Thay đổi các yếu tố zoom hiện tại của xem trước tài liệu.</value>
+  </data>
+  <data name="DiagramControlStringId.PrintPreview_ZoomSelector" xml:space="preserve">
+    <value>Phóng to chọn</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BeginArrow" xml:space="preserve">
+    <value>bắt đầu mũi tên</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BeginArrowSize" xml:space="preserve">
+    <value>bắt đầu kích thước mũi</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BeginLabelArrowOffset" xml:space="preserve">
+    <value>bắt đầu nhãn Arrow offset</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BeginLabelConnectorOffset" xml:space="preserve">
+    <value>bắt đầu kết nối nhãn offset</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BeginLeftLabel" xml:space="preserve">
+    <value>bắt đầu nhãn trái</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BeginRightLabel" xml:space="preserve">
+    <value>phải nhãn</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BeginX" xml:space="preserve">
+    <value>bắt đầu X</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BeginY" xml:space="preserve">
+    <value>bắt đầu Y</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BorderBrush" xml:space="preserve">
+    <value>biên giới brush</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BorderThickness" xml:space="preserve">
+    <value>độ dày</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_BottomRight" xml:space="preserve">
+    <value>Góc dưới bên phải</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_CanvasSizeMode" xml:space="preserve">
+    <value>Canvas kích thước chế độ</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_ContentBackground" xml:space="preserve">
+    <value>nội dung</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_CornerRadius" xml:space="preserve">
+    <value>góc nền bán kính</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Description" xml:space="preserve">
+    <value>Hiển thị bảng thuộc tính.</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_EndArrow" xml:space="preserve">
+    <value>kết thúc mũi</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_EndArrowSize" xml:space="preserve">
+    <value>tên cuối kích thước</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_EndLabelArrowOffset" xml:space="preserve">
+    <value>cuối nhãn Arrow offset</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_EndLabelConnectorOffset" xml:space="preserve">
+    <value>Cuối nhãn kết nối offset</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_EndLeftLabel" xml:space="preserve">
+    <value>End nhãn</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_EndRightLabel" xml:space="preserve">
+    <value>cuối cùng bên phải nhãn</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_EndX" xml:space="preserve">
+    <value>kết thúc X</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_EndY" xml:space="preserve">
+    <value>cuối Y</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_FlipMode" xml:space="preserve">
+    <value>Lật</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_ForegroundColor" xml:space="preserve">
+    <value>foreground</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Header" xml:space="preserve">
+    <value>tiêu đề văn bản</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_HeaderPadding" xml:space="preserve">
+    <value>tiêu đề margin</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_LineJumpPlacement" xml:space="preserve">
+    <value>Line Jump vị trí</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_LineJumpSize" xml:space="preserve">
+    <value>dòng nhảy kích thước</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_LineJumpStyle" xml:space="preserve">
+    <value>Dây nhảy theo phong cách</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_MeasureUnit" xml:space="preserve">
+    <value>Measure unit</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_PaperKind" xml:space="preserve">
+    <value>loại giấy</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_SelectedStencils" xml:space="preserve">
+    <value>chọn stencils</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_ShowGrid" xml:space="preserve">
+    <value>Hiển thị lưới</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_ShowHeader" xml:space="preserve">
+    <value>tiêu đề Hiển thị</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_ShowMeasureUnit" xml:space="preserve">
+    <value>Show Measure Unit</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_ShowRulers" xml:space="preserve">
+    <value>thước</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_StretchMode" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_StrokeColor" xml:space="preserve">
+    <value>Đột quỵ</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_StrokeDashArray" xml:space="preserve">
+    <value>nét phong cách</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_StrokeThickness" xml:space="preserve">
+    <value>dày</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Theme" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_TopRight" xml:space="preserve">
+    <value>Top Right</value>
+  </data>
+  <data name="DiagramControlStringId.PropertiesPanel_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="DiagramControlStringId.PropertyGridView_Categorized" xml:space="preserve">
+    <value>Phân loại</value>
+  </data>
+  <data name="DiagramControlStringId.Region_LineJumps" xml:space="preserve">
+    <value>Dây nhảy</value>
+  </data>
+  <data name="DiagramControlStringId.Region_PageMargin" xml:space="preserve">
+    <value>Lề trang</value>
+  </data>
+  <data name="DiagramControlStringId.Region_PageOrientation" xml:space="preserve">
+    <value>Trang định hướng</value>
+  </data>
+  <data name="DiagramControlStringId.Region_PageSize" xml:space="preserve">
+    <value>Kích thước trang</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayout" xml:space="preserve">
+    <value>Re-giao diện trang</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayout_Description" xml:space="preserve">
+    <value>Lay ra biểu đồ bằng cách cho phép các phần mềm để định vị lại các khoản mục.</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutCircularHeader" xml:space="preserve">
+    <value>Thông tư</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutMindMapTreeHeader" xml:space="preserve">
+    <value>MindMap</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutParts" xml:space="preserve">
+    <value>Re-giao diện cấp dưới</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutParts_Description" xml:space="preserve">
+    <value>Re-giao diện cấp dưới của gốc mục hoặc các mục đã chọn.</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutPartsMindMapTreeHeader" xml:space="preserve">
+    <value>MindMap</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutPartsTipOverTreeHeader" xml:space="preserve">
+    <value>TipOver</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutPartsTreeHeader" xml:space="preserve">
+    <value>Hệ thống phân cấp</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutTipOverTreeHeader" xml:space="preserve">
+    <value>TipOver</value>
+  </data>
+  <data name="DiagramControlStringId.ReLayoutTree" xml:space="preserve">
+    <value>Hệ thống phân cấp</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonGallery_ThemeStyles" xml:space="preserve">
+    <value>Chủ đề Styles</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonGallery_VariantStyles" xml:space="preserve">
+    <value>Phong cách biến thể</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPage_PrintPreview" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageCategory_ContainerTools" xml:space="preserve">
+    <value>Kho chứa dụng cụ</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageCategory_ImageTools" xml:space="preserve">
+    <value>Hình ảnh công cụ</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Action" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Arrange" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Clipboard" xml:space="preserve">
+    <value>Bảng tạm</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_ContainerStyles" xml:space="preserve">
+    <value>Phong cách container</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_DiagramParts" xml:space="preserve">
+    <value>Sơ đồ các bộ phận</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_ImageTools_Arrange" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_ImageTools_ImageStyles" xml:space="preserve">
+    <value>Hình ảnh phong cách</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_ShapeStyles" xml:space="preserve">
+    <value>Hình dạng phong cách</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_Themes" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DiagramControlStringId.RibbonPageGroup_UserInterfaceThemes" xml:space="preserve">
+    <value>Chủ đề giao diện người dùng</value>
+  </data>
+  <data name="DiagramControlStringId.SaveFileAsDialogTitle" xml:space="preserve">
+    <value>Save File As</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Alternative_Name" xml:space="preserve">
+    <value>Thay thế</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_CreateRequest_Name" xml:space="preserve">
+    <value>CreateRequest</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Decision1_Name" xml:space="preserve">
+    <value>Decision1</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Decision2_Name" xml:space="preserve">
+    <value>Decision2</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_DividedEvent_Name" xml:space="preserve">
+    <value>Sự kiện chia</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_DividedProcess_Name" xml:space="preserve">
+    <value>Chia quá trình</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_MessageToUser_Name" xml:space="preserve">
+    <value>Thông báo cho người dùng</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Name" xml:space="preserve">
+    <value>SDL sơ đồ hình dạng</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_OffPageReference_Name" xml:space="preserve">
+    <value>Off trang tham khảo</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_OnPageReference_Name" xml:space="preserve">
+    <value>Trên trang tài liệu tham khảo</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_PrimitiveFromCallControl_Name" xml:space="preserve">
+    <value>Nguyên thủy từ kiểm soát cuộc gọi</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_PrimitiveToCallControl_Name" xml:space="preserve">
+    <value>Nguyên thủy gọi kiểm soát</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Procedure_Name" xml:space="preserve">
+    <value>Thủ tục</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Return_Name" xml:space="preserve">
+    <value>Trở lại</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_Terminator_Name" xml:space="preserve">
+    <value>Kẻ hủy diệt</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_VariableProcedure_Name" xml:space="preserve">
+    <value>Thủ tục thay đổi</value>
+  </data>
+  <data name="DiagramControlStringId.SDLDiagramShapes_VariableStart_Name" xml:space="preserve">
+    <value>Biến bắt đầu</value>
+  </data>
+  <data name="DiagramControlStringId.Search_Shapes_Null_Text" xml:space="preserve">
+    <value>Tìm hình dạng...</value>
+  </data>
+  <data name="DiagramControlStringId.Selector_PredefinedSize" xml:space="preserve">
+    <value>Kích thước được xác định trước</value>
+  </data>
+  <data name="DiagramControlStringId.SeparatorName" xml:space="preserve">
+    <value>Bar mã phân cách</value>
+  </data>
+  <data name="DiagramControlStringId.ShapesPanel" xml:space="preserve">
+    <value>Hình dạng bảng</value>
+  </data>
+  <data name="DiagramControlStringId.ShapesPanel_Description" xml:space="preserve">
+    <value>Hiển thị bảng điều khiển hình dạng.</value>
+  </data>
+  <data name="DiagramControlStringId.ShapeStyles" xml:space="preserve">
+    <value>Hình dạng phong cách</value>
+  </data>
+  <data name="DiagramControlStringId.ShowContainerHeader" xml:space="preserve">
+    <value>Hiển thị tiêu đề</value>
+  </data>
+  <data name="DiagramControlStringId.ShowContainerHeader_Description" xml:space="preserve">
+    <value>Hiển thị/ẩn tiêu đề cho các thùng chứa</value>
+  </data>
+  <data name="DiagramControlStringId.ShowGrid_Description" xml:space="preserve">
+    <value>Gridlines làm cho nó dễ dàng cho để bạn sắp xếp các đối tượng với các văn bản, các đối tượng khác, hoặc một đặc biệt là tại chỗ.</value>
+  </data>
+  <data name="DiagramControlStringId.ShowPageBreaks" xml:space="preserve">
+    <value>Trang hư</value>
+  </data>
+  <data name="DiagramControlStringId.ShowPageBreaks_Description" xml:space="preserve">
+    <value>Bật trang vỡ để xem những gì sẽ được in trên mỗi trang của tài liệu của bạn.</value>
+  </data>
+  <data name="DiagramControlStringId.ShowRulers" xml:space="preserve">
+    <value>Cai trị</value>
+  </data>
+  <data name="DiagramControlStringId.ShowRulers_Description" xml:space="preserve">
+    <value>Xem những người cai trị được sử dụng để đo lường và đường dây lên các đối tượng trong tài liệu.</value>
+  </data>
+  <data name="DiagramControlStringId.SnapToGrid" xml:space="preserve">
+    <value>Snap để lưới</value>
+  </data>
+  <data name="DiagramControlStringId.SnapToGrid_Description" xml:space="preserve">
+    <value>Vị trí sơ đồ mặt hàng đến giao lộ gần gũi nhất của lưới điện.</value>
+  </data>
+  <data name="DiagramControlStringId.SnapToItems" xml:space="preserve">
+    <value>Chụp cho các mục</value>
+  </data>
+  <data name="DiagramControlStringId.SnapToItems_Description" xml:space="preserve">
+    <value>Sắp xếp sơ đồ mặt hàng với nhau.</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Network_Name" xml:space="preserve">
+    <value>Mạng lưới</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_Permission_Name" xml:space="preserve">
+    <value>Cấp phép</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_ZoomIn_Name" xml:space="preserve">
+    <value>ZoomIn</value>
+  </data>
+  <data name="DiagramControlStringId.SoftwareIcons_ZoomOut_Name" xml:space="preserve">
+    <value>ZoomOut</value>
+  </data>
+  <data name="DiagramControlStringId.StandardContainers_Alternating" xml:space="preserve">
+    <value>Xen kẽ</value>
+  </data>
+  <data name="DiagramControlStringId.StandardContainers_Banner" xml:space="preserve">
+    <value>Bảng quảng cáo</value>
+  </data>
+  <data name="DiagramControlStringId.StandardContainers_Classic" xml:space="preserve">
+    <value>Cổ điển</value>
+  </data>
+  <data name="DiagramControlStringId.StandardContainers_Corners" xml:space="preserve">
+    <value>Góc</value>
+  </data>
+  <data name="DiagramControlStringId.StandardContainers_Name" xml:space="preserve">
+    <value>Container tiêu chuẩn</value>
+  </data>
+  <data name="DiagramControlStringId.StandardContainers_Plain" xml:space="preserve">
+    <value>Đồng bằng</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarShapeAngle" xml:space="preserve">
+    <value>Shape Angle</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarShapeHeight" xml:space="preserve">
+    <value>Shape Height</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarShapeInfo" xml:space="preserve">
+    <value>Hình dạng thông tin</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarShapeWidth" xml:space="preserve">
+    <value>Shape Width</value>
+  </data>
+  <data name="DiagramControlStringId.StatusBarZoomEditor_Description" xml:space="preserve">
+    <value>Thay đổi các yếu tố thu phóng.</value>
+  </data>
+  <data name="DiagramControlStringId.Stencils_Name" xml:space="preserve">
+    <value>Giấy nến</value>
+  </data>
+  <data name="DiagramControlStringId.StrokeColor" xml:space="preserve">
+    <value>Đột quỵ</value>
+  </data>
+  <data name="DiagramControlStringId.StrokeColor_Description" xml:space="preserve">
+    <value>Thay đổi màu stroke.</value>
+  </data>
+  <data name="DiagramControlStringId.TabHeader_LayoutAndRouting" xml:space="preserve">
+    <value>Định tuyến và bố trí</value>
+  </data>
+  <data name="DiagramControlStringId.Themes" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_BalancedEffect_Name" xml:space="preserve">
+    <value>Cân bằng</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Daybreak_Name" xml:space="preserve">
+    <value>Rạng sáng</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_FocusedEffect_Name" xml:space="preserve">
+    <value>Tập trung</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Integral_Name" xml:space="preserve">
+    <value>Tích phân</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_IntenseEffect_Name" xml:space="preserve">
+    <value>Cường độ cao</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_ModerateEffect_Name" xml:space="preserve">
+    <value>Vừa phải</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_NoTheme_Name" xml:space="preserve">
+    <value>Không có chủ đề</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Office_Name" xml:space="preserve">
+    <value>Văn phòng</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Parallel_Name" xml:space="preserve">
+    <value>Song song</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_RefinedEffect_Name" xml:space="preserve">
+    <value>Tinh chế</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_Sequence_Name" xml:space="preserve">
+    <value>Trình tự</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_SubtleEffect_Name" xml:space="preserve">
+    <value>Tinh tế</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_ThemeStyleId_Name" xml:space="preserve">
+    <value>{0} đã có hiệu lực, giọng {1}</value>
+  </data>
+  <data name="DiagramControlStringId.Themes_VariantStyleId_Name" xml:space="preserve">
+    <value>Phiên bản {0}</value>
+  </data>
+  <data name="DiagramControlStringId.Tool_Connector" xml:space="preserve">
+    <value>Kết nối</value>
+  </data>
+  <data name="DiagramControlStringId.Tool_Pan" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="DiagramControlStringId.ToolDisplayFormat" xml:space="preserve">
+    <value>{0} cụ</value>
+  </data>
+  <data name="DiagramControlStringId.VerticalTextAlignmentButtonGroup" xml:space="preserve">
+    <value>Dọc văn bản Alignment nút nhóm</value>
+  </data>
+</root>

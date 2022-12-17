@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DockingStringId.ButtonDoNothing" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="DockingStringId.MenuItemHorizontalAlignmentRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="DockingStringId.MenuItemRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="DockingStringId.ControlButtonClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DockingStringId.MenuItemClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DockingStringId.TitleCustomizationForm" xml:space="preserve">
+    <value>Tùy biến</value>
+  </data>
+  <data name="DockingStringId.MenuItemBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="DockingStringId.MenuItemVerticalAlignmentBottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="DockingStringId.MenuItemHorizontalAlignmentLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="DockingStringId.MenuItemLeft" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="DockingStringId.MenuItemTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="DockingStringId.MenuItemVerticalAlignmentTop" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="DockingStringId.MenuItemHorizontalAlignmentCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="DockingStringId.MenuItemVerticalAlignmentCenter" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="DockingStringId.MenuItemHorizontal" xml:space="preserve">
+    <value>Ngang</value>
+  </data>
+  <data name="DockingStringId.MenuItemVertical" xml:space="preserve">
+    <value>Dọc</value>
+  </data>
+  <data name="DockingStringId.MenuItemCollapseGroup" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="DockingStringId.MenuItemExpandGroup" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="DockingStringId.DefaultLabelContent" xml:space="preserve">
+    <value>Nhãn</value>
+  </data>
+  <data name="DockingStringId.MenuItemRemoveAll" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="DockingStringId.ButtonSave" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="DockingStringId.TitleHiddenItemsList" xml:space="preserve">
+    <value>Các mục Ẩn</value>
+  </data>
+  <data name="DockingStringId.MenuItemHide" xml:space="preserve">
+    <value>Ẩn</value>
+  </data>
+  <data name="DockingStringId.MenuItemRename" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="DockingStringId.ControlButtonCollapse" xml:space="preserve">
+    <value>Thu lại</value>
+  </data>
+  <data name="DockingStringId.ControlButtonExpand" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="DockingStringId.ControlButtonHide" xml:space="preserve">
+    <value>Ẩn</value>
+  </data>
+  <data name="DockingStringId.MenuItemGroupItems" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="DockingStringId.MenuItemStyleGroup" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="DockingStringId.NewGroupCaption" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="DockingStringId.MenuItemBeginCustomization" xml:space="preserve">
+    <value>Bắt đầu các tuỳ biến</value>
+  </data>
+  <data name="DockingStringId.ControlButtonRestore" xml:space="preserve">
+    <value>Khôi phục</value>
+  </data>
+  <data name="DockingStringId.LayoutControlItemCaptionFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="DockingStringId.LayoutGroupCaptionFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="DockingStringId.LayoutPanelCaptionFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="DockingStringId.ButtonRestore" xml:space="preserve">
+    <value>Khôi phục</value>
+  </data>
+  <data name="DockingStringId.MenuItemEndCustomization" xml:space="preserve">
+    <value>Kết thúc tuỳ biến</value>
+  </data>
+  <data name="DockingStringId.ShowCustomizationPanel" xml:space="preserve">
+    <value>Hiển thị bảng điều khiển tuỳ biến</value>
+  </data>
+  <data name="DockingStringId.TabCaptionFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="DockingStringId.DTDocumentPanelCaption" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="DockingStringId.MenuItemShowControl" xml:space="preserve">
+    <value>Hiển thị điều khiển</value>
+  </data>
+  <data name="DockingStringId.MenuItemHideItem" xml:space="preserve">
+    <value>Ẩn mục</value>
+  </data>
+  <data name="DockingStringId.AutoHideOperations" xml:space="preserve">
+    <value>Hoạt động tự động-ẩn</value>
+  </data>
+  <data name="DockingStringId.ButtonCreateLayoutItem" xml:space="preserve">
+    <value>Phụ thêm bộ điều khiển để bảng điều khiển</value>
+  </data>
+  <data name="DockingStringId.ButtonCreateLayoutItemDetails" xml:space="preserve">
+    <value>Chọn các tùy chọn tạo ra một LayoutGroup mới và gán nó vào bộ của bảng nội dung. Các điều khiển mới và đang có sẽ được di chuyển để tạo ra LayoutGroup.</value>
+  </data>
+  <data name="DockingStringId.ButtonDoNothingDetails" xml:space="preserve">
+    <value>Không thêm các control panel</value>
+  </data>
+  <data name="DockingStringId.ButtonNewLayoutItemFormat" xml:space="preserve">
+    <value>Mới ({0})</value>
+  </data>
+  <data name="DockingStringId.ButtonReplaceControl" xml:space="preserve">
+    <value>Thay thế điều khiển sẵn có</value>
+  </data>
+  <data name="DockingStringId.ButtonReplaceControlDetails" xml:space="preserve">
+    <value>Chọn tuỳ chọn này để thay thế điều khiển sẵn có với mới.</value>
+  </data>
+  <data name="DockingStringId.CheckBoxAskNextTime" xml:space="preserve">
+    <value>Yêu cầu tiếp theo thời gian</value>
+  </data>
+  <data name="DockingStringId.CheckBoxShowInvisibleItems" xml:space="preserve">
+    <value>Hiện khoản mục vô hình</value>
+  </data>
+  <data name="DockingStringId.ClosedPanelsCategory" xml:space="preserve">
+    <value>Closed panels</value>
+  </data>
+  <data name="DockingStringId.CloseOperations" xml:space="preserve">
+    <value>Gần hoạt động</value>
+  </data>
+  <data name="DockingStringId.ControlButtonAutoHide" xml:space="preserve">
+    <value>Tự động ẩn</value>
+  </data>
+  <data name="DockingStringId.ControlButtonMaximize" xml:space="preserve">
+    <value>Tối đa hóa</value>
+  </data>
+  <data name="DockingStringId.ControlButtonMinimize" xml:space="preserve">
+    <value>Giảm thiểu</value>
+  </data>
+  <data name="DockingStringId.ControlButtonScrollNext" xml:space="preserve">
+    <value>Di chuyển tiếp theo</value>
+  </data>
+  <data name="DockingStringId.ControlButtonScrollPrev" xml:space="preserve">
+    <value>Di chuyển trước đó</value>
+  </data>
+  <data name="DockingStringId.ControlButtonTogglePinStatus" xml:space="preserve">
+    <value>Bật/tắt tình trạng pin</value>
+  </data>
+  <data name="DockingStringId.DefaultEmptySpaceContent" xml:space="preserve">
+    <value>Không gian trống rỗng mục</value>
+  </data>
+  <data name="DockingStringId.DefaultSeparatorContent" xml:space="preserve">
+    <value>Máy phân loại</value>
+  </data>
+  <data name="DockingStringId.DefaultSplitterContent" xml:space="preserve">
+    <value>Splitter</value>
+  </data>
+  <data name="DockingStringId.DockingOperations" xml:space="preserve">
+    <value>Ụ tàu hoạt động</value>
+  </data>
+  <data name="DockingStringId.DocumentSelectorDocuments" xml:space="preserve">
+    <value>Hoạt động tài liệu</value>
+  </data>
+  <data name="DockingStringId.DocumentSelectorPanels" xml:space="preserve">
+    <value>Hoạt động tấm</value>
+  </data>
+  <data name="DockingStringId.DTEmptyGroupText" xml:space="preserve">
+    <value>Nhấp chuột phải vào đây để tạo ra bảng thông qua trình đơn ngữ cảnh một.</value>
+  </data>
+  <data name="DockingStringId.DTEmptyPanelText" xml:space="preserve">
+    <value>Kéo và thả điều khiển ở đây để xây dựng bố trí của bạn.</value>
+  </data>
+  <data name="DockingStringId.DTLayoutControlItemCaption" xml:space="preserve">
+    <value>Bố trí mục</value>
+  </data>
+  <data name="DockingStringId.DTLayoutPanelCaption" xml:space="preserve">
+    <value>Bảng điều khiển</value>
+  </data>
+  <data name="DockingStringId.DTLoadLayoutWarning" xml:space="preserve">
+    <value>Bố trí hiện tại sẽ bị xóa. Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="DockingStringId.DTLoadLayoutWarningCaption" xml:space="preserve">
+    <value>Tải bố trí</value>
+  </data>
+  <data name="DockingStringId.FloatingOperations" xml:space="preserve">
+    <value>Nổi hoạt động</value>
+  </data>
+  <data name="DockingStringId.LoadLayoutOperation" xml:space="preserve">
+    <value>Load layout</value>
+  </data>
+  <data name="DockingStringId.MenuItemAddDocument" xml:space="preserve">
+    <value>Thêm tài liệu</value>
+  </data>
+  <data name="DockingStringId.MenuItemAddPanel" xml:space="preserve">
+    <value>Thêm bảng</value>
+  </data>
+  <data name="DockingStringId.MenuItemAfterText" xml:space="preserve">
+    <value>Sau khi văn bản</value>
+  </data>
+  <data name="DockingStringId.MenuItemAutoHide" xml:space="preserve">
+    <value>Tự động ẩn</value>
+  </data>
+  <data name="DockingStringId.MenuItemBeforeText" xml:space="preserve">
+    <value>Trước khi văn bản</value>
+  </data>
+  <data name="DockingStringId.MenuItemCaptionHorizontalAlignment" xml:space="preserve">
+    <value>Chú thích liên kết ngang</value>
+  </data>
+  <data name="DockingStringId.MenuItemCaptionImageLocation" xml:space="preserve">
+    <value>Chú thích hình ảnh địa điểm</value>
+  </data>
+  <data name="DockingStringId.MenuItemCaptionLocation" xml:space="preserve">
+    <value>Vị trí chú thích</value>
+  </data>
+  <data name="DockingStringId.MenuItemCaptionVerticalAlignment" xml:space="preserve">
+    <value>Chú thích liên kết theo chiều dọc</value>
+  </data>
+  <data name="DockingStringId.MenuItemCloseAllButThis" xml:space="preserve">
+    <value>Đóng tất cả nhưng điều này</value>
+  </data>
+  <data name="DockingStringId.MenuItemClosedPanels" xml:space="preserve">
+    <value>Closed panels</value>
+  </data>
+  <data name="DockingStringId.MenuItemContentHorizontalAlignment" xml:space="preserve">
+    <value>Nội dung liên kết ngang</value>
+  </data>
+  <data name="DockingStringId.MenuItemContentVerticalAlignment" xml:space="preserve">
+    <value>Nội dung liên kết theo chiều dọc</value>
+  </data>
+  <data name="DockingStringId.MenuItemControlHorizontalAlignment" xml:space="preserve">
+    <value>Kiểm soát liên kết ngang</value>
+  </data>
+  <data name="DockingStringId.MenuItemControlVerticalAlignment" xml:space="preserve">
+    <value>Kiểm soát liên kết theo chiều dọc</value>
+  </data>
+  <data name="DockingStringId.MenuItemCreateDefaultLayout" xml:space="preserve">
+    <value>Tạo bố trí mặc định</value>
+  </data>
+  <data name="DockingStringId.MenuItemDock" xml:space="preserve">
+    <value>Dock</value>
+  </data>
+  <data name="DockingStringId.MenuItemDTCaptionLocation" xml:space="preserve">
+    <value>Vị trí chú thích</value>
+  </data>
+  <data name="DockingStringId.MenuItemDTGroupOrientation" xml:space="preserve">
+    <value>Group orientation</value>
+  </data>
+  <data name="DockingStringId.MenuItemDTGroupStyle" xml:space="preserve">
+    <value>Nhóm phong cách</value>
+  </data>
+  <data name="DockingStringId.MenuItemFloat" xml:space="preserve">
+    <value>Trôi nổi</value>
+  </data>
+  <data name="DockingStringId.MenuItemGroupOrientation" xml:space="preserve">
+    <value>Group orientation</value>
+  </data>
+  <data name="DockingStringId.MenuItemHideCustomizationWindow" xml:space="preserve">
+    <value>Ẩn cửa sổ Tuỳ biến</value>
+  </data>
+  <data name="DockingStringId.MenuItemHideDocument" xml:space="preserve">
+    <value>Đóng tài liệu</value>
+  </data>
+  <data name="DockingStringId.MenuItemHidePanel" xml:space="preserve">
+    <value>Gần Panel</value>
+  </data>
+  <data name="DockingStringId.MenuItemHorizontalAlignment" xml:space="preserve">
+    <value>Horizontal Alignment</value>
+  </data>
+  <data name="DockingStringId.MenuItemHorizontalAlignmentStretch" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="DockingStringId.MenuItemMDIStyle" xml:space="preserve">
+    <value>MDI phong cách</value>
+  </data>
+  <data name="DockingStringId.MenuItemMoveToNextTabGroup" xml:space="preserve">
+    <value>Di chuyển đến nhóm tab tiếp theo</value>
+  </data>
+  <data name="DockingStringId.MenuItemMoveToPreviousTabGroup" xml:space="preserve">
+    <value>Di chuyển đến nhóm tab trước đó</value>
+  </data>
+  <data name="DockingStringId.MenuItemNewHorizontalTabGroup" xml:space="preserve">
+    <value>Nhóm ngang tab mới</value>
+  </data>
+  <data name="DockingStringId.MenuItemNewVerticalTabGroup" xml:space="preserve">
+    <value>Nhóm dọc tab mới</value>
+  </data>
+  <data name="DockingStringId.MenuItemPinTab" xml:space="preserve">
+    <value>Pin Tab</value>
+  </data>
+  <data name="DockingStringId.MenuItemRemoveDocument" xml:space="preserve">
+    <value>Loại bỏ tài liệu</value>
+  </data>
+  <data name="DockingStringId.MenuItemRemoveItem" xml:space="preserve">
+    <value>Loại bỏ khoản mục</value>
+  </data>
+  <data name="DockingStringId.MenuItemRemovePanel" xml:space="preserve">
+    <value>Loại bỏ bảng điều khiển</value>
+  </data>
+  <data name="DockingStringId.MenuItemResetCustomization" xml:space="preserve">
+    <value>Đặt lại thiết đặt tùy biến</value>
+  </data>
+  <data name="DockingStringId.MenuItemResetLayout" xml:space="preserve">
+    <value>Đặt lại bố trí</value>
+  </data>
+  <data name="DockingStringId.MenuItemRestoreItem" xml:space="preserve">
+    <value>Khôi phục khoản mục</value>
+  </data>
+  <data name="DockingStringId.MenuItemShowCaption" xml:space="preserve">
+    <value>Hiển thị chú thích</value>
+  </data>
+  <data name="DockingStringId.MenuItemShowCaptionImage" xml:space="preserve">
+    <value>Hiển thị chú thích hình ảnh</value>
+  </data>
+  <data name="DockingStringId.MenuItemShowCustomizationWindow" xml:space="preserve">
+    <value>Hiển thị cửa sổ Tuỳ biến</value>
+  </data>
+  <data name="DockingStringId.MenuItemStyle" xml:space="preserve">
+    <value>Nhóm phong cách</value>
+  </data>
+  <data name="DockingStringId.MenuItemStyleGroupBox" xml:space="preserve">
+    <value>GroupBox</value>
+  </data>
+  <data name="DockingStringId.MenuItemStyleNoBorder" xml:space="preserve">
+    <value>Không có biên giới</value>
+  </data>
+  <data name="DockingStringId.MenuItemStyleTabbed" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="DockingStringId.MenuItemUngroup" xml:space="preserve">
+    <value>Ungroup</value>
+  </data>
+  <data name="DockingStringId.MenuItemVerticalAlignment" xml:space="preserve">
+    <value>Vertical Alignment</value>
+  </data>
+  <data name="DockingStringId.MenuItemVerticalAlignmentStretch" xml:space="preserve">
+    <value>Căng</value>
+  </data>
+  <data name="DockingStringId.NoItemSelected" xml:space="preserve">
+    <value>(Không có khoản mục được chọn)</value>
+  </data>
+  <data name="DockingStringId.ReplaceDialogText" xml:space="preserve">
+    <value>Chọn một hành động:</value>
+  </data>
+  <data name="DockingStringId.ReplaceDialogTitle" xml:space="preserve">
+    <value>Thêm mới kiểm soát</value>
+  </data>
+  <data name="DockingStringId.ResetLayoutOperation" xml:space="preserve">
+    <value>Đặt lại bố trí</value>
+  </data>
+  <data name="DockingStringId.TitleLayoutTreeView" xml:space="preserve">
+    <value>Bố cục cây</value>
+  </data>
+  <data name="DockingStringId.ToolTipChangeItemType" xml:space="preserve">
+    <value>Click vào đây để thay đổi loại mục</value>
+  </data>
+  <data name="DockingStringId.ToolTipCreateItem" xml:space="preserve">
+    <value>Click vào đây để tạo khoản mục mới</value>
+  </data>
+  <data name="DockingStringId.ToolTipDeleteItem" xml:space="preserve">
+    <value>Click vào đây để xoá khoản mục đã chọn</value>
+  </data>
+  <data name="DockingStringId.ToolTipEditCaption" xml:space="preserve">
+    <value>Click vào đây để chỉnh sửa chú thích của mục</value>
+  </data>
+  <data name="DockingStringId.WindowTitleFormat" xml:space="preserve">
+    <value>{0} - [{1}]</value>
+  </data>
+</root>

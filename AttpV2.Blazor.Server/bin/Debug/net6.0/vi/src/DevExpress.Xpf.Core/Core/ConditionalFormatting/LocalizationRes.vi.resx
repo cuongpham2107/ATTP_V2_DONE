@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalToday" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_InvalidExpressionMessageTitle" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarBorder" xml:space="preserve">
+    <value>Biên giới</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatColor" xml:space="preserve">
+    <value>Màu:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Bottom" xml:space="preserve">
+    <value>Đáy</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Top" xml:space="preserve">
+    <value>Đỉnh</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ShowModeAll" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Apply" xml:space="preserve">
+    <value>Áp dụng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatUnderline" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ClearButtonDescription" xml:space="preserve">
+    <value>Xóa trắng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Font" xml:space="preserve">
+    <value>Phông</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Preview" xml:space="preserve">
+    <value>Xem trước:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Format" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ExpressionMode" xml:space="preserve">
+    <value>Biểu thức</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FieldNameMode" xml:space="preserve">
+    <value>Tên Trường</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Down" xml:space="preserve">
+    <value>Xuống</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Up" xml:space="preserve">
+    <value>Lên</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_CustomIconGroup" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AppliesTo" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FilterAll" xml:space="preserve">
+    <value>(Tất cả)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_LessThan" xml:space="preserve">
+    <value>Nhỏ hơn...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_BelowMode" xml:space="preserve">
+    <value>Dưới</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Above" xml:space="preserve">
+    <value>Trên trung bình</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_LessThan" xml:space="preserve">
+    <value>Nhỏ hơn</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BelowAverageDialog_Title" xml:space="preserve">
+    <value>Dưới trung bình</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_AboveAverageDialog_Title" xml:space="preserve">
+    <value>Trên trung bình</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Rule" xml:space="preserve">
+    <value>Quy tắc</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ShowRulesFor" xml:space="preserve">
+    <value>Hiển thị các quy tắc định dạng cho:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ManageRules" xml:space="preserve">
+    <value>Quản lý quy tắc</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_AboveAverage" xml:space="preserve">
+    <value>Trên trung bình...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_BelowAverage" xml:space="preserve">
+    <value>Dưới trung bình...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Below" xml:space="preserve">
+    <value>Dưới trung bình</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ContainTitle" xml:space="preserve">
+    <value>Chỉ định dạng các ô với:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalTomorrow" xml:space="preserve">
+    <value>Ngày mai</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_SpecificText" xml:space="preserve">
+    <value>Văn bản cụ thể</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BetweenDialog_RangeValuesConnector" xml:space="preserve">
+    <value>và</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalThisMonth" xml:space="preserve">
+    <value>Tháng này</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalThisWeek" xml:space="preserve">
+    <value>Tuần này</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalYesterday" xml:space="preserve">
+    <value>Hôm qua</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NumberMode" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_PercentMode" xml:space="preserve">
+    <value>Phần trăm</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_UniqueDuplicateDialog_Unique" xml:space="preserve">
+    <value>Độc đáo</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_IconSets" xml:space="preserve">
+    <value>Bộ biểu tượng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules" xml:space="preserve">
+    <value>Quy tắc trên/dưới cùng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IsEnabled" xml:space="preserve">
+    <value>Được kích hoạt</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ReverseButtonDescription" xml:space="preserve">
+    <value>Đảo ngược thứ tự biểu tượng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_SelectRuleType" xml:space="preserve">
+    <value>Chọn một loại quy tắc:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Title" xml:space="preserve">
+    <value>Quản lý quy tắc định dạng có điều kiện</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_UniqueDuplicateTitle" xml:space="preserve">
+    <value>Định dạng tất cả:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedExpression" xml:space="preserve">
+    <value>Giá trị:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedType" xml:space="preserve">
+    <value>Loại:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_CustomFormat" xml:space="preserve">
+    <value>Định dạng tùy chỉnh...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_IndicatorsGroup" xml:space="preserve">
+    <value>Chỉ số</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BetweenDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10ItemsDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_EqualToDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_GreaterThanDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_LessThanDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_TextThatContainsDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10ItemsDialog_Connector" xml:space="preserve">
+    <value>với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BetweenDialog_Title" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Between" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalLastMonth" xml:space="preserve">
+    <value>Tháng trước</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_GreaterThanDialog_Title" xml:space="preserve">
+    <value>Lớn hơn</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_GreaterThan" xml:space="preserve">
+    <value>Lớn hơn</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarColor" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DeleteButtonDescription" xml:space="preserve">
+    <value>Xoá quy tắc</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatButtonDescription" xml:space="preserve">
+    <value>Định dạng...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatFontSize" xml:space="preserve">
+    <value>Kích thước:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatStrikethrough" xml:space="preserve">
+    <value>Gạch ngang</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_GreaterOrEqual" xml:space="preserve">
+    <value>Lớn hơn hoặc bằng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconDescription" xml:space="preserve">
+    <value>Bộ biểu tượng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Maximum" xml:space="preserve">
+    <value>Tối đa</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Minimum" xml:space="preserve">
+    <value>Tối thiểu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NewButtonDescription" xml:space="preserve">
+    <value>Quy tắc mới...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Date" xml:space="preserve">
+    <value>DateTime</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_AboveAverageDialog_Connector" xml:space="preserve">
+    <value>cho cột này với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_AboveAverageDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào là trên trung bình là:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BelowAverageDialog_Connector" xml:space="preserve">
+    <value>cho cột này với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BelowAverageDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào là dưới trung bình là:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_BetweenDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào là giữa:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10ItemsDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào đó xếp hạng ở dưới cùng:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10ItemsDialog_Title" xml:space="preserve">
+    <value>Dưới 10 mục</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10PercentDialog_Connector" xml:space="preserve">
+    <value>% với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10PercentDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào đó xếp hạng ở dưới cùng:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Bottom10PercentDialog_Title" xml:space="preserve">
+    <value>Dưới 10%</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào phù hợp với các điều kiện sau đây:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_InvalidExpressionMessage" xml:space="preserve">
+    <value>Biểu thức được chỉ định chứa ký hiệu không hợp lệ (nhân vật) {0}.</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_InvalidExpressionMessageEx" xml:space="preserve">
+    <value>Biểu thức được chỉ định là không hợp lệ.</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionDialog_Title" xml:space="preserve">
+    <value>Tùy chỉnh điều kiện</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_CustomConditionEditor_Title" xml:space="preserve">
+    <value>Tùy chỉnh điều kiện biên tập</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào có chứa một ngày xảy ra:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalInTheLast7Days" xml:space="preserve">
+    <value>Trong 7 ngày qua</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalLastWeek" xml:space="preserve">
+    <value>Cuối tuần</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalNextMonth" xml:space="preserve">
+    <value>Tiếp theo tháng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_IntervalNextWeek" xml:space="preserve">
+    <value>Tiếp theo tuần</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_DateOccurringDialog_Title" xml:space="preserve">
+    <value>Một ngày xảy ra</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Dialog_ApplyFormatToWholeRowText" xml:space="preserve">
+    <value>Áp dụng định dạng cho toàn bộ hàng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_EqualToDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào là bình đẳng để:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_EqualToDialog_Title" xml:space="preserve">
+    <value>equal to</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_GreaterThanDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào là lớn hơn:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_LessThanDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào là ít hơn THAN:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_LessThanDialog_Title" xml:space="preserve">
+    <value>less than</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_2ColorScaleDescription" xml:space="preserve">
+    <value>2-màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_3ColorScaleDescription" xml:space="preserve">
+    <value>3-màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AboveBelowDescription" xml:space="preserve">
+    <value>Định dạng chỉ có giá trị mà ở trên hoặc dưới mức trung bình</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AboveBelowRangeDescription" xml:space="preserve">
+    <value>mức trung bình của cột di động giá trị</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AboveBelowTitle" xml:space="preserve">
+    <value>Định dạng giá trị:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_AboveMode" xml:space="preserve">
+    <value>Ở trên</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ApplySameAppearance" xml:space="preserve">
+    <value>Áp dụng các xuất hiện tương tự như tích cực bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ApplyToRow" xml:space="preserve">
+    <value>Áp dụng cho dòng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Auto" xml:space="preserve">
+    <value>&lt; tự động &gt;</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_BeginningWith" xml:space="preserve">
+    <value>beginning with</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Blanks" xml:space="preserve">
+    <value>Khoảng trống</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_CellsContainDescription" xml:space="preserve">
+    <value>Định dạng tế bào chỉ có chứa</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_CellValue" xml:space="preserve">
+    <value>Giá trị di động</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Containing" xml:space="preserve">
+    <value>containing</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBar" xml:space="preserve">
+    <value>Dữ liệu Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarFill" xml:space="preserve">
+    <value>Điền vào</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarNegative" xml:space="preserve">
+    <value>Xuất hiện âm thanh:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarNoBorder" xml:space="preserve">
+    <value>Không có biên giới</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DataBarPositive" xml:space="preserve">
+    <value>Xuất hiện tích cực Bar:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_DatesOccurring" xml:space="preserve">
+    <value>Ngày xảy ra</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_EditButtonDescription" xml:space="preserve">
+    <value>Soạn thảo quy tắc...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_EditFormattingRule" xml:space="preserve">
+    <value>Soạn thảo quy tắc định dạng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_EditRuleDescription" xml:space="preserve">
+    <value>Chỉnh sửa mô tả quy tắc:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_EndingWith" xml:space="preserve">
+    <value>Kết thúc với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_EqualTo" xml:space="preserve">
+    <value>equal to</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Fill" xml:space="preserve">
+    <value>Điền vào</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FillModeGradient" xml:space="preserve">
+    <value>Gradient điền</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FillModeSolid" xml:space="preserve">
+    <value>Rắn điền</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatBackgroundColor" xml:space="preserve">
+    <value>Background Color:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatCells" xml:space="preserve">
+    <value>Định dạng tế bào</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatFontFamily" xml:space="preserve">
+    <value>Font:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatFontStyle" xml:space="preserve">
+    <value>Kiểu phông:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatFontWeight" xml:space="preserve">
+    <value>Font trọng lượng:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormatIconDescription" xml:space="preserve">
+    <value>Chọn biểu tượng:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormulaDescription" xml:space="preserve">
+    <value>Sử dụng một công thức để xác định những tế bào để định dạng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_FormulaTitle" xml:space="preserve">
+    <value>Định dạng giá trị mà công thức này là sự thật:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_GradedColorScale" xml:space="preserve">
+    <value>Xếp loại màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Icon" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconDescriptionCondition" xml:space="preserve">
+    <value>khi</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconDescriptionConnector" xml:space="preserve">
+    <value>và</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconDescriptionValueCondition" xml:space="preserve">
+    <value>khi giá trị là</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconSet" xml:space="preserve">
+    <value>Biểu tượng thiết lập</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconSetRulesTitle" xml:space="preserve">
+    <value>Hiển thị mỗi biểu tượng theo những quy tắc này:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconSetStyle" xml:space="preserve">
+    <value>Biểu tượng phong cách:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_IconSetValueType" xml:space="preserve">
+    <value>Giá trị loại:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_LessOrEqual" xml:space="preserve">
+    <value>less than or equal to</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_MaxValue" xml:space="preserve">
+    <value>Giá trị tối đa:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Midpoint" xml:space="preserve">
+    <value>Trung điểm</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_MinMaxValueType" xml:space="preserve">
+    <value>Loại giá trị min/Max:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_MinValue" xml:space="preserve">
+    <value>Giá trị phút:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NewFormattingRule" xml:space="preserve">
+    <value>Quy tắc định dạng mới</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NoBlanks" xml:space="preserve">
+    <value>Không có khoảng trống</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NoFormatSet" xml:space="preserve">
+    <value>Định dạng không có thiết lập</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NotBetween" xml:space="preserve">
+    <value>not between</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NotContaining" xml:space="preserve">
+    <value>not containing</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_NotEqualTo" xml:space="preserve">
+    <value>not equal to</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_Numeric" xml:space="preserve">
+    <value>Numeric</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ShowModeCurrent" xml:space="preserve">
+    <value>Hiện tại cột</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_TopBottomDescription" xml:space="preserve">
+    <value>Định dạng chỉ trên hoặc dưới xếp hạng giá trị</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_TopBottomRangeDescription" xml:space="preserve">
+    <value>% của giá trị di động của cột</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_TopBottomTitle" xml:space="preserve">
+    <value>Định dạng giá trị đó đánh giá trong những:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_UniqueDuplicateConnector" xml:space="preserve">
+    <value>Các giá trị của cột tế bào</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_UniqueDuplicateDescription" xml:space="preserve">
+    <value>Định dạng giá trị chỉ duy nhất hoặc trùng lặp</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedDescription" xml:space="preserve">
+    <value>Định dạng tế bào tất cả dựa trên giá trị của họ</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedStyle" xml:space="preserve">
+    <value>Định dạng phong cách:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Manager_ValueBasedTitle" xml:space="preserve">
+    <value>Định dạng tất cả các tế bào dựa trên giá trị của họ:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_BlueWhiteRedColorScale" xml:space="preserve">
+    <value>Màu đỏ - trắng - xanh quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_Description" xml:space="preserve">
+    <value>Áp dụng một màu gradient để một loạt các
+tế bào trong cột này. Màu sắc chỉ ra
+nơi mỗi tế bào nằm trong phạm vi đó.</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_GreenWhiteColorScale" xml:space="preserve">
+    <value>Màu xanh lá cây - màu trắng quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_GreenWhiteRedColorScale" xml:space="preserve">
+    <value>Màu xanh lá cây - trắng - đỏ màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_GreenYellowColorScale" xml:space="preserve">
+    <value>Màu xanh lá cây - màu vàng quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_GreenYellowRedColorScale" xml:space="preserve">
+    <value>Màu xanh lá cây màu đỏ - vàng - quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_RedWhiteBlueColorScale" xml:space="preserve">
+    <value>Red - White - màu xanh quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_RedWhiteColorScale" xml:space="preserve">
+    <value>Red - màu trắng quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_RedWhiteGreenColorScale" xml:space="preserve">
+    <value>Red - White - màu xanh lá cây màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_RedYellowGreenColorScale" xml:space="preserve">
+    <value>Màu đỏ - vàng - xanh quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_WhiteGreenColorScale" xml:space="preserve">
+    <value>Trắng - xanh màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_WhiteRedColorScale" xml:space="preserve">
+    <value>Trắng - đỏ màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedColorScaleFormat_YellowGreenColorScale" xml:space="preserve">
+    <value>Màu vàng - màu xanh lá cây màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_BlueGradientDataBar" xml:space="preserve">
+    <value>Gradient Blue dữ liệu Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_BlueSolidDataBar" xml:space="preserve">
+    <value>Blue dữ liệu Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_Description" xml:space="preserve">
+    <value>Thêm một thanh màu dữ liệu để đại diện cho
+giá trị trong một tế bào. Cao hơn các
+giá trị, còn Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_GradientFillGroup" xml:space="preserve">
+    <value>Gradient điền</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_GreenGradientDataBar" xml:space="preserve">
+    <value>Màu xanh lá cây dữ liệu Bar Gradient</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_GreenSolidDataBar" xml:space="preserve">
+    <value>Màu xanh lá cây dữ liệu Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_LightBlueGradientDataBar" xml:space="preserve">
+    <value>Ánh sáng màu xanh dữ liệu Bar Gradient</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_LightBlueSolidDataBar" xml:space="preserve">
+    <value>Ánh sáng màu xanh dữ liệu Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_OrangeGradientDataBar" xml:space="preserve">
+    <value>Orange dữ liệu Bar Gradient</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_OrangeSolidDataBar" xml:space="preserve">
+    <value>Orange dữ liệu Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_PurpleGradientDataBar" xml:space="preserve">
+    <value>Tím dữ liệu Bar Gradient</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_PurpleSolidDataBar" xml:space="preserve">
+    <value>Tím dữ liệu Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_RedGradientDataBar" xml:space="preserve">
+    <value>Red dữ liệu Bar Gradient</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_RedSolidDataBar" xml:space="preserve">
+    <value>Red dữ liệu Bar</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedDataBarFormat_SolidFillGroup" xml:space="preserve">
+    <value>Rắn điền</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_BoldText" xml:space="preserve">
+    <value>Bold văn bản</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_GreenFillWithDarkGreenText" xml:space="preserve">
+    <value>Màu xanh lá cây điền vào với văn bản màu xanh lá cây đậm</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_GreenText" xml:space="preserve">
+    <value>Văn bản màu xanh lá cây</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_ItalicText" xml:space="preserve">
+    <value>Văn bản nghiêng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_LightGreenFill" xml:space="preserve">
+    <value>Ánh sáng màu xanh lá cây điền</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_LightRedFill" xml:space="preserve">
+    <value>Ánh sáng màu đỏ điền</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_LightRedFillWithDarkRedText" xml:space="preserve">
+    <value>Ánh sáng màu đỏ điền với văn bản màu đỏ sẫm</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_RedText" xml:space="preserve">
+    <value>Văn bản màu đỏ</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_StrikethroughText" xml:space="preserve">
+    <value>Văn bản gạch ngang</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedFormat_YellowFillWithDarkYellowText" xml:space="preserve">
+    <value>Màu vàng điền với văn bản tối màu vàng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows3ColoredIconSet" xml:space="preserve">
+    <value>3 Mũi tên (màu)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows3GrayIconSet" xml:space="preserve">
+    <value>3 Mũi tên (màu xám)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows4ColoredIconSet" xml:space="preserve">
+    <value>4 Mũi tên (màu)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows4GrayIconSet" xml:space="preserve">
+    <value>4 Mũi tên (màu xám)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows5ColoredIconSet" xml:space="preserve">
+    <value>5 Mũi tên (màu)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Arrows5GrayIconSet" xml:space="preserve">
+    <value>5 Mũi tên (màu xám)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Boxes5IconSet" xml:space="preserve">
+    <value>5 Hộp</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Description" xml:space="preserve">
+    <value>Chọn một tập các biểu tượng đại diện cho
+Các giá trị trong cột này.</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_DirectionalGroup" xml:space="preserve">
+    <value>Định hướng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Flags3IconSet" xml:space="preserve">
+    <value>3 Lá cờ</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_PositiveNegativeArrowsColoredIconSet" xml:space="preserve">
+    <value>Mũi tên (màu)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_PositiveNegativeArrowsGrayIconSet" xml:space="preserve">
+    <value>Mũi tên (màu xám)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_PositiveNegativeGroup" xml:space="preserve">
+    <value>Tích cực/tiêu cực</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_PositiveNegativeTrianglesIconSet" xml:space="preserve">
+    <value>Hình tam giác</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Quarters5IconSet" xml:space="preserve">
+    <value>5 Khu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Ratings4IconSet" xml:space="preserve">
+    <value>4 Xếp hạng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Ratings5IconSet" xml:space="preserve">
+    <value>5 Xếp hạng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_RatingsGroup" xml:space="preserve">
+    <value>Xếp hạng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_RedToBlackIconSet" xml:space="preserve">
+    <value>Màu đỏ đen</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_ShapesGroup" xml:space="preserve">
+    <value>Hình dạng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Signs3IconSet" xml:space="preserve">
+    <value>3 Dấu hiệu</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Stars3IconSet" xml:space="preserve">
+    <value>3 Sao</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Symbols3CircledIconSet" xml:space="preserve">
+    <value>3 Biểu tượng (vòng)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Symbols3UncircledIconSet" xml:space="preserve">
+    <value>3 Biểu tượng (Uncircled)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_TrafficLights3RimmedIconSet" xml:space="preserve">
+    <value>3 Đèn giao thông (gọng)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_TrafficLights3UnrimmedIconSet" xml:space="preserve">
+    <value>3 đèn giao thông (Unrimmed)</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_TrafficLights4IconSet" xml:space="preserve">
+    <value>Đèn giao thông 4</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_PredefinedIconSetFormat_Triangles3IconSet" xml:space="preserve">
+    <value>3 Tam giác</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_TextThatContainsDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào có chứa văn bản:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_TextThatContainsDialog_Title" xml:space="preserve">
+    <value>Text that Contains</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10ItemsDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào mà xếp hạng trong TOP:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10ItemsDialog_Title" xml:space="preserve">
+    <value>Top 10 items</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10PercentDialog_Connector" xml:space="preserve">
+    <value>% với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10PercentDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào mà xếp hạng trong TOP:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_Top10PercentDialog_Title" xml:space="preserve">
+    <value>Top 10%</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_UniqueDuplicate_Connector" xml:space="preserve">
+    <value>giá trị với</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_UniqueDuplicateDialog_Description" xml:space="preserve">
+    <value>Định dạng tế bào có chứa:</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_UniqueDuplicateDialog_Duplicate" xml:space="preserve">
+    <value>duplicate</value>
+  </data>
+  <data name="ConditionalFormattingStringId.ConditionalFormatting_UniqueDuplicateDialog_Title" xml:space="preserve">
+    <value>Lặp lại giá trị</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting" xml:space="preserve">
+    <value>Định dạng có điều kiện</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ClearRules" xml:space="preserve">
+    <value>Quy tắc rõ ràng</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ClearRules_FromAllColumns" xml:space="preserve">
+    <value>Các quy tắc rõ ràng từ tất cả các cột</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ClearRules_FromCurrentColumns" xml:space="preserve">
+    <value>Các quy tắc rõ ràng từ cột này</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_ColorScales" xml:space="preserve">
+    <value>Màu quy mô</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_DataBars" xml:space="preserve">
+    <value>Dữ liệu thanh</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules" xml:space="preserve">
+    <value>Làm nổi bật các tế bào nội quy</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_ADateOccurring" xml:space="preserve">
+    <value>Một ngày xảy ra...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_Between" xml:space="preserve">
+    <value>Giữa...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_CustomCondition" xml:space="preserve">
+    <value>Tùy chỉnh điều kiện...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_EqualTo" xml:space="preserve">
+    <value>Bằng...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_GreaterThan" xml:space="preserve">
+    <value>Lớn hơn...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_TextThatContains" xml:space="preserve">
+    <value>Văn bản có chứa...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_HighlightCellsRules_UniqueDuplicate" xml:space="preserve">
+    <value>Lặp lại giá trị...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_Bottom10Items" xml:space="preserve">
+    <value>Dưới 10 mục...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_Bottom10Percent" xml:space="preserve">
+    <value>Dưới 10%...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_Top10Items" xml:space="preserve">
+    <value>Top 10 bài...</value>
+  </data>
+  <data name="ConditionalFormattingStringId.MenuColumnConditionalFormatting_TopBottomRules_Top10Percent" xml:space="preserve">
+    <value>Top 10%...</value>
+  </data>
+</root>

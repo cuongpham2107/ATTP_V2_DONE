@@ -54,7 +54,6 @@ namespace AttpV2.Module.BusinessObjects
         LoaiThamDinh loaiThamDinh;
         string ghiChu;
         DateTime ngayThamDinh;
-        XLoai xLoai;
         CoSoSanXuatKinhDoanh coSoSanXuatKinhDoanh;
 
         string tieuDe;
@@ -66,7 +65,7 @@ namespace AttpV2.Module.BusinessObjects
             {
                 if(!IsSaving || !IsLoading)
                 {
-                    if(NgayThamDinh != null && CoSoSanXuatKinhDoanh != null && KetQuaThamDinh != null)
+                    if(CoSoSanXuatKinhDoanh != null && KetQuaThamDinh != null)
                     {
                         return $"{NgayThamDinh.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)}, {KetQuaThamDinh}, {CoSoSanXuatKinhDoanh}";
                     }
@@ -283,11 +282,15 @@ namespace AttpV2.Module.BusinessObjects
         #region Function
         private void SetKetQua()
         {
-            KetQuaThamDinh = LoaiThamDinh switch
+            if(this.LoaiThamDinh == LoaiThamDinh.TDCapGiayChungNhan)
             {
-                LoaiThamDinh.TDCapGiayChungNhan => $"{KetQua}1",
-                LoaiThamDinh.TDDinhKy => $"{KetQua}2",
-            };
+                KetQuaThamDinh = $"{KetQua}1";
+            }
+            if(this.LoaiThamDinh == LoaiThamDinh.TDDinhKy)
+            {
+                KetQuaThamDinh = $"{KetQua}2";
+            }
+           
         }
         #endregion
     }

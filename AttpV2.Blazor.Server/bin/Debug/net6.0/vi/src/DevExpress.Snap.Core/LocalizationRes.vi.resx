@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SnapStringId.InsertNoneDataRowSeparatorCommand_Description" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="SnapStringId.InsertNoneDataRowSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="SnapStringId.InsertNoneGroupSeparatorCommand_Description" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="SnapStringId.InsertNoneGroupSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="SnapStringId.RecordSeparator_None" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="SnapStringId.CalculatedField_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="SnapStringId.MailMergeDataSource_MenuCaption" xml:space="preserve">
+    <value>Nguồn Dữ liệu</value>
+  </data>
+  <data name="SnapStringId.SummaryMaxCommand_Description" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="SnapStringId.SummaryMaxCommand_MenuCaption" xml:space="preserve">
+    <value>Lớn nhất</value>
+  </data>
+  <data name="SnapStringId.SummaryMinCommand_Description" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="SnapStringId.SummaryMinCommand_MenuCaption" xml:space="preserve">
+    <value>Nhỏ nhất</value>
+  </data>
+  <data name="SnapStringId.SummaryAverageCommand_Description" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="SnapStringId.SummaryAverageCommand_MenuCaption" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="SnapStringId.SummaryCountCommand_Description" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+  <data name="SnapStringId.SummaryCountCommand_MenuCaption" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+  <data name="SnapStringId.SummarySumCommand_Description" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="SnapStringId.SummarySumCommand_MenuCaption" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="SnapStringId.CalculatedField_Expression" xml:space="preserve">
+    <value>Biểu thức</value>
+  </data>
+  <data name="SnapStringId.ParametersErrorInvalidCharacters" xml:space="preserve">
+    <value>Không thể tạo ra một tham số với tên không hợp lệ:</value>
+  </data>
+  <data name="SnapStringId.SortFieldAscendingCommand_MenuCaption" xml:space="preserve">
+    <value>Sắp xếp tăng dần</value>
+  </data>
+  <data name="SnapStringId.SortFieldDescendingCommand_MenuCaption" xml:space="preserve">
+    <value>Sắp xếp giảm dần</value>
+  </data>
+  <data name="SnapStringId.FilterListCommand_Description" xml:space="preserve">
+    <value>Bộ lọc danh sách các dữ liệu bằng cách áp dụng bất cứ điều gì tiêu chuẩn phức tạp mà có thể được yêu cầu. Các điều kiện lọc cũng có thể phục vụ tính toán các lĩnh vực và tham số được tạo ra bằng cách sử dụng dữ liệu Explorer.
+
+Để duy nhất trong đó dữ liệu hồ sơ để bỏ qua trong tài liệu, sử dụng các tùy chọn nhanh chóng lọc trong lĩnh vực tab.</value>
+  </data>
+  <data name="SnapStringId.EditorRowLimitShowAll" xml:space="preserve">
+    <value>(Hiển thị tất cả)</value>
+  </data>
+  <data name="SnapStringId.MessageBoxWarningTitle" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="SnapStringId.GroupField_FieldName" xml:space="preserve">
+    <value>Tên Trường</value>
+  </data>
+  <data name="SnapStringId.CalculatedField_DataMember" xml:space="preserve">
+    <value>Thành phần Dữ liệu</value>
+  </data>
+  <data name="SnapStringId.ReportExplorer_GroupNode" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="SnapStringId.GroupField_SortOrder" xml:space="preserve">
+    <value>Thứ tự Sắp xếp</value>
+  </data>
+  <data name="SnapStringId.ListFooterCommand_MenuCaption" xml:space="preserve">
+    <value>Chân trang</value>
+  </data>
+  <data name="SnapStringId.InsertIndexCommand_MenuCaption" xml:space="preserve">
+    <value>Chỉ số hàng</value>
+  </data>
+  <data name="SnapStringId.InsertBarCodeCommand_MenuCaption" xml:space="preserve">
+    <value>Mã vạch</value>
+  </data>
+  <data name="SnapStringId.FilterFieldCommand_MenuCaption" xml:space="preserve">
+    <value>Nhanh chóng lọc</value>
+  </data>
+  <data name="SnapStringId.SnapQuickPrintCommand_Description" xml:space="preserve">
+    <value>Gửi tài liệu trực tiếp đến máy in mặc định mà không thực hiện thay đổi.</value>
+  </data>
+  <data name="SnapStringId.SnapQuickPrintCommand_MenuCaption" xml:space="preserve">
+    <value>&amp; nhanh chóng in</value>
+  </data>
+  <data name="SnapStringId.Msg_InvalidEditorRowLimit" xml:space="preserve">
+    <value>Giá trị không hợp lệ</value>
+  </data>
+  <data name="SnapStringId.ParametersErrorNoName" xml:space="preserve">
+    <value>Không thể tạo ra một tham số mà không có chỉ định tên.</value>
+  </data>
+  <data name="SnapStringId.ParameterService_AddParameter" xml:space="preserve">
+    <value>Tham số mới</value>
+  </data>
+  <data name="SnapStringId.ParameterService_CreateParameter" xml:space="preserve">
+    <value>Tham số truy vấn</value>
+  </data>
+  <data name="SnapStringId.PropertiesCommand_MenuCaption" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="SnapStringId.InsertSparklineCommand_MenuCaption" xml:space="preserve">
+    <value>Sparkline</value>
+  </data>
+  <data name="SnapStringId.FilterListCommand_MenuCaption" xml:space="preserve">
+    <value>Bộ lọc</value>
+  </data>
+  <data name="SnapStringId.MailMergeFilters_MenuCaption" xml:space="preserve">
+    <value>Bộ lọc</value>
+  </data>
+  <data name="SnapStringId.RecordSeparator_Paragraph" xml:space="preserve">
+    <value>Đoạn</value>
+  </data>
+  <data name="SnapStringId.MoveUp_Description" xml:space="preserve">
+    <value>Di chuyển lên</value>
+  </data>
+  <data name="SnapStringId.MoveUp_MenuCaption" xml:space="preserve">
+    <value>Di chuyển lên</value>
+  </data>
+  <data name="SnapStringId.ThemeName_Casual" xml:space="preserve">
+    <value>Ngẫu nhiên</value>
+  </data>
+  <data name="SnapStringId.WizardPageDataSourceName" xml:space="preserve">
+    <value>Nhập tên nguồn dữ liệu</value>
+  </data>
+  <data name="SnapStringId.Msg_RemoveSelectedDataSource" xml:space="preserve">
+    <value>Loại bỏ các nguồn dữ liệu đã chọn?</value>
+  </data>
+  <data name="SnapStringId.NewDataSourceCommand_MenuCaption" xml:space="preserve">
+    <value>Thêm nguồn dữ liệu mới</value>
+  </data>
+  <data name="SnapStringId.SortingForm_SortByColumnCaption" xml:space="preserve">
+    <value>Sắp xếp theo</value>
+  </data>
+  <data name="SnapStringId.CustomSortForm_Text" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="SnapStringId.MailMergeSorting_MenuCaption" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="SnapStringId.MoveDown_Description" xml:space="preserve">
+    <value>Dịch Xuống</value>
+  </data>
+  <data name="SnapStringId.MoveDown_MenuCaption" xml:space="preserve">
+    <value>Dịch Xuống</value>
+  </data>
+  <data name="SnapStringId.ArraysLengthsMismatchException" xml:space="preserve">
+    <value>Mảng phải có chiều dài tương tự</value>
+  </data>
+  <data name="SnapStringId.CalculatedField_DataSourceName" xml:space="preserve">
+    <value>Nguồn dữ liệu tên</value>
+  </data>
+  <data name="SnapStringId.CalculatedField_FieldType" xml:space="preserve">
+    <value>Lĩnh vực loại</value>
+  </data>
+  <data name="SnapStringId.ChangeEditorRowLimitCommand_Description" xml:space="preserve">
+    <value>Xác định số lượng tối đa của hàng Hiển thị trong tài liệu danh sách và các nhóm trong phiên làm việc chỉnh sửa.
+
+Tùy chọn này cho phép bạn để tiết kiệm thời gian khi làm việc với các nguồn dữ liệu lớn. Nó không ảnh hưởng đến các tài liệu dữ liệu trong xem trước in.</value>
+  </data>
+  <data name="SnapStringId.ChangeEditorRowLimitCommand_MenuCaption" xml:space="preserve">
+    <value>Biên tập viên hàng giới hạn</value>
+  </data>
+  <data name="SnapStringId.ChangeThemeCommand_Description" xml:space="preserve">
+    <value>Thay đổi chủ đề</value>
+  </data>
+  <data name="SnapStringId.ChangeThemeCommand_MenuCaption" xml:space="preserve">
+    <value>Thay đổi chủ đề</value>
+  </data>
+  <data name="SnapStringId.ConvertToParagraphsCommand_Description" xml:space="preserve">
+    <value>Click vào để chuyển đổi các mẫu hàng trong SnapList đoạn văn.
+
+Mọi lĩnh vực sẽ được trình bày trong một đoạn riêng biệt, và bạn có thể làm nổi bật các lĩnh vực bằng cách sử dụng tùy chọn đánh dấu trong tab View này thanh công cụ.</value>
+  </data>
+  <data name="SnapStringId.ConvertToParagraphsCommand_MenuCaption" xml:space="preserve">
+    <value>Chuyển đổi SnapList đến đoạn</value>
+  </data>
+  <data name="SnapStringId.CustomAssemblyWarning" xml:space="preserve">
+    <value>Bạn đang tải thư viện bên thứ ba: '{0}'.
+
+Trước khi bạn tiến hành, xin vui lòng xem xét kết quả các nguy cơ bảo mật và đảm bảo rằng thư viện này được cung cấp từ một nguồn đáng tin cậy.</value>
+  </data>
+  <data name="SnapStringId.DataExplorer_Text" xml:space="preserve">
+    <value>Dữ liệu Explorer</value>
+  </data>
+  <data name="SnapStringId.DeleteListCommand_Description" xml:space="preserve">
+    <value>Hủy bỏ danh sách cùng với dữ liệu từ các tài liệu.</value>
+  </data>
+  <data name="SnapStringId.DeleteListCommand_MenuCaption" xml:space="preserve">
+    <value>Xóa danh sách</value>
+  </data>
+  <data name="SnapStringId.ExportDocumentCommand_Description" xml:space="preserve">
+    <value>Đưa ra một bản sao của tài liệu ở định dạng bên thứ ba một.</value>
+  </data>
+  <data name="SnapStringId.ExportDocumentCommand_MenuCaption" xml:space="preserve">
+    <value>Xuất khẩu...</value>
+  </data>
+  <data name="SnapStringId.FileFilterDescription_SnapFiles" xml:space="preserve">
+    <value>Chụp tài liệu</value>
+  </data>
+  <data name="SnapStringId.FileFilterDescription_SnapThemeFiles" xml:space="preserve">
+    <value>Chụp chủ đề</value>
+  </data>
+  <data name="SnapStringId.FilterFieldCommand_Description" xml:space="preserve">
+    <value>Chọn mà của lĩnh vực dữ liệu hồ sơ để loại trừ từ tài liệu.
+
+Đối với nâng cao lọc, sử dụng tùy chọn lọc trong tab. danh sách</value>
+  </data>
+  <data name="SnapStringId.FinishAndMergeCommand_Description" xml:space="preserve">
+    <value>Xuất khẩu, xem trước hoặc in tài liệu.
+
+Các tài liệu có thể bao gồm tất cả các bản ghi dữ liệu có sẵn, hoặc chỉ một phần của họ (ví dụ, dãy hàng dữ liệu được chỉ định, hoặc chỉ đơn hàng hiện được hiển thị). Dữ liệu hồ sơ có thể được tách ra bằng cách sử dụng một tách một loại được chọn.</value>
+  </data>
+  <data name="SnapStringId.FinishAndMergeCommand_MenuCaption" xml:space="preserve">
+    <value>Kết thúc &amp; &amp; sáp nhập</value>
+  </data>
+  <data name="SnapStringId.GroupByFieldCommand_Description" xml:space="preserve">
+    <value>Bấm vào để kích hoạt/vô hiệu hóa nhóm theo trường.
+
+Điều này sẽ phá vỡ danh sách vào nhóm với các lĩnh vực đã chọn được sử dụng như là một tiêu chí nhóm.</value>
+  </data>
+  <data name="SnapStringId.GroupByFieldCommand_MenuCaption" xml:space="preserve">
+    <value>Nhóm theo lĩnh vực</value>
+  </data>
+  <data name="SnapStringId.GroupFieldsCollectionCommand_Description" xml:space="preserve">
+    <value>Bấm vào để quản lý của nhóm các tiêu chí.
+
+Mỗi nhóm có thể có nhiều tiêu chí. Trong tài liệu này, một phần nhóm riêng biệt được tạo ra cho mỗi nhóm tiêu chí, tiêu đề và chân trang.</value>
+  </data>
+  <data name="SnapStringId.GroupFieldsCollectionCommand_MenuCaption" xml:space="preserve">
+    <value>Nhóm lĩnh vực</value>
+  </data>
+  <data name="SnapStringId.GroupFooterCommand_Description" xml:space="preserve">
+    <value>Bấm vào để thêm hoặc xoá một nhóm chân.
+
+Chân trang sẽ hiển thị kết quả tóm tắt chức năng nhóm. Theo mặc định, mục tiêu bản tóm tắt đang được tính toán, mà bạn có thể thay đổi bằng cách sử dụng tùy chọn tóm tắt trong lĩnh vực tab.
+
+Ẩn tiêu đề và chân trang của một nhóm sẽ vô hiệu hóa nhóm hoàn toàn.</value>
+  </data>
+  <data name="SnapStringId.GroupFooterCommand_MenuCaption" xml:space="preserve">
+    <value>Chân trang</value>
+  </data>
+  <data name="SnapStringId.GroupHeaderCommand_Description" xml:space="preserve">
+    <value>Bấm vào để thêm hoặc xoá một nhóm tiêu đề.
+
+Tiêu đề nhóm được tạo ra sau khi một nhóm đã được áp dụng bởi một lĩnh vực. Tiêu đề Hiển thị trường nhóm tiêu chí.
+
+Ẩn tiêu đề và chân trang của một nhóm sẽ vô hiệu hóa nhóm hoàn toàn.</value>
+  </data>
+  <data name="SnapStringId.GroupHeaderCommand_MenuCaption" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="SnapStringId.HighlightActiveElementCommand_Description" xml:space="preserve">
+    <value>Bấm vào để hiển thị thông tin về loại và giới hạn hiện tại của nguyên tố.</value>
+  </data>
+  <data name="SnapStringId.HighlightActiveElementCommand_MenuCaption" xml:space="preserve">
+    <value>Làm nổi bật</value>
+  </data>
+  <data name="SnapStringId.HotZonePainter_DropArguments" xml:space="preserve">
+    <value>Thả đối số</value>
+  </data>
+  <data name="SnapStringId.HotZonePainter_DropValues" xml:space="preserve">
+    <value>Thả giá trị</value>
+  </data>
+  <data name="SnapStringId.HotZonePainter_SecondLine" xml:space="preserve">
+    <value>ở đây</value>
+  </data>
+  <data name="SnapStringId.ImportTemplate_Text" xml:space="preserve">
+    <value>Nhập mẫu</value>
+  </data>
+  <data name="SnapStringId.InsertBarCodeCommand_Description" xml:space="preserve">
+    <value>Chèn một mã vạch có thể mã hóa một loạt các symbologies phổ biến.
+
+Tùy chỉnh mã vạch được chọn hiện thời, bấm vào nút Properties tab. lĩnh vực</value>
+  </data>
+  <data name="SnapStringId.InsertChartCommand_Description" xml:space="preserve">
+    <value>Chèn một đầy đủ tính năng biểu đồ họa đồ mà có thể lô hàng chục loại loạt khác nhau.
+
+Tùy chỉnh biểu đồ được chọn hiện thời, sử dụng tùy chọn tab thiết kế của chuyên mục trình đơn biểu đồ công cụ.</value>
+  </data>
+  <data name="SnapStringId.InsertChartCommand_MenuCaption" xml:space="preserve">
+    <value>Bảng xếp hạng</value>
+  </data>
+  <data name="SnapStringId.InsertCheckBoxCommand_Description" xml:space="preserve">
+    <value>Chèn một hộp kiểm để hiển thị giá trị Boolean (đúng/sai/Indeterminate).
+
+Để tuỳ chỉnh hộp kiểm đã chọn hiện thời, bấm vào nút Properties tab. lĩnh vực</value>
+  </data>
+  <data name="SnapStringId.InsertCheckBoxCommand_MenuCaption" xml:space="preserve">
+    <value>Hộp kiểm</value>
+  </data>
+  <data name="SnapStringId.InsertDataRowSeparatorCommand_Description" xml:space="preserve">
+    <value>Phân chia tài liệu thành phần bằng cách chèn một dấu phân cách thích hợp ở vị trí vận chuyển hiện tại.</value>
+  </data>
+  <data name="SnapStringId.InsertDataRowSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Máy phân loại</value>
+  </data>
+  <data name="SnapStringId.InsertEmptyParagraphDataRowSeparatorCommand_Description" xml:space="preserve">
+    <value>Đoạn rỗng</value>
+  </data>
+  <data name="SnapStringId.InsertEmptyParagraphDataRowSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Đoạn rỗng</value>
+  </data>
+  <data name="SnapStringId.InsertEmptyParagraphGroupSeparatorCommand_Description" xml:space="preserve">
+    <value>Đoạn rỗng</value>
+  </data>
+  <data name="SnapStringId.InsertEmptyParagraphGroupSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Đoạn rỗng</value>
+  </data>
+  <data name="SnapStringId.InsertEmptyRowDataRowSeparatorCommand_Description" xml:space="preserve">
+    <value>Sản phẩm nào hàng</value>
+  </data>
+  <data name="SnapStringId.InsertEmptyRowDataRowSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Sản phẩm nào hàng</value>
+  </data>
+  <data name="SnapStringId.InsertEmptyRowGroupSeparatorCommand_Description" xml:space="preserve">
+    <value>Sản phẩm nào hàng</value>
+  </data>
+  <data name="SnapStringId.InsertEmptyRowGroupSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Sản phẩm nào hàng</value>
+  </data>
+  <data name="SnapStringId.InsertGroupFooterCommand_Description" xml:space="preserve">
+    <value>Thêm chân</value>
+  </data>
+  <data name="SnapStringId.InsertGroupFooterCommand_MenuCaption" xml:space="preserve">
+    <value>Thêm chân</value>
+  </data>
+  <data name="SnapStringId.InsertGroupHeaderCommand_Description" xml:space="preserve">
+    <value>Thêm tiêu đề</value>
+  </data>
+  <data name="SnapStringId.InsertGroupHeaderCommand_MenuCaption" xml:space="preserve">
+    <value>Thêm tiêu đề</value>
+  </data>
+  <data name="SnapStringId.InsertGroupSeparatorCommand_Description" xml:space="preserve">
+    <value>Chọn một tách để delimit nhóm trong tài liệu.</value>
+  </data>
+  <data name="SnapStringId.InsertGroupSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Máy phân loại</value>
+  </data>
+  <data name="SnapStringId.InsertIndexCommand_Description" xml:space="preserve">
+    <value>Enumerates ghi dữ liệu một nguồn cột trong tài liệu.
+
+Để xác định chuỗi định dạng chỉ mục đang được chọn và xác định hành vi của nó khi trong nhóm, bấm vào nút Properties tab. lĩnh vực</value>
+  </data>
+  <data name="SnapStringId.InsertListFooterCommand_Description" xml:space="preserve">
+    <value>Thêm chân</value>
+  </data>
+  <data name="SnapStringId.InsertListFooterCommand_MenuCaption" xml:space="preserve">
+    <value>Thêm chân</value>
+  </data>
+  <data name="SnapStringId.InsertListHeaderCommand_Description" xml:space="preserve">
+    <value>Thêm tiêu đề</value>
+  </data>
+  <data name="SnapStringId.InsertListHeaderCommand_MenuCaption" xml:space="preserve">
+    <value>Thêm tiêu đề</value>
+  </data>
+  <data name="SnapStringId.InsertPageBreakDataRowSeparatorCommand_Description" xml:space="preserve">
+    <value>PageBreak</value>
+  </data>
+  <data name="SnapStringId.InsertPageBreakDataRowSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>PageBreak</value>
+  </data>
+  <data name="SnapStringId.InsertPageBreakGroupSeparatorCommand_Description" xml:space="preserve">
+    <value>Ngắt trang</value>
+  </data>
+  <data name="SnapStringId.InsertPageBreakGroupSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Ngắt trang</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakEvenPageDataRowSeparatorCommand_Description" xml:space="preserve">
+    <value>Phần (thậm chí trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakEvenPageDataRowSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Phần (thậm chí trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakEvenPageGroupSeparatorCommand_Description" xml:space="preserve">
+    <value>Phần (thậm chí trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakEvenPageGroupSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Phần (thậm chí trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakNextPageDataRowSeparatorCommand_Description" xml:space="preserve">
+    <value>Phần (tiếp theo trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakNextPageDataRowSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Phần (tiếp theo trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakNextPageGroupSeparatorCommand_Description" xml:space="preserve">
+    <value>Phần (tiếp theo trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakNextPageGroupSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Phần (tiếp theo trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakOddPageDataRowSeparatorCommand_Description" xml:space="preserve">
+    <value>Phần (lẻ trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakOddPageDataRowSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Phần (lẻ trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakOddPageGroupSeparatorCommand_Description" xml:space="preserve">
+    <value>Phần (lẻ trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSectionBreakOddPageGroupSeparatorCommand_MenuCaption" xml:space="preserve">
+    <value>Phần (lẻ trang)</value>
+  </data>
+  <data name="SnapStringId.InsertSparklineCommand_Description" xml:space="preserve">
+    <value>Chèn một biểu đồ nội tuyến thu nhỏ là thích hợp nhất để minh họa cho các biến thể chung của một giá trị cùng một khung thời gian.
+
+Để tuỳ chỉnh sparkline đã chọn hiện thời, bấm vào nút Properties tab. lĩnh vực</value>
+  </data>
+  <data name="SnapStringId.ListFooterCommand_Description" xml:space="preserve">
+    <value>Bấm vào để thêm hoặc loại bỏ một chân trang danh sách.
+
+Nó là trống theo mặc định. Bạn có thể sử dụng nó để trình bày tóm tắt danh sách và thông tin khác.</value>
+  </data>
+  <data name="SnapStringId.ListHeaderCommand_Description" xml:space="preserve">
+    <value>Bấm vào để thêm hoặc loại bỏ một tiêu đề danh sách.
+
+Nó bao gồm tiêu đề cột theo mặc định.</value>
+  </data>
+  <data name="SnapStringId.ListHeaderCommand_MenuCaption" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="SnapStringId.MailMergeCurrentRecord_Description" xml:space="preserve">
+    <value>Có thể nhìn thấy bản ghi nguồn dữ liệu kết hợp thư.</value>
+  </data>
+  <data name="SnapStringId.MailMergeCurrentRecord_MenuCaption" xml:space="preserve">
+    <value>Hiện nay kỷ lục</value>
+  </data>
+  <data name="SnapStringId.MailMergeDataSource_Description" xml:space="preserve">
+    <value>Chọn dữ liệu nguồn để sử dụng với kết hợp thư.
+
+Hãy chắc chắn để tiết kiệm các phiên bản tài liệu hiện tại trước khi thực hiện bất kỳ thay đổi nào với tùy chọn này. Một khi kết hợp thư được gán cho một nguồn dữ liệu, các tài liệu hiện tại được tái tạo, kết quả là một mất mát có thể bố trí trước.</value>
+  </data>
+  <data name="SnapStringId.MailMergeFilters_Description" xml:space="preserve">
+    <value>Lọc dữ liệu được cung cấp bởi một nguồn dữ liệu kết hợp thư.</value>
+  </data>
+  <data name="SnapStringId.MailMergeSorting_Description" xml:space="preserve">
+    <value>Sắp xếp dữ liệu được cung cấp bởi một nguồn dữ liệu kết hợp thư và sắp xếp kế vị phân loại cấp được áp dụng.</value>
+  </data>
+  <data name="SnapStringId.MenuCmd_DeleteTableCellStyle" xml:space="preserve">
+    <value>Xóa di động phong cách...</value>
+  </data>
+  <data name="SnapStringId.MenuCmd_ModifyTableCellStyle" xml:space="preserve">
+    <value>Sửa đổi di động phong cách...</value>
+  </data>
+  <data name="SnapStringId.MenuCmd_NewTableCellStyle" xml:space="preserve">
+    <value>Phong cách di động mới...</value>
+  </data>
+  <data name="SnapStringId.Msg_AssignChartDataSourceError" xml:space="preserve">
+    <value>Không thể liên kết một biểu đồ với các nguồn dữ liệu. Các ngoại lệ được ném:
+{0}</value>
+  </data>
+  <data name="SnapStringId.Msg_BindChartSeriesError" xml:space="preserve">
+    <value>Một loạt các bảng xếp hạng không thể sử dụng dữ liệu từ nguồn dữ liệu khác nhau.</value>
+  </data>
+  <data name="SnapStringId.Msg_CannotChangeDataSourceName" xml:space="preserve">
+    <value>Không thể thay đổi tên nguồn dữ liệu.</value>
+  </data>
+  <data name="SnapStringId.Msg_CannotDeleteDefaultTheme" xml:space="preserve">
+    <value>Không thể xoá chủ đề mặc định.</value>
+  </data>
+  <data name="SnapStringId.Msg_CannotPerformAsynchronousOperation" xml:space="preserve">
+    <value>Không thể thực hiện cùng một thao tác không đồng bộ trong nhiều đồng thời đề.</value>
+  </data>
+  <data name="SnapStringId.Msg_CollectionAlreadyContainsTheme" xml:space="preserve">
+    <value>Bộ sưu tập đã có một chủ đề tên {0}.</value>
+  </data>
+  <data name="SnapStringId.Msg_DataSourceNameExists" xml:space="preserve">
+    <value>Một nguồn dữ liệu có cùng tên đã tồn tại</value>
+  </data>
+  <data name="SnapStringId.Msg_FieldAlreadyDefinedAsGroupingCriterion" xml:space="preserve">
+    <value>Lĩnh vực {0} đã được định nghĩa như là một tiêu chí nhóm.</value>
+  </data>
+  <data name="SnapStringId.Msg_FieldDefinedAsSortingCriterionMoreThanOnce" xml:space="preserve">
+    <value>Lĩnh vực {0} có thể được định nghĩa như là một tiêu chí phân loại chỉ một.</value>
+  </data>
+  <data name="SnapStringId.Msg_FillDataError" xml:space="preserve">
+    <value>Lỗi khi cố gắng để xác định các DataSource. Ngoại lệ sau đã được ném:
+{0}</value>
+  </data>
+  <data name="SnapStringId.Msg_FilterCriteriaInvalidExpression" xml:space="preserve">
+    <value>Biểu thức được chỉ định chứa ký hiệu không hợp lệ (dòng {0}, nhân vật {1}).</value>
+  </data>
+  <data name="SnapStringId.Msg_FilterCriteriaInvalidExpressionEx" xml:space="preserve">
+    <value>Biểu thức được chỉ định là không hợp lệ.</value>
+  </data>
+  <data name="SnapStringId.Msg_IncompatibleArgumentDataMember" xml:space="preserve">
+    <value>Loại thành viên dữ liệu {0} đối số không tương thích với quy mô {1}.</value>
+  </data>
+  <data name="SnapStringId.Msg_IncompatibleValueDataMember" xml:space="preserve">
+    <value>Các loại thành viên dữ liệu giá trị {0} không tương thích với quy mô {1}.</value>
+  </data>
+  <data name="SnapStringId.Msg_InvalidCalculatedFieldName" xml:space="preserve">
+    <value>Tên trường tính toán được chỉ định là không hợp lệ: {0}.</value>
+  </data>
+  <data name="SnapStringId.Msg_InvalidDataSourceName" xml:space="preserve">
+    <value>Tên nguồn dữ liệu được chỉ định là không hợp lệ: {0}.</value>
+  </data>
+  <data name="SnapStringId.Msg_InvalidMailMergeCurrentRecord" xml:space="preserve">
+    <value>Giá trị không hợp lệ</value>
+  </data>
+  <data name="SnapStringId.Msg_MaintainDataSourceConnections" xml:space="preserve">
+    <value>Duy trì dữ liệu nguồn có tồn tại trong các tài liệu đang mở các kết nối không?</value>
+  </data>
+  <data name="SnapStringId.Msg_StopMailMerge" xml:space="preserve">
+    <value>Làm gián đoạn thực hiện báo cáo?</value>
+  </data>
+  <data name="SnapStringId.Msg_ThemeIsNotLoaded" xml:space="preserve">
+    <value>Chủ đề không nạp được. Không thể sử dụng các chủ đề {0}.</value>
+  </data>
+  <data name="SnapStringId.Msg_UnsupportedDocumentVersion" xml:space="preserve">
+    <value>Phiên bản không được hỗ trợ chụp tài liệu</value>
+  </data>
+  <data name="SnapStringId.NewDataSourceCommand_Description" xml:space="preserve">
+    <value>Kết nối tài liệu với một nguồn dữ liệu.</value>
+  </data>
+  <data name="SnapStringId.ProgressIndicationForm_Text" xml:space="preserve">
+    <value>Biểu diễn kết hợp thư...</value>
+  </data>
+  <data name="SnapStringId.PropertiesCommand_Description" xml:space="preserve">
+    <value>Truy cập vào các thuộc tính của một nguyên tố được gán cho các lĩnh vực. Để gán một yếu tố khác nhau cho trường, sử dụng tài sản loại nội dung.
+
+Để truy cập vào các tùy chọn dữ liệu của trường, sử dụng thuộc tính ràng buộc.</value>
+  </data>
+  <data name="SnapStringId.RecordSeparator_PageBreak" xml:space="preserve">
+    <value>Ngắt trang</value>
+  </data>
+  <data name="SnapStringId.RecordSeparator_SectionEvenPage" xml:space="preserve">
+    <value>Phần (thậm chí trang)</value>
+  </data>
+  <data name="SnapStringId.RecordSeparator_SectionNextPage" xml:space="preserve">
+    <value>Phần (tiếp theo trang)</value>
+  </data>
+  <data name="SnapStringId.RecordSeparator_SectionOddPage" xml:space="preserve">
+    <value>Phần (lẻ trang)</value>
+  </data>
+  <data name="SnapStringId.RemoveDataSourceCommand_Description" xml:space="preserve">
+    <value>Loại bỏ các nguồn dữ liệu được chỉ định.</value>
+  </data>
+  <data name="SnapStringId.RemoveDataSourceCommand_MenuCaption" xml:space="preserve">
+    <value>Loại bỏ các nguồn dữ liệu</value>
+  </data>
+  <data name="SnapStringId.RemoveGroupFooterCommand_Description" xml:space="preserve">
+    <value>Loại bỏ Footer</value>
+  </data>
+  <data name="SnapStringId.RemoveGroupFooterCommand_MenuCaption" xml:space="preserve">
+    <value>Loại bỏ Footer</value>
+  </data>
+  <data name="SnapStringId.RemoveGroupHeaderCommand_Description" xml:space="preserve">
+    <value>Loại bỏ tiêu đề</value>
+  </data>
+  <data name="SnapStringId.RemoveGroupHeaderCommand_MenuCaption" xml:space="preserve">
+    <value>Loại bỏ tiêu đề</value>
+  </data>
+  <data name="SnapStringId.RemoveListFooterCommand_Description" xml:space="preserve">
+    <value>Loại bỏ Footer</value>
+  </data>
+  <data name="SnapStringId.RemoveListFooterCommand_MenuCaption" xml:space="preserve">
+    <value>Loại bỏ Footer</value>
+  </data>
+  <data name="SnapStringId.RemoveListHeaderCommand_Description" xml:space="preserve">
+    <value>Loại bỏ tiêu đề</value>
+  </data>
+  <data name="SnapStringId.RemoveListHeaderCommand_MenuCaption" xml:space="preserve">
+    <value>Loại bỏ tiêu đề</value>
+  </data>
+  <data name="SnapStringId.ReorderReportStructureForm_Text" xml:space="preserve">
+    <value>Nhóm thứ tự biên tập</value>
+  </data>
+  <data name="SnapStringId.ReportExplorer_ListNode" xml:space="preserve">
+    <value>danh sách</value>
+  </data>
+  <data name="SnapStringId.RunChartDesignerCommand_Description" xml:space="preserve">
+    <value>Chạy thiết kế...</value>
+  </data>
+  <data name="SnapStringId.RunChartDesignerCommand_MenuCaption" xml:space="preserve">
+    <value>Chạy thiết kế...</value>
+  </data>
+  <data name="SnapStringId.ShowGroupSortingsCheckBox_Text" xml:space="preserve">
+    <value>Hiển thị nhóm Sortings</value>
+  </data>
+  <data name="SnapStringId.ShowReportStructureEditorForm_Description" xml:space="preserve">
+    <value>Chỉ định để áp dụng nhóm khả dụng.</value>
+  </data>
+  <data name="SnapStringId.ShowReportStructureEditorForm_MenuCaption" xml:space="preserve">
+    <value>Sắp xếp nhóm</value>
+  </data>
+  <data name="SnapStringId.SnapEntityAddLock" xml:space="preserve">
+    <value>Không thể thêm {0} mới trong khi cập nhật một lĩnh vực</value>
+  </data>
+  <data name="SnapStringId.SnapEntityRemoveLock" xml:space="preserve">
+    <value>Không thể loại bỏ các lĩnh vực trong khi cập nhật một số khác</value>
+  </data>
+  <data name="SnapStringId.SnapListLockException" xml:space="preserve">
+    <value>Cố gắng sửa đổi trước khi BeginUpdate() gọi</value>
+  </data>
+  <data name="SnapStringId.SnapListPropertyOutOfDataException" xml:space="preserve">
+    <value>Giá trị nằm ngoài dữ liệu, danh sách bất động sản phải được đọc lại sau khi EndUpdate() gọi</value>
+  </data>
+  <data name="SnapStringId.SnapListSecondBeginUpdateException" xml:space="preserve">
+    <value>Bản Cập Nhật trước đó nên được hoàn thành trước khi bắt đầu cái mới</value>
+  </data>
+  <data name="SnapStringId.SnapPrintCommand_Description" xml:space="preserve">
+    <value>Chọn một máy in, số lượng bản sao, và các tùy chọn in ấn trước khi in ấn.</value>
+  </data>
+  <data name="SnapStringId.SnapPrintCommand_MenuCaption" xml:space="preserve">
+    <value>&amp; Print...</value>
+  </data>
+  <data name="SnapStringId.SnapPrintPreviewCommand_Description" xml:space="preserve">
+    <value>Xem trước trang trước khi in ấn.</value>
+  </data>
+  <data name="SnapStringId.SnapPrintPreviewCommand_MenuCaption" xml:space="preserve">
+    <value>In trước &amp; xem...</value>
+  </data>
+  <data name="SnapStringId.SortFieldAscendingCommand_Description" xml:space="preserve">
+    <value>Bấm vào để sắp xếp (trong thứ tự tăng dần) bởi trường.</value>
+  </data>
+  <data name="SnapStringId.SortFieldDescendingCommand_Description" xml:space="preserve">
+    <value>Bấm vào để sắp xếp (trong thứ tự giảm dần) bởi trường.</value>
+  </data>
+  <data name="SnapStringId.Sorting_MenuCaption" xml:space="preserve">
+    <value>Phân loại</value>
+  </data>
+  <data name="SnapStringId.SortingForm_OrderColumnCaption" xml:space="preserve">
+    <value>Đặt hàng</value>
+  </data>
+  <data name="SnapStringId.SummaryCommand_Description" xml:space="preserve">
+    <value>Chọn các chức năng tóm tắt để tính toán cho lĩnh vực.
+
+Kết quả tóm tắt chức năng sẽ được hiển thị tại chân trang danh sách đó được thực hiện có thể nhìn thấy nếu nó trước đó không.</value>
+  </data>
+  <data name="SnapStringId.SummaryCommand_MenuCaption" xml:space="preserve">
+    <value>Tóm tắt</value>
+  </data>
+  <data name="SnapStringId.SummaryTooltip" xml:space="preserve">
+    <value>Calculates chức năng tóm tắt {0} bởi trường {1} cho {2}</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_DataRow" xml:space="preserve">
+    <value>DataRow</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_GroupFooter" xml:space="preserve">
+    <value>GroupFooter</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_GroupHeader" xml:space="preserve">
+    <value>GroupHeader</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_GroupSeparator" xml:space="preserve">
+    <value>GroupSeparator</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_ListFooter" xml:space="preserve">
+    <value>ListFooter</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_ListHeader" xml:space="preserve">
+    <value>ListHeader</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_Separator" xml:space="preserve">
+    <value>Máy phân loại</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_WholeGroup" xml:space="preserve">
+    <value>WholeGroup</value>
+  </data>
+  <data name="SnapStringId.TemplateDecoratorType_WholeList" xml:space="preserve">
+    <value>WholeList</value>
+  </data>
+  <data name="SnapStringId.ThemeName_ContrastCyan" xml:space="preserve">
+    <value>Tương phản Cyan</value>
+  </data>
+  <data name="SnapStringId.ThemeName_ContrastOrange" xml:space="preserve">
+    <value>Tương phản màu da cam</value>
+  </data>
+  <data name="SnapStringId.ThemeName_ContrastRed" xml:space="preserve">
+    <value>Tương phản màu đỏ</value>
+  </data>
+  <data name="SnapStringId.ThemeName_ContrastSalmon" xml:space="preserve">
+    <value>Cá hồi tương phản</value>
+  </data>
+  <data name="SnapStringId.ThemeName_ContrastYellow" xml:space="preserve">
+    <value>Tương phản màu vàng</value>
+  </data>
+  <data name="SnapStringId.ThemeName_DodgerBlue" xml:space="preserve">
+    <value>Dodger Blue</value>
+  </data>
+  <data name="SnapStringId.ThemeName_FormalBlue" xml:space="preserve">
+    <value>Chính thức Blue</value>
+  </data>
+  <data name="SnapStringId.ThemeName_MildBlue" xml:space="preserve">
+    <value>Blue nhẹ</value>
+  </data>
+  <data name="SnapStringId.ThemeName_MildBrown" xml:space="preserve">
+    <value>Nhẹ Brown</value>
+  </data>
+  <data name="SnapStringId.ThemeName_MildCyan" xml:space="preserve">
+    <value>Nhẹ Cyan</value>
+  </data>
+  <data name="SnapStringId.ThemeName_MildViolet" xml:space="preserve">
+    <value>Nhẹ màu tím</value>
+  </data>
+  <data name="SnapStringId.ThemeName_SoftLilac" xml:space="preserve">
+    <value>Mềm Lilac</value>
+  </data>
+  <data name="SnapStringId.ToggleFieldHighlighting_Description" xml:space="preserve">
+    <value>Xác định các yếu tố năng động trong tài liệu.</value>
+  </data>
+  <data name="SnapStringId.ToggleFieldHighlighting_MenuCaption" xml:space="preserve">
+    <value>Làm nổi bật các lĩnh vực</value>
+  </data>
+</root>

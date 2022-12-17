@@ -3,7 +3,8 @@
   <ActionDesign>
     <Actions>
       <Action Id="ChangePasswordByUser" Caption="Thay đổi mật khẩu" />
-      <Action Id="Delete" Caption="Xoá" />
+      <Action Id="Delete" Caption="Xoá" ConfirmationMessage="Bạn sắp xóa (các) bản ghi đã chọn. Bạn có muốn tiếp tục?" />
+      <Action Id="Delete Item" ConfirmationMessage="Bạn sắp xóa (các) mục đã chọn. Bạn có muốn tiếp tục?" />
       <Action Id="DialogClose" Caption="Đóng" />
       <Action Id="FullTextSearch" NullValuePrompt="Từ khoá tìm kiếm..." />
       <Action Id="GiayChungNhan.CloseAction" Caption="Đóng" />

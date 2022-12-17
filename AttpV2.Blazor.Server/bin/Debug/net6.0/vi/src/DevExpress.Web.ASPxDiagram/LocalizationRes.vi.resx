@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxDiagramStringId.Properties_Style_Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorLineEndingNone" xml:space="preserve">
+    <value>Trống</value>
+  </data>
+  <data name="ASPxDiagramStringId.Toolbox_General" xml:space="preserve">
+    <value>Tổng quát</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Layout" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="ASPxDiagramStringId.Toolbox_Custom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageOrientationLandscape" xml:space="preserve">
+    <value>Hướng ngang</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Diagram_Page" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Style" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ASPxDiagramStringId.Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Database" xml:space="preserve">
+    <value>Cơ sở dữ liệu</value>
+  </data>
+  <data name="ASPxDiagramStringId.Dialog_Button_Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="ASPxDiagramStringId.Dialog_Button_OK" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Document" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="ASPxDiagramStringId.SelectAll" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="ASPxDiagramStringId.ToolboxSearchNullText" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="ASPxDiagramStringId.Redo" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="ASPxDiagramStringId.Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Data" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageSize" xml:space="preserve">
+    <value>Kích cỡ</value>
+  </data>
+  <data name="ASPxDiagramStringId.Copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextUnderline" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Or" xml:space="preserve">
+    <value>Hoặc</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextBold" xml:space="preserve">
+    <value>Đậm</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextItalic" xml:space="preserve">
+    <value>Nghiêng</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorType" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="ASPxDiagramStringId.Cut" xml:space="preserve">
+    <value>Cắt</value>
+  </data>
+  <data name="ASPxDiagramStringId.Paste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorStart" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="ASPxDiagramStringId.Export" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageOrientation" xml:space="preserve">
+    <value>Hướng</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Cross" xml:space="preserve">
+    <value>Chữ thập</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Rectangle" xml:space="preserve">
+    <value>Hình chữ nhật</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Style_Object" xml:space="preserve">
+    <value>Đối tượng</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Merge" xml:space="preserve">
+    <value>Hợp nhất</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorEnd" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="ASPxDiagramStringId.AutoZoomByContent" xml:space="preserve">
+    <value>tự động thu phóng bởi nội dung</value>
+  </data>
+  <data name="ASPxDiagramStringId.AutoZoomByWidth" xml:space="preserve">
+    <value>tự động thu phóng bằng chiều rộng</value>
+  </data>
+  <data name="ASPxDiagramStringId.BringToFront" xml:space="preserve">
+    <value>Mang đến trước</value>
+  </data>
+  <data name="ASPxDiagramStringId.ChangeShapeImage" xml:space="preserve">
+    <value>thay đổi hình ảnh...</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorLineEndingArrow" xml:space="preserve">
+    <value>Mũi tên</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorTypeOrthogonal" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorTypeStraight" xml:space="preserve">
+    <value>Thẳng</value>
+  </data>
+  <data name="ASPxDiagramStringId.DeleteShapeImage" xml:space="preserve">
+    <value>Hình ảnh xóa hình dạng</value>
+  </data>
+  <data name="ASPxDiagramStringId.Dialog_ShapeImage_Change_Header" xml:space="preserve">
+    <value>Thay đổi hình ảnh</value>
+  </data>
+  <data name="ASPxDiagramStringId.Dialog_ShapeImage_Insert_Header" xml:space="preserve">
+    <value>Chèn hình ảnh</value>
+  </data>
+  <data name="ASPxDiagramStringId.Dialog_ShapeImage_Upload_Caption" xml:space="preserve">
+    <value>Duyệt máy tính của bạn cho các tập tin hình ảnh để tải lên</value>
+  </data>
+  <data name="ASPxDiagramStringId.FillColor" xml:space="preserve">
+    <value>Điền vào màu</value>
+  </data>
+  <data name="ASPxDiagramStringId.FitToContent" xml:space="preserve">
+    <value>Phù hợp với nội dung</value>
+  </data>
+  <data name="ASPxDiagramStringId.FitToWidth" xml:space="preserve">
+    <value>Vừa chiều rộng</value>
+  </data>
+  <data name="ASPxDiagramStringId.Fullscreen" xml:space="preserve">
+    <value>Toàn màn hình</value>
+  </data>
+  <data name="ASPxDiagramStringId.InsertShapeImage" xml:space="preserve">
+    <value>Chèn hình ảnh hình...</value>
+  </data>
+  <data name="ASPxDiagramStringId.LayoutBottomToTop" xml:space="preserve">
+    <value>Dưới đầu trang</value>
+  </data>
+  <data name="ASPxDiagramStringId.LayoutLeftToRight" xml:space="preserve">
+    <value>Trái-qua-phải</value>
+  </data>
+  <data name="ASPxDiagramStringId.LayoutRightToLeft" xml:space="preserve">
+    <value>Phải-qua-trái</value>
+  </data>
+  <data name="ASPxDiagramStringId.LayoutTopToBottom" xml:space="preserve">
+    <value>Trên dưới cùng</value>
+  </data>
+  <data name="ASPxDiagramStringId.LineColor" xml:space="preserve">
+    <value>Line color</value>
+  </data>
+  <data name="ASPxDiagramStringId.LineStyle" xml:space="preserve">
+    <value>Phong cách dòng</value>
+  </data>
+  <data name="ASPxDiagramStringId.LineStyleDashed" xml:space="preserve">
+    <value>Tiêu tan</value>
+  </data>
+  <data name="ASPxDiagramStringId.LineStyleDotted" xml:space="preserve">
+    <value>Rải rác</value>
+  </data>
+  <data name="ASPxDiagramStringId.LineStyleSolid" xml:space="preserve">
+    <value>Rắn</value>
+  </data>
+  <data name="ASPxDiagramStringId.LineWidth" xml:space="preserve">
+    <value>Độ rộng đường</value>
+  </data>
+  <data name="ASPxDiagramStringId.Lock" xml:space="preserve">
+    <value>Khóa</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageColor" xml:space="preserve">
+    <value>Page color</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageOrientationPortrait" xml:space="preserve">
+    <value>Gương điển hình</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Diagram" xml:space="preserve">
+    <value>Sơ đồ</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Layout_Layered" xml:space="preserve">
+    <value>Lớp</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Layout_Tree" xml:space="preserve">
+    <value>Cây</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Style_Connector" xml:space="preserve">
+    <value>Kết nối</value>
+  </data>
+  <data name="ASPxDiagramStringId.SendToBack" xml:space="preserve">
+    <value>Gửi để trở lại</value>
+  </data>
+  <data name="ASPxDiagramStringId.Settings" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ArrowDown" xml:space="preserve">
+    <value>Mũi tên xuống</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ArrowLeft" xml:space="preserve">
+    <value>Mũi tên trái</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ArrowLeftRight" xml:space="preserve">
+    <value>Trái mũi</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ArrowRight" xml:space="preserve">
+    <value>Mũi tên bên phải</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ArrowUp" xml:space="preserve">
+    <value>Mũi tên lên</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ArrowUpDown" xml:space="preserve">
+    <value>lên xuống</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_CardDefaultText" xml:space="preserve">
+    <value>tên của người</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_CardWithImageOnLeft" xml:space="preserve">
+    <value>với hình ảnh trên</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_CardWithImageOnRight" xml:space="preserve">
+    <value>thẻ trái với hình ảnh trên thẻ phù hợp</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_CardWithImageOnTop" xml:space="preserve">
+    <value>với hình ảnh trên đầu trang</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Connector" xml:space="preserve">
+    <value>Kết nối</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ContainerDefaultText" xml:space="preserve">
+    <value>Container</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Decision" xml:space="preserve">
+    <value>Quyết định</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Delay" xml:space="preserve">
+    <value>chậm trễ</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Diamond" xml:space="preserve">
+    <value>Kim cương</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Display" xml:space="preserve">
+    <value>Màn hình hiển thị</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Ellipse" xml:space="preserve">
+    <value>Hình elip</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_HardDisk" xml:space="preserve">
+    <value>đĩa cứng</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Heart" xml:space="preserve">
+    <value>Trái tim</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Hexagon" xml:space="preserve">
+    <value>Hình lục giác</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_HorizontalContainer" xml:space="preserve">
+    <value>ngang</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_InternalStorage" xml:space="preserve">
+    <value>Lưu trữ nội bộ</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ManualInput" xml:space="preserve">
+    <value>hướng dẫn sử dụng nhập thủ</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_ManualOperation" xml:space="preserve">
+    <value>công hoạt động</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_MultipleDocuments" xml:space="preserve">
+    <value>Nhiều tài liệu</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Octagon" xml:space="preserve">
+    <value>Octagon</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_PaperTape" xml:space="preserve">
+    <value>giấy băng</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Pentagon" xml:space="preserve">
+    <value>Lầu năm góc</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_PredefinedProcess" xml:space="preserve">
+    <value>quy trình</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Preparation" xml:space="preserve">
+    <value>chuẩn bị</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Process" xml:space="preserve">
+    <value>Quá trình</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Star" xml:space="preserve">
+    <value>Ngôi sao</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_StoredData" xml:space="preserve">
+    <value>lưu trữ dữ liệu</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_SummingJunction" xml:space="preserve">
+    <value>summing Junction</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Terminator" xml:space="preserve">
+    <value>Kẻ hủy diệt</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Triangle" xml:space="preserve">
+    <value>Tam giác</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_VerticalContainer" xml:space="preserve">
+    <value>Vertical container</value>
+  </data>
+  <data name="ASPxDiagramStringId.ShowGrid" xml:space="preserve">
+    <value>Hiển thị lưới</value>
+  </data>
+  <data name="ASPxDiagramStringId.ShowToolbox" xml:space="preserve">
+    <value>Hiển thị hộp công cụ</value>
+  </data>
+  <data name="ASPxDiagramStringId.SimpleView" xml:space="preserve">
+    <value>Diện đơn giản</value>
+  </data>
+  <data name="ASPxDiagramStringId.SnapToGrid" xml:space="preserve">
+    <value>Snap để lưới</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextAlignCenter" xml:space="preserve">
+    <value>Căn Trung tâm</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextAlignLeft" xml:space="preserve">
+    <value>Align left</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextAlignRight" xml:space="preserve">
+    <value>Align right</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextFontColor" xml:space="preserve">
+    <value>Màu sắc font</value>
+  </data>
+  <data name="ASPxDiagramStringId.Toolbox_Containers" xml:space="preserve">
+    <value>Container</value>
+  </data>
+  <data name="ASPxDiagramStringId.Toolbox_Flowchart" xml:space="preserve">
+    <value>flowchart</value>
+  </data>
+  <data name="ASPxDiagramStringId.Toolbox_OrgChart" xml:space="preserve">
+    <value>org biểu đồ</value>
+  </data>
+  <data name="ASPxDiagramStringId.UnitCm" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="ASPxDiagramStringId.UnitIn" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="ASPxDiagramStringId.UnitPx" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="ASPxDiagramStringId.Unlock" xml:space="preserve">
+    <value>mở khóa</value>
+  </data>
+  <data name="ASPxDiagramStringId.ViewUnits" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+</root>
