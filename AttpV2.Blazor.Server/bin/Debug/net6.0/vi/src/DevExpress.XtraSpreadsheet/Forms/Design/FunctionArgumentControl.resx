@@ -147,7 +147,7 @@
     <value>lblResult</value>
   </data>
   <data name="&gt;&gt;lblResult.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblResult.Parent" xml:space="preserve">
     <value>functionArgumentControlLayoutControl</value>
@@ -174,7 +174,7 @@
     <value>labelControl1</value>
   </data>
   <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
     <value>functionArgumentControlLayoutControl</value>
@@ -198,7 +198,7 @@
     <value>edtValue</value>
   </data>
   <data name="&gt;&gt;edtValue.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.ReferenceEditControl, DevExpress.XtraSpreadsheet.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.ReferenceEditControl, DevExpress.XtraSpreadsheet.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtValue.Parent" xml:space="preserve">
     <value>functionArgumentControlLayoutControl</value>
@@ -222,7 +222,7 @@
     <value>functionArgumentControlLayoutControl</value>
   </data>
   <data name="&gt;&gt;functionArgumentControlLayoutControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;functionArgumentControlLayoutControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -237,7 +237,7 @@
     <value>lblName</value>
   </data>
   <data name="&gt;&gt;lblName.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
     <value>functionArgumentControlLayoutControl</value>
@@ -262,36 +262,36 @@
     <value>Root</value>
   </data>
   <data name="&gt;&gt;Root.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblNameLayoutControlItem.Name" xml:space="preserve">
     <value>lblNameLayoutControlItem</value>
   </data>
   <data name="&gt;&gt;lblNameLayoutControlItem.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl1LayoutControlItem.Name" xml:space="preserve">
     <value>labelControl1LayoutControlItem</value>
   </data>
   <data name="&gt;&gt;labelControl1LayoutControlItem.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblResultLayoutControlItem.Name" xml:space="preserve">
     <value>lblResultLayoutControlItem</value>
   </data>
   <data name="&gt;&gt;lblResultLayoutControlItem.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtValueLayoutControlItem.Name" xml:space="preserve">
     <value>edtValueLayoutControlItem</value>
   </data>
   <data name="&gt;&gt;edtValueLayoutControlItem.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FunctionArgumentControl</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v23.1, Culture=neutral</value>
   </data>
 </root>

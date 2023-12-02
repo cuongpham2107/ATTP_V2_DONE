@@ -20,34 +20,44 @@
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.ExpressApp" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.AuditTrail.Xpo" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.CloneObject.Xpo" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Dashboards" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Objects" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Office" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.ReportsV2" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.StateMachine" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.ViewVariantsModule" Version="22.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="22.1.5" />
-    <PackageReference Include="DevExpress.Persistent.Base" Version="22.1.5" />
-    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="22.1.5" />
+    <PackageReference Include="DevExpress.ExpressApp" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.AuditTrail.Xpo" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.CloneObject.Xpo" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Dashboards" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Objects" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Office" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.ReportsV2" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.StateMachine" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.ViewVariantsModule" Version="22.2.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="22.2.5" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="22.2.5" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="22.2.5" />
     <PackageReference Include="MySql.Data" Version="8.0.31" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="DevExpress.ExpressApp.Blazor.v22.1">
-      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 22.1\Components\Offline Packages\devexpress.expressapp.blazor\22.1.5\lib\net6.0\DevExpress.ExpressApp.Blazor.v22.1.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Update="UnusableNodes.xml">
       <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
     </None>
     <None Update="UnusableNodes1.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+    </None>
+    <None Update="UnusableNodes11.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+    </None>
+    <None Update="UnusableNodes12.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+    </None>
+    <None Update="UnusableNodes13.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+    </None>
+    <None Update="UnusableNodes14.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+    </None>
+    <None Update="UnusableNodes15.xml">
       <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
     </None>
     <None Update="UnusableNodes2.xml">

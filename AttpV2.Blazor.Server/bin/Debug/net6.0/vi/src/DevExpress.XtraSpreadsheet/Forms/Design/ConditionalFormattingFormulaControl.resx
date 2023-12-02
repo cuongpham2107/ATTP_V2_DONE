@@ -150,7 +150,7 @@
     <value>edtValuesConditionalFormatting</value>
   </data>
   <data name="&gt;&gt;edtValuesConditionalFormatting.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.ReferenceEditControl, DevExpress.XtraSpreadsheet.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.ReferenceEditControl, DevExpress.XtraSpreadsheet.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtValuesConditionalFormatting.Parent" xml:space="preserve">
     <value>conditionalFormattingFormulaControlLayoutControl</value>
@@ -178,7 +178,7 @@
     <value>conditionalFormattingFormulaControlLayoutControl</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormulaControlLayoutControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;conditionalFormattingFormulaControlLayoutControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -196,7 +196,7 @@
     <value>lblFormatValuesWhereFormulaIsTrue</value>
   </data>
   <data name="&gt;&gt;lblFormatValuesWhereFormulaIsTrue.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFormatValuesWhereFormulaIsTrue.Parent" xml:space="preserve">
     <value>conditionalFormattingFormulaControlLayoutControl</value>
@@ -223,24 +223,24 @@
     <value>Root</value>
   </data>
   <data name="&gt;&gt;Root.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFormatValuesWhereFormulaIsTrueLayoutControlItem.Name" xml:space="preserve">
     <value>lblFormatValuesWhereFormulaIsTrueLayoutControlItem</value>
   </data>
   <data name="&gt;&gt;lblFormatValuesWhereFormulaIsTrueLayoutControlItem.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtValuesConditionalFormattingLayoutControlItem.Name" xml:space="preserve">
     <value>edtValuesConditionalFormattingLayoutControlItem</value>
   </data>
   <data name="&gt;&gt;edtValuesConditionalFormattingLayoutControlItem.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ConditionalFormattingFormulaControl</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v23.1, Culture=neutral</value>
   </data>
 </root>

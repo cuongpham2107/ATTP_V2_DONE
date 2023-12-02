@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\ATTP_V2_DONE\API.WebApi\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-11-09T09:25:25.1565814Z;True|2023-11-09T15:33:51.7999860+07:00;True|2023-11-07T14:32:15.0912861+07:00;True|2023-07-22T09:10:45.8483708+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

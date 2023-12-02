@@ -135,7 +135,7 @@
     <value>selectFileButton</value>
   </data>
   <data name="&gt;&gt;selectFileButton.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;selectFileButton.Parent" xml:space="preserve">
     <value>btnsPanel</value>
@@ -159,7 +159,7 @@
     <value>applyButton</value>
   </data>
   <data name="&gt;&gt;applyButton.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;applyButton.Parent" xml:space="preserve">
     <value>btnsPanel</value>
@@ -181,7 +181,7 @@
     <value>btnsPanel</value>
   </data>
   <data name="&gt;&gt;btnsPanel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.Internal.StackPanelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.Internal.StackPanelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnsPanel.Parent" xml:space="preserve">
     <value>pnlBottom</value>
@@ -199,7 +199,7 @@
     <value>closeButton</value>
   </data>
   <data name="&gt;&gt;closeButton.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;closeButton.Parent" xml:space="preserve">
     <value>btnsPanel</value>
@@ -220,7 +220,7 @@
     <value>productLabel</value>
   </data>
   <data name="&gt;&gt;productLabel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;productLabel.Parent" xml:space="preserve">
     <value>pnlBottom</value>
@@ -241,7 +241,7 @@
     <value>pnlBottom</value>
   </data>
   <data name="&gt;&gt;pnlBottom.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SidePanel, DevExpress.Utils.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SidePanel, DevExpress.Utils.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;pnlBottom.Parent" xml:space="preserve">
     <value>pnlMainForm</value>
@@ -283,7 +283,7 @@
     <value>imagePanel</value>
   </data>
   <data name="&gt;&gt;imagePanel.Type" xml:space="preserve">
-    <value>DevExpress.Drawing.Design.ImagePanel, DevExpress.Utils.v22.2.UI, Culture=neutral</value>
+    <value>DevExpress.Drawing.Design.ImagePanel, DevExpress.Utils.v23.1.UI, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;imagePanel.Parent" xml:space="preserve">
     <value>pnlFrame</value>
@@ -304,7 +304,7 @@
     <value>pnlFrame</value>
   </data>
   <data name="&gt;&gt;pnlFrame.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;pnlFrame.Parent" xml:space="preserve">
     <value>pnlMainForm</value>
@@ -331,12 +331,12 @@
     <value>behaviorManager1</value>
   </data>
   <data name="&gt;&gt;behaviorManager1.Type" xml:space="preserve">
-    <value>DevExpress.Utils.Behaviors.BehaviorManager, DevExpress.Utils.v22.2, Culture=neutral</value>
+    <value>DevExpress.Utils.Behaviors.BehaviorManager, DevExpress.Utils.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>DXImageEditorForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.Utils.Design.DesignTimeEditorForm, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.Utils.Design.DesignTimeEditorForm, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
 </root>

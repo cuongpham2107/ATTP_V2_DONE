@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttpV2.Module", "AttpV2.Mod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttpV2.Blazor.Server", "AttpV2.Blazor.Server\AttpV2.Blazor.Server.csproj", "{E3CB8775-E1B0-4C8C-A2AC-3D399D516685}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.WebApi", "API.WebApi\API.WebApi.csproj", "{1D395084-B5BF-4E9D-B791-A6145252C31A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,12 @@ Global
 		{E3CB8775-E1B0-4C8C-A2AC-3D399D516685}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
 		{E3CB8775-E1B0-4C8C-A2AC-3D399D516685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3CB8775-E1B0-4C8C-A2AC-3D399D516685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D395084-B5BF-4E9D-B791-A6145252C31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D395084-B5BF-4E9D-B791-A6145252C31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D395084-B5BF-4E9D-B791-A6145252C31A}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{1D395084-B5BF-4E9D-B791-A6145252C31A}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{1D395084-B5BF-4E9D-B791-A6145252C31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D395084-B5BF-4E9D-B791-A6145252C31A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tWpnQSvYrhFy15GdFX37isFhuErMWVguQ0OVk4sYsBM=",
+  "Source": "API.WebApi",
+  "BasePath": "_content/API.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

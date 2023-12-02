@@ -123,14 +123,14 @@
   <data name="groupMargin.Text" xml:space="preserve">
     <value>Lề</value>
   </data>
-  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.Utils.v23.1" name="DevExpress.Utils.v23.1, Culture=neutral"></assembly>
   <data name="cbDirection.Properties.Items" xml:space="preserve">
     <value>Ngang</value>
   </data>
   <data name="cbDirection.Properties.Items1" xml:space="preserve">
     <value>Dọc</value>
   </data>
-  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.XtraEditors.v23.1" name="DevExpress.XtraEditors.v23.1, Culture=neutral"></assembly>
   <data name="tbGeneral.Text" xml:space="preserve">
     <value>Tổng quát</value>
   </data>

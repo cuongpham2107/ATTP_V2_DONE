@@ -1,4 +1,5 @@
-﻿using DevExpress.ExpressApp;
+﻿using System;
+using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.Core;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Security;
@@ -12,14 +13,16 @@ public sealed class ObjectSpaceProviderFactory : IObjectSpaceProviderFactory {
     readonly ITypesInfo typesInfo;
     readonly IXpoDataStoreProvider dataStoreProvider;
 
-    public ObjectSpaceProviderFactory(ISecurityStrategyBase security, ITypesInfo typesInfo, IXpoDataStoreProvider dataStoreProvider) {
+    readonly IServiceProvider serviceProvider;
+    public ObjectSpaceProviderFactory(IServiceProvider serviceProvider, ISecurityStrategyBase security, ITypesInfo typesInfo, IXpoDataStoreProvider dataStoreProvider) {
         this.security = security;
+        this.serviceProvider = serviceProvider;
         this.typesInfo = typesInfo;
         this.dataStoreProvider = dataStoreProvider;
     }
 
     public IEnumerable<IObjectSpaceProvider> CreateObjectSpaceProviders() {
         yield return new SecuredObjectSpaceProvider((ISelectDataSecurityProvider)security, dataStoreProvider, true);
-        yield return new NonPersistentObjectSpaceProvider(typesInfo, null);
+        yield return new NonPersistentObjectSpaceProvider(serviceProvider, typesInfo, null);
     }
 }

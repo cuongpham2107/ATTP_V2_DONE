@@ -132,8 +132,8 @@
   <data name="tbAppearance.Text" xml:space="preserve">
     <value>Hình dạng</value>
   </data>
-  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Culture=neutral"></assembly>
-  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.Utils.v23.1" name="DevExpress.Utils.v23.1, Culture=neutral"></assembly>
+  <assembly alias="DevExpress.XtraEditors.v23.1" name="DevExpress.XtraEditors.v23.1, Culture=neutral"></assembly>
   <data name="lblColor.Text" xml:space="preserve">
     <value>Màu:</value>
   </data>

@@ -103,11 +103,14 @@ namespace AttpV2.Module.BusinessObjects
             //get => coQuanQuanLy;
             get
             {
+               
                 var account = Session.GetObjectByKey<ApplicationUser>(SecuritySystem.CurrentUserId);
 
                 if (account.Roles.Any(r => r.Name == "Administrators" || r.Name == "Managers"))
                     return coQuanQuanLy;
                 return account.CoquanQuanly;
+             
+
             }
             set => SetPropertyValue(nameof(CoQuanQuanLy), ref coQuanQuanLy, value);
         }

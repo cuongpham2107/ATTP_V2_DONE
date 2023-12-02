@@ -157,7 +157,7 @@
     <value>edtValue</value>
   </data>
   <data name="&gt;&gt;edtValue.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtValue.Parent" xml:space="preserve">
     <value>lcEdits</value>
@@ -184,7 +184,7 @@
     <value>edtDefinedNames</value>
   </data>
   <data name="&gt;&gt;edtDefinedNames.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtDefinedNames.Parent" xml:space="preserve">
     <value>lcEdits</value>
@@ -223,7 +223,7 @@
     <value>rgrpYesNo</value>
   </data>
   <data name="&gt;&gt;rgrpYesNo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;rgrpYesNo.Parent" xml:space="preserve">
     <value>lcEdits</value>
@@ -250,7 +250,7 @@
     <value>lcEdits</value>
   </data>
   <data name="&gt;&gt;lcEdits.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lcEdits.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -274,7 +274,7 @@
     <value>lblValue</value>
   </data>
   <data name="&gt;&gt;lblValue.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblValue.Parent" xml:space="preserve">
     <value>lcLabels</value>
@@ -298,7 +298,7 @@
     <value>lblSource</value>
   </data>
   <data name="&gt;&gt;lblSource.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSource.Parent" xml:space="preserve">
     <value>lcLabels</value>
@@ -325,7 +325,7 @@
     <value>lcLabels</value>
   </data>
   <data name="&gt;&gt;lcLabels.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lcLabels.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -355,7 +355,7 @@
     <value>btnModify</value>
   </data>
   <data name="&gt;&gt;btnModify.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnModify.Parent" xml:space="preserve">
     <value>lcButtons</value>
@@ -385,7 +385,7 @@
     <value>btnAdd</value>
   </data>
   <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
     <value>lcButtons</value>
@@ -415,7 +415,7 @@
     <value>btnDelete</value>
   </data>
   <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
     <value>lcButtons</value>
@@ -442,7 +442,7 @@
     <value>lcButtons</value>
   </data>
   <data name="&gt;&gt;lcButtons.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lcButtons.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -475,7 +475,7 @@
     <value>btnOk</value>
   </data>
   <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -526,7 +526,7 @@
     <value>grid</value>
   </data>
   <data name="&gt;&gt;grid.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;grid.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -553,7 +553,7 @@
     <value>lblProperties</value>
   </data>
   <data name="&gt;&gt;lblProperties.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblProperties.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -580,7 +580,7 @@
     <value>chkLinkToContent</value>
   </data>
   <data name="&gt;&gt;chkLinkToContent.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkLinkToContent.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -607,7 +607,7 @@
     <value>edtType</value>
   </data>
   <data name="&gt;&gt;edtType.Type" xml:space="preserve">
-    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraSpreadsheet.Forms.Design.SpreadsheetLookUpEdit, DevExpress.XtraSpreadsheet.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtType.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -631,7 +631,7 @@
     <value>lblType</value>
   </data>
   <data name="&gt;&gt;lblType.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -658,7 +658,7 @@
     <value>lstPredefinedProperties</value>
   </data>
   <data name="&gt;&gt;lstPredefinedProperties.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lstPredefinedProperties.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -685,7 +685,7 @@
     <value>edtName</value>
   </data>
   <data name="&gt;&gt;edtName.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtName.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -709,7 +709,7 @@
     <value>lblName</value>
   </data>
   <data name="&gt;&gt;lblName.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -736,7 +736,7 @@
     <value>chkSystem</value>
   </data>
   <data name="&gt;&gt;chkSystem.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkSystem.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -763,7 +763,7 @@
     <value>chkArchive</value>
   </data>
   <data name="&gt;&gt;chkArchive.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkArchive.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -790,7 +790,7 @@
     <value>chkHidden</value>
   </data>
   <data name="&gt;&gt;chkHidden.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkHidden.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -817,7 +817,7 @@
     <value>chkReadOnly</value>
   </data>
   <data name="&gt;&gt;chkReadOnly.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;chkReadOnly.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -841,7 +841,7 @@
     <value>lblAttributes</value>
   </data>
   <data name="&gt;&gt;lblAttributes.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblAttributes.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -865,7 +865,7 @@
     <value>lblFileName</value>
   </data>
   <data name="&gt;&gt;lblFileName.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFileName.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -892,7 +892,7 @@
     <value>edtFileAccessed</value>
   </data>
   <data name="&gt;&gt;edtFileAccessed.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFileAccessed.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -919,7 +919,7 @@
     <value>edtFileName</value>
   </data>
   <data name="&gt;&gt;edtFileName.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFileName.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -946,7 +946,7 @@
     <value>edtFileModified</value>
   </data>
   <data name="&gt;&gt;edtFileModified.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFileModified.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -970,7 +970,7 @@
     <value>lblFileAccessed</value>
   </data>
   <data name="&gt;&gt;lblFileAccessed.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFileAccessed.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -997,7 +997,7 @@
     <value>edtFileCreated</value>
   </data>
   <data name="&gt;&gt;edtFileCreated.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtFileCreated.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1027,7 +1027,7 @@
     <value>labelControl13</value>
   </data>
   <data name="&gt;&gt;labelControl13.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl13.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1054,7 +1054,7 @@
     <value>edtShortName</value>
   </data>
   <data name="&gt;&gt;edtShortName.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtShortName.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1078,7 +1078,7 @@
     <value>lblLocation</value>
   </data>
   <data name="&gt;&gt;lblLocation.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblLocation.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1105,7 +1105,7 @@
     <value>edtSize</value>
   </data>
   <data name="&gt;&gt;edtSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtSize.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1129,7 +1129,7 @@
     <value>lblFileModified</value>
   </data>
   <data name="&gt;&gt;lblFileModified.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFileModified.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1156,7 +1156,7 @@
     <value>edtLocation</value>
   </data>
   <data name="&gt;&gt;edtLocation.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtLocation.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1180,7 +1180,7 @@
     <value>lblSize</value>
   </data>
   <data name="&gt;&gt;lblSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSize.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1210,7 +1210,7 @@
     <value>labelControl11</value>
   </data>
   <data name="&gt;&gt;labelControl11.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl11.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1240,7 +1240,7 @@
     <value>labelControl6</value>
   </data>
   <data name="&gt;&gt;labelControl6.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl6.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1264,7 +1264,7 @@
     <value>lblFileCreated</value>
   </data>
   <data name="&gt;&gt;lblFileCreated.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblFileCreated.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1288,7 +1288,7 @@
     <value>lblShortName</value>
   </data>
   <data name="&gt;&gt;lblShortName.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblShortName.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1315,7 +1315,7 @@
     <value>edtLastSavedBy</value>
   </data>
   <data name="&gt;&gt;edtLastSavedBy.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtLastSavedBy.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1342,7 +1342,7 @@
     <value>edtComments</value>
   </data>
   <data name="&gt;&gt;edtComments.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtComments.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1366,7 +1366,7 @@
     <value>lblLastSavedBy</value>
   </data>
   <data name="&gt;&gt;lblLastSavedBy.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblLastSavedBy.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1390,7 +1390,7 @@
     <value>lblComments</value>
   </data>
   <data name="&gt;&gt;lblComments.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblComments.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1420,7 +1420,7 @@
     <value>labelControl4</value>
   </data>
   <data name="&gt;&gt;labelControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;labelControl4.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1447,7 +1447,7 @@
     <value>edtPrinted</value>
   </data>
   <data name="&gt;&gt;edtPrinted.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtPrinted.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1471,7 +1471,7 @@
     <value>lblPrinted</value>
   </data>
   <data name="&gt;&gt;lblPrinted.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblPrinted.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1498,7 +1498,7 @@
     <value>edtAccessed</value>
   </data>
   <data name="&gt;&gt;edtAccessed.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtAccessed.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1525,7 +1525,7 @@
     <value>edtKeywords</value>
   </data>
   <data name="&gt;&gt;edtKeywords.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtKeywords.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1549,7 +1549,7 @@
     <value>lblAccessed</value>
   </data>
   <data name="&gt;&gt;lblAccessed.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblAccessed.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1573,7 +1573,7 @@
     <value>lblKeywords</value>
   </data>
   <data name="&gt;&gt;lblKeywords.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblKeywords.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1600,7 +1600,7 @@
     <value>edtModified</value>
   </data>
   <data name="&gt;&gt;edtModified.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtModified.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1624,7 +1624,7 @@
     <value>lblModified</value>
   </data>
   <data name="&gt;&gt;lblModified.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblModified.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1651,7 +1651,7 @@
     <value>edtCreated</value>
   </data>
   <data name="&gt;&gt;edtCreated.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtCreated.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1678,7 +1678,7 @@
     <value>edtCategory</value>
   </data>
   <data name="&gt;&gt;edtCategory.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtCategory.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1702,7 +1702,7 @@
     <value>lblCategory</value>
   </data>
   <data name="&gt;&gt;lblCategory.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblCategory.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1726,7 +1726,7 @@
     <value>lblCreated</value>
   </data>
   <data name="&gt;&gt;lblCreated.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblCreated.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1756,7 +1756,7 @@
     <value>lblSeparator</value>
   </data>
   <data name="&gt;&gt;lblSeparator.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSeparator.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1783,7 +1783,7 @@
     <value>edtCompany</value>
   </data>
   <data name="&gt;&gt;edtCompany.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtCompany.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1807,7 +1807,7 @@
     <value>lblCompany</value>
   </data>
   <data name="&gt;&gt;lblCompany.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblCompany.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1834,7 +1834,7 @@
     <value>edtManager</value>
   </data>
   <data name="&gt;&gt;edtManager.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtManager.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1858,7 +1858,7 @@
     <value>lblManager</value>
   </data>
   <data name="&gt;&gt;lblManager.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblManager.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1885,7 +1885,7 @@
     <value>edtAuthor</value>
   </data>
   <data name="&gt;&gt;edtAuthor.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtAuthor.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1909,7 +1909,7 @@
     <value>lblAuthor</value>
   </data>
   <data name="&gt;&gt;lblAuthor.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblAuthor.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1936,7 +1936,7 @@
     <value>edtSubject</value>
   </data>
   <data name="&gt;&gt;edtSubject.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtSubject.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1960,7 +1960,7 @@
     <value>lblSubject</value>
   </data>
   <data name="&gt;&gt;lblSubject.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblSubject.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -1987,7 +1987,7 @@
     <value>edtTitle</value>
   </data>
   <data name="&gt;&gt;edtTitle.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;edtTitle.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -2011,7 +2011,7 @@
     <value>lblTitle</value>
   </data>
   <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -2050,7 +2050,7 @@
     <value>lcMain</value>
   </data>
   <data name="&gt;&gt;lcMain.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lcMain.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2068,7 +2068,7 @@
     <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>lcMain</value>
@@ -2104,522 +2104,522 @@
     <value>lcgEditors</value>
   </data>
   <data name="&gt;&gt;lcgEditors.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciValueEdit.Name" xml:space="preserve">
     <value>lciValueEdit</value>
   </data>
   <data name="&gt;&gt;lciValueEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciSourceEdit.Name" xml:space="preserve">
     <value>lciSourceEdit</value>
   </data>
   <data name="&gt;&gt;lciSourceEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciRgrpYesNo.Name" xml:space="preserve">
     <value>lciRgrpYesNo</value>
   </data>
   <data name="&gt;&gt;lciRgrpYesNo.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lcgLabels.Name" xml:space="preserve">
     <value>lcgLabels</value>
   </data>
   <data name="&gt;&gt;lcgLabels.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciValueLabel.Name" xml:space="preserve">
     <value>lciValueLabel</value>
   </data>
   <data name="&gt;&gt;lciValueLabel.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciSourceLabel.Name" xml:space="preserve">
     <value>lciSourceLabel</value>
   </data>
   <data name="&gt;&gt;lciSourceLabel.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lcgButtons.Name" xml:space="preserve">
     <value>lcgButtons</value>
   </data>
   <data name="&gt;&gt;lcgButtons.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciAddButton.Name" xml:space="preserve">
     <value>lciAddButton</value>
   </data>
   <data name="&gt;&gt;lciAddButton.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciDeleteButton.Name" xml:space="preserve">
     <value>lciDeleteButton</value>
   </data>
   <data name="&gt;&gt;lciDeleteButton.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciModifyButton.Name" xml:space="preserve">
     <value>lciModifyButton</value>
   </data>
   <data name="&gt;&gt;lciModifyButton.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
     <value>gridView1</value>
   </data>
   <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;colName.Name" xml:space="preserve">
     <value>colName</value>
   </data>
   <data name="&gt;&gt;colName.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;colValue.Name" xml:space="preserve">
     <value>colValue</value>
   </data>
   <data name="&gt;&gt;colValue.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;colType.Name" xml:space="preserve">
     <value>colType</value>
   </data>
   <data name="&gt;&gt;colType.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;Root.Name" xml:space="preserve">
     <value>Root</value>
   </data>
   <data name="&gt;&gt;Root.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;tabbedControlGroup1.Name" xml:space="preserve">
     <value>tabbedControlGroup1</value>
   </data>
   <data name="&gt;&gt;tabbedControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.TabbedControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.TabbedControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lcgCustomTab.Name" xml:space="preserve">
     <value>lcgCustomTab</value>
   </data>
   <data name="&gt;&gt;lcgCustomTab.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblName.Name" xml:space="preserve">
     <value>lciLblName</value>
   </data>
   <data name="&gt;&gt;lciLblName.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtName.Name" xml:space="preserve">
     <value>lciEdtName</value>
   </data>
   <data name="&gt;&gt;lciEdtName.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLstPredefinedProperties.Name" xml:space="preserve">
     <value>lciLstPredefinedProperties</value>
   </data>
   <data name="&gt;&gt;lciLstPredefinedProperties.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblType.Name" xml:space="preserve">
     <value>lciLblType</value>
   </data>
   <data name="&gt;&gt;lciLblType.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtType.Name" xml:space="preserve">
     <value>lciEdtType</value>
   </data>
   <data name="&gt;&gt;lciEdtType.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblProperties.Name" xml:space="preserve">
     <value>lciLblProperties</value>
   </data>
   <data name="&gt;&gt;lciLblProperties.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciGrid.Name" xml:space="preserve">
     <value>lciGrid</value>
   </data>
   <data name="&gt;&gt;lciGrid.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciButtonsLayoutControl.Name" xml:space="preserve">
     <value>lciButtonsLayoutControl</value>
   </data>
   <data name="&gt;&gt;lciButtonsLayoutControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
     <value>layoutControlItem1</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
     <value>layoutControlItem4</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciChkLinkToContent.Name" xml:space="preserve">
     <value>lciChkLinkToContent</value>
   </data>
   <data name="&gt;&gt;lciChkLinkToContent.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblFileName.Name" xml:space="preserve">
     <value>lciLblFileName</value>
   </data>
   <data name="&gt;&gt;lciLblFileName.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtFileName.Name" xml:space="preserve">
     <value>lciEdtFileName</value>
   </data>
   <data name="&gt;&gt;lciEdtFileName.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLabelControl13.Name" xml:space="preserve">
     <value>lciLabelControl13</value>
   </data>
   <data name="&gt;&gt;lciLabelControl13.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblLocation.Name" xml:space="preserve">
     <value>lciLblLocation</value>
   </data>
   <data name="&gt;&gt;lciLblLocation.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblSize.Name" xml:space="preserve">
     <value>lciLblSize</value>
   </data>
   <data name="&gt;&gt;lciLblSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLabelControl6.Name" xml:space="preserve">
     <value>lciLabelControl6</value>
   </data>
   <data name="&gt;&gt;lciLabelControl6.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblShortName.Name" xml:space="preserve">
     <value>lciLblShortName</value>
   </data>
   <data name="&gt;&gt;lciLblShortName.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblFileCreated.Name" xml:space="preserve">
     <value>lciLblFileCreated</value>
   </data>
   <data name="&gt;&gt;lciLblFileCreated.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblFileModified.Name" xml:space="preserve">
     <value>lciLblFileModified</value>
   </data>
   <data name="&gt;&gt;lciLblFileModified.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblFileAccessed.Name" xml:space="preserve">
     <value>lciLblFileAccessed</value>
   </data>
   <data name="&gt;&gt;lciLblFileAccessed.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLabelControl11.Name" xml:space="preserve">
     <value>lciLabelControl11</value>
   </data>
   <data name="&gt;&gt;lciLabelControl11.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtLocation.Name" xml:space="preserve">
     <value>lciEdtLocation</value>
   </data>
   <data name="&gt;&gt;lciEdtLocation.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtSize.Name" xml:space="preserve">
     <value>lciEdtSize</value>
   </data>
   <data name="&gt;&gt;lciEdtSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtShortName.Name" xml:space="preserve">
     <value>lciEdtShortName</value>
   </data>
   <data name="&gt;&gt;lciEdtShortName.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtFileCreated.Name" xml:space="preserve">
     <value>lciEdtFileCreated</value>
   </data>
   <data name="&gt;&gt;lciEdtFileCreated.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtFileModified.Name" xml:space="preserve">
     <value>lciEdtFileModified</value>
   </data>
   <data name="&gt;&gt;lciEdtFileModified.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtFileAccessed.Name" xml:space="preserve">
     <value>lciEdtFileAccessed</value>
   </data>
   <data name="&gt;&gt;lciEdtFileAccessed.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblAttributes.Name" xml:space="preserve">
     <value>lciLblAttributes</value>
   </data>
   <data name="&gt;&gt;lciLblAttributes.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciChkReadOnly.Name" xml:space="preserve">
     <value>lciChkReadOnly</value>
   </data>
   <data name="&gt;&gt;lciChkReadOnly.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciChkHidden.Name" xml:space="preserve">
     <value>lciChkHidden</value>
   </data>
   <data name="&gt;&gt;lciChkHidden.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciChkArchive.Name" xml:space="preserve">
     <value>lciChkArchive</value>
   </data>
   <data name="&gt;&gt;lciChkArchive.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciChkSystem.Name" xml:space="preserve">
     <value>lciChkSystem</value>
   </data>
   <data name="&gt;&gt;lciChkSystem.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
     <value>layoutControlGroup2</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblTitle.Name" xml:space="preserve">
     <value>lciLblTitle</value>
   </data>
   <data name="&gt;&gt;lciLblTitle.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtTitle.Name" xml:space="preserve">
     <value>lciEdtTitle</value>
   </data>
   <data name="&gt;&gt;lciEdtTitle.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblSubject.Name" xml:space="preserve">
     <value>lciLblSubject</value>
   </data>
   <data name="&gt;&gt;lciLblSubject.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtSubject.Name" xml:space="preserve">
     <value>lciEdtSubject</value>
   </data>
   <data name="&gt;&gt;lciEdtSubject.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblAuthor.Name" xml:space="preserve">
     <value>lciLblAuthor</value>
   </data>
   <data name="&gt;&gt;lciLblAuthor.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtAuthor.Name" xml:space="preserve">
     <value>lciEdtAuthor</value>
   </data>
   <data name="&gt;&gt;lciEdtAuthor.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblManager.Name" xml:space="preserve">
     <value>lciLblManager</value>
   </data>
   <data name="&gt;&gt;lciLblManager.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtManager.Name" xml:space="preserve">
     <value>lciEdtManager</value>
   </data>
   <data name="&gt;&gt;lciEdtManager.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblCompany.Name" xml:space="preserve">
     <value>lciLblCompany</value>
   </data>
   <data name="&gt;&gt;lciLblCompany.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtCompany.Name" xml:space="preserve">
     <value>lciEdtCompany</value>
   </data>
   <data name="&gt;&gt;lciEdtCompany.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblSeparator.Name" xml:space="preserve">
     <value>lciLblSeparator</value>
   </data>
   <data name="&gt;&gt;lciLblSeparator.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblCategory.Name" xml:space="preserve">
     <value>lciLblCategory</value>
   </data>
   <data name="&gt;&gt;lciLblCategory.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtCategory.Name" xml:space="preserve">
     <value>lciEdtCategory</value>
   </data>
   <data name="&gt;&gt;lciEdtCategory.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblKeywords.Name" xml:space="preserve">
     <value>lciLblKeywords</value>
   </data>
   <data name="&gt;&gt;lciLblKeywords.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtKeywords.Name" xml:space="preserve">
     <value>lciEdtKeywords</value>
   </data>
   <data name="&gt;&gt;lciEdtKeywords.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblComments.Name" xml:space="preserve">
     <value>lciLblComments</value>
   </data>
   <data name="&gt;&gt;lciLblComments.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtComments.Name" xml:space="preserve">
     <value>lciEdtComments</value>
   </data>
   <data name="&gt;&gt;lciEdtComments.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
     <value>layoutControlGroup3</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblCreated.Name" xml:space="preserve">
     <value>lciLblCreated</value>
   </data>
   <data name="&gt;&gt;lciLblCreated.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtCreated.Name" xml:space="preserve">
     <value>lciEdtCreated</value>
   </data>
   <data name="&gt;&gt;lciEdtCreated.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblModified.Name" xml:space="preserve">
     <value>lciLblModified</value>
   </data>
   <data name="&gt;&gt;lciLblModified.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtModified.Name" xml:space="preserve">
     <value>lciEdtModified</value>
   </data>
   <data name="&gt;&gt;lciEdtModified.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblAccessed.Name" xml:space="preserve">
     <value>lciLblAccessed</value>
   </data>
   <data name="&gt;&gt;lciLblAccessed.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtAccessed.Name" xml:space="preserve">
     <value>lciEdtAccessed</value>
   </data>
   <data name="&gt;&gt;lciEdtAccessed.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblPrinted.Name" xml:space="preserve">
     <value>lciLblPrinted</value>
   </data>
   <data name="&gt;&gt;lciLblPrinted.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtPrinted.Name" xml:space="preserve">
     <value>lciEdtPrinted</value>
   </data>
   <data name="&gt;&gt;lciEdtPrinted.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLabelControl4.Name" xml:space="preserve">
     <value>lciLabelControl4</value>
   </data>
   <data name="&gt;&gt;lciLabelControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciLblLastSavedBy.Name" xml:space="preserve">
     <value>lciLblLastSavedBy</value>
   </data>
   <data name="&gt;&gt;lciLblLastSavedBy.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciEdtLastSavedBy.Name" xml:space="preserve">
     <value>lciEdtLastSavedBy</value>
   </data>
   <data name="&gt;&gt;lciEdtLastSavedBy.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciBtnOk.Name" xml:space="preserve">
     <value>lciBtnOk</value>
   </data>
   <data name="&gt;&gt;lciBtnOk.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;lciBtnCancel.Name" xml:space="preserve">
     <value>lciBtnCancel</value>
   </data>
   <data name="&gt;&gt;lciBtnCancel.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
     <value>emptySpaceItem1</value>
   </data>
   <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;layoutConverter1.Name" xml:space="preserve">
     <value>layoutConverter1</value>
   </data>
   <data name="&gt;&gt;layoutConverter1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.Converter.LayoutConverter, DevExpress.XtraLayout.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraLayout.Converter.LayoutConverter, DevExpress.XtraLayout.v23.1, Culture=neutral</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>DocumentPropertiesForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v22.2, Culture=neutral</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v23.1, Culture=neutral</value>
   </data>
 </root>
